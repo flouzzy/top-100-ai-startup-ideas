@@ -10,6 +10,15 @@
 
 ---
 
+## 📊 Le Classement Top 100
+
+| Rang | Modèle | Startup | Score Composite | Score VC | Score Terrain | Fiche détaillée |
+| :---: | :---: | :--- | :---: | :---: | :---: | :---: |
+| *001* | B2B | *Exemple : AI Code Supply-Chain Shield* | **95/100** | 100/100 | 90/100 | [Consulter](./ideas/001-ai-code-supply-chain-shield/README.md) |
+
+*(Les 100 positions sont automatiquement rééquilibrées lors de chaque mise à jour du système).*
+
+---
 ## 📐 Méthodologie & Calcul du Score Composite
 
 Chaque idée est évaluée par une double analyse automatisée et terrain, produisant une note globale sur 100 points :
@@ -18,16 +27,6 @@ $$\text{Score Composite} = (\text{Score VC} \times 0.5) + (\text{Score Terrain} 
 
 * **Score VC (50%) :** Analyse style Y Combinator & Peter Thiel (Thèse contrariante, Moat, Scalabilité globale, Unit Economics).
 * **Score Terrain (50%) :** Réalité client et marché (Urgence "Hair on Fire", Immunité aux fonctionnalités natives LLM, Friction d'adoption, Clarté de la monétisation).
-
----
-
-## 📊 Le Classement Top 100
-
-| Rang | Modèle | Startup | Score Composite | Score VC | Score Terrain | Fiche détaillée |
-| :---: | :---: | :--- | :---: | :---: | :---: | :---: |
-| *001* | B2B | *Exemple : AI Code Supply-Chain Shield* | **95/100** | 100/100 | 90/100 | [Consulter](./ideas/001-ai-code-supply-chain-shield/README.md) |
-
-*(Les 100 positions sont automatiquement rééquilibrées lors de chaque mise à jour du système).*
 
 ---
 
