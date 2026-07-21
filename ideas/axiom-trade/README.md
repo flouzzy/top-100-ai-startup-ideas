@@ -15,7 +15,7 @@
 ```mermaid
 graph TD
     A[Demande d'achat interne] --> B[Extraction des specs par IA]
-    B --> C{Axiom Trade (Agent IA)}
+    B --> C{"Axiom Trade (Agent IA)"}
     C -->|Génère des RFP| D[Envoi à N fournisseurs cibles]
     D --> E[Réception des devis (Emails/PDFs)]
     E --> C
