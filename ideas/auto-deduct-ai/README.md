@@ -11,7 +11,7 @@
 
 ---
 
-## 1. Aperçu visuel & Effet Wahou
+## 1. Aperçu visuel
 
 ```mermaid
 graph TD

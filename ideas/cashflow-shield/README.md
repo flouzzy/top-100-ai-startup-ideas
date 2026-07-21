@@ -11,6 +11,7 @@
 ---
 
 ## 1. Aperçu visuel
+
 ```mermaid
 graph TD
     subgraph "L'ancienne méthode (Lente & Coûteuse)"
