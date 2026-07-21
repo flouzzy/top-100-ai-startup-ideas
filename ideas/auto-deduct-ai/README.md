@@ -82,11 +82,11 @@ sequenceDiagram
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | :-------------------------------- | :-------------: | :------------------: |
 | Thèse & Monopole / Urgence        |     24 / 25     |       25 / 25        |
-| Moat / Résistance aux LLM natifs  |     22 / 25     |       24 / 25        |
+| Moat / Résistance aux LLM natifs  |     22 / 25     |       23 / 25        |
 | Scalabilité / Friction d'adoption |     19 / 25     |       18 / 25        |
 | Unit Economics / ROI direct       |     25 / 25     |       25 / 25        |
-| **TOTAL**                         |  **90 / 100**   |     **92 / 100**     |
+| **TOTAL**                         |  **90 / 100**   |     **91 / 100**     |
 
 Verdict VC : AutoDeduct AI transforme un centre de coût administratif pénible en un centre de profit automatique grâce à l'IA. C'est le cas d'usage parfait du B2B : un ROI ultra-évident (hard dollar savings), un problème de plomberie technique qui empêche la commoditisation par OpenAI.
 
-Verdict Terrain : Les effets de réseau sur l'ingestion de données documentaires de la supply chain et la "stickiness" du produit une fois implémenté rendent ce projet très solide et défensif.
+> **Verdict Terrain :** La proposition de valeur est extrêmement forte car elle offre un ROI direct et immédiat basé sur un modèle à la performance, ce qui annule le risque à l'achat pour le client. Bien que l'intégration initiale avec les ERP représente une friction significative, elle se transforme ensuite en un puissant verrouillage logiciel. Enfin, la nécessité de se connecter aux systèmes fermés des distributeurs assure une barrière technologique robuste face aux LLM généralistes.
