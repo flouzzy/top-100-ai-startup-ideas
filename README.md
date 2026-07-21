@@ -1,4 +1,4 @@
-# 🚀 Top 100 AI Startup Ideas Index (S&P 500 for AI Ventures)
+# 🚀 Top 100 AI Startup Ideas Index
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Index Status: Active](https://img.shields.io/badge/Index_Status-Live-brightgreen)
