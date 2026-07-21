@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD013 MD033 MD060 -->
 <!-- markdownlint-disable MD013 MD033 -->
 
 # MachinaTrade
@@ -10,7 +11,7 @@
 
 ---
 
-## 1. Aperçu visuel & Effet Wahou
+## 1. Aperçu visuel
 
 ```mermaid
 graph TD
@@ -63,7 +64,7 @@ sequenceDiagram
 | :------------------------------ | :----------------------------------------------------------------------------------------------- |
 | **Structure de prix**           | Abonnement Infrastructure (500€/mois/usine) + Commission (1.5% par transaction M2M)              |
 | **Objectif 12 mois**            | 20 usines connectées (SaaS) + 200 000€/mois en flux de transactions                              |
-| **Calcul du CA (Target 100k€)** | (20 usines * 500€ * 12 mois = 120 000€) + (200 000€ GMV/mois * 1.5% * 12 mois = 36 000€) = 156 000€ ARR |
+| **Calcul du CA (Target 100k€)** | (20 usines x 500€ x 12 mois = 120 000€) + (200 000€ GMV/mois x 1.5% x 12 mois = 36 000€) = 156 000€ ARR |
 | **Marge brute estimée**         | 85% (Coûts serveurs et API minimes par rapport au volume de transaction)                         |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
