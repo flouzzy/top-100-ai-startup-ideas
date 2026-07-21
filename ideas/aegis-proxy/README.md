@@ -6,7 +6,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
+![Score: 88/100](https://img.shields.io/badge/Score_Composite-88%2F100-brightgreen)
 
 ---
 
@@ -50,12 +50,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| :--- | :--- |
-| **Structure de prix** | Abonnement B2B à la volumétrie (Licence par employé + Volume de tokens sécurisés) : Base à ~2 000€ / mois |
-| **Objectif 12 mois** | 5 entreprises clientes (Mid-Market) |
-| **Calcul du CA (Target 100k€)** | 5 clients × 2 000€/mois × 12 mois = 120 000€ ARR |
-| **Marge brute estimée** | 85% (Coûts d'infrastructure de masquage local très faibles, les frais d'API LLM restent à la charge du client via son propre token) |
+| Métrique                        | Valeur                                                                                                                              |
+| :------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------- |
+| **Structure de prix**           | Abonnement B2B à la volumétrie (Licence par employé + Volume de tokens sécurisés) : Base à ~2 000€ / mois                           |
+| **Objectif 12 mois**            | 5 entreprises clientes (Mid-Market)                                                                                                 |
+| **Calcul du CA (Target 100k€)** | 5 clients × 2 000€/mois × 12 mois = 120 000€ ARR                                                                                    |
+| **Marge brute estimée**         | 85% (Coûts d'infrastructure de masquage local très faibles, les frais d'API LLM restent à la charge du client via son propre token) |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -64,14 +64,12 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
-| **TOTAL** | **-- / 100** | **-- / 100** |
+| Critère                           | Score VC (/100) | Score Terrain (/100) |
+| :-------------------------------- | :-------------: | :------------------: |
+| Thèse & Monopole / Urgence        |     23 / 25     |       24 / 25        |
+| Moat / Résistance aux LLM natifs  |     24 / 25     |       21 / 25        |
+| Scalabilité / Friction d'adoption |     17 / 25     |       20 / 25        |
+| Unit Economics / ROI direct       |     24 / 25     |       23 / 25        |
+| **TOTAL**                         |  **88 / 100**   |     **88 / 100**     |
 
-Verdict VC : En attente d'évaluation.
-
-Verdict Terrain : En attente d'évaluation.
+> **Verdict VC :** Aegis Proxy capitalise sur une peur viscérale et justifiée des directeurs sécurité. En agissant comme une infrastructure réseau invisible, elle construit un fossé défensif B2B très puissant, totalement immunisé contre la course à l'armement que se livrent les créateurs de LLMs de base.

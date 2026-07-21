@@ -6,7 +6,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
+![Score: 89/100](https://img.shields.io/badge/Score_Composite-89%2F100-brightgreen)
 
 ---
 
@@ -60,12 +60,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| :--- | :--- |
-| **Structure de prix** | Commission au succès (Gain Share) : 15% des économies réalisées (différence entre devis initial et final) + Frais d'intégration "Platform fee" fixe (2000€/mois). |
-| **Objectif 12 mois** | 10 clients ETI (Target: 50 000€ d'économies générées/mois/client en moyenne). |
-| **Calcul du CA (Target 100k€)** | Platform fee : 10 clients *2000€* 12 mois = 240 000€. Gain share: 10 *50k€* 15% * 12 mois = 900 000€. Total estimé : > 1M€ ARR. Break-even à 100k€ atteignable avec ~3 clients en quelques mois. |
-| **Marge brute estimée** | 85% (Coûts principaux = API LLM, OCR, serveurs, intégration ERP). |
+| Métrique                        | Valeur                                                                                                                                                                                            |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Structure de prix**           | Commission au succès (Gain Share) : 15% des économies réalisées (différence entre devis initial et final) + Frais d'intégration "Platform fee" fixe (2000€/mois).                                 |
+| **Objectif 12 mois**            | 10 clients ETI (Target: 50 000€ d'économies générées/mois/client en moyenne).                                                                                                                     |
+| **Calcul du CA (Target 100k€)** | Platform fee : 10 clients _2000€_ 12 mois = 240 000€. Gain share: 10 _50k€_ 15% \* 12 mois = 900 000€. Total estimé : > 1M€ ARR. Break-even à 100k€ atteignable avec ~3 clients en quelques mois. |
+| **Marge brute estimée**         | 85% (Coûts principaux = API LLM, OCR, serveurs, intégration ERP).                                                                                                                                 |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -77,14 +77,12 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
-| **TOTAL** | **-- / 100** | **-- / 100** |
+| Critère                           | Score VC (/100) | Score Terrain (/100) |
+| :-------------------------------- | :-------------: | :------------------: |
+| Thèse & Monopole / Urgence        |     23 / 25     |       24 / 25        |
+| Moat / Résistance aux LLM natifs  |     22 / 25     |       20 / 25        |
+| Scalabilité / Friction d'adoption |     18 / 25     |       15 / 25        |
+| Unit Economics / ROI direct       |     25 / 25     |       25 / 25        |
+| **TOTAL**                         |  **88 / 100**   |     **84 / 100**     |
 
-Verdict VC : En attente d'évaluation.
-
-Verdict Terrain : En attente d'évaluation.
+> **Verdict VC :** Un produit "Painkiller" par excellence avec un modèle de monétisation aligné sur les intérêts du client (Gain-Share). L'intégration ERP reste la plus grosse friction technique, mais la barrière à l'entrée une fois installé est massive, empêchant toute disruption facile par de simples wrappers.

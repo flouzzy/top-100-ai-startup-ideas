@@ -6,7 +6,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
+![Score: 92/100](https://img.shields.io/badge/Score_Composite-92%2F100-brightgreen)
 
 ---
 
@@ -63,12 +63,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| --- | --- |
-| Structure de prix | Abonnement SaaS 250€/mois (intégration ERP) + Commission 2% sur cash recouvré |
-| Objectif 12 mois | 20 clients (pour valider le produit) puis scale à 250 clients |
+| Métrique                    | Valeur                                                                                                                               |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Structure de prix           | Abonnement SaaS 250€/mois (intégration ERP) + Commission 2% sur cash recouvré                                                        |
+| Objectif 12 mois            | 20 clients (pour valider le produit) puis scale à 250 clients                                                                        |
 | Calcul du CA (Target 100k€) | 250 clients × 3000€ ARR = 750 000€ (SaaS pur). Hypothèse conservatrice : 100 clients × 250€/m (30k€) + 70k€ en commissions sur flux. |
-| Marge brute estimée | 85% (Coûts d'inférence très faibles via appels LLM textuels asynchrones) |
+| Marge brute estimée         | 85% (Coûts d'inférence très faibles via appels LLM textuels asynchrones)                                                             |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -76,19 +76,17 @@ sequenceDiagram
 
 **Moat (Barrière à l'entrée) :**
 
-1. *Data Network Effects (Réseau C2C de solvabilité)* : Chaque retard de paiement d'une entreprise X alimente une base de réputation commune, anonymisée mais mutualisée. Si l'entreprise X a un défaut chez le Client A, le Client B (également sur CogniCollect) en est notifié pour resserrer ses conditions de crédit. OpenAI ou Google ne peuvent pas cloner cette base de données propriétaire et communautaire sans avoir le réseau d'utilisateurs.
-2. *Intégrations profondes "boring"* : La difficulté de s'interfacer de manière bidirectionnelle avec des ERP legacy fragmentés décourage les créateurs de simples wrappers.
+1. _Data Network Effects (Réseau C2C de solvabilité)_ : Chaque retard de paiement d'une entreprise X alimente une base de réputation commune, anonymisée mais mutualisée. Si l'entreprise X a un défaut chez le Client A, le Client B (également sur CogniCollect) en est notifié pour resserrer ses conditions de crédit. OpenAI ou Google ne peuvent pas cloner cette base de données propriétaire et communautaire sans avoir le réseau d'utilisateurs.
+2. _Intégrations profondes "boring"_ : La difficulté de s'interfacer de manière bidirectionnelle avec des ERP legacy fragmentés décourage les créateurs de simples wrappers.
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
-| **TOTAL** | **-- / 100** | **-- / 100** |
+| Critère                           | Score VC (/100) | Score Terrain (/100) |
+| --------------------------------- | --------------- | -------------------- |
+| Thèse & Monopole / Urgence        | 23 / 25         | 25 / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | 20 / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | 23 / 25              |
+| Unit Economics / ROI direct       | 25 / 25         | 25 / 25              |
+| **TOTAL**                         | **90 / 100**    | **93 / 100**         |
 
-Verdict VC : En attente d'évaluation.
-
-Verdict Terrain : En attente d'évaluation.
+> **Verdict VC :** Un projet à exceptionnellement haute viabilité financière avec une utilité "Hair on Fire" immédiate pour les PME en manque de trésorerie. La construction d'un mini-bureau de crédit B2B privatisé via l'agrégation des données de paiement constitue un fossé défensif massif face aux géants de la tech.

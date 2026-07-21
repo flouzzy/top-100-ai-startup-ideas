@@ -1,12 +1,14 @@
 <!-- markdownlint-disable MD013 MD033 -->
 
+<!-- markdownlint-disable MD013 -->
+
 # AutoDeduct AI
 
-> **Résumé exécutif :** AutoDeduct AI est un agent financier autonome qui récupère automatiquement les millions d'euros perdus par les marques CPG en contestant systématiquement les déductions commerciales abusives des grands distributeurs.
+> **Résumé exécutif :** AutoDeduct AI est un agent financier autonome qui récupère automatiquement les millions d'euros perdus par les marques CPG (Consumer Packaged Goods) en contestant systématiquement et sans intervention humaine les déductions commerciales abusives des grands distributeurs (Amazon, Carrefour, Walmart).
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 91/100](https://img.shields.io/badge/Score_Composite-91%2F100-brightgreen)
+![Score: 94/100](https://img.shields.io/badge/Score_Composite-94%2F100-brightgreen)
 
 ---
 
@@ -35,7 +37,7 @@ graph TD
 
 **Cible précise :** Marques de biens de grande consommation (CPG / FMCG) réalisant entre 10M€ et 250M€ de chiffre d'affaires, vendant à la grande distribution physique et e-commerce (Amazon Vendor Central, Walmart, Carrefour).
 
-**La douleur urgente :** Les distributeurs appliquent automatiquement des pénalités (chargebacks, shortages) représentant 2% à 5% du CA brut pour des motifs souvent erronés ("livraison en retard", "palette non conforme"). Pour contester une pénalité de 200€, un employé doit passer 45 minutes à croiser la facture, le bon de livraison (POD) scanné et l'EDI. Résultat : les marques abandonnent la majorité de ces créances. C'est une perte sèche de marge nette.
+**La douleur urgente :** Les distributeurs appliquent automatiquement des pénalités (chargebacks, shortages) représentant 2% à 5% du CA brut pour des motifs souvent erronés ("livraison en retard", "palette non conforme"). Pour contester une pénalité de 200€, un employé doit passer 45 minutes à croiser la facture, le bon de livraison (POD) scanné et l'EDI. Résultat : les marques abandonnent la majorité de ces créances. C'est une perte sèche de marge nette (souvent 10 à 20% de leur rentabilité globale).
 
 ## 4. Architecture technique & Plomberie
 
@@ -60,12 +62,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                        | Valeur                                                                                                                                                                                                                                 |
-| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Structure de prix**           | Modèle hybride : 1000€/mois (frais fixes d'intégration) + 15% de commission (Success Fee) sur les sommes récupérées.                                                                                                                   |
-| **Objectif 12 mois**            | 20 clients récupérant en moyenne 35 000€ par mois chacun.                                                                                                                                                                              |
-| **Calcul du CA (Target 100k€)** | Fixe : 20*1000 = 20k€. Commission : (20* 35k€ *15%) = 105k€. Total mensuel : 125k€ (ARR potentiel > 1M€). Pour atteindre 100k€ d'ARR, seuls **2 à 3 clients** sont nécessaires (Ex: 3 clients*12k€ fixe/an + 20k€ comm/an = 96k€ ARR). |
-| **Marge brute estimée**         | 85% (Coûts principaux : appels API LLM vision pour l'OCR des PODs, hébergement, RPA).                                                                                                                                                  |
+| Métrique                        | Valeur                                                                                                                                                                                                                                |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Structure de prix**           | Modèle hybride : 1000€/mois (frais fixes d'intégration) + 15% de commission (Success Fee) sur les sommes récupérées.                                                                                                                  |
+| **Objectif 12 mois**            | 20 clients récupérant en moyenne 35 000€ par mois chacun.                                                                                                                                                                             |
+| **Calcul du CA (Target 100k€)** | Fixe : 20*1000 = 20k€. Commission : (20* 35k€ *15%) = 105k€. Total mensuel : 125k€ (ARR potentiel > 1M€). Pour atteindre 100k€ d'ARR, seuls**2 à 3 clients** sont nécessaires (Ex: 3 clients*12k€ fixe/an + 20k€ comm/an = 96k€ ARR). |
+| **Marge brute estimée**         | 85% (Coûts principaux : appels API LLM vision pour l'OCR des PODs, hébergement, RPA).                                                                                                                                                 |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -79,14 +81,12 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                           | Score VC (/100) | Score Terrain (/100) |
-| :-------------------------------- | :-------------: | :------------------: |
-| Thèse & Monopole / Urgence        |     24 / 25     |       25 / 25        |
-| Moat / Résistance aux LLM natifs  |     22 / 25     |       23 / 25        |
-| Scalabilité / Friction d'adoption |     19 / 25     |       18 / 25        |
-| Unit Economics / ROI direct       |     25 / 25     |       25 / 25        |
-| **TOTAL**                         |  **90 / 100**   |     **91 / 100**     |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     24 / 25     |       25 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     22 / 25     |       24 / 25        |
+| **Scalabilité / Friction d'adoption** |     19 / 25     |       18 / 25        |
+| **Unit Economics / ROI direct**       |     25 / 25     |       25 / 25        |
+| **TOTAL**                             |  **90 / 100**   |     **92 / 100**     |
 
-Verdict VC : AutoDeduct AI transforme un centre de coût administratif pénible en un centre de profit automatique grâce à l'IA. C'est le cas d'usage parfait du B2B : un ROI ultra-évident (hard dollar savings), un problème de plomberie technique qui empêche la commoditisation par OpenAI.
-
-> **Verdict Terrain :** La proposition de valeur est extrêmement forte car elle offre un ROI direct et immédiat basé sur un modèle à la performance, ce qui annule le risque à l'achat pour le client. Bien que l'intégration initiale avec les ERP représente une friction significative, elle se transforme ensuite en un puissant verrouillage logiciel. Enfin, la nécessité de se connecter aux systèmes fermés des distributeurs assure une barrière technologique robuste face aux LLM généralistes.
+> **Verdict VC :** AutoDeduct AI transforme un centre de coût administratif pénible en un centre de profit automatique grâce à l'IA. C'est le cas d'usage parfait du B2B : un ROI ultra-évident (hard dollar savings), un problème de plomberie technique qui empêche la commoditisation par OpenAI, et des effets de réseau sur l'ingestion de données documentaires de la supply chain.

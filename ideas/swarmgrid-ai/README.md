@@ -6,7 +6,7 @@
 
 ![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
+![Score: 93/100](https://img.shields.io/badge/Score_Composite-93%2F100-brightgreen)
 
 ---
 
@@ -52,12 +52,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| :--- | :--- |
-| **Structure de prix** | Commission pure : 20% sur les profits d'arbitrage générés (Revenue Share M2M) |
-| **Objectif 12 mois** | 1 000 actifs de stockage sous gestion (moyenne de 100€ de profit brut/mois/actif) |
-| **Calcul du CA (Target 100k€)** | 1000 nœuds *100€ profit* 20% commission * 12 mois = **240 000€ ARR** |
-| **Marge brute estimée** | 92% (coûts d'inférence déportés sur l'Edge matériel du client) |
+| Métrique                        | Valeur                                                                            |
+| :------------------------------ | :-------------------------------------------------------------------------------- |
+| **Structure de prix**           | Commission pure : 20% sur les profits d'arbitrage générés (Revenue Share M2M)     |
+| **Objectif 12 mois**            | 1 000 actifs de stockage sous gestion (moyenne de 100€ de profit brut/mois/actif) |
+| **Calcul du CA (Target 100k€)** | 1000 nœuds _100€ profit_ 20% commission \* 12 mois = **240 000€ ARR**             |
+| **Marge brute estimée**         | 92% (coûts d'inférence déportés sur l'Edge matériel du client)                    |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -66,14 +66,12 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
-| **TOTAL** | **-- / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     24 / 25     |       24 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       24 / 25        |
+| **Scalabilité / Friction d'adoption** |     20 / 25     |       19 / 25        |
+| **Unit Economics / ROI direct**       |     25 / 25     |       25 / 25        |
+| **TOTAL**                             |  **94 / 100**   |     **92 / 100**     |
 
-Verdict VC : En attente d'évaluation.
-
-Verdict Terrain : En attente d'évaluation.
+> **Verdict VC :** Un projet d'infrastructure extrêmement défensif qui résout une inefficacité massive de la grille énergétique. L'exécution repose entièrement sur la capacité à signer les premiers partenariats OEM pour amorcer l'effet de réseau matériel.
