@@ -10,8 +10,7 @@
 
 ---
 
-## 1. Aperçu visuel & Effet Wahou
-
+## 1. Aperçu visuel
 ```mermaid
 graph TD
     subgraph "L'ancienne méthode (Lente & Coûteuse)"
