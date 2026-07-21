@@ -1,4 +1,7 @@
+<!-- markdownlint-disable MD013 MD033 -->
+
 <!-- markdownlint-disable MD013 -->
+
 # AutoDeduct AI
 
 > **Résumé exécutif :** AutoDeduct AI est un agent financier autonome qui récupère automatiquement les millions d'euros perdus par les marques CPG (Consumer Packaged Goods) en contestant systématiquement et sans intervention humaine les déductions commerciales abusives des grands distributeurs (Amazon, Carrefour, Walmart).
@@ -59,12 +62,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| :--- | :--- |
-| **Structure de prix** | Modèle hybride : 1000€/mois (frais fixes d'intégration) + 15% de commission (Success Fee) sur les sommes récupérées. |
-| **Objectif 12 mois** | 20 clients récupérant en moyenne 35 000€ par mois chacun. |
+| Métrique                        | Valeur                                                                                                                                                                                                                                |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Structure de prix**           | Modèle hybride : 1000€/mois (frais fixes d'intégration) + 15% de commission (Success Fee) sur les sommes récupérées.                                                                                                                  |
+| **Objectif 12 mois**            | 20 clients récupérant en moyenne 35 000€ par mois chacun.                                                                                                                                                                             |
 | **Calcul du CA (Target 100k€)** | Fixe : 20*1000 = 20k€. Commission : (20* 35k€ *15%) = 105k€. Total mensuel : 125k€ (ARR potentiel > 1M€). Pour atteindre 100k€ d'ARR, seuls**2 à 3 clients** sont nécessaires (Ex: 3 clients*12k€ fixe/an + 20k€ comm/an = 96k€ ARR). |
-| **Marge brute estimée** | 85% (Coûts principaux : appels API LLM vision pour l'OCR des PODs, hébergement, RPA). |
+| **Marge brute estimée**         | 85% (Coûts principaux : appels API LLM vision pour l'OCR des PODs, hébergement, RPA).                                                                                                                                                 |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -78,12 +81,12 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 24 / 25 | 25 / 25 |
-| **Moat / Résistance aux LLM natifs** | 22 / 25 | 24 / 25 |
-| **Scalabilité / Friction d'adoption** | 19 / 25 | 18 / 25 |
-| **Unit Economics / ROI direct** | 25 / 25 | 25 / 25 |
-| **TOTAL** | **90 / 100** | **92 / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     24 / 25     |       25 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     22 / 25     |       24 / 25        |
+| **Scalabilité / Friction d'adoption** |     19 / 25     |       18 / 25        |
+| **Unit Economics / ROI direct**       |     25 / 25     |       25 / 25        |
+| **TOTAL**                             |  **90 / 100**   |     **92 / 100**     |
 
-**Verdict global :** AutoDeduct AI transforme un centre de coût administratif pénible en un centre de profit automatique grâce à l'IA. C'est le cas d'usage parfait du B2B : un ROI ultra-évident (hard dollar savings), un problème de plomberie technique qui empêche la commoditisation par OpenAI, et des effets de réseau sur l'ingestion de données documentaires de la supply chain.
+> **Verdict VC :** AutoDeduct AI transforme un centre de coût administratif pénible en un centre de profit automatique grâce à l'IA. C'est le cas d'usage parfait du B2B : un ROI ultra-évident (hard dollar savings), un problème de plomberie technique qui empêche la commoditisation par OpenAI, et des effets de réseau sur l'ingestion de données documentaires de la supply chain.

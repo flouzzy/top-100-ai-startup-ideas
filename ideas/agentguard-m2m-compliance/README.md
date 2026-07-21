@@ -1,5 +1,6 @@
 <!-- markdownlint-disable MD013 MD033 -->
 
+
 # AgentGuard
 
 > **Résumé exécutif :** Une infrastructure de validation légale et sécuritaire de type M2M (Machine-to-Machine) qui intercepte et audite en temps réel les actions critiques générées par les agents d'IA autonomes avant leur exécution, évitant les risques juridiques et financiers.

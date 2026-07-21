@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD013 MD033 -->
+
 # MachinaTrade
 
 > **Résumé exécutif :** Une infrastructure de marché Machine-to-Machine (M2M) où les équipements industriels négocient, achètent et planifient de manière autonome leurs propres pièces de rechange prédictives via des agents IA, éliminant les temps d'arrêt non planifiés et les stocks dormants.
@@ -57,12 +59,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                        | Valeur                                                                                                  |
-| :------------------------------ | :------------------------------------------------------------------------------------------------------ |
-| **Structure de prix**           | Abonnement Infrastructure (500€/mois/usine) + Commission (1.5% par transaction M2M)                     |
-| **Objectif 12 mois**            | 20 usines connectées (SaaS) + 200 000€/mois en flux de transactions                                     |
-| **Calcul du CA (Target 100k€)** | (20 usines _ 500€ _ 12 mois = 120 000€) + (200 000€ GMV/mois _ 1.5% _ 12 mois = 36 000€) = 156 000€ ARR |
-| **Marge brute estimée**         | 85% (Coûts serveurs et API minimes par rapport au volume de transaction)                                |
+| Métrique                        | Valeur                                                                                              |
+| :------------------------------ | :-------------------------------------------------------------------------------------------------- |
+| **Structure de prix**           | Abonnement Infrastructure (500€/mois/usine) + Commission (1.5% par transaction M2M)                 |
+| **Objectif 12 mois**            | 20 usines connectées (SaaS) + 200 000€/mois en flux de transactions                                 |
+| **Calcul du CA (Target 100k€)** | (20 usines _500€_ 12 mois = 120 000€) + (200 000€ GMV/mois _1.5%_ 12 mois = 36 000€) = 156 000€ ARR |
+| **Marge brute estimée**         | 85% (Coûts serveurs et API minimes par rapport au volume de transaction)                            |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -79,4 +81,4 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       |     25 / 25     |       24 / 25        |
 | **TOTAL**                             |  **92 / 100**   |     **90 / 100**     |
 
-**Verdict global :** MachinaTrade transforme une friction opérationnelle coûteuse en un marché liquide M2M automatisé. Son intégration dans les flux logistiques industriels profonds crée un "lock-in" absolu, le rendant totalement immunisé contre la banalisation des IA génératives grand public.
+> **Verdict VC :** MachinaTrade transforme une friction opérationnelle coûteuse en un marché liquide M2M automatisé. Son intégration dans les flux logistiques industriels profonds crée un "lock-in" absolu, le rendant totalement immunisé contre la banalisation des IA génératives grand public.
