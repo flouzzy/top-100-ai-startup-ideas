@@ -1,24 +1,30 @@
-# Guide de Contribution au Top 100 AI Startup Ideas Index
+<!-- markdownlint-disable MD013 MD033 MD060 MD036 MD041 -->
 
-Merci de votre intérêt pour la mise à jour et l'enrichissement de l'index ! Ce dépôt utilise un protocole strict d'évaluation pour garantir que seules les idées à très haute valeur ajoutée intègrent le Top 100.
+*[🇫🇷 Version Française](./CONTRIBUTING.fr.md)*
 
-## 📥 Comment proposer une nouvelle idée ?
+# Contribution Guide to the Top 100 AI Startup Ideas Index
 
-1. **Forkez** le dépôt.
-2. Créez une nouvelle fiche dans le dossier `candidates/` en suivant la nomenclature : `nom-de-votre-idee.md`.
-3. Respectez impérativement le template de fiche (Thèse contrariante, Cible, Architecture, Unit Economics, Moat).
-4. Ouvrez une **Pull Request (PR)** vers la branche `main`.
+Thank you for your interest in updating and enriching the index! This repository uses a strict evaluation protocol to ensure that only very high value-added ideas enter the Top 100.
 
-## ⚙️ Critères d'élimination directe (Red Flags)
+## 📥 How to propose a new idea?
 
-Votre PR sera rejetée si :
-* L'idée est un simple "wrapper" ou une interface graphique fine autour d'un LLM grand public sans aucune barrière à l'entrée.
-* Le modèle économique repose sur de l'espoir sans chiffrage précis de l'accès aux 100k€ d'ARR ou équivalent de volume.
-* L'idée peut être intégralement résolue par un utilisateur tapant un prompt standard sur ChatGPT/Gemini.
+1. **Fork** the repository.
+2. Create a new sheet in the `candidates/` folder following the naming convention: `name-of-your-idea.md`.
+3. Strictly follow the sheet template (Contrarian thesis, Target, Architecture, Unit Economics, Moat).
+4. Open a **Pull Request (PR)** to the `main` branch.
 
-## 🔄 Processus d'évaluation
+## ⚙️ Direct elimination criteria (Red Flags)
 
-Chaque proposition dans `candidates/` est soumise aux prompts d'évaluation VC et Terrain. Si son Score Composite dépasse la note de la 100ème idée de l'index actuel :
-1. L'idée intègre le dossier `ideas/` au rang correspondant.
-2. L'idée classée 100ème est reléguée dans le dossier `archive/`.
-3. Le classement global `README.md` est réaligné.
+Your PR will be rejected if:
+
+* The idea is a simple "wrapper" or a thin graphical interface around a mainstream LLM without any barrier to entry.
+* The economic model relies on hope without precise quantification of access to €100k ARR or equivalent volume.
+* The idea can be completely solved by a user typing a standard prompt on ChatGPT/Gemini.
+
+## 🔄 Evaluation process
+
+Each proposal in `candidates/` is submitted to the VC and Terrain evaluation prompts. If its Composite Score exceeds the score of the 100th idea in the current index:
+
+1. The idea enters the `ideas/` folder at the corresponding rank.
+2. The 100th ranked idea is relegated to the `archive/` folder.
+3. The global `README.md` ranking is realigned.
