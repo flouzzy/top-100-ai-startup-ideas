@@ -6,7 +6,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 93/100](https://img.shields.io/badge/Score_Composite-93%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -30,18 +30,20 @@ graph TD
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** L'intelligence artificielle dans l'architecture sert principalement à générer des rendus visuels époustouflants, de l'idéation de concept ou des plans d'aménagement d'intérieur.
-**La vérité cachée :** Le véritable goulot d'étranglement de l'immobilier, causant des milliards de pertes, n'est pas la conception créative mais la conformité légale hyper-locale (les PLU). Celui qui parvient à structurer les données légales géolocalisées et à les confronter aux géométries 3D détient le monopole du temps de développement immobilier.
+**La croyance populaire :**L'intelligence artificielle dans l'architecture sert principalement à générer des rendus visuels époustouflants, de l'idéation de concept ou des plans d'aménagement d'intérieur.
+**La vérité cachée :**Le véritable goulot d'étranglement de l'immobilier, causant des milliards de pertes, n'est pas la conception créative mais la conformité légale hyper-locale (les PLU). Celui qui parvient à structurer les données légales géolocalisées et à les confronter aux géométries 3D détient le monopole du temps de développement immobilier.
 
 ## 3. Le problème & La cible
 
-**Modèle économique :** B2B
-**Cible précise :** Cabinets d'architecture (10-50 employés), promoteurs immobiliers régionaux et nationaux, bureaux d'études.
-**La douleur urgente :** Un permis rejeté pour un détail (ex: la pente du toit dépasse l'angle maximal de 2 degrés à 4 mètres de la voirie) retarde un projet de 3 à 6 mois. Le coût d'immobilisation financière (intérêts intercalaires, inflation des matériaux) s'élève de 10 000€ à plus de 100 000€ par mois d'attente.
+**Modèle économique :**B2B
+**Cible précise :**Cabinets d'architecture (10-50 employés), promoteurs immobiliers régionaux et nationaux, bureaux d'études.
+**La douleur urgente :**Un permis rejeté pour un détail (ex: la pente du toit dépasse l'angle maximal de 2 degrés à 4 mètres de la voirie) retarde un projet de 3 à 6 mois. Le coût d'immobilisation financière (intérêts intercalaires, inflation des matériaux) s'élève de 10 000€ à plus de 100 000€ par mois d'attente.
 
 ## 4. Architecture technique & Plomberie
 
-Extrait de code :
+Extrait de code
+
+:
 
 ```python
 # Moteur de validation hybride : LLM (pour le texte du PLU) + Moteur Géométrique (pour le BIM)
@@ -82,20 +84,20 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                    | Valeur                                                                                                                   |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Structure de prix           | Abonnement SaaS de 600€/mois par cabinet + 50€ par analyse unitaire complexe (pay per compute)                           |
-| Objectif 12 mois            | 20 cabinets abonnés (Early adopters) effectuant en moyenne 10 analyses supplémentaires par mois                          |
-| Calcul du CA (Target 100k€) | (20 clients \* 600€ \* 12 mois) + (20 clients \* 10 analyses \* 50€ \* 12 mois) = 144 000€ + 120 000€ = **264 000€ ARR** |
-| Marge brute estimée         | 82% (Les coûts d'inférence RAG et de calcul spatial sont largement absorbés par le prix premium)                         |
+| Métrique                    | Valeur                                                                                                              |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Structure de prix           | Abonnement SaaS de 600€/mois par cabinet + 50€ par analyse unitaire complexe (pay per compute)                      |
+| Objectif 12 mois            | 20 cabinets abonnés (Early adopters) effectuant en moyenne 10 analyses supplémentaires par mois                     |
+| Calcul du CA (Target 100k€) | (20 clients \*600€ \*12 mois) + (20 clients \*10 analyses \*50€ \*12 mois) = 144 000€ + 120 000€ = **264 000€ ARR** |
+| Marge brute estimée         | 82% (Les coûts d'inférence RAG et de calcul spatial sont largement absorbés par le prix premium)                    |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-**Stratégie d'acquisition :** Distribution B2B directe en visant d'abord l'intégration sous forme de plugin natif dans Autodesk Revit et Archicad. L'architecte n'a pas à changer ses outils de travail ou ouvrir un nouvel onglet, la friction d'usage est nulle.
+**Stratégie d'acquisition :**Distribution B2B directe en visant d'abord l'intégration sous forme de plugin natif dans Autodesk Revit et Archicad. L'architecte n'a pas à changer ses outils de travail ou ouvrir un nouvel onglet, la friction d'usage est nulle.
 **Moat (Barrière à l'entrée) :**
 
-1. _Data Moat :_ La base de données propriétaire de PLU normalisés et transformés en règles mathématiques déterministes. Chaque commune française a son propre document PDF non structuré.
-2. _Technological Moat :_ Les LLMs comme ChatGPT ou Gemini sont notoirement mauvais en mathématiques spatiales (ils hallucinent des distances 3D). Le Moat réside dans l'architecture hybride qui confie l'extraction des règles au LLM et le calcul des distances à un moteur géométrique déterministe en C++. Impossible à cloner par un simple prompt.
+1. *Data Moat :*La base de données propriétaire de PLU normalisés et transformés en règles mathématiques déterministes. Chaque commune française a son propre document PDF non structuré.
+2. *Technological Moat :*Les LLMs comme ChatGPT ou Gemini sont notoirement mauvais en mathématiques spatiales (ils hallucinent des distances 3D). Le Moat réside dans l'architecture hybride qui confie l'extraction des règles au LLM et le calcul des distances à un moteur géométrique déterministe en C++. Impossible à cloner par un simple prompt.
 
 ## 7. Grille d'évaluation détaillée
 
@@ -107,4 +109,4 @@ sequenceDiagram
 | Unit Economics / ROI direct       | 23 / 25         | 25 / 25              |
 | **TOTAL**                         | **93 / 100**    | **97 / 100**         |
 
-> **Verdict VC :** Un projet à exceptionnellement haute valeur ajoutée B2B car il résout un problème extrêmement coûteux (l'immobilisation temporelle des projets immobiliers) via un Moat de données profondes. En couplant la compréhension du langage naturel des LLM avec des moteurs de calcul spatial, UrbanClear s'immunise totalement contre la concurrence des IA généralistes tout en offrant un ROI massif à ses utilisateurs.
+**Verdict global :**Un projet à exceptionnellement haute valeur ajoutée B2B car il résout un problème extrêmement coûteux (l'immobilisation temporelle des projets immobiliers) via un Moat de données profondes. En couplant la compréhension du langage naturel des LLM avec des moteurs de calcul spatial, UrbanClear s'immunise totalement contre la concurrence des IA généralistes tout en offrant un ROI massif à ses utilisateurs.

@@ -6,7 +6,7 @@
 
 ![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 92/100](https://img.shields.io/badge/Score_Composite-92%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -23,14 +23,14 @@ graph TD
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** Les agents IA utiliseront les infrastructures de paiement B2B/B2C classiques (Stripe, cartes bancaires virtuelles) via des intégrations complexes et coûteuses gérées par leurs créateurs humains.
-**La vérité cachée :** Les agents IA négocient à la milliseconde pour des tâches valant des fractions de centime (ex: 0,0004$ pour enrichir une ligne de base de données). L'économie de l'IA ne peut pas tourner sur des rails financiers où le coût fixe par transaction est de 0,30$. Le futur est un réseau M2M de micro-règlements programmatiques, où le contrat d'exécution, la validation (SLA) et le paiement sont unifiés en un seul appel API neutre.
+**La croyance populaire :**Les agents IA utiliseront les infrastructures de paiement B2B/B2C classiques (Stripe, cartes bancaires virtuelles) via des intégrations complexes et coûteuses gérées par leurs créateurs humains.
+**La vérité cachée :**Les agents IA négocient à la milliseconde pour des tâches valant des fractions de centime (ex: 0,0004$ pour enrichir une ligne de base de données). L'économie de l'IA ne peut pas tourner sur des rails financiers où le coût fixe par transaction est de 0,30$. Le futur est un réseau M2M de micro-règlements programmatiques, où le contrat d'exécution, la validation (SLA) et le paiement sont unifiés en un seul appel API neutre.
 
 ## 3. Le problème & La cible
 
-**Modèle économique :** M2M (Machine to Machine) - Infrastructure de paiement
-**Cible précise :** Développeurs de flottes d'agents IA autonomes, fournisseurs de modèles spécialisés (SLMs), et agrégateurs de bases de données de niche.
-**La douleur urgente :** Aujourd'hui, un agent IA d'une entreprise ne peut pas déléguer une sous-tâche à l'agent IA d'une autre entreprise sans qu'un humain n'ait au préalable signé un contrat et configuré un compte de facturation récurrent. La perte de temps, de flexibilité et les coûts de transaction interdisent la création de véritables "Agent Swarms" collaboratifs inter-entreprises.
+**Modèle économique :**M2M (Machine to Machine) - Infrastructure de paiement
+**Cible précise :**Développeurs de flottes d'agents IA autonomes, fournisseurs de modèles spécialisés (SLMs), et agrégateurs de bases de données de niche.
+**La douleur urgente :**Aujourd'hui, un agent IA d'une entreprise ne peut pas déléguer une sous-tâche à l'agent IA d'une autre entreprise sans qu'un humain n'ait au préalable signé un contrat et configuré un compte de facturation récurrent. La perte de temps, de flexibilité et les coûts de transaction interdisent la création de véritables "Agent Swarms" collaboratifs inter-entreprises.
 
 ## 4. Architecture technique & Plomberie
 
@@ -51,10 +51,10 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                  | Valeur                                  | Structure de prix                      | Objectif 12 mois                       | Calcul du CA (Target 100k€)                                        | Marge brute estimée                |
-| :------------------------ | :-------------------------------------- | :------------------------------------- | :------------------------------------- | :----------------------------------------------------------------- | :--------------------------------- |
-| **Micro-commission M2M**  | Take rate sur les échanges              | 1% de commission sur le volume échangé | 30 millions de micro-transactions/mois | `(30M tx * 0.03$ panier moyen) * 1% = 9 000€ MRR` (soit 108k€ ARR) | 95% (Pur logiciel d'orchestration) |
-| **Abonnement Enterprise** | Accès SLA garantis & Logs de conformité | 500€ / mois / flotte d'agents          | 50 flottes d'agents actives            | `50 * 500€ * 12 = 300 000€ ARR`                                    | 90% (Infrastructure cloud)         |
+| Métrique                  | Valeur                                  | Structure de prix                      | Objectif 12 mois                       | Calcul du CA (Target 100k€)                                     | Marge brute estimée                |
+| :------------------------ | :-------------------------------------- | :------------------------------------- | :------------------------------------- | :-------------------------------------------------------------- | :--------------------------------- |
+| **Micro-commission M2M**  | Take rate sur les échanges              | 1% de commission sur le volume échangé | 30 millions de micro-transactions/mois | `(30M tx*0.03$ panier moyen) *1% = 9 000€ MRR` (soit 108k€ ARR) | 95% (Pur logiciel d'orchestration) |
+| **Abonnement Enterprise** | Accès SLA garantis & Logs de conformité | 500€ / mois / flotte d'agents          | 50 flottes d'agents actives            | `50 *500€*12 = 300 000€ ARR`                                    | 90% (Infrastructure cloud)         |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -71,4 +71,4 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       | 24 / 25         | 23 / 25                                                 |
 | **TOTAL**                             | **96 / 100**    | **88 / 100**                                            |
 
-> **Verdict VC :** Un projet d'infrastructure monumental s'attaquant au maillon faible de l'économie des agents IA : la transaction inter-plateformes. Dès la masse critique atteinte sur les frameworks open-source, ce protocole devient une douane numérique incontournable et hautement résiliente face à la commoditisation des LLMs.
+**Verdict global :**Un projet d'infrastructure monumental s'attaquant au maillon faible de l'économie des agents IA : la transaction inter-plateformes. Dès la masse critique atteinte sur les frameworks open-source, ce protocole devient une douane numérique incontournable et hautement résiliente face à la commoditisation des LLMs.

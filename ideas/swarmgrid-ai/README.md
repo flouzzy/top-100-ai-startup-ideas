@@ -6,7 +6,7 @@
 
 ![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 93/100](https://img.shields.io/badge/Score_Composite-93%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -23,14 +23,14 @@ graph TD
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** La transition énergétique nécessite des milliards d'investissements centralisés par l'État pour construire un "smart grid" omniscient capable d'équilibrer la charge du réseau.
-**La vérité cachée :** L'infrastructure de stockage existe déjà (véhicules électriques, batteries domestiques, onduleurs industriels). Le véritable problème n'est pas le stockage, mais le manque d'un protocole M2M décentralisé capable de coordonner ces actifs dormants à la milliseconde pour exploiter l'arbitrage financier sur les marchés de l'énergie.
+**La croyance populaire :**La transition énergétique nécessite des milliards d'investissements centralisés par l'État pour construire un "smart grid" omniscient capable d'équilibrer la charge du réseau.
+**La vérité cachée :**L'infrastructure de stockage existe déjà (véhicules électriques, batteries domestiques, onduleurs industriels). Le véritable problème n'est pas le stockage, mais le manque d'un protocole M2M décentralisé capable de coordonner ces actifs dormants à la milliseconde pour exploiter l'arbitrage financier sur les marchés de l'énergie.
 
 ## 3. Le problème & La cible
 
-**Modèle économique :** M2M (Machine to Machine)
-**Cible précise :** Fabricants d'onduleurs, gestionnaires de flottes de véhicules électriques (V2G) et propriétaires de parcs immobiliers équipés en batteries.
-**La douleur urgente :** La volatilité croissante des prix de l'énergie crée des coûts d'opportunité massifs. Actuellement, l'énergie excédentaire est soit perdue, soit revendue à des tarifs subventionnés fixes très bas. Le manque à gagner opérationnel pour les propriétaires de batteries se chiffre en milliers d'euros annuels.
+**Modèle économique :**M2M (Machine to Machine)
+**Cible précise :**Fabricants d'onduleurs, gestionnaires de flottes de véhicules électriques (V2G) et propriétaires de parcs immobiliers équipés en batteries.
+**La douleur urgente :**La volatilité croissante des prix de l'énergie crée des coûts d'opportunité massifs. Actuellement, l'énergie excédentaire est soit perdue, soit revendue à des tarifs subventionnés fixes très bas. Le manque à gagner opérationnel pour les propriétaires de batteries se chiffre en milliers d'euros annuels.
 
 ## 4. Architecture technique & Plomberie
 
@@ -56,13 +56,13 @@ sequenceDiagram
 | :------------------------------ | :-------------------------------------------------------------------------------- |
 | **Structure de prix**           | Commission pure : 20% sur les profits d'arbitrage générés (Revenue Share M2M)     |
 | **Objectif 12 mois**            | 1 000 actifs de stockage sous gestion (moyenne de 100€ de profit brut/mois/actif) |
-| **Calcul du CA (Target 100k€)** | 1000 nœuds _100€ profit_ 20% commission \* 12 mois = **240 000€ ARR**             |
+| **Calcul du CA (Target 100k€)** | 1000 nœuds*100€ profit*20% commission\*12 mois = **240 000€ ARR**                 |
 | **Marge brute estimée**         | 92% (coûts d'inférence déportés sur l'Edge matériel du client)                    |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-**Stratégie d'acquisition :** Adhésion dev M2M. SwarmGrid ne vend pas aux particuliers. L'acquisition se fait par des partenariats B2B natifs (OEM) avec 2 ou 3 grands fabricants d'onduleurs (ex: Victron, SMA) pour intégrer l'agent IA dès la sortie d'usine.
-**Moat (Barrière à l'entrée) :** L'effet de réseau physique (Hardware Network Effect). Contrairement à un simple wrapper LLM facilement copiable, SwarmGrid gagne en précision de prédiction météo/demande au fur et à mesure que la densité géographique des nœuds augmente. Un nouvel entrant ne peut pas répliquer l'accès direct aux ports COM des onduleurs partenaires du jour au lendemain.
+**Stratégie d'acquisition :**Adhésion dev M2M. SwarmGrid ne vend pas aux particuliers. L'acquisition se fait par des partenariats B2B natifs (OEM) avec 2 ou 3 grands fabricants d'onduleurs (ex: Victron, SMA) pour intégrer l'agent IA dès la sortie d'usine.
+**Moat (Barrière à l'entrée) :**L'effet de réseau physique (Hardware Network Effect). Contrairement à un simple wrapper LLM facilement copiable, SwarmGrid gagne en précision de prédiction météo/demande au fur et à mesure que la densité géographique des nœuds augmente. Un nouvel entrant ne peut pas répliquer l'accès direct aux ports COM des onduleurs partenaires du jour au lendemain.
 
 ## 7. Grille d'évaluation détaillée
 
@@ -74,4 +74,4 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       |     25 / 25     |       25 / 25        |
 | **TOTAL**                             |  **94 / 100**   |     **92 / 100**     |
 
-> **Verdict VC :** Un projet d'infrastructure extrêmement défensif qui résout une inefficacité massive de la grille énergétique. L'exécution repose entièrement sur la capacité à signer les premiers partenariats OEM pour amorcer l'effet de réseau matériel.
+**Verdict global :**Un projet d'infrastructure extrêmement défensif qui résout une inefficacité massive de la grille énergétique. L'exécution repose entièrement sur la capacité à signer les premiers partenariats OEM pour amorcer l'effet de réseau matériel.

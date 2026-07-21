@@ -6,7 +6,7 @@
 
 ![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 92/100](https://img.shields.io/badge/Score_Composite-92%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -34,14 +34,14 @@ graph TD
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** Les entreprises pensent que l'IA dans les achats doit être un copilote (chatbot) aidant un acheteur humain à lire des contrats ou écrire des emails aux fournisseurs.
-**La vérité cachée :** 80% des achats industriels récurrents (matières premières, pièces détachées) n'ont aucune valeur ajoutée stratégique humaine. L'avenir n'est pas le "copilote", mais l'absence de pilote. Les machines doivent acheter aux machines via une API financière et logistique unifiée, contournant totalement l'interface utilisateur.
+**La croyance populaire :**Les entreprises pensent que l'IA dans les achats doit être un copilote (chatbot) aidant un acheteur humain à lire des contrats ou écrire des emails aux fournisseurs.
+**La vérité cachée :**80% des achats industriels récurrents (matières premières, pièces détachées) n'ont aucune valeur ajoutée stratégique humaine. L'avenir n'est pas le "copilote", mais l'absence de pilote. Les machines doivent acheter aux machines via une API financière et logistique unifiée, contournant totalement l'interface utilisateur.
 
 ## 3. Le problème & La cible
 
-**Modèle économique :** M2M (Machine to Machine) transactionnel B2B.
-**Cible précise :** Les ETI et groupes industriels manufacturiers (CA > 50M€) utilisant des ERP archaïques (SAP, Oracle, Sage) et souffrant de ruptures de chaîne d'approvisionnement.
-**La douleur urgente :** La réconciliation manuelle des stocks, des devis PDF et des bons de commande par email coûte en moyenne 45€ de frais administratifs par transaction, et les ruptures de stock arrêtent des lignes de production entières, coûtant des centaines de milliers d'euros par jour d'inactivité.
+**Modèle économique :**M2M (Machine to Machine) transactionnel B2B.
+**Cible précise :**Les ETI et groupes industriels manufacturiers (CA > 50M€) utilisant des ERP archaïques (SAP, Oracle, Sage) et souffrant de ruptures de chaîne d'approvisionnement.
+**La douleur urgente :**La réconciliation manuelle des stocks, des devis PDF et des bons de commande par email coûte en moyenne 45€ de frais administratifs par transaction, et les ruptures de stock arrêtent des lignes de production entières, coûtant des centaines de milliers d'euros par jour d'inactivité.
 
 ## 4. Architecture technique & Plomberie
 
@@ -54,7 +54,7 @@ def evaluate_bid(bid, urgency_score, risk_tolerance):
     price_weight = 0.4 if urgency_score > 0.8 else 0.7
     speed_weight = 1.0 - price_weight
 
-    score = (normalized(bid.price) * price_weight) + (normalized(bid.delivery_time) * speed_weight)
+    score = (normalized(bid.price) *price_weight) + (normalized(bid.delivery_time) *speed_weight)
 
     if score > threshold and bid.vendor_reliability > risk_tolerance:
         return execute_m2m_transaction(bid.vendor_id, bid.item_id)
@@ -85,16 +85,16 @@ sequenceDiagram
 | **Structure de prix**           | Abonnement SaaS d'intégration (1 500€/mois) + 0,5% de commission M2M par transaction |
 | **Objectif 12 mois**            | Atteindre 100k€ de revenus annuels récurrents/frais                                  |
 | **Clients nécessaires**         | 5 industriels actifs faisant transiter chacun 1M€ d'achats via le réseau/an          |
-| **Calcul du CA (Target 100k€)** | (5 clients _18 000€ SaaS/an) + (5M€ GMV_ 0,5% de frais) = 90 000 + 25 000 = 115 000€ |
+| **Calcul du CA (Target 100k€)** | (5 clients*18 000€ SaaS/an) + (5M€ GMV*0,5% de frais) = 90 000 + 25 000 = 115 000€   |
 | **Marge brute estimée**         | 92% (Coûts marginaux très faibles post-intégration, peu d'inférence LLM)             |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-**Stratégie d'acquisition :** Acquisition B2B directe en "land-and-expand". Nous signons l'acheteur industriel. Pour qu'il utilise SupplyMesh, il force ses 20 fournisseurs principaux à installer notre agent API (gratuit pour le fournisseur). Le réseau s'étend organiquement par effet de grappe (Network Effect).
+**Stratégie d'acquisition :**Acquisition B2B directe en "land-and-expand". Nous signons l'acheteur industriel. Pour qu'il utilise SupplyMesh, il force ses 20 fournisseurs principaux à installer notre agent API (gratuit pour le fournisseur). Le réseau s'étend organiquement par effet de grappe (Network Effect).
 **Moat (Barrière à l'entrée) :**
 
-1. **Coûts de changement (Switching costs) :** Une fois le mapping complexe des ERP legacy réalisé, le client ne débranchera jamais un système qui gère ses flux de manière invisible.
-2. **Effet de réseau bilatéral :** Un LLM brut (comme ChatGPT) ne possède pas les accès API authentifiés des deux côtés de la supply chain. Plus de fournisseurs rejoignent, plus la liquidité du marché profite aux acheteurs. OpenAI ne peut pas cloner ce réseau en 24h, car il nécessite des intégrations profondes et non pas seulement de l'intelligence artificielle générative.
+1. **Coûts de changement (Switching costs) :**Une fois le mapping complexe des ERP legacy réalisé, le client ne débranchera jamais un système qui gère ses flux de manière invisible.
+2. **Effet de réseau bilatéral :**Un LLM brut (comme ChatGPT) ne possède pas les accès API authentifiés des deux côtés de la supply chain. Plus de fournisseurs rejoignent, plus la liquidité du marché profite aux acheteurs. OpenAI ne peut pas cloner ce réseau en 24h, car il nécessite des intégrations profondes et non pas seulement de l'intelligence artificielle générative.
 
 ## 7. Grille d'évaluation détaillée
 
@@ -106,4 +106,4 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       |     24 / 25     |       25 / 25        |
 | **TOTAL**                             |  **91 / 100**   |     **88 / 100**     |
 
-> **Verdict VC :** Une entreprise d'infrastructure profonde extrêmement défendable avec un "winner-takes-all" potentiel. Bien que la vente initiale induise une forte friction, le taux de rétention frôlera les 100% et la valeur du réseau deviendra une barrière infranchissable.
+**Verdict global :**Une entreprise d'infrastructure profonde extrêmement défendable avec un "winner-takes-all" potentiel. Bien que la vente initiale induise une forte friction, le taux de rétention frôlera les 100% et la valeur du réseau deviendra une barrière infranchissable.

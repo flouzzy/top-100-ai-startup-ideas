@@ -1,13 +1,12 @@
 <!-- markdownlint-disable MD013 MD033 -->
 
-
 # AgentGuard
 
 > **Résumé exécutif :** Une infrastructure de validation légale et sécuritaire de type M2M (Machine-to-Machine) qui intercepte et audite en temps réel les actions critiques générées par les agents d'IA autonomes avant leur exécution, évitant les risques juridiques et financiers.
 
 ![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 92/100](https://img.shields.io/badge/Score_Composite-92%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -26,17 +25,17 @@ graph TD
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** Le plus grand défi des agents IA est de les rendre de plus en plus intelligents et autonomes pour qu'ils remplacent les humains sur un maximum de tâches.
+**La croyance populaire :**Le plus grand défi des agents IA est de les rendre de plus en plus intelligents et autonomes pour qu'ils remplacent les humains sur un maximum de tâches.
 
-**La vérité cachée :** Les entreprises n'ont pas peur que les agents IA soient stupides, elles sont terrifiées par leur capacité à agir. L'adoption massive de l'IA Agentique ne passera pas par de meilleurs LLM, mais par une infrastructure d'assurance (liability shield) qui encadre strictement et juridiquement leurs actions de sortie. La valeur est dans le "non", pas dans le "oui".
+**La vérité cachée :**Les entreprises n'ont pas peur que les agents IA soient stupides, elles sont terrifiées par leur capacité à agir. L'adoption massive de l'IA Agentique ne passera pas par de meilleurs LLM, mais par une infrastructure d'assurance (liability shield) qui encadre strictement et juridiquement leurs actions de sortie. La valeur est dans le "non", pas dans le "oui".
 
 ## 3. Le problème & La cible
 
-**Modèle économique :** M2M (Machine to Machine) et B2B SaaS.
+**Modèle économique :**M2M (Machine to Machine) et B2B SaaS.
 
-**Cible précise :** Les départements IT et Compliance des entreprises (Fintech, Santé, E-commerce, LegalTech) qui déploient des agents IA autonomes capables de réaliser des transactions, modifier des bases de données ou engager légalement l'entreprise.
+**Cible précise :**Les départements IT et Compliance des entreprises (Fintech, Santé, E-commerce, LegalTech) qui déploient des agents IA autonomes capables de réaliser des transactions, modifier des bases de données ou engager légalement l'entreprise.
 
-**La douleur urgente :** Le coût financier, légal et réputationnel potentiel d'une IA qui "hallucine" une commande d'achat de 500k€, valide un remboursement client infondé ou envoie des données confidentielles. L'inaction bloque l'adoption de l'IA (ROI perdu), agir sans garde-fou expose à un risque de banqueroute (Hair on fire).
+**La douleur urgente :**Le coût financier, légal et réputationnel potentiel d'une IA qui "hallucine" une commande d'achat de 500k€, valide un remboursement client infondé ou envoie des données confidentielles. L'inaction bloque l'adoption de l'IA (ROI perdu), agir sans garde-fou expose à un risque de banqueroute (Hair on fire).
 
 ## 4. Architecture technique & Plomberie
 
@@ -71,12 +70,12 @@ sequenceDiagram
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-**Stratégie d'acquisition :** Adhésion dev M2M et partenariats avec les frameworks d'agents IA (LangChain, LlamaIndex, CrewAI). Fournir un SDK gratuit qui permet aux développeurs de se décharger de la responsabilité de coder la logique de sécurité en dur.
+**Stratégie d'acquisition :**Adhésion dev M2M et partenariats avec les frameworks d'agents IA (LangChain, LlamaIndex, CrewAI). Fournir un SDK gratuit qui permet aux développeurs de se décharger de la responsabilité de coder la logique de sécurité en dur.
 
 **Moat (Barrière à l'entrée) :**
 
-1. **L'Effet de Réseau des Politiques de Sécurité :** Plus d'entreprises utilisent AgentGuard, plus la bibliothèque de règles de compliance standards (RGPD, PCI-DSS spécifiques IA) devient robuste et complexe à reproduire de zéro.
-2. **Architecture Déterministe vs Probabiliste :** OpenAI ou Google ne peuvent pas répliquer cela via une simple mise à jour de leur modèle, car ils sont probabilistes. AgentGuard est un pont déterministe (certifiable juridiquement) indispensable. La confiance ne s'achète pas avec de meilleurs prompts.
+1. **L'Effet de Réseau des Politiques de Sécurité :**Plus d'entreprises utilisent AgentGuard, plus la bibliothèque de règles de compliance standards (RGPD, PCI-DSS spécifiques IA) devient robuste et complexe à reproduire de zéro.
+2. **Architecture Déterministe vs Probabiliste :**OpenAI ou Google ne peuvent pas répliquer cela via une simple mise à jour de leur modèle, car ils sont probabilistes. AgentGuard est un pont déterministe (certifiable juridiquement) indispensable. La confiance ne s'achète pas avec de meilleurs prompts.
 
 ## 7. Grille d'évaluation détaillée
 
@@ -88,4 +87,4 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       |     25 / 25     |       25 / 25        |
 | **TOTAL**                             |  **96 / 100**   |     **91 / 100**     |
 
-> **Verdict VC :** L'approche contrariante d'AgentGuard, misant sur la restriction via un pont déterministe, répond à une douleur B2B universelle bloquant l'adoption de l'IA. Son intégration au cœur des flux transactionnels M2M crée un puissant verrouillage technique garantissant d'excellentes unit economics. C'est une infrastructure "Pelle et Pioche" indispensable ayant un clair potentiel de monopole sur le naissant marché de la sécurité agentique.
+> **Verdict VC :**L'approche contrariante d'AgentGuard, misant sur la restriction via un pont déterministe, répond à une douleur B2B universelle bloquant l'adoption de l'IA. Son intégration au cœur des flux transactionnels M2M crée un puissant verrouillage technique garantissant d'excellentes unit economics. C'est une infrastructure "Pelle et Pioche" indispensable ayant un clair potentiel de monopole sur le naissant marché de la sécurité agentique.

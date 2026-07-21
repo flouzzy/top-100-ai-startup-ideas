@@ -6,7 +6,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 92/100](https://img.shields.io/badge/Score_Composite-92%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -27,17 +27,17 @@ graph TD
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** Le recouvrement B2B est une affaire de relations humaines et de diplomatie téléphonique ; automatiser cette tâche par l'IA risquerait de froisser les relations commerciales et de perdre le client.
+**La croyance populaire :**Le recouvrement B2B est une affaire de relations humaines et de diplomatie téléphonique ; automatiser cette tâche par l'IA risquerait de froisser les relations commerciales et de perdre le client.
 
-**La vérité cachée :** Les débiteurs en retard de paiement ressentent de la honte et de l'anxiété face à un interlocuteur humain. Ils ignorent les appels pour fuir la confrontation. Une IA agit comme un tiers de confiance sans jugement : elle désamorce l'ego et augmente les taux de conversion en proposant des micro-plans d'échelonnement instantanés, négociables en ligne 24/7.
+**La vérité cachée :**Les débiteurs en retard de paiement ressentent de la honte et de l'anxiété face à un interlocuteur humain. Ils ignorent les appels pour fuir la confrontation. Une IA agit comme un tiers de confiance sans jugement : elle désamorce l'ego et augmente les taux de conversion en proposant des micro-plans d'échelonnement instantanés, négociables en ligne 24/7.
 
 ## 3. Le problème & La cible
 
-**Modèle économique :** B2B
+**Modèle économique :**B2B
 
-**Cible précise :** Les PME (1M€ - 50M€ CA), agences, et fournisseurs de services qui ont +100 factures émises par mois.
+**Cible précise :**Les PME (1M€ - 50M€ CA), agences, et fournisseurs de services qui ont +100 factures émises par mois.
 
-**La douleur urgente :** Le besoin en fonds de roulement (BFR). Les impayés sont la première cause de faillite des PME. L'inaction ou la lenteur du recouvrement coûte directement de la trésorerie vitale, réduit la capacité d'investissement et génère un stress opérationnel massif pour le dirigeant ou le DAF.
+**La douleur urgente :**Le besoin en fonds de roulement (BFR). Les impayés sont la première cause de faillite des PME. L'inaction ou la lenteur du recouvrement coûte directement de la trésorerie vitale, réduit la capacité d'investissement et génère un stress opérationnel massif pour le dirigeant ou le DAF.
 
 ## 4. Architecture technique & Plomberie
 
@@ -72,7 +72,7 @@ sequenceDiagram
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-**Stratégie d'acquisition :** Acquisition directe B2B (Outbound sur DAFs et dirigeants) via une promesse "No-brainer" : ROI mesurable dès la première semaine ("On connecte l'outil, il va chercher l'argent qui dort dehors le jour même"). Partenariats comptables (prescripteurs).
+**Stratégie d'acquisition :**Acquisition directe B2B (Outbound sur DAFs et dirigeants) via une promesse "No-brainer" : ROI mesurable dès la première semaine ("On connecte l'outil, il va chercher l'argent qui dort dehors le jour même"). Partenariats comptables (prescripteurs).
 
 **Moat (Barrière à l'entrée) :**
 
@@ -89,4 +89,4 @@ sequenceDiagram
 | Unit Economics / ROI direct       | 25 / 25         | 25 / 25              |
 | **TOTAL**                         | **90 / 100**    | **93 / 100**         |
 
-> **Verdict VC :** Un projet à exceptionnellement haute viabilité financière avec une utilité "Hair on Fire" immédiate pour les PME en manque de trésorerie. La construction d'un mini-bureau de crédit B2B privatisé via l'agrégation des données de paiement constitue un fossé défensif massif face aux géants de la tech.
+**Verdict global :**Un projet à exceptionnellement haute viabilité financière avec une utilité "Hair on Fire" immédiate pour les PME en manque de trésorerie. La construction d'un mini-bureau de crédit B2B privatisé via l'agrégation des données de paiement constitue un fossé défensif massif face aux géants de la tech.

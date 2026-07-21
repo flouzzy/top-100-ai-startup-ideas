@@ -6,7 +6,7 @@
 
 ![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 92/100](https://img.shields.io/badge/Score_Composite-92%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -23,19 +23,23 @@ graph TD
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** Les LLM vont remplacer toutes les interfaces logicielles, et la monétisation se fera exclusivement par des humains payant des abonnements mensuels récurrents (SaaS) ou des jetons API.
+**La croyance populaire :**Les LLM vont remplacer toutes les interfaces logicielles, et la monétisation se fera exclusivement par des humains payant des abonnements mensuels récurrents (SaaS) ou des jetons API.
 
-**La vérité cachée :** Les futurs plus gros consommateurs de services numériques ne seront pas des humains, mais d'autres IA. L'économie émergente des agents autonomes nécessitera une place de marché fluide et des micro-paiements pour acquérir ponctuellement des "compétences" externes de machine à machine (M2M), sans la friction des abonnements humains préalables. L'argent circulera directement d'une IA à une autre.
+**La vérité cachée :**Les futurs plus gros consommateurs de services numériques ne seront pas des humains, mais d'autres IA. L'économie émergente des agents autonomes nécessitera une place de marché fluide et des micro-paiements pour acquérir ponctuellement des "compétences" externes de machine à machine (M2M), sans la friction des abonnements humains préalables. L'argent circulera directement d'une IA à une autre.
 
 ## 3. Le problème & La cible
 
-- **Modèle économique :** M2M (Infrastructure sous-jacente B2B)
+- **Modèle économique :**M2M (Infrastructure sous-jacente B2B)
 - **Cible précise :** Éditeurs d'agents IA, entreprises SaaS avec des workflows autonomes complexes, créateurs de bots spécialisés.
-- **La douleur urgente :** Gérer des clés API statiques, des abonnements mensuels rigides et des limites de requêtes pour chaque micro-service tiers dont une IA a temporairement besoin freine massivement l'autonomie. Le coût temporel et opérationnel pour un développeur de maintenir toutes ces intégrations est insoutenable à l'échelle de l'Agentic Web.
+- **La douleur urgente :**Gérer des clés API statiques, des abonnements mensuels rigides et des limites de requêtes pour chaque micro-service tiers dont une IA a temporairement besoin freine massivement l'autonomie. Le coût temporel et opérationnel pour un développeur de maintenir toutes ces intégrations est insoutenable à l'échelle de l'Agentic Web.
 
 ## 4. Architecture technique & Plomberie
 
-**Extrait de code :**
+\*\*
+
+Extrait de code
+
+:\*\*
 
 ```python
 # Exemple de SDK NexusTrade pour l'économie d'agents
@@ -78,13 +82,13 @@ sequenceDiagram
 | :------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | **Structure de prix**           | Commission dynamique de 0.5% à 1% sur le volume de chaque micro-transaction effectuée via le protocole.                                    |
 | **Objectif 12 mois**            | 500 agents IA actifs, générant au total 2 millions de micro-transactions par mois à un volume moyen de 1€/tx.                              |
-| **Calcul du CA (Target 100k€)** | 2,000,000 tx _1€ = 2,000,000€ de volume_ 1% de commission = 20,000€/mois. En ARR = **240,000€/an**.                                        |
+| **Calcul du CA (Target 100k€)** | 2,000,000 tx*1€ = 2,000,000€ de volume*1% de commission = 20,000€/mois. En ARR = **240,000€/an**.                                          |
 | **Marge brute estimée**         | 95% (Coûts marginaux très faibles liés uniquement au routage serveur et base de données, l'intelligence est fournie par les agents tiers). |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-- **Stratégie d'acquisition :** Adhésion "Dev-first" M2M via un SDK open-source. La stratégie est d'onboarder massivement les frameworks de création d'agents autonomes (AutoGPT, LangChain, LlamaIndex, CrewAI) avec des plugins natifs "NexusTrade". Cela permet aux développeurs d'activer cette capacité de commerce M2M en une seule ligne de code.
-- **Moat (Barrière à l'entrée) :** Effet de réseau bilatéral hyper-dense (Marketplace Dynamics). Plus il y a d'agents vendeurs proposant des données/actions très spécialisées, plus les agents acheteurs viennent se sourcer sur le réseau, et inversement. OpenAI ou Google se battent pour fournir l'intelligence de base (le cerveau) ; NexusTrade fournit l'infrastructure d'échange de valeur agnostique au modèle LLM utilisé (le système circulatoire), devenant ainsi un standard de fait inattaquable par les modèles fondateurs.
+- **Stratégie d'acquisition :**Adhésion "Dev-first" M2M via un SDK open-source. La stratégie est d'onboarder massivement les frameworks de création d'agents autonomes (AutoGPT, LangChain, LlamaIndex, CrewAI) avec des plugins natifs "NexusTrade". Cela permet aux développeurs d'activer cette capacité de commerce M2M en une seule ligne de code.
+- **Moat (Barrière à l'entrée) :**Effet de réseau bilatéral hyper-dense (Marketplace Dynamics). Plus il y a d'agents vendeurs proposant des données/actions très spécialisées, plus les agents acheteurs viennent se sourcer sur le réseau, et inversement. OpenAI ou Google se battent pour fournir l'intelligence de base (le cerveau) ; NexusTrade fournit l'infrastructure d'échange de valeur agnostique au modèle LLM utilisé (le système circulatoire), devenant ainsi un standard de fait inattaquable par les modèles fondateurs.
 
 ## 7. Grille d'évaluation détaillée
 
@@ -96,4 +100,4 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       |     24 / 25     |       22 / 25        |
 | **TOTAL**                             |  **98 / 100**   |     **86 / 100**     |
 
-> **Verdict VC :** Une infrastructure "pure-player" fondamentale pour l'agentic economy qui échappe à la cannibalisation des modèles fondateurs en se concentrant sur les tuyaux financiers inter-IA. Le seul risque majeur réside dans la friction initiale d'adoption par les développeurs, nécessitant une exécution parfaite de la stratégie de plugin open-source.
+**Verdict global :**Une infrastructure "pure-player" fondamentale pour l'agentic economy qui échappe à la cannibalisation des modèles fondateurs en se concentrant sur les tuyaux financiers inter-IA. Le seul risque majeur réside dans la friction initiale d'adoption par les développeurs, nécessitant une exécution parfaite de la stratégie de plugin open-source.
