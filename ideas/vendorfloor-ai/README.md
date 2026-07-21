@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD013 MD033 -->
+
 # VendorFloor AI
 
 > **Résumé exécutif :** Un agent autonome qui s'intègre aux ERP et SSO des ETI,
@@ -7,7 +9,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 92/100](https://img.shields.io/badge/Score_Composite-92%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -101,13 +103,12 @@ distribué privé des vrais prix du marché SaaS.
 
 | Critère | Score VC (/100) | Score Terrain (/100) |
 | :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 24 / 25 | 25 / 25 |
-| **Moat / Résistance aux LLM natifs** | 23 / 25 | 22 / 25 |
-| **Scalabilité / Friction d'adoption** | 22 / 25 | 20 / 25 |
-| **Unit Economics / ROI direct** | 25 / 25 | 25 / 25 |
-| **TOTAL** | **94 / 100** | **92 / 100** |
+| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
+| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
+| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
+| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
+| **TOTAL** | **-- / 100** | **-- / 100** |
 
-**Verdict global :** Projet redoutable s'attaquant à une inefficacité de marché
-massive et mesurable. Son absence totale de barrière à l'entrée pour le client
-(Success Fee pur) couplée à un Moat data auto-alimenté en fait un candidat
-incontournable à forte probabilité de traction immédiate.
+Verdict VC : En attente d'évaluation.
+
+Verdict Terrain : En attente d'évaluation.

@@ -1,10 +1,12 @@
+<!-- markdownlint-disable MD013 MD033 -->
+
 # Aegis Proxy
 
 > **Résumé exécutif :** Aegis Proxy est une couche d'infrastructure B2B agissant comme un pare-feu sémantique et un orchestrateur de confidentialité entre les employés et les LLMs externes, garantissant la conformité PII/IP sans sacrifier les performances.
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 88/100](https://img.shields.io/badge/Score_Composite-88%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -21,10 +23,12 @@ graph TD
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
+
 **La croyance populaire :** Toutes les entreprises finiront par héberger leurs propres LLMs open-source en interne (on-premise) pour garantir la sécurité absolue de leurs données.
 **La vérité cachée :** L'hébergement on-premise est trop coûteux, complexe et les modèles deviennent obsolètes trop vite. Les entreprises veulent utiliser les meilleurs modèles cloud de pointe mais sont terrifiées par les fuites de propriété intellectuelle. La véritable valeur n'est pas dans l'hébergement de modèles, mais dans le péage sécuritaire agnostique situé entre le réseau de l'entreprise et le cloud.
 
 ## 3. Le problème & La cible
+
 **Modèle économique :** B2B SaaS
 **Cible précise :** CISO (Chief Information Security Officers) et CTOs d'entreprises Mid-Market et Grands Comptes (Secteurs : Finance, Santé, Légal, Assurance).
 **La douleur urgente :** Le blocage total ou partiel de l'adoption de l'IA générative en interne par peur des fuites de données (Shadow AI). Cela cause une perte de productivité massive face aux concurrents qui ont trouvé un moyen d'adopter ces outils.
@@ -54,6 +58,7 @@ sequenceDiagram
 | **Marge brute estimée** | 85% (Coûts d'infrastructure de masquage local très faibles, les frais d'API LLM restent à la charge du client via son propre token) |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
+
 **Stratégie d'acquisition :** Ventes directes B2B (Direct Sales) ciblant les CISO. L'hameçon ("Lead magnet") est un audit gratuit du "Shadow AI" sur leur réseau, révélant les fuites actuelles des employés qui utilisent ChatGPT en secret malgré les interdictions.
 **Moat (Barrière à l'entrée) :** Intégration réseau de bas niveau. Une fois installé comme proxy (reverse/forward) sur le réseau de l'entreprise, Aegis est extrêmement difficile à déloger (High Switching Costs). De plus, l'outil est agnostique au modèle : si OpenAI lance des outils de confidentialité, l'entreprise préférera toujours un tiers de confiance indépendant plutôt que de laisser le fournisseur du LLM être juge et partie.
 
@@ -61,10 +66,12 @@ sequenceDiagram
 
 | Critère | Score VC (/100) | Score Terrain (/100) |
 | :--- | :---: | :---: |
-| Thèse & Monopole / Urgence | 23 / 25 | 24 / 25 |
-| Moat / Résistance aux LLM natifs | 24 / 25 | 21 / 25 |
-| Scalabilité / Friction d'adoption | 17 / 25 | 20 / 25 |
-| Unit Economics / ROI direct | 24 / 25 | 23 / 25 |
-| **TOTAL** | **88 / 100** | **88 / 100** |
+| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
+| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
+| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
+| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
+| **TOTAL** | **-- / 100** | **-- / 100** |
 
-**Verdict global :** Aegis Proxy capitalise sur une peur viscérale et justifiée des directeurs sécurité. En agissant comme une infrastructure réseau invisible, elle construit un fossé défensif B2B très puissant, totalement immunisé contre la course à l'armement que se livrent les créateurs de LLMs de base.
+Verdict VC : En attente d'évaluation.
+
+Verdict Terrain : En attente d'évaluation.

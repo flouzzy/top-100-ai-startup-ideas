@@ -6,7 +6,7 @@
 
 ![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 92/100](https://img.shields.io/badge/Score_Composite-92%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -79,12 +79,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                               | Score VC (/100) | Score Terrain (/100) |
-| :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     24 / 25     |       25 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     23 / 25     |       20 / 25        |
-| **Scalabilité / Friction d'adoption** |     24 / 25     |       21 / 25        |
-| **Unit Economics / ROI direct**       |     25 / 25     |       25 / 25        |
-| **TOTAL**                             |  **96 / 100**   |     **91 / 100**     |
+| Critère | Score VC (/100) | Score Terrain (/100) |
+| :--- | :---: | :---: |
+| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
+| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
+| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
+| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
+| **TOTAL** | **-- / 100** | **-- / 100** |
 
-> **Verdict VC :** L'approche contrariante d'AgentGuard, misant sur la restriction via un pont déterministe, répond à une douleur B2B universelle bloquant l'adoption de l'IA. Son intégration au cœur des flux transactionnels M2M crée un puissant verrouillage technique garantissant d'excellentes unit economics. C'est une infrastructure "Pelle et Pioche" indispensable ayant un clair potentiel de monopole sur le naissant marché de la sécurité agentique.
+Verdict VC : En attente d'évaluation.
+
+Verdict Terrain : En attente d'évaluation.

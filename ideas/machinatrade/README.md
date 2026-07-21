@@ -1,10 +1,12 @@
+<!-- markdownlint-disable MD013 MD033 MD060 MD036 -->
+
 # MachinaTrade
 
 > **Résumé exécutif :** Une infrastructure de marché Machine-to-Machine (M2M) où les équipements industriels négocient, achètent et planifient de manière autonome leurs propres pièces de rechange prédictives via des agents IA, éliminant les temps d'arrêt non planifiés et les stocks dormants.
 
 ![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 91/100](https://img.shields.io/badge/Score_Composite-91%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -61,7 +63,7 @@ sequenceDiagram
 | :------------------------------ | :------------------------------------------------------------------------------------------------------ |
 | **Structure de prix**           | Abonnement Infrastructure (500€/mois/usine) + Commission (1.5% par transaction M2M)                     |
 | **Objectif 12 mois**            | 20 usines connectées (SaaS) + 200 000€/mois en flux de transactions                                     |
-| **Calcul du CA (Target 100k€)** | (20 usines _ 500€ _ 12 mois = 120 000€) + (200 000€ GMV/mois _ 1.5% _ 12 mois = 36 000€) = 156 000€ ARR |
+| **Calcul du CA (Target 100k€)** | (20 usines _500€_ 12 mois = 120 000€) + (200 000€ GMV/mois _1.5%_ 12 mois = 36 000€) = 156 000€ ARR |
 | **Marge brute estimée**         | 85% (Coûts serveurs et API minimes par rapport au volume de transaction)                                |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
@@ -71,12 +73,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                               | Score VC (/100) | Score Terrain (/100) |
-| :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     22 / 25     |       24 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       24 / 25        |
-| **Scalabilité / Friction d'adoption** |     20 / 25     |       18 / 25        |
-| **Unit Economics / ROI direct**       |     25 / 25     |       24 / 25        |
-| **TOTAL**                             |  **92 / 100**   |     **90 / 100**     |
+| Critère | Score VC (/100) | Score Terrain (/100) |
+| :--- | :---: | :---: |
+| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
+| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
+| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
+| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
+| **TOTAL** | **-- / 100** | **-- / 100** |
 
-**Verdict global :** MachinaTrade transforme une friction opérationnelle coûteuse en un marché liquide M2M automatisé. Son intégration dans les flux logistiques industriels profonds crée un "lock-in" absolu, le rendant totalement immunisé contre la banalisation des IA génératives grand public.
+Verdict VC : En attente d'évaluation.
+
+Verdict Terrain : En attente d'évaluation.

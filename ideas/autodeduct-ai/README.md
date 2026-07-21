@@ -5,7 +5,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 94/100](https://img.shields.io/badge/Score_Composite-94%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -80,10 +80,12 @@ sequenceDiagram
 
 | Critère | Score VC (/100) | Score Terrain (/100) |
 | :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 24 / 25 | 25 / 25 |
-| **Moat / Résistance aux LLM natifs** | 22 / 25 | 24 / 25 |
-| **Scalabilité / Friction d'adoption** | 19 / 25 | 18 / 25 |
-| **Unit Economics / ROI direct** | 25 / 25 | 25 / 25 |
-| **TOTAL** | **90 / 100** | **92 / 100** |
+| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
+| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
+| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
+| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
+| **TOTAL** | **-- / 100** | **-- / 100** |
 
-**Verdict global :** AutoDeduct AI transforme un centre de coût administratif pénible en un centre de profit automatique grâce à l'IA. C'est le cas d'usage parfait du B2B : un ROI ultra-évident (hard dollar savings), un problème de plomberie technique qui empêche la commoditisation par OpenAI, et des effets de réseau sur l'ingestion de données documentaires de la supply chain.
+Verdict VC : En attente d'évaluation.
+
+Verdict Terrain : En attente d'évaluation.
