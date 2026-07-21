@@ -1,10 +1,12 @@
+<!-- markdownlint-disable MD013 MD033 -->
+
 # NexusTrade M2M
 
 > **Résumé exécutif :** Un protocole d'infrastructure Machine-to-Machine permettant aux agents d'intelligence artificielle autonomes de négocier, d'acheter et de vendre des ressources numériques (API, données, cycles de calcul) entre eux en temps réel, avec règlement par micro-transactions.
 
 ![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 92/100](https://img.shields.io/badge/Score_Composite-92%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -27,13 +29,14 @@ graph TD
 
 ## 3. Le problème & La cible
 
-*   **Modèle économique :** M2M (Infrastructure sous-jacente B2B)
-*   **Cible précise :** Éditeurs d'agents IA, entreprises SaaS avec des workflows autonomes complexes, créateurs de bots spécialisés.
-*   **La douleur urgente :** Gérer des clés API statiques, des abonnements mensuels rigides et des limites de requêtes pour chaque micro-service tiers dont une IA a temporairement besoin freine massivement l'autonomie. Le coût temporel et opérationnel pour un développeur de maintenir toutes ces intégrations est insoutenable à l'échelle de l'Agentic Web.
+* **Modèle économique :** M2M (Infrastructure sous-jacente B2B)
+* **Cible précise :** Éditeurs d'agents IA, entreprises SaaS avec des workflows autonomes complexes, créateurs de bots spécialisés.
+* **La douleur urgente :** Gérer des clés API statiques, des abonnements mensuels rigides et des limites de requêtes pour chaque micro-service tiers dont une IA a temporairement besoin freine massivement l'autonomie. Le coût temporel et opérationnel pour un développeur de maintenir toutes ces intégrations est insoutenable à l'échelle de l'Agentic Web.
 
 ## 4. Architecture technique & Plomberie
 
 **Extrait de code :**
+
 ```python
 # Exemple de SDK NexusTrade pour l'économie d'agents
 from nexustrade import M2MClient
@@ -75,22 +78,24 @@ sequenceDiagram
 | :--- | :--- |
 | **Structure de prix** | Commission dynamique de 0.5% à 1% sur le volume de chaque micro-transaction effectuée via le protocole. |
 | **Objectif 12 mois** | 500 agents IA actifs, générant au total 2 millions de micro-transactions par mois à un volume moyen de 1€/tx. |
-| **Calcul du CA (Target 100k€)** | 2,000,000 tx * 1€ = 2,000,000€ de volume * 1% de commission = 20,000€/mois. En ARR = **240,000€/an**. |
+| **Calcul du CA (Target 100k€)** | 2,000,000 tx *1€ = 2,000,000€ de volume* 1% de commission = 20,000€/mois. En ARR = **240,000€/an**. |
 | **Marge brute estimée** | 95% (Coûts marginaux très faibles liés uniquement au routage serveur et base de données, l'intelligence est fournie par les agents tiers). |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-*   **Stratégie d'acquisition :** Adhésion "Dev-first" M2M via un SDK open-source. La stratégie est d'onboarder massivement les frameworks de création d'agents autonomes (AutoGPT, LangChain, LlamaIndex, CrewAI) avec des plugins natifs "NexusTrade". Cela permet aux développeurs d'activer cette capacité de commerce M2M en une seule ligne de code.
-*   **Moat (Barrière à l'entrée) :** Effet de réseau bilatéral hyper-dense (Marketplace Dynamics). Plus il y a d'agents vendeurs proposant des données/actions très spécialisées, plus les agents acheteurs viennent se sourcer sur le réseau, et inversement. OpenAI ou Google se battent pour fournir l'intelligence de base (le cerveau) ; NexusTrade fournit l'infrastructure d'échange de valeur agnostique au modèle LLM utilisé (le système circulatoire), devenant ainsi un standard de fait inattaquable par les modèles fondateurs.
+* **Stratégie d'acquisition :** Adhésion "Dev-first" M2M via un SDK open-source. La stratégie est d'onboarder massivement les frameworks de création d'agents autonomes (AutoGPT, LangChain, LlamaIndex, CrewAI) avec des plugins natifs "NexusTrade". Cela permet aux développeurs d'activer cette capacité de commerce M2M en une seule ligne de code.
+* **Moat (Barrière à l'entrée) :** Effet de réseau bilatéral hyper-dense (Marketplace Dynamics). Plus il y a d'agents vendeurs proposant des données/actions très spécialisées, plus les agents acheteurs viennent se sourcer sur le réseau, et inversement. OpenAI ou Google se battent pour fournir l'intelligence de base (le cerveau) ; NexusTrade fournit l'infrastructure d'échange de valeur agnostique au modèle LLM utilisé (le système circulatoire), devenant ainsi un standard de fait inattaquable par les modèles fondateurs.
 
 ## 7. Grille d'évaluation détaillée
 
 | Critère | Score VC (/100) | Score Terrain (/100) |
 | :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 24 / 25 | 22 / 25 |
-| **Moat / Résistance aux LLM natifs** | 25 / 25 | 23 / 25 |
-| **Scalabilité / Friction d'adoption** | 25 / 25 | 19 / 25 |
-| **Unit Economics / ROI direct** | 24 / 25 | 22 / 25 |
-| **TOTAL** | **98 / 100** | **86 / 100** |
+| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
+| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
+| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
+| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
+| **TOTAL** | **-- / 100** | **-- / 100** |
 
-**Verdict global :** Une infrastructure "pure-player" fondamentale pour l'agentic economy qui échappe à la cannibalisation des modèles fondateurs en se concentrant sur les tuyaux financiers inter-IA. Le seul risque majeur réside dans la friction initiale d'adoption par les développeurs, nécessitant une exécution parfaite de la stratégie de plugin open-source.
+Verdict VC : En attente d'évaluation.
+
+Verdict Terrain : En attente d'évaluation.

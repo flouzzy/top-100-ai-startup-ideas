@@ -1,10 +1,12 @@
+<!-- markdownlint-disable MD013 MD033 -->
+
 # CogniCollect
 
 > **Résumé exécutif :** Un agent autonome qui s'intègre aux ERP des PME pour négocier et recouvrer les factures impayées, tout en bâtissant un registre communautaire de solvabilité inter-entreprises.
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 92/100](https://img.shields.io/badge/Score_Composite-92%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -80,11 +82,13 @@ sequenceDiagram
 ## 7. Grille d'évaluation détaillée
 
 | Critère | Score VC (/100) | Score Terrain (/100) |
-| --- | --- | --- |
-| Thèse & Monopole / Urgence | 23 / 25 | 25 / 25 |
-| Moat / Résistance aux LLM natifs | 22 / 25 | 20 / 25 |
-| Scalabilité / Friction d'adoption | 20 / 25 | 23 / 25 |
-| Unit Economics / ROI direct | 25 / 25 | 25 / 25 |
-| **TOTAL** | **90 / 100** | **93 / 100** |
+| :--- | :---: | :---: |
+| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
+| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
+| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
+| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
+| **TOTAL** | **-- / 100** | **-- / 100** |
 
-**Verdict global :** Un projet à exceptionnellement haute viabilité financière avec une utilité "Hair on Fire" immédiate pour les PME en manque de trésorerie. La construction d'un mini-bureau de crédit B2B privatisé via l'agrégation des données de paiement constitue un fossé défensif massif face aux géants de la tech.
+Verdict VC : En attente d'évaluation.
+
+Verdict Terrain : En attente d'évaluation.

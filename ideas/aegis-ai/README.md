@@ -5,7 +5,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 90/100](https://img.shields.io/badge/Score_Composite-90%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -101,10 +101,12 @@ sequenceDiagram
 
 | Critère | Score VC (/100) | Score Terrain (/100) |
 | :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 23 / 25 | 24 / 25 |
-| **Moat / Résistance aux LLM natifs** | 25 / 25 | 22 / 25 |
-| **Scalabilité / Friction d'adoption** | 20 / 25 | 19 / 25 |
-| **Unit Economics / ROI direct** | 24 / 25 | 23 / 25 |
-| **TOTAL** | **92 / 100** | **88 / 100** |
+| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
+| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
+| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
+| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
+| **TOTAL** | **-- / 100** | **-- / 100** |
 
-**Verdict global :** Aegis AI est une masterclass de positionnement économique : il vend des "pelles" règlementaires et assurantielles dans la ruée vers l'IA. Son moat est protégé à la fois par la complexité du secteur de l'assurance et par une barrière de données actuarielles, rendant le produit immunisé aux avancées brutes des LLM sous-jacents.
+Verdict VC : En attente d'évaluation.
+
+Verdict Terrain : En attente d'évaluation.

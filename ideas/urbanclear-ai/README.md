@@ -1,10 +1,12 @@
+<!-- markdownlint-disable MD013 MD033 -->
+
 # UrbanClear AI
 
 > **Résumé exécutif :** UrbanClear AI automatise la pré-validation légale et architecturale des permis de construire en confrontant directement les maquettes BIM aux Plans Locaux d'Urbanisme (PLU). En réduisant les rejets administratifs, il fait gagner des mois de procédures aux promoteurs et architectes.
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: 93/100](https://img.shields.io/badge/Score_Composite-93%2F100-brightgreen)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
 
 ---
 
@@ -98,11 +100,13 @@ sequenceDiagram
 ## 7. Grille d'évaluation détaillée
 
 | Critère | Score VC (/100) | Score Terrain (/100) |
-| --- | --- | --- |
-| Thèse & Monopole / Urgence | 24 / 25 | 25 / 25 |
-| Moat / Résistance aux LLM natifs | 25 / 25 | 24 / 25 |
-| Scalabilité / Friction d'adoption | 21 / 25 | 23 / 25 |
-| Unit Economics / ROI direct | 23 / 25 | 25 / 25 |
-| **TOTAL** | **93 / 100** | **97 / 100** |
+| :--- | :---: | :---: |
+| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
+| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
+| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
+| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
+| **TOTAL** | **-- / 100** | **-- / 100** |
 
-**Verdict global :** Un projet à exceptionnellement haute valeur ajoutée B2B car il résout un problème extrêmement coûteux (l'immobilisation temporelle des projets immobiliers) via un Moat de données profondes. En couplant la compréhension du langage naturel des LLM avec des moteurs de calcul spatial, UrbanClear s'immunise totalement contre la concurrence des IA généralistes tout en offrant un ROI massif à ses utilisateurs.
+Verdict VC : En attente d'évaluation.
+
+Verdict Terrain : En attente d'évaluation.
