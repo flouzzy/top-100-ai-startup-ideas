@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD013 MD033 -->
+
 # AgentGuard
 
 > **Résumé exécutif :** Une infrastructure de validation légale et sécuritaire de type M2M (Machine-to-Machine) qui intercepte et audite en temps réel les actions critiques générées par les agents d'IA autonomes avant leur exécution, évitant les risques juridiques et financiers.
@@ -59,29 +61,30 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| :--- | :--- |
-| **Structure de prix** | Modèle SaaS hybride : 500€/mois (Platform fee) + 0.05€ par action critique validée. |
-| **Objectif 12 mois** | 40 entreprises clientes générant en moyenne 2500 actions/mois. |
+| Métrique                        | Valeur                                                                                                                                             |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Structure de prix**           | Modèle SaaS hybride : 500€/mois (Platform fee) + 0.05€ par action critique validée.                                                                |
+| **Objectif 12 mois**            | 40 entreprises clientes générant en moyenne 2500 actions/mois.                                                                                     |
 | **Calcul du CA (Target 100k€)** | $40 \times (500 + (2500 \times 0.05)) \times 12 = 40 \times 625 \times 12 = 300,000$€ (L'objectif de 100k€ est atteint avec seulement 14 clients). |
-| **Marge brute estimée** | 85% (Coûts serveurs très faibles car le moteur de vérification est principalement déterministe et n'utilise pas de LLM massifs). |
+| **Marge brute estimée**         | 85% (Coûts serveurs très faibles car le moteur de vérification est principalement déterministe et n'utilise pas de LLM massifs).                   |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
 **Stratégie d'acquisition :** Adhésion dev M2M et partenariats avec les frameworks d'agents IA (LangChain, LlamaIndex, CrewAI). Fournir un SDK gratuit qui permet aux développeurs de se décharger de la responsabilité de coder la logique de sécurité en dur.
 
 **Moat (Barrière à l'entrée) :**
+
 1. **L'Effet de Réseau des Politiques de Sécurité :** Plus d'entreprises utilisent AgentGuard, plus la bibliothèque de règles de compliance standards (RGPD, PCI-DSS spécifiques IA) devient robuste et complexe à reproduire de zéro.
 2. **Architecture Déterministe vs Probabiliste :** OpenAI ou Google ne peuvent pas répliquer cela via une simple mise à jour de leur modèle, car ils sont probabilistes. AgentGuard est un pont déterministe (certifiable juridiquement) indispensable. La confiance ne s'achète pas avec de meilleurs prompts.
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 24 / 25 | 25 / 25 |
-| **Moat / Résistance aux LLM natifs** | 22 / 25 | 20 / 25 |
-| **Scalabilité / Friction d'adoption** | 23 / 25 | 21 / 25 |
-| **Unit Economics / ROI direct** | 24 / 25 | 25 / 25 |
-| **TOTAL** | **93 / 100** | **91 / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     24 / 25     |       25 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     23 / 25     |       20 / 25        |
+| **Scalabilité / Friction d'adoption** |     24 / 25     |       21 / 25        |
+| **Unit Economics / ROI direct**       |     25 / 25     |       25 / 25        |
+| **TOTAL**                             |  **96 / 100**   |     **91 / 100**     |
 
-> **Verdict global :** Un positionnement d'infrastructure stratégique "Pelle et Pioche" sur le marché naissant de l'IA autonome. La promesse de réduire le risque légal lève le principal frein à l'adoption B2B, offrant une utilité immédiate et un verrouillage client (vendor lock-in) extrêmement fort une fois intégré au cœur des flux métiers.
+> **Verdict VC :** L'approche contrariante d'AgentGuard, misant sur la restriction via un pont déterministe, répond à une douleur B2B universelle bloquant l'adoption de l'IA. Son intégration au cœur des flux transactionnels M2M crée un puissant verrouillage technique garantissant d'excellentes unit economics. C'est une infrastructure "Pelle et Pioche" indispensable ayant un clair potentiel de monopole sur le naissant marché de la sécurité agentique.
