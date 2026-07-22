@@ -12,16 +12,16 @@
 
 ---
 
-## 1. Visual Overview & Wow Effect
+## 1. Visual Overview
 
 ```mermaid
 graph TD
-    subgraph Standard Deployment "Standard Deployment (Unmanaged Risk)"
+    subgraph Standard_Deployment ["Standard Deployment (Unmanaged Risk)"]
         A1[Autonomous Agent] -->|Unrestricted API/SQL| DB1[Internal DB / API]
         A1 -.->|Prompt Injection| H1[Data Exfiltration / Massive Cloud Bills]
     end
 
-    subgraph ZTNA Deployment "ZTNA-AI Deployment (Managed Risk)"
+    subgraph ZTNA_Deployment ["ZTNA-AI Deployment (Managed Risk)"]
         A2[Autonomous Agent] -->|API/SQL Request| B[ZTNA-AI Permission Gateway]
         B -->|Intent Validation & Quotas| C{Zero Trust Engine}
         C -->|Dynamic Permission Token| DB2[Internal DB / API]
