@@ -81,10 +81,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     24 / 25     |       25 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     23 / 25     |       20 / 25        |
-| **Scalabilité / Friction d'adoption** |     24 / 25     |       21 / 25        |
-| **Unit Economics / ROI direct**       |     25 / 25     |       25 / 25        |
-| **TOTAL**                             |  **96 / 100**   |     **91 / 100**     |
+| **Thèse & Monopole / Urgence**        |     24 / 25     |       24 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     23 / 25     |       25 / 25        |
+| **Scalabilité / Friction d'adoption** |     24 / 25     |       18 / 25        |
+| **Unit Economics / ROI direct**       |     25 / 25     |       23 / 25        |
+| **TOTAL**                             |  **96 / 100**   |     **90 / 100**     |
 
+> **Verdict Terrain :** L'outil AgentGuard répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
 > **Verdict VC :**L'approche contrariante d'AgentGuard, misant sur la restriction via un pont déterministe, répond à une douleur B2B universelle bloquant l'adoption de l'IA. Son intégration au cœur des flux transactionnels M2M crée un puissant verrouillage technique garantissant d'excellentes unit economics. C'est une infrastructure "Pelle et Pioche" indispensable ayant un clair potentiel de monopole sur le naissant marché de la sécurité agentique.

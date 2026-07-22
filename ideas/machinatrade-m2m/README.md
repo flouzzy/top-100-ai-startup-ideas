@@ -76,10 +76,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     22 / 25     |       24 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       24 / 25        |
-| **Scalabilité / Friction d'adoption** |     20 / 25     |       18 / 25        |
-| **Unit Economics / ROI direct**       |     25 / 25     |       24 / 25        |
-| **TOTAL**                             |  **92 / 100**   |     **90 / 100**     |
+| **Thèse & Monopole / Urgence**        |     22 / 25     |       16 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       21 / 25        |
+| **Scalabilité / Friction d'adoption** |     20 / 25     |       15 / 25        |
+| **Unit Economics / ROI direct**       |     25 / 25     |       15 / 25        |
+| **TOTAL**                             |  **92 / 100**   |     **67 / 100**     |
 
-**Verdict global :**MachinaTrade transforme une friction opérationnelle coûteuse en un marché liquide M2M automatisé. Son intégration dans les flux logistiques industriels profonds crée un "lock-in" absolu, le rendant totalement immunisé contre la banalisation des IA génératives grand public.
+> **Verdict Terrain :** L'outil MachinaTrade répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> **Verdict global :**MachinaTrade transforme une friction opérationnelle coûteuse en un marché liquide M2M automatisé. Son intégration dans les flux logistiques industriels profonds crée un "lock-in" absolu, le rendant totalement immunisé contre la banalisation des IA génératives grand public.

@@ -100,10 +100,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     24 / 25     |       23 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       24 / 25        |
-| **Scalabilité / Friction d'adoption** |     18 / 25     |       16 / 25        |
-| **Unit Economics / ROI direct**       |     24 / 25     |       25 / 25        |
-| **TOTAL**                             |  **91 / 100**   |     **88 / 100**     |
+| **Thèse & Monopole / Urgence**        |     24 / 25     |       25 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       20 / 25        |
+| **Scalabilité / Friction d'adoption** |     18 / 25     |       25 / 25        |
+| **Unit Economics / ROI direct**       |     24 / 25     |       23 / 25        |
+| **TOTAL**                             |  **91 / 100**   |     **93 / 100**     |
 
-**Verdict global :**Une entreprise d'infrastructure profonde extrêmement défendable avec un "winner-takes-all" potentiel. Bien que la vente initiale induise une forte friction, le taux de rétention frôlera les 100% et la valeur du réseau deviendra une barrière infranchissable.
+> **Verdict Terrain :** L'outil SupplyMesh AI répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> **Verdict global :**Une entreprise d'infrastructure profonde extrêmement défendable avec un "winner-takes-all" potentiel. Bien que la vente initiale induise une forte friction, le taux de rétention frôlera les 100% et la valeur du réseau deviendra une barrière infranchissable.

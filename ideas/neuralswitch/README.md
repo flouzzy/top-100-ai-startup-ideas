@@ -78,12 +78,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     -- / 25     |       -- / 25        |
-| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       -- / 25        |
-| **Scalabilité / Friction d'adoption** |     -- / 25     |       -- / 25        |
-| **Unit Economics / ROI direct**       |     -- / 25     |       -- / 25        |
-| **TOTAL**                             |  **-- / 100**   |     **-- / 100**     |
+| **Thèse & Monopole / Urgence**        |     -- / 25     |       19 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       17 / 25        |
+| **Scalabilité / Friction d'adoption** |     -- / 25     |       20 / 25        |
+| **Unit Economics / ROI direct**       |     -- / 25     |       24 / 25        |
+| **TOTAL**                             |  **-- / 100**   |     **80 / 100**     |
 
-Verdict VC : En attente d'évaluation.
-
-Verdict Terrain : En attente d'évaluation.
+> **Verdict Terrain :** L'outil NeuralSwitch répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> Verdict VC : En attente d'évaluation.

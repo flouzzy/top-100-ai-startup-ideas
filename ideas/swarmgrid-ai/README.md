@@ -69,9 +69,10 @@ sequenceDiagram
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
 | **Thèse & Monopole / Urgence**        |     24 / 25     |       24 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       24 / 25        |
-| **Scalabilité / Friction d'adoption** |     20 / 25     |       19 / 25        |
-| **Unit Economics / ROI direct**       |     25 / 25     |       25 / 25        |
-| **TOTAL**                             |  **94 / 100**   |     **92 / 100**     |
+| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       25 / 25        |
+| **Scalabilité / Friction d'adoption** |     20 / 25     |       25 / 25        |
+| **Unit Economics / ROI direct**       |     25 / 25     |       23 / 25        |
+| **TOTAL**                             |  **94 / 100**   |     **97 / 100**     |
 
-**Verdict global :**Un projet d'infrastructure extrêmement défensif qui résout une inefficacité massive de la grille énergétique. L'exécution repose entièrement sur la capacité à signer les premiers partenariats OEM pour amorcer l'effet de réseau matériel.
+> **Verdict Terrain :** L'outil SwarmGrid AI répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> **Verdict global :**Un projet d'infrastructure extrêmement défensif qui résout une inefficacité massive de la grille énergétique. L'exécution repose entièrement sur la capacité à signer les premiers partenariats OEM pour amorcer l'effet de réseau matériel.

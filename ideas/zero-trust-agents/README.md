@@ -108,14 +108,13 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criteria                             | VC Score (/100) |  Terrain Score (/100)  |
-| :----------------------------------- | :-------------: | :--------------------: |
-| **Thesis & Monopoly / Urgency**      |     -- / 25     |        -- / 25         |
-| **Moat / Resistance to Native LLMs** |     -- / 25     |        -- / 25         |
-| **Scalability / Adoption Friction**  |     -- / 25     |        -- / 25         |
-| **Unit Economics / Direct ROI**      |     -- / 25     |        -- / 25         |
-| **TOTAL**                            |   **Pending**   | **Pending evaluation** |
+| Criteria                             | VC Score (/100) | Terrain Score (/100) |
+| :----------------------------------- | :-------------: | :------------------: |
+| **Thesis & Monopoly / Urgency**      |     -- / 25     |       18 / 25        |
+| **Moat / Resistance to Native LLMs** |     -- / 25     |       16 / 25        |
+| **Scalability / Adoption Friction**  |     -- / 25     |       19 / 25        |
+| **Unit Economics / Direct ROI**      |     -- / 25     |       20 / 25        |
+| **TOTAL**                            |   **Pending**   |     **73 / 100**     |
 
-> **Terrain Verdict:** Pending evaluation.
-
+> **Verdict Terrain :** The Zero Trust Agents solution addresses a very targeted business need with tangible ROI. Its positioning as an API infrastructure guarantees good immunity against generalist LLMs. Even though adoption requires integration effort, the viability of the economic model is supported by the value delivered.
 > **VC Verdict:** Pending evaluation.

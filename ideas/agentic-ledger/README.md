@@ -65,10 +65,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100)                                    |
 | :------------------------------------ | :-------------- | :------------------------------------------------------ |
-| **Thèse & Monopole / Urgence**        | 25 / 25         | 22 / 25                                                 |
+| **Thèse & Monopole / Urgence**        | 25 / 25         | 23 / 25                                                 |
 | **Moat / Résistance aux LLM natifs**  | 25 / 25         | 24 / 25                                                 |
 | **Scalabilité / Friction d'adoption** | 22 / 25         | 19 / 25 (Forte éducation des devs requise initialement) |
-| **Unit Economics / ROI direct**       | 24 / 25         | 23 / 25                                                 |
-| **TOTAL**                             | **96 / 100**    | **88 / 100**                                            |
+| **Unit Economics / ROI direct**       | 24 / 25         | 21 / 25                                                 |
+| **TOTAL**                             | **96 / 100**    | **89 / 100**                                            |
 
-**Verdict global :**Un projet d'infrastructure monumental s'attaquant au maillon faible de l'économie des agents IA : la transaction inter-plateformes. Dès la masse critique atteinte sur les frameworks open-source, ce protocole devient une douane numérique incontournable et hautement résiliente face à la commoditisation des LLMs.
+> **Verdict Terrain :** L'outil Agentic Protocol répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> **Verdict global :**Un projet d'infrastructure monumental s'attaquant au maillon faible de l'économie des agents IA : la transaction inter-plateformes. Dès la masse critique atteinte sur les frameworks open-source, ce protocole devient une douane numérique incontournable et hautement résiliente face à la commoditisation des LLMs.

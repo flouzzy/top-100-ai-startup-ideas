@@ -102,10 +102,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     23 / 25     |       24 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       22 / 25        |
-| **Scalabilité / Friction d'adoption** |     20 / 25     |       19 / 25        |
+| **Thèse & Monopole / Urgence**        |     23 / 25     |       22 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       18 / 25        |
+| **Scalabilité / Friction d'adoption** |     20 / 25     |       17 / 25        |
 | **Unit Economics / ROI direct**       |     24 / 25     |       23 / 25        |
-| **TOTAL**                             |  **92 / 100**   |     **88 / 100**     |
+| **TOTAL**                             |  **92 / 100**   |     **80 / 100**     |
 
-**Verdict global :**Aegis AI est une masterclass de positionnement économique : il vend des "pelles" règlementaires et assurantielles dans la ruée vers l'IA. Son moat est protégé à la fois par la complexité du secteur de l'assurance et par une barrière de données actuarielles, rendant le produit immunisé aux avancées brutes des LLM sous-jacents.
+> **Verdict Terrain :** L'outil Aegis AI répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> **Verdict global :**Aegis AI est une masterclass de positionnement économique : il vend des "pelles" règlementaires et assurantielles dans la ruée vers l'IA. Son moat est protégé à la fois par la complexité du secteur de l'assurance et par une barrière de données actuarielles, rendant le produit immunisé aux avancées brutes des LLM sous-jacents.

@@ -82,10 +82,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 25 / 25         | 22 / 25              |
-| Moat / Résistance aux LLM natifs  | 25 / 25         | 24 / 25              |
-| Scalabilité / Friction d'adoption | 20 / 25         | 18 / 25              |
-| Unit Economics / ROI direct       | 25 / 25         | 25 / 25              |
-| **TOTAL**                         | **95 / 100**    | **89 / 100**         |
+| Thèse & Monopole / Urgence        | 25 / 25         | 19 / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | 17 / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | 20 / 25              |
+| Unit Economics / ROI direct       | 25 / 25         | 24 / 25              |
+| **TOTAL**                         | **95 / 100**    | **80 / 100**         |
 
-**Verdict global :**NeuralSwitch élimine la friction de l'achat B2B en remplaçant le SaaS traditionnel par un protocole M2M pur. Son potentiel de monopole réside dans l'effet réseau et la standardisation des transactions inter-agents, le rendant insensible à l'évolution des LLMs de base.
+> **Verdict Terrain :** L'outil NeuralSwitch répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> **Verdict global :**NeuralSwitch élimine la friction de l'achat B2B en remplaçant le SaaS traditionnel par un protocole M2M pur. Son potentiel de monopole réside dans l'effet réseau et la standardisation des transactions inter-agents, le rendant insensible à l'évolution des LLMs de base.
