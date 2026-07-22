@@ -103,10 +103,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 24 / 25         | 25 / 25              |
-| Moat / Résistance aux LLM natifs  | 25 / 25         | 24 / 25              |
-| Scalabilité / Friction d'adoption | 21 / 25         | 23 / 25              |
-| Unit Economics / ROI direct       | 23 / 25         | 25 / 25              |
-| **TOTAL**                         | **93 / 100**    | **97 / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | 21 / 25         | 18 / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | 16 / 25              |
+| **TOTAL**                         | **93 / 100**    | **83 / 100**         |
 
-**Verdict global :**Un projet à exceptionnellement haute valeur ajoutée B2B car il résout un problème extrêmement coûteux (l'immobilisation temporelle des projets immobiliers) via un Moat de données profondes. En couplant la compréhension du langage naturel des LLM avec des moteurs de calcul spatial, UrbanClear s'immunise totalement contre la concurrence des IA généralistes tout en offrant un ROI massif à ses utilisateurs.
+> **Verdict Terrain :** L'outil UrbanClear AI répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> **Verdict global :**Un projet à exceptionnellement haute valeur ajoutée B2B car il résout un problème extrêmement coûteux (l'immobilisation temporelle des projets immobiliers) via un Moat de données profondes. En couplant la compréhension du langage naturel des LLM avec des moteurs de calcul spatial, UrbanClear s'immunise totalement contre la concurrence des IA généralistes tout en offrant un ROI massif à ses utilisateurs.

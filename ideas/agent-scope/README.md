@@ -70,11 +70,11 @@ Moat (Defensibility): Network-level Zero Trust infrastructure that intercepts AP
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 20 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
-| Scalability / UX Friction   | 22 / 25         | -- / 25             |
-| Unit Economics / ROI        | 23 / 25         | -- / 25             |
-| **TOTAL**                   | **89 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 19 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 17 / 25             |
+| Scalability / UX Friction   | -- / 25         | 23 / 25             |
+| Unit Economics / ROI        | -- / 25         | 15 / 25             |
+| **TOTAL**                   | **-- / 100**    | **74 / 100**        |
 
-> **VC Verdict:** Just-in-Time, least-privilege token provisioning is a required security standard. It directly prevents catastrophic agent actions, selling insurance via infrastructure. The moat is deep technical lock-in to API gateways.
-Market Verdict: Pending evaluation.
+> **Verdict Terrain :** The AgentScope solution addresses a very targeted business need with tangible ROI. Its positioning as an API infrastructure guarantees good immunity against generalist LLMs. Even though adoption requires integration effort, the viability of the economic model is supported by the value delivered.
+> VC Verdict: Pending evaluation.

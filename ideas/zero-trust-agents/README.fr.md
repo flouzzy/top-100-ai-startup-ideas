@@ -108,15 +108,13 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                               |  Score VC (/100)  |    Score Terrain (/100)     |
-| :------------------------------------ | :---------------: | :-------------------------: |
-| **Thèse & Monopole / Urgence**        |      20 / 25      |           -- / 25           |
-| **Moat / Résistance aux LLM natifs**  |      23 / 25      |           -- / 25           |
-| **Scalabilité / Friction d'adoption** |      21 / 25      |           -- / 25           |
-| **Unit Economics / ROI direct**       |      22 / 25      |           -- / 25           |
-| **TOTAL**                             | **86 / 100** | **En attente d'évaluation** |
+| Critère                               |  Score VC (/100)  | Score Terrain (/100) |
+| :------------------------------------ | :---------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |      -- / 25      |       15 / 25        |
+| **Moat / Résistance aux LLM natifs**  |      -- / 25      |       20 / 25        |
+| **Scalabilité / Friction d'adoption** |      -- / 25      |       15 / 25        |
+| **Unit Economics / ROI direct**       |      -- / 25      |       15 / 25        |
+| **TOTAL**                             | **En évaluation** |     **65 / 100**     |
 
-> **Verdict VC :** L'application des principes Zero Trust aux agents IA puise dans les budgets et modèles mentaux existants des RSSI. L'intégration profonde en entreprise offre un solide fossé contre les wrappers IA génériques. Un chemin clair vers la monétisation via des licences par agent.
-> **Verdict Terrain :** En attente d'évaluation.
-
-> **Verdict VC :** L'application des principes Zero Trust aux agents IA puise dans les budgets et modèles mentaux existants des RSSI. L'intégration profonde en entreprise offre un solide fossé contre les wrappers IA génériques. Un chemin clair vers la monétisation via des licences par agent.
+> **Verdict Terrain :** L'outil Zero Trust Agents répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> **Verdict VC :** En attente d'évaluation.

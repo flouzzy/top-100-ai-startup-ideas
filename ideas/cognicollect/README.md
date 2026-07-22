@@ -83,10 +83,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 23 / 25         | 25 / 25              |
-| Moat / Résistance aux LLM natifs  | 22 / 25         | 20 / 25              |
-| Scalabilité / Friction d'adoption | 20 / 25         | 23 / 25              |
-| Unit Economics / ROI direct       | 25 / 25         | 25 / 25              |
-| **TOTAL**                         | **90 / 100**    | **93 / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | 16 / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | 21 / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | 15 / 25              |
+| Unit Economics / ROI direct       | 25 / 25         | 21 / 25              |
+| **TOTAL**                         | **90 / 100**    | **73 / 100**         |
 
-**Verdict global :**Un projet à exceptionnellement haute viabilité financière avec une utilité "Hair on Fire" immédiate pour les PME en manque de trésorerie. La construction d'un mini-bureau de crédit B2B privatisé via l'agrégation des données de paiement constitue un fossé défensif massif face aux géants de la tech.
+> **Verdict Terrain :** L'outil CogniCollect répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> **Verdict global :**Un projet à exceptionnellement haute viabilité financière avec une utilité "Hair on Fire" immédiate pour les PME en manque de trésorerie. La construction d'un mini-bureau de crédit B2B privatisé via l'agrégation des données de paiement constitue un fossé défensif massif face aux géants de la tech.

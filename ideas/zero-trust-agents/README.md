@@ -108,15 +108,13 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criteria                             | VC Score (/100) |  Terrain Score (/100)  |
-| :----------------------------------- | :-------------: | :--------------------: |
-| **Thesis & Monopoly / Urgency**      |     20 / 25     |        -- / 25         |
-| **Moat / Resistance to Native LLMs** |     23 / 25     |        -- / 25         |
-| **Scalability / Adoption Friction**  |     21 / 25     |        -- / 25         |
-| **Unit Economics / Direct ROI**      |     22 / 25     |        -- / 25         |
-| **TOTAL**                            |   **86 / 100**   | **Pending evaluation** |
+| Criteria                             | VC Score (/100) | Terrain Score (/100) |
+| :----------------------------------- | :-------------: | :------------------: |
+| **Thesis & Monopoly / Urgency**      |     -- / 25     |       18 / 25        |
+| **Moat / Resistance to Native LLMs** |     -- / 25     |       16 / 25        |
+| **Scalability / Adoption Friction**  |     -- / 25     |       19 / 25        |
+| **Unit Economics / Direct ROI**      |     -- / 25     |       20 / 25        |
+| **TOTAL**                            |   **Pending**   |     **73 / 100**     |
 
-> **VC Verdict:** Applying Zero Trust principles to AI agents taps into existing CISO budgets and mental models. Deep enterprise integration provides a solid moat against generic AI wrappers. Clear path to monetization through per-agent seat licensing.
-> **Terrain Verdict:** Pending evaluation.
-
-> **VC Verdict:** Applying Zero Trust principles to AI agents taps into existing CISO budgets and mental models. Deep enterprise integration provides a solid moat against generic AI wrappers. Clear path to monetization through per-agent seat licensing.
+> **Verdict Terrain :** The Zero Trust Agents solution addresses a very targeted business need with tangible ROI. Its positioning as an API infrastructure guarantees good immunity against generalist LLMs. Even though adoption requires integration effort, the viability of the economic model is supported by the value delivered.
+> **VC Verdict:** Pending evaluation.

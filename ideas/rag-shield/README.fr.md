@@ -70,12 +70,11 @@ Moat (Barrière à l'entrée) : Combine analyse syntaxique déterministe et isol
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 20 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 24 / 25         | -- / 25              |
-| **TOTAL**                         | **90 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 15 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 15 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 22 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 15 / 25              |
+| **TOTAL**                         | **-- / 100**    | **67 / 100**         |
 
-> **Verdict VC :** Protéger les bases de données vectorielles contre les injections de prompt indirectes est un besoin critique et non satisfait. La solution se place directement dans le flux de données, capturant un trafic très précieux. Extrêmement scalable et facile à monétiser au volume.
-
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** L'outil RAGShield répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> Verdict VC : En attente d'évaluation.

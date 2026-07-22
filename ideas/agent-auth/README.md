@@ -69,11 +69,11 @@ Moat (Defensibility): Deep integration into enterprise infrastructure, cryptogra
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 21 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
-| Scalability / UX Friction   | 24 / 25         | -- / 25             |
-| Unit Economics / ROI        | 22 / 25         | -- / 25             |
-| **TOTAL**                   | **90 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 25 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 18 / 25             |
+| Unit Economics / ROI        | -- / 25         | 17 / 25             |
+| **TOTAL**                   | **-- / 100**    | **85 / 100**        |
 
-> **VC Verdict:** IAM specifically built for AI agents is the missing identity layer of the autonomous web. Sticky by design, as ripping out an auth system is notoriously hard. Massive global market potential with a proven SaaS pricing model.
-Market Verdict: Pending evaluation.
+> **Verdict Terrain :** The AgentAuth solution addresses a very targeted business need with tangible ROI. Its positioning as an API infrastructure guarantees good immunity against generalist LLMs. Even though adoption requires integration effort, the viability of the economic model is supported by the value delivered.
+> VC Verdict: Pending evaluation.

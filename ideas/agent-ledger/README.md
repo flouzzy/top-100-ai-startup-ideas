@@ -75,10 +75,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     24 / 25     |       22 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       23 / 25        |
-| **Scalabilité / Friction d'adoption** |     22 / 25     |       20 / 25        |
-| **Unit Economics / ROI direct**       |     23 / 25     |       25 / 25        |
-| **TOTAL**                             |  **94 / 100**   |     **90 / 100**     |
+| **Thèse & Monopole / Urgence**        |     24 / 25     |       15 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       15 / 25        |
+| **Scalabilité / Friction d'adoption** |     22 / 25     |       22 / 25        |
+| **Unit Economics / ROI direct**       |     23 / 25     |       21 / 25        |
+| **TOTAL**                             |  **94 / 100**   |     **73 / 100**     |
 
-**Verdict global :**AgentLedger pose les fondations de l'économie native des IA (M2M) avec un modèle financier asymétrique. Avec une barrière à l'entrée colossale liée à l'effet de réseau et à l'infrastructure financière, c'est une startup massivement défensive face aux évolutions pures des modèles d'inférence.
+> **Verdict Terrain :** L'outil AgentLedger répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> **Verdict global :**AgentLedger pose les fondations de l'économie native des IA (M2M) avec un modèle financier asymétrique. Avec une barrière à l'entrée colossale liée à l'effet de réseau et à l'infrastructure financière, c'est une startup massivement défensive face aux évolutions pures des modèles d'inférence.

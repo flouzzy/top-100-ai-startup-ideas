@@ -75,12 +75,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     18 / 25     |       -- / 25        |
-| **Moat / Résistance aux LLM natifs**  |     23 / 25     |       -- / 25        |
-| **Scalabilité / Friction d'adoption** |     19 / 25     |       -- / 25        |
-| **Unit Economics / ROI direct**       |     21 / 25     |       -- / 25        |
-| **TOTAL**                             |  **81 / 100**   |     **-- / 100**     |
+| **Thèse & Monopole / Urgence**        |     -- / 25     |       16 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       21 / 25        |
+| **Scalabilité / Friction d'adoption** |     -- / 25     |       15 / 25        |
+| **Unit Economics / ROI direct**       |     -- / 25     |       15 / 25        |
+| **TOTAL**                             |  **-- / 100**   |     **67 / 100**     |
 
-> **Verdict VC :** L'application à l'industrie lourde crée une barrière à l'entrée colossale via l'intégration matérielle. Le marché est plus fragmenté mais hautement lucratif par transaction. La proposition de valeur (élimination des temps d'arrêt) justifie une tarification premium.
-
-Verdict Terrain : En attente d'évaluation.
+> **Verdict Terrain :** L'outil MachinaTrade répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> Verdict VC : En attente d'évaluation.

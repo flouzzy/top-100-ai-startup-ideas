@@ -100,12 +100,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     19 / 25     |       -- / 25        |
-| **Moat / Résistance aux LLM natifs**  |     23 / 25     |       -- / 25        |
-| **Scalabilité / Friction d'adoption** |     18 / 25     |       -- / 25        |
-| **Unit Economics / ROI direct**       |     21 / 25     |       -- / 25        |
-| **TOTAL**                             |  **81 / 100**   |     **-- / 100**     |
+| **Thèse & Monopole / Urgence**        |     -- / 25     |       25 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       20 / 25        |
+| **Scalabilité / Friction d'adoption** |     -- / 25     |       25 / 25        |
+| **Unit Economics / ROI direct**       |     -- / 25     |       23 / 25        |
+| **TOTAL**                             |  **-- / 100**   |     **93 / 100**     |
 
-> **Verdict VC :** L'automatisation des achats industriels M2M élimine l'inefficacité d'un marché massif. L'intégration de type ERP-à-ERP crée un moat redoutable et des coûts de changement prohibitifs. La scalabilité est freinée par la fragmentation des systèmes hérités.
-
-Verdict Terrain : En attente d'évaluation.
+> **Verdict Terrain :** L'outil SupplyMesh AI répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> Verdict VC : En attente d'évaluation.

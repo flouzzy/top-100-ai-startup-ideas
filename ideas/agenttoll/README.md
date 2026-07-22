@@ -80,10 +80,11 @@ Le modèle est purement transactionnel, agissant comme l'infrastructure de péag
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 25 / 25         | 22 / 25              |
-| **Moat / Résistance aux LLM natifs**  | 24 / 25         | 23 / 25              |
-| **Scalabilité / Friction d'adoption** | 25 / 25         | 18 / 25              |
-| **Unit Economics / ROI direct**       | 24 / 25         | 23 / 25              |
-| **TOTAL**                             | **98 / 100**    | **86 / 100**         |
+| **Thèse & Monopole / Urgence**        | 25 / 25         | 16 / 25              |
+| **Moat / Résistance aux LLM natifs**  | 24 / 25         | 21 / 25              |
+| **Scalabilité / Friction d'adoption** | 25 / 25         | 15 / 25              |
+| **Unit Economics / ROI direct**       | 24 / 25         | 24 / 25              |
+| **TOTAL**                             | **98 / 100**    | **76 / 100**         |
 
-**Verdict global :**AgentToll s'attaque au problème fondamental de l'économie des agents autonomes : la fluidité du transfert de valeur inter-machines. Avec un moat structurel d'effet de réseau et une monétisation à la volumétrie sans plafond, c'est une opportunité de créer un nouveau géant monopolistique de l'infrastructure internet.
+> **Verdict Terrain :** L'outil AgentToll répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. La clarté de sa proposition de valeur financière assure une forte disposition à payer des entreprises B2B.
+> **Verdict global :**AgentToll s'attaque au problème fondamental de l'économie des agents autonomes : la fluidité du transfert de valeur inter-machines. Avec un moat structurel d'effet de réseau et une monétisation à la volumétrie sans plafond, c'est une opportunité de créer un nouveau géant monopolistique de l'infrastructure internet.

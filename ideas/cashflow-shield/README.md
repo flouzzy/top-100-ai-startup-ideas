@@ -83,10 +83,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     22 / 25     |       24 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     23 / 25     |       21 / 25        |
-| **Scalabilité / Friction d'adoption** |     18 / 25     |       20 / 25        |
-| **Unit Economics / ROI direct**       |     24 / 25     |       25 / 25        |
+| **Thèse & Monopole / Urgence**        |     22 / 25     |       22 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     23 / 25     |       24 / 25        |
+| **Scalabilité / Friction d'adoption** |     18 / 25     |       21 / 25        |
+| **Unit Economics / ROI direct**       |     24 / 25     |       23 / 25        |
 | **TOTAL**                             |  **87 / 100**   |     **90 / 100**     |
 
-**Verdict global :**CashFlow Shield s'attaque à un marché extrêmement douloureux (le BFR des PME) avec une solution où le ROI est calculable à la virgule près dès le premier mois. La barrière à l'entrée technologique (intégrations ERP) et défensive (data propriétaire de solvabilité) en fait un excellent candidat immunisé contre les LLMs grand public.
+> **Verdict Terrain :** L'outil CashFlow Shield répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. La clarté de sa proposition de valeur financière assure une forte disposition à payer des entreprises B2B.
+> **Verdict global :**CashFlow Shield s'attaque à un marché extrêmement douloureux (le BFR des PME) avec une solution où le ROI est calculable à la virgule près dès le premier mois. La barrière à l'entrée technologique (intégrations ERP) et défensive (data propriétaire de solvabilité) en fait un excellent candidat immunisé contre les LLMs grand public.

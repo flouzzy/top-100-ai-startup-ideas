@@ -74,10 +74,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     25 / 25     |       22 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     24 / 25     |       23 / 25        |
-| **Scalabilité / Friction d'adoption** |     23 / 25     |       20 / 25        |
-| **Unit Economics / ROI direct**       |     25 / 25     |       22 / 25        |
-| **TOTAL**                             |  **97 / 100**   |     **87 / 100**     |
+| **Thèse & Monopole / Urgence**        |     25 / 25     |       15 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     24 / 25     |       20 / 25        |
+| **Scalabilité / Friction d'adoption** |     23 / 25     |       22 / 25        |
+| **Unit Economics / ROI direct**       |     25 / 25     |       15 / 25        |
+| **TOTAL**                             |  **97 / 100**   |     **72 / 100**     |
 
-**Verdict global :**Un projet hautement asymétrique avec des fondamentaux économiques parfaits pour devenir le "Stripe de l'économie Machine-to-Machine". Le risque technique est mineur face au risque d'amorçage du réseau (cold-start problem), mais si la liquidité est atteinte, le modèle est invincible.
+> **Verdict Terrain :** L'outil SynapseClearing répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> **Verdict global :**Un projet hautement asymétrique avec des fondamentaux économiques parfaits pour devenir le "Stripe de l'économie Machine-to-Machine". Le risque technique est mineur face au risque d'amorçage du réseau (cold-start problem), mais si la liquidité est atteinte, le modèle est invincible.

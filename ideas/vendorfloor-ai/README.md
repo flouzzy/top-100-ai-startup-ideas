@@ -103,12 +103,11 @@ rien". Virabilité intra-industrie (les CFO se parlent dans les réseaux).
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     18 / 25     |       -- / 25        |
-| **Moat / Résistance aux LLM natifs**  |     24 / 25     |       -- / 25        |
-| **Scalabilité / Friction d'adoption** |     18 / 25     |       -- / 25        |
-| **Unit Economics / ROI direct**       |     20 / 25     |       -- / 25        |
-| **TOTAL**                             |  **80 / 100**   |     **-- / 100**     |
+| **Thèse & Monopole / Urgence**        |     -- / 25     |       24 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       19 / 25        |
+| **Scalabilité / Friction d'adoption** |     -- / 25     |       21 / 25        |
+| **Unit Economics / ROI direct**       |     -- / 25     |       21 / 25        |
+| **TOTAL**                             |  **-- / 100**   |     **85 / 100**     |
 
-> **Verdict VC :** S'intégrer aux ERP et SSO des ETI crée un verrouillage technique exceptionnel. La friction de vente B2B est élevée, mais la valeur de rétention d'un système qui gère l'approvisionnement est massive. Bon potentiel de marge une fois l'intégration initiale amortie.
-
-Verdict Terrain : En attente d'évaluation.
+> **Verdict Terrain :** L'outil VendorFloor AI répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> Verdict VC : En attente d'évaluation.
