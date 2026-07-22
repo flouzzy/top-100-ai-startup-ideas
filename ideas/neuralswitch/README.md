@@ -62,12 +62,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| --- | --- |
-| Structure de prix | 0,5% de commission par transaction + 0.05€ par appel d'API de négociation |
-| Objectif 12 mois | 20M€ de volume transité via le protocole et 20 000 transactions |
-| Calcul du CA (Target 100k€) | (20M€ × 0,005) = 100 000€ ARR |
-| Marge brute estimée | 92% (Coûts serveurs et API très faibles) |
+| Métrique                    | Valeur                                                                    |
+| --------------------------- | ------------------------------------------------------------------------- |
+| Structure de prix           | 0,5% de commission par transaction + 0.05€ par appel d'API de négociation |
+| Objectif 12 mois            | 20M€ de volume transité via le protocole et 20 000 transactions           |
+| Calcul du CA (Target 100k€) | (20M€ × 0,005) = 100 000€ ARR                                             |
+| Marge brute estimée         | 92% (Coûts serveurs et API très faibles)                                  |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -76,13 +76,13 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
-| **TOTAL** | **-- / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     -- / 25     |       -- / 25        |
+| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       -- / 25        |
+| **Scalabilité / Friction d'adoption** |     -- / 25     |       -- / 25        |
+| **Unit Economics / ROI direct**       |     -- / 25     |       -- / 25        |
+| **TOTAL**                             |  **-- / 100**   |     **-- / 100**     |
 
 Verdict VC : En attente d'évaluation.
 
