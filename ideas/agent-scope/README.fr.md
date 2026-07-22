@@ -70,12 +70,12 @@ Moat (Barrière à l'entrée) : Infrastructure de reverse proxy réseau. Un conc
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 20 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 22 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
+| **TOTAL**                         | **89 / 100**    | **-- / 100**         |
 
-Verdict VC : En attente d'évaluation.
+> **Verdict VC :** La fourniture de jetons éphémères au moindre privilège (Just-in-Time) est une norme de sécurité indispensable. Cela prévient directement les actions catastrophiques des agents, vendant de la tranquillité d'esprit via l'infrastructure. Le moat réside dans l'intégration profonde aux passerelles API.
 
 > **Verdict Terrain :** En attente d'évaluation.

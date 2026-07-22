@@ -110,12 +110,13 @@ sequenceDiagram
 
 | Critère                               |  Score VC (/100)  |    Score Terrain (/100)     |
 | :------------------------------------ | :---------------: | :-------------------------: |
-| **Thèse & Monopole / Urgence**        |      -- / 25      |           -- / 25           |
-| **Moat / Résistance aux LLM natifs**  |      -- / 25      |           -- / 25           |
-| **Scalabilité / Friction d'adoption** |      -- / 25      |           -- / 25           |
-| **Unit Economics / ROI direct**       |      -- / 25      |           -- / 25           |
-| **TOTAL**                             | **En évaluation** | **En attente d'évaluation** |
+| **Thèse & Monopole / Urgence**        |      20 / 25      |           -- / 25           |
+| **Moat / Résistance aux LLM natifs**  |      23 / 25      |           -- / 25           |
+| **Scalabilité / Friction d'adoption** |      21 / 25      |           -- / 25           |
+| **Unit Economics / ROI direct**       |      22 / 25      |           -- / 25           |
+| **TOTAL**                             | **86 / 100** | **En attente d'évaluation** |
 
+> **Verdict VC :** L'application des principes Zero Trust aux agents IA puise dans les budgets et modèles mentaux existants des RSSI. L'intégration profonde en entreprise offre un solide fossé contre les wrappers IA génériques. Un chemin clair vers la monétisation via des licences par agent.
 > **Verdict Terrain :** En attente d'évaluation.
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** L'application des principes Zero Trust aux agents IA puise dans les budgets et modèles mentaux existants des RSSI. L'intégration profonde en entreprise offre un solide fossé contre les wrappers IA génériques. Un chemin clair vers la monétisation via des licences par agent.

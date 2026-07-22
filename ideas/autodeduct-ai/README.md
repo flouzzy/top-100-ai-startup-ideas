@@ -81,12 +81,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     -- / 25     |       -- / 25        |
-| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       -- / 25        |
-| **Scalabilité / Friction d'adoption** |     -- / 25     |       -- / 25        |
-| **Unit Economics / ROI direct**       |     -- / 25     |       -- / 25        |
-| **TOTAL**                             |  **-- / 100**   |     **-- / 100**     |
+| **Thèse & Monopole / Urgence**        |     19 / 25     |       -- / 25        |
+| **Moat / Résistance aux LLM natifs**  |     21 / 25     |       -- / 25        |
+| **Scalabilité / Friction d'adoption** |     20 / 25     |       -- / 25        |
+| **Unit Economics / ROI direct**       |     25 / 25     |       -- / 25        |
+| **TOTAL**                             |  **85 / 100**   |     **-- / 100**     |
 
-Verdict VC : En attente d'évaluation.
+> **Verdict VC :** Contester les déductions commerciales est un cas d'usage ROIste pur et immédiat. Le client voit l'argent récupéré, rendant la vente évidente. Le moat se construit sur la base de données des contestations réussies face aux distributeurs.
 
 Verdict Terrain : En attente d'évaluation.

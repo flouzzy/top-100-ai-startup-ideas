@@ -70,11 +70,11 @@ Moat (Defensibility): Specialized deterministic and lightweight heuristic saniti
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 20 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 22 / 25         | -- / 25             |
+| Scalability / UX Friction   | 24 / 25         | -- / 25             |
+| Unit Economics / ROI        | 24 / 25         | -- / 25             |
+| **TOTAL**                   | **90 / 100**    | **-- / 100**        |
 
-VC Verdict: Pending evaluation.
+> **VC Verdict:** Protecting vector databases from indirect prompt injection is a critical, unmet need. It sits directly in the data flow, capturing highly valuable traffic data. Extremely scalable and easy to monetize on a per-query basis.
 Market Verdict: Pending evaluation.
