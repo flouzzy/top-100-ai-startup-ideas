@@ -55,8 +55,8 @@ littéralement du cash tous les mois sans aucun ROI.
 
 ## 4. Architecture technique & Plomberie
 
-*L'intelligence ne réside pas dans l'agent conversationnel, mais dans l'accès
-aux flux de données SSO et la base vectorielle des contrats passés.*
+_L'intelligence ne réside pas dans l'agent conversationnel, mais dans l'accès
+aux flux de données SSO et la base vectorielle des contrats passés._
 
 ```mermaid
 sequenceDiagram
@@ -75,12 +75,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| :--- | :--- |
-| **Structure de prix** | Aucun frais d'installation. Commission de **20% sur les économies réalisées** (Success Fee) pendant 1 an. |
-| **Objectif 12 mois** | **10 clients ETI** actifs avec une économie moyenne identifiée et négociée de 50 000 € / an par client. |
-| **Calcul du CA (Target 100k€)** | $10 \text{ clients} \times 50 000 € \text{ (économies)} \times 0.20 \text{ (Commission)} = 100 000 € \text{ ARR}$ |
-| **Marge brute estimée** | **90%** (Les coûts d'inférence LLM et d'infrastructure de base de données sont négligeables par rapport à la valeur du contrat négocié). |
+| Métrique                        | Valeur                                                                                                                                   |
+| :------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| **Structure de prix**           | Aucun frais d'installation. Commission de **20% sur les économies réalisées** (Success Fee) pendant 1 an.                                |
+| **Objectif 12 mois**            | **10 clients ETI** actifs avec une économie moyenne identifiée et négociée de 50 000 € / an par client.                                  |
+| **Calcul du CA (Target 100k€)** | $10 \text{ clients} \times 50 000 € \text{ (économies)} \times 0.20 \text{ (Commission)} = 100 000 € \text{ ARR}$                        |
+| **Marge brute estimée**         | **90%** (Les coûts d'inférence LLM et d'infrastructure de base de données sont négligeables par rapport à la valeur du contrat négocié). |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -91,23 +91,23 @@ rien". Virabilité intra-industrie (les CFO se parlent dans les réseaux).
 
 **Moat (Barrière à l'entrée) : L'effet réseau de données (Data Network Effect).**
 
-* Les LLM de base d'OpenAI ou Google n'ont pas accès aux données transactionnelles
-et contractuelles privées.
-* Plus VendorFloor AI négocie de contrats, plus sa base de données des "prix
-planchers" par éditeur et par volume devient exhaustive et infaillible. Un
-concurrent qui se lance le jour J n'aura aucune donnée sur les prix réellement
-négociables et se fera berner par les commerciaux. Le moat est le registre
-distribué privé des vrais prix du marché SaaS.
+- Les LLM de base d'OpenAI ou Google n'ont pas accès aux données transactionnelles
+  et contractuelles privées.
+- Plus VendorFloor AI négocie de contrats, plus sa base de données des "prix
+  planchers" par éditeur et par volume devient exhaustive et infaillible. Un
+  concurrent qui se lance le jour J n'aura aucune donnée sur les prix réellement
+  négociables et se fera berner par les commerciaux. Le moat est le registre
+  distribué privé des vrais prix du marché SaaS.
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
-| **TOTAL** | **-- / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     -- / 25     |       -- / 25        |
+| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       -- / 25        |
+| **Scalabilité / Friction d'adoption** |     -- / 25     |       -- / 25        |
+| **Unit Economics / ROI direct**       |     -- / 25     |       -- / 25        |
+| **TOTAL**                             |  **-- / 100**   |     **-- / 100**     |
 
 Verdict VC : En attente d'évaluation.
 

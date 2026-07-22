@@ -80,13 +80,13 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| :--- | :--- |
-| **Structure de prix** | Abonnement SaaS d'intégration (1 500€/mois) + 0,5% de commission M2M par transaction |
-| **Objectif 12 mois** | Atteindre 100k€ de revenus annuels récurrents/frais |
-| **Clients nécessaires** | 5 industriels actifs faisant transiter chacun 1M€ d'achats via le réseau/an |
-| **Calcul du CA (Target 100k€)** | (5 clients *18 000€ SaaS/an) + (5M€ GMV* 0,5% de frais) = 90 000 + 25 000 = 115 000€ |
-| **Marge brute estimée** | 92% (Coûts marginaux très faibles post-intégration, peu d'inférence LLM) |
+| Métrique                        | Valeur                                                                               |
+| :------------------------------ | :----------------------------------------------------------------------------------- |
+| **Structure de prix**           | Abonnement SaaS d'intégration (1 500€/mois) + 0,5% de commission M2M par transaction |
+| **Objectif 12 mois**            | Atteindre 100k€ de revenus annuels récurrents/frais                                  |
+| **Clients nécessaires**         | 5 industriels actifs faisant transiter chacun 1M€ d'achats via le réseau/an          |
+| **Calcul du CA (Target 100k€)** | (5 clients _18 000€ SaaS/an) + (5M€ GMV_ 0,5% de frais) = 90 000 + 25 000 = 115 000€ |
+| **Marge brute estimée**         | 92% (Coûts marginaux très faibles post-intégration, peu d'inférence LLM)             |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -98,13 +98,13 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
-| **TOTAL** | **-- / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     -- / 25     |       -- / 25        |
+| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       -- / 25        |
+| **Scalabilité / Friction d'adoption** |     -- / 25     |       -- / 25        |
+| **Unit Economics / ROI direct**       |     -- / 25     |       -- / 25        |
+| **TOTAL**                             |  **-- / 100**   |     **-- / 100**     |
 
 Verdict VC : En attente d'évaluation.
 

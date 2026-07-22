@@ -59,12 +59,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                        | Valeur                                                                                                  |
-| :------------------------------ | :------------------------------------------------------------------------------------------------------ |
-| **Structure de prix**           | Abonnement Infrastructure (500€/mois/usine) + Commission (1.5% par transaction M2M)                     |
-| **Objectif 12 mois**            | 20 usines connectées (SaaS) + 200 000€/mois en flux de transactions                                     |
+| Métrique                        | Valeur                                                                                              |
+| :------------------------------ | :-------------------------------------------------------------------------------------------------- |
+| **Structure de prix**           | Abonnement Infrastructure (500€/mois/usine) + Commission (1.5% par transaction M2M)                 |
+| **Objectif 12 mois**            | 20 usines connectées (SaaS) + 200 000€/mois en flux de transactions                                 |
 | **Calcul du CA (Target 100k€)** | (20 usines _500€_ 12 mois = 120 000€) + (200 000€ GMV/mois _1.5%_ 12 mois = 36 000€) = 156 000€ ARR |
-| **Marge brute estimée**         | 85% (Coûts serveurs et API minimes par rapport au volume de transaction)                                |
+| **Marge brute estimée**         | 85% (Coûts serveurs et API minimes par rapport au volume de transaction)                            |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -73,13 +73,13 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
-| **TOTAL** | **-- / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     -- / 25     |       -- / 25        |
+| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       -- / 25        |
+| **Scalabilité / Friction d'adoption** |     -- / 25     |       -- / 25        |
+| **Unit Economics / ROI direct**       |     -- / 25     |       -- / 25        |
+| **TOTAL**                             |  **-- / 100**   |     **-- / 100**     |
 
 Verdict VC : En attente d'évaluation.
 
