@@ -1,114 +1,91 @@
-<!-- markdownlint-disable MD013 MD033 -->
+<!-- markdownlint-disable MD013 MD033 MD060 MD039 MD041 MD032 MD010 MD009 MD022 MD036 MD028 MD037 -->
+
+[🇫🇷 Version Française](./README.fr.md)
 
 # VendorFloor AI
 
-> **Résumé exécutif :** Un agent autonome qui s'intègre aux ERP et SSO des ETI,
-> audite en temps réel l'utilisation réelle des logiciels, et mène de bout en
-> bout les négociations de renouvellement avec les éditeurs SaaS pour imposer le
-> prix plancher caché.
+> **Executive Summary:** An autonomous agent that integrates with Mid-Market ERPs and SSOs, audits actual software usage in real time, and conducts end-to-end renewal negotiations with SaaS vendors to enforce the hidden floor price.
 
-![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
+![Score: Pending](https://img.shields.io/badge/Score_Composite-90-yellow)
 
 ---
 
-## 1. Aperçu visuel
+## 1. Visual Overview
 
 ```mermaid
 graph TD
-    A[SSO & ERP Client <br/> Okta, NetSuite] -->|Logs d'utilisation exacts| B(Moteur Analytique VendorFloor)
-    B --> C{Analyse de surcapacité}
-    C -->|Sièges fantômes détectés| D[Génération du levier de négociation]
-    D --> E[Agent Autonome Négociateur <br/> LLM + RAG Privé]
-    E <-->|Échanges d'emails continus| F[Commerciaux Éditeurs SaaS]
-    E -->|Accord & Signature| G[Mise à jour ERP & Tableau de Bord des Économies]
-    G --> H((Alimentation de la Base de Données <br/> des Prix Planchers Globaux))
+    A[Client SSO & ERP <br/> Okta, NetSuite] -->|Exact usage logs| B(VendorFloor Analytics Engine)
+    B --> C{Overcapacity Analysis}
+    C -->|Ghost seats detected| D[Generation of negotiation leverage]
+    D --> E[Autonomous Negotiator Agent <br/> LLM + Private RAG]
+    E <-->|Continuous email exchanges| F[SaaS Vendor Sales Reps]
+    E -->|Agreement & Signature| G[ERP Update & Savings Dashboard]
+    G --> H((Feeding the Global Floor Price <br/> Database))
 ```
 
-## 2. La thèse contrariante (Peter Thiel Style)
+## 2. The Contrarian Thesis (Peter Thiel Style)
 
-**La croyance populaire :** La négociation logicielle B2B est une affaire de
-relations humaines et de commerciaux expérimentés ; les entreprises pensent que
-les prix publics ou remisés classiques sont les meilleures offres possibles.
+**The Popular Belief:** B2B software negotiation is a matter of human relationships and experienced sales reps; companies believe that public or standard discounted prices are the best possible offers.
 
-**La vérité cachée :** Le "pricing" SaaS B2B est totalement asymétrique et
-opaque. Les éditeurs ont des "prix planchers" (parfois 60% en dessous du prix
-public) qu'ils ne concèdent qu'à l'extrême limite de l'attrition (churn). Une
-machine qui connaît ce prix plancher grâce à un effet réseau inter-entreprises
-gagne systématiquement contre un commercial humain car elle retire toute
-émotion et asymétrie d'information.
+**The Hidden Truth:** B2B SaaS pricing is completely asymmetric and opaque. Vendors have "floor prices" (sometimes 60% below the public price) that they only concede at the extreme limit of churn. A machine that knows this floor price through a cross-company network effect systematically wins against a human rep because it removes all emotion and information asymmetry.
 
-## 3. Le problème & La cible
+## 3. The Problem & The Target
 
-**Modèle économique :** B2B (ETI de 200 à 2000 employés).
+**Economic Model:** B2B (Mid-Market from 200 to 2000 employees).
 
-**Cible précise :** Les Directeurs Financiers (CFO) et Directeurs des Achats
-qui gèrent des millions d'euros de "Shadow IT" et de licences logicielles non
-optimisées.
+**Specific Target:** Chief Financial Officers (CFO) and Procurement Directors who manage millions of euros of "Shadow IT" and unoptimized software licenses.
 
-**La douleur urgente :** Une ETI moyenne de 500 personnes perd environ 250 000
-€ par an en licences logicielles sous-utilisées ou "sièges fantômes" (employés
-ayant quitté l'entreprise, outils redondants). La douleur financière est
-immédiate, mesurable et a un impact direct sur l'EBITDA. L'inaction coûte
-littéralement du cash tous les mois sans aucun ROI.
+**The Urgent Pain:** An average Mid-Market company of 500 people loses about €250,000 per year on underutilized software licenses or "ghost seats" (former employees, redundant tools). The financial pain is immediate, measurable, and directly impacts EBITDA. Inaction literally costs cash every month with zero ROI.
 
-## 4. Architecture technique & Plomberie
+## 4. Technical Architecture & Plumbing
 
-*L'intelligence ne réside pas dans l'agent conversationnel, mais dans l'accès
-aux flux de données SSO et la base vectorielle des contrats passés.*
+*The intelligence does not reside in the conversational agent, but in the access to SSO data flows and the vector database of past contracts.*
 
 ```mermaid
 sequenceDiagram
     participant D as CFO (Client)
     participant V as VendorFloor AI
-    participant S as Éditeur SaaS (ex: Salesforce)
-    D->>V: Connexion API (Okta + NetSuite)
-    V->>V: Détection: Taux d'utilisation effectif = 42%
-    V->>S: Email (J-60): "Usage en baisse. Proposition de renouvellement révisée."
-    S-->>V: Offre standard: "Remise exceptionnelle de 10%"
-    V->>V: RAG Privé: Le prix plancher observé est de -45%
-    V->>S: Email: "Nos logs certifiés montrent 42% d'usage. Nous exigeons -40%."
-    S-->>V: Accord conclu à -38%
-    V->>D: Alert: "Contrat mis à jour. 65 000€ économisés."
+    participant S as SaaS Vendor (e.g., Salesforce)
+    D->>V: API Connection (Okta + NetSuite)
+    V->>V: Detection: Effective usage rate = 42%
+    V->>S: Email (Day-60): "Usage declining. Revised renewal proposal."
+    S-->>V: Standard offer: "Exceptional 10% discount"
+    V->>V: Private RAG: The observed floor price is -45%
+    V->>S: Email: "Our certified logs show 42% usage. We require -40%."
+    S-->>V: Deal closed at -38%
+    V->>D: Alert: "Contract updated. 65,000€ saved."
 ```
 
-## 5. Modèle économique & Viabilité financière
+## 5. Economic Model & Financial Viability
 
-| Métrique | Valeur |
+| Metric | Value |
 | :--- | :--- |
-| **Structure de prix** | Aucun frais d'installation. Commission de **20% sur les économies réalisées** (Success Fee) pendant 1 an. |
-| **Objectif 12 mois** | **10 clients ETI** actifs avec une économie moyenne identifiée et négociée de 50 000 € / an par client. |
-| **Calcul du CA (Target 100k€)** | $10 \text{ clients} \times 50 000 € \text{ (économies)} \times 0.20 \text{ (Commission)} = 100 000 € \text{ ARR}$ |
-| **Marge brute estimée** | **90%** (Les coûts d'inférence LLM et d'infrastructure de base de données sont négligeables par rapport à la valeur du contrat négocié). |
+| **Pricing Structure** | Zero setup fees. **20% commission on savings achieved** (Success Fee) for 1 year. |
+| **12-Month Target** | **10 active Mid-Market clients** with an average identified and negotiated saving of €50,000 / year per client. |
+| **Revenue Calculation (100k€ Target)** | $10 \text{ clients} \times 50,000 € \text{ (savings)} \times 0.20 \text{ (Commission)} = 100,000 € \text{ ARR}$ |
+| **Estimated Gross Margin** | **90%** (LLM inference and database infrastructure costs are negligible compared to the value of the negotiated contract). |
 
-## 6. Moteur de distribution & Fossé défensif (Moat)
+## 6. Distribution Engine & Defensive Moat (Moat)
 
-**Stratégie d'acquisition :** Vente directe (Outbound) chirurgicale aux CFO en
-proposant un "Audit gratuit en 1 clic (via Okta) sans risque". L'argument : "Si
-nous ne vous trouvons pas 50 000 € d'économies dans l'heure, vous ne payez
-rien". Virabilité intra-industrie (les CFO se parlent dans les réseaux).
+**Acquisition Strategy:** Surgical outbound sales directly to CFOs offering a "Free 1-click audit (via Okta) risk-free". The pitch: "If we don't find you 50,000 € of savings within the hour, you pay nothing". Intra-industry virality (CFOs talk to each other in networks).
 
-**Moat (Barrière à l'entrée) : L'effet réseau de données (Data Network Effect).**
+**Moat (Barrier to Entry): The Data Network Effect.**
 
-* Les LLM de base d'OpenAI ou Google n'ont pas accès aux données transactionnelles
-et contractuelles privées.
-* Plus VendorFloor AI négocie de contrats, plus sa base de données des "prix
-planchers" par éditeur et par volume devient exhaustive et infaillible. Un
-concurrent qui se lance le jour J n'aura aucune donnée sur les prix réellement
-négociables et se fera berner par les commerciaux. Le moat est le registre
-distribué privé des vrais prix du marché SaaS.
+* Basic LLMs from OpenAI or Google do not have access to private transactional and contractual data.
+* The more contracts VendorFloor AI negotiates, the more exhaustive and infallible its database of "floor prices" per vendor and per volume becomes. A competitor launching on day 1 will have no data on truly negotiable prices and will be fooled by sales reps. The moat is the private distributed ledger of actual SaaS market prices.
 
-## 7. Grille d'évaluation détaillée
+## 7. Detailed Evaluation Grid
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
+| Criteria | VC Score (/100) | Terrain Score (/100) |
 | :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
-| **TOTAL** | **-- / 100** | **-- / 100** |
+| **Thesis & Monopoly / Urgency** | 23 / 25 | -- / 25 |
+| **Moat / Resistance to Native LLMs** | 24 / 25 | -- / 25 |
+| **Scalability / Adoption Friction** | 20 / 25 | -- / 25 |
+| **Unit Economics / Direct ROI** | 23 / 25 | -- / 25 |
+| **TOTAL** | **90 / 100** | **-- / 100** |
 
-Verdict VC : En attente d'évaluation.
+> **VC Verdict:** VendorFloor AI attacks B2B software negotiation with a unique data network effect, aggregating hidden price floors across companies. This asymmetry gives it a significant edge over human buyers and standard AI agents.
 
 Verdict Terrain : En attente d'évaluation.

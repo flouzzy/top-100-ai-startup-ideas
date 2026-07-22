@@ -1,91 +1,94 @@
-<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD013 MD033 MD060 MD039 MD041 MD032 MD010 MD009 MD022 MD036 MD028 MD037 -->
+
+[🇫🇷 Version Française](./README.fr.md)
+
 # AutoDeduct AI
 
-> **Résumé exécutif :** AutoDeduct AI est un agent financier autonome qui récupère automatiquement les millions d'euros perdus par les marques CPG (Consumer Packaged Goods) en contestant systématiquement et sans intervention humaine les déductions commerciales abusives des grands distributeurs (Amazon, Carrefour, Walmart).
+> **Executive Summary:** AutoDeduct AI is an autonomous financial agent that automatically recovers the millions of euros lost by CPG (Consumer Packaged Goods) brands by systematically, without human intervention, contesting abusive trade deductions from major retailers (Amazon, Carrefour, Walmart).
 
-![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
+![Score: Pending](https://img.shields.io/badge/Score_Composite-91-yellow)
 
 ---
 
-## 1. Aperçu visuel
+## 1. Visual Overview
 
 ```mermaid
 graph TD
-    A[Facture de 100 000€ émise] --> B(Paiement Distributeur: 96 000€)
-    B -->|Déduction Abusive 4 000€| C{Agent AutoDeduct}
-    C -->|Collecte EDI & Preuves de Livraison| D[Génération automatisée du dossier de contestation]
-    D --> E[Soumission Portail Distributeur via API/RPA]
-    E --> F((Récupération de 3 500€ de Marge Nette))
+    A[Invoice of 100,000€ issued] --> B(Retailer Payment: 96,000€)
+    B -->|Abusive Deduction 4,000€| C{AutoDeduct Agent}
+    C -->|Collects EDI & Proofs of Delivery| D[Automated dispute file generation]
+    D --> E[Retailer Portal Submission via API/RPA]
+    E --> F((Recovery of 3,500€ Net Margin))
     style C fill:#f9f,stroke:#333,stroke-width:4px
     style F fill:#bfb,stroke:#333,stroke-width:2px
 ```
 
-## 2. La thèse contrariante (Peter Thiel Style)
+## 2. The Contrarian Thesis (Peter Thiel Style)
 
-**La croyance populaire :** L'IA générative va principalement révolutionner la création de contenu (textes, images, code) et remplacer les emplois créatifs ou de service client.
+**The Popular Belief:** Generative AI will primarily revolutionize content creation (texts, images, code) and replace creative or customer service jobs.
 
-**La vérité cachée :** L'opportunité la plus lucrative et la plus urgente pour l'IA se trouve dans l'automatisation agressive des litiges financiers inter-entreprises (B2B). Les méga-distributeurs utilisent la friction administrative (portails complexes, preuves impossibles à réunir) pour rogner les marges de leurs fournisseurs. Récupérer cet argent volé par l'attrition administrative est une proposition de valeur à ROI instantané et quantifiable au centime près, que les LLMs grand public sont incapables de réaliser seuls.
+**The Hidden Truth:** The most lucrative and urgent opportunity for AI is in the aggressive automation of B2B financial disputes. Mega-retailers use administrative friction (complex portals, impossible-to-gather proofs) to shave margins off their suppliers. Recovering this money stolen through administrative attrition is a value proposition with instant, cent-accurate measurable ROI, something consumer-grade LLMs cannot do alone.
 
-## 3. Le problème & La cible
+## 3. The Problem & The Target
 
-**Modèle économique :** B2B (Software-as-a-Service avec commission sur performance)
+**Economic Model:** B2B (Software-as-a-Service with performance commission)
 
-**Cible précise :** Marques de biens de grande consommation (CPG / FMCG) réalisant entre 10M€ et 250M€ de chiffre d'affaires, vendant à la grande distribution physique et e-commerce (Amazon Vendor Central, Walmart, Carrefour).
+**Specific Target:** Fast-Moving Consumer Goods (CPG / FMCG) brands generating between €10M and €250M in revenue, selling to physical retail and e-commerce (Amazon Vendor Central, Walmart, Carrefour).
 
-**La douleur urgente :** Les distributeurs appliquent automatiquement des pénalités (chargebacks, shortages) représentant 2% à 5% du CA brut pour des motifs souvent erronés ("livraison en retard", "palette non conforme"). Pour contester une pénalité de 200€, un employé doit passer 45 minutes à croiser la facture, le bon de livraison (POD) scanné et l'EDI. Résultat : les marques abandonnent la majorité de ces créances. C'est une perte sèche de marge nette (souvent 10 à 20% de leur rentabilité globale).
+**The Urgent Pain:** Retailers automatically apply penalties (chargebacks, shortages) representing 2% to 5% of gross revenue for often erroneous reasons ("late delivery", "non-compliant pallet"). To contest a €200 penalty, an employee must spend 45 minutes cross-referencing the invoice, the scanned proof of delivery (POD), and the EDI. Result: brands abandon the majority of these receivables. This is a dead loss of net margin (often 10 to 20% of their overall profitability).
 
-## 4. Architecture technique & Plomberie
+## 4. Technical Architecture & Plumbing
 
 ```mermaid
 sequenceDiagram
-    participant ERP as ERP Client (ex: NetSuite)
-    participant AutoDeduct as AutoDeduct AI (Orchestrateur)
+    participant ERP as Client ERP (e.g., NetSuite)
+    participant AutoDeduct as AutoDeduct AI (Orchestrator)
     participant LLM as Vision LLM (Extraction)
-    participant Portal as Portail Distributeur
+    participant Portal as Retailer Portal
 
-    ERP->>AutoDeduct: Envoi quotidien des statuts de paiement
-    AutoDeduct->>AutoDeduct: Détection d'un paiement partiel (Shortage)
-    AutoDeduct->>ERP: Requête Facture (PDF) + Bon de Livraison (Image POD)
-    ERP-->>AutoDeduct: Fichiers bruts
-    AutoDeduct->>LLM: Extraction des signatures et quantités du POD scanné
-    LLM-->>AutoDeduct: JSON structuré (Quantité livrée validée)
-    AutoDeduct->>AutoDeduct: Rapprochement Facture vs Preuve de Livraison
-    AutoDeduct->>Portal: Connexion RPA/API et soumission automatique de la contestation avec pièces jointes
-    Portal-->>AutoDeduct: Ticket de litige créé
-    AutoDeduct-->>ERP: Mise à jour comptable (Créance en recouvrement)
+    ERP->>AutoDeduct: Daily send of payment statuses
+    AutoDeduct->>AutoDeduct: Detection of partial payment (Shortage)
+    AutoDeduct->>ERP: Request Invoice (PDF) + Delivery Note (POD Image)
+    ERP-->>AutoDeduct: Raw files
+    AutoDeduct->>LLM: Extraction of signatures and quantities from scanned POD
+    LLM-->>AutoDeduct: Structured JSON (Validated delivered quantity)
+    AutoDeduct->>AutoDeduct: Invoice vs Proof of Delivery reconciliation
+    AutoDeduct->>Portal: RPA/API connection and automatic submission of dispute with attachments
+    Portal-->>AutoDeduct: Dispute ticket created
+    AutoDeduct-->>ERP: Accounting update (Receivable in recovery)
 ```
 
-## 5. Modèle économique & Viabilité financière
+## 5. Economic Model & Financial Viability
 
-| Métrique | Valeur |
+| Metric | Value |
 | :--- | :--- |
-| **Structure de prix** | Modèle hybride : 1000€/mois (frais fixes d'intégration) + 15% de commission (Success Fee) sur les sommes récupérées. |
-| **Objectif 12 mois** | 20 clients récupérant en moyenne 35 000€ par mois chacun. |
-| **Calcul du CA (Target 100k€)** | Fixe : 20*1000 = 20k€. Commission : (20* 35k€ *15%) = 105k€. Total mensuel : 125k€ (ARR potentiel > 1M€). Pour atteindre 100k€ d'ARR, seuls**2 à 3 clients** sont nécessaires (Ex: 3 clients*12k€ fixe/an + 20k€ comm/an = 96k€ ARR). |
-| **Marge brute estimée** | 85% (Coûts principaux : appels API LLM vision pour l'OCR des PODs, hébergement, RPA). |
+| **Pricing Structure** | Hybrid model: 1,000€/month (fixed integration fees) + 15% commission (Success Fee) on recovered amounts. |
+| **12-Month Target** | 20 clients recovering an average of 35,000€ per month each. |
+| **Revenue Calculation (100k€ Target)** | Fixed: 20 * 1000 = 20k€. Commission: (20 * 35k€ * 15%) = 105k€. Monthly total: 125k€ (Potential ARR > 1M€). To reach 100k€ ARR, only **2 to 3 clients** are needed (Ex: 3 clients * 12k€ fixed/yr + 20k€ comm/yr = 96k€ ARR). |
+| **Estimated Gross Margin** | 85% (Main costs: Vision LLM API calls for POD OCR, hosting, RPA). |
 
-## 6. Moteur de distribution & Fossé défensif (Moat)
+## 6. Distribution Engine & Defensive Moat (Moat)
 
-**Stratégie d'acquisition :** Vente directe (Outbound) chirurgicale ciblant les CFOs et Directeurs Supply Chain. L'approche est un audit gratuit : "Donnez-nous l'accès en lecture à votre portail Amazon Vendor pendant 48h, nous vous dirons exactement combien de centaines de milliers d'euros vous n'avez pas réclamés les 6 derniers mois. Vous ne payez que si nous les récupérons pour vous."
+**Acquisition Strategy:** Surgical outbound sales targeting CFOs and Supply Chain Directors. The approach is a free audit: "Give us read-only access to your Amazon Vendor portal for 48 hours, we will tell you exactly how many hundreds of thousands of euros you haven't claimed in the last 6 months. You only pay if we recover them for you."
 
-**Moat (Barrière à l'entrée) :**
+**Moat (Barrier to Entry):**
 
-1. **Intégration et plomberie (Data Moat) :** Un LLM comme ChatGPT est aveugle aux systèmes fermés. Le vrai produit est la tuyauterie : se connecter à NetSuite, SAP, extraire des EDI 856 (Avis d'expédition), et manipuler des portails distributeurs archaïques via RPA (Robotic Process Automation) car ils n'ont pas d'APIs publiques pour les litiges.
-2. **Proprietary Dataset :** En traitant des dizaines de milliers de bons de livraison griffonnés à la main par des chauffeurs routiers, le modèle Vision s'affine spécifiquement sur la lecture des "Proof of Delivery" de l'industrie du transport, devenant intraitable par rapport à un OCR générique.
-3. **Switching Cost :** Une fois le système branché et l'argent qui coule automatiquement chaque mois vers le compte en banque du client, le désabonnement (churn) est pratiquement nul ("Sticky product").
+1. **Integration and Plumbing (Data Moat):** An LLM like ChatGPT is blind to closed systems. The real product is the plumbing: connecting to NetSuite, SAP, extracting 856 EDIs (Advance Ship Notices), and manipulating archaic retailer portals via RPA (Robotic Process Automation) because they have no public APIs for disputes.
+2. **Proprietary Dataset:** By processing tens of thousands of delivery notes hand-scribbled by truck drivers, the Vision model is specifically fine-tuned on reading "Proof of Delivery" documents of the transport industry, becoming untouchable compared to generic OCR.
+3. **Switching Cost:** Once the system is plugged in and the money automatically flows into the client's bank account every month, churn is practically non-existent ("Sticky product").
 
-## 7. Grille d'évaluation détaillée
+## 7. Detailed Evaluation Grid
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
+| Criteria | VC Score (/100) | Terrain Score (/100) |
 | :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
-| **TOTAL** | **-- / 100** | **-- / 100** |
+| **Thesis & Monopoly / Urgency** | 23 / 25 | -- / 25 |
+| **Moat / Resistance to Native LLMs** | 22 / 25 | -- / 25 |
+| **Scalability / Adoption Friction** | 22 / 25 | -- / 25 |
+| **Unit Economics / Direct ROI** | 24 / 25 | -- / 25 |
+| **TOTAL** | **91 / 100** | **-- / 100** |
 
-Verdict VC : En attente d'évaluation.
+> **VC Verdict:** AutoDeduct AI targets a highly specific and lucrative pain point: recovering abusive trade deductions from mega-retailers. The immediate ROI and specialized transport-document OCR create an untouchable B2B value proposition.
 
 Verdict Terrain : En attente d'évaluation.

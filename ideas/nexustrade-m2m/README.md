@@ -1,49 +1,54 @@
-<!-- markdownlint-disable MD013 MD033 -->
+<!-- markdownlint-disable MD013 MD033 MD060 MD039 MD041 MD032 MD010 MD009 MD022 MD036 MD028 MD037 -->
+
+[🇫🇷 Version Française](./README.fr.md)
 
 # NexusTrade M2M
 
-> **Résumé exécutif :** Un protocole d'infrastructure Machine-to-Machine permettant aux agents d'intelligence artificielle autonomes de négocier, d'acheter et de vendre des ressources numériques (API, données, cycles de calcul) entre eux en temps réel, avec règlement par micro-transactions.
+> **Executive Summary:** A Machine-to-Machine infrastructure protocol allowing autonomous artificial intelligence agents to negotiate, buy and sell digital resources (APIs, data, compute cycles) amongst themselves in real-time, with settlement via micro-transactions.
 
-![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
+![Type: M2M](https://img.shields.io/badge/Model-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
+![Score: Pending](https://img.shields.io/badge/Score_Composite-88-yellow)
 
 ---
 
-## 1. Aperçu visuel
+## 1. Visual Overview
 
 ```mermaid
 graph TD
-    A[Agent IA Acheteur\nEx: Agent d'Analyse Fin.] -->|Requête d'information pure| B{NexusTrade Router}
-    C[Agent IA Vendeur\nEx: Bot de Scraping Spécialisé] -->|Offre de capacité/data| B
-    B -->|Match & Négociation autonome| D[Contrat Exécuté en ms]
-    D --> E[Transfert de Data Sécurisé]
-    D --> F[Micro-règlement financier\nClearing direct]
+    A[Buyer AI Agent
+E.g. Fin. Analysis Agent] -->|Pure information request| B{NexusTrade Router}
+    C[Seller AI Agent
+E.g. Specialized Scraping Bot] -->|Capacity/data offer| B
+    B -->|Autonomous Match & Negotiation| D[Contract Executed in ms]
+    D --> E[Secure Data Transfer]
+    D --> F[Financial micro-settlement
+Direct clearing]
 ```
 
-## 2. La thèse contrariante (Peter Thiel Style)
+## 2. The Contrarian Thesis (Peter Thiel Style)
 
-**La croyance populaire :** Les LLM vont remplacer toutes les interfaces logicielles, et la monétisation se fera exclusivement par des humains payant des abonnements mensuels récurrents (SaaS) ou des jetons API.
+**The Popular Belief:** LLMs will replace all software interfaces, and monetization will exclusively be done by humans paying recurring monthly subscriptions (SaaS) or API tokens.
 
-**La vérité cachée :** Les futurs plus gros consommateurs de services numériques ne seront pas des humains, mais d'autres IA. L'économie émergente des agents autonomes nécessitera une place de marché fluide et des micro-paiements pour acquérir ponctuellement des "compétences" externes de machine à machine (M2M), sans la friction des abonnements humains préalables. L'argent circulera directement d'une IA à une autre.
+**The Hidden Truth:** The biggest consumers of digital services in the future will not be humans, but other AIs. The emerging economy of autonomous agents will require a fluid marketplace and micro-payments to acquire ad-hoc external "skills" from machine to machine (M2M), without the friction of upfront human subscriptions. Money will flow directly from one AI to another.
 
-## 3. Le problème & La cible
+## 3. The Problem & The Target
 
-* **Modèle économique :** M2M (Infrastructure sous-jacente B2B)
-* **Cible précise :** Éditeurs d'agents IA, entreprises SaaS avec des workflows autonomes complexes, créateurs de bots spécialisés.
-* **La douleur urgente :** Gérer des clés API statiques, des abonnements mensuels rigides et des limites de requêtes pour chaque micro-service tiers dont une IA a temporairement besoin freine massivement l'autonomie. Le coût temporel et opérationnel pour un développeur de maintenir toutes ces intégrations est insoutenable à l'échelle de l'Agentic Web.
+* **Economic Model:** M2M (Underlying B2B Infrastructure)
+* **Specific Target:** AI agent publishers, SaaS companies with complex autonomous workflows, specialized bot creators.
+* **The Urgent Pain:** Managing static API keys, rigid monthly subscriptions, and rate limits for every third-party micro-service an AI temporarily needs massively hinders autonomy. The time and operational cost for a developer to maintain all these integrations is unsustainable at the scale of the Agentic Web.
 
-## 4. Architecture technique & Plomberie
+## 4. Technical Architecture & Plumbing
 
-**Extrait de code :**
+**Code Snippet:**
 
 ```python
-# Exemple de SDK NexusTrade pour l'économie d'agents
+# Example of NexusTrade SDK for the agent economy
 from nexustrade import M2MClient
 
 client = M2MClient(agent_id="quant_analyst_agent_04")
 
-# L'agent exprime un besoin autonome, le protocole gère le marché
+# The agent expresses an autonomous need, the protocol handles the market
 contract = client.negotiate_resource(
     resource_type="real_time_flight_cargo_data",
     max_budget_usd=0.005,
@@ -52,50 +57,50 @@ contract = client.negotiate_resource(
 
 if contract.is_accepted():
     payload = contract.execute()
-    client.settle_payment(contract.id) # Paiement M2M décentralisé
+    client.settle_payment(contract.id) # Decentralized M2M payment
 ```
 
 ```mermaid
 sequenceDiagram
-    participant AgentA as Agent Acheteur
+    participant AgentA as Buyer Agent
     participant Nexus as NexusTrade API
-    participant AgentB as Agent Vendeur
+    participant AgentB as Seller Agent
 
-    AgentA->>Nexus: Intention d'achat (Data, max $0.01)
-    Nexus->>AgentB: Demande de cotation (Data requise)
-    AgentB-->>Nexus: Cotation ($0.008)
-    Nexus-->>AgentA: Proposition de Match
-    AgentA->>Nexus: Acceptation & Verrouillage des fonds
-    Nexus->>AgentB: Autorisation d'exécution
-    AgentB-->>AgentA: Livraison du Payload
-    AgentA->>Nexus: Confirmation de réception
-    Nexus->>AgentB: Libération des fonds (Clearing)
+    AgentA->>Nexus: Buying intent (Data, max $0.01)
+    Nexus->>AgentB: Request for quote (Data required)
+    AgentB-->>Nexus: Quote ($0.008)
+    Nexus-->>AgentA: Match Proposal
+    AgentA->>Nexus: Acceptance & Funds Locking
+    Nexus->>AgentB: Execution authorization
+    AgentB-->>AgentA: Payload Delivery
+    AgentA->>Nexus: Receipt Confirmation
+    Nexus->>AgentB: Release of funds (Clearing)
 ```
 
-## 5. Modèle économique & Viabilité financière
+## 5. Economic Model & Financial Viability
 
-| Métrique | Valeur |
+| Metric | Value |
 | :--- | :--- |
-| **Structure de prix** | Commission dynamique de 0.5% à 1% sur le volume de chaque micro-transaction effectuée via le protocole. |
-| **Objectif 12 mois** | 500 agents IA actifs, générant au total 2 millions de micro-transactions par mois à un volume moyen de 1€/tx. |
-| **Calcul du CA (Target 100k€)** | 2,000,000 tx *1€ = 2,000,000€ de volume* 1% de commission = 20,000€/mois. En ARR = **240,000€/an**. |
-| **Marge brute estimée** | 95% (Coûts marginaux très faibles liés uniquement au routage serveur et base de données, l'intelligence est fournie par les agents tiers). |
+| **Pricing Structure** | Dynamic commission from 0.5% to 1% on the volume of each micro-transaction executed via the protocol. |
+| **12-Month Target** | 500 active AI agents, generating a total of 2 million micro-transactions per month at an average volume of 1€/tx. |
+| **Revenue Calculation (100k€ Target)** | 2,000,000 tx * 1€ = 2,000,000€ volume * 1% commission = 20,000€/month. In ARR = **240,000€/year**. |
+| **Estimated Gross Margin** | 95% (Very low marginal costs linked only to server routing and database, intelligence is provided by third-party agents). |
 
-## 6. Moteur de distribution & Fossé défensif (Moat)
+## 6. Distribution Engine & Defensive Moat (Moat)
 
-* **Stratégie d'acquisition :** Adhésion "Dev-first" M2M via un SDK open-source. La stratégie est d'onboarder massivement les frameworks de création d'agents autonomes (AutoGPT, LangChain, LlamaIndex, CrewAI) avec des plugins natifs "NexusTrade". Cela permet aux développeurs d'activer cette capacité de commerce M2M en une seule ligne de code.
-* **Moat (Barrière à l'entrée) :** Effet de réseau bilatéral hyper-dense (Marketplace Dynamics). Plus il y a d'agents vendeurs proposant des données/actions très spécialisées, plus les agents acheteurs viennent se sourcer sur le réseau, et inversement. OpenAI ou Google se battent pour fournir l'intelligence de base (le cerveau) ; NexusTrade fournit l'infrastructure d'échange de valeur agnostique au modèle LLM utilisé (le système circulatoire), devenant ainsi un standard de fait inattaquable par les modèles fondateurs.
+* **Acquisition Strategy:** "Dev-first" M2M adoption via an open-source SDK. The strategy is to massively onboard autonomous agent creation frameworks (AutoGPT, LangChain, LlamaIndex, CrewAI) with native "NexusTrade" plugins. This allows developers to activate this M2M commerce capability in a single line of code.
+* **Moat (Barrier to Entry):** Hyper-dense bilateral network effect (Marketplace Dynamics). The more selling agents offering highly specialized data/actions, the more buying agents come to source on the network, and vice versa. OpenAI or Google are fighting to provide the basic intelligence (the brain); NexusTrade provides the agnostic value exchange infrastructure regardless of the LLM model used (the circulatory system), thus becoming an unassailable de facto standard by foundational models.
 
-## 7. Grille d'évaluation détaillée
+## 7. Detailed Evaluation Grid
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
+| Criteria | VC Score (/100) | Terrain Score (/100) |
 | :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
-| **TOTAL** | **-- / 100** | **-- / 100** |
+| **Thesis & Monopoly / Urgency** | 22 / 25 | -- / 25 |
+| **Moat / Resistance to Native LLMs** | 24 / 25 | -- / 25 |
+| **Scalability / Adoption Friction** | 21 / 25 | -- / 25 |
+| **Unit Economics / Direct ROI** | 21 / 25 | -- / 25 |
+| **TOTAL** | **88 / 100** | **-- / 100** |
 
-Verdict VC : En attente d'évaluation.
+> **VC Verdict:** NexusTrade M2M targets the emerging need for AI agents to trade digital resources (data, compute) programmatically. The hyper-dense network effect creates a strong moat, though achieving initial liquidity is challenging.
 
 Verdict Terrain : En attente d'évaluation.

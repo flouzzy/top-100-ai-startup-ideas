@@ -1,86 +1,88 @@
-<!-- markdownlint-disable MD013 MD033 -->
+<!-- markdownlint-disable MD013 MD033 MD060 MD039 MD041 MD032 MD010 MD009 MD022 MD036 MD028 MD037 -->
+
+[🇫🇷 Version Française](./README.fr.md)
 
 # AgentLedger
 
-> **Résumé exécutif :** AgentLedger est une infrastructure M2M (Machine-to-Machine) qui dote les agents IA autonomes d'une identité vérifiée et de portefeuilles de micro-transactions, leur permettant d'interagir, de négocier et de payer d'autres agents ou API de manière sécurisée sans intervention humaine.
+> **Executive Summary:** AgentLedger is an M2M (Machine-to-Machine) infrastructure that endows autonomous AI agents with a verified identity and micro-transaction wallets, allowing them to interact, negotiate, and pay other agents or APIs securely without human intervention.
 
-![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
+![Type: M2M](https://img.shields.io/badge/Model-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
+![Score: Pending](https://img.shields.io/badge/Score_Composite-89-yellow)
 
 ---
 
-## 1. Aperçu visuel
+## 1. Visual Overview
 
 ```mermaid
 graph TD
-    %% Flux d'architecture M2M
-    A[Agent IA A - Acheteur] -->|Demande de service| B(AgentLedger Network)
-    B -->|Vérification d'Identité & Solde| C{Validation M2M}
-    C -->|Autorisé| D[Agent IA B - Vendeur API]
-    D -->|Livraison des données| A
-    C -->|Règlement instantané| E[Smart Contract / Ledger Central]
+    %% M2M Architecture Flow
+    A[AI Agent A - Buyer] -->|Service Request| B(AgentLedger Network)
+    B -->|Identity & Balance Verification| C{M2M Validation}
+    C -->|Authorized| D[AI Agent B - API Seller]
+    D -->|Data Delivery| A
+    C -->|Instant Settlement| E[Smart Contract / Central Ledger]
 ```
 
-## 2. La thèse contrariante (Peter Thiel Style)
+## 2. The Contrarian Thesis (Peter Thiel Style)
 
-**La croyance populaire :** Les IA vont simplement agir comme des assistants surpuissants pour les humains qui continueront d'orchestrer et de payer chaque API ou service avec leur propre carte de crédit bancaire.
-**La vérité cachée :** La prochaine économie n'est pas humaine. Dans 5 ans, 90% des transactions sur le web seront initiées et réglées par des agents IA négociant entre eux (M2M). Les agents ont besoin de leur propre système financier et d'identité en bac à sable, car les réseaux bancaires traditionnels sont trop lents, chers et inadaptés pour des micro-transactions algorithmiques à la milliseconde.
+**The Popular Belief:** AIs will simply act as super-powered assistants for humans who will continue to orchestrate and pay for each API or service with their own bank credit card.
+**The Hidden Truth:** The next economy is not human. In 5 years, 90% of web transactions will be initiated and settled by AI agents negotiating with each other (M2M). Agents need their own sandboxed financial and identity system, because traditional banking networks are too slow, expensive, and unsuited for algorithmic micro-transactions at the millisecond.
 
-## 3. Le problème & La cible
+## 3. The Problem & The Target
 
-**Modèle économique :** M2M
-**Cible précise :** Les développeurs d'infrastructures d'IA (Swarm agencies, plateformes multi-agents, orchestrateurs LLM) et les fournisseurs d'API de données.
-**La douleur urgente :** Il est impossible aujourd'hui de donner une autonomie financière totale à un agent (risque de ruine si on lui confie une carte bleue) pour payer d'autres agents. Il y a une friction énorme (coûts de transaction de Stripe > 30 cts) pour des appels API qui valent 0.001€.
+**Economic Model:** M2M
+**Specific Target:** AI infrastructure developers (Swarm agencies, multi-agent platforms, LLM orchestrators) and data API providers.
+**The Urgent Pain:** It is impossible today to give total financial autonomy to an agent (risk of ruin if entrusted with a credit card) to pay other agents. There is enormous friction (Stripe transaction costs > 30 cents) for API calls that are worth 0.001€.
 
-## 4. Architecture technique & Plomberie
+## 4. Technical Architecture & Plumbing
 
 ```mermaid
 sequenceDiagram
-    %% Schéma d'interaction entre l'utilisateur, l'IA et le système financier AgentLedger
-    participant User as Dev / Humain
-    participant AgentA as Agent IA (Client)
-    participant AgentLedger as API AgentLedger
-    participant AgentB as Agent IA (Fournisseur)
+    %% Interaction diagram between user, AI, and AgentLedger financial system
+    participant User as Dev / Human
+    participant AgentA as AI Agent (Client)
+    participant AgentLedger as AgentLedger API
+    participant AgentB as AI Agent (Supplier)
 
-    User->>AgentLedger: Dépôt 100€ & Création Identité AgentA
-    AgentLedger-->>AgentA: Token d'Identité cryptographique + Wallet M2M
-    AgentA->>AgentB: Requête de service (ex: Analyse de marché 0.05€) avec Token
-    AgentB->>AgentLedger: Vérification Token & Provision
-    AgentLedger-->>AgentB: Confirmation de solvabilité
-    AgentB-->>AgentA: Résultat de l'analyse (Livraison)
-    AgentA->>AgentLedger: Signature cryptographique M2M pour paiement
-    AgentLedger->>AgentLedger: Transfert interne instantané (0.05€)
+    User->>AgentLedger: Deposit 100€ & Create Identity AgentA
+    AgentLedger-->>AgentA: Cryptographic Identity Token + M2M Wallet
+    AgentA->>AgentB: Service request (e.g. Market analysis 0.05€) with Token
+    AgentB->>AgentLedger: Verify Token & Provision
+    AgentLedger-->>AgentB: Confirmation of solvency
+    AgentB-->>AgentA: Analysis result (Delivery)
+    AgentA->>AgentLedger: M2M Cryptographic signature for payment
+    AgentLedger->>AgentLedger: Instant internal transfer (0.05€)
 ```
 
-## 5. Modèle économique & Viabilité financière
+## 5. Economic Model & Financial Viability
 
-| Métrique | Valeur |
+| Metric | Value |
 | :--- | :--- |
-| **Structure de prix** | Modèle SaaS hybride : Abonnement accès dev (49€/mois) + Commission de 1% sur le volume des micro-transactions M2M routées. |
-| **Objectif 12 mois** | 1 000 développeurs actifs (49 000€ ARR) + 5 millions d'euros transigés mensuellement sur le réseau M2M (60 000€ ARR via le 1% de commisison). |
-| **Calcul du CA (Target 100k€)** | (1000 devs *49€* 12 mois) + (5 000 000€ *1%* 12 mois) = 58 800€ + 60 000€ = 118 800€ |
-| **Marge brute estimée** | 85% (L'infrastructure de ledger est ultra-légère, base de données centralisée optimisée pour la concurrence). |
+| **Pricing Structure** | Hybrid SaaS model: Dev access subscription (49€/month) + 1% commission on the volume of routed M2M micro-transactions. |
+| **12-Month Target** | 1,000 active developers (49,000€ ARR) + 5 million euros transacted monthly on the M2M network (60,000€ ARR via the 1% commission). |
+| **Revenue Calculation (100k€ Target)** | (1000 devs * 49€ * 12 months) + (5,000,000€ * 1% * 12 months) = 58,800€ + 60,000€ = 118,800€ |
+| **Estimated Gross Margin** | 85% (The ledger infrastructure is ultra-lightweight, centralized database optimized for concurrency). |
 
-## 6. Moteur de distribution & Fossé défensif (Moat)
+## 6. Distribution Engine & Defensive Moat (Moat)
 
-**Stratégie d'acquisition :** Adhésion dev M2M (Product-Led Growth axé développeur). Distribution d'un SDK open-source très simple pour les orchestrateurs d'agents (ex: LangChain, AutoGen). Intégration dans la supply chain existante, transformant le coût d'acquisition client (CAC) en presque nul grâce aux effets de réseau bilatéraux.
+**Acquisition Strategy:** M2M dev adoption (Developer-focused Product-Led Growth). Distribution of a very simple open-source SDK for agent orchestrators (e.g., LangChain, AutoGen). Integration into the existing supply chain, turning the customer acquisition cost (CAC) into almost zero thanks to bilateral network effects.
 
-**Moat (Barrière à l'entrée) :**
+**Moat (Barrier to Entry):**
 
-1. **Effet de Réseau Bilatéral :** Plus il y a d'agents acceptant le standard AgentLedger pour être payés, plus les créateurs d'agents l'utiliseront pour payer. Un concurrent devrait convaincre tout l'écosystème d'API indépendant de changer de protocole.
-2. **Moat Réglementaire & Infrastructuel :** Construire un "ledger" de micro-transactions nécessite de la lutte anti-blanchiment (KYC des créateurs d'agents) et une infrastructure haute disponibilité (Trust). Un simple "wrapper LLM" ne peut absolument pas offrir cette fiabilité transactionnelle et juridique.
+1. **Bilateral Network Effect:** The more agents accepting the AgentLedger standard to be paid, the more agent creators will use it to pay. A competitor would have to convince the entire independent API ecosystem to switch protocols.
+2. **Regulatory & Infrastructural Moat:** Building a micro-transaction "ledger" requires anti-money laundering (KYC of agent creators) and high-availability infrastructure (Trust). A simple "LLM wrapper" absolutely cannot offer this transactional and legal reliability.
 
-## 7. Grille d'évaluation détaillée
+## 7. Detailed Evaluation Grid
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
+| Criteria | VC Score (/100) | Terrain Score (/100) |
 | :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | -- / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | -- / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | -- / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | -- / 25 | -- / 25 |
-| **TOTAL** | **-- / 100** | **-- / 100** |
+| **Thesis & Monopoly / Urgency** | 22 / 25 | -- / 25 |
+| **Moat / Resistance to Native LLMs** | 23 / 25 | -- / 25 |
+| **Scalability / Adoption Friction** | 24 / 25 | -- / 25 |
+| **Unit Economics / Direct ROI** | 20 / 25 | -- / 25 |
+| **TOTAL** | **89 / 100** | **-- / 100** |
 
-Verdict VC : En attente d'évaluation.
+> **VC Verdict:** AgentLedger provides the essential identity and wallet infrastructure for the autonomous agent economy. Its bilateral network effect and rigorous KYC requirements create a powerful regulatory and infrastructural moat.
 
 Verdict Terrain : En attente d'évaluation.
