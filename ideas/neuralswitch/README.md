@@ -78,12 +78,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     -- / 25     |       -- / 25        |
-| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       -- / 25        |
-| **Scalabilité / Friction d'adoption** |     -- / 25     |       -- / 25        |
-| **Unit Economics / ROI direct**       |     -- / 25     |       -- / 25        |
-| **TOTAL**                             |  **-- / 100**   |     **-- / 100**     |
+| **Thèse & Monopole / Urgence**        |     22 / 25     |       -- / 25        |
+| **Moat / Résistance aux LLM natifs**  |     22 / 25     |       -- / 25        |
+| **Scalabilité / Friction d'adoption** |     21 / 25     |       -- / 25        |
+| **Unit Economics / ROI direct**       |     20 / 25     |       -- / 25        |
+| **TOTAL**                             |  **85 / 100**   |     **-- / 100**     |
 
-Verdict VC : En attente d'évaluation.
+> **Verdict VC :** Un routeur de négociation B2B en millisecondes redéfinit l'approvisionnement. Le gain de temps et d'efficacité est tel qu'il force l'adoption pour rester compétitif. Le défi sera d'attirer à la fois les acheteurs et les fournisseurs simultanément (cold start problem).
 
 Verdict Terrain : En attente d'évaluation.

@@ -70,11 +70,11 @@ Moat (Defensibility): Network-level Zero Trust infrastructure that intercepts AP
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 20 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 22 / 25         | -- / 25             |
+| Unit Economics / ROI        | 23 / 25         | -- / 25             |
+| **TOTAL**                   | **89 / 100**    | **-- / 100**        |
 
-VC Verdict: Pending evaluation.
+> **VC Verdict:** Just-in-Time, least-privilege token provisioning is a required security standard. It directly prevents catastrophic agent actions, selling insurance via infrastructure. The moat is deep technical lock-in to API gateways.
 Market Verdict: Pending evaluation.

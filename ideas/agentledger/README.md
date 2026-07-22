@@ -75,12 +75,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     -- / 25     |       -- / 25        |
-| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       -- / 25        |
-| **Scalabilité / Friction d'adoption** |     -- / 25     |       -- / 25        |
-| **Unit Economics / ROI direct**       |     -- / 25     |       -- / 25        |
-| **TOTAL**                             |  **-- / 100**   |     **-- / 100**     |
+| **Thèse & Monopole / Urgence**        |     23 / 25     |       -- / 25        |
+| **Moat / Résistance aux LLM natifs**  |     21 / 25     |       -- / 25        |
+| **Scalabilité / Friction d'adoption** |     23 / 25     |       -- / 25        |
+| **Unit Economics / ROI direct**       |     19 / 25     |       -- / 25        |
+| **TOTAL**                             |  **86 / 100**   |     **-- / 100**     |
 
-Verdict VC : En attente d'évaluation.
+> **Verdict VC :** Gérer l'identité et les portefeuilles des agents est une infrastructure clé (une 'pelle') pour l'économie de l'IA. Si le marché l'adopte comme norme, l'effet de réseau devient insurmontable. Le défi initial réside dans le bootstrapping de cet écosystème face à des solutions propriétaires.
 
 Verdict Terrain : En attente d'évaluation.

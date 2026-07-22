@@ -110,12 +110,13 @@ sequenceDiagram
 
 | Criteria                             | VC Score (/100) |  Terrain Score (/100)  |
 | :----------------------------------- | :-------------: | :--------------------: |
-| **Thesis & Monopoly / Urgency**      |     -- / 25     |        -- / 25         |
-| **Moat / Resistance to Native LLMs** |     -- / 25     |        -- / 25         |
-| **Scalability / Adoption Friction**  |     -- / 25     |        -- / 25         |
-| **Unit Economics / Direct ROI**      |     -- / 25     |        -- / 25         |
-| **TOTAL**                            |   **Pending**   | **Pending evaluation** |
+| **Thesis & Monopoly / Urgency**      |     20 / 25     |        -- / 25         |
+| **Moat / Resistance to Native LLMs** |     23 / 25     |        -- / 25         |
+| **Scalability / Adoption Friction**  |     21 / 25     |        -- / 25         |
+| **Unit Economics / Direct ROI**      |     22 / 25     |        -- / 25         |
+| **TOTAL**                            |   **86 / 100**   | **Pending evaluation** |
 
+> **VC Verdict:** Applying Zero Trust principles to AI agents taps into existing CISO budgets and mental models. Deep enterprise integration provides a solid moat against generic AI wrappers. Clear path to monetization through per-agent seat licensing.
 > **Terrain Verdict:** Pending evaluation.
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Applying Zero Trust principles to AI agents taps into existing CISO budgets and mental models. Deep enterprise integration provides a solid moat against generic AI wrappers. Clear path to monetization through per-agent seat licensing.

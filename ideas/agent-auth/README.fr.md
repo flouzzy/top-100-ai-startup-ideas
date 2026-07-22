@@ -69,12 +69,12 @@ Moat (Barrière à l'entrée) : Intégration profonde dans l'infrastructure de s
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 21 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **90 / 100**    | **-- / 100**         |
 
-Verdict VC : En attente d'évaluation.
+> **Verdict VC :** Un IAM spécialement conçu pour les agents IA est la couche d'identité manquante du web autonome. Très 'sticky' par conception, car il est notoirement difficile de remplacer un système d'authentification. Potentiel de marché mondial massif avec un modèle de tarification SaaS éprouvé.
 
 > **Verdict Terrain :** En attente d'évaluation.

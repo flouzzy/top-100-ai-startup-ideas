@@ -69,12 +69,12 @@ Moat (Barrière à l'entrée) : Un prompt ne peut pas retenir des fonds de mani�
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 23 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | -- / 25              |
+| **TOTAL**                         | **88 / 100**    | **-- / 100**         |
 
-Verdict VC : En attente d'évaluation.
+> **Verdict VC :** Le séquestre programmable pour les transactions M2M résout le déficit de confiance entre les systèmes autonomes. Les effets de réseau sont forts une fois intégrés aux principaux frameworks d'agents. La scalabilité est excellente, sans les contraintes des silos bancaires traditionnels.
 
 > **Verdict Terrain :** En attente d'évaluation.

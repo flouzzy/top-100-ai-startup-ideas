@@ -90,12 +90,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     -- / 25     |       -- / 25        |
-| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       -- / 25        |
-| **Scalabilité / Friction d'adoption** |     -- / 25     |       -- / 25        |
-| **Unit Economics / ROI direct**       |     -- / 25     |       -- / 25        |
-| **TOTAL**                             |  **-- / 100**   |     **-- / 100**     |
+| **Thèse & Monopole / Urgence**        |     24 / 25     |       -- / 25        |
+| **Moat / Résistance aux LLM natifs**  |     21 / 25     |       -- / 25        |
+| **Scalabilité / Friction d'adoption** |     24 / 25     |       -- / 25        |
+| **Unit Economics / ROI direct**       |     20 / 25     |       -- / 25        |
+| **TOTAL**                             |  **89 / 100**   |     **-- / 100**     |
 
-Verdict VC : En attente d'évaluation.
+> **Verdict VC :** Créer un marché d'échange de ressources numériques entre agents est une thèse hautement contrariante et visionnaire. Le TAM est virtuellement infini si les agents deviennent la norme. Le modèle d'affaires basé sur les frais de transaction est potentiellement astronomique si la liquidité suit.
 
 Verdict Terrain : En attente d'évaluation.
