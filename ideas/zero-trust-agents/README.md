@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD013 MD033 MD060 MD036 MD039 MD041 MD028 -->
+<!-- markdownlint-disable MD013 MD033 MD060 MD039 MD041 MD032 MD010 MD009 MD022 MD036 MD028 MD037 -->
 
 [ 🇫🇷 Version Française ](./README.fr.md)
 
@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-90-yellow)
 
 ---
 
@@ -108,13 +108,14 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criteria                             | VC Score (/100) | Terrain Score (/100) |
-| :----------------------------------- | :-------------: | :------------------: |
-| **Thesis & Monopoly / Urgency**      |     -- / 25     |       18 / 25        |
-| **Moat / Resistance to Native LLMs** |     -- / 25     |       16 / 25        |
-| **Scalability / Adoption Friction**  |     -- / 25     |       19 / 25        |
-| **Unit Economics / Direct ROI**      |     -- / 25     |       20 / 25        |
-| **TOTAL**                            |   **Pending**   |     **73 / 100**     |
+| Criteria                             | VC Score (/100) |  Terrain Score (/100)  |
+| :----------------------------------- | :-------------: | :--------------------: |
+| **Thesis & Monopoly / Urgency**      |     24 / 25     |        -- / 25         |
+| **Moat / Resistance to Native LLMs** |     25 / 25     |        -- / 25         |
+| **Scalability / Adoption Friction**  |     20 / 25     |        -- / 25         |
+| **Unit Economics / Direct ROI**      |     21 / 25     |        -- / 25         |
+| **TOTAL**                            |   **90 / 100**   | **Pending evaluation** |
 
-> **Verdict Terrain :** The Zero Trust Agents solution addresses a very targeted business need with tangible ROI. Its positioning as an API infrastructure guarantees good immunity against generalist LLMs. Even though adoption requires integration effort, the viability of the economic model is supported by the value delivered.
-> **VC Verdict:** Pending evaluation.
+> **Terrain Verdict:** Pending evaluation.
+
+> **VC Verdict:** Zero Trust Agents solves a hair-on-fire problem for CISOs deploying autonomous systems. By separating the security layer from the probabilistic LLM, it creates a robust, agnostic gateway that becomes immediately sticky.

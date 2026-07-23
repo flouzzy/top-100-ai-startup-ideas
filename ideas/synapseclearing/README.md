@@ -1,43 +1,45 @@
-<!-- markdownlint-disable MD013 MD033 -->
+<!-- markdownlint-disable MD013 MD033 MD060 MD039 MD041 MD032 MD010 MD009 MD022 MD036 MD028 MD037 -->
+
+[🇫🇷 Version Française](./README.fr.md)
 
 # SynapseClearing
 
-> **Résumé exécutif :** La première chambre de compensation (clearinghouse) B2B dédiée exclusivement aux transactions financières et de ressources entre agents IA (M2M), permettant aux systèmes autonomes d'acheter et vendre des capacités cognitives, de la donnée ou de l'exécution d'API en temps réel.
+> **Executive Summary:** The first B2B clearinghouse dedicated exclusively to financial and resource transactions between AI agents (M2M), allowing autonomous systems to buy and sell cognitive capabilities, data, or API execution in real time.
 
-![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
+![Type: M2M](https://img.shields.io/badge/Model-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
+![Score: Pending](https://img.shields.io/badge/Score_Composite-89-yellow)
 
 ---
 
-## 1. Aperçu visuel
+## 1. Visual Overview
 
 ```mermaid
 graph TD
-    A[Agent IA A Acheteur] -->|Demande: Réservation de vol| B(SynapseClearing API)
-    B -->|Mise en concurrence Enchère ms| C[Agent IA B Expert Voyage]
-    B -->|Mise en concurrence Enchère ms| D[Agent IA C Scraper Pricing]
-    C -->|Offre: 0.002€| B
-    D -->|Offre: 0.0015€| B
-    B -->|Exécution & Verrouillage fonds| D
-    D -->|Résultat de l'API| A
-    B -.->|Prélèvement 0.0001€ Frais de réseau| B
+    A[AI Agent A Buyer] -->|Request: Flight booking| B(SynapseClearing API)
+    B -->|Competitive ms Auction| C[AI Agent B Travel Expert]
+    B -->|Competitive ms Auction| D[AI Agent C Pricing Scraper]
+    C -->|Offer: 0.002€| B
+    D -->|Offer: 0.0015€| B
+    B -->|Execute & Lock funds| D
+    D -->|API Result| A
+    B -.->|Deduct 0.0001€ Network fee| B
 ```
 
-## 2. La thèse contrariante (Peter Thiel Style)
+## 2. The Contrarian Thesis (Peter Thiel Style)
 
-**La croyance populaire :** Les entreprises vont développer des "super-agents" monolithiques (AGI) capables de tout faire en interne, ou utiliseront des plugins centralisés dictés par OpenAI/Google.
-**La vérité cachée :** L'économie de l'IA sera hautement fragmentée et spécialisée. Des millions de micro-agents vont devoir interagir, négocier et se payer mutuellement à la milliseconde sans intervention humaine. Le grand gagnant ne sera pas celui qui crée le meilleur agent, mais celui qui possède la _couche de règlement financier_ (le Visa/Mastercard) entre ces agents.
+**The Popular Belief:** Companies will develop monolithic "super-agents" (AGI) capable of doing everything internally, or will use centralized plugins dictated by OpenAI/Google.
+**The Hidden Truth:** The AI economy will be highly fragmented and specialized. Millions of micro-agents will need to interact, negotiate, and pay each other to the millisecond without human intervention. The big winner won't be whoever creates the best agent, but whoever owns the *financial settlement layer* (the Visa/Mastercard) between these agents.
 
-## 3. Le problème & La cible
+## 3. The Problem & The Target
 
-**Modèle économique :** M2M (Machine to Machine) / B2B2M (Business to Business to Machine)
-**Cible précise :** Les développeurs d'agents IA autonomes, les fournisseurs de LLM spécialisés, et les entreprises déployant des architectures multi-agents (Swarms).
-**La douleur urgente :** Actuellement, si l'Agent A veut utiliser la capacité de l'Agent B, le développeur doit coder une intégration d'API spécifique, gérer les clés secrètes, et établir un contrat de facturation SaaS lourd. L'absence d'un standard de micropaiement dynamique empêche la création d'une véritable économie d'agents (Agentic Economy). Le coût d'intégration (temporel et financier) tue l'interopérabilité à la naissance.
+**Economic Model:** M2M (Machine to Machine) / B2B2M (Business to Business to Machine)
+**Specific Target:** Autonomous AI agent developers, specialized LLM providers, and companies deploying multi-agent architectures (Swarms).
+**The Urgent Pain:** Currently, if Agent A wants to use Agent B's capability, the developer must code a specific API integration, manage secret keys, and establish a heavy SaaS billing contract. The lack of a dynamic micropayment standard prevents the creation of a true Agentic Economy. The integration cost (temporal and financial) kills interoperability at birth.
 
-## 4. Architecture technique & Plomberie
+## 4. Technical Architecture & Plumbing
 
-Le système ne stocke pas de données d'inférence lourdes, il agit comme un routeur financier et un registre d'état (Ledger) ultra-rapide.
+The system does not store heavy inference data; it acts as a financial router and ultra-fast state ledger.
 
 ```mermaid
 sequenceDiagram
@@ -56,29 +58,30 @@ sequenceDiagram
     Synapse_Router->>Ledger: Settle(Seller: +0.0075$, Synapse: +0.0005$)
 ```
 
-## 5. Modèle économique & Viabilité financière
+## 5. Economic Model & Financial Viability
 
-| Métrique                        | Valeur                                                                                                                                                              |
-| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Structure de prix**           | Commission de 5% sur la valeur nominale de chaque micro-transaction clearing + Frais fixes d'abonnement pour la liquidité garantie (99€/mois par cluster d'agents). |
-| **Objectif 12 mois**            | 200 entreprises connectant des "Swarm", générant 10 millions de micro-transactions/mois à une valeur moyenne de 0.05€.                                              |
-| **Calcul du CA (Target 100k€)** | (200 clients _99€/mois) + (10M tx_ 0.05€ \* 5% commission) = 19,800€ + 25,000€ = 44,800€ MRR = **537,600€ ARR** (Largement > 100k€).                                |
-| **Marge brute estimée**         | 90% (Coûts marginaux d'une transaction RPC quasi-nuls).                                                                                                             |
+| Metric | Value |
+| :--- | :--- |
+| **Pricing Structure** | 5% commission on the face value of each micro-transaction clearing + Fixed subscription fee for guaranteed liquidity (99€/month per agent cluster). |
+| **12-Month Target** | 200 companies connecting "Swarms", generating 10 million micro-transactions/month at an average value of 0.05€. |
+| **Revenue Calculation (100k€ Target)** | (200 clients * 99€/month) + (10M tx * 0.05€ * 5% commission) = 19,800€ + 25,000€ = 44,800€ MRR = **537,600€ ARR** (Well > 100k€). |
+| **Estimated Gross Margin** | 90% (Marginal costs of an RPC transaction are near zero). |
 
-## 6. Moteur de distribution & Fossé défensif (Moat)
+## 6. Distribution Engine & Defensive Moat (Moat)
 
-**Stratégie d'acquisition :** Open-source du SDK `synapse-agent-connect`. Intégration native dans les frameworks d'agents dominants (LangChain, AutoGen, CrewAI). Les développeurs installent le SDK par défaut car il rend leurs agents instantanément monétisables par d'autres.
-**Moat (Barrière à l'entrée) :** L'Effet de Réseau à double face (Two-sided network effect) le plus pur. Plus il y a d'agents acheteurs, plus il est rentable pour les agents vendeurs de s'y connecter, et inversement. OpenAI ne peut pas le répliquer facilement car cela demande d'intégrer des LLM concurrents (Anthropic, Mistral, modèles open-source) dans la chambre de compensation. SynapseClearing est le pont agnostique, la Suisse neutre de l'IA.
+**Acquisition Strategy:** Open-source the `synapse-agent-connect` SDK. Native integration into dominant agent frameworks (LangChain, AutoGen, CrewAI). Developers install the SDK by default because it makes their agents instantly monetizable by others.
+**Moat (Barrier to Entry):** The purest Two-sided network effect. The more buyer agents there are, the more profitable it is for seller agents to connect to it, and vice versa. OpenAI cannot easily replicate it because it requires integrating competing LLMs (Anthropic, Mistral, open-source models) into the clearinghouse. SynapseClearing is the agnostic bridge, the neutral Switzerland of AI.
 
-## 7. Grille d'évaluation détaillée
+## 7. Detailed Evaluation Grid
 
-| Critère                               | Score VC (/100) | Score Terrain (/100) |
-| :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     -- / 25     |       15 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       20 / 25        |
-| **Scalabilité / Friction d'adoption** |     -- / 25     |       22 / 25        |
-| **Unit Economics / ROI direct**       |     -- / 25     |       15 / 25        |
-| **TOTAL**                             |  **-- / 100**   |     **72 / 100**     |
+| Criteria | VC Score (/100) | Terrain Score (/100) |
+| :--- | :---: | :---: |
+| **Thesis & Monopoly / Urgency** | 24 / 25 | -- / 25 |
+| **Moat / Resistance to Native LLMs** | 25 / 25 | -- / 25 |
+| **Scalability / Adoption Friction** | 19 / 25 | -- / 25 |
+| **Unit Economics / Direct ROI** | 21 / 25 | -- / 25 |
+| **TOTAL** | **89 / 100** | **-- / 100** |
 
-> **Verdict Terrain :** L'outil SynapseClearing répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
-> Verdict VC : En attente d'évaluation.
+> **VC Verdict:** SynapseClearing provides the critical regulatory and clearing infrastructure for M2M transactions. By holding funds in escrow and ensuring compliance, it acts as a trusted middleman with a natural monopoly dynamic.
+
+Verdict Terrain : En attente d'évaluation.

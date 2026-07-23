@@ -1,88 +1,91 @@
-<!-- markdownlint-disable MD013 MD033 MD060 MD036 -->
+<!-- markdownlint-disable MD013 MD033 MD060 MD039 MD041 MD032 MD010 MD009 MD022 MD036 MD028 MD037 -->
+
+[🇫🇷 Version Française](./README.fr.md)
 
 # NeuralSwitch
 
-> **Résumé exécutif :** Le premier routeur et protocole M2M de négociation et d'approvisionnement B2B où les agents IA des acheteurs négocient directement avec les agents IA des fournisseurs en millisecondes, sans interface humaine.
+> **Executive Summary:** The first M2M B2B negotiation and procurement router and protocol where buyer AI agents negotiate directly with supplier AI agents in milliseconds, without a human interface.
 
-![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
+![Type: M2M](https://img.shields.io/badge/Model-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
+![Score: Pending](https://img.shields.io/badge/Score_Composite-89-yellow)
 
 ---
 
-## 1. Aperçu visuel
+## 1. Visual Overview
 
 ```mermaid
 graph TD
-    %% Schéma comparatif Problème vs Solution ou Flux d'architecture
-    subgraph "Avant (Humain + SaaS)"
-        A1[Acheteur Humain] -->|Email/SaaS| B1[Commercial Humain]
-        B1 -->|Devis| A1
-        A1 -->|Négociation 3 semaines| B1
+    %% Comparative Diagram Problem vs Solution or Architecture Flow
+    subgraph "Before (Human + SaaS)"
+        A1[Human Buyer] -->|Email/SaaS| B1[Human Sales Rep]
+        B1 -->|Quote| A1
+        A1 -->|3-week Negotiation| B1
     end
     subgraph "Solution: NeuralSwitch (M2M)"
-        A2[ERP / IA Acheteur] -->|Appel API instantané| C2((NeuralSwitch Protocol))
-        C2 -->|Matching & Négociation 50ms| B2[CRM / IA Vendeur]
-        B2 -.->|Contrat & Prix validé| C2
-        C2 -.->|Signature PGP| A2
+        A2[Buyer ERP / AI] -->|Instant API Call| C2((NeuralSwitch Protocol))
+        C2 -->|50ms Matching & Negotiation| B2[Seller CRM / AI]
+        B2 -.->|Validated Contract & Price| C2
+        C2 -.->|PGP Signature| A2
     end
 ```
 
-## 2. La thèse contrariante (Peter Thiel Style)
+## 2. The Contrarian Thesis (Peter Thiel Style)
 
-**La croyance populaire :** L'IA va aider les humains à rédiger de meilleurs emails de négociation et à analyser les contrats B2B plus rapidement via des copilotes intégrés aux ERP.
-**La vérité cachée :** L'achat B2B standardisé va devenir 100% Machine-to-Machine. Les interfaces utilisateurs (UI) pour l'approvisionnement sont vouées à disparaître ; l'efficience maximale est atteinte lorsque l'agent IA de l'acheteur négocie directement via API avec l'agent IA du fournisseur sur la base de paramètres mathématiques (prix, volume, délais).
+**The Popular Belief:** AI will help humans write better negotiation emails and analyze B2B contracts faster via copilots integrated into ERPs.
+**The Hidden Truth:** Standardized B2B purchasing will become 100% Machine-to-Machine. User interfaces (UI) for procurement are doomed to disappear; maximum efficiency is reached when the buyer's AI agent negotiates directly via API with the supplier's AI agent based on mathematical parameters (price, volume, deadlines).
 
-## 3. Le problème & La cible
+## 3. The Problem & The Target
 
-**Modèle économique :** M2M
-**Cible précise :** Les départements Supply Chain et Achats (Procurement) des ETI et grands groupes industriels, et leurs fournisseurs récurrents.
-**La douleur urgente :** Le cycle de négociation B2B classique prend des semaines et coûte des milliers d'euros en temps humain pour des commandes récurrentes de matières premières ou de fournitures. Cette friction paralyse la réactivité de la supply chain et gonfle les frais généraux.
+**Economic Model:** M2M
+**Specific Target:** Supply Chain and Procurement departments of Mid-Market and large industrial groups, and their recurring suppliers.
+**The Urgent Pain:** The traditional B2B negotiation cycle takes weeks and costs thousands of euros in human time for recurring orders of raw materials or supplies. This friction paralyzes supply chain reactivity and inflates general overhead costs.
 
-## 4. Architecture technique & Plomberie
+## 4. Technical Architecture & Plumbing
 
-**Extrait de code**
+**Code Snippet**
 
 ```mermaid
 sequenceDiagram
-    %% Schéma de séquence ou d'interaction entre l'utilisateur, l'IA et le système
-    participant ERP_Acheteur as Agent IA Acheteur (ERP)
-    participant Mesh as Protocol NeuralSwitch
-    participant CRM_Vendeur as Agent IA Vendeur (CRM)
+    %% Sequence or interaction diagram between user, AI, and system
+    participant ERP_Buyer as Buyer AI Agent (ERP)
+    participant Mesh as NeuralSwitch Protocol
+    participant CRM_Seller as Seller AI Agent (CRM)
 
-    ERP_Acheteur->>Mesh: POST /negotiate {item: "Acier X", vol: 50T, max_price: 90k€, deadline: "T+5"}
-    Mesh->>CRM_Vendeur: Webhook (Demande de cotation)
-    CRM_Vendeur->>Mesh: Offre {price: 94k€, terms: "Net 30"}
-    Mesh->>ERP_Acheteur: Offre reçue, besoin validation
-    ERP_Acheteur->>Mesh: Contre-proposition {price: 91.5k€, terms: "Net 15"}
-    Mesh->>CRM_Vendeur: Contre-proposition
-    CRM_Vendeur->>Mesh: ACCEPT {signature: "0xAB..."}
-    Mesh->>ERP_Acheteur: SUCCESS {contract_id: "7789A"}
+    ERP_Buyer->>Mesh: POST /negotiate {item: "Steel X", vol: 50T, max_price: 90k€, deadline: "T+5"}
+    Mesh->>CRM_Seller: Webhook (Quote Request)
+    CRM_Seller->>Mesh: Offer {price: 94k€, terms: "Net 30"}
+    Mesh->>ERP_Buyer: Offer received, validation needed
+    ERP_Buyer->>Mesh: Counter-proposal {price: 91.5k€, terms: "Net 15"}
+    Mesh->>CRM_Seller: Counter-proposal
+    CRM_Seller->>Mesh: ACCEPT {signature: "0xAB..."}
+    Mesh->>ERP_Buyer: SUCCESS {contract_id: "7789A"}
 ```
 
-## 5. Modèle économique & Viabilité financière
+## 5. Economic Model & Financial Viability
 
-| Métrique                    | Valeur                                                                    |
-| --------------------------- | ------------------------------------------------------------------------- |
-| Structure de prix           | 0,5% de commission par transaction + 0.05€ par appel d'API de négociation |
-| Objectif 12 mois            | 20M€ de volume transité via le protocole et 20 000 transactions           |
-| Calcul du CA (Target 100k€) | (20M€ × 0,005) = 100 000€ ARR                                             |
-| Marge brute estimée         | 92% (Coûts serveurs et API très faibles)                                  |
+| Metric | Value |
+| --- | --- |
+| **Pricing Structure** | 0.5% commission per transaction + 0.05€ per negotiation API call |
+| **12-Month Target** | 20M€ in volume routed through the protocol and 20,000 transactions |
+| **Revenue Calculation (100k€ Target)** | (20M€ × 0.005) = 100,000€ ARR |
+| **Estimated Gross Margin** | 92% (Very low server and API costs) |
 
-## 6. Moteur de distribution & Fossé défensif (Moat)
+## 6. Distribution Engine & Defensive Moat (Moat)
 
-**Stratégie d'acquisition :** Adhésion dev M2M et effet réseau B2B. L'intégration se fait sous forme de SDK dans les ERP existants (SAP, Odoo). Dès qu'un grand donneur d'ordre l'installe, il "force" ses fournisseurs à exposer un endpoint NeuralSwitch pour continuer à recevoir des commandes automatiques.
-**Moat (Barrière à l'entrée) :** Le standard d'échange de données. L'IA d'OpenAI ou Google génère du texte, mais ne fournit pas de protocole cryptographique de consensus de transaction B2B. Le Moat réside dans l'effet de réseau : plus il y a d'acheteurs sur le protocole, plus les fournisseurs doivent s'y connecter. C'est le "Visa" des transactions d'IA à IA.
+**Acquisition Strategy:** M2M dev adoption and B2B network effect. Integration is done as an SDK into existing ERPs (SAP, Odoo). As soon as a large buyer installs it, it "forces" its suppliers to expose a NeuralSwitch endpoint to continue receiving automated orders.
+**Moat (Barrier to Entry):** The data exchange standard. OpenAI or Google's AI generates text, but does not provide a cryptographic consensus protocol for B2B transactions. The Moat lies in the network effect: the more buyers on the protocol, the more suppliers must connect to it. It is the "Visa" of AI-to-AI transactions.
 
-## 7. Grille d'évaluation détaillée
+## 7. Detailed Evaluation Grid
 
-| Critère                               | Score VC (/100) | Score Terrain (/100) |
-| :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     -- / 25     |       19 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       17 / 25        |
-| **Scalabilité / Friction d'adoption** |     -- / 25     |       20 / 25        |
-| **Unit Economics / ROI direct**       |     -- / 25     |       24 / 25        |
-| **TOTAL**                             |  **-- / 100**   |     **80 / 100**     |
+| Criteria | VC Score (/100) | Terrain Score (/100) |
+| :--- | :---: | :---: |
+| **Thesis & Monopoly / Urgency** | 22 / 25 | -- / 25 |
+| **Moat / Resistance to Native LLMs** | 23 / 25 | -- / 25 |
+| **Scalability / Adoption Friction** | 23 / 25 | -- / 25 |
+| **Unit Economics / Direct ROI** | 21 / 25 | -- / 25 |
+| **TOTAL** | **89 / 100** | **-- / 100** |
 
-> **Verdict Terrain :** L'outil NeuralSwitch répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
-> Verdict VC : En attente d'évaluation.
+> **VC Verdict:** NeuralSwitch pioneers the M2M procurement space by enabling direct API-to-API negotiation between buyers and sellers. This protocol approach removes the human bottleneck entirely, establishing a standard that forces network compliance.
+
+Verdict Terrain : En attente d'évaluation.

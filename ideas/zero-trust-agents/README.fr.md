@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD013 MD033 MD060 MD036 MD039 MD041 MD028 -->
+<!-- markdownlint-disable MD013 MD033 MD060 MD039 MD041 MD032 MD010 MD009 MD022 MD036 MD028 MD037 -->
 
 [ 🇬🇧 English Version ](./README.md)
 
@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En évaluation](https://img.shields.io/badge/Score_Composite-En_%C3%A9valuation-yellow)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-90-yellow)
 
 ---
 
@@ -108,13 +108,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                               |  Score VC (/100)  | Score Terrain (/100) |
-| :------------------------------------ | :---------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |      -- / 25      |       15 / 25        |
-| **Moat / Résistance aux LLM natifs**  |      -- / 25      |       20 / 25        |
-| **Scalabilité / Friction d'adoption** |      -- / 25      |       15 / 25        |
-| **Unit Economics / ROI direct**       |      -- / 25      |       15 / 25        |
-| **TOTAL**                             | **En évaluation** |     **65 / 100**     |
+| Critère                               |  Score VC (/100)  |    Score Terrain (/100)     |
+| :------------------------------------ | :---------------: | :-------------------------: |
+| **Thèse & Monopole / Urgence**        |      24 / 25      |           -- / 25           |
+| **Moat / Résistance aux LLM natifs**  |      25 / 25      |           -- / 25           |
+| **Scalabilité / Friction d'adoption** |      20 / 25      |           -- / 25           |
+| **Unit Economics / ROI direct**       |      21 / 25      |           -- / 25           |
+| **TOTAL**                             | **90 / 100** | **En attente d'évaluation** |
 
-> **Verdict Terrain :** L'outil Zero Trust Agents répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** En attente d'évaluation.
+
+> **Verdict VC :** Zero Trust Agents résout un problème critique pour les RSSI déployant des systèmes autonomes. En séparant la couche de sécurité du LLM probabiliste, il crée une passerelle agnostique et robuste qui devient immédiatement indispensable.
