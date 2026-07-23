@@ -62,12 +62,12 @@ sequenceDiagram
 
 ## 5. Economic Model & Financial Viability
 
-| Metric | Value |
-| :--- | :--- |
-| **Pricing Structure** | Hybrid model: 1,000€/month (fixed integration fees) + 15% commission (Success Fee) on recovered amounts. |
-| **12-Month Target** | 20 clients recovering an average of 35,000€ per month each. |
-| **Revenue Calculation (100k€ Target)** | Fixed: 20 * 1000 = 20k€. Commission: (20 * 35k€ * 15%) = 105k€. Monthly total: 125k€ (Potential ARR > 1M€). To reach 100k€ ARR, only **2 to 3 clients** are needed (Ex: 3 clients * 12k€ fixed/yr + 20k€ comm/yr = 96k€ ARR). |
-| **Estimated Gross Margin** | 85% (Main costs: Vision LLM API calls for POD OCR, hosting, RPA). |
+| Metric                                 | Value                                                                                                                                                                                                                         |
+| :------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pricing Structure**                  | Hybrid model: 1,000€/month (fixed integration fees) + 15% commission (Success Fee) on recovered amounts.                                                                                                                      |
+| **12-Month Target**                    | 20 clients recovering an average of 35,000€ per month each.                                                                                                                                                                   |
+| **Revenue Calculation (100k€ Target)** | Fixed: 20 _ 1000 = 20k€. Commission: (20 _ 35k€ _ 15%) = 105k€. Monthly total: 125k€ (Potential ARR > 1M€). To reach 100k€ ARR, only **2 to 3 clients** are needed (Ex: 3 clients _ 12k€ fixed/yr + 20k€ comm/yr = 96k€ ARR). |
+| **Estimated Gross Margin**             | 85% (Main costs: Vision LLM API calls for POD OCR, hosting, RPA).                                                                                                                                                             |
 
 ## 6. Distribution Engine & Defensive Moat (Moat)
 
@@ -81,13 +81,15 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criteria | VC Score (/100) | Terrain Score (/100) |
-| :--- | :---: | :---: |
-| **Thesis & Monopoly / Urgency** | 23 / 25 | -- / 25 |
-| **Moat / Resistance to Native LLMs** | 22 / 25 | -- / 25 |
-| **Scalability / Adoption Friction** | 22 / 25 | -- / 25 |
-| **Unit Economics / Direct ROI** | 24 / 25 | -- / 25 |
-| **TOTAL** | **91 / 100** | **-- / 100** |
+| Criteria                             | VC Score (/100) | Terrain Score (/100) |
+| :----------------------------------- | :-------------: | :------------------: |
+| **Thesis & Monopoly / Urgency**      |     23 / 25     |       25 / 25        |
+| **Moat / Resistance to Native LLMs** |     22 / 25     |       18 / 25        |
+| **Scalability / Adoption Friction**  |     22 / 25     |       22 / 25        |
+| **Unit Economics / Direct ROI**      |     24 / 25     |       24 / 25        |
+| **TOTAL**                            |  **91 / 100**   |     **89 / 100**     |
+
+> **Verdict Terrain :** This solves an immediate, painful administrative problem with clear ROI. Adoption friction is relatively low, and users are highly willing to pay for automated compliance. Native LLMs cannot easily replicate the deep integration with local tax laws.
 
 > **Verdict VC :** Autodeduct AI cible une douleur comptable immédiate et quantifiable. Bien que très scalable et offrant un ROI rapide, son moat est vulnérable aux futures IA natives des ERP. La clé de sa survie réside dans une distribution agressive avant que les acteurs historiques ne s'adaptent.
 

@@ -108,14 +108,14 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criteria                             | VC Score (/100) |  Terrain Score (/100)  |
-| :----------------------------------- | :-------------: | :--------------------: |
-| **Thesis & Monopoly / Urgency**      |     24 / 25     |        -- / 25         |
-| **Moat / Resistance to Native LLMs** |     25 / 25     |        -- / 25         |
-| **Scalability / Adoption Friction**  |     20 / 25     |        -- / 25         |
-| **Unit Economics / Direct ROI**      |     21 / 25     |        -- / 25         |
-| **TOTAL**                            |   **90 / 100**   | **Pending evaluation** |
+| Criteria                             | VC Score (/100) | Terrain Score (/100) |
+| :----------------------------------- | :-------------: | :------------------: |
+| **Thesis & Monopoly / Urgency**      |     24 / 25     |       25 / 25        |
+| **Moat / Resistance to Native LLMs** |     25 / 25     |       25 / 25        |
+| **Scalability / Adoption Friction**  |     20 / 25     |       16 / 25        |
+| **Unit Economics / Direct ROI**      |     21 / 25     |       22 / 25        |
+| **TOTAL**                            |  **90 / 100**   |     **88 / 100**     |
 
-> **Terrain Verdict:** Pending evaluation.
+> **Verdict Terrain :** Security is the ultimate blocker for enterprise AI, giving this immense urgency. The deterministic nature provides perfect immunity against probabilistic LLM advancements. Despite high integration friction, companies will gladly pay to eliminate catastrophic risks.
 
 > **VC Verdict:** Zero Trust Agents solves a hair-on-fire problem for CISOs deploying autonomous systems. By decoupling the deterministic security gateway from probabilistic LLMs, it becomes immediately indispensable. This agnostic positioning makes it robust against foundational model churn.

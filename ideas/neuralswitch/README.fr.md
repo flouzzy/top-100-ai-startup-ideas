@@ -64,12 +64,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| --- | --- |
-| Structure de prix | 0,5% de commission par transaction + 0.05€ par appel d'API de négociation |
-| Objectif 12 mois | 20M€ de volume transité via le protocole et 20 000 transactions |
-| Calcul du CA (Target 100k€) | (20M€ × 0,005) = 100 000€ ARR |
-| Marge brute estimée | 92% (Coûts serveurs et API très faibles) |
+| Métrique                    | Valeur                                                                    |
+| --------------------------- | ------------------------------------------------------------------------- |
+| Structure de prix           | 0,5% de commission par transaction + 0.05€ par appel d'API de négociation |
+| Objectif 12 mois            | 20M€ de volume transité via le protocole et 20 000 transactions           |
+| Calcul du CA (Target 100k€) | (20M€ × 0,005) = 100 000€ ARR                                             |
+| Marge brute estimée         | 92% (Coûts serveurs et API très faibles)                                  |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -78,14 +78,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 22 / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | 23 / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | 23 / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | 21 / 25 | -- / 25 |
-| **TOTAL** | **89 / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     22 / 25     |       22 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     23 / 25     |       25 / 25        |
+| **Scalabilité / Friction d'adoption** |     23 / 25     |       18 / 25        |
+| **Unit Economics / ROI direct**       |     21 / 25     |       20 / 25        |
+| **TOTAL**                             |  **89 / 100**   |     **85 / 100**     |
 
 > **Verdict VC :** NeuralSwitch agit comme le routeur dynamique de l'internet agentique. Il achemine les requêtes M2M vers les API les plus rentables, créant une efficacité systémique massive. En devenant la couche de routage centrale, il construit une position impénétrable.
 
-Verdict Terrain : En attente d'évaluation.
+> **Verdict VC :** NeuralSwitch innove dans l'espace d'approvisionnement M2M en permettant la négociation directe API-à-API. Cette approche protocolaire élimine entièrement le goulot d'étranglement humain, établissant un standard puissant.

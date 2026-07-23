@@ -61,12 +61,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                        | Valeur                                                                                                  |
-| :------------------------------ | :------------------------------------------------------------------------------------------------------ |
-| **Structure de prix**           | Abonnement Infrastructure (500€/mois/usine) + Commission (1.5% par transaction M2M)                     |
-| **Objectif 12 mois**            | 20 usines connectées (SaaS) + 200 000€/mois en flux de transactions                                     |
+| Métrique                        | Valeur                                                                                              |
+| :------------------------------ | :-------------------------------------------------------------------------------------------------- |
+| **Structure de prix**           | Abonnement Infrastructure (500€/mois/usine) + Commission (1.5% par transaction M2M)                 |
+| **Objectif 12 mois**            | 20 usines connectées (SaaS) + 200 000€/mois en flux de transactions                                 |
 | **Calcul du CA (Target 100k€)** | (20 usines _500€_ 12 mois = 120 000€) + (200 000€ GMV/mois _1.5%_ 12 mois = 36 000€) = 156 000€ ARR |
-| **Marge brute estimée**         | 85% (Coûts serveurs et API minimes par rapport au volume de transaction)                                |
+| **Marge brute estimée**         | 85% (Coûts serveurs et API minimes par rapport au volume de transaction)                            |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -75,14 +75,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 23 / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | 24 / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | 21 / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | 23 / 25 | -- / 25 |
-| **TOTAL** | **91 / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     23 / 25     |       18 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     24 / 25     |       20 / 25        |
+| **Scalabilité / Friction d'adoption** |     21 / 25     |       12 / 25        |
+| **Unit Economics / ROI direct**       |     23 / 25     |       15 / 25        |
+| **TOTAL**                             |  **91 / 100**   |     **65 / 100**     |
 
 > **Verdict VC :** MachinaTrade est le pionnier de l'échange autonome de ressources numériques. Sa capacité à créer de la liquidité pour les API et cycles de calcul établit un effet de réseau profond. Le premier entrant dictera les standards de la future économie agentique.
 
-Verdict Terrain : En attente d'évaluation.
+> **Verdict VC :** MachinaTrade transforme les alertes de maintenance prédictive en actions automatisées, résolvant un énorme goulot d'étranglement industriel. L'intégration profonde des ERP et le trading M2M créent une plateforme hautement défendable.

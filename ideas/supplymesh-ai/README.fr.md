@@ -82,13 +82,13 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| :--- | :--- |
-| **Structure de prix** | Abonnement SaaS d'intégration (1 500€/mois) + 0,5% de commission M2M par transaction |
-| **Objectif 12 mois** | Atteindre 100k€ de revenus annuels récurrents/frais |
-| **Clients nécessaires** | 5 industriels actifs faisant transiter chacun 1M€ d'achats via le réseau/an |
-| **Calcul du CA (Target 100k€)** | (5 clients *18 000€ SaaS/an) + (5M€ GMV* 0,5% de frais) = 90 000 + 25 000 = 115 000€ |
-| **Marge brute estimée** | 92% (Coûts marginaux très faibles post-intégration, peu d'inférence LLM) |
+| Métrique                        | Valeur                                                                               |
+| :------------------------------ | :----------------------------------------------------------------------------------- |
+| **Structure de prix**           | Abonnement SaaS d'intégration (1 500€/mois) + 0,5% de commission M2M par transaction |
+| **Objectif 12 mois**            | Atteindre 100k€ de revenus annuels récurrents/frais                                  |
+| **Clients nécessaires**         | 5 industriels actifs faisant transiter chacun 1M€ d'achats via le réseau/an          |
+| **Calcul du CA (Target 100k€)** | (5 clients _18 000€ SaaS/an) + (5M€ GMV_ 0,5% de frais) = 90 000 + 25 000 = 115 000€ |
+| **Marge brute estimée**         | 92% (Coûts marginaux très faibles post-intégration, peu d'inférence LLM)             |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -100,14 +100,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 21 / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | 22 / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | 24 / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | 22 / 25 | -- / 25 |
-| **TOTAL** | **89 / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     21 / 25     |       21 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     22 / 25     |       20 / 25        |
+| **Scalabilité / Friction d'adoption** |     24 / 25     |       14 / 25        |
+| **Unit Economics / ROI direct**       |     22 / 25     |       19 / 25        |
+| **TOTAL**                             |  **89 / 100**   |     **74 / 100**     |
 
 > **Verdict VC :** SupplyMesh AI envisage un marché d'approvisionnement inter-machines liquide, contournant les lenteurs des achats humains. La friction d'intégration est extrême, mais cela crée un effet de verrouillage légendaire. Le paradigme passe du logiciel-outil au logiciel-acteur de marché.
 
-Verdict Terrain : En attente d'évaluation.
+> **Verdict VC :** SupplyMesh AI repense l'approvisionnement comme un marché inter-machines automatisé et liquide, directement connecté aux ERP legacy. Les coûts de changement sont immenses une fois le mappage complexe des données réalisé.

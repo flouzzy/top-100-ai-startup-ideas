@@ -34,9 +34,9 @@ Direct clearing]
 
 ## 3. The Problem & The Target
 
-* **Economic Model:** M2M (Underlying B2B Infrastructure)
-* **Specific Target:** AI agent publishers, SaaS companies with complex autonomous workflows, specialized bot creators.
-* **The Urgent Pain:** Managing static API keys, rigid monthly subscriptions, and rate limits for every third-party micro-service an AI temporarily needs massively hinders autonomy. The time and operational cost for a developer to maintain all these integrations is unsustainable at the scale of the Agentic Web.
+- **Economic Model:** M2M (Underlying B2B Infrastructure)
+- **Specific Target:** AI agent publishers, SaaS companies with complex autonomous workflows, specialized bot creators.
+- **The Urgent Pain:** Managing static API keys, rigid monthly subscriptions, and rate limits for every third-party micro-service an AI temporarily needs massively hinders autonomy. The time and operational cost for a developer to maintain all these integrations is unsustainable at the scale of the Agentic Web.
 
 ## 4. Technical Architecture & Plumbing
 
@@ -79,28 +79,28 @@ sequenceDiagram
 
 ## 5. Economic Model & Financial Viability
 
-| Metric | Value |
-| :--- | :--- |
-| **Pricing Structure** | Dynamic commission from 0.5% to 1% on the volume of each micro-transaction executed via the protocol. |
-| **12-Month Target** | 500 active AI agents, generating a total of 2 million micro-transactions per month at an average volume of 1€/tx. |
-| **Revenue Calculation (100k€ Target)** | 2,000,000 tx * 1€ = 2,000,000€ volume * 1% commission = 20,000€/month. In ARR = **240,000€/year**. |
-| **Estimated Gross Margin** | 95% (Very low marginal costs linked only to server routing and database, intelligence is provided by third-party agents). |
+| Metric                                 | Value                                                                                                                     |
+| :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------ |
+| **Pricing Structure**                  | Dynamic commission from 0.5% to 1% on the volume of each micro-transaction executed via the protocol.                     |
+| **12-Month Target**                    | 500 active AI agents, generating a total of 2 million micro-transactions per month at an average volume of 1€/tx.         |
+| **Revenue Calculation (100k€ Target)** | 2,000,000 tx _ 1€ = 2,000,000€ volume _ 1% commission = 20,000€/month. In ARR = **240,000€/year**.                        |
+| **Estimated Gross Margin**             | 95% (Very low marginal costs linked only to server routing and database, intelligence is provided by third-party agents). |
 
 ## 6. Distribution Engine & Defensive Moat (Moat)
 
-* **Acquisition Strategy:** "Dev-first" M2M adoption via an open-source SDK. The strategy is to massively onboard autonomous agent creation frameworks (AutoGPT, LangChain, LlamaIndex, CrewAI) with native "NexusTrade" plugins. This allows developers to activate this M2M commerce capability in a single line of code.
-* **Moat (Barrier to Entry):** Hyper-dense bilateral network effect (Marketplace Dynamics). The more selling agents offering highly specialized data/actions, the more buying agents come to source on the network, and vice versa. OpenAI or Google are fighting to provide the basic intelligence (the brain); NexusTrade provides the agnostic value exchange infrastructure regardless of the LLM model used (the circulatory system), thus becoming an unassailable de facto standard by foundational models.
+- **Acquisition Strategy:** "Dev-first" M2M adoption via an open-source SDK. The strategy is to massively onboard autonomous agent creation frameworks (AutoGPT, LangChain, LlamaIndex, CrewAI) with native "NexusTrade" plugins. This allows developers to activate this M2M commerce capability in a single line of code.
+- **Moat (Barrier to Entry):** Hyper-dense bilateral network effect (Marketplace Dynamics). The more selling agents offering highly specialized data/actions, the more buying agents come to source on the network, and vice versa. OpenAI or Google are fighting to provide the basic intelligence (the brain); NexusTrade provides the agnostic value exchange infrastructure regardless of the LLM model used (the circulatory system), thus becoming an unassailable de facto standard by foundational models.
 
 ## 7. Detailed Evaluation Grid
 
-| Criteria | VC Score (/100) | Terrain Score (/100) |
-| :--- | :---: | :---: |
-| **Thesis & Monopoly / Urgency** | 22 / 25 | -- / 25 |
-| **Moat / Resistance to Native LLMs** | 24 / 25 | -- / 25 |
-| **Scalability / Adoption Friction** | 21 / 25 | -- / 25 |
-| **Unit Economics / Direct ROI** | 21 / 25 | -- / 25 |
-| **TOTAL** | **88 / 100** | **-- / 100** |
+| Criteria                             | VC Score (/100) | Terrain Score (/100) |
+| :----------------------------------- | :-------------: | :------------------: |
+| **Thesis & Monopoly / Urgency**      |     22 / 25     |       20 / 25        |
+| **Moat / Resistance to Native LLMs** |     24 / 25     |       22 / 25        |
+| **Scalability / Adoption Friction**  |     21 / 25     |       15 / 25        |
+| **Unit Economics / Direct ROI**      |     21 / 25     |       18 / 25        |
+| **TOTAL**                            |  **88 / 100**   |     **75 / 100**     |
 
 > **VC Verdict:** NexusTrade establishes a foundational trading infrastructure for autonomous agents. Its potential for a winner-takes-all marketplace is enormous, driven by two-sided liquidity. It is highly scalable and completely unconstrained by geographical borders.
 
-Verdict Terrain : En attente d'évaluation.
+> **VC Verdict:** NexusTrade M2M targets the emerging need for AI agents to trade digital resources (data, compute) programmatically. The hyper-dense network effect creates a strong moat, though achieving initial liquidity is challenging.

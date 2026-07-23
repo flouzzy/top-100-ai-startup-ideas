@@ -41,7 +41,7 @@ graph TD
 
 ## 4. Technical Architecture & Plumbing
 
-*The intelligence does not reside in the conversational agent, but in the access to SSO data flows and the vector database of past contracts.*
+_The intelligence does not reside in the conversational agent, but in the access to SSO data flows and the vector database of past contracts._
 
 ```mermaid
 sequenceDiagram
@@ -60,12 +60,12 @@ sequenceDiagram
 
 ## 5. Economic Model & Financial Viability
 
-| Metric | Value |
-| :--- | :--- |
-| **Pricing Structure** | Zero setup fees. **20% commission on savings achieved** (Success Fee) for 1 year. |
-| **12-Month Target** | **10 active Mid-Market clients** with an average identified and negotiated saving of €50,000 / year per client. |
-| **Revenue Calculation (100k€ Target)** | $10 \text{ clients} \times 50,000 € \text{ (savings)} \times 0.20 \text{ (Commission)} = 100,000 € \text{ ARR}$ |
-| **Estimated Gross Margin** | **90%** (LLM inference and database infrastructure costs are negligible compared to the value of the negotiated contract). |
+| Metric                                 | Value                                                                                                                      |
+| :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| **Pricing Structure**                  | Zero setup fees. **20% commission on savings achieved** (Success Fee) for 1 year.                                          |
+| **12-Month Target**                    | **10 active Mid-Market clients** with an average identified and negotiated saving of €50,000 / year per client.            |
+| **Revenue Calculation (100k€ Target)** | $10 \text{ clients} \times 50,000 € \text{ (savings)} \times 0.20 \text{ (Commission)} = 100,000 € \text{ ARR}$            |
+| **Estimated Gross Margin**             | **90%** (LLM inference and database infrastructure costs are negligible compared to the value of the negotiated contract). |
 
 ## 6. Distribution Engine & Defensive Moat (Moat)
 
@@ -73,19 +73,19 @@ sequenceDiagram
 
 **Moat (Barrier to Entry): The Data Network Effect.**
 
-* Basic LLMs from OpenAI or Google do not have access to private transactional and contractual data.
-* The more contracts VendorFloor AI negotiates, the more exhaustive and infallible its database of "floor prices" per vendor and per volume becomes. A competitor launching on day 1 will have no data on truly negotiable prices and will be fooled by sales reps. The moat is the private distributed ledger of actual SaaS market prices.
+- Basic LLMs from OpenAI or Google do not have access to private transactional and contractual data.
+- The more contracts VendorFloor AI negotiates, the more exhaustive and infallible its database of "floor prices" per vendor and per volume becomes. A competitor launching on day 1 will have no data on truly negotiable prices and will be fooled by sales reps. The moat is the private distributed ledger of actual SaaS market prices.
 
 ## 7. Detailed Evaluation Grid
 
-| Criteria | VC Score (/100) | Terrain Score (/100) |
-| :--- | :---: | :---: |
-| **Thesis & Monopoly / Urgency** | 23 / 25 | -- / 25 |
-| **Moat / Resistance to Native LLMs** | 24 / 25 | -- / 25 |
-| **Scalability / Adoption Friction** | 20 / 25 | -- / 25 |
-| **Unit Economics / Direct ROI** | 23 / 25 | -- / 25 |
-| **TOTAL** | **90 / 100** | **-- / 100** |
+| Criteria                             | VC Score (/100) | Terrain Score (/100) |
+| :----------------------------------- | :-------------: | :------------------: |
+| **Thesis & Monopoly / Urgency**      |     23 / 25     |       19 / 25        |
+| **Moat / Resistance to Native LLMs** |     24 / 25     |       18 / 25        |
+| **Scalability / Adoption Friction**  |     20 / 25     |       16 / 25        |
+| **Unit Economics / Direct ROI**      |     23 / 25     |       17 / 25        |
+| **TOTAL**                            |  **90 / 100**   |     **70 / 100**     |
 
 > **VC Verdict:** VendorFloor AI attacks B2B software negotiation with a unique data network effect, aggregating hidden price floors across companies. This asymmetry gives it a significant edge over human buyers. The more users join, the stronger the pricing intel moat becomes.
 
-Verdict Terrain : En attente d'évaluation.
+> **VC Verdict:** VendorFloor AI attacks B2B software negotiation with a unique data network effect, aggregating hidden price floors across companies. This asymmetry gives it a significant edge over human buyers and standard AI agents.

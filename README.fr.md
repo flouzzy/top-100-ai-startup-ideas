@@ -16,43 +16,45 @@ _[🇬🇧 English Version](./README.md)_
 
 ## 📊 Le Classement Top 100
 
-|  Rang   | Modèle | Startup                                               | Score Composite | Score VC | Score Terrain |                     Fiche détaillée                      |
-| :-----: | :----: | :---------------------------------------------------- | :-------------: | :------: | :-----------: | :------------------------------------------------------: |
-| **001** |  B2B   | **UrbanClear AI**                                     |   **95/100**    |  93/100  |    97/100     |       [Consulter](./ideas/urbanclear-ai/README.md)       |
-| **002** |  M2M   | **AgentGuard**                                        |  **93.5/100**   |  96/100  |    91/100     | [Consulter](./ideas/agentguard-m2m-compliance/README.md) |
-| **003** |  B2B   | **VendorFloor AI**                                    |   **93/100**    |  94/100  |    92/100     |       [Consulter](./ideas/spendguard-ai/README.md)       |
-| **004** |  M2M   | **SwarmGrid AI**                                      |   **93/100**    |  94/100  |    92/100     |       [Consulter](./ideas/swarmgrid-ai/README.md)        |
-| **005** |  M2M   | **AgentLedger**                                       |   **92/100**    |  94/100  |    90/100     |       [Consulter](./ideas/agent-ledger/README.md)        |
-| **006** |  M2M   | **AgentToll**                                         |   **92/100**    |  98/100  |    86/100     |         [Consulter](./ideas/agenttoll/README.md)         |
-| **007** |  M2M   | **Agentic Protocol**                                  |   **92/100**    |  96/100  |    88/100     |      [Consulter](./ideas/agentic-ledger/README.md)       |
-| **008** |  M2M   | **NexusTrade M2M**                                    |   **92/100**    |  98/100  |    86/100     |      [Consulter](./ideas/nexus-trade-m2m/README.md)      |
-| **009** |  M2M   | **NeuralSwitch**                                      |   **92/100**    |  95/100  |    89/100     |  [Consulter](./ideas/neuralswitch-m2m-router/README.md)  |
-| **010** |  M2M   | **SynapseClearing**                                   |   **92/100**    |  97/100  |    87/100     |         [Consulter](./ideas/nexus-m2m/README.md)         |
-| **011** |  B2B   | **CogniCollect**                                      |  **91.5/100**   |  90/100  |    93/100     |       [Consulter](./ideas/cognicollect/README.md)        |
-| **012** |  M2M   | **MachinaTrade**                                      |   **91/100**    |  92/100  |    90/100     |     [Consulter](./ideas/machinatrade-m2m/README.md)      |
-| **013** |  B2B   | **AutoDeduct AI**                                     |   **91/100**    |  90/100  |    92/100     |      [Consulter](./ideas/auto-deduct-ai/README.md)       |
-| **014** |  B2B   | **Aegis AI**                                          |   **90/100**    |  92/100  |    88/100     |         [Consulter](./ideas/aegis-ai/README.md)          |
-| **015** |  M2M   | **SupplyMesh AI**                                     |  **89.5/100**   |  91/100  |    88/100     |      [Consulter](./ideas/supplymesh-m2m/README.md)       |
-| **016** |  B2B   | **CashFlow Shield**                                   |  **88.5/100**   |  87/100  |    90/100     |      [Consulter](./ideas/cashflow-shield/README.md)      |
-| **017** |  B2B   | **AutoRecouv**                                        |   **88/100**    |  89/100  |    87/100     |        [Consulter](./ideas/autorecouv/README.md)         |
-| **018** |  B2B   | **Aegis Proxy**                                       |   **88/100**    |  88/100  |    88/100     |        [Consulter](./ideas/aegis-proxy/README.md)        |
-| **019** |  B2B   | **Axiom Trade**                                       |   **86/100**    |  88/100  |    84/100     |        [Consulter](./ideas/axiom-trade/README.md)        |
-| **020** |  M2M   | **Agent Firewall**                                    |   **--/100**    |  --/100  |    --/100     |      [Consulter](./ideas/agent-firewall/README.md)       |
-| **021** |  M2M   | **Agentic Protocol**                                  |   **--/100**    |  --/100  |    --/100     |     [Consulter](./ideas/agentic-protocol/README.md)      |
-| **022** |  M2M   | **MachinaTrade**                                      |   **--/100**    |  --/100  |    --/100     |       [Consulter](./ideas/machinatrade/README.md)        |
-| **023** |  M2M   | **AgentGuard**                                        |   **--/100**    |  --/100  |    --/100     |        [Consulter](./ideas/agentguard/README.md)         |
-| **024** |  B2B   | **Zero Trust Network Access for AI Agents (ZTNA-AI)** |   **--/100**    |  --/100  |    --/100     |     [Consulter](./ideas/zero-trust-agents/README.md)     |
-| **025** |  M2M   | **AgentLedger**                                       |   **--/100**    |  --/100  |    --/100     |        [Consulter](./ideas/agentledger/README.md)        |
-| **026** |  B2B   | **VendorFloor AI**                                    |   **--/100**    |  --/100  |    --/100     |      [Consulter](./ideas/vendorfloor-ai/README.md)       |
-| **027** |  M2M   | **NexusTrade M2M**                                    |   **--/100**    |  --/100  |    --/100     |      [Consulter](./ideas/nexustrade-m2m/README.md)       |
-| **028** |  M2M   | **AgentPay**                                          |   **--/100**    |  --/100  |    --/100     |         [Consulter](./ideas/agentpay/README.md)          |
-| **029** |  M2M   | **AgentScope**                                        |   **--/100**    |  --/100  |    --/100     |        [Consulter](./ideas/agent-scope/README.md)        |
-| **030** |  M2M   | **SynapseClearing**                                   |   **--/100**    |  --/100  |    --/100     |      [Consulter](./ideas/synapseclearing/README.md)      |
-| **031** |  M2M   | **SupplyMesh AI**                                     |   **--/100**    |  --/100  |    --/100     |       [Consulter](./ideas/supplymesh-ai/README.md)       |
-| **032** |  B2B   | **RAGShield**                                         |   **--/100**    |  --/100  |    --/100     |        [Consulter](./ideas/rag-shield/README.md)         |
-| **033** |  B2B   | **AutoDeduct AI**                                     |   **--/100**    |  --/100  |    --/100     |       [Consulter](./ideas/autodeduct-ai/README.md)       |
-| **034** |  M2M   | **AgentAuth**                                         |   **--/100**    |  --/100  |    --/100     |        [Consulter](./ideas/agent-auth/README.md)         |
-| **035** |  M2M   | **NeuralSwitch**                                      |   **--/100**    |  --/100  |    --/100     |       [Consulter](./ideas/neuralswitch/README.md)        |
+| Rang | Modèle | Startup | Score Composite | Score VC | Score Terrain | Fiche détaillée |
+| :---: | :---: | :--- | :---: | :---: | :---: | :---: |
+| **001** | M2M | **SwarmGrid AI** | **95.5/100** | 94/100 | 97/100 | [Consulter](./ideas/swarmgrid-ai/README.md) |
+| **002** | M2M | **AgentGuard** | **93/100** | 96/100 | 90/100 | [Consulter](./ideas/agentguard-m2m-compliance/README.md) |
+| **003** | M2M | **Agentic Protocol** | **92.5/100** | 96/100 | 89/100 | [Consulter](./ideas/agentic-ledger/README.md) |
+| **004** | M2M | **SupplyMesh AI** | **92/100** | 91/100 | 93/100 | [Consulter](./ideas/supplymesh-m2m/README.md) |
+| **005** | B2B | **Aegis Proxy** | **90/100** | 88/100 | 92/100 | [Consulter](./ideas/aegis-proxy/README.md) |
+| **006** | B2B | **AutoDeduct AI** | **90/100** | 90/100 | 90/100 | [Consulter](./ideas/auto-deduct-ai/README.md) |
+| **007** | M2M | **NexusTrade M2M** | **89.5/100** | 98/100 | 81/100 | [Consulter](./ideas/nexus-trade-m2m/README.md) |
+| **008** | B2B | **VendorFloor AI** | **89.5/100** | 94/100 | 85/100 | [Consulter](./ideas/spendguard-ai/README.md) |
+| **009** | B2B | **CashFlow Shield** | **88.5/100** | 87/100 | 90/100 | [Consulter](./ideas/cashflow-shield/README.md) |
+| **010** | B2B | **UrbanClear AI** | **88/100** | 93/100 | 83/100 | [Consulter](./ideas/urbanclear-ai/README.md) |
+| **011** | M2M | **NeuralSwitch** | **87.5/100** | 95/100 | 80/100 | [Consulter](./ideas/neuralswitch-m2m-router/README.md) |
+| **012** | M2M | **AgentToll** | **87/100** | 98/100 | 76/100 | [Consulter](./ideas/agenttoll/README.md) |
+| **013** | B2B | **Aegis AI** | **86/100** | 92/100 | 80/100 | [Consulter](./ideas/aegis-ai/README.md) |
+| **014** | B2B | **Axiom Trade** | **86/100** | 88/100 | 84/100 | [Consulter](./ideas/axiom-trade/README.md) |
+| **015** | B2B | **AutoRecouv** | **85/100** | 89/100 | 81/100 | [Consulter](./ideas/autorecouv/README.md) |
+| **016** | M2M | **SynapseClearing** | **84.5/100** | 97/100 | 72/100 | [Consulter](./ideas/nexus-m2m/README.md) |
+| **017** | M2M | **AgentLedger** | **83.5/100** | 94/100 | 73/100 | [Consulter](./ideas/agent-ledger/README.md) |
+| **018** | B2B | **CogniCollect** | **81.5/100** | 90/100 | 73/100 | [Consulter](./ideas/cognicollect/README.md) |
+| **019** | M2M | **MachinaTrade** | **79.5/100** | 92/100 | 67/100 | [Consulter](./ideas/machinatrade-m2m/README.md) |
+| **020** | M2M | **Agent Firewall** | **--/100** | --/100 | 65/100 | [Consulter](./ideas/agent-firewall/README.md) |
+| **021** | M2M | **Agentic Protocol** | **--/100** | 91/100 | --/100 | [Consulter](./ideas/agentic-protocol/README.md) |
+| **022** | M2M | **MachinaTrade** | **--/100** | 91/100 | --/100 | [Consulter](./ideas/machinatrade/README.md) |
+| **023** | M2M | **AgentGuard** | **--/100** | 90/100 | --/100 | [Consulter](./ideas/agentguard/README.md) |
+| **024** | B2B | **Zero Trust Network Access for AI Agents (ZTNA-AI)** | **--/100** | --/100 | --/100 | [Consulter](./ideas/zero-trust-agents/README.md) |
+| **025** | M2M | **AgentLedger** | **--/100** | 89/100 | --/100 | [Consulter](./ideas/agentledger/README.md) |
+| **026** | B2B | **VendorFloor AI** | **--/100** | 90/100 | --/100 | [Consulter](./ideas/vendorfloor-ai/README.md) |
+| **027** | M2M | **NexusTrade M2M** | **--/100** | 88/100 | --/100 | [Consulter](./ideas/nexustrade-m2m/README.md) |
+| **028** | M2M | **AgentPay** | **--/100** | --/100 | 88/100 | [Consulter](./ideas/agentpay/README.md) |
+| **029** | M2M | **AgentScope** | **--/100** | --/100 | 74/100 | [Consulter](./ideas/agent-scope/README.md) |
+| **030** | M2M | **SynapseClearing** | **--/100** | 89/100 | --/100 | [Consulter](./ideas/synapseclearing/README.md) |
+| **031** | M2M | **SupplyMesh AI** | **--/100** | 89/100 | --/100 | [Consulter](./ideas/supplymesh-ai/README.md) |
+| **032** | B2B | **RAGShield** | **--/100** | --/100 | 81/100 | [Consulter](./ideas/rag-shield/README.md) |
+| **033** | B2B | **AutoDeduct AI** | **--/100** | 91/100 | --/100 | [Consulter](./ideas/autodeduct-ai/README.md) |
+| **034** | M2M | **AgentAuth** | **--/100** | --/100 | 85/100 | [Consulter](./ideas/agent-auth/README.md) |
+| **035** | M2M | **NeuralSwitch** | **--/100** | 89/100 | --/100 | [Consulter](./ideas/neuralswitch/README.md) |
+
+_Dernière mise à jour: 23/07/2026_
 
 _(Les 100 positions sont automatiquement rééquilibrées lors de chaque mise à jour du système - Dernière mise à jour : 22/07/2026)._
 

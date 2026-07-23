@@ -57,12 +57,12 @@ sequenceDiagram
 
 ## 5. Economic Model & Financial Viability
 
-| Metric | Value |
-| :--- | :--- |
-| **Pricing Structure** | Hybrid SaaS model: Dev access subscription (49€/month) + 1% commission on the volume of routed M2M micro-transactions. |
-| **12-Month Target** | 1,000 active developers (49,000€ ARR) + 5 million euros transacted monthly on the M2M network (60,000€ ARR via the 1% commission). |
-| **Revenue Calculation (100k€ Target)** | (1000 devs * 49€ * 12 months) + (5,000,000€ * 1% * 12 months) = 58,800€ + 60,000€ = 118,800€ |
-| **Estimated Gross Margin** | 85% (The ledger infrastructure is ultra-lightweight, centralized database optimized for concurrency). |
+| Metric                                 | Value                                                                                                                              |
+| :------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| **Pricing Structure**                  | Hybrid SaaS model: Dev access subscription (49€/month) + 1% commission on the volume of routed M2M micro-transactions.             |
+| **12-Month Target**                    | 1,000 active developers (49,000€ ARR) + 5 million euros transacted monthly on the M2M network (60,000€ ARR via the 1% commission). |
+| **Revenue Calculation (100k€ Target)** | (1000 devs _ 49€ _ 12 months) + (5,000,000€ _ 1% _ 12 months) = 58,800€ + 60,000€ = 118,800€                                       |
+| **Estimated Gross Margin**             | 85% (The ledger infrastructure is ultra-lightweight, centralized database optimized for concurrency).                              |
 
 ## 6. Distribution Engine & Defensive Moat (Moat)
 
@@ -75,14 +75,14 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criteria | VC Score (/100) | Terrain Score (/100) |
-| :--- | :---: | :---: |
-| **Thesis & Monopoly / Urgency** | 22 / 25 | -- / 25 |
-| **Moat / Resistance to Native LLMs** | 23 / 25 | -- / 25 |
-| **Scalability / Adoption Friction** | 24 / 25 | -- / 25 |
-| **Unit Economics / Direct ROI** | 20 / 25 | -- / 25 |
-| **TOTAL** | **89 / 100** | **-- / 100** |
+| Criteria                             | VC Score (/100) | Terrain Score (/100) |
+| :----------------------------------- | :-------------: | :------------------: |
+| **Thesis & Monopoly / Urgency**      |     22 / 25     |       23 / 25        |
+| **Moat / Resistance to Native LLMs** |     23 / 25     |       24 / 25        |
+| **Scalability / Adoption Friction**  |     24 / 25     |       16 / 25        |
+| **Unit Economics / Direct ROI**      |     20 / 25     |       20 / 25        |
+| **TOTAL**                            |  **89 / 100**   |     **83 / 100**     |
 
 > **VC Verdict:** AgentLedger introduces the definitive ledger for the M2M economy. By owning the settlement layer, it achieves ultimate lock-in and a quasi-monopolistic position. It perfectly exemplifies the 'don't build the AI, build the AI's bank' strategy.
 
-Verdict Terrain : En attente d'évaluation.
+> **VC Verdict:** AgentLedger provides the essential identity and wallet infrastructure for the autonomous agent economy. Its bilateral network effect and rigorous KYC requirements create a powerful regulatory and infrastructural moat.

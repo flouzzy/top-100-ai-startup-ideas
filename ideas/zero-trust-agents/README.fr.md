@@ -108,14 +108,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                               |  Score VC (/100)  |    Score Terrain (/100)     |
-| :------------------------------------ | :---------------: | :-------------------------: |
-| **Thèse & Monopole / Urgence**        |      24 / 25      |           -- / 25           |
-| **Moat / Résistance aux LLM natifs**  |      25 / 25      |           -- / 25           |
-| **Scalabilité / Friction d'adoption** |      20 / 25      |           -- / 25           |
-| **Unit Economics / ROI direct**       |      21 / 25      |           -- / 25           |
-| **TOTAL**                             | **90 / 100** | **En attente d'évaluation** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     24 / 25     |       25 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       25 / 25        |
+| **Scalabilité / Friction d'adoption** |     20 / 25     |       16 / 25        |
+| **Unit Economics / ROI direct**       |     21 / 25     |       22 / 25        |
+| **TOTAL**                             |  **90 / 100**   |     **88 / 100**     |
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La sécurité est le bloqueur ultime de l'IA d'entreprise, lui conférant une immense urgence. La nature déterministe offre une immunité parfaite contre les avancées probabilistes des LLM. Malgré une forte friction d'intégration, les entreprises paieront volontiers pour éliminer les risques catastrophiques.
 
 > **Verdict VC :** Zero Trust Agents résout un problème critique pour les RSSI déployant des systèmes autonomes. En découpant la passerelle de sécurité déterministe des LLM probabilistes, l'outil devient indispensable. Ce positionnement agnostique le rend robuste face à l'obsolescence des modèles de base.

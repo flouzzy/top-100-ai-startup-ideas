@@ -29,7 +29,7 @@ graph TD
 ## 2. The Contrarian Thesis (Peter Thiel Style)
 
 **The Popular Belief:** Companies will develop monolithic "super-agents" (AGI) capable of doing everything internally, or will use centralized plugins dictated by OpenAI/Google.
-**The Hidden Truth:** The AI economy will be highly fragmented and specialized. Millions of micro-agents will need to interact, negotiate, and pay each other to the millisecond without human intervention. The big winner won't be whoever creates the best agent, but whoever owns the *financial settlement layer* (the Visa/Mastercard) between these agents.
+**The Hidden Truth:** The AI economy will be highly fragmented and specialized. Millions of micro-agents will need to interact, negotiate, and pay each other to the millisecond without human intervention. The big winner won't be whoever creates the best agent, but whoever owns the _financial settlement layer_ (the Visa/Mastercard) between these agents.
 
 ## 3. The Problem & The Target
 
@@ -60,12 +60,12 @@ sequenceDiagram
 
 ## 5. Economic Model & Financial Viability
 
-| Metric | Value |
-| :--- | :--- |
-| **Pricing Structure** | 5% commission on the face value of each micro-transaction clearing + Fixed subscription fee for guaranteed liquidity (99€/month per agent cluster). |
-| **12-Month Target** | 200 companies connecting "Swarms", generating 10 million micro-transactions/month at an average value of 0.05€. |
-| **Revenue Calculation (100k€ Target)** | (200 clients * 99€/month) + (10M tx * 0.05€ * 5% commission) = 19,800€ + 25,000€ = 44,800€ MRR = **537,600€ ARR** (Well > 100k€). |
-| **Estimated Gross Margin** | 90% (Marginal costs of an RPC transaction are near zero). |
+| Metric                                 | Value                                                                                                                                               |
+| :------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pricing Structure**                  | 5% commission on the face value of each micro-transaction clearing + Fixed subscription fee for guaranteed liquidity (99€/month per agent cluster). |
+| **12-Month Target**                    | 200 companies connecting "Swarms", generating 10 million micro-transactions/month at an average value of 0.05€.                                     |
+| **Revenue Calculation (100k€ Target)** | (200 clients _ 99€/month) + (10M tx _ 0.05€ \* 5% commission) = 19,800€ + 25,000€ = 44,800€ MRR = **537,600€ ARR** (Well > 100k€).                  |
+| **Estimated Gross Margin**             | 90% (Marginal costs of an RPC transaction are near zero).                                                                                           |
 
 ## 6. Distribution Engine & Defensive Moat (Moat)
 
@@ -74,14 +74,14 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criteria | VC Score (/100) | Terrain Score (/100) |
-| :--- | :---: | :---: |
-| **Thesis & Monopoly / Urgency** | 24 / 25 | -- / 25 |
-| **Moat / Resistance to Native LLMs** | 25 / 25 | -- / 25 |
-| **Scalability / Adoption Friction** | 19 / 25 | -- / 25 |
-| **Unit Economics / Direct ROI** | 21 / 25 | -- / 25 |
-| **TOTAL** | **89 / 100** | **-- / 100** |
+| Criteria                             | VC Score (/100) | Terrain Score (/100) |
+| :----------------------------------- | :-------------: | :------------------: |
+| **Thesis & Monopoly / Urgency**      |     24 / 25     |       22 / 25        |
+| **Moat / Resistance to Native LLMs** |     25 / 25     |       24 / 25        |
+| **Scalability / Adoption Friction**  |     19 / 25     |       15 / 25        |
+| **Unit Economics / Direct ROI**      |     21 / 25     |       20 / 25        |
+| **TOTAL**                            |  **89 / 100**   |     **81 / 100**     |
 
 > **VC Verdict:** SynapseClearing provides the critical regulatory and clearing infrastructure for M2M transactions. By holding funds in escrow and ensuring compliance, it acts as a trusted middleman with a natural monopoly dynamic. The technical moat is absolute.
 
-Verdict Terrain : En attente d'évaluation.
+> **VC Verdict:** SynapseClearing provides the critical regulatory and clearing infrastructure for M2M transactions. By holding funds in escrow and ensuring compliance, it acts as a trusted middleman with a natural monopoly dynamic.

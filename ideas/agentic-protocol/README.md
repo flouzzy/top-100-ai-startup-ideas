@@ -53,10 +53,10 @@ sequenceDiagram
 
 ## 5. Economic Model & Financial Viability
 
-| Metric | Value | Pricing Structure | 12-Month Target | Revenue Calculation (100k€ Target) | Estimated Gross Margin |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Micro-commission M2M** | Take rate on exchanges | 1% commission on traded volume | 30 million micro-transactions/month | `(30M tx * $0.03 average basket) * 1% = 9,000€ MRR` (i.e. 108k€ ARR) | 95% (Pure orchestration software) |
-| **Enterprise Subscription** | Guaranteed SLA access & Compliance logs | 500€ / month / agent fleet | 50 active agent fleets | `50 * 500€ * 12 = 300,000€ ARR` | 90% (Cloud Infrastructure) |
+| Metric                      | Value                                   | Pricing Structure              | 12-Month Target                     | Revenue Calculation (100k€ Target)                                   | Estimated Gross Margin            |
+| :-------------------------- | :-------------------------------------- | :----------------------------- | :---------------------------------- | :------------------------------------------------------------------- | :-------------------------------- |
+| **Micro-commission M2M**    | Take rate on exchanges                  | 1% commission on traded volume | 30 million micro-transactions/month | `(30M tx * $0.03 average basket) * 1% = 9,000€ MRR` (i.e. 108k€ ARR) | 95% (Pure orchestration software) |
+| **Enterprise Subscription** | Guaranteed SLA access & Compliance logs | 500€ / month / agent fleet     | 50 active agent fleets              | `50 * 500€ * 12 = 300,000€ ARR`                                      | 90% (Cloud Infrastructure)        |
 
 ## 6. Distribution Engine & Defensive Moat (Moat)
 
@@ -65,14 +65,14 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criteria | VC Score (/100) | Terrain Score (/100) |
-| :--- | :---: | :---: |
-| **Thesis & Monopoly / Urgency** | 24 / 25 | -- / 25 |
-| **Moat / Resistance to Native LLMs** | 25 / 25 | -- / 25 |
-| **Scalability / Adoption Friction** | 22 / 25 | -- / 25 |
-| **Unit Economics / Direct ROI** | 20 / 25 | -- / 25 |
-| **TOTAL** | **91 / 100** | **-- / 100** |
+| Criteria                             | VC Score (/100) | Terrain Score (/100) |
+| :----------------------------------- | :-------------: | :------------------: |
+| **Thesis & Monopoly / Urgency**      |     24 / 25     |       20 / 25        |
+| **Moat / Resistance to Native LLMs** |     25 / 25     |       22 / 25        |
+| **Scalability / Adoption Friction**  |     22 / 25     |       14 / 25        |
+| **Unit Economics / Direct ROI**      |     20 / 25     |       18 / 25        |
+| **TOTAL**                            |  **91 / 100**   |     **74 / 100**     |
 
 > **VC Verdict:** Agentic Protocol is a quintessential infrastructure play for the agentic web. By standardizing inter-agent communication, it aims for a winner-takes-all outcome driven by relentless network effects. The fundamental layer of a trillion-dollar M2M economy.
 
-Verdict Terrain : En attente d'évaluation.
+> **VC Verdict:** Agentic Protocol perfectly captures the massive impending need for an M2M financial settlement layer. Being the neutral standard for AI agent transactions provides unassailable network effects against foundational models.
