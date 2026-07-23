@@ -82,13 +82,13 @@ sequenceDiagram
 
 ## 5. Economic Model & Financial Viability
 
-| Metric | Value |
-| :--- | :--- |
-| **Pricing Structure** | Integration SaaS Subscription (1,500€/month) + 0.5% M2M commission per transaction |
-| **12-Month Target** | Reach 100k€ of annual recurring revenue/fees |
-| **Required Clients** | 5 active industrial clients each passing 1M€ of purchases via the network/year |
-| **Revenue Calculation (100k€ Target)** | (5 clients * 18,000€ SaaS/year) + (5M€ GMV * 0.5% fee) = 90,000 + 25,000 = 115,000€ |
-| **Estimated Gross Margin** | 92% (Very low marginal costs post-integration, minimal LLM inference) |
+| Metric                                 | Value                                                                               |
+| :------------------------------------- | :---------------------------------------------------------------------------------- |
+| **Pricing Structure**                  | Integration SaaS Subscription (1,500€/month) + 0.5% M2M commission per transaction  |
+| **12-Month Target**                    | Reach 100k€ of annual recurring revenue/fees                                        |
+| **Required Clients**                   | 5 active industrial clients each passing 1M€ of purchases via the network/year      |
+| **Revenue Calculation (100k€ Target)** | (5 clients _ 18,000€ SaaS/year) + (5M€ GMV _ 0.5% fee) = 90,000 + 25,000 = 115,000€ |
+| **Estimated Gross Margin**             | 92% (Very low marginal costs post-integration, minimal LLM inference)               |
 
 ## 6. Distribution Engine & Defensive Moat (Moat)
 
@@ -100,14 +100,14 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criteria | VC Score (/100) | Terrain Score (/100) |
-| :--- | :---: | :---: |
-| **Thesis & Monopoly / Urgency** | 21 / 25 | -- / 25 |
-| **Moat / Resistance to Native LLMs** | 22 / 25 | -- / 25 |
-| **Scalability / Adoption Friction** | 24 / 25 | -- / 25 |
-| **Unit Economics / Direct ROI** | 22 / 25 | -- / 25 |
-| **TOTAL** | **89 / 100** | **-- / 100** |
+| Criteria                             | VC Score (/100) | Terrain Score (/100) |
+| :----------------------------------- | :-------------: | :------------------: |
+| **Thesis & Monopoly / Urgency**      |     21 / 25     |       21 / 25        |
+| **Moat / Resistance to Native LLMs** |     22 / 25     |       20 / 25        |
+| **Scalability / Adoption Friction**  |     24 / 25     |       14 / 25        |
+| **Unit Economics / Direct ROI**      |     22 / 25     |       19 / 25        |
+| **TOTAL**                            |  **89 / 100**   |     **74 / 100**     |
+
+> **Verdict Terrain :** AI-driven supply chain optimization is valuable, but integrating deeply into existing ERPs causes significant friction. The monetization is clear based on efficiency gains. The main hurdle is the enterprise sales cycle and change management.
 
 > **VC Verdict:** SupplyMesh AI rethinks procurement as an automated, liquid inter-machine market directly connected to legacy ERPs. The switching costs are immense once the complex data mapping is achieved.
-
-Verdict Terrain : En attente d'évaluation.

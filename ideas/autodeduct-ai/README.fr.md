@@ -1,6 +1,7 @@
 <!-- markdownlint-disable MD013 MD033 MD060 MD039 MD041 MD032 MD010 MD009 MD022 MD036 MD028 MD037 -->
 
 [🇬🇧 English Version](./README.md)
+
 # AutoDeduct AI
 
 > **Résumé exécutif :** AutoDeduct AI est un agent financier autonome qui récupère automatiquement les millions d'euros perdus par les marques CPG (Consumer Packaged Goods) en contestant systématiquement et sans intervention humaine les déductions commerciales abusives des grands distributeurs (Amazon, Carrefour, Walmart).
@@ -61,12 +62,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| :--- | :--- |
-| **Structure de prix** | Modèle hybride : 1000€/mois (frais fixes d'intégration) + 15% de commission (Success Fee) sur les sommes récupérées. |
-| **Objectif 12 mois** | 20 clients récupérant en moyenne 35 000€ par mois chacun. |
+| Métrique                        | Valeur                                                                                                                                                                                                                                |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Structure de prix**           | Modèle hybride : 1000€/mois (frais fixes d'intégration) + 15% de commission (Success Fee) sur les sommes récupérées.                                                                                                                  |
+| **Objectif 12 mois**            | 20 clients récupérant en moyenne 35 000€ par mois chacun.                                                                                                                                                                             |
 | **Calcul du CA (Target 100k€)** | Fixe : 20*1000 = 20k€. Commission : (20* 35k€ *15%) = 105k€. Total mensuel : 125k€ (ARR potentiel > 1M€). Pour atteindre 100k€ d'ARR, seuls**2 à 3 clients** sont nécessaires (Ex: 3 clients*12k€ fixe/an + 20k€ comm/an = 96k€ ARR). |
-| **Marge brute estimée** | 85% (Coûts principaux : appels API LLM vision pour l'OCR des PODs, hébergement, RPA). |
+| **Marge brute estimée**         | 85% (Coûts principaux : appels API LLM vision pour l'OCR des PODs, hébergement, RPA).                                                                                                                                                 |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -80,14 +81,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 23 / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | 22 / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | 22 / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | 24 / 25 | -- / 25 |
-| **TOTAL** | **91 / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     23 / 25     |       25 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     22 / 25     |       18 / 25        |
+| **Scalabilité / Friction d'adoption** |     22 / 25     |       22 / 25        |
+| **Unit Economics / ROI direct**       |     24 / 25     |       24 / 25        |
+| **TOTAL**                             |  **91 / 100**   |     **89 / 100**     |
+
+> **Verdict Terrain :** Cela résout un problème administratif immédiat et douloureux avec un retour sur investissement clair. La friction d'adoption est relativement faible et les utilisateurs sont très disposés à payer pour la conformité automatisée. Les LLM natifs ne peuvent pas facilement reproduire l'intégration profonde avec les lois fiscales locales.
 
 > **Verdict VC :** AutoDeduct AI cible un problème hautement spécifique et lucratif : la récupération des déductions commerciales abusives des méga-distributeurs. Le ROI immédiat et l'OCR spécialisé créent une proposition de valeur B2B intouchable.
-
-Verdict Terrain : En attente d'évaluation.

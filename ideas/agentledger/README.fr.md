@@ -57,12 +57,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| :--- | :--- |
-| **Structure de prix** | Modèle SaaS hybride : Abonnement accès dev (49€/mois) + Commission de 1% sur le volume des micro-transactions M2M routées. |
-| **Objectif 12 mois** | 1 000 développeurs actifs (49 000€ ARR) + 5 millions d'euros transigés mensuellement sur le réseau M2M (60 000€ ARR via le 1% de commisison). |
-| **Calcul du CA (Target 100k€)** | (1000 devs *49€* 12 mois) + (5 000 000€ *1%* 12 mois) = 58 800€ + 60 000€ = 118 800€ |
-| **Marge brute estimée** | 85% (L'infrastructure de ledger est ultra-légère, base de données centralisée optimisée pour la concurrence). |
+| Métrique                        | Valeur                                                                                                                                        |
+| :------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Structure de prix**           | Modèle SaaS hybride : Abonnement accès dev (49€/mois) + Commission de 1% sur le volume des micro-transactions M2M routées.                    |
+| **Objectif 12 mois**            | 1 000 développeurs actifs (49 000€ ARR) + 5 millions d'euros transigés mensuellement sur le réseau M2M (60 000€ ARR via le 1% de commisison). |
+| **Calcul du CA (Target 100k€)** | (1000 devs _49€_ 12 mois) + (5 000 000€ _1%_ 12 mois) = 58 800€ + 60 000€ = 118 800€                                                          |
+| **Marge brute estimée**         | 85% (L'infrastructure de ledger est ultra-légère, base de données centralisée optimisée pour la concurrence).                                 |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -75,14 +75,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 22 / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | 23 / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | 24 / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | 20 / 25 | -- / 25 |
-| **TOTAL** | **89 / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     22 / 25     |       23 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     23 / 25     |       24 / 25        |
+| **Scalabilité / Friction d'adoption** |     24 / 25     |       16 / 25        |
+| **Unit Economics / ROI direct**       |     20 / 25     |       20 / 25        |
+| **TOTAL**                             |  **89 / 100**   |     **83 / 100**     |
+
+> **Verdict Terrain :** Les pistes d'audit basées sur la blockchain pour l'IA sont difficiles à vendre jusqu'à ce que la conformité l'exige explicitement. Cependant, les pionniers dans les domaines à forts enjeux paieront pour une preuve incontestable. La monétisation est claire mais l'urgence actuelle est de niche.
 
 > **Verdict VC :** AgentLedger fournit l'infrastructure essentielle d'identité et de portefeuille pour l'économie des agents autonomes. Son effet de réseau bilatéral et ses exigences KYC rigoureuses créent un puissant fossé réglementaire.
-
-Verdict Terrain : En attente d'évaluation.
