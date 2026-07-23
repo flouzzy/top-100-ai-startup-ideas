@@ -63,12 +63,12 @@ sequenceDiagram
 
 ## 5. Economic Model & Financial Viability
 
-| Metric | Value |
-| :--- | :--- |
-| **Pricing Structure** | Hybrid SaaS model: 500€/month (Platform fee) + 0.05€ per validated critical action. |
-| **12-Month Target** | 40 client companies generating an average of 2500 actions/month. |
+| Metric                                 | Value                                                                                                                                     |
+| :------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pricing Structure**                  | Hybrid SaaS model: 500€/month (Platform fee) + 0.05€ per validated critical action.                                                       |
+| **12-Month Target**                    | 40 client companies generating an average of 2500 actions/month.                                                                          |
 | **Revenue Calculation (100k€ Target)** | $40 \times (500 + (2500 \times 0.05)) \times 12 = 40 \times 625 \times 12 = 300,000$€ (The 100k€ target is reached with only 14 clients). |
-| **Estimated Gross Margin** | 85% (Server costs are very low as the verification engine is primarily deterministic and does not use massive LLMs). |
+| **Estimated Gross Margin**             | 85% (Server costs are very low as the verification engine is primarily deterministic and does not use massive LLMs).                      |
 
 ## 6. Distribution Engine & Defensive Moat (Moat)
 
@@ -81,14 +81,14 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criteria | VC Score (/100) | Terrain Score (/100) |
-| :--- | :---: | :---: |
-| **Thesis & Monopoly / Urgency** | 25 / 25 | -- / 25 |
-| **Moat / Resistance to Native LLMs** | 24 / 25 | -- / 25 |
-| **Scalability / Adoption Friction** | 19 / 25 | -- / 25 |
-| **Unit Economics / Direct ROI** | 22 / 25 | -- / 25 |
-| **TOTAL** | **90 / 100** | **-- / 100** |
+| Criteria                             | VC Score (/100) | Terrain Score (/100) |
+| :----------------------------------- | :-------------: | :------------------: |
+| **Thesis & Monopoly / Urgency**      |     25 / 25     |       24 / 25        |
+| **Moat / Resistance to Native LLMs** |     24 / 25     |       25 / 25        |
+| **Scalability / Adoption Friction**  |     19 / 25     |       15 / 25        |
+| **Unit Economics / Direct ROI**      |     22 / 25     |       22 / 25        |
+| **TOTAL**                            |  **90 / 100**   |     **86 / 100**     |
+
+> **Verdict Terrain :** The demand for execution safety in AI is immediate and urgent. Integration requires significant effort, but the clear monetization model and absolute necessity make this highly viable. It acts as an essential insurance policy for autonomous AI.
 
 > **VC Verdict:** AgentGuard tackles the core blocker for enterprise AI adoption by acting as a deterministic safety net. The deeply integrated M2M compliance layer creates high switching costs, ensuring excellent unit economics.
-
-Verdict Terrain : En attente d'évaluation.

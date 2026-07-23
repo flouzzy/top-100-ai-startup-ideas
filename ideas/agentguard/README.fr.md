@@ -81,14 +81,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 25 / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | 24 / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | 19 / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | 22 / 25 | -- / 25 |
-| **TOTAL** | **90 / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     25 / 25     |       24 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     24 / 25     |       25 / 25        |
+| **Scalabilité / Friction d'adoption** |     19 / 25     |       15 / 25        |
+| **Unit Economics / ROI direct**       |     22 / 25     |       22 / 25        |
+| **TOTAL**                             |  **90 / 100**   |     **86 / 100**     |
+
+> **Verdict Terrain :** La demande de sécurité d'exécution pour l'IA est immédiate et urgente. L'intégration nécessite un effort important, mais le modèle de monétisation clair et la nécessité absolue rendent ce projet très viable. Il agit comme une police d'assurance indispensable pour l'IA autonome.
 
 > **Verdict VC :** AgentGuard s'attaque au principal frein à l'adoption de l'IA en entreprise en agissant comme un filet de sécurité déterministe. La couche de conformité M2M profondément intégrée crée des coûts de changement élevés.
-
-Verdict Terrain : En attente d'évaluation.

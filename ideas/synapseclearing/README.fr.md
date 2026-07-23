@@ -29,7 +29,7 @@ graph TD
 ## 2. La thèse contrariante (Peter Thiel Style)
 
 **La croyance populaire :** Les entreprises vont développer des "super-agents" monolithiques (AGI) capables de tout faire en interne, ou utiliseront des plugins centralisés dictés par OpenAI/Google.
-**La vérité cachée :** L'économie de l'IA sera hautement fragmentée et spécialisée. Des millions de micro-agents vont devoir interagir, négocier et se payer mutuellement à la milliseconde sans intervention humaine. Le grand gagnant ne sera pas celui qui crée le meilleur agent, mais celui qui possède la *couche de règlement financier* (le Visa/Mastercard) entre ces agents.
+**La vérité cachée :** L'économie de l'IA sera hautement fragmentée et spécialisée. Des millions de micro-agents vont devoir interagir, négocier et se payer mutuellement à la milliseconde sans intervention humaine. Le grand gagnant ne sera pas celui qui crée le meilleur agent, mais celui qui possède la _couche de règlement financier_ (le Visa/Mastercard) entre ces agents.
 
 ## 3. Le problème & La cible
 
@@ -60,12 +60,12 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| :--- | :--- |
-| **Structure de prix** | Commission de 5% sur la valeur nominale de chaque micro-transaction clearing + Frais fixes d'abonnement pour la liquidité garantie (99€/mois par cluster d'agents). |
-| **Objectif 12 mois** | 200 entreprises connectant des "Swarm", générant 10 millions de micro-transactions/mois à une valeur moyenne de 0.05€. |
-| **Calcul du CA (Target 100k€)** | (200 clients *99€/mois) + (10M tx* 0.05€ * 5% commission) = 19,800€ + 25,000€ = 44,800€ MRR = **537,600€ ARR** (Largement > 100k€). |
-| **Marge brute estimée** | 90% (Coûts marginaux d'une transaction RPC quasi-nuls). |
+| Métrique                        | Valeur                                                                                                                                                              |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Structure de prix**           | Commission de 5% sur la valeur nominale de chaque micro-transaction clearing + Frais fixes d'abonnement pour la liquidité garantie (99€/mois par cluster d'agents). |
+| **Objectif 12 mois**            | 200 entreprises connectant des "Swarm", générant 10 millions de micro-transactions/mois à une valeur moyenne de 0.05€.                                              |
+| **Calcul du CA (Target 100k€)** | (200 clients _99€/mois) + (10M tx_ 0.05€ \* 5% commission) = 19,800€ + 25,000€ = 44,800€ MRR = **537,600€ ARR** (Largement > 100k€).                                |
+| **Marge brute estimée**         | 90% (Coûts marginaux d'une transaction RPC quasi-nuls).                                                                                                             |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -74,14 +74,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 24 / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | 25 / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | 19 / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | 21 / 25 | -- / 25 |
-| **TOTAL** | **89 / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     24 / 25     |       22 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       24 / 25        |
+| **Scalabilité / Friction d'adoption** |     19 / 25     |       15 / 25        |
+| **Unit Economics / ROI direct**       |     21 / 25     |       20 / 25        |
+| **TOTAL**                             |  **89 / 100**   |     **81 / 100**     |
+
+> **Verdict Terrain :** Une chambre de compensation pour les agents d'IA répond au besoin critique de confiance inter-agents. La valeur réglementaire et de conformité est élevée, justifiant le coût. Cependant, le marché est encore naissant, nécessitant du temps pour une adoption complète.
 
 > **Verdict VC :** SynapseClearing fournit l'infrastructure critique de régulation et de compensation pour les transactions M2M. En sécurisant les fonds et en assurant la conformité, elle agit comme un intermédiaire de confiance avec une dynamique de monopole naturel.
-
-Verdict Terrain : En attente d'évaluation.

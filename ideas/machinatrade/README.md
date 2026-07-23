@@ -61,12 +61,12 @@ sequenceDiagram
 
 ## 5. Economic Model & Financial Viability
 
-| Metric | Value |
-| :--- | :--- |
-| **Pricing Structure** | Infrastructure Subscription (500€/month/plant) + Commission (1.5% per M2M transaction) |
-| **12-Month Target** | 20 connected plants (SaaS) + 200,000€/month in transaction flows |
-| **Revenue Calculation (100k€ Target)** | (20 plants * 500€ * 12 months = 120,000€) + (200,000€ GMV/month * 1.5% * 12 months = 36,000€) = 156,000€ ARR |
-| **Estimated Gross Margin** | 85% (Server and API costs are minimal compared to transaction volume) |
+| Metric                                 | Value                                                                                                        |
+| :------------------------------------- | :----------------------------------------------------------------------------------------------------------- |
+| **Pricing Structure**                  | Infrastructure Subscription (500€/month/plant) + Commission (1.5% per M2M transaction)                       |
+| **12-Month Target**                    | 20 connected plants (SaaS) + 200,000€/month in transaction flows                                             |
+| **Revenue Calculation (100k€ Target)** | (20 plants _ 500€ _ 12 months = 120,000€) + (200,000€ GMV/month _ 1.5% _ 12 months = 36,000€) = 156,000€ ARR |
+| **Estimated Gross Margin**             | 85% (Server and API costs are minimal compared to transaction volume)                                        |
 
 ## 6. Distribution Engine & Defensive Moat (Moat)
 
@@ -75,14 +75,14 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criteria | VC Score (/100) | Terrain Score (/100) |
-| :--- | :---: | :---: |
-| **Thesis & Monopoly / Urgency** | 23 / 25 | -- / 25 |
-| **Moat / Resistance to Native LLMs** | 24 / 25 | -- / 25 |
-| **Scalability / Adoption Friction** | 21 / 25 | -- / 25 |
-| **Unit Economics / Direct ROI** | 23 / 25 | -- / 25 |
-| **TOTAL** | **91 / 100** | **-- / 100** |
+| Criteria                             | VC Score (/100) | Terrain Score (/100) |
+| :----------------------------------- | :-------------: | :------------------: |
+| **Thesis & Monopoly / Urgency**      |     23 / 25     |       18 / 25        |
+| **Moat / Resistance to Native LLMs** |     24 / 25     |       20 / 25        |
+| **Scalability / Adoption Friction**  |     21 / 25     |       12 / 25        |
+| **Unit Economics / Direct ROI**      |     23 / 25     |       15 / 25        |
+| **TOTAL**                            |  **91 / 100**   |     **65 / 100**     |
+
+> **Verdict Terrain :** The concept of machine-to-machine trading of compute power is fascinating but highly speculative. The initial adoption barrier is massive and the willingness to pay is unproven. It lacks immediate, concrete business demand.
 
 > **VC Verdict:** MachinaTrade transforms predictive maintenance alerts into automated action, solving a huge bottleneck in industrial supply chains. The deep ERP integration and M2M trading creates a highly defensible platform.
-
-Verdict Terrain : En attente d'évaluation.

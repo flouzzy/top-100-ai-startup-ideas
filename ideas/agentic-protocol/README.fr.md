@@ -53,10 +53,10 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur | Structure de prix | Objectif 12 mois | Calcul du CA (Target 100k€) | Marge brute estimée |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Micro-commission M2M** | Take rate sur les échanges | 1% de commission sur le volume échangé | 30 millions de micro-transactions/mois | `(30M tx * 0.03$ panier moyen) * 1% = 9 000€ MRR` (soit 108k€ ARR) | 95% (Pur logiciel d'orchestration) |
-| **Abonnement Enterprise** | Accès SLA garantis & Logs de conformité | 500€ / mois / flotte d'agents | 50 flottes d'agents actives | `50 * 500€ * 12 = 300 000€ ARR` | 90% (Infrastructure cloud) |
+| Métrique                  | Valeur                                  | Structure de prix                      | Objectif 12 mois                       | Calcul du CA (Target 100k€)                                        | Marge brute estimée                |
+| :------------------------ | :-------------------------------------- | :------------------------------------- | :------------------------------------- | :----------------------------------------------------------------- | :--------------------------------- |
+| **Micro-commission M2M**  | Take rate sur les échanges              | 1% de commission sur le volume échangé | 30 millions de micro-transactions/mois | `(30M tx * 0.03$ panier moyen) * 1% = 9 000€ MRR` (soit 108k€ ARR) | 95% (Pur logiciel d'orchestration) |
+| **Abonnement Enterprise** | Accès SLA garantis & Logs de conformité | 500€ / mois / flotte d'agents          | 50 flottes d'agents actives            | `50 * 500€ * 12 = 300 000€ ARR`                                    | 90% (Infrastructure cloud)         |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
@@ -65,14 +65,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 24 / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | 25 / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | 22 / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | 20 / 25 | -- / 25 |
-| **TOTAL** | **91 / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     24 / 25     |       20 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       22 / 25        |
+| **Scalabilité / Friction d'adoption** |     22 / 25     |       14 / 25        |
+| **Unit Economics / ROI direct**       |     20 / 25     |       18 / 25        |
+| **TOTAL**                             |  **91 / 100**   |     **74 / 100**     |
+
+> **Verdict Terrain :** Bien que la création d'un protocole standardisé offre une immense valeur, la friction du marché est très élevée. La monétisation est difficile sans une adoption initiale massive. Il résout un problème réel, mais la réalité commerciale reste rude.
 
 > **Verdict VC :** Agentic Protocol capture parfaitement le besoin massif imminent d'une couche de règlement financier M2M. Être le standard neutre pour les transactions entre agents IA offre des effets de réseau inattaquables par les modèles fondateurs.
-
-Verdict Terrain : En attente d'évaluation.

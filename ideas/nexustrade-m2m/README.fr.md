@@ -31,9 +31,9 @@ graph TD
 
 ## 3. Le problème & La cible
 
-* **Modèle économique :** M2M (Infrastructure sous-jacente B2B)
-* **Cible précise :** Éditeurs d'agents IA, entreprises SaaS avec des workflows autonomes complexes, créateurs de bots spécialisés.
-* **La douleur urgente :** Gérer des clés API statiques, des abonnements mensuels rigides et des limites de requêtes pour chaque micro-service tiers dont une IA a temporairement besoin freine massivement l'autonomie. Le coût temporel et opérationnel pour un développeur de maintenir toutes ces intégrations est insoutenable à l'échelle de l'Agentic Web.
+- **Modèle économique :** M2M (Infrastructure sous-jacente B2B)
+- **Cible précise :** Éditeurs d'agents IA, entreprises SaaS avec des workflows autonomes complexes, créateurs de bots spécialisés.
+- **La douleur urgente :** Gérer des clés API statiques, des abonnements mensuels rigides et des limites de requêtes pour chaque micro-service tiers dont une IA a temporairement besoin freine massivement l'autonomie. Le coût temporel et opérationnel pour un développeur de maintenir toutes ces intégrations est insoutenable à l'échelle de l'Agentic Web.
 
 ## 4. Architecture technique & Plomberie
 
@@ -76,28 +76,28 @@ sequenceDiagram
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique | Valeur |
-| :--- | :--- |
-| **Structure de prix** | Commission dynamique de 0.5% à 1% sur le volume de chaque micro-transaction effectuée via le protocole. |
-| **Objectif 12 mois** | 500 agents IA actifs, générant au total 2 millions de micro-transactions par mois à un volume moyen de 1€/tx. |
-| **Calcul du CA (Target 100k€)** | 2,000,000 tx *1€ = 2,000,000€ de volume* 1% de commission = 20,000€/mois. En ARR = **240,000€/an**. |
-| **Marge brute estimée** | 95% (Coûts marginaux très faibles liés uniquement au routage serveur et base de données, l'intelligence est fournie par les agents tiers). |
+| Métrique                        | Valeur                                                                                                                                     |
+| :------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Structure de prix**           | Commission dynamique de 0.5% à 1% sur le volume de chaque micro-transaction effectuée via le protocole.                                    |
+| **Objectif 12 mois**            | 500 agents IA actifs, générant au total 2 millions de micro-transactions par mois à un volume moyen de 1€/tx.                              |
+| **Calcul du CA (Target 100k€)** | 2,000,000 tx _1€ = 2,000,000€ de volume_ 1% de commission = 20,000€/mois. En ARR = **240,000€/an**.                                        |
+| **Marge brute estimée**         | 95% (Coûts marginaux très faibles liés uniquement au routage serveur et base de données, l'intelligence est fournie par les agents tiers). |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-* **Stratégie d'acquisition :** Adhésion "Dev-first" M2M via un SDK open-source. La stratégie est d'onboarder massivement les frameworks de création d'agents autonomes (AutoGPT, LangChain, LlamaIndex, CrewAI) avec des plugins natifs "NexusTrade". Cela permet aux développeurs d'activer cette capacité de commerce M2M en une seule ligne de code.
-* **Moat (Barrière à l'entrée) :** Effet de réseau bilatéral hyper-dense (Marketplace Dynamics). Plus il y a d'agents vendeurs proposant des données/actions très spécialisées, plus les agents acheteurs viennent se sourcer sur le réseau, et inversement. OpenAI ou Google se battent pour fournir l'intelligence de base (le cerveau) ; NexusTrade fournit l'infrastructure d'échange de valeur agnostique au modèle LLM utilisé (le système circulatoire), devenant ainsi un standard de fait inattaquable par les modèles fondateurs.
+- **Stratégie d'acquisition :** Adhésion "Dev-first" M2M via un SDK open-source. La stratégie est d'onboarder massivement les frameworks de création d'agents autonomes (AutoGPT, LangChain, LlamaIndex, CrewAI) avec des plugins natifs "NexusTrade". Cela permet aux développeurs d'activer cette capacité de commerce M2M en une seule ligne de code.
+- **Moat (Barrière à l'entrée) :** Effet de réseau bilatéral hyper-dense (Marketplace Dynamics). Plus il y a d'agents vendeurs proposant des données/actions très spécialisées, plus les agents acheteurs viennent se sourcer sur le réseau, et inversement. OpenAI ou Google se battent pour fournir l'intelligence de base (le cerveau) ; NexusTrade fournit l'infrastructure d'échange de valeur agnostique au modèle LLM utilisé (le système circulatoire), devenant ainsi un standard de fait inattaquable par les modèles fondateurs.
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
-| **Thèse & Monopole / Urgence** | 22 / 25 | -- / 25 |
-| **Moat / Résistance aux LLM natifs** | 24 / 25 | -- / 25 |
-| **Scalabilité / Friction d'adoption** | 21 / 25 | -- / 25 |
-| **Unit Economics / ROI direct** | 21 / 25 | -- / 25 |
-| **TOTAL** | **88 / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     22 / 25     |       20 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     24 / 25     |       22 / 25        |
+| **Scalabilité / Friction d'adoption** |     21 / 25     |       15 / 25        |
+| **Unit Economics / ROI direct**       |     21 / 25     |       18 / 25        |
+| **TOTAL**                             |  **88 / 100**   |     **75 / 100**     |
+
+> **Verdict Terrain :** Semblable à MachinaTrade, l'échange économique M2M fait face à de graves vents contraires à l'adoption. L'infrastructure est complexe et le besoin commercial immédiat n'est pas encore universellement ressenti. La monétisation aura du mal jusqu'à ce qu'une norme claire émerge.
 
 > **Verdict VC :** NexusTrade M2M cible le besoin émergent des agents IA de négocier des ressources numériques de manière programmatique. L'effet de réseau hyper-dense crée un fossé solide, bien que l'obtention de la liquidité initiale soit un défi.
-
-Verdict Terrain : En attente d'évaluation.
