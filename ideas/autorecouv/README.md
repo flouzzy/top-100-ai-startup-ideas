@@ -80,10 +80,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | :-------------------------------- | :-------------: | :------------------: |
-| Thèse & Monopole / Urgence        |     22 / 25     |       24 / 25        |
-| Moat / Résistance aux LLM natifs  |     23 / 25     |       18 / 25        |
-| Scalabilité / Friction d'adoption |     19 / 25     |       20 / 25        |
-| Unit Economics / ROI direct       |     25 / 25     |       25 / 25        |
-| **TOTAL**                         |  **89 / 100**   |     **87 / 100**     |
+| Thèse & Monopole / Urgence        |     22 / 25     |       18 / 25        |
+| Moat / Résistance aux LLM natifs  |     23 / 25     |       22 / 25        |
+| Scalabilité / Friction d'adoption |     19 / 25     |       19 / 25        |
+| Unit Economics / ROI direct       |     25 / 25     |       22 / 25        |
+| **TOTAL**                         |  **89 / 100**   |     **81 / 100**     |
 
-**Verdict global :**AutoRecouv résout une douleur B2B universelle avec un ROI instantanément mesurable en trésorerie. Son "Moat" d'intégration ERP le protège des concurrents génériques d'IA, ce qui en fait un candidat redoutable pour devenir l'infrastructure standard du recouvrement PME.
+> **Verdict Terrain :** L'outil AutoRecouv répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. La clarté de sa proposition de valeur financière assure une forte disposition à payer des entreprises B2B.
+> **Verdict global :**AutoRecouv résout une douleur B2B universelle avec un ROI instantanément mesurable en trésorerie. Son "Moat" d'intégration ERP le protège des concurrents génériques d'IA, ce qui en fait un candidat redoutable pour devenir l'infrastructure standard du recouvrement PME.

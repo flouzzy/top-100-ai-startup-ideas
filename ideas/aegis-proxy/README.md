@@ -66,10 +66,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | :-------------------------------- | :-------------: | :------------------: |
-| Thèse & Monopole / Urgence        |     23 / 25     |       24 / 25        |
-| Moat / Résistance aux LLM natifs  |     24 / 25     |       21 / 25        |
-| Scalabilité / Friction d'adoption |     17 / 25     |       20 / 25        |
-| Unit Economics / ROI direct       |     24 / 25     |       23 / 25        |
-| **TOTAL**                         |  **88 / 100**   |     **88 / 100**     |
+| Thèse & Monopole / Urgence        |     23 / 25     |       25 / 25        |
+| Moat / Résistance aux LLM natifs  |     24 / 25     |       25 / 25        |
+| Scalabilité / Friction d'adoption |     17 / 25     |       25 / 25        |
+| Unit Economics / ROI direct       |     24 / 25     |       17 / 25        |
+| **TOTAL**                         |  **88 / 100**   |     **92 / 100**     |
 
-**Verdict global :**Aegis Proxy capitalise sur une peur viscérale et justifiée des directeurs sécurité. En agissant comme une infrastructure réseau invisible, elle construit un fossé défensif B2B très puissant, totalement immunisé contre la course à l'armement que se livrent les créateurs de LLMs de base.
+> **Verdict Terrain :** L'outil Aegis Proxy répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> **Verdict global :**Aegis Proxy capitalise sur une peur viscérale et justifiée des directeurs sécurité. En agissant comme une infrastructure réseau invisible, elle construit un fossé défensif B2B très puissant, totalement immunisé contre la course à l'armement que se livrent les créateurs de LLMs de base.

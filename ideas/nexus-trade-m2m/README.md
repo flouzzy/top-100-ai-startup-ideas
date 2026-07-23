@@ -94,10 +94,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     24 / 25     |       22 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       23 / 25        |
-| **Scalabilité / Friction d'adoption** |     25 / 25     |       19 / 25        |
-| **Unit Economics / ROI direct**       |     24 / 25     |       22 / 25        |
-| **TOTAL**                             |  **98 / 100**   |     **86 / 100**     |
+| **Thèse & Monopole / Urgence**        |     24 / 25     |       20 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       17 / 25        |
+| **Scalabilité / Friction d'adoption** |     25 / 25     |       20 / 25        |
+| **Unit Economics / ROI direct**       |     24 / 25     |       24 / 25        |
+| **TOTAL**                             |  **98 / 100**   |     **81 / 100**     |
 
-**Verdict global :**Une infrastructure "pure-player" fondamentale pour l'agentic economy qui échappe à la cannibalisation des modèles fondateurs en se concentrant sur les tuyaux financiers inter-IA. Le seul risque majeur réside dans la friction initiale d'adoption par les développeurs, nécessitant une exécution parfaite de la stratégie de plugin open-source.
+> **Verdict Terrain :** L'outil NexusTrade M2M répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> **Verdict global :**Une infrastructure "pure-player" fondamentale pour l'agentic economy qui échappe à la cannibalisation des modèles fondateurs en se concentrant sur les tuyaux financiers inter-IA. Le seul risque majeur réside dans la friction initiale d'adoption par les développeurs, nécessitant une exécution parfaite de la stratégie de plugin open-source.

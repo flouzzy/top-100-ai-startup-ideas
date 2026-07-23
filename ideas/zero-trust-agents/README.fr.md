@@ -12,16 +12,16 @@
 
 ---
 
-## 1. Aperçu visuel & Effet Wahou
+## 1. Aperçu visuel
 
 ```mermaid
 graph TD
-    subgraph Déploiement Standard "Déploiement Standard (Risque Non Géré)"
+    subgraph Deploiement_Standard ["Déploiement Standard (Risque Non Géré)"]
         A1[Agent Autonome] -->|API/SQL Sans Restriction| DB1[DB Interne / API]
         A1 -.->|Prompt Injection| H1[Exfiltration de données / Factures Cloud Massives]
     end
 
-    subgraph Déploiement ZTNA "Déploiement ZTNA-AI (Risque Géré)"
+    subgraph Deploiement_ZTNA ["Déploiement ZTNA-AI (Risque Géré)"]
         A2[Agent Autonome] -->|Requête API/SQL| B[Gateway de Permissions ZTNA-AI]
         B -->|Validation d'intention & Quotas| C{Moteur Zero Trust}
         C -->|Jeton de Permission Dynamique| DB2[DB Interne / API]

@@ -91,4 +91,5 @@ sequenceDiagram
 
 > **VC Verdict:** AutoDeduct AI targets a highly specific and lucrative pain point: recovering abusive trade deductions from mega-retailers. The immediate ROI and specialized transport-document OCR create an untouchable B2B value proposition.
 
-Verdict Terrain : En attente d'évaluation.
+> **Verdict Terrain :** L'outil AutoDeduct AI répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
+> Verdict VC : En attente d'évaluation.

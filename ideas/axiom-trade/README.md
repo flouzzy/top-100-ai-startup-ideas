@@ -79,10 +79,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | :-------------------------------- | :-------------: | :------------------: |
-| Thèse & Monopole / Urgence        |     23 / 25     |       24 / 25        |
-| Moat / Résistance aux LLM natifs  |     22 / 25     |       20 / 25        |
-| Scalabilité / Friction d'adoption |     18 / 25     |       15 / 25        |
-| Unit Economics / ROI direct       |     25 / 25     |       25 / 25        |
+| Thèse & Monopole / Urgence        |     23 / 25     |       22 / 25        |
+| Moat / Résistance aux LLM natifs  |     22 / 25     |       18 / 25        |
+| Scalabilité / Friction d'adoption |     18 / 25     |       24 / 25        |
+| Unit Economics / ROI direct       |     25 / 25     |       20 / 25        |
 | **TOTAL**                         |  **88 / 100**   |     **84 / 100**     |
 
-**Verdict global :**Un produit "Painkiller" par excellence avec un modèle de monétisation aligné sur les intérêts du client (Gain-Share). L'intégration ERP reste la plus grosse friction technique, mais la barrière à l'entrée une fois installé est massive, empêchant toute disruption facile par de simples wrappers.
+> **Verdict Terrain :** L'outil Axiom Trade répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. La clarté de sa proposition de valeur financière assure une forte disposition à payer des entreprises B2B.
+> **Verdict global :**Un produit "Painkiller" par excellence avec un modèle de monétisation aligné sur les intérêts du client (Gain-Share). L'intégration ERP reste la plus grosse friction technique, mais la barrière à l'entrée une fois installé est massive, empêchant toute disruption facile par de simples wrappers.
