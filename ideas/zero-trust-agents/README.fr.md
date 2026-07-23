@@ -118,4 +118,4 @@ sequenceDiagram
 
 > **Verdict Terrain :** En attente d'évaluation.
 
-> **Verdict VC :** Zero Trust Agents résout un problème critique pour les RSSI déployant des systèmes autonomes. En séparant la couche de sécurité du LLM probabiliste, il crée une passerelle agnostique et robuste qui devient immédiatement indispensable.
+> **Verdict VC :** Zero Trust Agents résout un problème critique pour les RSSI déployant des systèmes autonomes. En découpant la passerelle de sécurité déterministe des LLM probabilistes, l'outil devient indispensable. Ce positionnement agnostique le rend robuste face à l'obsolescence des modèles de base.

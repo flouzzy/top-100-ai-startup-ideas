@@ -83,6 +83,6 @@ sequenceDiagram
 | **Unit Economics / Direct ROI** | 20 / 25 | -- / 25 |
 | **TOTAL** | **89 / 100** | **-- / 100** |
 
-> **VC Verdict:** AgentLedger provides the essential identity and wallet infrastructure for the autonomous agent economy. Its bilateral network effect and rigorous KYC requirements create a powerful regulatory and infrastructural moat.
+> **VC Verdict:** AgentLedger introduces the definitive ledger for the M2M economy. By owning the settlement layer, it achieves ultimate lock-in and a quasi-monopolistic position. It perfectly exemplifies the 'don't build the AI, build the AI's bank' strategy.
 
 Verdict Terrain : En attente d'évaluation.

@@ -73,6 +73,6 @@ sequenceDiagram
 | **Unit Economics / Direct ROI** | 20 / 25 | -- / 25 |
 | **TOTAL** | **91 / 100** | **-- / 100** |
 
-> **VC Verdict:** Agentic Protocol perfectly captures the massive impending need for an M2M financial settlement layer. Being the neutral standard for AI agent transactions provides unassailable network effects against foundational models.
+> **VC Verdict:** Agentic Protocol is a quintessential infrastructure play for the agentic web. By standardizing inter-agent communication, it aims for a winner-takes-all outcome driven by relentless network effects. The fundamental layer of a trillion-dollar M2M economy.
 
 Verdict Terrain : En attente d'évaluation.

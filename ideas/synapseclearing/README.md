@@ -82,6 +82,6 @@ sequenceDiagram
 | **Unit Economics / Direct ROI** | 21 / 25 | -- / 25 |
 | **TOTAL** | **89 / 100** | **-- / 100** |
 
-> **VC Verdict:** SynapseClearing provides the critical regulatory and clearing infrastructure for M2M transactions. By holding funds in escrow and ensuring compliance, it acts as a trusted middleman with a natural monopoly dynamic.
+> **VC Verdict:** SynapseClearing provides the critical regulatory and clearing infrastructure for M2M transactions. By holding funds in escrow and ensuring compliance, it acts as a trusted middleman with a natural monopoly dynamic. The technical moat is absolute.
 
 Verdict Terrain : En attente d'évaluation.

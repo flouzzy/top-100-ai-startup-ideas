@@ -86,6 +86,6 @@ sequenceDiagram
 | **Unit Economics / Direct ROI** | 23 / 25 | -- / 25 |
 | **TOTAL** | **90 / 100** | **-- / 100** |
 
-> **VC Verdict:** VendorFloor AI attacks B2B software negotiation with a unique data network effect, aggregating hidden price floors across companies. This asymmetry gives it a significant edge over human buyers and standard AI agents.
+> **VC Verdict:** VendorFloor AI attacks B2B software negotiation with a unique data network effect, aggregating hidden price floors across companies. This asymmetry gives it a significant edge over human buyers. The more users join, the stronger the pricing intel moat becomes.
 
 Verdict Terrain : En attente d'évaluation.

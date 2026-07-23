@@ -69,11 +69,11 @@ Moat (Defensibility): Deep integration into enterprise infrastructure, cryptogra
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 25 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 18 / 25             |
-| Unit Economics / ROI        | -- / 25         | 17 / 25             |
-| **TOTAL**                   | **-- / 100**    | **85 / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | 25 / 25             |
+| Moat / LLM Immunity         | 24 / 25         | 25 / 25             |
+| Scalability / UX Friction   | 20 / 25         | 18 / 25             |
+| Unit Economics / ROI        | 23 / 25         | 17 / 25             |
+| **TOTAL**                   | **89 / 100**    | **85 / 100**        |
 
 > **Verdict Terrain :** The AgentAuth solution addresses a very targeted business need with tangible ROI. Its positioning as an API infrastructure guarantees good immunity against generalist LLMs. Even though adoption requires integration effort, the viability of the economic model is supported by the value delivered.
-> VC Verdict: Pending evaluation.
+> **VC Verdict:** Agent-Auth solves the crucial identity crisis of the machine web. By providing verifiable credentials for AI agents, it positions itself as the SSO (Single Sign-On) of the autonomous era. Extremely sticky API integration ensures deep structural defensibility.

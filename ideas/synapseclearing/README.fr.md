@@ -82,6 +82,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct** | 21 / 25 | -- / 25 |
 | **TOTAL** | **89 / 100** | **-- / 100** |
 
-> **Verdict VC :** SynapseClearing fournit l'infrastructure critique de régulation et de compensation pour les transactions M2M. En sécurisant les fonds et en assurant la conformité, elle agit comme un intermédiaire de confiance avec une dynamique de monopole naturel.
+> **Verdict VC :** SynapseClearing fournit l'infrastructure critique de régulation et de compensation pour les transactions M2M. En sécurisant les fonds et en assurant la conformité, elle agit comme un intermédiaire de confiance avec une dynamique de monopole naturel. Le moat technique est absolu.
 
 Verdict Terrain : En attente d'évaluation.

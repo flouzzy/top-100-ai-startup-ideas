@@ -111,6 +111,6 @@ distribué privé des vrais prix du marché SaaS.
 | **Unit Economics / ROI direct** | 23 / 25 | -- / 25 |
 | **TOTAL** | **90 / 100** | **-- / 100** |
 
-> **Verdict VC :** VendorFloor AI attaque la négociation de logiciels B2B avec un effet de réseau de données unique, agrégeant les prix planchers cachés entre les entreprises. Cette asymétrie lui donne un avantage significatif sur les acheteurs humains.
+> **Verdict VC :** VendorFloor AI attaque la négociation SaaS avec un effet de réseau de données unique, agrégeant les prix planchers cachés. Cette asymétrie offre un avantage écrasant sur les acheteurs humains. Plus il y a d'utilisateurs, plus le moat de données tarifaires se renforce.
 
 Verdict Terrain : En attente d'évaluation.

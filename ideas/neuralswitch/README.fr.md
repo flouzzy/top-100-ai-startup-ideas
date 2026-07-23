@@ -86,6 +86,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct** | 21 / 25 | -- / 25 |
 | **TOTAL** | **89 / 100** | **-- / 100** |
 
-> **Verdict VC :** NeuralSwitch innove dans l'espace d'approvisionnement M2M en permettant la négociation directe API-à-API. Cette approche protocolaire élimine entièrement le goulot d'étranglement humain, établissant un standard puissant.
+> **Verdict VC :** NeuralSwitch agit comme le routeur dynamique de l'internet agentique. Il achemine les requêtes M2M vers les API les plus rentables, créant une efficacité systémique massive. En devenant la couche de routage centrale, il construit une position impénétrable.
 
 Verdict Terrain : En attente d'évaluation.

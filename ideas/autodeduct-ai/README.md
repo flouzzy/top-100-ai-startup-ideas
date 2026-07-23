@@ -89,7 +89,7 @@ sequenceDiagram
 | **Unit Economics / Direct ROI** | 24 / 25 | -- / 25 |
 | **TOTAL** | **91 / 100** | **-- / 100** |
 
-> **VC Verdict:** AutoDeduct AI targets a highly specific and lucrative pain point: recovering abusive trade deductions from mega-retailers. The immediate ROI and specialized transport-document OCR create an untouchable B2B value proposition.
+> **Verdict VC :** Autodeduct AI cible une douleur comptable immédiate et quantifiable. Bien que très scalable et offrant un ROI rapide, son moat est vulnérable aux futures IA natives des ERP. La clé de sa survie réside dans une distribution agressive avant que les acteurs historiques ne s'adaptent.
 
 > **Verdict Terrain :** L'outil AutoDeduct AI répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
-> Verdict VC : En attente d'évaluation.
+> **Verdict VC :** Autodeduct AI cible une douleur comptable immédiate et quantifiable. Bien que très scalable et offrant un ROI rapide, son moat est vulnérable aux futures IA natives des ERP. La clé de sa survie réside dans une distribution agressive avant que les acteurs historiques ne s'adaptent.

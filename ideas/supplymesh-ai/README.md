@@ -108,6 +108,6 @@ sequenceDiagram
 | **Unit Economics / Direct ROI** | 22 / 25 | -- / 25 |
 | **TOTAL** | **89 / 100** | **-- / 100** |
 
-> **VC Verdict:** SupplyMesh AI rethinks procurement as an automated, liquid inter-machine market directly connected to legacy ERPs. The switching costs are immense once the complex data mapping is achieved.
+> **VC Verdict:** SupplyMesh AI envisions a liquid inter-machine procurement market, entirely bypassing human purchasing delays. The integration friction is incredibly high, but this creates a legendary lock-in effect. It shifts the paradigm from software as a tool to software as a market participant.
 
 Verdict Terrain : En attente d'évaluation.

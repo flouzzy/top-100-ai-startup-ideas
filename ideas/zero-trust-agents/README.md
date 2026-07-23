@@ -118,4 +118,4 @@ sequenceDiagram
 
 > **Terrain Verdict:** Pending evaluation.
 
-> **VC Verdict:** Zero Trust Agents solves a hair-on-fire problem for CISOs deploying autonomous systems. By separating the security layer from the probabilistic LLM, it creates a robust, agnostic gateway that becomes immediately sticky.
+> **VC Verdict:** Zero Trust Agents solves a hair-on-fire problem for CISOs deploying autonomous systems. By decoupling the deterministic security gateway from probabilistic LLMs, it becomes immediately indispensable. This agnostic positioning makes it robust against foundational model churn.
