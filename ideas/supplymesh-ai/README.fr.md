@@ -108,6 +108,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       |     22 / 25     |       19 / 25        |
 | **TOTAL**                             |  **89 / 100**   |     **74 / 100**     |
 
-> **Verdict VC :** SupplyMesh AI envisage un marché d'approvisionnement inter-machines liquide, contournant les lenteurs des achats humains. La friction d'intégration est extrême, mais cela crée un effet de verrouillage légendaire. Le paradigme passe du logiciel-outil au logiciel-acteur de marché.
+> **Verdict Terrain :** L'optimisation de la chaîne d'approvisionnement pilotée par l'IA est précieuse, mais l'intégration profonde dans les ERP existants provoque des frictions importantes. La monétisation est claire en fonction des gains d'efficacité. Le principal obstacle est le cycle de vente aux entreprises et la gestion du changement.
 
-> **Verdict VC :** SupplyMesh AI repense l'approvisionnement comme un marché inter-machines automatisé et liquide, directement connecté aux ERP legacy. Les coûts de changement sont immenses une fois le mappage complexe des données réalisé.
+> **Verdict VC :** SupplyMesh AI envisage un marché d'approvisionnement inter-machines liquide, contournant les lenteurs des achats humains. La friction d'intégration est extrême, mais cela crée un effet de verrouillage légendaire. Le paradigme passe du logiciel-outil au logiciel-acteur de marché.

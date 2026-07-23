@@ -89,6 +89,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       |     24 / 25     |       24 / 25        |
 | **TOTAL**                             |  **91 / 100**   |     **89 / 100**     |
 
-> **Verdict VC :** Autodeduct AI cible une douleur comptable immédiate et quantifiable. Bien que très scalable et offrant un ROI rapide, son moat est vulnérable aux futures IA natives des ERP. La clé de sa survie réside dans une distribution agressive avant que les acteurs historiques ne s'adaptent.
+> **Verdict Terrain :** Cela résout un problème administratif immédiat et douloureux avec un retour sur investissement clair. La friction d'adoption est relativement faible et les utilisateurs sont très disposés à payer pour la conformité automatisée. Les LLM natifs ne peuvent pas facilement reproduire l'intégration profonde avec les lois fiscales locales.
 
-> **Verdict VC :** AutoDeduct AI cible un problème hautement spécifique et lucratif : la récupération des déductions commerciales abusives des méga-distributeurs. Le ROI immédiat et l'OCR spécialisé créent une proposition de valeur B2B intouchable.
+> **Verdict VC :** Autodeduct AI cible une douleur comptable immédiate et quantifiable. Bien que très scalable et offrant un ROI rapide, son moat est vulnérable aux futures IA natives des ERP. La clé de sa survie réside dans une distribution agressive avant que les acteurs historiques ne s'adaptent.

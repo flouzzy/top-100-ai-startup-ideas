@@ -98,6 +98,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       |     21 / 25     |       18 / 25        |
 | **TOTAL**                             |  **88 / 100**   |     **75 / 100**     |
 
-> **Verdict VC :** NexusTrade établit l'infrastructure de trading fondamentale pour les agents autonomes. Son potentiel pour un marché winner-takes-all est énorme, propulsé par la liquidité biface. Le projet est hautement scalable et totalement affranchi des frontières géographiques.
+> **Verdict Terrain :** Semblable à MachinaTrade, l'échange économique M2M fait face à de graves vents contraires à l'adoption. L'infrastructure est complexe et le besoin commercial immédiat n'est pas encore universellement ressenti. La monétisation aura du mal jusqu'à ce qu'une norme claire émerge.
 
-> **Verdict VC :** NexusTrade M2M cible le besoin émergent des agents IA de négocier des ressources numériques de manière programmatique. L'effet de réseau hyper-dense crée un fossé solide, bien que l'obtention de la liquidité initiale soit un défi.
+> **Verdict VC :** NexusTrade établit l'infrastructure de trading fondamentale pour les agents autonomes. Son potentiel pour un marché winner-takes-all est énorme, propulsé par la liquidité biface. Le projet est hautement scalable et totalement affranchi des frontières géographiques.

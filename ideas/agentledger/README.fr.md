@@ -83,6 +83,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       |     20 / 25     |       20 / 25        |
 | **TOTAL**                             |  **89 / 100**   |     **83 / 100**     |
 
-> **Verdict VC :** AgentLedger introduit le grand livre définitif de l'économie M2M. En possédant la couche de règlement, il atteint un verrouillage ultime et une position quasi-monopolistique. Il illustre parfaitement la stratégie 'ne construisez pas l'IA, construisez la banque de l'IA'.
+> **Verdict Terrain :** Les pistes d'audit basées sur la blockchain pour l'IA sont difficiles à vendre jusqu'à ce que la conformité l'exige explicitement. Cependant, les pionniers dans les domaines à forts enjeux paieront pour une preuve incontestable. La monétisation est claire mais l'urgence actuelle est de niche.
 
-> **Verdict VC :** AgentLedger fournit l'infrastructure essentielle d'identité et de portefeuille pour l'économie des agents autonomes. Son effet de réseau bilatéral et ses exigences KYC rigoureuses créent un puissant fossé réglementaire.
+> **Verdict VC :** AgentLedger introduit le grand livre définitif de l'économie M2M. En possédant la couche de règlement, il atteint un verrouillage ultime et une position quasi-monopolistique. Il illustre parfaitement la stratégie 'ne construisez pas l'IA, construisez la banque de l'IA'.
