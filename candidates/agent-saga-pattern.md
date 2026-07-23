@@ -1,0 +1,9 @@
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD036 MD037 MD039 MD041 MD060 -->
+
+# Candidat : AgentSaga (Rollback & Transactions Distribuées pour Agents)
+
+* **Modèle économique :** M2M / B2B
+* **Cible :** Les équipes d'ingénierie, plateformes RPA et entreprises déployant des agents autonomes orchestrant des flux complexes multi-API (e.g., e-commerce, réservations de voyages, orchestration ERP).
+* **Le problème urgent :** Lorsqu'un agent autonome exécute une suite d'actions sur plusieurs systèmes externes (par exemple : réserver un vol, puis un hôtel, puis louer une voiture), si la dernière étape échoue ou que la carte est refusée, les actions précédentes restent validées. L'agent ne sait pas comment annuler ou compenser correctement de manière garantie les transactions partielles, créant des pertes financières directes, des états incohérents dans le SI et des réclamations clients massives.
+* **L'approche technique :** Un orchestrateur d'exécution (Broker de transactions) implémentant le pattern architectural "Saga" pour les workflows agentiques. Chaque outil/API exposé à l'agent est couplé à un endpoint de compensation (rollback). Si l'agent fait face à une erreur bloquante en cours de chaîne, le système intercepte l'échec et exécute automatiquement, et de manière déterministe, les actions de compensation (annulation de vol, remboursement partiel) indépendamment de l'état "mental" du LLM.
+* **Pourquoi ChatGPT/Gemini échoue seul :** Un LLM ne peut pas garantir l'atomicité transactionnelle à travers des appels API séquentiels. Demander au LLM "d'annuler ce que tu viens de faire en cas d'erreur" repose sur sa fiabilité probabiliste : il peut oublier de rappeler un endpoint, se tromper de payload pour l'annulation, ou s'arrêter en plein milieu en cas d'erreur réseau (timeout). Il faut une infrastructure d'orchestration asynchrone et résiliente pour garantir l'intégrité de l'état système.
