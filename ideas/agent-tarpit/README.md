@@ -74,12 +74,12 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 25 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 22 / 25         | -- / 25             |
+| Scalability / UX Friction   | 23 / 25         | -- / 25             |
+| Unit Economics / ROI        | 22 / 25         | -- / 25             |
+| **TOTAL**                   | **92 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Agent Tarpit introduces a brilliantly contrarian approach to cybersecurity by weaponizing the attacker's own token budget against them. Instead of playing endless whack-a-mole, it makes malicious AI operations economically unviable, creating a totally new paradigm in defense. While niche, its unique positioning ensures an absolute monopoly over this novel offensive defense category.
 
 > **Market Verdict:** Pending evaluation.

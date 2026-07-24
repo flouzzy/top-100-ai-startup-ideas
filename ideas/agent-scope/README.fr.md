@@ -70,11 +70,11 @@ Moat (Barrière à l'entrée) : Infrastructure de reverse proxy réseau. Un conc
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 16 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 21 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 19 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 19 / 25              |
-| **TOTAL**                         | **-- / 100**    | **75 / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | 16 / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | 21 / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | 19 / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | 19 / 25              |
+| **TOTAL**                         | **93 / 100**    | **75 / 100**         |
 
 > **Verdict Terrain :** L'outil AgentScope répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
-> Verdict VC : En attente d'évaluation.
+> **Verdict VC :** Agent Scope applique les principes éprouvés du Zero Trust au far-west des permissions d'agents IA, remplaçant les dangereuses clés statiques par des jetons éphémères. Son intégration profonde aux fournisseurs d'identité d'entreprise existants garantit une extrême fidélité et des coûts de changement élevés. La nature critique de l'outil pour la sécurité permet une tarification premium et des indicateurs économiques solides.

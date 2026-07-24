@@ -75,12 +75,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 20 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 18 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 25 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 25 / 25         | -- / 25              |
+| **TOTAL**                         | **88 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Cette passerelle offre une brillante opportunité d'arbitrage en réduisant radicalement la latence et les coûts de tokens grâce au cache sémantique, offrant un ROI immédiat et indéniable. Cependant, son fossé à long terme est très vulnérable aux solutions de cache natives inévitablement déployées par les fournisseurs de modèles. Pour survivre, il doit rapidement pivoter vers des couches de conformité et d'analyse spécifiques aux entreprises.
 
 > **Verdict Terrain :** En attente d'évaluation.

@@ -69,11 +69,11 @@ Moat (Barrière à l'entrée) : Un prompt ne peut pas retenir des fonds de mani�
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 21 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 23 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 20 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 16 / 25              |
-| **TOTAL**                         | **-- / 100**    | **80 / 100**         |
+| Thèse & Monopole / Urgence        | 25 / 25         | 21 / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | 23 / 25              |
+| Scalabilité / Friction d'adoption | 25 / 25         | 20 / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | 16 / 25              |
+| **TOTAL**                         | **97 / 100**    | **80 / 100**         |
 
 > **Verdict Terrain :** L'outil AgentPay répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. La clarté de sa proposition de valeur financière assure une forte disposition à payer des entreprises B2B.
-> Verdict VC : En attente d'évaluation.
+> **Verdict VC :** AgentPay vise le Saint Graal de l'économie de l'IA : un réseau financier natif et sans friction pour les transactions de machine à machine. En évitant les goulets d'étranglement bancaires traditionnels, il peut établir un monopole enraciné grâce à des effets de réseau écrasants. S'il devient le protocole standard du commerce entre agents, sa scalabilité et son potentiel de rente sont pratiquement illimités.

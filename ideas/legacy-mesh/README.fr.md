@@ -66,12 +66,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 21 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | -- / 25              |
+| **TOTAL**                         | **92 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Legacy Mesh capitalise sur le fossé massif et peu attrayant entre les ambitions modernes de l'IA et l'infrastructure d'entreprise fragile et archaïque. Sa défendabilité repose sur l'extrême complexité et le danger d'intégrer des mainframes, un problème que la plupart des fondateurs ignorent. Cela garantit des contrats d'entreprise à prix très élevés avec une attrition quasi nulle et des unit economics exceptionnels.
 
 > **Verdict Terrain :** En attente d'évaluation.

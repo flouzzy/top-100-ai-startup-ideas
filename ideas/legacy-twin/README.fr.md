@@ -72,12 +72,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **91 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Legacy Twin s'attaque au retard de modernisation évalué à mille milliards de dollars en remplaçant la confiance aveugle dans les LLM par une preuve mathématique irréfutable d'équivalence. Ce fossé technique hardcore le rend indispensable pour les institutions averses au risque comme les banques et les gouvernements. Bien que le marché soit spécialisé, la valeur immense débloquée par transaction justifie une tarification d'entreprise incroyablement lucrative.
 
 > **Verdict Terrain :** En attente d'évaluation.

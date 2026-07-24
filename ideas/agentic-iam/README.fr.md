@@ -72,12 +72,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 21 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
+| **TOTAL**                         | **92 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Agentic IAM reconnaît que les systèmes d'identité traditionnels ont été conçus pour les humains, et non pour des machines autonomes imprévisibles et ultra-rapides. En intégrant des coupe-circuits comportementaux aux jetons éphémères, il devient l'ultime couche de gouvernance pour l'IA d'entreprise. Le verrouillage client est quasi absolu une fois intégré, garantissant des revenus récurrents durables et très rentables.
 
 > **Verdict Terrain :** En attente d'évaluation.

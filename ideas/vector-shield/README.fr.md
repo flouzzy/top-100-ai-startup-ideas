@@ -72,12 +72,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | -- / 25              |
+| **TOTAL**                         | **93 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Vector Shield construit une couche de défense déterministe et obligatoire entre les LLM imprévisibles et les strictes exigences de conformité des entreprises. Son positionnement en reverse proxy garantit qu'il devient une partie indispensable de l'infrastructure, créant une immense fidélité. Le lien évident avec la prévention des amendes réglementaires rend le processus de vente sans friction et hautement scalable.
 
 > **Verdict Terrain :** En attente d'évaluation.

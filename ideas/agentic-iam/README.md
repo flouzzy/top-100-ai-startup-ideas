@@ -72,12 +72,12 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 21 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 24 / 25         | -- / 25             |
+| Unit Economics / ROI        | 23 / 25         | -- / 25             |
+| **TOTAL**                   | **92 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Agentic IAM recognizes that legacy identity systems were built for humans, not high-speed, unpredictable autonomous machines. By embedding behavioral kill switches alongside ephemeral tokens, it becomes the ultimate governance layer for enterprise AI. The vendor lock-in is nearly absolute once integrated, guaranteeing long-term, highly profitable recurring revenue.
 
 > **Market Verdict:** Pending evaluation.
