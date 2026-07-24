@@ -1,0 +1,8 @@
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD036 MD037 MD039 MD041 MD060 -->
+# Candidat : ShadowAgent Hunter
+
+* **Modèle économique :** B2B
+* **Cible :** RSSI (CISO), équipes SecOps et administrateurs réseau dans les grandes entreprises.
+* **Le problème urgent :** Le "Shadow AI" remplace le Shadow IT. Les employés déploient discrètement leurs propres agents autonomes (via des scripts locaux, des outils no-code ou des clés API personnelles) pour accomplir leurs tâches, leur donnant un accès direct aux bases de données et aux identifiants internes. Ces agents non supervisés manipulent des données sensibles à l'insu de l'entreprise, échappent aux contrôles DLP classiques (Data Loss Prevention) et ouvrent des brèches de sécurité critiques impossibles à auditer manuellement.
+* **L'approche technique :** Une plateforme de détection réseau (NDR) spécifiquement conçue pour identifier les signatures comportementales agentiques. Le système s'intègre aux firewalls et proxys d'entreprise pour analyser le trafic en temps réel, repérant les fréquences de requêtes surhumaines, les graphes de navigation asynchrones et les boucles d'appels API non déclarées, afin de cartographier, mettre en quarantaine ou bloquer les agents "voyous".
+* **Pourquoi ChatGPT/Gemini échoue seul :** Un LLM est un modèle génératif de texte, pas un analyseur de paquets réseau. Un prompt ne peut pas s'interfacer aux routeurs de l'entreprise, inspecter le trafic TCP/IP en temps réel ou appliquer des heuristiques de détection sur des téraoctets de logs réseaux pour débusquer un script autonome. Il faut une infrastructure d'inspection de bas niveau dédiée.
