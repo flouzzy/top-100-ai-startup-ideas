@@ -88,4 +88,4 @@ sequenceDiagram
 
 > **Verdict Terrain :** Automating vendor management offers solid value but faces high integration friction with legacy systems. The urgency is moderate compared to revenue-generating activities. Monetization is clear if it can demonstrably reduce procurement costs.
 
-> **VC Verdict:** VendorFloor AI attacks B2B software negotiation with a unique data network effect, aggregating hidden price floors across companies. This asymmetry gives it a significant edge over human buyers and standard AI agents.
+> **VC Verdict:** VendorFloor AI attacks B2B software negotiation with a unique data network effect, aggregating hidden price floors across companies. This asymmetry gives it a significant edge over human buyers. The more users join, the stronger the pricing intel moat becomes.

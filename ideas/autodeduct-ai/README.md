@@ -91,7 +91,7 @@ sequenceDiagram
 
 > **Verdict Terrain :** This solves an immediate, painful administrative problem with clear ROI. Adoption friction is relatively low, and users are highly willing to pay for automated compliance. Native LLMs cannot easily replicate the deep integration with local tax laws.
 
-> **VC Verdict:** AutoDeduct AI targets a highly specific and lucrative pain point: recovering abusive trade deductions from mega-retailers. The immediate ROI and specialized transport-document OCR create an untouchable B2B value proposition.
+> **VC Verdict:** Auto-Deduct AI targets an immediate, quantifiable pain point in accounting workflows. While highly scalable and offering fast ROI, its moat is vulnerable to native ERP AI features. The key to survival is rapid land-grab distribution before incumbents adapt.
 
 > **Verdict Terrain :** L'outil AutoDeduct AI répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
-> Verdict VC : En attente d'évaluation.
+> **VC Verdict:** Auto-Deduct AI targets an immediate, quantifiable pain point in accounting workflows. While highly scalable and offering fast ROI, its moat is vulnerable to native ERP AI features. The key to survival is rapid land-grab distribution before incumbents adapt.

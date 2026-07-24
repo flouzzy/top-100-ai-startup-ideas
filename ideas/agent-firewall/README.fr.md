@@ -75,11 +75,11 @@ Moat (Barrière à l'entrée) : Couche de validation externe et déterministe qu
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 17 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 21 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 19 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 24 / 25              |
-| **TOTAL**                         | **-- / 100**    | **81 / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | 17 / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | 21 / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | 19 / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | 24 / 25              |
+| **TOTAL**                         | **90 / 100**    | **81 / 100**         |
 
 > **Verdict Terrain :** L'outil Agent Firewall répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
-> Verdict VC : En attente d'évaluation.
+> **Verdict VC :** Agent Firewall capitalise sur la faille de sécurité majeure des déploiements d'agents autonomes. En fournissant une couche de validation déterministe externe, il crée une infrastructure indispensable qui agit comme un péage obligatoire. Fort potentiel monopolistique.

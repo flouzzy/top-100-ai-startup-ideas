@@ -67,12 +67,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 22 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | -- / 25              |
+| **TOTAL**                         | **93 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Agent Arbitrator Protocol cible une vulnérabilité critique et ignorée de l'économie M2M autonome en standardisant la résolution de conflits. Son approche déterministe crée de puissants effets de réseau, le positionnant pour devenir une couche fondamentale monopolistique. Le modèle API extrêmement scalable garantit un potentiel de marge immense une fois l'adoption amorcée.
 
 > **Verdict Terrain :** En attente d'évaluation.

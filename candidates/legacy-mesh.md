@@ -1,0 +1,9 @@
+<!-- markdownlint-disable MD013 MD028 MD033 MD036 MD039 MD041 MD060 -->
+
+# Candidat : LegacyMesh
+
+* **Modèle économique :** B2B
+* **Cible :** Grandes entreprises (banques, assurances, industrie, secteur public) possédant des infrastructures informatiques vieillissantes (legacy) et souhaitant déployer des agents autonomes.
+* **Le problème urgent :** L'intégration des agents d'IA modernes (qui nécessitent des APIs REST/GraphQL rapides et bien documentées) avec des systèmes legacy (mainframes, AS400, bases de données on-premise obsolètes, SOAP) prend des mois et coûte une fortune en développement spécifique. De plus, les agents IA, très rapides, risquent de surcharger et de faire crasher ces systèmes anciens fragiles par des requêtes trop nombreuses, paralysant ainsi les opérations critiques de l'entreprise.
+* **L'approche technique :** Un middleware hybride (passerelle API "Agent-to-Legacy") conçu spécifiquement pour les LLMs. Il expose une interface standardisée (Agentic Tooling) côté IA, et traduit dynamiquement ces requêtes en actions compatibles legacy (appels SOAP, émulation de terminal de type RPA, requêtes SQL anciennes). Il intègre un système de file d'attente, de mise en cache et de limitation de débit (rate-limiting) intelligent pour protéger l'infrastructure sous-jacente contre les rafales de requêtes des agents.
+* **Pourquoi ChatGPT/Gemini échoue seul :** Un LLM peut comprendre l'intention de l'utilisateur ou générer du code d'intégration, mais il ne peut pas maintenir une session d'émulation terminal (TN3270), gérer la fiabilité réseau vers un serveur on-premise, ni imposer des limites strictes de débit pour éviter de faire tomber un système critique. Une plomberie d'infrastructure dédiée et sécurisée est absolument nécessaire pour faire le pont entre le monde probabiliste de l'IA et le monde fragile et déterministe du legacy.

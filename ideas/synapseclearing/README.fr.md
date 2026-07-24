@@ -84,4 +84,4 @@ sequenceDiagram
 
 > **Verdict Terrain :** Une chambre de compensation pour les agents d'IA répond au besoin critique de confiance inter-agents. La valeur réglementaire et de conformité est élevée, justifiant le coût. Cependant, le marché est encore naissant, nécessitant du temps pour une adoption complète.
 
-> **Verdict VC :** SynapseClearing fournit l'infrastructure critique de régulation et de compensation pour les transactions M2M. En sécurisant les fonds et en assurant la conformité, elle agit comme un intermédiaire de confiance avec une dynamique de monopole naturel.
+> **Verdict VC :** SynapseClearing fournit l'infrastructure critique de régulation et de compensation pour les transactions M2M. En sécurisant les fonds et en assurant la conformité, elle agit comme un intermédiaire de confiance avec une dynamique de monopole naturel. Le moat technique est absolu.
