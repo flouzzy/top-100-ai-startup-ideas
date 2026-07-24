@@ -91,4 +91,4 @@ sequenceDiagram
 
 > **Verdict Terrain :** La demande de sécurité d'exécution pour l'IA est immédiate et urgente. L'intégration nécessite un effort important, mais le modèle de monétisation clair et la nécessité absolue rendent ce projet très viable. Il agit comme une police d'assurance indispensable pour l'IA autonome.
 
-> **Verdict VC :** AgentGuard s'attaque au principal frein à l'adoption de l'IA en entreprise en agissant comme un filet de sécurité déterministe. La couche de conformité M2M profondément intégrée crée des coûts de changement élevés.
+> **Verdict VC :** AgentGuard s'impose comme la couche de conformité essentielle des systèmes autonomes. En s'insérant profondément dans la stack de sécurité, il crée des coûts de changement immenses. Il transforme la peur réglementaire en revenus récurrents.

@@ -71,10 +71,10 @@ Moat (Defensibility): Specialized deterministic and lightweight heuristic saniti
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
 | Thesis & Monopoly / Urgency | 22 / 25         | 21 / 25             |
-| Moat / LLM Immunity         | 21 / 25         | 18 / 25             |
-| Scalability / UX Friction   | 24 / 25         | 17 / 25             |
-| Unit Economics / ROI        | 23 / 25         | 25 / 25             |
-| **TOTAL**                   | **90 / 100**    | **81 / 100**        |
+| Moat / LLM Immunity         | 23 / 25         | 18 / 25             |
+| Scalability / UX Friction   | 22 / 25         | 17 / 25             |
+| Unit Economics / ROI        | 24 / 25         | 25 / 25             |
+| **TOTAL**                   | **91 / 100**    | **81 / 100**        |
 
 > **Verdict Terrain :** The RAGShield solution addresses a very targeted business need with tangible ROI. Its deep integration into business processes makes it difficult to replace with a simple chatbot. Even though adoption requires integration effort, the viability of the economic model is supported by the value delivered.
-> **VC Verdict:** RAG Shield perfectly anticipates the critical vulnerability of knowledge bases by treating data ingestion as an untrusted attack vector. Its positioning as a specialized WAF allows it to intercept threats that generalized security models completely miss. The seamless proxy deployment model minimizes friction, ensuring rapid scaling and highly predictable recurring revenue.
+> **VC Verdict:** RAG-Shield addresses a highly specific, emerging vulnerability: indirect prompt injections in vector databases. As a specialized WAF, it becomes a mandatory component of enterprise AI pipelines. Its moat grows through cumulative threat intelligence data.

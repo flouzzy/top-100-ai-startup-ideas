@@ -85,4 +85,4 @@ sequenceDiagram
 
 > **Verdict Terrain :** Blockchain-based audit trails for AI are a hard sell until compliance explicitly demands it. However, early adopters in high-stakes fields will pay for unquestionable proof. Monetization is clear but the current urgency is niche.
 
-> **VC Verdict:** AgentLedger provides the essential identity and wallet infrastructure for the autonomous agent economy. Its bilateral network effect and rigorous KYC requirements create a powerful regulatory and infrastructural moat.
+> **VC Verdict:** AgentLedger introduces the definitive ledger for the M2M economy. By owning the settlement layer, it achieves ultimate lock-in and a quasi-monopolistic position. It perfectly exemplifies the 'don't build the AI, build the AI's bank' strategy.

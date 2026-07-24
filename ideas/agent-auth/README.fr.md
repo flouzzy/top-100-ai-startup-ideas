@@ -71,9 +71,9 @@ Moat (Barrière à l'entrée) : Intégration profonde dans l'infrastructure de s
 | --------------------------------- | --------------- | -------------------- |
 | Thèse & Monopole / Urgence        | 22 / 25         | 20 / 25              |
 | Moat / Résistance aux LLM natifs  | 24 / 25         | 23 / 25              |
-| Scalabilité / Friction d'adoption | 24 / 25         | 24 / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | 24 / 25              |
 | Unit Economics / ROI direct       | 23 / 25         | 16 / 25              |
-| **TOTAL**                         | **93 / 100**    | **83 / 100**         |
+| **TOTAL**                         | **89 / 100**    | **83 / 100**         |
 
 > **Verdict Terrain :** L'outil AgentAuth répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
-> **Verdict VC :** Agent Auth comble une faille de sécurité évidente dans le déploiement de l'IA avec un système IAM sur-mesure que les solutions traditionnelles ne peuvent reproduire. L'intégration profonde à l'infrastructure garantit un verrouillage exceptionnel des clients et des coûts de changement élevés. Son modèle SaaS basé sur l'usage capture parfaitement la valeur à mesure que le volume d'agents autonomes augmente.
+> **Verdict VC :** Agent-Auth résout la crise d'identité cruciale du web des machines. En fournissant des identifiants vérifiables pour les agents IA, il se positionne comme le SSO de l'ère autonome. L'intégration API extrêmement collante assure une défense structurelle profonde.

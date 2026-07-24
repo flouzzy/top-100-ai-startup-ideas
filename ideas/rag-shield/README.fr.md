@@ -71,10 +71,10 @@ Moat (Barrière à l'entrée) : Combine analyse syntaxique déterministe et isol
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
 | Thèse & Monopole / Urgence        | 22 / 25         | 15 / 25              |
-| Moat / Résistance aux LLM natifs  | 21 / 25         | 15 / 25              |
-| Scalabilité / Friction d'adoption | 24 / 25         | 22 / 25              |
-| Unit Economics / ROI direct       | 23 / 25         | 15 / 25              |
-| **TOTAL**                         | **90 / 100**    | **67 / 100**         |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | 15 / 25              |
+| Scalabilité / Friction d'adoption | 22 / 25         | 22 / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | 15 / 25              |
+| **TOTAL**                         | **91 / 100**    | **67 / 100**         |
 
 > **Verdict Terrain :** L'outil RAGShield répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
-> **Verdict VC :** RAG Shield anticipe parfaitement la vulnérabilité critique des bases de connaissances en traitant l'ingestion de données comme un vecteur d'attaque non fiable. Son positionnement comme WAF spécialisé lui permet d'intercepter des menaces que les modèles de sécurité généralistes ignorent totalement. Le modèle de déploiement par proxy sans friction assure une mise à l'échelle rapide et des revenus récurrents très prévisibles.
+> **Verdict VC :** RAG-Shield traite une vulnérabilité émergente très spécifique : les injections de prompt indirectes dans les bases vectorielles. En tant que WAF spécialisé, il devient un composant obligatoire des pipelines IA d'entreprise. Son moat grandit grâce aux données d'intelligence des menaces.
