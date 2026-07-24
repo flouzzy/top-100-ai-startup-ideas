@@ -118,4 +118,4 @@ sequenceDiagram
 
 > **Verdict Terrain :** La sécurité est le bloqueur ultime de l'IA d'entreprise, lui conférant une immense urgence. La nature déterministe offre une immunité parfaite contre les avancées probabilistes des LLM. Malgré une forte friction d'intégration, les entreprises paieront volontiers pour éliminer les risques catastrophiques.
 
-> **Verdict VC :** Zero Trust Agents résout un problème critique pour les RSSI déployant des systèmes autonomes. En séparant la couche de sécurité du LLM probabiliste, il crée une passerelle agnostique et robuste qui devient immédiatement indispensable.
+> **Verdict VC :** Zero Trust Agents résout un problème critique pour les RSSI déployant des systèmes autonomes. En découpant la passerelle de sécurité déterministe des LLM probabilistes, l'outil devient indispensable. Ce positionnement agnostique le rend robuste face à l'obsolescence des modèles de base.

@@ -75,11 +75,11 @@ Moat (Defensibility): Deterministic external validation network that cannot be r
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 18 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 16 / 25             |
-| Scalability / UX Friction   | -- / 25         | 16 / 25             |
-| Unit Economics / ROI        | -- / 25         | 15 / 25             |
-| **TOTAL**                   | **-- / 100**    | **65 / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | 18 / 25             |
+| Moat / LLM Immunity         | 24 / 25         | 16 / 25             |
+| Scalability / UX Friction   | 20 / 25         | 16 / 25             |
+| Unit Economics / ROI        | 24 / 25         | 15 / 25             |
+| **TOTAL**                   | **90 / 100**    | **65 / 100**        |
 
 > **Verdict Terrain :** The Agent Firewall solution addresses a very targeted business need with tangible ROI. Its positioning as an API infrastructure guarantees good immunity against generalist LLMs. Even though adoption requires integration effort, the viability of the economic model is supported by the value delivered.
-> VC Verdict: Pending evaluation.
+> **VC Verdict:** Agent Firewall capitalizes on the massive security gap in autonomous agent deployment. By providing a deterministic, external validation layer, it creates a sticky infrastructure play that becomes a mandatory tollbooth for enterprise AI. Strong monopolistic potential.
