@@ -67,12 +67,12 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 25 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
-| Scalability / UX Friction   | 25 / 25         | -- / 25             |
-| Unit Economics / ROI        | 23 / 25         | -- / 25             |
-| **TOTAL**                   | **97 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 25 / 25         | 23 / 25             |
+| Moat / LLM Immunity         | 24 / 25         | 20 / 25             |
+| Scalability / UX Friction   | 25 / 25         | 22 / 25             |
+| Unit Economics / ROI        | 23 / 25         | 23 / 25             |
+| **TOTAL**                   | **97 / 100**    | **88 / 100**        |
 
 > **VC Verdict:** This is a visionary play on the inherent fragility of modern software integrations, abstracting away API schema changes entirely. The massive data network effect means the product improves exponentially with scale, creating an insurmountable barrier for competitors. It captures immense value by turning constant maintenance costs into a single, highly profitable subscription.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Addresses the silent breakage of agents due to API changes. High urgency for reliability, immune to raw LLM improvements, and easy to monetize via a transparent proxy model.

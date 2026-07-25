@@ -84,12 +84,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | ------------------------------------- | --------------- | -------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | 22 / 25         | 21 / 25              |
+| **Moat / Résistance aux LLM natifs**  | 16 / 25         | 22 / 25              |
+| **Scalabilité / Friction d'adoption** | 22 / 25         | 16 / 25              |
+| **Unit Economics / ROI direct**       | 21 / 25         | 22 / 25              |
+| **TOTAL**                             | 81 / 100        | **81 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Résout un problème complexe de systèmes distribués pour les agents. Forte utilité, mais friction d'adoption importante car elle impose aux développeurs un nouveau paradigme d'orchestration.

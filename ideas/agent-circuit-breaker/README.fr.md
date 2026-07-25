@@ -69,12 +69,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 25 / 25         | -- / 25              |
-| **TOTAL**                         | **95 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | 25 / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | 18 / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | 20 / 25              |
+| Unit Economics / ROI direct       | 25 / 25         | 24 / 25              |
+| **TOTAL**                         | **95 / 100**    | **87 / 100**         |
 
 > **Verdict VC :** Agent Circuit Breaker résout un risque financier aigu et très douloureux (la consommation incontrôlée de tokens) que redoute toute entreprise expérimentant l'IA. Sa position au niveau réseau offre un fossé défensif imprenable, car les modèles fondateurs ne peuvent surveiller leur propre infrastructure. Le ROI est immédiat et indiscutable, permettant une tarification très lucrative et scalable.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** ROI financier immédiat en évitant les boucles infinies et les coûts d'API incontrôlés. Très désirable pour le FinOps, bien que les LLM puissent à terme intégrer des limites natives de base.

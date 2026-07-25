@@ -69,12 +69,12 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
-| Scalability / UX Friction   | 24 / 25         | -- / 25             |
-| Unit Economics / ROI        | 25 / 25         | -- / 25             |
-| **TOTAL**                   | **95 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 23 / 25         | 25 / 25             |
+| Moat / LLM Immunity         | 23 / 25         | 18 / 25             |
+| Scalability / UX Friction   | 24 / 25         | 20 / 25             |
+| Unit Economics / ROI        | 25 / 25         | 24 / 25             |
+| **TOTAL**                   | **95 / 100**    | **87 / 100**        |
 
 > **VC Verdict:** Agent Circuit Breaker solves an acute, highly painful financial risk (runaway token burn) that every enterprise experimenting with AI currently fears. Its position at the network layer provides an unassailable moat, as foundational models cannot police their own infrastructure. The ROI is immediate and indisputable, enabling highly lucrative and scalable pricing.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Immediate financial ROI by preventing infinite loops and runaway API costs. Highly desirable for FinOps, though foundational LLMs may eventually build basic rate-limiting natively.

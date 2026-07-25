@@ -68,12 +68,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 21 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 19 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
-| **TOTAL**                         | **87 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 21 / 25         | 23 / 25              |
+| Moat / Résistance aux LLM natifs  | 19 / 25         | 17 / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | 21 / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | 23 / 25              |
+| **TOTAL**                         | **87 / 100**    | **84 / 100**         |
 
 > **Verdict VC :** Token GC offre une solution intelligente et immédiate à la surcharge des fenêtres de contexte, se traduisant directement par des économies massives pour les déploiements à fort volume. Le risque principal pour sa défendabilité est la banalisation rapide de la longueur de contexte et la baisse des coûts d'inférence par les grands fournisseurs. Sa survie exige une stratégie d'acquisition agressive pour capturer les flux d'entreprise avant que les modèles sous-jacents ne rendent le problème obsolète.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Optimise les fenêtres de contexte en purgeant les tokens inutiles. Excellente valeur immédiate, mais à risque si les fournisseurs de LLM intègrent une gestion native et peu coûteuse de contextes infinis.
