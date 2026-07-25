@@ -4,7 +4,7 @@
 
 # VectorShield
 
-> **Executive Summary:** A deterministic reverse proxy and API gateway that intercepts LLM traffic in real-time to block malicious prompt injections, jailbreaks, and redact sensitive data (PII) before it reaches the model or the user.
+> **Executive Summary:** A reverse proxy API gateway providing deterministic security that filters prompt injections and redacts sensitive PII data before they reach the LLM.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -12,72 +12,72 @@
 
 ---
 
-## 1. Visual Overview
+## 1. Visual Overview & Wow Effect
 
 ```mermaid
 graph TD
-    A["User Request / Agent Action"] --> B{"VectorShield Proxy"}
-    B -->|Detects Injection / PII| C["Block Request & Alert"]
-    B -->|Clean Request| D["LLM API (OpenAI/etc.)"]
-    D --> E{"VectorShield Proxy (Outbound)"}
-    E -->|Detects Hallucination / Leak| F["Redact Response & Alert"]
-    E -->|Clean Response| G["Return to User"]
+    %% Architecture
+    A["User Request"] --> B{"VectorShield Proxy"}
+    B -->|Jailbreak Detected| C["Block / Alert"]
+    B -->|Clean Prompt| D["LLM API"]
+    D --> E{"VectorShield PII Filter"}
+    E -->|Redacted Response| A
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** We can secure LLMs by continuously improving their internal safety training (RLHF) and writing better "system prompts."
-- **Hidden Truth:** LLMs are inherently vulnerable to adversarial prompt injection because they process instructions and data in the same context stream. System prompts will always be bypassed. Real security requires a deterministic, external network layer that completely isolates the security logic from the generative model.
+**Popular Belief:** System prompts and LLM fine-tuning are enough to prevent jailbreaks and data leaks.
+
+**Hidden Truth:** System prompts can always be bypassed by sophisticated attacks; true security requires a deterministic external layer completely isolated from the LLM.
 
 ## 3. Problem & Target Market
 
-- **Business Model:** B2B
-- **Target Audience:** Enterprises (banks, insurance, e-commerce, healthcare) deploying AI assistants or autonomous agents based on LLMs in production.
-- **Urgent Pain Point:** LLM applications are highly vulnerable to prompt injection ("jailbreaks") and sensitive data exfiltration (PII leaks). This exposes enterprises to massive security risks, legal liabilities, and reputational damage if the AI acts non-compliantly.
+**Business Model:** B2B
+**Target Audience:** Banks, insurance companies, e-commerce, and healthcare firms deploying LLMs in production.
+**Urgent Pain Point:** LLM applications are vulnerable to prompt injections and sensitive data exfiltration (PII), exposing enterprises to massive legal and security risks.
 
 ## 4. Technical Architecture & Infrastructure
+
+**Technical Approach:** A reverse proxy positioned between the client app and the LLM API. Analyzes incoming requests for malicious intents and filters outgoing responses to redact sensitive data.
 
 ```mermaid
 sequenceDiagram
     participant User
-    participant Gateway as VectorShield Proxy
-    participant LLM as External LLM API
-    User->>Gateway: Submit Request (e.g., with hidden prompt injection)
-    Gateway->>Gateway: Fast classification (Detect Injection/PII)
-    alt Malicious Intent Detected
-        Gateway-->>User: Request Blocked (Security Exception)
-    else Clean Request
-        Gateway->>LLM: Forward Cleaned Request
-        LLM-->>Gateway: Raw Response
-        Gateway->>Gateway: Filter outbound response (Redact PII)
-        Gateway-->>User: Safe Response
-    end
+    participant Shield
+    participant LLM
+    User->>Shield: Prompt with SSN & Malicious intent
+    Shield->>Shield: Classify Threat (Local Model)
+    Shield->>Shield: Redact SSN
+    Shield->>LLM: Sanitized Prompt
+    LLM-->>Shield: Response
+    Shield->>Shield: Output PII Scan
+    Shield-->>User: Safe Response
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                                    |
-| ---------------------- | ---------------------------------------- |
-| Pricing Structure      | Tiered Subscription / API Traffic Volume |
-| 12-Month Target        | 150 Enterprise Deployments               |
-| Revenue Formula        | 150 _ €600 / month _ 12 = 1.08M€         |
-| Estimated Gross Margin | 88%                                      |
+| Metric                     | Value                                  |
+| :------------------------- | :------------------------------------- |
+| **Pricing Structure**      | Enterprise License / Monitored Traffic |
+| **12-Month Target**        | 25 Enterprise Deployments              |
+| **Revenue Formula**        | 25 deployments \* $4k/mo = $100k/mo    |
+| **Estimated Gross Margin** | 85%                                    |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** B2B enterprise sales targeting CISOs and SecOps teams. Positioned as an indispensable "WAF for LLMs" (Web Application Firewall) that is mandatory for compliance (GDPR, HIPAA).
-- **Moat (Defensibility):** A foundational model is designed to generate text, not to mathematically guarantee the systemic security of its own inputs/outputs. A deterministic security proxy is essential to block requests before they consume costly tokens and to enforce strict corporate policy independently of model updates.
+**Acquisition Strategy:** Direct enterprise sales to compliance and InfoSec teams.
+
+**Moat (Defensibility):** A base LLM cannot guarantee its own systemic security. External, deterministic security plumbing is mandatory to block malicious requests before costly processing.
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                   | VC Score (/100) | Market Score (/100) |
-| --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 23 / 25         | 25 / 25             |
-| Moat / LLM Immunity         | 22 / 25         | 21 / 25             |
-| Scalability / UX Friction   | 24 / 25         | 22 / 25             |
-| Unit Economics / ROI        | 24 / 25         | 24 / 25             |
-| **TOTAL**                   | **93 / 100**    | **92 / 100**        |
+| Criterion                       | VC Score (/100) | Market Score (/100) |
+| :------------------------------ | :-------------- | :------------------ |
+| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
+| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
+| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
+| **TOTAL**                       | -- / 100        | -- / 100            |
 
-> **VC Verdict:** Vector Shield builds a mandatory, deterministic layer of defense between unpredictable LLMs and strict enterprise compliance requirements. Its placement as a reverse proxy ensures it becomes an indispensable part of the corporate infrastructure, creating immense stickiness. The clear connection to preventing regulatory fines makes the sales motion frictionless and highly scalable.
-
-> **Market Verdict:** Essential layer for data loss prevention and prompt injection defense. High urgency for compliance-driven enterprises, easy to deploy as a reverse proxy, and simple to monetize.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Pending evaluation.

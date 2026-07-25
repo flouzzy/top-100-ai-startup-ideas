@@ -2,82 +2,79 @@
 
 [ 🇫🇷 Version Française ](./README.fr.md)
 
-# AgentGuard (Agentic IAM)
+# Agentic IAM
 
-> **Executive Summary:** A dedicated Identity and Access Management (IAM) system for autonomous agents that replaces static "God mode" API keys with ephemeral, context-aware, just-in-time tokens and deterministic behavioral kill switches.
+> **Executive Summary:** An Identity and Access Management system designed specifically for autonomous AI agents, enabling them to securely authenticate, request permissions, and access enterprise resources.
 
-![Type: Model](https://img.shields.io/badge/Model-M2M%20%2F%20B2B-blue)
+![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
 
 ---
 
-## 1. Visual Overview
+## 1. Visual Overview & Wow Effect
 
 ```mermaid
 graph TD
-    A["Autonomous AI Agent"] -->|Tool / API Request| B{"AgentGuard IAM Proxy"}
-    B -->|Analyzes Context & Intent| C{"Zero Trust Policy Engine"}
-    C -->|Approved| D["Issue Ephemeral Token (JIT)"]
-    C -->|Denied / Suspicious| E["Network Kill Switch / Alert"]
-    D --> F["Internal Tools (AWS, DBs, GitHub)"]
+    %% Architecture
+    A["AI Agent"] -->|Requests Access| B{"Agentic IAM"}
+    B -->|Issues Scoped Token| A
+    A -->|Access Resource| C["Enterprise DB/API"]
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** We can secure AI agents by simply giving them read-only API keys or writing strict system prompts like "do not delete data."
-- **Hidden Truth:** System prompts are completely vulnerable to prompt injection, and static API keys offer no granular, context-aware control. Non-human identities (agents) require dynamic, ephemeral access boundaries enforced at the network layer, completely isolated from the LLM's cognition.
+**Popular Belief:** We can just give AI agents standard user accounts and API keys.
+
+**Hidden Truth:** Agents act autonomously and dynamically; they need temporary, scoped, and highly auditable M2M credentials, not static human passwords.
 
 ## 3. Problem & Target Market
 
-- **Business Model:** M2M / B2B
-- **Target Audience:** Enterprises, CIOs, and developers deploying fleets of autonomous AI agents with access to internal tools (AWS, Salesforce, GitHub, databases).
-- **Urgent Pain Point:** Agents are currently given static API keys with excessive privileges ("God mode"). A hallucination or prompt injection attack can cause irreversible damage, such as wiping production databases or leaking confidential data.
+**Business Model:** B2B
+**Target Audience:** Enterprise IT departments, CISOs, and developers integrating agents into corporate infrastructure.
+**Urgent Pain Point:** Agents with broad API keys pose massive security risks. Without proper IAM, agents might over-access sensitive data or execute unauthorized destructive actions.
 
 ## 4. Technical Architecture & Infrastructure
 
+**Technical Approach:** A specialized IAM platform issuing short-lived, context-aware JWTs and credentials for agents. Implements strict Role-Based Agent Access Control (RBAC) and real-time audit logging.
+
 ```mermaid
 sequenceDiagram
-    participant Agent
-    participant Gateway as AgentGuard IAM Gateway
-    participant Tools as Internal API / Tools
-    Agent->>Gateway: Request action (e.g., Delete User)
-    Gateway->>Gateway: Validate against Zero Trust Policy
-    alt Context Validated
-        Gateway->>Gateway: Generate Just-In-Time (JIT) Token
-        Gateway->>Tools: Execute Action with Ephemeral Token
-        Tools-->>Gateway: Success Response
-        Gateway-->>Agent: Action Complete
-    else Policy Violation / Prompt Injection Detected
-        Gateway-->>Agent: Action Blocked (Access Denied)
-        Gateway->>SecurityTeam: Trigger Security Alert
-    end
+    participant Ag as "Agent"
+    participant IAM as "Agentic IAM"
+    participant Res as "Resource API"
+    Ag->>IAM: Request Token for Task X
+    IAM->>IAM: Evaluate Policy & Scope
+    IAM-->>Ag: Short-lived Token
+    Ag->>Res: Action + Token
+    Res->>IAM: Validate Token
+    Res-->>Ag: Success / Deny
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                                     |
-| ---------------------- | ----------------------------------------- |
-| Pricing Structure      | Tiered Enterprise License / Active Agents |
-| 12-Month Target        | 100 Enterprise Deployments                |
-| Revenue Formula        | 100 _ €1,000 / month _ 12 = 1.2M€         |
-| Estimated Gross Margin | 85%                                       |
+| Metric                     | Value                           |
+| :------------------------- | :------------------------------ |
+| **Pricing Structure**      | Per Agent / Enterprise Tier     |
+| **12-Month Target**        | 50 Enterprise Clients           |
+| **Revenue Formula**        | 50 clients \* $2k/mo = $100k/mo |
+| **Estimated Gross Margin** | 85%                             |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** B2B enterprise sales targeting DevSecOps. Deep integrations with existing IAM providers (Okta, AWS IAM) and popular agent frameworks as the enterprise-grade security layer.
-- **Moat (Defensibility):** Security must be guaranteed by a deterministic, external network layer impermeable to model manipulation. A foundation model cannot secure its own execution because prompt instructions can always be overridden by malicious context.
+**Acquisition Strategy:** Enterprise SaaS sales and partnerships with Identity Providers (Okta/Microsoft).
+
+**Moat (Defensibility):** Deep integration with existing enterprise identity providers (Okta, Entra ID) and legacy systems, combined with deterministic access controls that LLMs cannot enforce internally.
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                   | VC Score (/100) | Market Score (/100) |
-| --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 21 / 25         | 25 / 25             |
-| Moat / LLM Immunity         | 24 / 25         | 24 / 25             |
-| Scalability / UX Friction   | 24 / 25         | 18 / 25             |
-| Unit Economics / ROI        | 23 / 25         | 24 / 25             |
-| **TOTAL**                   | **92 / 100**    | **91 / 100**        |
+| Criterion                       | VC Score (/100) | Market Score (/100) |
+| :------------------------------ | :-------------- | :------------------ |
+| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
+| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
+| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
+| **TOTAL**                       | -- / 100        | -- / 100            |
 
-> **VC Verdict:** Agentic IAM recognizes that legacy identity systems were built for humans, not high-speed, unpredictable autonomous machines. By embedding behavioral kill switches alongside ephemeral tokens, it becomes the ultimate governance layer for enterprise AI. The vendor lock-in is nearly absolute once integrated, guaranteeing long-term, highly profitable recurring revenue.
-
-> **Market Verdict:** Critical security infrastructure for agent deployments. High urgency and monetization potential, though mapping granular permissions dynamically involves non-trivial adoption friction.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Pending evaluation.
