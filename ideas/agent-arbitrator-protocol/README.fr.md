@@ -69,13 +69,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                               | Score VC (/100) | Score Terrain (/100) |
-| :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| Critère                           | Score VC (/100) | Score Terrain (/100) |
+| --------------------------------- | --------------- | -------------------- |
+| Thèse & Monopole / Urgence        | 24 / 25         | 22 / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | 24 / 25              |
+| Scalabilité / Friction d'adoption | 22 / 25         | 15 / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | 20 / 25              |
+| **TOTAL**                         | **93 / 100**    | **81 / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict VC :** Agent Arbitrator Protocol cible une vulnérabilité critique et ignorée de l'économie M2M autonome en standardisant la résolution de conflits. Son approche déterministe crée de puissants effets de réseau, le positionnant pour devenir une couche fondamentale monopolistique. Le modèle API extrêmement scalable garantit un potentiel de marge immense une fois l'adoption amorcée.
+
+> **Verdict Terrain :** Un besoin clair de résolution de conflits existe dans les systèmes M2M, mais l'adoption nécessite une standardisation à l'échelle de l'industrie, ajoutant beaucoup de friction. La monétisation est claire via les frais d'API.

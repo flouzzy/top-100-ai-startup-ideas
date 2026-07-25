@@ -69,13 +69,14 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                               | Score VC (/100) | Score Terrain (/100) |
-| :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| Critère                           | Score VC (/100) | Score Terrain (/100) |
+| --------------------------------- | --------------- | -------------------- |
+| Thèse & Monopole / Urgence        | 25 / 25         | 21 / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | 22 / 25              |
+| Scalabilité / Friction d'adoption | 23 / 25         | 18 / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | 20 / 25              |
+| **TOTAL**                         | **92 / 100**    | **81 / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict VC :** Agent Tarpit introduit une approche brillamment contrariante de la cybersécurité en retournant le budget de tokens de l'attaquant contre lui-même. Au lieu de bloquer indéfiniment, il rend les opérations d'IA malveillantes économiquement non viables, créant un tout nouveau paradigme de défense. Bien que de niche, son positionnement unique garantit un monopole absolu sur cette nouvelle catégorie de défense offensive.
+
+> **Verdict Terrain :** Défense innovante contre le scraping malveillant et l'abus d'API. Bonne niche pour le SecOps, mais l'intégration peut introduire de la latence ou de la complexité pour le trafic légitime.

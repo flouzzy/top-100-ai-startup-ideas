@@ -67,13 +67,14 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                       | VC Score (/100) | Market Score (/100) |
-| :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| Criterion                   | VC Score (/100) | Market Score (/100) |
+| --------------------------- | --------------- | ------------------- |
+| Thesis & Monopoly / Urgency | 21 / 25         | 23 / 25             |
+| Moat / LLM Immunity         | 19 / 25         | 17 / 25             |
+| Scalability / UX Friction   | 24 / 25         | 21 / 25             |
+| Unit Economics / ROI        | 23 / 25         | 23 / 25             |
+| **TOTAL**                   | **87 / 100**    | **84 / 100**        |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **VC Verdict:** Token GC provides a clever, immediate solution to the bloat of context windows, directly translating into massive cost savings for high-volume deployments. The primary risk to its defensibility is the rapid commoditization of context length and falling inference costs by major LLM providers. Its survival dictates an aggressive go-to-market strategy to capture enterprise workflows before the underlying models render the problem obsolete.
+
+> **Market Verdict:** Optimizes context windows by pruning useless tokens. Great immediate value, but at risk if LLM providers natively implement infinite, cheap context memory handling.
