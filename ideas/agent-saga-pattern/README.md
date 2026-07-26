@@ -84,12 +84,12 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | ------------------------------- | --------------- | ------------------- |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| **Thesis & Monopoly / Urgency** | 24 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 25 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 22 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 24 / 25         | -- / 25             |
+| **TOTAL**                       | **95 / 100**    | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** AgentSaga attacks a fundamental infrastructure flaw in multi-agent workflows: the lack of transactionality. By acting as an asynchronous orchestrator independent of the probabilistic nature of LLMs, the product becomes mandatory for any mission-critical production deployment, creating an extremely deep technological moat. The transactional API approach guarantees strong profitability once integrated into RPA platforms.
 
 > **Market Verdict:** Pending evaluation.
