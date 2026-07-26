@@ -68,14 +68,13 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                   | VC Score (/100) | Market Score (/100) |
-| --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 24 / 25         | 22 / 25             |
-| Moat / LLM Immunity         | 23 / 25         | 23 / 25             |
-| Scalability / UX Friction   | 21 / 25         | 15 / 25             |
-| Unit Economics / ROI        | 24 / 25         | 25 / 25             |
-| **TOTAL**                   | **92 / 100**    | **85 / 100**        |
+| Criterion                       | VC Score (/100) | Market Score (/100) |
+| :------------------------------ | :-------------- | :------------------ |
+| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
+| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
+| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
+| **TOTAL**                       | -- / 100        | -- / 100            |
 
-> **VC Verdict:** Legacy Mesh capitalizes on the massive, unsexy gap between modern AI ambitions and fragile, archaic enterprise infrastructure. Its defensibility stems from the sheer complexity and danger of integrating with mainframes, a pain point most founders ignore. This guarantees high-ticket enterprise contracts with near-zero churn and exceptional unit economics.
-
-> **Market Verdict:** Bridges the gap between modern AI and fragile mainframes. Extremely clear ROI and monetization, but adoption friction is high due to the complexities of enterprise legacy environments.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Pending evaluation.
