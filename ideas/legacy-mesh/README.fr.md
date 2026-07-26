@@ -2,9 +2,9 @@
 
 [ 🇬🇧 English Version ](./README.md)
 
-# LegacyMesh
+# Legacy Mesh (Agent-to-Legacy Gateway)
 
-> **Résumé exécutif :** Une passerelle API "Agent-to-Legacy" qui traduit dynamiquement les intentions des agents IA modernes en protocoles legacy sécurisés et limités en débit (SOAP, Mainframe, SQL) pour protéger les infrastructures fragiles.
+> **Résumé exécutif :** Un middleware hybride conçu pour traduire de façon sécurisée les intentions des agents IA en actions compatibles avec les systèmes legacy (SOAP, RPA) avec rate-limiting strict.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -16,62 +16,65 @@
 
 ```mermaid
 graph TD
-    A["Agent IA Moderne"] -->|Intention REST/GraphQL Standard| B{"Passerelle LegacyMesh"}
-    B -->|Rate Limiting Intelligent & Cache| C["Traduction de Protocole"]
-    C --> D["Mainframe (TN3270)"]
-    C --> E["APIs SOAP / XML"]
-    C --> F["Bases de Données On-Premise Legacy"]
+    %% Architecture
+    A["Agents IA"] -->|Haute Concurrence| B{"Passerelle Legacy Mesh"}
+    B -->|Rate Limiting / Files d'attente| C["Mainframe / SOAP"]
+    B -->|Émulation de Session| D["Bots RPA"]
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-- **La croyance populaire :** La modernisation des entreprises nécessite de réécrire complètement les systèmes legacy pour qu'ils puissent interagir avec les applications d'IA modernes.
-- **La vérité cachée :** Migrer des systèmes legacy (COBOL) prend des décennies et échoue souvent. Les agents n'ont pas besoin de systèmes modernes ; ils ont juste besoin d'un proxy de traduction et de limitation de débit fiable. La valeur immédiate est de connecter sans risque une IA très rapide à des systèmes lents et fragiles.
+**La croyance populaire :** Les LLMs peuvent générer directement du code et des requêtes pour s'interfacer avec n'importe quel logiciel d'entreprise.
+
+**La vérité cachée :** Le legacy est fragile ; faire le pont entre l'IA et le legacy nécessite un middleware dédié avec émulation de session et rate-limiting strict.
 
 ## 3. Le problème & La cible
 
-- **Modèle économique :** B2B
-- **Cible précise :** Grandes entreprises (banques, assurances, industrie, secteur public) possédant des infrastructures informatiques vieillissantes (legacy) et souhaitant déployer des agents autonomes.
-- **La douleur urgente :** Intégrer des agents rapides avec des systèmes legacy (Mainframes, SOAP) coûte une fortune en développement spécifique et risque de faire crasher les infrastructures critiques à cause de requêtes en rafale non maîtrisées.
+**Modèle économique :** B2B
+**Cible précise :** Banques, assurances et grandes entreprises connectant des agents IA à des infrastructures legacy critiques.
+**La douleur urgente :** Les rafales de requêtes asynchrones des agents font tomber les systèmes legacy fragiles, provoquant des pannes critiques.
 
 ## 4. Architecture technique & Plomberie
 
+**L'approche technique :** Une passerelle API Agent-to-Legacy. Expose une interface Agentic Tooling, traduit dynamiquement en actions legacy, et intègre un système de file d'attente et rate-limiting.
+
 ```mermaid
 sequenceDiagram
-    participant Agent
-    participant LegacyMesh
-    participant LegacySystem
-    Agent->>LegacyMesh: Appel rapide via Tooling Agentic
-    LegacyMesh->>LegacyMesh: Vérification Cache & File d'attente (Rate Limit)
-    LegacyMesh->>LegacySystem: Requête Legacy lente traduite (SOAP/TN3270)
-    LegacySystem-->>LegacyMesh: Réponse Legacy
-    LegacyMesh-->>Agent: Réponse JSON standardisée
+    participant Ag as "Agent"
+    participant Mesh as "Legacy Mesh"
+    participant Leg as "Legacy System"
+    Ag->>Mesh: Standard Tool Call (Transfer Fund)
+    Mesh->>Mesh: Queue & Translate to TN3270
+    Mesh->>Leg: Emulate Terminal Keystrokes
+    Leg-->>Mesh: Screen State
+    Mesh->>Mesh: Parse to JSON
+    Mesh-->>Ag: Standard Success Response
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                    | Valeur                                                    |
-| --------------------------- | --------------------------------------------------------- |
-| Structure de prix           | Abonnement Entreprise basé sur les nœuds Legacy connectés |
-| Objectif 12 mois            | 40 Clients Entreprise                                     |
-| Calcul du CA (Target 100k€) | 40 _ 2500€ / mois _ 12 = 1.2M€                            |
-| Marge brute estimée         | 85%                                                       |
+| Métrique                        | Valeur                              |
+| :------------------------------ | :---------------------------------- |
+| **Structure de prix**           | Enterprise License / Per Connection |
+| **Objectif 12 mois**            | 20 Enterprise Implementations       |
+| **Calcul du CA (Target 100k€)** | 20 enterprises \* $5k/mo = $100k/mo |
+| **Marge brute estimée**         | 85%                                 |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-- **Stratégie d'acquisition :** Ventes directes B2B ciblant les DSI et Cloud Architects. Partenariats stratégiques avec les grands intégrateurs (ESN) comme Accenture ou Capgemini.
-- **Moat (Barrière à l'entrée) :** Bien qu'un LLM puisse générer du code, il ne peut pas maintenir une session d'émulation terminal (TN3270), gérer la fiabilité réseau vers l'on-premise, ni imposer des limites strictes de débit. L'infrastructure lourde de middleware est la véritable barrière.
+**Stratégie d'acquisition :** Ventes B2B directes aux DSI et partenariats avec les intégrateurs systèmes.
+
+**Moat (Barrière à l'entrée) :** Un LLM ne peut ni maintenir une session d'émulation terminal ni imposer des limites de débit réseau. Une plomberie d'infrastructure dédiée est obligatoire.
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                           | Score VC (/100) | Score Terrain (/100) |
-| --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 21 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 24 / 25         | -- / 25              |
-| **TOTAL**                         | **92 / 100**    | **-- / 100**         |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------- | :------------------- |
+| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
+| **TOTAL**                             | -- / 100        | -- / 100             |
 
-> **Verdict VC :** Legacy Mesh capitalise sur le fossé massif et peu attrayant entre les ambitions modernes de l'IA et l'infrastructure d'entreprise fragile et archaïque. Sa défendabilité repose sur l'extrême complexité et le danger d'intégrer des mainframes, un problème que la plupart des fondateurs ignorent. Cela garantit des contrats d'entreprise à prix très élevés avec une attrition quasi nulle et des unit economics exceptionnels.
-
+> **Verdict VC :** En attente d'évaluation.
 > **Verdict Terrain :** En attente d'évaluation.

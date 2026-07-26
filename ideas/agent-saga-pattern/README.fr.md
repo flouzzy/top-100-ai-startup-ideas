@@ -92,4 +92,4 @@ sequenceDiagram
 
 > **Verdict VC :** AgentSaga attaque un problème d'infrastructure fondamental des flux multi-agents : l'absence de transactionnalité. En agissant comme un orchestrateur asynchrone indépendant de l'état probabiliste des LLM, le produit se rend indispensable pour tout déploiement en production critique, créant un verrouillage technologique (moat) extrêmement profond. L'approche API transactionnelle garantit une rentabilité forte une fois intégré dans les plateformes RPA.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Résout un problème complexe de systèmes distribués pour les agents. Forte utilité, mais friction d'adoption importante car elle impose aux développeurs un nouveau paradigme d'orchestration.
