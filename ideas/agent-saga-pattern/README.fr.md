@@ -84,12 +84,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | ------------------------------------- | --------------- | -------------------- |
-| **Thèse & Monopole / Urgence**        | 22 / 25         | 21 / 25              |
-| **Moat / Résistance aux LLM natifs**  | 16 / 25         | 22 / 25              |
-| **Scalabilité / Friction d'adoption** | 22 / 25         | 16 / 25              |
-| **Unit Economics / ROI direct**       | 21 / 25         | 22 / 25              |
-| **TOTAL**                             | 81 / 100        | **81 / 100**         |
+| **Thèse & Monopole / Urgence**        | 24 / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | 25 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 22 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 24 / 25         | -- / 25              |
+| **TOTAL**                             | **95 / 100**    | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** AgentSaga attaque un problème d'infrastructure fondamental des flux multi-agents : l'absence de transactionnalité. En agissant comme un orchestrateur asynchrone indépendant de l'état probabiliste des LLM, le produit se rend indispensable pour tout déploiement en production critique, créant un verrouillage technologique (moat) extrêmement profond. L'approche API transactionnelle garantit une rentabilité forte une fois intégré dans les plateformes RPA.
 
 > **Verdict Terrain :** Résout un problème complexe de systèmes distribués pour les agents. Forte utilité, mais friction d'adoption importante car elle impose aux développeurs un nouveau paradigme d'orchestration.
