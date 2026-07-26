@@ -72,12 +72,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 21 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
-| **TOTAL**                         | **92 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 21 / 25         | 22 / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | 19 / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | 14 / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | 21 / 25              |
+| **TOTAL**                         | **92 / 100**    | **76 / 100**         |
 
 > **Verdict VC :** Agentic IAM reconnaît que les systèmes d'identité traditionnels ont été conçus pour les humains, et non pour des machines autonomes imprévisibles et ultra-rapides. En intégrant des coupe-circuits comportementaux aux jetons éphémères, il devient l'ultime couche de gouvernance pour l'IA d'entreprise. Le verrouillage client est quasi absolu une fois intégré, garantissant des revenus récurrents durables et très rentables.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La sécurité statique des clés API est le cauchemar des déploiements d'agents autonomes, justifiant un besoin urgent de jetons éphémères. Ce produit bénéficie d'une solide immunité car les LLMs ne peuvent gérer l'identité de façon sécurisée par défaut. L'adoption sera toutefois ralentie par la lourdeur d'intégration dans les architectures de sécurité existantes.

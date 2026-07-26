@@ -72,12 +72,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 24 / 25         | -- / 25              |
-| **TOTAL**                         | **93 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | 13 / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | 22 / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | 23 / 25              |
+| **TOTAL**                         | **93 / 100**    | **82 / 100**         |
 
 > **Verdict VC :** Vector Shield construit une couche de défense déterministe et obligatoire entre les LLM imprévisibles et les strictes exigences de conformité des entreprises. Son positionnement en reverse proxy garantit qu'il devient une partie indispensable de l'infrastructure, créant une immense fidélité. Le lien évident avec la prévention des amendes réglementaires rend le processus de vente sans friction et hautement scalable.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La protection contre les prompt injections et la fuite de données personnelles est une condition indispensable pour l'IA en entreprise. L'installation en reverse proxy limite fortement la friction et accélère les ventes. Toutefois, si les modèles fondateurs deviennent nativement résistants au jailbreak, la pertinence d'un bouclier externe s'effondrera.

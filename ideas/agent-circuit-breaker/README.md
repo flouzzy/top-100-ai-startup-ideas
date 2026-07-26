@@ -69,12 +69,12 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
-| Scalability / UX Friction   | 24 / 25         | -- / 25             |
-| Unit Economics / ROI        | 25 / 25         | -- / 25             |
-| **TOTAL**                   | **95 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 23 / 25         | 25 / 25             |
+| Moat / LLM Immunity         | 23 / 25         | 12 / 25             |
+| Scalability / UX Friction   | 24 / 25         | 22 / 25             |
+| Unit Economics / ROI        | 25 / 25         | 24 / 25             |
+| **TOTAL**                   | **95 / 100**    | **83 / 100**        |
 
 > **VC Verdict:** Agent Circuit Breaker solves an acute, highly painful financial risk (runaway token burn) that every enterprise experimenting with AI currently fears. Its position at the network layer provides an unassailable moat, as foundational models cannot police their own infrastructure. The ROI is immediate and indisputable, enabling highly lucrative and scalable pricing.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Preventing autonomous agents from burning budgets in infinite loops is an absolute necessity for any M2M operation. The network-level integration offers low friction, and monetization through prevented losses is highly compelling. However, native LLM API providers can easily implement basic budget caps, making its long-term moat vulnerable unless it offers advanced, cross-platform loop detection.

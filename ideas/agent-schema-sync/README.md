@@ -67,12 +67,12 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 25 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
-| Scalability / UX Friction   | 25 / 25         | -- / 25             |
-| Unit Economics / ROI        | 23 / 25         | -- / 25             |
-| **TOTAL**                   | **97 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 25 / 25         | 19 / 25             |
+| Moat / LLM Immunity         | 24 / 25         | 13 / 25             |
+| Scalability / UX Friction   | 25 / 25         | 19 / 25             |
+| Unit Economics / ROI        | 23 / 25         | 18 / 25             |
+| **TOTAL**                   | **97 / 100**    | **69 / 100**        |
 
 > **VC Verdict:** This is a visionary play on the inherent fragility of modern software integrations, abstracting away API schema changes entirely. The massive data network effect means the product improves exponentially with scale, creating an insurmountable barrier for competitors. It captures immense value by turning constant maintenance costs into a single, highly profitable subscription.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Dynamically adapting to changing API schemas solves a real maintenance headache for agent developers. The proxy setup minimizes friction for adoption. The main threat is that frontier models are rapidly improving their native zero-shot reasoning and self-healing capabilities, which could render external semantic proxies obsolete.

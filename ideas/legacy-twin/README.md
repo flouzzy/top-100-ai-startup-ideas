@@ -72,12 +72,12 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 25 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
-| Scalability / UX Friction   | 20 / 25         | -- / 25             |
-| Unit Economics / ROI        | 22 / 25         | -- / 25             |
-| **TOTAL**                   | **91 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 25 / 25         | 18 / 25             |
+| Moat / LLM Immunity         | 24 / 25         | 25 / 25             |
+| Scalability / UX Friction   | 20 / 25         | 11 / 25             |
+| Unit Economics / ROI        | 22 / 25         | 20 / 25             |
+| **TOTAL**                   | **91 / 100**    | **74 / 100**        |
 
 > **VC Verdict:** Legacy Twin tackles the trillion-dollar modernization backlog by replacing blind trust in LLMs with irrefutable mathematical proof of equivalence. This hardcore technical moat makes it indispensable for risk-averse institutions like banks and governments. While the market is specialized, the immense value unlocked per transaction supports incredibly lucrative enterprise pricing.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Mathematical proof of semantic equivalence for AI-migrated legacy code is exactly what CIOs need to authorize deployments. It possesses perfect immunity against LLMs, which are probabilistic and cannot perform formal symbolic execution. The extreme technical friction and slow, high-stakes nature of the enterprise market will challenge rapid scalability.

@@ -72,12 +72,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
-| **TOTAL**                         | **91 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 25 / 25         | 18 / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | 11 / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | 20 / 25              |
+| **TOTAL**                         | **91 / 100**    | **74 / 100**         |
 
 > **Verdict VC :** Legacy Twin s'attaque au retard de modernisation évalué à mille milliards de dollars en remplaçant la confiance aveugle dans les LLM par une preuve mathématique irréfutable d'équivalence. Ce fossé technique hardcore le rend indispensable pour les institutions averses au risque comme les banques et les gouvernements. Bien que le marché soit spécialisé, la valeur immense débloquée par transaction justifie une tarification d'entreprise incroyablement lucrative.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Prouver mathématiquement l'équivalence sémantique du code COBOL migré par IA est l'argument massue manquant pour rassurer les DSI. La valeur et l'immunité aux LLM, qui ne savent pas faire de preuve formelle de façon fiable, sont maximales. La friction d'usage reste très élevée en raison de la complexité technologique sous-jacente.

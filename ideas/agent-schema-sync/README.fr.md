@@ -67,12 +67,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 25 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
-| **TOTAL**                         | **97 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 25 / 25         | 19 / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | 13 / 25              |
+| Scalabilité / Friction d'adoption | 25 / 25         | 19 / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | 18 / 25              |
+| **TOTAL**                         | **97 / 100**    | **69 / 100**         |
 
 > **Verdict VC :** Il s'agit d'un pari visionnaire sur la fragilité inhérente des intégrations logicielles modernes, qui fait totalement abstraction des changements de schémas d'API. L'effet de réseau massif des données signifie que le produit s'améliore de façon exponentielle avec l'échelle, créant une barrière infranchissable. Il capte une valeur immense en transformant des coûts de maintenance constants en un abonnement unique et très rentable.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Les APIs changent constamment, cassant les agents de manière imprévisible et créant un besoin urgent de traduction à la volée. L'adoption est facilitée par le modèle proxy qui limite la friction d'installation. Toutefois, si les modèles fondateurs améliorent drastiquement le self-healing et le zero-shot, la valeur de cette solution externe diminuera.

@@ -67,12 +67,12 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
-| Scalability / UX Friction   | 22 / 25         | -- / 25             |
-| Unit Economics / ROI        | 24 / 25         | -- / 25             |
-| **TOTAL**                   | **93 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 24 / 25         | 21 / 25             |
+| Moat / LLM Immunity         | 23 / 25         | 18 / 25             |
+| Scalability / UX Friction   | 22 / 25         | 17 / 25             |
+| Unit Economics / ROI        | 24 / 25         | 22 / 25             |
+| **TOTAL**                   | **93 / 100**    | **78 / 100**        |
 
 > **VC Verdict:** Agent Arbitrator Protocol targets a critical, overlooked vulnerability in the autonomous M2M economy by standardizing conflict resolution. Its deterministic approach creates strong network effects, positioning it to become a foundational, monopolistic layer. The extremely scalable API model ensures immense margin potential once adoption tips.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Resolving endless negotiation loops between autonomous agents solves a highly specific but critical B2B pain point, justifying a strong urgency score. Its deterministic hybrid AI approach provides solid immunity against standard LLMs, which struggle with formal logic. Adoption friction exists as it requires integration into major frameworks, but the per-call monetization is straightforward and scalable.

@@ -69,12 +69,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 24 / 25         | -- / 25              |
-| **TOTAL**                         | **93 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | 11 / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | 21 / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | 22 / 25              |
+| **TOTAL**                         | **93 / 100**    | **78 / 100**         |
 
 > **Verdict VC :** Agent Reaper s'attaque au chaos inévitable des agents autonomes en agissant comme un filet de sécurité financier essentiel contre les processus défectueux. Sa détection de répétition sémantique construit un fossé technique unique qui va au-delà d'une simple limitation de débit. La proposition de valeur est si évidente que l'acquisition de clients et l'expansion des marges seront très efficaces.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Le besoin de tuer les processus zombies coûtant des fortunes est critique pour la viabilité des systèmes M2M à grande échelle. La monétisation est évidente : agir comme une assurance en captant une fraction des économies réalisées. L'immunité est toutefois modérée, car les plateformes cloud ou les LLM eux-mêmes pourraient développer des gardes-fous natifs similaires.

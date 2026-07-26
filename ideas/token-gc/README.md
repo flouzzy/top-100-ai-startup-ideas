@@ -68,12 +68,12 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 21 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 19 / 25         | -- / 25             |
-| Scalability / UX Friction   | 24 / 25         | -- / 25             |
-| Unit Economics / ROI        | 23 / 25         | -- / 25             |
-| **TOTAL**                   | **87 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 21 / 25         | 21 / 25             |
+| Moat / LLM Immunity         | 19 / 25         | 10 / 25             |
+| Scalability / UX Friction   | 24 / 25         | 20 / 25             |
+| Unit Economics / ROI        | 23 / 25         | 20 / 25             |
+| **TOTAL**                   | **87 / 100**    | **71 / 100**        |
 
 > **VC Verdict:** Token GC provides a clever, immediate solution to the bloat of context windows, directly translating into massive cost savings for high-volume deployments. The primary risk to its defensibility is the rapid commoditization of context length and falling inference costs by major LLM providers. Its survival dictates an aggressive go-to-market strategy to capture enterprise workflows before the underlying models render the problem obsolete.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Compressing LLM contexts to eliminate 'dead tokens' directly saves money and improves model focus. It benefits from low-friction integration as a middleware proxy. However, as foundation models expand context windows and potentially introduce native dynamic attention pruning, the long-term utility and moat of external garbage collectors are highly uncertain.

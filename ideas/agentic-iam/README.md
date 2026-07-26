@@ -72,12 +72,12 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 21 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
-| Scalability / UX Friction   | 24 / 25         | -- / 25             |
-| Unit Economics / ROI        | 23 / 25         | -- / 25             |
-| **TOTAL**                   | **92 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 21 / 25         | 22 / 25             |
+| Moat / LLM Immunity         | 24 / 25         | 19 / 25             |
+| Scalability / UX Friction   | 24 / 25         | 14 / 25             |
+| Unit Economics / ROI        | 23 / 25         | 21 / 25             |
+| **TOTAL**                   | **92 / 100**    | **76 / 100**        |
 
 > **VC Verdict:** Agentic IAM recognizes that legacy identity systems were built for humans, not high-speed, unpredictable autonomous machines. By embedding behavioral kill switches alongside ephemeral tokens, it becomes the ultimate governance layer for enterprise AI. The vendor lock-in is nearly absolute once integrated, guaranteeing long-term, highly profitable recurring revenue.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Replacing static API keys with ephemeral tokens for agents is a critical security requirement for enterprise adoption. It offers a solid moat against generic LLMs, which don't inherently manage identity lifecycle securely. Adoption friction is relatively high as it demands fundamental changes to how legacy applications authenticate.

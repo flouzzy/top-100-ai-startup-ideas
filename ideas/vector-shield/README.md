@@ -72,12 +72,12 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 22 / 25         | -- / 25             |
-| Scalability / UX Friction   | 24 / 25         | -- / 25             |
-| Unit Economics / ROI        | 24 / 25         | -- / 25             |
-| **TOTAL**                   | **93 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 23 / 25         | 24 / 25             |
+| Moat / LLM Immunity         | 22 / 25         | 13 / 25             |
+| Scalability / UX Friction   | 24 / 25         | 22 / 25             |
+| Unit Economics / ROI        | 24 / 25         | 23 / 25             |
+| **TOTAL**                   | **93 / 100**    | **82 / 100**        |
 
 > **VC Verdict:** Vector Shield builds a mandatory, deterministic layer of defense between unpredictable LLMs and strict enterprise compliance requirements. Its placement as a reverse proxy ensures it becomes an indispensable part of the corporate infrastructure, creating immense stickiness. The clear connection to preventing regulatory fines makes the sales motion frictionless and highly scalable.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Real-time interception of prompt injections and PII redaction is non-negotiable for enterprise compliance. It is easily deployed as an API gateway, minimizing friction. The core vulnerability is that as base models become more robustly aligned and natively resistant to jailbreaks, the necessity of an external shield diminishes.

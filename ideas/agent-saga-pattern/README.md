@@ -84,12 +84,12 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | ------------------------------- | --------------- | ------------------- |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| **Thesis & Monopoly / Urgency** | -- / 25         | 20 / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | 21 / 25             |
+| **Scalability / UX Friction**   | -- / 25         | 12 / 25             |
+| **Unit Economics / ROI**        | -- / 25         | 19 / 25             |
+| **TOTAL**                       | -- / 100        | 72 / 100            |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Distributed transaction rollback is essential for complex agent workflows, especially in e-commerce and logistics. Its immunity is high because LLMs lack the deterministic capabilities required for true transactional integrity. However, enforcing the Saga pattern requires heavy architectural redesign, leading to significant adoption friction.

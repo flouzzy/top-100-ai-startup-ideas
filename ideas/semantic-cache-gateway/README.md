@@ -75,12 +75,12 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 20 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 18 / 25         | -- / 25             |
-| Scalability / UX Friction   | 25 / 25         | -- / 25             |
-| Unit Economics / ROI        | 25 / 25         | -- / 25             |
-| **TOTAL**                   | **88 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 20 / 25         | 22 / 25             |
+| Moat / LLM Immunity         | 18 / 25         | 8 / 25             |
+| Scalability / UX Friction   | 25 / 25         | 23 / 25             |
+| Unit Economics / ROI        | 25 / 25         | 19 / 25             |
+| **TOTAL**                   | **88 / 100**    | **72 / 100**        |
 
 > **VC Verdict:** This gateway offers a brilliant arbitrage opportunity by radically cutting latency and token costs through semantic caching, delivering an immediate, undeniable ROI. However, its long-term moat is highly vulnerable to native caching solutions inevitably rolled out by foundational model providers. To survive and dominate, it must quickly pivot to enterprise-specific compliance and analytics layers.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Reducing latency and API costs via semantic caching provides immediate, quantifiable value with very low integration friction (reverse proxy). The critical flaw is its near-zero immunity; major LLM providers are already introducing native prompt caching, which threatens to completely commoditize this solution.

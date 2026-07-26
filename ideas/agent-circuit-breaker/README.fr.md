@@ -69,12 +69,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 25 / 25         | -- / 25              |
-| **TOTAL**                         | **95 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | 25 / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | 12 / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | 22 / 25              |
+| Unit Economics / ROI direct       | 25 / 25         | 24 / 25              |
+| **TOTAL**                         | **95 / 100**    | **83 / 100**         |
 
 > **Verdict VC :** Agent Circuit Breaker résout un risque financier aigu et très douloureux (la consommation incontrôlée de tokens) que redoute toute entreprise expérimentant l'IA. Sa position au niveau réseau offre un fossé défensif imprenable, car les modèles fondateurs ne peuvent surveiller leur propre infrastructure. Le ROI est immédiat et indiscutable, permettant une tarification très lucrative et scalable.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Empêcher un agent de brûler tout un budget en quelques minutes est une nécessité absolue et vitale pour toute opération M2M. L'intégration réseau permet une très faible friction, et le gain financier justifie la monétisation. Le risque principal est que les fournisseurs d'API comme OpenAI ou Anthropic intègrent ces limites de coûts nativement, menaçant son avantage compétitif.
