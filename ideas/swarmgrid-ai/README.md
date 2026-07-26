@@ -1,8 +1,10 @@
-<!-- markdownlint-disable MD013 MD033 -->
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD036 MD037 MD039 MD041 MD060 -->
+
+[ 🇫🇷 Version Française ](./README.fr.md)
 
 # SwarmGrid AI
 
-> **Résumé exécutif :** SwarmGrid AI déploie un réseau M2M d'agents d'intelligence artificielle sur des infrastructures de stockage d'énergie décentralisées pour exécuter des arbitrages de marché ultra-rapides, transformant des équipements passifs en générateurs de revenus autonomes.
+> **Executive Summary:** SwarmGrid AI deploys an M2M network of artificial intelligence agents on decentralized energy storage infrastructures to execute ultra-fast market arbitrage, transforming passive equipment into autonomous revenue generators.
 
 ![Type: M2M](https://img.shields.io/badge/Mod%C3%A8le-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -10,69 +12,69 @@
 
 ---
 
-## 1. Aperçu visuel
+## 1. Visual Overview
 
 ```mermaid
 graph TD
-    A[Réseau Électrique National] -->|Tension & Prix Temps Réel| B{SwarmGrid Intelligence}
-    B -->|Ordre d'Achat (Prix bas)| C[Batteries Résidentielles & Véhicules]
-    B -->|Ordre de Vente (Prix pic)| C
-    C -->|Décharge| A
+    A["National Electric Grid"] -->|"Real-Time Voltage & Price"| B{"SwarmGrid Intelligence"}
+    B -->|"Buy Order (Low Price)"| C["Residential & Vehicle Batteries"]
+    B -->|"Sell Order (Peak Price)"| C
+    C -->|"Discharge"| A
     style B fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
-## 2. La thèse contrariante (Peter Thiel Style)
+## 2. Contrarian Thesis (Peter Thiel Style)
 
-**La croyance populaire :**La transition énergétique nécessite des milliards d'investissements centralisés par l'État pour construire un "smart grid" omniscient capable d'équilibrer la charge du réseau.
-**La vérité cachée :**L'infrastructure de stockage existe déjà (véhicules électriques, batteries domestiques, onduleurs industriels). Le véritable problème n'est pas le stockage, mais le manque d'un protocole M2M décentralisé capable de coordonner ces actifs dormants à la milliseconde pour exploiter l'arbitrage financier sur les marchés de l'énergie.
+**Popular Belief:** The energy transition requires billions in centralized state investments to build an omniscient "smart grid" capable of balancing the network load.
+**Hidden Truth:** The storage infrastructure already exists (electric vehicles, home batteries, industrial inverters). The real problem isn't storage, but the lack of a decentralized M2M protocol capable of coordinating these dormant assets by the millisecond to exploit financial arbitrage on energy markets.
 
-## 3. Le problème & La cible
+## 3. Problem & Target Market
 
-**Modèle économique :**M2M (Machine to Machine)
-**Cible précise :**Fabricants d'onduleurs, gestionnaires de flottes de véhicules électriques (V2G) et propriétaires de parcs immobiliers équipés en batteries.
-**La douleur urgente :**La volatilité croissante des prix de l'énergie crée des coûts d'opportunité massifs. Actuellement, l'énergie excédentaire est soit perdue, soit revendue à des tarifs subventionnés fixes très bas. Le manque à gagner opérationnel pour les propriétaires de batteries se chiffre en milliers d'euros annuels.
+**Business Model:** M2M (Machine to Machine)
+**Precise Target:** Inverter manufacturers, EV fleet managers (V2G), and property owners equipped with battery parks.
+**Urgent Pain:** Growing energy price volatility creates massive opportunity costs. Currently, surplus energy is either lost or resold at very low fixed subsidized rates. The operational revenue loss for battery owners amounts to thousands of euros annually.
 
-## 4. Architecture technique & Plomberie
+## 4. Technical Architecture & Infrastructure
 
 ```mermaid
 sequenceDiagram
-    participant Marché as Marché de l'Énergie (API Spot)
-    participant SwarmNode as Agent Edge AI (Onduleur)
-    participant Batterie as Stockage Physique
+    participant Marché as "Energy Market (Spot API)"
+    participant SwarmNode as "Edge AI Agent (Inverter)"
+    participant Batterie as "Physical Storage"
 
-    Marché->>SwarmNode: Prix spot MWh chute (Surproduction renouvelable)
-    SwarmNode->>SwarmNode: Prédiction de la demande locale (Modèle embarqué)
-    SwarmNode->>Batterie: Instruction de charge max (0.01s)
-    Batterie-->>SwarmNode: Capacité atteinte
-    Marché->>SwarmNode: Prix spot MWh explose (Pic de demande 19h)
-    SwarmNode->>Batterie: Instruction de décharge vers réseau (Vente)
-    Batterie-->>Marché: Injection d'énergie
-    SwarmNode->>SwarmNode: Calcul du micro-profit et Ledger P2P
+    Marché->>SwarmNode: Spot MWh price drops (Renewable overproduction)
+    SwarmNode->>SwarmNode: Local demand prediction (Embedded model)
+    SwarmNode->>Batterie: Max charge instruction (0.01s)
+    Batterie-->>SwarmNode: Capacity reached
+    Marché->>SwarmNode: Spot MWh price explodes (19h demand peak)
+    SwarmNode->>Batterie: Discharge instruction to grid (Sell)
+    Batterie-->>Marché: Energy injection
+    SwarmNode->>SwarmNode: Micro-profit calculation and P2P Ledger
 ```
 
-## 5. Modèle économique & Viabilité financière
+## 5. Business Model & Financial Viability
 
-| Métrique                        | Valeur                                                                            |
-| :------------------------------ | :-------------------------------------------------------------------------------- |
-| **Structure de prix**           | Commission pure : 20% sur les profits d'arbitrage générés (Revenue Share M2M)     |
-| **Objectif 12 mois**            | 1 000 actifs de stockage sous gestion (moyenne de 100€ de profit brut/mois/actif) |
-| **Calcul du CA (Target 100k€)** | 1000 nœuds*100€ profit*20% commission\*12 mois = **240 000€ ARR**                 |
-| **Marge brute estimée**         | 92% (coûts d'inférence déportés sur l'Edge matériel du client)                    |
+| Metric                                 | Value                                                                      |
+| :------------------------------------- | :------------------------------------------------------------------------- |
+| **Pricing Structure**                  | Pure commission: 20% on generated arbitrage profits (Revenue Share M2M)    |
+| **12-Month Target**                    | 1,000 storage assets under management (avg. 100€ gross profit/month/asset) |
+| **Revenue Calculation (100k€ Target)** | 1000 nodes _ 100€ profit _ 20% commission \* 12 months = **240,000€ ARR**  |
+| **Estimated Gross Margin**             | 92% (inference costs offloaded to the client's hardware Edge)              |
 
-## 6. Moteur de distribution & Fossé défensif (Moat)
+## 6. Distribution Engine & Moat
 
-**Stratégie d'acquisition :**Adhésion dev M2M. SwarmGrid ne vend pas aux particuliers. L'acquisition se fait par des partenariats B2B natifs (OEM) avec 2 ou 3 grands fabricants d'onduleurs (ex: Victron, SMA) pour intégrer l'agent IA dès la sortie d'usine.
-**Moat (Barrière à l'entrée) :**L'effet de réseau physique (Hardware Network Effect). Contrairement à un simple wrapper LLM facilement copiable, SwarmGrid gagne en précision de prédiction météo/demande au fur et à mesure que la densité géographique des nœuds augmente. Un nouvel entrant ne peut pas répliquer l'accès direct aux ports COM des onduleurs partenaires du jour au lendemain.
+**Acquisition Strategy:** M2M dev adoption. SwarmGrid does not sell to individuals. Acquisition is through native B2B partnerships (OEM) with 2 or 3 major inverter manufacturers (e.g., Victron, SMA) to integrate the AI agent straight from the factory.
+**Moat (Barrier to Entry):** The physical network effect (Hardware Network Effect). Unlike a simple LLM wrapper that is easily copied, SwarmGrid gains weather/demand prediction accuracy as the geographic density of nodes increases. A new entrant cannot replicate direct access to the COM ports of partner inverters overnight.
 
-## 7. Grille d'évaluation détaillée
+## 7. Detailed Evaluation Grid
 
-| Critère                               | Score VC (/100) | Score Terrain (/100) |
-| :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     24 / 25     |       24 / 25        |
-| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       25 / 25        |
-| **Scalabilité / Friction d'adoption** |     20 / 25     |       25 / 25        |
-| **Unit Economics / ROI direct**       |     25 / 25     |       23 / 25        |
-| **TOTAL**                             |  **94 / 100**   |     **97 / 100**     |
+| Criteria                             | VC Score (/100) | Market Score (/100) |
+| :----------------------------------- | :-------------: | :-----------------: |
+| **Thesis & Monopoly / Urgency**      |     24 / 25     |       24 / 25       |
+| **Moat / Resistance to Native LLMs** |     25 / 25     |       25 / 25       |
+| **Scalability / Adoption Friction**  |     20 / 25     |       25 / 25       |
+| **Unit Economics / Direct ROI**      |     25 / 25     |       23 / 25       |
+| **TOTAL**                            |  **94 / 100**   |    **97 / 100**     |
 
-> **Verdict Terrain :** L'outil SwarmGrid AI répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
-> **Verdict global :**Un projet d'infrastructure extrêmement défensif qui résout une inefficacité massive de la grille énergétique. L'exécution repose entièrement sur la capacité à signer les premiers partenariats OEM pour amorcer l'effet de réseau matériel.
+> **Market Verdict:** The SwarmGrid AI tool addresses a highly targeted business need with tangible ROI. Its positioning as API infrastructure guarantees good immunity against generalist LLMs. Even if adoption requires an integration effort, the economic model's viability is driven by the value provided.
+> **VC Verdict:** An extremely defensive infrastructure project that solves a massive inefficiency in the energy grid. Execution relies entirely on the ability to sign the first OEM partnerships to ignite the hardware network effect.

@@ -84,12 +84,12 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | ------------------------------- | --------------- | ------------------- |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| **Thesis & Monopoly / Urgency** | 22 / 25         | 21 / 25             |
+| **Moat / LLM Immunity**         | 16 / 25         | 22 / 25             |
+| **Scalability / UX Friction**   | 22 / 25         | 16 / 25             |
+| **Unit Economics / ROI**        | 21 / 25         | 22 / 25             |
+| **TOTAL**                       | 81 / 100        | **81 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Solves a complex distributed systems problem for agents. High utility, but significant adoption friction as it requires developers to strictly adhere to a new orchestration paradigm.
