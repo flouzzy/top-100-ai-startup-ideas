@@ -66,14 +66,13 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                   | VC Score (/100) | Market Score (/100) |
-| --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 22 / 25         | -- / 25             |
-| Scalability / UX Friction   | 24 / 25         | -- / 25             |
-| Unit Economics / ROI        | 24 / 25         | -- / 25             |
-| **TOTAL**                   | **93 / 100**    | **-- / 100**        |
+| Criterion | VC Score (/100) | Market Score (/100) |
+| --------------------------- | 21 / 25 | ------------------- |
+| Thesis & Monopoly / Urgency | 23 / 25 | -- / 25 |
+| Moat / LLM Immunity | 22 / 25 | -- / 25 |
+| Scalability / UX Friction | 24 / 25 | -- / 25 |
+| Unit Economics / ROI | 24 / 25 | -- / 25 |
+| **TOTAL** | **93 / 100** | **-- / 100** |
 
 > **VC Verdict:** Zombie Agent Reaper ruthlessly eliminates the catastrophic financial drain caused by rogue AI processes, turning unpredictable AI experimentation into a financially governed operation. Its integration directly into the cloud control plane creates a deep structural moat that is immune to prompt-engineering bypasses. This is a highly profitable, scalable insurance policy for modern DevOps.
-
 > **Market Verdict:** Pending evaluation.

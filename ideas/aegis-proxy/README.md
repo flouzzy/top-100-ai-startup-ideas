@@ -72,5 +72,6 @@ sequenceDiagram
 | Unit Economics / ROI direct       |     24 / 25     |       17 / 25        |
 | **TOTAL**                         |  **88 / 100**   |     **92 / 100**     |
 
+> **VC Verdict:** Aegis Proxy addresses the absolute urgency of securing enterprise LLM deployments. Unlike a mere wrapper, this deeply embedded compliance solution guarantees maximum lock-in. The total addressable market is colossal.
 > **Verdict Terrain :** L'outil Aegis Proxy répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
 > **Verdict global :**Aegis Proxy capitalise sur une peur viscérale et justifiée des directeurs sécurité. En agissant comme une infrastructure réseau invisible, elle construit un fossé défensif B2B très puissant, totalement immunisé contre la course à l'armement que se livrent les créateurs de LLMs de base.

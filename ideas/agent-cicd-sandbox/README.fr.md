@@ -70,14 +70,13 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                           | Score VC (/100) | Score Terrain (/100) |
-| --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 20 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 21 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 22 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
-| **TOTAL**                         | **83 / 100**    | **-- / 100**         |
+| Critère | Score VC (/100) | Score Terrain (/100) |
+| --------------------------------- | 22 / 25 | -------------------- |
+| Thèse & Monopole / Urgence | 20 / 25 | -- / 25 |
+| Moat / Résistance aux LLM natifs | 21 / 25 | -- / 25 |
+| Scalabilité / Friction d'adoption | 22 / 25 | -- / 25 |
+| Unit Economics / ROI direct | 20 / 25 | -- / 25 |
+| **TOTAL** | **83 / 100** | **-- / 100** |
 
 > **Verdict VC :** Cette sandbox lève la barrière critique de la confiance pour le déploiement d'agents en entreprise en fournissant des métriques déterministes. Bien que très précieuse, sa défendabilité à long terme repose sur une intégration profonde aux pipelines CI/CD avant que les géants du cloud n'offrent des alternatives natives. La nature gourmande en calcul nécessite des modèles de prix stricts pour maintenir des marges saines.
-
 > **Verdict Terrain :** En attente d'évaluation.

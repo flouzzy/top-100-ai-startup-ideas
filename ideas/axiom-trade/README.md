@@ -85,5 +85,6 @@ sequenceDiagram
 | Unit Economics / ROI direct       |     25 / 25     |       20 / 25        |
 | **TOTAL**                         |  **88 / 100**   |     **84 / 100**     |
 
+> **VC Verdict:** The positioning of Axiom Trade suffers from a lack of deep technological barriers, leaving it vulnerable to future native updates from OpenAI or Google. While initial unit economics seem decent, customer acquisition cost (CAC) risks destroying profitability at scale. A pivot towards stronger proprietary integration is required.
 > **Verdict Terrain :** L'outil Axiom Trade répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. La clarté de sa proposition de valeur financière assure une forte disposition à payer des entreprises B2B.
 > **Verdict global :**Un produit "Painkiller" par excellence avec un modèle de monétisation aligné sur les intérêts du client (Gain-Share). L'intégration ERP reste la plus grosse friction technique, mais la barrière à l'entrée une fois installé est massive, empêchant toute disruption facile par de simples wrappers.

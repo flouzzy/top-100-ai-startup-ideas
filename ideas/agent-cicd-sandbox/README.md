@@ -70,14 +70,13 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                   | VC Score (/100) | Market Score (/100) |
-| --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 20 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 21 / 25         | -- / 25             |
-| Scalability / UX Friction   | 22 / 25         | -- / 25             |
-| Unit Economics / ROI        | 20 / 25         | -- / 25             |
-| **TOTAL**                   | **83 / 100**    | **-- / 100**        |
+| Criterion | VC Score (/100) | Market Score (/100) |
+| --------------------------- | 19 / 25 | ------------------- |
+| Thesis & Monopoly / Urgency | 20 / 25 | -- / 25 |
+| Moat / LLM Immunity | 21 / 25 | -- / 25 |
+| Scalability / UX Friction | 22 / 25 | -- / 25 |
+| Unit Economics / ROI | 20 / 25 | -- / 25 |
+| **TOTAL** | **83 / 100** | **-- / 100** |
 
 > **VC Verdict:** This sandbox addresses the critical trust barrier for enterprise agent deployment by providing deterministic confidence metrics. While highly valuable, its long-term defensibility relies on deeply embedding into CI/CD pipelines before cloud giants offer native alternatives. The compute-intensive nature requires strict pricing models to maintain healthy margins.
-
 > **Market Verdict:** Pending evaluation.

@@ -83,13 +83,12 @@ sequenceDiagram
 ## 7. Grille d'évaluation détaillée
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
-| ------------------------------------- | --------------- | -------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| ------------------------------------- | :-------------: | :------------------: |
+| **Thèse & Monopole / Urgence**        |     25 / 25     |       -- / 25        |
+| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       -- / 25        |
+| **Scalabilité / Friction d'adoption** |     22 / 25     |       -- / 25        |
+| **Unit Economics / ROI direct**       |     24 / 25     |       -- / 25        |
+| **TOTAL**                             |  **96 / 100**   |       -- / 100       |
 
-> **Verdict VC :** En attente d'évaluation.
-
+> **Verdict VC :** L'infrastructure Saga s'attaque au problème fondamental de la confiance inter-agents. En se positionnant comme la plomberie B2B indispensable de l'économie IA, le moat est quasi-infranchissable une fois l'effet de réseau bilatéral amorcé. Les unit economics promettent une forte scalabilité sans friction d'adoption excessive.
 > **Verdict Terrain :** En attente d'évaluation.

@@ -81,5 +81,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       |     23 / 25     |       21 / 25        |
 | **TOTAL**                             |  **94 / 100**   |     **73 / 100**     |
 
+> **VC Verdict:** The AgentLedger infrastructure tackles the fundamental problem of inter-agent trust. By positioning itself as the indispensable B2B plumbing of the AI economy, the moat is nearly insurmountable once bilateral network effects kick in. Unit economics promise strong scalability without excessive adoption friction.
 > **Verdict Terrain :** L'outil AgentLedger répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
 > **Verdict global :**AgentLedger pose les fondations de l'économie native des IA (M2M) avec un modèle financier asymétrique. Avec une barrière à l'entrée colossale liée à l'effet de réseau et à l'infrastructure financière, c'est une startup massivement défensive face aux évolutions pures des modèles d'inférence.

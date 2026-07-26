@@ -112,5 +112,4 @@ rien". Virabilité intra-industrie (les CFO se parlent dans les réseaux).
 | **TOTAL**                             |  **90 / 100**   |     **70 / 100**     |
 
 > **Verdict Terrain :** L'automatisation de la gestion des fournisseurs offre une valeur solide mais se heurte à une forte friction d'intégration avec les systèmes existants. L'urgence est modérée par rapport aux activités génératrices de revenus. La monétisation est claire si elle peut manifestement réduire les coûts d'approvisionnement.
-
 > **Verdict VC :** VendorFloor AI attaque la négociation SaaS avec un effet de réseau de données unique, agrégeant les prix planchers cachés. Cette asymétrie offre un avantage écrasant sur les acheteurs humains. Plus il y a d'utilisateurs, plus le moat de données tarifaires se renforce.

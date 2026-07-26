@@ -68,13 +68,13 @@ Moat (Barrière à l'entrée) : Combine analyse syntaxique déterministe et isol
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                           | Score VC (/100) | Score Terrain (/100) |
-| --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 22 / 25         | 15 / 25              |
-| Moat / Résistance aux LLM natifs  | 23 / 25         | 15 / 25              |
-| Scalabilité / Friction d'adoption | 22 / 25         | 22 / 25              |
-| Unit Economics / ROI direct       | 24 / 25         | 15 / 25              |
-| **TOTAL**                         | **91 / 100**    | **67 / 100**         |
+| Critère | Score VC (/100) | Score Terrain (/100) |
+| --------------------------------- | 21 / 25 | -------------------- |
+| Thèse & Monopole / Urgence | 22 / 25 | 15 / 25 |
+| Moat / Résistance aux LLM natifs | 23 / 25 | 15 / 25 |
+| Scalabilité / Friction d'adoption | 22 / 25 | 22 / 25 |
+| Unit Economics / ROI direct | 24 / 25 | 15 / 25 |
+| **TOTAL** | **91 / 100** | **67 / 100** |
 
 > **Verdict Terrain :** L'outil RAGShield répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
 > **Verdict VC :** RAG-Shield traite une vulnérabilité émergente très spécifique : les injections de prompt indirectes dans les bases vectorielles. En tant que WAF spécialisé, il devient un composant obligatoire des pipelines IA d'entreprise. Son moat grandit grâce aux données d'intelligence des menaces.

@@ -109,5 +109,4 @@ sequenceDiagram
 | **TOTAL**                            |  **89 / 100**   |     **74 / 100**     |
 
 > **Verdict Terrain :** AI-driven supply chain optimization is valuable, but integrating deeply into existing ERPs causes significant friction. The monetization is clear based on efficiency gains. The main hurdle is the enterprise sales cycle and change management.
-
 > **VC Verdict:** SupplyMesh AI envisions a liquid inter-machine procurement market, entirely bypassing human purchasing delays. The integration friction is incredibly high, but this creates a legendary lock-in effect. It shifts the paradigm from software as a tool to software as a market participant.

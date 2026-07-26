@@ -65,14 +65,13 @@ sequenceDiagram
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                           | Score VC (/100) | Score Terrain (/100) |
-| --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 25 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
-| **TOTAL**                         | **97 / 100**    | **-- / 100**         |
+| Critère | Score VC (/100) | Score Terrain (/100) |
+| --------------------------------- | 22 / 25 | -------------------- |
+| Thèse & Monopole / Urgence | 25 / 25 | -- / 25 |
+| Moat / Résistance aux LLM natifs | 24 / 25 | -- / 25 |
+| Scalabilité / Friction d'adoption | 25 / 25 | -- / 25 |
+| Unit Economics / ROI direct | 23 / 25 | -- / 25 |
+| **TOTAL** | **97 / 100** | **-- / 100** |
 
 > **Verdict VC :** Il s'agit d'un pari visionnaire sur la fragilité inhérente des intégrations logicielles modernes, qui fait totalement abstraction des changements de schémas d'API. L'effet de réseau massif des données signifie que le produit s'améliore de façon exponentielle avec l'échelle, créant une barrière infranchissable. Il capte une valeur immense en transformant des coûts de maintenance constants en un abonnement unique et très rentable.
-
 > **Verdict Terrain :** En attente d'évaluation.

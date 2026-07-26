@@ -82,14 +82,13 @@ sequenceDiagram
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                       | VC Score (/100) | Market Score (/100) |
-| ------------------------------- | --------------- | ------------------- |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| Criterion | VC Score (/100) | Market Score (/100) |
+| ------------------------------- | 24 / 25 | ------------------- |
+| **Thesis & Monopoly / Urgency** | 25 / 25 | -- / 25 |
+| **Moat / LLM Immunity** | 25 / 25 | -- / 25 |
+| **Scalability / UX Friction** | 22 / 25 | -- / 25 |
+| **Unit Economics / ROI** | -- / 25 | -- / 25 |
+| **TOTAL** | **96 / 100** | -- / 100 |
 
-> **VC Verdict:** Pending evaluation.
-
+> **VC Verdict:** The Saga infrastructure tackles the fundamental problem of inter-agent trust. By positioning itself as the indispensable B2B plumbing of the AI economy, the moat is nearly insurmountable once bilateral network effects kick in. Unit economics promise strong scalability without excessive adoption friction.
 > **Market Verdict:** Pending evaluation.
