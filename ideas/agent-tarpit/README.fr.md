@@ -4,7 +4,7 @@
 
 # Agent Tarpit
 
-> **Résumé exécutif :** Un "tarpit" (piège à glu) dynamique au niveau réseau et API qui détecte les agents IA malveillants et les enferme dans des boucles synthétiques infinies, épuisant économiquement le budget de l'attaquant.
+> **Résumé exécutif :** Une infrastructure de tarpit générée par l'IA pour piéger les bots de scraping autonomes dans des boucles infinies, épuisant leur budget token.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -16,70 +16,66 @@
 
 ```mermaid
 graph TD
-    A["Agent IA Malveillant"] -->|Appel API| B{"Gateway Agent Tarpit"}
-    B -->|Trafic Normal| C["Infrastructure Réelle / API"]
-    B -->|Agent Détecté| D["Honeypot / Tarpit Dynamique"]
-    D --> E["Génération de Schémas OpenAPI Synthétiques"]
-    D --> F["Boucle Logique Infinie"]
-    E --> A
-    F -->|Épuisement des Tokens| A
+    %% Architecture Tarpit
+    A["Agent Malveillant"] --> B{"Routeur Tarpit"}
+    B -->|Trafic Humain| C["Application Réelle"]
+    B -->|Signature Agent| D["API Leurre Infinie"]
+    D -->|Épuisement Tokens| A
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-- **La croyance populaire :** La meilleure façon de stopper les bots est de bloquer agressivement leurs adresses IP via des WAF et des CAPTCHAs.
-- **La vérité cachée :** Les agents IA autonomes contournent facilement les WAF et les CAPTCHAs en s'adaptant dynamiquement. Plutôt que de les bloquer (ce qui alerte l'attaquant), la défense la plus efficace est une "Token Exhaustion Attack" : enfermer l'agent dans une illusion infinie et convaincante qui ruine la facturation cloud de l'attaquant.
+**La croyance populaire :** Les WAF traditionnels et les CAPTCHAs suffisent à stopper le scraping.
+
+**La vérité cachée :** Les agents pilotés par LLM contournent les CAPTCHAs ; la seule défense est de rendre l'attaque économiquement non viable.
 
 ## 3. Le problème & La cible
 
-- **Modèle économique :** B2B
-- **Cible précise :** Les RSSI (Responsables de la Sécurité des Systèmes d'Information), équipes SecOps, et opérateurs de grandes API publiques (SaaS, e-commerce, data brokers).
-- **La douleur urgente :** Les bots traditionnels sont remplacés par des agents IA autonomes qui imitent parfaitement le comportement humain. Cela entraîne des vols de données massifs (scraping), des DDoS furtifs, et coûte des millions en bande passante et en propriété intellectuelle.
+**Modèle économique :** B2B
+**Cible précise :** RSSI, équipes SecOps, et opérateurs de grandes API (SaaS, e-commerce) subissant du scraping massif.
+**La douleur urgente :** Les agents IA autonomes imitent le comportement humain et contournent les WAF, entraînant vols de données et épuisement des ressources.
 
 ## 4. Architecture technique & Plomberie
 
+**L'approche technique :** Un réseau de tarpits dynamiques. Sert des endpoints fantômes et schémas JSON infinis pour épuiser le budget token de l'attaquant (Token Exhaustion Attack) au lieu de simplement le bloquer.
+
 ```mermaid
 sequenceDiagram
-    participant Attacker as Agent Malveillant (LLM)
-    participant Gateway as Reverse Proxy Tarpit
-    participant Server as API Réelle
-    Attacker->>Gateway: Requête de scraping furtive
-    Gateway->>Gateway: Fingerprinting IA détecte l'Agent
-    alt Est Humain/Légitime
-        Gateway->>Server: Transfère
-        Server-->>Gateway: Données Réelles
-        Gateway-->>Attacker: Données Réelles
-    else Est Agent Malveillant
-        Gateway->>Gateway: Génère un endpoint fantôme/JSON infini
-        Gateway-->>Attacker: Sert une fausse réponse convaincante (Lentement)
-        Attacker->>Gateway: Suit la logique fantôme (Burn de Tokens !)
-    end
+    participant Bot as "AI Scraper"
+    participant WAF as "Tarpit Proxy"
+    participant Decoy as "AI Decoy Gen"
+    Bot->>WAF: Sneaky API Request
+    WAF->>WAF: Detect LLM Pattern
+    WAF->>Decoy: Route to Tarpit
+    Decoy-->>Bot: Return Infinite Schema / Fake Data
+    Bot->>Bot: Try to parse (Burns tokens)
+    Bot->>WAF: Retries infinitely...
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                    | Valeur                                                    |
-| --------------------------- | --------------------------------------------------------- |
-| Structure de prix           | Licence Entreprise par Paliers + Volume de Trafic Protégé |
-| Objectif 12 mois            | 50 Fournisseurs d'API Entreprise                          |
-| Calcul du CA (Target 100k€) | 50 _ 2000€ / mois _ 12 = 1.2M€                            |
-| Marge brute estimée         | 85%                                                       |
+| Métrique                        | Valeur                                   |
+| :------------------------------ | :--------------------------------------- |
+| **Structure de prix**           | Enterprise License / Monitored Bandwidth |
+| **Objectif 12 mois**            | 20 Enterprise Contracts                  |
+| **Calcul du CA (Target 100k€)** | 20 contracts \* $5k/mo = $100k/mo        |
+| **Marge brute estimée**         | 75%                                      |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-- **Stratégie d'acquisition :** Intégration directe avec les principaux CDN, API Gateways (Kong, Apigee) et fournisseurs de WAF comme module additionnel "Défense IA" avancé.
-- **Moat (Barrière à l'entrée) :** Un LLM défensif qui analyse les logs est trop lent et coûteux. Cette solution nécessite une infrastructure réseau bas-niveau (manipulation de sockets TCP/HTTP) pour ralentir physiquement les connexions, combinée à la génération de schémas OpenAPI fictifs à la volée. C'est injouable pour un LLM simple.
+**Stratégie d'acquisition :** Ventes B2B directes aux grands courtiers en données et géants du e-commerce.
+
+**Moat (Barrière à l'entrée) :** Nécessite une infrastructure réseau bas-niveau (reverse proxy) combinée à la génération de schémas fictifs à la volée, impossible pour un simple LLM défensif.
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                           | Score VC (/100) | Score Terrain (/100) |
-| --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 25 / 25         | 17 / 25              |
-| Moat / Résistance aux LLM natifs  | 22 / 25         | 23 / 25              |
-| Scalabilité / Friction d'adoption | 23 / 25         | 16 / 25              |
-| Unit Economics / ROI direct       | 22 / 25         | 19 / 25              |
-| **TOTAL**                         | **92 / 100**    | **75 / 100**         |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------- | :------------------- |
+| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
+| **TOTAL**                             | -- / 100        | -- / 100             |
 
-> **Verdict VC :** Agent Tarpit introduit une approche brillamment contrariante de la cybersécurité en retournant le budget de tokens de l'attaquant contre lui-même. Au lieu de bloquer indéfiniment, il rend les opérations d'IA malveillantes économiquement non viables, créant un tout nouveau paradigme de défense. Bien que de niche, son positionnement unique garantit un monopole absolu sur cette nouvelle catégorie de défense offensive.
-
-> **Verdict Terrain :** La sécurité par épuisement économique du budget des attaquants est une approche défensive innovante et très pertinente. Les entreprises paieront volontiers pour protéger leurs précieuses données internes. Déployer des leurres convaincants demande un certain effort, mais l'immunité est excellente face aux modèles génériques qui ne distinguent pas le vrai du synthétique.
+> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** En attente d'évaluation.

@@ -2,9 +2,9 @@
 
 [ 🇫🇷 Version Française ](./README.fr.md)
 
-# LegacyMesh
+# Legacy Mesh (Agent-to-Legacy Gateway)
 
-> **Executive Summary:** An "Agent-to-Legacy" API gateway that dynamically translates modern AI agent intents into safe, rate-limited legacy protocols (SOAP, Mainframe terminals, SQL) to protect fragile enterprise infrastructure.
+> **Executive Summary:** A hybrid middleware API gateway designed to securely translate autonomous AI agent intents into legacy system actions (SOAP, RPA, mainframes) with strict rate-limiting.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -12,66 +12,69 @@
 
 ---
 
-## 1. Visual Overview
+## 1. Visual Overview & Wow Effect
 
 ```mermaid
 graph TD
-    A["Modern AI Agent"] -->|Standard REST/GraphQL Intent| B{"LegacyMesh Gateway"}
-    B -->|Smart Rate Limiting & Caching| C["Protocol Translation"]
-    C --> D["Mainframe (TN3270)"]
-    C --> E["SOAP / XML APIs"]
-    C --> F["Legacy On-Premise DBs"]
+    %% Architecture
+    A["AI Agents"] -->|High Concurrency| B{"Legacy Mesh Gateway"}
+    B -->|Rate Limiting / Queuing| C["Mainframe / SOAP"]
+    B -->|Session Emulation| D["RPA Bots"]
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** Enterprise modernization means completely rewriting legacy systems so they can natively interact with modern AI applications.
-- **Hidden Truth:** Migrating legacy systems (COBOL, mainframes) takes decades and fails frequently. AI agents don't need modern systems to act; they just need a reliable translation and rate-limiting proxy. The immediate value is in safely connecting fast AI to slow, fragile legacy systems without crashing them.
+**Popular Belief:** LLMs can directly generate code and API calls to interface with any enterprise software.
+
+**Hidden Truth:** Legacy systems are fragile and non-deterministic for LLMs; bridging the gap requires dedicated middleware with session emulation and rate-limiting to prevent critical failures.
 
 ## 3. Problem & Target Market
 
-- **Business Model:** B2B
-- **Target Audience:** Large enterprises (banks, insurance, manufacturing, public sector) with aging IT infrastructures (legacy) looking to deploy autonomous agents.
-- **Urgent Pain Point:** Integrating fast AI agents directly with fragile legacy systems (Mainframes, SOAP) is extremely costly and risks crashing critical infrastructure due to unthrottled request bursts from the agents.
+**Business Model:** B2B
+**Target Audience:** Banks, insurance companies, and large enterprises attempting to connect modern AI agents to critical legacy infrastructure.
+**Urgent Pain Point:** Agents generate bursts of concurrent requests that crash fragile legacy systems (e.g., AS400, SOAP APIs), causing catastrophic downtime in critical business operations.
 
 ## 4. Technical Architecture & Infrastructure
 
+**Technical Approach:** A hybrid Agent-to-Legacy API Gateway. Exposes standard Agentic Tooling interfaces, dynamically translates requests into legacy actions (RPA, TN3270), and implements intelligent queuing/caching/rate-limiting.
+
 ```mermaid
 sequenceDiagram
-    participant Agent
-    participant LegacyMesh
-    participant LegacySystem
-    Agent->>LegacyMesh: High-speed Agentic Tooling Call
-    LegacyMesh->>LegacyMesh: Cache Check & Rate Limit Queue
-    LegacyMesh->>LegacySystem: Translated slow Legacy Request (SOAP/TN3270)
-    LegacySystem-->>LegacyMesh: Legacy Response
-    LegacyMesh-->>Agent: Standardized JSON Response
+    participant Ag as "Agent"
+    participant Mesh as "Legacy Mesh"
+    participant Leg as "Legacy System"
+    Ag->>Mesh: Standard Tool Call (Transfer Fund)
+    Mesh->>Mesh: Queue & Translate to TN3270
+    Mesh->>Leg: Emulate Terminal Keystrokes
+    Leg-->>Mesh: Screen State
+    Mesh->>Mesh: Parse to JSON
+    Mesh-->>Ag: Standard Success Response
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                                                   |
-| ---------------------- | ------------------------------------------------------- |
-| Pricing Structure      | Enterprise Subscription based on connected Legacy nodes |
-| 12-Month Target        | 40 Enterprise Clients                                   |
-| Revenue Formula        | 40 _ €2,500 / month _ 12 = 1.2M€                        |
-| Estimated Gross Margin | 85%                                                     |
+| Metric                     | Value                               |
+| :------------------------- | :---------------------------------- |
+| **Pricing Structure**      | Enterprise License / Per Connection |
+| **12-Month Target**        | 20 Enterprise Implementations       |
+| **Revenue Formula**        | 20 enterprises \* $5k/mo = $100k/mo |
+| **Estimated Gross Margin** | 85%                                 |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** Enterprise direct sales targeting CIOs and Cloud Architects struggling with "AI-readiness". Partnerships with massive SI (System Integrators) like Accenture or Capgemini.
-- **Moat (Defensibility):** While an LLM can write code, it cannot maintain a stateful terminal emulation session (TN3270), manage reliable on-premise networking, or enforce strict traffic-shaping to protect critical systems. The heavy middleware infrastructure is the moat.
+**Acquisition Strategy:** Direct enterprise sales to IT modernization departments and system integrators.
+
+**Moat (Defensibility):** An LLM cannot maintain terminal sessions or enforce strict network rate-limits on-premise. Dedicated, secure infrastructure plumbing is essential.
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                   | VC Score (/100) | Market Score (/100) |
-| --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 24 / 25         | 21 / 25             |
-| Moat / LLM Immunity         | 23 / 25         | 24 / 25             |
-| Scalability / UX Friction   | 21 / 25         | 10 / 25             |
-| Unit Economics / ROI        | 24 / 25         | 23 / 25             |
-| **TOTAL**                   | **92 / 100**    | **78 / 100**        |
+| Criterion                       | VC Score (/100) | Market Score (/100) |
+| :------------------------------ | :-------------- | :------------------ |
+| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
+| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
+| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
+| **TOTAL**                       | -- / 100        | -- / 100            |
 
-> **VC Verdict:** Legacy Mesh capitalizes on the massive, unsexy gap between modern AI ambitions and fragile, archaic enterprise infrastructure. Its defensibility stems from the sheer complexity and danger of integrating with mainframes, a pain point most founders ignore. This guarantees high-ticket enterprise contracts with near-zero churn and exceptional unit economics.
-
-> **Market Verdict:** Connecting modern AI to fragile legacy systems (Mainframes, SOAP) addresses a massive, high-value enterprise bottleneck. The immunity is exceptionally high since LLMs cannot safely rate-limit or natively interact with legacy protocols like TN3270. The primary challenge is the severe friction and long sales cycles typical of on-premise legacy integrations.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Pending evaluation.

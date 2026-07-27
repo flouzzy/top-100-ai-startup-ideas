@@ -4,7 +4,7 @@
 
 # ZombieAgent Reaper
 
-> **Résumé exécutif :** Un Control Plane qui s'intègre aux environnements cloud pour détecter et suspendre les agents IA inactifs, redondants ou en boucle infinie (zombies) qui consument inutilement les budgets de tokens LLM.
+> **Résumé exécutif :** Un Control Plane cloud pour identifier et suspendre automatiquement les agents IA zombies inactifs ou redondants, évitant les surcoûts astronomiques.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -16,64 +16,65 @@
 
 ```mermaid
 graph TD
-    A["Infrastructure Cloud (Processus Agents)"] --> B{"Control Plane ZombieAgent"}
-    B -->|Analyse Trafic Réseau & API (eBPF)| C["Identification Agents Inactifs / En Boucle"]
-    C -->|Évaluation TTL & Règles de Budget| D["Suspension Processus / Blocage Réseau"]
-    D --> E["Déclenchement Alerte FinOps"]
+    %% Architecture
+    A["Déploiement Dev"] --> B["Infrastructure Cloud"]
+    B -->|Instances d'Agents| C{"Control Plane Reaper"}
+    C -->|Détecte Inactivité| D["Suspension du Processus"]
+    C -->|Alerte FinOps| E["Dashboard FinOps"]
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-- **La croyance populaire :** Les coûts cloud liés à l'IA proviennent principalement de l'entraînement des modèles ou d'une inférence utile.
-- **La vérité cachée :** Une proportion massive des coûts cloud de l'IA à l'avenir proviendra d'agents "zombies" orphelins et oubliés, coincés dans des boucles en arrière-plan, interrogeant aveuglément des API LLM coûteuses sans aucune supervision humaine.
+**La croyance populaire :** Les développeurs n'oublieront pas d'éteindre leurs agents une fois la tâche terminée.
+
+**La vérité cachée :** Dans des architectures complexes, les tâches fantômes sont oubliées et les coûts explosent silencieusement. Un ramassage automatisé des instances est nécessaire.
 
 ## 3. Le problème & La cible
 
-- **Modèle économique :** B2B
-- **Cible précise :** Équipes FinOps, CloudOps et DevOps dans les entreprises déployant des agents autonomes.
-- **La douleur urgente :** Les développeurs déploient des agents mais oublient de les désactiver. Ces "zombies" continuent de tourner, générant des factures astronomiques et des risques de sécurité, totalement sous le radar.
+**Modèle économique :** B2B
+**Cible précise :** Équipes FinOps, CloudOps et DevOps d'entreprises déployant des agents autonomes.
+**La douleur urgente :** Les développeurs oublient de désactiver les agents. Ces zombies tournent en boucle, consommant des tokens et générant des factures astronomiques.
 
 ## 4. Architecture technique & Plomberie
 
+**L'approche technique :** Control Plane intégré aux environnements cloud. Analyse le trafic réseau via proxy ou eBPF pour repérer les agents redondants et les suspendre selon des règles TTL.
+
 ```mermaid
 sequenceDiagram
-    participant CloudEnv as Cloud Env / Conteneurs
-    participant ControlPlane as ZombieAgent Reaper
-    participant FinOps as Dashboard FinOps
-    loop Surveillance Continue
-        CloudEnv->>ControlPlane: Flux Métriques Réseau / API (eBPF)
-        ControlPlane->>ControlPlane: Détection de schémas répétitifs / inactifs
-    end
-    alt Comportement Zombie Détecté
-        ControlPlane->>CloudEnv: Suspension Conteneur / Blocage API
-        ControlPlane->>FinOps: Alerte : Zombie Terminé, Coût Économisé
-    end
+    participant Agent as "Zombie Agent"
+    participant Plane as "Reaper Control Plane"
+    participant Cloud as "Cloud Orchestrator"
+    Agent->>Agent: Looping endlessly doing nothing
+    Plane->>Plane: Monitor CPU & Network (eBPF)
+    Plane->>Plane: Behavior matches 'Zombie' + TTL Expired
+    Plane->>Cloud: API Call: Suspend Instance X
+    Cloud-->>Agent: SIGTERM
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                    | Valeur                                                |
-| --------------------------- | ----------------------------------------------------- |
-| Structure de prix           | SaaS par Paliers basé sur l'infrastructure surveillée |
-| Objectif 12 mois            | 100 Comptes Entreprise                                |
-| Calcul du CA (Target 100k€) | 100 _ 1000€ / mois _ 12 = 1.2M€                       |
-| Marge brute estimée         | 85%                                                   |
+| Métrique                        | Valeur                             |
+| :------------------------------ | :--------------------------------- |
+| **Structure de prix**           | SaaS Tiered by Monitored Instances |
+| **Objectif 12 mois**            | 100 CloudOps Teams                 |
+| **Calcul du CA (Target 100k€)** | 100 teams \* $1k/mo = $100k/mo     |
+| **Marge brute estimée**         | 85%                                |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-- **Stratégie d'acquisition :** Intégrations Marketplaces (AWS, GCP, Azure) ciblant les CloudOps. Positionné comme un outil à ROI immédiat ("installez ceci et réduisez votre facture cloud IA de 20% aujourd'hui").
-- **Moat (Barrière à l'entrée) :** Nécessite une visibilité d'infrastructure profonde (eBPF ou proxies réseau) et des contrôles d'orchestration pour suspendre des processus. Un LLM n'a aucune visibilité sur l'infrastructure hôte et ne peut pas faire un "kill -9" sur son propre conteneur.
+**Stratégie d'acquisition :** Marketplaces cloud (AWS, GCP) et intégrations Datadog/NewRelic.
+
+**Moat (Barrière à l'entrée) :** Un LLM n'a aucune visibilité sur l'infrastructure cloud ou l'activité réseau en arrière-plan. La suspension nécessite une intégration au niveau système.
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                           | Score VC (/100) | Score Terrain (/100) |
-| --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 23 / 25         | 24 / 25              |
-| Moat / Résistance aux LLM natifs  | 22 / 25         | 11 / 25              |
-| Scalabilité / Friction d'adoption | 24 / 25         | 21 / 25              |
-| Unit Economics / ROI direct       | 24 / 25         | 22 / 25              |
-| **TOTAL**                         | **93 / 100**    | **78 / 100**         |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------- | :------------------- |
+| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
+| **TOTAL**                             | -- / 100        | -- / 100             |
 
-> **Verdict VC :** Zombie Agent Reaper élimine impitoyablement la fuite financière catastrophique causée par les processus d'IA défectueux, transformant l'expérimentation imprévisible de l'IA en une opération financièrement gouvernée. Son intégration directe au plan de contrôle cloud crée un profond fossé structurel immunisé contre les contournements par prompt. C'est une police d'assurance hautement rentable et scalable pour le DevOps moderne.
-
-> **Verdict Terrain :** Détecter et suspendre les agents d'IA redondants ou zombies est vital pour contrôler l'envolée des factures cloud (FinOps). La monétisation est claire puisqu'elle se base sur les économies réalisées. La faiblesse réside dans une faible immunité, car les fournisseurs cloud ont déjà l'infrastructure pour intégrer ces contrôles directement.
+> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** En attente d'évaluation.

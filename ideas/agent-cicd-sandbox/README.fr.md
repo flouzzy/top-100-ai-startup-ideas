@@ -4,7 +4,7 @@
 
 # Agent CI/CD Sandbox
 
-> **Résumé exécutif :** Une infrastructure de "Shadow Testing" et de bac à sable pour exécuter des milliers de simulations Monte Carlo et calculer un score de confiance déterministe avant le déploiement d'agents autonomes en production.
+> **Résumé exécutif :** Une infrastructure de Shadow Testing et de bac à sable pour intercepter et simuler les appels API des agents afin de garantir leur fiabilité avant le déploiement en production.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -16,68 +16,65 @@
 
 ```mermaid
 graph TD
-    A["Mises à jour Agent (Prompt/Modèle)"] --> B{"Agent CI/CD Sandbox"}
-    B --> C["Interception API & Mocking"]
-    B --> D["Simulations Monte Carlo"]
-    C --> E{"Score de Confiance Déterministe"}
-    D --> E
-    E -->|Succès| F["Déploiement en Production"]
-    E -->|Échec| G["Blocage & Alerte"]
+    %% Flux d'architecture
+    A["Env de Dev"] --> B{"Passerelle Sandbox"}
+    B -->|Clonage de trafic| C["Agents Shadow"]
+    C --> D["Moteur Monte Carlo"]
+    D --> E["Score de Confiance"]
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-- **La croyance populaire :** Les tests unitaires standards et les benchmarks d'évaluation de LLM suffisent pour s'assurer qu'un agent se comporte correctement en production.
-- **La vérité cachée :** Les agents autonomes ont des comportements non déterministes et émergents. Une simple modification peut causer des régressions silencieuses en cascade. Seul un shadow testing statistique au niveau de l'infrastructure peut garantir la sécurité.
+**La croyance populaire :** Les agents IA peuvent être testés comme des logiciels classiques avec des tests unitaires.
+
+**La vérité cachée :** Le comportement des agents est non déterministe ; ils nécessitent un shadow testing continu pour éviter des régressions coûteuses en production.
 
 ## 3. Le problème & La cible
 
-- **Modèle économique :** B2B
-- **Cible précise :** Équipes DevOps, ML Engineers et développeurs intégrant des agents autonomes en production.
-- **La douleur urgente :** Les comportements non déterministes provoquent des régressions silencieuses (appels API erronés, corruption de données, hallucinations), coûtant très cher en temps de débogage et en pertes d'exploitation.
+**Modèle économique :** B2B
+**Cible précise :** Équipes DevOps, ML Engineers et développeurs intégrant des agents autonomes en production.
+**La douleur urgente :** Les comportements non déterministes provoquent des régressions silencieuses coûtant très cher en temps de débogage et pertes d'exploitation.
 
 ## 4. Architecture technique & Plomberie
 
+**L'approche technique :** Infrastructure de Shadow Testing interceptant les appels API, simulant les environnements externes et exécutant des simulations de Monte Carlo pour valider le déploiement.
+
 ```mermaid
 sequenceDiagram
-    participant Dev as Développeur
-    participant CI as Pipeline CI/CD
-    participant Sandbox as Sandbox Agent
-    participant Mocks as Mocks d'API Externes
-    Dev->>CI: Push de la mise à jour
-    CI->>Sandbox: Déclenchement du shadow testing
-    loop 1000x Monte Carlo
-        Sandbox->>Mocks: Simulation d'appels API
-        Mocks-->>Sandbox: Changements d'états simulés
-    end
-    Sandbox-->>CI: Retour du Score Déterministe
-    CI-->>Dev: Résultat Pipeline (Succès/Échec)
+    participant Dev as "Developer"
+    participant Sandbox as "CI/CD Sandbox"
+    participant Mock as "Mocked APIs"
+    Dev->>Sandbox: Deploy Agent Version
+    Sandbox->>Sandbox: Run 10k Monte Carlo
+    Sandbox->>Mock: Simulated API Calls
+    Mock-->>Sandbox: Simulated States
+    Sandbox-->>Dev: Confidence Score & Regressions
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                    | Valeur                                           |
-| --------------------------- | ------------------------------------------------ |
-| Structure de prix           | Abonnement par Paliers / Par Puissance de Calcul |
-| Objectif 12 mois            | 100 Équipes Entreprise                           |
-| Calcul du CA (Target 100k€) | 100 _ 1000€ / mois _ 12 = 1.2M€                  |
-| Marge brute estimée         | 85%                                              |
+| Métrique                        | Valeur                                                      |
+| :------------------------------ | :---------------------------------------------------------- |
+| **Structure de prix**           | SaaS Subscription / Usage-based                             |
+| **Objectif 12 mois**            | 100 Enterprise Teams                                        |
+| **Calcul du CA (Target 100k€)** | 100 teams \* $1k/mo = $100k ARR target roughly (or $833/mo) |
+| **Marge brute estimée**         | 85%                                                         |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-- **Stratégie d'acquisition :** Intégration comme plugin standard pour GitHub Actions, GitLab CI, et les frameworks d'agents majeurs (LangChain, AutoGen).
-- **Moat (Barrière à l'entrée) :** Nécessite une lourde plomberie d'infrastructure pour le clonage de trafic, le mocking d'état et l'évaluation statistique continue, impossible à réaliser par un simple LLM qui s'auto-évalue.
+**Stratégie d'acquisition :** Marketplaces d'outils dev, intégrations GitHub Actions, ventes B2B directes aux labs IA.
+
+**Moat (Barrière à l'entrée) :** Un LLM ne peut pas s'auto-évaluer de manière fiable sur des workflows asynchrones. Cela nécessite une plomberie d'infrastructure dédiée (clonage, mocking).
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                           | Score VC (/100) | Score Terrain (/100) |
-| --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 20 / 25         | 23 / 25              |
-| Moat / Résistance aux LLM natifs  | 21 / 25         | 14 / 25              |
-| Scalabilité / Friction d'adoption | 22 / 25         | 15 / 25              |
-| Unit Economics / ROI direct       | 20 / 25         | 21 / 25              |
-| **TOTAL**                         | **83 / 100**    | **73 / 100**         |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------- | :------------------- |
+| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
+| **TOTAL**                             | -- / 100        | -- / 100             |
 
-> **Verdict VC :** Cette sandbox lève la barrière critique de la confiance pour le déploiement d'agents en entreprise en fournissant des métriques déterministes. Bien que très précieuse, sa défendabilité à long terme repose sur une intégration profonde aux pipelines CI/CD avant que les géants du cloud n'offrent des alternatives natives. La nature gourmande en calcul nécessite des modèles de prix stricts pour maintenir des marges saines.
-
-> **Verdict Terrain :** Tester les agents avant de les déployer est une urgence absolue pour la sécurité et la confiance en entreprise. La monétisation est claire pour les équipes DevOps et FinOps qui maîtrisent les budgets. Cependant, l'intégration aux pipelines CI/CD existants demande des efforts importants et les fournisseurs de LLM pourraient intégrer des fonctions d'évaluation similaires.
+> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** En attente d'évaluation.

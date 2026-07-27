@@ -4,75 +4,78 @@
 
 # AgentArbitrator Protocol
 
-> **Executive Summary:** A deterministic M2M arbitration API designed to instantly resolve gridlocks and algorithmic disputes between autonomous AI agents using hybrid formal rules and cryptographic logs.
+> **Executive Summary:** A neutral, deterministic M2M arbitration API designed to resolve deadlocks between autonomous AI agents using formal rules and cryptographic logs.
 
-![Type: Model](https://img.shields.io/badge/Model-B2B%20%2F%20M2M-blue)
+![Type: Model](https://img.shields.io/badge/Model-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
 
 ---
 
-## 1. Visual Overview
+## 1. Visual Overview & Wow Effect
 
 ```mermaid
 graph TD
-    A["Agent A (Buyer)"] -->|Dispute| C{"AgentArbitrator API"}
-    B["Agent B (Seller)"] -->|Dispute| C
-    C -->|Cryptographic Verification| D["Symbolic AI Engine"]
-    D -->|Deterministic Verdict| E["Automated Execution (Refund/Penalty)"]
+    %% Problem vs Solution Architecture
+    A["Buyer Agent"] -->|Conflict| C{"AgentArbitrator"}
+    B["Seller Agent"] -->|Conflict| C
+    C -->|Deterministic Verdict| D["Resolution API"]
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** Autonomous agents will negotiate seamlessly to reach optimal outcomes without human intervention.
-- **Hidden Truth:** Agents will inevitably encounter logic gridlocks and adversarial prompt injections during disputes, requiring a neutral, deterministic third-party system to prevent endless negotiation loops.
+**Popular Belief:** Conflicts between AI agents will always require human intervention for fair resolution.
+
+**Hidden Truth:** Most M2M disputes can be resolved mathematically and deterministically via smart contracts and formal rules without human bias.
 
 ## 3. Problem & Target Market
 
-- **Business Model:** B2B / M2M
-- **Target Audience:** E-commerce platforms, logistics networks, and marketplaces where AI buyer/seller agents negotiate autonomously.
-- **Urgent Pain Point:** Infinite negotiation loops ("gridlocks") between conflicting agents destroy automation productivity and cause support costs to skyrocket if human escalation is required for micro-disputes.
+**Business Model:** M2M / B2B
+**Target Audience:** E-commerce platforms, logistics networks, and marketplaces where autonomous AI buyers and sellers negotiate.
+**Urgent Pain Point:** Proliferation of autonomous agents will lead to infinite negotiation loops (gridlocks). Human escalation destroys automation productivity and explodes support costs.
 
 ## 4. Technical Architecture & Infrastructure
 
+**Technical Approach:** A neutral M2M arbitration API. Agents submit cryptographically signed logs and initial smart contracts. A formal rules engine (symbolic AI) evaluates facts and returns a binary verdict or compensation, executed via API.
+
 ```mermaid
 sequenceDiagram
-    participant AgentA
-    participant AgentB
-    participant Arbitrator
-    participant SettlementSystem
-    AgentA->>Arbitrator: Submit cryptographically signed logs
-    AgentB->>Arbitrator: Submit counter-logs & smart contract
-    Arbitrator->>Arbitrator: Evaluate via formal rules (Symbolic AI)
-    Arbitrator->>SettlementSystem: Trigger deterministic verdict API
-    SettlementSystem-->>AgentA: Execute compensation/penalty
-    SettlementSystem-->>AgentB: Execute compensation/penalty
+    participant A as "Agent A"
+    participant B as "Agent B"
+    participant Arb as "Arbitrator API"
+    A->>B: Negotiate
+    B-->>A: Deadlock
+    A->>Arb: Submit Signed Logs
+    B->>Arb: Submit Signed Logs
+    Arb->>Arb: Symbolic Evaluation
+    Arb-->>A: Binding Resolution
+    Arb-->>B: Binding Resolution
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                                        |
-| ---------------------- | -------------------------------------------- |
-| Pricing Structure      | Per Arbitration API Call / Subscription Tier |
-| 12-Month Target        | 10,000,000 arbitrations                      |
-| Revenue Formula        | 10M \* €0.01 per arbitration = 100k€         |
-| Estimated Gross Margin | 90%                                          |
+| Metric                     | Value                                              |
+| :------------------------- | :------------------------------------------------- |
+| **Pricing Structure**      | Pay-per-arbitration / API call                     |
+| **12-Month Target**        | 1,000 active agents                                |
+| **Revenue Formula**        | 1,000 agents _ 100 arbitrations/mo _ $1 = $100k/mo |
+| **Estimated Gross Margin** | 95%                                                |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** Integration into major AI agent orchestration frameworks and B2B M2M marketplaces as the default conflict-resolution standard.
-- **Moat (Defensibility):** Cryptographically verifiable neutrality and hybrid symbolic AI execution which cannot be reliably replicated by non-deterministic generative LLMs in 24 hours. Generalist LLMs are vulnerable to prompt injection in adversarial scenarios.
+**Acquisition Strategy:** Integration via major M2M orchestration platforms and developer SDKs.
+
+**Moat (Defensibility):** A generalist LLM cannot serve as a neutral judge due to non-determinism and prompt injection vulnerability. A binding decision requires absolute auditability and deterministic execution via a hybrid system.
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                   | VC Score (/100) | Market Score (/100) |
-| --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 24 / 25         | 21 / 25             |
-| Moat / LLM Immunity         | 23 / 25         | 18 / 25             |
-| Scalability / UX Friction   | 22 / 25         | 17 / 25             |
-| Unit Economics / ROI        | 24 / 25         | 22 / 25             |
-| **TOTAL**                   | **93 / 100**    | **78 / 100**        |
+| Criterion                       | VC Score (/100) | Market Score (/100) |
+| :------------------------------ | :-------------- | :------------------ |
+| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
+| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
+| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
+| **TOTAL**                       | -- / 100        | -- / 100            |
 
-> **VC Verdict:** Agent Arbitrator Protocol targets a critical, overlooked vulnerability in the autonomous M2M economy by standardizing conflict resolution. Its deterministic approach creates strong network effects, positioning it to become a foundational, monopolistic layer. The extremely scalable API model ensures immense margin potential once adoption tips.
-
-> **Market Verdict:** Resolving endless negotiation loops between autonomous agents solves a highly specific but critical B2B pain point, justifying a strong urgency score. Its deterministic hybrid AI approach provides solid immunity against standard LLMs, which struggle with formal logic. Adoption friction exists as it requires integration into major frameworks, but the per-call monetization is straightforward and scalable.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Pending evaluation.

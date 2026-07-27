@@ -4,76 +4,76 @@
 
 # TokenGC (Context Garbage Collector)
 
-> **Executive Summary:** A middleware proxy that acts as a real-time Garbage Collector for LLM contexts, identifying resolved states and compressing conversational histories to drastically reduce token costs and API latency.
+> **Executive Summary:** A middleware proxy acting as a garbage collector that compresses conversation histories into dense knowledge graphs and purges dead tokens to slash API costs.
 
-![Type: Model](https://img.shields.io/badge/Model-M2M%20%2F%20B2B-blue)
+![Type: Model](https://img.shields.io/badge/Model-M2M%2FB2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
 
 ---
 
-## 1. Visual Overview
+## 1. Visual Overview & Wow Effect
 
 ```mermaid
 graph TD
-    A["Agent Context Payload (Massive)"] --> B{"TokenGC Proxy"}
-    B -->|Identify Resolved States| C["Prune Dead Tokens & Logs"]
-    B -->|Compress History| D["Knowledge Graph / Vector Dense"]
-    C --> E["Optimized Minimal Payload"]
-    D --> E
-    E --> F["LLM Provider (OpenAI/Anthropic)"]
+    %% Architecture
+    A["AI Agent"] -->|Bloated Context| B{"TokenGC Proxy"}
+    B -->|Knowledge Graph Compress| C["Token Purge Engine"]
+    C -->|Lean Prompt| D["LLM API"]
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** As context windows reach millions of tokens (like Gemini 1.5), we can just dump the entire conversation history into the model and let it figure everything out.
-- **Hidden Truth:** Infinite context windows are a financial trap. Paying for "dead tokens" (resolved thoughts, useless intermediate logs) on every single API call scales costs exponentially and dilutes the model's attention. Context must be aggressively collected and purged at the infrastructure layer before inference.
+**Popular Belief:** LLMs can simply be prompted to summarize their own context to save tokens.
+
+**Hidden Truth:** Asking an LLM to summarize context consumes the very tokens you are trying to save; optimization must happen at the network layer before the prompt is sent.
 
 ## 3. Problem & Target Market
 
-- **Business Model:** M2M / B2B
-- **Target Audience:** Enterprises developing autonomous agents or multi-agent systems (DevTools, RPA IA, Customer Support) that interact continuously.
-- **Urgent Pain Point:** Long-running agents accumulate massive context. Resending the entire history on every API call explodes token costs, increases latency, and degrades model performance due to attention dilution.
+**Business Model:** M2M / B2B
+**Target Audience:** Enterprises developing autonomous agents or multi-agent systems with continuous interactions.
+**Urgent Pain Point:** Agents accumulate massive context over time. Sending the full history on every API call explodes token costs, causes hallucinations, and increases latency.
 
 ## 4. Technical Architecture & Infrastructure
 
+**Technical Approach:** A proxy middleware between the agent and LLM provider. Identifies resolved states, compresses histories, and purges 'dead tokens' (useless logs) before inference.
+
 ```mermaid
 sequenceDiagram
-    participant Agent
-    participant TokenGC
-    participant LLM
-    Agent->>TokenGC: Full Conversation History (100k tokens)
-    TokenGC->>TokenGC: Analyze & identify "resolved" sub-tasks
-    TokenGC->>TokenGC: Compress history into knowledge graph (Garbage Collection)
-    TokenGC->>LLM: Optimized Context (5k tokens)
-    LLM-->>TokenGC: Response
-    TokenGC-->>Agent: Response + Updated State Reference
+    participant Ag as "Agent"
+    participant GC as "TokenGC"
+    participant API as "LLM API"
+    Ag->>GC: Request with 10k tokens (Logs + History)
+    GC->>GC: Identify Dead Tokens & Summarize
+    GC->>API: Request with 500 tokens
+    API-->>GC: Standard Response
+    GC-->>Ag: Response (Saved $0.05)
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                                 |
-| ---------------------- | ------------------------------------- |
-| Pricing Structure      | Usage-based: % of tokens saved        |
-| 12-Month Target        | 20 Billion tokens processed/month     |
-| Revenue Formula        | 20B \* €0.05 savings fee / 1k = 1.0M€ |
-| Estimated Gross Margin | 85%                                   |
+| Metric                     | Value                                          |
+| :------------------------- | :--------------------------------------------- |
+| **Pricing Structure**      | Percentage of tokens saved or Flat Volume Tier |
+| **12-Month Target**        | 200 Dev Teams                                  |
+| **Revenue Formula**        | 200 teams \* $500/mo = $100k/mo                |
+| **Estimated Gross Margin** | 90%                                            |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** Developer-focused marketing. Provide a lightweight SDK that acts as a drop-in replacement for OpenAI/Anthropic clients, routing traffic through the TokenGC optimization proxy.
-- **Moat (Defensibility):** LLMs are stateless by design. They cannot optimize their own incoming network payload before it costs compute. Infrastructure-level token garbage collection requires external state management and semantic pruning logic that models cannot self-execute.
+**Acquisition Strategy:** Integration as a middleware plugin in popular agent frameworks (LangChain, LlamaIndex).
+
+**Moat (Defensibility):** LLMs are stateless and cannot optimize the network payload before it costs compute. Infrastructure-level token optimization is required.
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                   | VC Score (/100) | Market Score (/100) |
-| --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 21 / 25         | 21 / 25             |
-| Moat / LLM Immunity         | 19 / 25         | 10 / 25             |
-| Scalability / UX Friction   | 24 / 25         | 20 / 25             |
-| Unit Economics / ROI        | 23 / 25         | 20 / 25             |
-| **TOTAL**                   | **87 / 100**    | **71 / 100**        |
+| Criterion                       | VC Score (/100) | Market Score (/100) |
+| :------------------------------ | :-------------- | :------------------ |
+| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
+| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
+| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
+| **TOTAL**                       | -- / 100        | -- / 100            |
 
-> **VC Verdict:** Token GC provides a clever, immediate solution to the bloat of context windows, directly translating into massive cost savings for high-volume deployments. The primary risk to its defensibility is the rapid commoditization of context length and falling inference costs by major LLM providers. Its survival dictates an aggressive go-to-market strategy to capture enterprise workflows before the underlying models render the problem obsolete.
-
-> **Market Verdict:** Compressing LLM contexts to eliminate 'dead tokens' directly saves money and improves model focus. It benefits from low-friction integration as a middleware proxy. However, as foundation models expand context windows and potentially introduce native dynamic attention pruning, the long-term utility and moat of external garbage collectors are highly uncertain.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Pending evaluation.
