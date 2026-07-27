@@ -109,6 +109,7 @@ distribué privé des vrais prix du marché SaaS.
 | **Unit Economics / ROI direct**       |     25 / 25     |       21 / 25        |
 | **TOTAL**                             |  **94 / 100**   |     **85 / 100**     |
 
+> **VC Verdict:** VendorFloor AI addresses the absolute urgency of securing enterprise LLM deployments. Unlike a mere wrapper, this deeply embedded compliance solution guarantees maximum lock-in. The total addressable market is colossal.
 > **Verdict Terrain :** L'outil VendorFloor AI répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
 > **Verdict global :**Projet redoutable s'attaquant à une inefficacité de marché
 > massive et mesurable. Son absence totale de barrière à l'entrée pour le client

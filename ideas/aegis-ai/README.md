@@ -108,5 +108,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       |     24 / 25     |       23 / 25        |
 | **TOTAL**                             |  **92 / 100**   |     **80 / 100**     |
 
+> **VC Verdict:** Aegis AI addresses the absolute urgency of securing enterprise LLM deployments. Unlike a mere wrapper, this deeply embedded compliance solution guarantees maximum lock-in. The total addressable market is colossal.
 > **Verdict Terrain :** L'outil Aegis AI répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
 > **Verdict global :**Aegis AI est une masterclass de positionnement économique : il vend des "pelles" règlementaires et assurantielles dans la ruée vers l'IA. Son moat est protégé à la fois par la complexité du secteur de l'assurance et par une barrière de données actuarielles, rendant le produit immunisé aux avancées brutes des LLM sous-jacents.

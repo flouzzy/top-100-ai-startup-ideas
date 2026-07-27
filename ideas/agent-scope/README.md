@@ -68,13 +68,13 @@ Moat (Defensibility): Network-level Zero Trust infrastructure that intercepts AP
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                   | VC Score (/100) | Market Score (/100) |
-| --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 21 / 25         | 19 / 25             |
-| Moat / LLM Immunity         | 23 / 25         | 17 / 25             |
-| Scalability / UX Friction   | 20 / 25         | 23 / 25             |
-| Unit Economics / ROI        | 22 / 25         | 15 / 25             |
-| **TOTAL**                   | **86 / 100**    | **74 / 100**        |
+| Criterion | VC Score (/100) | Market Score (/100) |
+| --------------------------- | 25 / 25 | ------------------- |
+| Thesis & Monopoly / Urgency | 21 / 25 | 19 / 25 |
+| Moat / LLM Immunity | 23 / 25 | 17 / 25 |
+| Scalability / UX Friction | 20 / 25 | 23 / 25 |
+| Unit Economics / ROI | 22 / 25 | 15 / 25 |
+| **TOTAL** | **86 / 100** | **74 / 100** |
 
 > **Verdict Terrain :** The AgentScope solution addresses a very targeted business need with tangible ROI. Its positioning as an API infrastructure guarantees good immunity against generalist LLMs. Even though adoption requires integration effort, the viability of the economic model is supported by the value delivered.
 > **VC Verdict:** Agent Scope provides critical observability and auditing for black-box AI systems. The deep integration required for comprehensive tracing creates strong enterprise lock-in. It defends itself well by being agnostic to the underlying foundational models.

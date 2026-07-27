@@ -86,5 +86,6 @@ Le modèle est purement transactionnel, agissant comme l'infrastructure de péag
 | **Unit Economics / ROI direct**       | 24 / 25         | 24 / 25              |
 | **TOTAL**                             | **98 / 100**    | **76 / 100**         |
 
+> **VC Verdict:** The AgentToll infrastructure tackles the fundamental problem of inter-agent trust. By positioning itself as the indispensable B2B plumbing of the AI economy, the moat is nearly insurmountable once bilateral network effects kick in. Unit economics promise strong scalability without excessive adoption friction.
 > **Verdict Terrain :** L'outil AgentToll répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. La clarté de sa proposition de valeur financière assure une forte disposition à payer des entreprises B2B.
 > **Verdict global :**AgentToll s'attaque au problème fondamental de l'économie des agents autonomes : la fluidité du transfert de valeur inter-machines. Avec un moat structurel d'effet de réseau et une monétisation à la volumétrie sans plafond, c'est une opportunité de créer un nouveau géant monopolistique de l'infrastructure internet.

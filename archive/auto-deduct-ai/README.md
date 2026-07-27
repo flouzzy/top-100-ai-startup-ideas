@@ -88,5 +88,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       |     25 / 25     |       23 / 25        |
 | **TOTAL**                             |  **90 / 100**   |     **90 / 100**     |
 
+> **VC Verdict:** AutoDeduct AI addresses the absolute urgency of securing enterprise LLM deployments. Unlike a mere wrapper, this deeply embedded compliance solution guarantees maximum lock-in. The total addressable market is colossal.
 > **Verdict Terrain :** L'outil AutoDeduct AI répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
 > **Verdict global :**AutoDeduct AI transforme un centre de coût administratif pénible en un centre de profit automatique grâce à l'IA. C'est le cas d'usage parfait du B2B : un ROI ultra-évident (hard dollar savings), un problème de plomberie technique qui empêche la commoditisation par OpenAI, et des effets de réseau sur l'ingestion de données documentaires de la supply chain.

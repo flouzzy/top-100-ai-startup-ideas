@@ -71,5 +71,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       | 24 / 25         | 21 / 25                                                 |
 | **TOTAL**                             | **96 / 100**    | **89 / 100**                                            |
 
+> **VC Verdict:** The Agentic Protocol infrastructure tackles the fundamental problem of inter-agent trust. By positioning itself as the indispensable B2B plumbing of the AI economy, the moat is nearly insurmountable once bilateral network effects kick in. Unit economics promise strong scalability without excessive adoption friction.
 > **Verdict Terrain :** L'outil Agentic Protocol répond à un besoin métier très ciblé avec un ROI tangible. Son positionnement en tant qu'infrastructure API garantit une bonne immunité face aux LLMs généralistes. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
 > **Verdict global :**Un projet d'infrastructure monumental s'attaquant au maillon faible de l'économie des agents IA : la transaction inter-plateformes. Dès la masse critique atteinte sur les frameworks open-source, ce protocole devient une douane numérique incontournable et hautement résiliente face à la commoditisation des LLMs.

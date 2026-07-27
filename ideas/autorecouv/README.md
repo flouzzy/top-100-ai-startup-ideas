@@ -86,5 +86,6 @@ sequenceDiagram
 | Unit Economics / ROI direct       |     25 / 25     |       22 / 25        |
 | **TOTAL**                         |  **89 / 100**   |     **81 / 100**     |
 
+> **VC Verdict:** The positioning of AutoRecouv suffers from a lack of deep technological barriers, leaving it vulnerable to future native updates from OpenAI or Google. While initial unit economics seem decent, customer acquisition cost (CAC) risks destroying profitability at scale. A pivot towards stronger proprietary integration is required.
 > **Verdict Terrain :** L'outil AutoRecouv répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. La clarté de sa proposition de valeur financière assure une forte disposition à payer des entreprises B2B.
 > **Verdict global :**AutoRecouv résout une douleur B2B universelle avec un ROI instantanément mesurable en trésorerie. Son "Moat" d'intégration ERP le protège des concurrents génériques d'IA, ce qui en fait un candidat redoutable pour devenir l'infrastructure standard du recouvrement PME.

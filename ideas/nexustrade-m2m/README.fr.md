@@ -99,5 +99,4 @@ sequenceDiagram
 | **TOTAL**                             |  **88 / 100**   |     **75 / 100**     |
 
 > **Verdict Terrain :** Semblable à MachinaTrade, l'échange économique M2M fait face à de graves vents contraires à l'adoption. L'infrastructure est complexe et le besoin commercial immédiat n'est pas encore universellement ressenti. La monétisation aura du mal jusqu'à ce qu'une norme claire émerge.
-
 > **Verdict VC :** NexusTrade établit l'infrastructure de trading fondamentale pour les agents autonomes. Son potentiel pour un marché winner-takes-all est énorme, propulsé par la liquidité biface. Le projet est hautement scalable et totalement affranchi des frontières géographiques.

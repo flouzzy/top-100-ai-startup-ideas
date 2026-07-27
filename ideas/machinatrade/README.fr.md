@@ -84,5 +84,4 @@ sequenceDiagram
 | **TOTAL**                             |  **91 / 100**   |     **65 / 100**     |
 
 > **Verdict Terrain :** Le concept d'échange de puissance de calcul de machine à machine est fascinant mais hautement spéculatif. La barrière d'adoption initiale est massive et la volonté de payer n'est pas prouvée. Il manque d'une demande commerciale concrète et immédiate.
-
 > **Verdict VC :** MachinaTrade est le pionnier de l'échange autonome de ressources numériques. Sa capacité à créer de la liquidité pour les API et cycles de calcul établit un effet de réseau profond. Le premier entrant dictera les standards de la future économie agentique.

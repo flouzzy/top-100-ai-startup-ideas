@@ -74,5 +74,4 @@ sequenceDiagram
 | **TOTAL**                             |  **91 / 100**   |     **74 / 100**     |
 
 > **Verdict Terrain :** Bien que la création d'un protocole standardisé offre une immense valeur, la friction du marché est très élevée. La monétisation est difficile sans une adoption initiale massive. Il résout un problème réel, mais la réalité commerciale reste rude.
-
 > **Verdict VC :** Agentic Protocol est le jeu d'infrastructure par excellence du web agentique. En standardisant la communication inter-agents, il vise une dynamique winner-takes-all propulsée par d'implacables effets de réseau. La couche fondamentale d'une économie M2M à mille milliards de dollars.

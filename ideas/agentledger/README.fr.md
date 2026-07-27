@@ -84,5 +84,4 @@ sequenceDiagram
 | **TOTAL**                             |  **89 / 100**   |     **83 / 100**     |
 
 > **Verdict Terrain :** Les pistes d'audit basées sur la blockchain pour l'IA sont difficiles à vendre jusqu'à ce que la conformité l'exige explicitement. Cependant, les pionniers dans les domaines à forts enjeux paieront pour une preuve incontestable. La monétisation est claire mais l'urgence actuelle est de niche.
-
 > **Verdict VC :** AgentLedger introduit le grand livre définitif de l'économie M2M. En possédant la couche de règlement, il atteint un verrouillage ultime et une position quasi-monopolistique. Il illustre parfaitement la stratégie 'ne construisez pas l'IA, construisez la banque de l'IA'.
