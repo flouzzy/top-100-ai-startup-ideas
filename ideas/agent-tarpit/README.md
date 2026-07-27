@@ -71,11 +71,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | 19 / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | 21 / 25             |
-| **Scalability / UX Friction**   | -- / 25         | 22 / 25             |
-| **Unit Economics / ROI**        | -- / 25         | 20 / 25             |
-| **TOTAL**                       | -- / 100        | 82 / 100            |
+| **Thesis & Monopoly / Urgency** | 22 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 24 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 21 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 23 / 25         | -- / 25             |
+| **TOTAL**                       | 90 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Protecting valuable data from advanced scraping bots is an ongoing battle, providing moderate to high urgency. Using generative AI to trap malicious actors is a clever defense mechanism that native LLMs do not inherently provide. The infrastructure drop-in nature reduces friction, and cybersecurity budgets can readily absorb the licensing costs.
+> **VC Verdict:** Agent Tarpit presents a highly contrarian and effective security infrastructure against adversarial AI attacks. Slowing down malicious agents financially ruins their operation, creating a powerful economic moat that raw LLMs cannot bypass. The clear defensive value proposition easily justifies enterprise cybersecurity budgets.
+> **Market Verdict:** Pending evaluation.

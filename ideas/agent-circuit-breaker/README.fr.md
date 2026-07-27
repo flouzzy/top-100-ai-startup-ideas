@@ -71,11 +71,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | 25 / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | 23 / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | 22 / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | 24 / 25              |
-| **TOTAL**                             | -- / 100        | 94 / 100             |
+| **Thèse & Monopole / Urgence**        | 24 / 25         | 25 / 25              |
+| **Moat / Résistance aux LLM natifs**  | 25 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 20 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 22 / 25         | -- / 25              |
+| **TOTAL**                             | 91 / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** La protection financière contre les agents incontrôlables est un prérequis absolu pour tout déploiement M2M. L'interception au niveau réseau le rend agnostique et immunisé contre les fonctionnalités natives des LLM. L'intégration transparente en proxy assure une faible friction et une forte volonté de payer.
+> **Verdict VC :** Agent Circuit Breaker fournit l'infrastructure de sécurité financière et opérationnelle obligatoire pour les déploiements d'IA en entreprise. Opérer au niveau réseau le rend immunisé aux changements de modèles sous-jacents et essentiel pour éviter l'explosion des coûts. Le ROI indéniable lié à l'évitement de factures API catastrophiques garantit une adoption rapide.
+> **Verdict Terrain :** En attente d'évaluation.

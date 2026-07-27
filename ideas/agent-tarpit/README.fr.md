@@ -71,11 +71,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | 19 / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | 21 / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | 22 / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | 20 / 25              |
-| **TOTAL**                             | -- / 100        | 82 / 100             |
+| **Thèse & Monopole / Urgence**        | 22 / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | 24 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 21 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 23 / 25         | -- / 25              |
+| **TOTAL**                             | 90 / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** Protéger les données contre les bots de scraping avancés est une bataille continue, offrant une urgence modérée à élevée. Utiliser l'IA générative pour piéger les acteurs malveillants est un mécanisme de défense astucieux. La nature de l'infrastructure réduit les frictions, et les budgets de cybersécurité peuvent absorber les coûts.
+> **Verdict VC :** Agent Tarpit présente une infrastructure de sécurité très contrariante et efficace contre les attaques d'IA adverses. Ralentir financièrement les agents malveillants ruine leur opération, créant un puissant fossé économique que les LLM bruts ne peuvent contourner. La proposition de valeur défensive claire justifie aisément les budgets cybersécurité des entreprises.
+> **Verdict Terrain :** En attente d'évaluation.

@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | 24 / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | 22 / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | 21 / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | 24 / 25              |
-| **TOTAL**                             | -- / 100        | 91 / 100             |
+| **Thèse & Monopole / Urgence**        | 22 / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | 23 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 24 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 23 / 25         | -- / 25              |
+| **TOTAL**                             | 92 / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** Détecter et tuer automatiquement les instances cloud inactives d'agents IA résout un problème financier immédiat. La surveillance au niveau de l'infrastructure fournit une couche de défense solide. L'intégration cloud est standard pour le DevOps, conduisant à une démarche commerciale très convaincante basée sur le ROI.
+> **Verdict VC :** Zombie Agent Reaper, à l'instar d'Agent Reaper, est une infrastructure critique pour protéger les organisations contre la dévastation financière des agents en boucle infinie. Il agit efficacement comme un limiteur de taux dynamique et un coupe-circuit pour le contrôle des coûts. Le ROI financier indéniable garantit une adoption rapide par les développeurs et d'excellentes unit economics.
+> **Verdict Terrain :** En attente d'évaluation.

@@ -73,11 +73,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | 25 / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | 24 / 25             |
-| **Scalability / UX Friction**   | -- / 25         | 25 / 25             |
-| **Unit Economics / ROI**        | -- / 25         | 23 / 25             |
-| **TOTAL**                       | -- / 100        | 97 / 100            |
+| **Thesis & Monopoly / Urgency** | 23 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 24 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 21 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 23 / 25         | -- / 25             |
+| **TOTAL**                       | 91 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Securing PII and preventing prompt injections before data reaches the cloud is a mandatory compliance requirement. Operating as an on-premise or edge proxy ensures data never leaves the network unredacted, a moat LLMs cannot cross. It is incredibly easy to adopt as a transparent proxy, tapping directly into enterprise security budgets.
+> **VC Verdict:** Vector Shield is a fundamental cybersecurity necessity for enterprise RAG systems, preventing malicious data injections from poisoning internal knowledge bases. Operating at the database ingestion layer, it secures a massive B2B infrastructure moat. The urgent need to protect proprietary enterprise data makes the sales proposition irresistible.
+> **Market Verdict:** Pending evaluation.

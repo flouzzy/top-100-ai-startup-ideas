@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | 23 / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | 24 / 25             |
-| **Scalability / UX Friction**   | -- / 25         | 19 / 25             |
-| **Unit Economics / ROI**        | -- / 25         | 21 / 25             |
-| **TOTAL**                       | -- / 100        | 87 / 100            |
+| **Thesis & Monopoly / Urgency** | 22 / 25         | 21 / 25             |
+| **Moat / LLM Immunity**         | 21 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 23 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 24 / 25         | -- / 25             |
+| **TOTAL**                       | 90 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Testing autonomous agents is a critical bottleneck for enterprise deployment, creating immense urgency. A deterministic sandbox simulating infinite loops offers a strong moat against generic AI providers. Adoption friction exists in pipeline integration, but the clear ROI in avoiding production disasters justifies the enterprise pricing model.
+> **VC Verdict:** Agent CI/CD Sandbox tackles the imminent need for testing autonomous agents safely before production deployment. By owning the DevOps pipeline for AI, it creates extreme lock-in and high switching costs. The B2B SaaS unit economics are excellent, offering a clear path to scalable revenue.
+> **Market Verdict:** Pending evaluation.

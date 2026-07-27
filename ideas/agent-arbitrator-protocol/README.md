@@ -71,11 +71,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | 20 / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | 25 / 25             |
-| **Scalability / UX Friction**   | -- / 25         | 18 / 25             |
-| **Unit Economics / ROI**        | -- / 25         | 22 / 25             |
-| **TOTAL**                       | -- / 100        | 85 / 100            |
+| **Thesis & Monopoly / Urgency** | 23 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 24 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 21 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 23 / 25         | -- / 25             |
+| **TOTAL**                       | 91 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** There is a clear and urgent need for an automated M2M conflict resolution mechanism as agent autonomy increases. The cryptographic and deterministic approach provides absolute trust, making it highly immune to generic LLM replacement. The primary friction lies in the initial integration effort by platforms, but the pay-per-call monetization is well-aligned with the value provided.
+> **VC Verdict:** Agent Arbitrator Protocol attacks a critical bottleneck in the multi-agent economy by standardizing conflict resolution. Establishing a protocol-level standard creates a massive network effect and near-monopoly once adopted. The model completely circumvents the capabilities of raw LLMs, securing a highly scalable and profitable B2B moat.
+> **Market Verdict:** Pending evaluation.

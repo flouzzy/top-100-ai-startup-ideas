@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | 24 / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | 22 / 25             |
-| **Scalability / UX Friction**   | -- / 25         | 21 / 25             |
-| **Unit Economics / ROI**        | -- / 25         | 24 / 25             |
-| **TOTAL**                       | -- / 100        | 91 / 100            |
+| **Thesis & Monopoly / Urgency** | 22 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 23 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 24 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 23 / 25         | -- / 25             |
+| **TOTAL**                       | 92 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Automatically detecting and killing inactive cloud instances of AI agents solves an immediate financial bleeding issue. The infrastructure-level monitoring provides a solid defensibility layer entirely decoupled from the language models. Cloud integration is standard for DevOps, leading to a highly persuasive ROI-driven sales motion.
+> **VC Verdict:** Zombie Agent Reaper, like Agent Reaper, is critical infrastructure for protecting organizations from the financial devastation of runaway, infinite-looping agents. It effectively acts as a dynamic rate limiter and cost-control circuit breaker. The undeniable financial ROI guarantees rapid developer adoption and stellar unit economics.
+> **Market Verdict:** Pending evaluation.

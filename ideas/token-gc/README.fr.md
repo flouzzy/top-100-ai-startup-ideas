@@ -69,11 +69,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | 24 / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | 19 / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | 25 / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | 24 / 25              |
-| **TOTAL**                             | -- / 100        | 92 / 100             |
+| **Thèse & Monopole / Urgence**        | 20 / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | 22 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 25 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 24 / 25         | -- / 25              |
+| **TOTAL**                             | 91 / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** L'inflation de la fenêtre de contexte est un facteur de coût majeur, rendant l'optimisation des tokens très désirable. Bien que la gestion native du contexte s'améliore, un proxy de compression proactif apporte une valeur immédiate. Son architecture garantit une friction quasi nulle, permettant une tarification basée sur la valeur.
+> **Verdict VC :** Token GC s'attaque au tueur silencieux de la rentabilité de l'IA : la surconsommation de tokens par des agents inefficaces. En offrant un ramasse-miettes pour l'usage API, il garantit un ROI financier immédiat aux développeurs, consolidant sa place dans la stack IA moderne. Le modèle d'adoption sans friction et la tarification à l'usage conduisent à une scalabilité spectaculaire.
+> **Verdict Terrain :** En attente d'évaluation.

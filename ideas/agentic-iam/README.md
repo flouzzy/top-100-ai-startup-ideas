@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | 25 / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | 24 / 25             |
-| **Scalability / UX Friction**   | -- / 25         | 18 / 25             |
-| **Unit Economics / ROI**        | -- / 25         | 25 / 25             |
-| **TOTAL**                       | -- / 100        | 92 / 100            |
+| **Thesis & Monopoly / Urgency** | 24 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 25 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 23 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 24 / 25         | -- / 25             |
+| **TOTAL**                       | 96 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Securely managing autonomous agent identities is the biggest blocker for enterprise AI adoption, creating immense desirability. A dedicated IAM for machines requires deep enterprise directory integrations, building an unassailable moat against generic wrappers. Though enterprise deployment involves friction, the mandatory security requirement guarantees high willingness to pay.
+> **VC Verdict:** Agentic IAM captures the massive, completely unaddressed market of identity and access management strictly for machines and AI agents. It effectively builds the 'Okta for Agents,' which creates an unassailable infrastructure moat and immense switching costs. The structural necessity of this product guarantees rapid enterprise adoption and outstanding economics.
+> **Market Verdict:** Pending evaluation.

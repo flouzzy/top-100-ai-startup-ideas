@@ -72,11 +72,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | 24 / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | 22 / 25             |
-| **Scalability / UX Friction**   | -- / 25         | 21 / 25             |
-| **Unit Economics / ROI**        | -- / 25         | 23 / 25             |
-| **TOTAL**                       | -- / 100        | 90 / 100            |
+| **Thesis & Monopoly / Urgency** | 23 / 25         | 24 / 25             |
+| **Moat / LLM Immunity**         | 24 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 21 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 23 / 25         | -- / 25             |
+| **TOTAL**                       | 91 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** The problem of runaway agent costs is highly acute, providing immediate value and cost savings to DevOps teams. Operating as a network-level garbage collector creates a strong defensibility layer outside the core LLM execution environment. Adoption is straightforward for infrastructure teams, with a clear ROI tied directly to compute savings.
+> **VC Verdict:** Agent Reaper offers a critical solution for neutralizing zombie agents and protecting cloud budgets from infinite loops. Its network-level integration ensures complete LLM immunity and deep architectural defensibility. The clear, immediate cost-saving value proposition drives strong SaaS unit economics.
+> **Market Verdict:** Pending evaluation.

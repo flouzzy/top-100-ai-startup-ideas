@@ -69,11 +69,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | 23 / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | 25 / 25             |
-| **Scalability / UX Friction**   | -- / 25         | 20 / 25             |
-| **Unit Economics / ROI**        | -- / 25         | 23 / 25             |
-| **TOTAL**                       | -- / 100        | 91 / 100            |
+| **Thesis & Monopoly / Urgency** | 23 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 24 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 21 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 22 / 25         | -- / 25             |
+| **TOTAL**                       | 90 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Discovering unauthorized AI tools operating on corporate networks is a fast-growing concern for CISOs. Operating as an NDR platform gives it a tremendous defensive moat, as it analyzes network traffic independent of the AI vendors. Network deployment carries moderate friction, but security budgets are readily available for this critical visibility.
+> **VC Verdict:** Shadow Agent Hunter addresses the inevitable chaos of unmanaged, unsanctioned AI agents proliferating within enterprise networks. By securing the corporate perimeter against rogue internal operations, it creates an essential, defensible security moat. The urgency of compliance and risk mitigation drives a highly profitable B2B cybersecurity model.
+> **Market Verdict:** Pending evaluation.

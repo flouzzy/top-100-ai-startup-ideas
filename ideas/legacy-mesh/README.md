@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | 22 / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | 25 / 25             |
-| **Scalability / UX Friction**   | -- / 25         | 16 / 25             |
-| **Unit Economics / ROI**        | -- / 25         | 23 / 25             |
-| **TOTAL**                       | -- / 100        | 86 / 100            |
+| **Thesis & Monopoly / Urgency** | 20 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 23 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 21 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 22 / 25         | -- / 25             |
+| **TOTAL**                       | 86 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Bridging modern AI agents with archaic enterprise systems solves a massive modernization bottleneck. The necessity of handling SOAP, mainframes, and complex rate limits creates a powerful defensive moat that cloud-native LLMs cannot address. While the technical integration is highly complex, the massive ROI of unlocking legacy data ensures strong enterprise monetization.
+> **VC Verdict:** Legacy Mesh bridges the crucial gap between modern AI agents and archaic enterprise mainframes that run the global economy. The deep integration required into legacy systems creates extreme stickiness and defends against lightweight competitors. While adoption cycles may be long, the high contract values ensure strong enterprise economics.
+> **Market Verdict:** Pending evaluation.
