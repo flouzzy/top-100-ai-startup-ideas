@@ -66,5 +66,5 @@ sequenceDiagram
 | Unit Economics / ROI direct       | -- / 25         | -- / 25              |
 | TOTAL                             | -- / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Agentic DLQ comble le déficit critique de fiabilité des agents autonomes en fournissant une file d'attente intelligente pour les actions échouées. Cette infrastructure est immunisée contre les avancées des modèles de fondation car la gestion déterministe des erreurs est toujours requise en production. Elle verrouille les clients B2B en devenant essentielle pour les SLA d'entreprise.
 > **Verdict Terrain :** En attente d'évaluation.

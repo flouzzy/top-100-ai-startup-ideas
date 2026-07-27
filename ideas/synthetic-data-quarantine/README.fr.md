@@ -66,5 +66,5 @@ sequenceDiagram
 | Unit Economics / ROI direct       | -- / 25         | -- / 25              |
 | TOTAL                             | -- / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Synthetic Data Quarantine résout le problème récursif de l'effondrement des modèles causé par l'entraînement sur des données générées par l'IA. Identifier et isoler les données synthétiques est un jeu d'infrastructure critique pour l'avenir des modèles fondationnels. Bien que très technique, devenir le filtre standard de l'industrie offre une forte rétention B2B et des marges solides.
 > **Verdict Terrain :** En attente d'évaluation.

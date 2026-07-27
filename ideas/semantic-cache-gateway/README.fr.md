@@ -72,11 +72,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | 22 / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | 23 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 25 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 23 / 25         | -- / 25              |
+| **TOTAL**                             | 93 / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Semantic Cache Gateway s'attaque au coût opérationnel central des agents IA en mettant en cache intelligemment les requêtes sémantiques répétitives. En se positionnant au point de passage de l'infrastructure, le produit est immunisé contre le LLM sous-jacent et verrouille les utilisateurs par la réduction des coûts. L'extrême scalabilité et le ROI immédiat rendent les unit economics très attrayantes.
 > **Verdict Terrain :** En attente d'évaluation.

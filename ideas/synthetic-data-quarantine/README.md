@@ -66,5 +66,5 @@ sequenceDiagram
 | Unit Economics / ROI        | -- / 25         | -- / 25             |
 | TOTAL                       | -- / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Synthetic Data Quarantine solves the recursive problem of model collapse caused by AI training on AI-generated data. Identifying and isolating synthetic data is a critical infrastructure play for the future of foundational models. While deeply technical, becoming the industry standard filter offers significant B2B lock-in and strong margins.
 > **Market Verdict:** Pending evaluation.
