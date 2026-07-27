@@ -4,7 +4,7 @@
 
 # Semantic Cache Gateway
 
-> **Résumé exécutif :** Une passerelle API intelligente qui intercepte les requêtes LLM, effectue des recherches vectorielles ultra-rapides et sert des réponses en cache pour les questions sémantiquement identiques, réduisant drastiquement les coûts et la latence.
+> **Résumé exécutif :** Un reverse proxy intelligent qui vectorise les requêtes pour mettre en cache les réponses sémantiquement similaires, réduisant les coûts d'API LLM et la latence.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -16,70 +16,67 @@
 
 ```mermaid
 graph TD
-    A["Prompt Utilisateur ('Résume ça')"] --> B{"Gateway Semantic Cache"}
-    B -->|Vectorise Prompt| C["Recherche Similarité (Vector DB)"]
-    C -->|Correspondance Élevée| D["Retourne Réponse en Cache Instantanément"]
-    C -->|Pas de Correspondance| E["Appelle LLM Externe (OpenAI/Anthropic)"]
-    E --> F["Met en Cache Nouveau Vecteur + Réponse"]
-    F --> G["Retourne Nouvelle Réponse"]
+    %% Architecture
+    A["Prompt Utilisateur"] --> B{"Gateway Sémantique"}
+    B -->|Similarité > 95%| C["Cache Vectoriel"]
+    C -->|Réponse Instantanée| A
+    B -->|Miss| D["OpenAI / Anthropic"]
+    D -->|Mise en Cache| B
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-- **La croyance populaire :** Avec la baisse des coûts et l'augmentation de la vitesse des LLMs, l'infrastructure de cache deviendra inutile.
-- **La vérité cachée :** À l'échelle, les utilisateurs posent de manière répétée des questions sémantiquement identiques. Renvoyer chaque requête au modèle de fondation est un gaspillage financier massif. Une couche de cache sémantique est mathématiquement indispensable pour optimiser la rentabilité.
+**La croyance populaire :** Chaque prompt doit être envoyé au LLM pour obtenir une bonne réponse.
+
+**La vérité cachée :** La grande majorité des requêtes sont des variations sémantiques identiques ; les renvoyer au LLM gaspille des ressources immenses.
 
 ## 3. Le problème & La cible
 
-- **Modèle économique :** B2B
-- **Cible précise :** Éditeurs de logiciels SaaS, applications B2C et équipes d'ingénierie gérant de forts volumes d'appels API vers des LLMs.
-- **La douleur urgente :** Transmettre systématiquement des requêtes sémantiquement similaires ("Fais-moi un résumé" vs "Résume ce texte") aux API engendre un gaspillage massif, une explosion des coûts liés aux tokens et une latence inutile.
+**Modèle économique :** B2B
+**Cible précise :** Éditeurs SaaS, applications B2C et équipes d'ingénierie gérant de forts volumes d'appels LLM.
+**La douleur urgente :** L'envoi systématique de requêtes similaires aux LLMs engendre un gaspillage massif, une explosion des coûts et une forte latence.
 
 ## 4. Architecture technique & Plomberie
 
+**L'approche technique :** Reverse proxy vectorisant les requêtes pour recherche de similarité dans un cache. Si la confiance est suffisante, la réponse est renvoyée instantanément sans appel externe.
+
 ```mermaid
 sequenceDiagram
-    participant Utilisateur
-    participant Gateway as Semantic Cache Gateway
-    participant Cache as Vector DB / Redis
-    participant LLM as API LLM Externe
-    Utilisateur->>Gateway: Requête: "Fais-moi un résumé"
-    Gateway->>Cache: Vectorise & Recherche Similarité
-    alt Correspondance (Confiance > 0.95)
-        Cache-->>Gateway: Réponse en Cache
-        Gateway-->>Utilisateur: Réponse Rapide (Coût API 0)
-    else Pas de Correspondance
-        Cache-->>Gateway: Raté (Miss)
-        Gateway->>LLM: Transfère Requête
-        LLM-->>Gateway: Réponse Générée
-        Gateway->>Cache: Stocke Vecteur & Réponse
-        Gateway-->>Utilisateur: Réponse Normale
-    end
+    participant User
+    participant Gateway
+    participant Cache
+    participant LLM
+    User->>Gateway: "Summarize this article"
+    Gateway->>Gateway: Generate Vector Embedding
+    Gateway->>Cache: Similarity Search
+    Cache-->>Gateway: Hit (98% match)
+    Gateway-->>User: Cached Summary (10ms, $0)
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                    | Valeur                                      |
-| --------------------------- | ------------------------------------------- |
-| Structure de prix           | Abonnement par Paliers / Volume de Requêtes |
-| Objectif 12 mois            | 200 Équipes Entreprise                      |
-| Calcul du CA (Target 100k€) | 200 _ 500€ / mois _ 12 = 1.2M€              |
-| Marge brute estimée         | 90%                                         |
+| Métrique                        | Valeur                                     |
+| :------------------------------ | :----------------------------------------- |
+| **Structure de prix**           | Volume-based SaaS / % of Saved Token Costs |
+| **Objectif 12 mois**            | 200 SaaS Companies                         |
+| **Calcul du CA (Target 100k€)** | 200 companies \* $500/mo = $100k/mo        |
+| **Marge brute estimée**         | 95%                                        |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-- **Stratégie d'acquisition :** Positionnement comme "plugin de réduction de coûts" pour dev. PLG via des SDK open-source routant vers la passerelle cloud entreprise managée.
-- **Moat (Barrière à l'entrée) :** Les modèles de fondation n'embarquent pas de cache partagé. Comparer les requêtes _avant_ l'inférence nécessite une infrastructure vectorielle externe spécialisée qu'un LLM ne peut pas auto-héberger.
+**Stratégie d'acquisition :** Adoption dev via modèle open-core, ventes SaaS premium pour entreprises.
+
+**Moat (Barrière à l'entrée) :** Les LLMs n'embarquent pas de cache mutualisé. Une infrastructure externe dédiée est requise pour comparer les embeddings avant l'inférence.
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère | Score VC (/100) | Score Terrain (/100) |
-| --------------------------------- | 21 / 25 | -------------------- |
-| Thèse & Monopole / Urgence | 20 / 25 | -- / 25 |
-| Moat / Résistance aux LLM natifs | 18 / 25 | -- / 25 |
-| Scalabilité / Friction d'adoption | 25 / 25 | -- / 25 |
-| Unit Economics / ROI direct | 25 / 25 | -- / 25 |
-| **TOTAL** | **88 / 100** | **-- / 100** |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------- | :------------------- |
+| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
+| **TOTAL**                             | -- / 100        | -- / 100             |
 
-> **Verdict VC :** Cette passerelle offre une brillante opportunité d'arbitrage en réduisant radicalement la latence et les coûts de tokens grâce au cache sémantique, offrant un ROI immédiat et indéniable. Cependant, son fossé à long terme est très vulnérable aux solutions de cache natives inévitablement déployées par les fournisseurs de modèles. Pour survivre, il doit rapidement pivoter vers des couches de conformité et d'analyse spécifiques aux entreprises.
+> **Verdict VC :** En attente d'évaluation.
 > **Verdict Terrain :** En attente d'évaluation.

@@ -4,7 +4,7 @@
 
 # ZombieAgent Reaper
 
-> **Executive Summary:** A Control Plane that integrates with cloud environments to detect and suspend idle, redundant, or infinitely looping "zombie" AI agents that burn LLM token budgets.
+> **Executive Summary:** A cloud control plane that integrates with deployment environments to identify and automatically suspend inactive or redundant zombie AI agents, preventing massive billing overruns.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -12,67 +12,69 @@
 
 ---
 
-## 1. Visual Overview
+## 1. Visual Overview & Wow Effect
 
 ```mermaid
 graph TD
-    A["Cloud Infrastructure (Agent Processes)"] --> B{"ZombieAgent Control Plane"}
-    B -->|Network & API Traffic Analysis (eBPF)| C["Identify Inactive / Looping Agents"]
-    C -->|Evaluate TTL & Budget Rules| D["Suspend Process / Block Network"]
-    D --> E["Trigger FinOps Alert"]
+    %% Architecture
+    A["Dev Deployment"] --> B["Cloud Infrastructure"]
+    B -->|Agent Instances| C{"Reaper Control Plane"}
+    C -->|Detects Inactivity| D["Suspend Process"]
+    C -->|Alert FinOps| E["FinOps Dashboard"]
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** Cloud costs for AI are mainly driven by training or useful inference.
-- **Hidden Truth:** A massive percentage of AI cloud costs in the future will come from forgotten, orphaned "zombie" agents stuck in background loops, mindlessly pinging expensive LLM APIs without user supervision.
+**Popular Belief:** Developers will naturally remember to turn off agents when they are done.
+
+**Hidden Truth:** In complex agentic architectures, ghost tasks are easily forgotten, and cloud costs spiral silently; automated garbage collection of entire agent instances is required.
 
 ## 3. Problem & Target Market
 
-- **Business Model:** B2B
-- **Target Audience:** FinOps, CloudOps, and DevOps teams in enterprises deploying autonomous agents.
-- **Urgent Pain Point:** Developers deploy autonomous agents but often forget to deactivate them, or the agents enter recursive loops. These "zombies" continue to run, consuming highly expensive LLM tokens, resulting in astronomical bills and security risks.
+**Business Model:** B2B
+**Target Audience:** FinOps, CloudOps, and DevOps teams in enterprises deploying autonomous agents.
+**Urgent Pain Point:** Developers deploy agents but forget to turn them off. 'Zombie agents' loop endlessly, consuming expensive LLM tokens and causing astronomical billing overruns.
 
 ## 4. Technical Architecture & Infrastructure
 
+**Technical Approach:** A Control Plane integrated via cloud APIs or eBPF. Analyzes network traffic and API calls to identify inactive/redundant agent behaviors and suspends processes based on TTL and budget rules.
+
 ```mermaid
 sequenceDiagram
-    participant CloudEnv as Cloud Env / Containers
-    participant ControlPlane as ZombieAgent Reaper
-    participant FinOps as FinOps Dashboard
-    loop Continuous Monitoring
-        CloudEnv->>ControlPlane: Stream Network / API Metrics (eBPF)
-        ControlPlane->>ControlPlane: Detect repetitive or idle patterns
-    end
-    alt Zombie Behavior Detected
-        ControlPlane->>CloudEnv: Suspend Container / Block API
-        ControlPlane->>FinOps: Alert: Zombie Terminated, Cost Saved
-    end
+    participant Agent as "Zombie Agent"
+    participant Plane as "Reaper Control Plane"
+    participant Cloud as "Cloud Orchestrator"
+    Agent->>Agent: Looping endlessly doing nothing
+    Plane->>Plane: Monitor CPU & Network (eBPF)
+    Plane->>Plane: Behavior matches 'Zombie' + TTL Expired
+    Plane->>Cloud: API Call: Suspend Instance X
+    Cloud-->>Agent: SIGTERM
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                                  |
-| ---------------------- | -------------------------------------- |
-| Pricing Structure      | Tiered SaaS based on compute monitored |
-| 12-Month Target        | 100 Enterprise Accounts                |
-| Revenue Formula        | 100 _ €1,000 / month _ 12 = 1.2M€      |
-| Estimated Gross Margin | 85%                                    |
+| Metric                     | Value                              |
+| :------------------------- | :--------------------------------- |
+| **Pricing Structure**      | SaaS Tiered by Monitored Instances |
+| **12-Month Target**        | 100 CloudOps Teams                 |
+| **Revenue Formula**        | 100 teams \* $1k/mo = $100k/mo     |
+| **Estimated Gross Margin** | 85%                                |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** Marketplace integrations (AWS, GCP, Azure) targeting CloudOps. Positioned as an immediate ROI tool ("install this and cut your AI cloud bill by 20% today").
-- **Moat (Defensibility):** Requires deep infrastructure visibility (like eBPF or network proxies) and orchestration controls to suspend processes. An LLM lacks any visibility or control over the host infrastructure and cannot "kill -9" its own container.
+**Acquisition Strategy:** Cloud marketplaces (AWS, GCP) and integrations with Datadog/NewRelic.
+
+**Moat (Defensibility):** LLMs have zero visibility into cloud infrastructure orchestration or background network activity. Suspending zombie processes requires deep system-level integration.
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion | VC Score (/100) | Market Score (/100) |
-| --------------------------- | 21 / 25 | ------------------- |
-| Thesis & Monopoly / Urgency | 23 / 25 | -- / 25 |
-| Moat / LLM Immunity | 22 / 25 | -- / 25 |
-| Scalability / UX Friction | 24 / 25 | -- / 25 |
-| Unit Economics / ROI | 24 / 25 | -- / 25 |
-| **TOTAL** | **93 / 100** | **-- / 100** |
+| Criterion                       | VC Score (/100) | Market Score (/100) |
+| :------------------------------ | :-------------- | :------------------ |
+| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
+| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
+| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
+| **TOTAL**                       | -- / 100        | -- / 100            |
 
-> **VC Verdict:** Zombie Agent Reaper ruthlessly eliminates the catastrophic financial drain caused by rogue AI processes, turning unpredictable AI experimentation into a financially governed operation. Its integration directly into the cloud control plane creates a deep structural moat that is immune to prompt-engineering bypasses. This is a highly profitable, scalable insurance policy for modern DevOps.
+> **VC Verdict:** Pending evaluation.
 > **Market Verdict:** Pending evaluation.

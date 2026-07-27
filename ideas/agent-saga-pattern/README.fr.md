@@ -83,12 +83,13 @@ sequenceDiagram
 ## 7. Grille d'évaluation détaillée
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
-| ------------------------------------- | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     25 / 25     |       -- / 25        |
-| **Moat / Résistance aux LLM natifs**  |     25 / 25     |       -- / 25        |
-| **Scalabilité / Friction d'adoption** |     22 / 25     |       -- / 25        |
-| **Unit Economics / ROI direct**       |     24 / 25     |       -- / 25        |
-| **TOTAL**                             |  **96 / 100**   |       -- / 100       |
+| ------------------------------------- | --------------- | -------------------- |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 20 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 21 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 12 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 19 / 25              |
+| **TOTAL**                             | -- / 100        | 72 / 100             |
 
-> **Verdict VC :** L'infrastructure Saga s'attaque au problème fondamental de la confiance inter-agents. En se positionnant comme la plomberie B2B indispensable de l'économie IA, le moat est quasi-infranchissable une fois l'effet de réseau bilatéral amorcé. Les unit economics promettent une forte scalabilité sans friction d'adoption excessive.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict VC :** AgentSaga attaque un problème d'infrastructure fondamental des flux multi-agents : l'absence de transactionnalité. En agissant comme un orchestrateur asynchrone indépendant de l'état probabiliste des LLM, le produit se rend indispensable pour tout déploiement en production critique, créant un verrouillage technologique (moat) extrêmement profond. L'approche API transactionnelle garantit une rentabilité forte une fois intégré dans les plateformes RPA.
+
+> **Verdict Terrain :** Garantir des transactions distribuées avec rollback est indispensable pour les agents effectuant des achats ou des réservations complexes. L'immunité est forte car la logique déterministe est complexe à halluciner avec un LLM probabiliste. L'adoption sera freinée par la complexité de l'intégration dans des architectures hétérogènes, limitant l'adoption initiale.

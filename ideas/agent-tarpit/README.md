@@ -4,7 +4,7 @@
 
 # Agent Tarpit
 
-> **Executive Summary:** A dynamic API and network-level "tarpit" that detects malicious AI agents and traps them in infinite synthetic loops, economically exhausting the attacker's LLM token budget.
+> **Executive Summary:** A dynamic AI-generated tarpit infrastructure designed to trap malicious autonomous scraping bots in infinite loops, exhausting their token budgets.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -12,73 +12,70 @@
 
 ---
 
-## 1. Visual Overview
+## 1. Visual Overview & Wow Effect
 
 ```mermaid
 graph TD
-    A["Malicious AI Agent"] -->|API Call| B{"Agent Tarpit Gateway"}
-    B -->|Normal Traffic| C["Real Infrastructure / API"]
-    B -->|Agent Detected| D["Dynamic Honeypot / Tarpit"]
-    D --> E["Generate Synthetic OpenAPI Schemas"]
-    D --> F["Infinite Logic Loop"]
-    E --> A
-    F -->|Token Exhaustion| A
+    %% Tarpit Architecture
+    A["Malicious Agent"] --> B{"Tarpit Router"}
+    B -->|Human Traffic| C["Real Application"]
+    B -->|Agent Pattern| D["Infinite Decoy API"]
+    D -->|Token Exhaustion| A
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** The best way to stop automated scrapers and bots is to aggressively block their IP addresses using WAFs and CAPTCHAs.
-- **Hidden Truth:** Autonomous AI agents easily bypass WAFs and solve CAPTCHAs by adapting dynamically. Instead of blocking them (which alerts the attacker to mutate), the most effective defense is a "Token Exhaustion Attack"—trapping the agent in an infinite, convincing illusion that bankrupts the attacker's cloud billing.
+**Popular Belief:** Traditional WAFs and CAPTCHAs are enough to stop automated scraping.
+
+**Hidden Truth:** LLM-driven agents easily bypass CAPTCHAs and WAFs by imitating human behavior; the only way to stop them is by making the attack economically unviable.
 
 ## 3. Problem & Target Market
 
-- **Business Model:** B2B
-- **Target Audience:** CISOs, SecOps teams, and operators of large public APIs (SaaS, e-commerce, data brokers).
-- **Urgent Pain Point:** AI agents driven by LLMs mimic human behavior perfectly, causing massive data scraping, stealthy application DDoS, and complex fraud, which costs millions in wasted bandwidth and stolen intellectual property.
+**Business Model:** B2B
+**Target Audience:** CISOs, SecOps teams, and operators of large public APIs (SaaS, e-commerce) facing massive AI-driven scraping.
+**Urgent Pain Point:** Autonomous LLM agents bypass WAFs to steal data and cause stealthy DDoS, costing millions in bandwidth and lost IP.
 
 ## 4. Technical Architecture & Infrastructure
 
+**Technical Approach:** A network of dynamic, AI-generated decoys (tarpits) at the API layer. Detects LLM patterns and serves phantom endpoints or infinite JSON schemas to trap the agent and exhaust its token budget (Token Exhaustion Attack).
+
 ```mermaid
 sequenceDiagram
-    participant Attacker as Malicious Agent (LLM)
-    participant Gateway as Tarpit Reverse Proxy
-    participant Server as Real API
-    Attacker->>Gateway: Stealthy Scraping Request
-    Gateway->>Gateway: AI-driven fingerprinting detects Agent
-    alt Is Human/Legit
-        Gateway->>Server: Forward
-        Server-->>Gateway: Real Data
-        Gateway-->>Attacker: Real Data
-    else Is Malicious Agent
-        Gateway->>Gateway: Generate infinite JSON/Phantom endpoint
-        Gateway-->>Attacker: Serve convincing synthetic response (Slowly)
-        Attacker->>Gateway: Follow up phantom logic (Token Burn!)
-    end
+    participant Bot as "AI Scraper"
+    participant WAF as "Tarpit Proxy"
+    participant Decoy as "AI Decoy Gen"
+    Bot->>WAF: Sneaky API Request
+    WAF->>WAF: Detect LLM Pattern
+    WAF->>Decoy: Route to Tarpit
+    Decoy-->>Bot: Return Infinite Schema / Fake Data
+    Bot->>Bot: Try to parse (Burns tokens)
+    Bot->>WAF: Retries infinitely...
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                                                |
-| ---------------------- | ---------------------------------------------------- |
-| Pricing Structure      | Tiered Enterprise License + Protected Traffic Volume |
-| 12-Month Target        | 50 Enterprise API Providers                          |
-| Revenue Formula        | 50 _ €2,000 / month _ 12 = 1.2M€                     |
-| Estimated Gross Margin | 85%                                                  |
+| Metric                     | Value                                    |
+| :------------------------- | :--------------------------------------- |
+| **Pricing Structure**      | Enterprise License / Monitored Bandwidth |
+| **12-Month Target**        | 20 Enterprise Contracts                  |
+| **Revenue Formula**        | 20 contracts \* $5k/mo = $100k/mo        |
+| **Estimated Gross Margin** | 75%                                      |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** Direct integration with major CDNs, API Gateways (Kong, Apigee), and WAF providers as an advanced "AI Defense" add-on.
-- **Moat (Defensibility):** Defensive LLMs analyzing logs are too slow and expensive. This requires low-level network infrastructure (TCP/HTTP socket manipulation) to physically slow connections, combined with real-time generation of fake OpenAPI schemas—a cryptographic cat-and-mouse game natively impossible for a simple LLM to replicate.
+**Acquisition Strategy:** Direct enterprise sales to major data brokers and e-commerce giants.
+
+**Moat (Defensibility):** Requires low-level network infrastructure (socket management, reverse proxy) combined with real-time OpenAPI schema generation—a cryptographic cat-and-mouse game beyond simple text classification.
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion | VC Score (/100) | Market Score (/100) |
-| --------------------------- | 22 / 25 | ------------------- |
-| Thesis & Monopoly / Urgency | 25 / 25 | -- / 25 |
-| Moat / LLM Immunity | 22 / 25 | -- / 25 |
-| Scalability / UX Friction | 23 / 25 | -- / 25 |
-| Unit Economics / ROI | 22 / 25 | -- / 25 |
-| **TOTAL** | **92 / 100** | **-- / 100** |
+| Criterion                       | VC Score (/100) | Market Score (/100) |
+| :------------------------------ | :-------------- | :------------------ |
+| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
+| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
+| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
+| **TOTAL**                       | -- / 100        | -- / 100            |
 
-> **VC Verdict:** Agent Tarpit introduces a brilliantly contrarian approach to cybersecurity by weaponizing the attacker's own token budget against them. Instead of playing endless whack-a-mole, it makes malicious AI operations economically unviable, creating a totally new paradigm in defense. While niche, its unique positioning ensures an absolute monopoly over this novel offensive defense category.
+> **VC Verdict:** Pending evaluation.
 > **Market Verdict:** Pending evaluation.
