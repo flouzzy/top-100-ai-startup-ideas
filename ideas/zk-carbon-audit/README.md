@@ -1,10 +1,10 @@
-<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD060 -->
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD036 MD037 MD039 MD041 MD060 -->
 
 [ 🇫🇷 Version Française ](./README.fr.md)
 
 # ZK-Emission Ledger
 
-> **Executive Summary:** Creation of a secure IoT data oracle coupled with Zero-Knowledge Proofs. This allows a factory to mathematically prove its exact certified carbon footprint without ever revealing its production, revenues or gross energy consumption to auditors.
+> **Executive Summary:** A B2B solution targeting Industrial multinationals (steel, cement, chemicals), carbon auditors (Big 4), government regulators (European CBAM). to solve: Supply chain carbon reporting (Scope 3) is rife with fraud, double counting and estimated data. Companies refuse to share their real energy data (IoT/Factory) for fear of disclosing industrial secrets.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -16,47 +16,45 @@
 
 ```mermaid
 graph TD
-    %% Problem vs Solution or Architecture Diagram
-    Problem["Current State"] --> Solution["ZK-Emission Ledger State"]
+    A{"Problem"} -->|"Solves"| B{"Solution"}
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-**Popular Belief:** General AI solutions can solve this problem.
-
-**Hidden Truth:** Current carbon accounting SaaS relies on declarative data (Excel files), which is unverifiable and falsifiable. Only advanced cryptography allows cryptographic verification (Trustless) without loss of confidentiality.
+- **Popular Belief:** Generic solutions are enough.
+- **Hidden Truth:** Creation of a secure IoT data oracle coupled with Zero-Knowledge Proofs. This allows a factory to mathematically prove its exact certified carbon footprint without ever revealing its production, revenues or gross energy consumption to auditors.
 
 ## 3. Problem & Target Market
 
-**Business Model:** B2B
-
-**Target Audience:** Industrial multinationals (steel, cement, chemicals), carbon auditors (Big 4), government regulators (European CBAM).
-
-**Urgent Pain Point:** Supply chain carbon reporting (Scope 3) is rife with fraud, double counting and estimated data. Companies refuse to share their real energy data (IoT/Factory) for fear of disclosing industrial secrets.
+- **Business Model:** B2B
+- **Target Audience:** Industrial multinationals (steel, cement, chemicals), carbon auditors (Big 4), government regulators (European CBAM).
+- **Urgent Pain Point:** Supply chain carbon reporting (Scope 3) is rife with fraud, double counting and estimated data. Companies refuse to share their real energy data (IoT/Factory) for fear of disclosing industrial secrets.
 
 ## 4. Technical Architecture & Infrastructure
 
+Creation of a secure IoT data oracle coupled with Zero-Knowledge Proofs. This allows a factory to mathematically prove its exact certified carbon footprint without ever revealing its production, revenues or gross energy consumption to auditors.
+
 ```mermaid
 sequenceDiagram
-    %% Sequence diagram or system flow
-    User->>System: Action
-    System-->>User: Response
+    participant U as "User"
+    participant S as "AI System"
+    U->>S: "Request"
+    S-->>U: "Response"
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                           |
-| ---------------------- | ------------------------------- |
-| Pricing Structure      | SaaS subscription               |
-| 12-Month Target        | 10 customers                    |
-| Revenue Formula        | 10 clients \* 10k€/year = 100k€ |
-| Estimated Gross Margin | 80%                             |
+| Metric                 | Value                 |
+| ---------------------- | --------------------- |
+| Pricing Structure      | B2B SaaS Subscription |
+| 12-Month Target        | 100 clients           |
+| Revenue Formula        | 100 \* 1000€ = 100k€  |
+| Estimated Gross Margin | 80%                   |
 
 ## 6. Distribution Engine & Moat
 
-**Acquisition Strategy:** B2B direct sales
-
-**Moat (Defensibility):** Adoption requires regulators to accept ZK mathematical proofs as a legal auditing standard. Heavy IoT hardware deployment required at contractors to capture initial footprint.
+- **Acquisition Strategy:** Direct sales and strategic partnerships.
+- **Moat (Defensibility):** Current carbon accounting SaaS relies on declarative data (Excel files), which is unverifiable and falsifiable. Only advanced cryptography allows cryptographic verification (Trustless) without loss of confidentiality.
 
 ## 7. Detailed Evaluation Grid
 
@@ -66,8 +64,7 @@ sequenceDiagram
 | Moat / LLM Immunity         | -- / 25         | -- / 25             |
 | Scalability / UX Friction   | -- / 25         | -- / 25             |
 | Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| TOTAL                       | -- / 100        | -- / 100            |
 
 > **VC Verdict:** Pending evaluation.
-
 > **Market Verdict:** Pending evaluation.

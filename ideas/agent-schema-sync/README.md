@@ -68,11 +68,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| **Thesis & Monopoly / Urgency** | 21 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 23 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 24 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 23 / 25         | -- / 25             |
+| **TOTAL**                       | 91 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Agent Schema Sync solves the extremely painful and tedious problem of API specification drift for autonomous agents. By becoming the source of truth for agent-to-system contracts, it embeds itself deeply into the deployment infrastructure, making it very hard to rip out. This is a highly scalable, developer-focused B2B solution.
 > **Market Verdict:** Pending evaluation.

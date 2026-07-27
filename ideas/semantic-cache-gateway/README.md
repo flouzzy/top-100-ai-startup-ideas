@@ -72,11 +72,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| **Thesis & Monopoly / Urgency** | 22 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 23 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 25 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 23 / 25         | -- / 25             |
+| **TOTAL**                       | 93 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Semantic Cache Gateway attacks the core operational cost of AI agents by intelligently caching repetitive semantic queries. By sitting at the infrastructure choke point, it is immune to the underlying LLM chosen by the client and deeply locks in users via cost savings. The extreme scalability and immediate ROI make the unit economics highly compelling.
 > **Market Verdict:** Pending evaluation.

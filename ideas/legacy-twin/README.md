@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| **Thesis & Monopoly / Urgency** | 21 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 23 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 20 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 22 / 25         | -- / 25             |
+| **TOTAL**                       | 86 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Legacy Twin creates a modern operational clone of outdated enterprise infrastructure, enabling AI agent integration without breaking fragile mainframes. The digital twin approach is a defensive masterstroke that bypasses legacy risk, locking in clients with massive IT debt. The B2B contracts are substantial, though the sales cycle may be protracted.
 > **Market Verdict:** Pending evaluation.

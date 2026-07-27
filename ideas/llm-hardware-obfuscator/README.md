@@ -1,10 +1,10 @@
-<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD060 -->
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD036 MD037 MD039 MD041 MD060 -->
 
 [ 🇫🇷 Version Française ](./README.fr.md)
 
 # Hardware Obfuscator AI
 
-> **Executive Summary:** A logic circuit obfuscation engine based on reinforcement learning (RL). It inserts "dummy gates" and modifies the netlist topology so that the chip only works after a post-manufacturing cryptographic key is activated.
+> **Executive Summary:** A B2B solution targeting AI chip designers (Fabless), semiconductor foundries, IP cores providers (VP ​​Hardware Engineering). to solve: Theft of physical intellectual property is expensive. Offshore foundries can clone chip blueprints (GDSII), insert hardware Trojans, or overproduce for the gray market.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -16,47 +16,45 @@
 
 ```mermaid
 graph TD
-    %% Problem vs Solution or Architecture Diagram
-    Problem["Current State"] --> Solution["Hardware Obfuscator AI State"]
+    A{"Problem"} -->|"Solves"| B{"Solution"}
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-**Popular Belief:** General AI solutions can solve this problem.
-
-**Hidden Truth:** The design of printed circuits requires respecting physical constraints (PPA: Power, Performance, Area). The AI ​​must operate on graphs representing billions of transistors without degrading the performance of the final chip, which no traditional software SaaS does.
+- **Popular Belief:** Generic solutions are enough.
+- **Hidden Truth:** A logic circuit obfuscation engine based on reinforcement learning (RL). It inserts "dummy gates" and modifies the netlist topology so that the chip only works after a post-manufacturing cryptographic key is activated.
 
 ## 3. Problem & Target Market
 
-**Business Model:** B2B
-
-**Target Audience:** AI chip designers (Fabless), semiconductor foundries, IP cores providers (VP ​​Hardware Engineering).
-
-**Urgent Pain Point:** Theft of physical intellectual property is expensive. Offshore foundries can clone chip blueprints (GDSII), insert hardware Trojans, or overproduce for the gray market.
+- **Business Model:** B2B
+- **Target Audience:** AI chip designers (Fabless), semiconductor foundries, IP cores providers (VP ​​Hardware Engineering).
+- **Urgent Pain Point:** Theft of physical intellectual property is expensive. Offshore foundries can clone chip blueprints (GDSII), insert hardware Trojans, or overproduce for the gray market.
 
 ## 4. Technical Architecture & Infrastructure
 
+A logic circuit obfuscation engine based on reinforcement learning (RL). It inserts "dummy gates" and modifies the netlist topology so that the chip only works after a post-manufacturing cryptographic key is activated.
+
 ```mermaid
 sequenceDiagram
-    %% Sequence diagram or system flow
-    User->>System: Action
-    System-->>User: Response
+    participant U as "User"
+    participant S as "AI System"
+    U->>S: "Request"
+    S-->>U: "Response"
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                           |
-| ---------------------- | ------------------------------- |
-| Pricing Structure      | SaaS subscription               |
-| 12-Month Target        | 10 customers                    |
-| Revenue Formula        | 10 clients \* 10k€/year = 100k€ |
-| Estimated Gross Margin | 80%                             |
+| Metric                 | Value                 |
+| ---------------------- | --------------------- |
+| Pricing Structure      | B2B SaaS Subscription |
+| 12-Month Target        | 100 clients           |
+| Revenue Formula        | 100 \* 1000€ = 100k€  |
+| Estimated Gross Margin | 80%                   |
 
 ## 6. Distribution Engine & Moat
 
-**Acquisition Strategy:** B2B direct sales
-
-**Moat (Defensibility):** Validation by giant foundries (TSMC, Samsung), reluctance of hardware engineers to modify their workflows, possible increase in silicon surface area.
+- **Acquisition Strategy:** Direct sales and strategic partnerships.
+- **Moat (Defensibility):** The design of printed circuits requires respecting physical constraints (PPA: Power, Performance, Area). The AI ​​must operate on graphs representing billions of transistors without degrading the performance of the final chip, which no traditional software SaaS does.
 
 ## 7. Detailed Evaluation Grid
 
@@ -66,8 +64,7 @@ sequenceDiagram
 | Moat / LLM Immunity         | -- / 25         | -- / 25             |
 | Scalability / UX Friction   | -- / 25         | -- / 25             |
 | Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| TOTAL                       | -- / 100        | -- / 100            |
 
 > **VC Verdict:** Pending evaluation.
-
 > **Market Verdict:** Pending evaluation.
