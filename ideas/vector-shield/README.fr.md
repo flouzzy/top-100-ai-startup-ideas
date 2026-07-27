@@ -73,11 +73,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 25 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 24 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 25 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 23 / 25              |
+| **TOTAL**                             | -- / 100        | 97 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Sécuriser les PII et prévenir les injections de prompt avant que les données n'atteignent le cloud est une exigence de conformité obligatoire. Le fonctionnement en tant que proxy garantit que les données ne quittent jamais le réseau non caviardées. Il est incroyablement facile à adopter, puisant directement dans les budgets de sécurité.

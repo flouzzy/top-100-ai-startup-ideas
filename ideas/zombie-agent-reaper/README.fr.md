@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 24 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 22 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 21 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 24 / 25              |
+| **TOTAL**                             | -- / 100        | 91 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Détecter et tuer automatiquement les instances cloud inactives d'agents IA résout un problème financier immédiat. La surveillance au niveau de l'infrastructure fournit une couche de défense solide. L'intégration cloud est standard pour le DevOps, conduisant à une démarche commerciale très convaincante basée sur le ROI.

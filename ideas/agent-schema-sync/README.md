@@ -68,11 +68,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| **Thesis & Monopoly / Urgency** | -- / 25         | 21 / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | 23 / 25             |
+| **Scalability / UX Friction**   | -- / 25         | 24 / 25             |
+| **Unit Economics / ROI**        | -- / 25         | 22 / 25             |
+| **TOTAL**                       | -- / 100        | 90 / 100            |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Silent API changes breaking agent integrations is a constant headache, making a dynamic schema proxy highly attractive. Translating intents semantically creates a resilient middleware layer that LLM providers are unlikely to host natively. It boasts extremely low adoption friction as a drop-in proxy, with a straightforward value proposition for developers.

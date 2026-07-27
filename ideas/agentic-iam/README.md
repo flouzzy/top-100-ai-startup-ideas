@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| **Thesis & Monopoly / Urgency** | -- / 25         | 25 / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | 24 / 25             |
+| **Scalability / UX Friction**   | -- / 25         | 18 / 25             |
+| **Unit Economics / ROI**        | -- / 25         | 25 / 25             |
+| **TOTAL**                       | -- / 100        | 92 / 100            |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Securely managing autonomous agent identities is the biggest blocker for enterprise AI adoption, creating immense desirability. A dedicated IAM for machines requires deep enterprise directory integrations, building an unassailable moat against generic wrappers. Though enterprise deployment involves friction, the mandatory security requirement guarantees high willingness to pay.

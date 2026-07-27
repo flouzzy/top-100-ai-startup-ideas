@@ -72,11 +72,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 24 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 18 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 25 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 24 / 25              |
+| **TOTAL**                             | -- / 100        | 91 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Réduire les coûts d'API LLM et la latence sont des besoins universellement urgents. Bien qu'un peu vulnérable si les LLM natifs réduisent drastiquement les prix, sa proposition de valeur actuelle est indéniable. L'intégration proxy sans code assure une adoption sans friction et une monétisation immédiate basée sur les économies.

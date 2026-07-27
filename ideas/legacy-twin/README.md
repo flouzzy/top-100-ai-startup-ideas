@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| **Thesis & Monopoly / Urgency** | -- / 25         | 20 / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | 24 / 25             |
+| **Scalability / UX Friction**   | -- / 25         | 15 / 25             |
+| **Unit Economics / ROI**        | -- / 25         | 22 / 25             |
+| **TOTAL**                       | -- / 100        | 81 / 100            |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Guaranteeing that AI-translated code perfectly matches legacy system behavior is highly valuable for risk-averse institutions. The symbolic execution and mathematical proof engine provide a robust moat entirely separate from the language generation itself. The heavy integration process presents friction, but the specialized assurance is worth premium pricing.

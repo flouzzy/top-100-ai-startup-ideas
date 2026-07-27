@@ -71,11 +71,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 20 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 25 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 18 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 22 / 25              |
+| **TOTAL**                             | -- / 100        | 85 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Il y a un besoin clair et urgent d'un mécanisme automatisé de résolution de conflits M2M avec l'augmentation de l'autonomie des agents. L'approche cryptographique et déterministe offre une confiance absolue, ce qui le rend très résistant à un remplacement par un LLM générique. La principale friction réside dans l'effort d'intégration initial, mais la monétisation à l'usage est bien alignée.

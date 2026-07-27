@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| **Thesis & Monopoly / Urgency** | -- / 25         | 22 / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | 25 / 25             |
+| **Scalability / UX Friction**   | -- / 25         | 16 / 25             |
+| **Unit Economics / ROI**        | -- / 25         | 23 / 25             |
+| **TOTAL**                       | -- / 100        | 86 / 100            |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Bridging modern AI agents with archaic enterprise systems solves a massive modernization bottleneck. The necessity of handling SOAP, mainframes, and complex rate limits creates a powerful defensive moat that cloud-native LLMs cannot address. While the technical integration is highly complex, the massive ROI of unlocking legacy data ensures strong enterprise monetization.

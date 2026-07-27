@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 20 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 24 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 15 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 22 / 25              |
+| **TOTAL**                             | -- / 100        | 81 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Garantir que le code traduit par l'IA correspond parfaitement au comportement du système d'origine est très précieux pour les institutions averses au risque. L'exécution symbolique fournit un fossé robuste distinct de la génération de langage. Le processus d'intégration lourd présente des frictions, mais l'assurance spécialisée vaut un prix premium.

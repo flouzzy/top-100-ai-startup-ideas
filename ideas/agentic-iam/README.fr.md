@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 25 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 24 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 18 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 25 / 25              |
+| **TOTAL**                             | -- / 100        | 92 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Gérer l'identité des agents autonomes est le plus grand obstacle à l'adoption de l'IA en entreprise, créant une immense désirabilité. Un IAM dédié aux machines nécessite des intégrations profondes, construisant un fossé inattaquable. Bien que le déploiement implique des frictions, l'exigence de sécurité garantit une forte disposition à payer.

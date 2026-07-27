@@ -56,11 +56,11 @@ Le système agit comme un middleware enveloppant la couche d'exécution de l'age
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------: | :------------------: |
-| **Thèse & Monopole / Urgence**        |     -- / 25     |       -- / 25        |
-| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       -- / 25        |
-| **Scalabilité / Friction d'adoption** |     -- / 25     |       -- / 25        |
-| **Unit Economics / ROI direct**       |     -- / 25     |       -- / 25        |
-| **TOTAL**                             |  **-- / 100**   |     **-- / 100**     |
+| **Thèse & Monopole / Urgence**        |     -- / 25     |       23 / 25        |
+| **Moat / Résistance aux LLM natifs**  |     -- / 25     |       22 / 25        |
+| **Scalabilité / Friction d'adoption** |     -- / 25     |       20 / 25        |
+| **Unit Economics / ROI direct**       |     -- / 25     |       24 / 25        |
+| **TOTAL**                             |  **-- / 100**   |     **89 / 100**     |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Éviter la perte d'état et le gaspillage de tokens lors des échecs d'agents est un besoin opérationnel critique. L'infrastructure spécialisée est détachée du LLM, lui conférant une forte immunité. Elle s'intègre parfaitement aux architectures asynchrones modernes, avec une voie directe vers la monétisation.

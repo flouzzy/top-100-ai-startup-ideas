@@ -72,11 +72,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 24 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 22 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 21 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 23 / 25              |
+| **TOTAL**                             | -- / 100        | 90 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Le problème des coûts liés aux agents hors de contrôle est très aigu, offrant une valeur immédiate aux équipes DevOps. Le fait d'opérer comme un collecteur réseau crée une couche de défense forte en dehors de l'environnement LLM. L'adoption est simple pour les équipes d'infrastructure, avec un ROI clair.

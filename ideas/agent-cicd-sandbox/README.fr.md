@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 23 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 24 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 19 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 21 / 25              |
+| **TOTAL**                             | -- / 100        | 87 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Le test des agents autonomes est un goulot d'étranglement critique, créant une immense urgence. Un bac à sable déterministe simulant les boucles infinies offre un fossé défensif puissant. Une friction d'adoption existe au niveau de l'intégration CI/CD, mais le ROI clair pour éviter les catastrophes justifie le prix.

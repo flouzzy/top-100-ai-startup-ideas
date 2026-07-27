@@ -71,11 +71,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 19 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 21 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 22 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 20 / 25              |
+| **TOTAL**                             | -- / 100        | 82 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Protéger les données contre les bots de scraping avancés est une bataille continue, offrant une urgence modérée à élevée. Utiliser l'IA générative pour piéger les acteurs malveillants est un mécanisme de défense astucieux. La nature de l'infrastructure réduit les frictions, et les budgets de cybersécurité peuvent absorber les coûts.

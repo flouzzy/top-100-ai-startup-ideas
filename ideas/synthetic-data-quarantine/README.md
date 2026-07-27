@@ -57,11 +57,11 @@ A data pipeline system (API/Gateway) that analyzes training data streams in real
 
 | Criteria                             | VC Score (/100) | Market Score (/100) |
 | :----------------------------------- | :-------------: | :-----------------: |
-| **Thesis & Monopoly / Urgency**      |     -- / 25     |       -- / 25       |
-| **Moat / Resistance to Native LLMs** |     -- / 25     |       -- / 25       |
-| **Scalability / Adoption Friction**  |     -- / 25     |       -- / 25       |
-| **Unit Economics / Direct ROI**      |     -- / 25     |       -- / 25       |
-| **TOTAL**                            |  **-- / 100**   |    **-- / 100**     |
+| **Thesis & Monopoly / Urgency**      |     -- / 25     |       21 / 25       |
+| **Moat / Resistance to Native LLMs** |     -- / 25     |       23 / 25       |
+| **Scalability / Adoption Friction**  |     -- / 25     |       19 / 25       |
+| **Unit Economics / Direct ROI**      |     -- / 25     |       21 / 25       |
+| **TOTAL**                            |  **-- / 100**   |    **84 / 100**     |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Preventing model collapse by filtering synthetic data is crucial for companies training proprietary models. The specialized detection algorithms form a strong layer of defense independent of base LLMs. Integration into data pipelines requires some effort, but the necessity of maintaining data integrity supports a strong B2B subscription model.

@@ -69,11 +69,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| **Thesis & Monopoly / Urgency** | -- / 25         | 23 / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | 25 / 25             |
+| **Scalability / UX Friction**   | -- / 25         | 20 / 25             |
+| **Unit Economics / ROI**        | -- / 25         | 23 / 25             |
+| **TOTAL**                       | -- / 100        | 91 / 100            |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Discovering unauthorized AI tools operating on corporate networks is a fast-growing concern for CISOs. Operating as an NDR platform gives it a tremendous defensive moat, as it analyzes network traffic independent of the AI vendors. Network deployment carries moderate friction, but security budgets are readily available for this critical visibility.

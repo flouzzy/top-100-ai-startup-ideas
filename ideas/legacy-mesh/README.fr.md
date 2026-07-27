@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 22 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 25 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 16 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 23 / 25              |
+| **TOTAL**                             | -- / 100        | 86 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Relier les agents IA modernes aux systèmes d'entreprise archaïques résout un goulot d'étranglement massif de modernisation. La nécessité de gérer SOAP et les mainframes crée un fossé défensif puissant. Bien que l'intégration soit très complexe, le ROI massif de l'accès aux données obsolètes assure une forte monétisation.

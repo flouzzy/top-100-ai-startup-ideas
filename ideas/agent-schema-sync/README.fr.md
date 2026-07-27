@@ -68,11 +68,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 21 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 23 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 24 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 22 / 25              |
+| **TOTAL**                             | -- / 100        | 90 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Les changements silencieux d'API qui cassent les intégrations sont un casse-tête constant, rendant ce proxy très attractif. La traduction sémantique des intentions crée un intergiciel résilient. Il présente une très faible friction d'adoption en tant que proxy, avec une proposition de valeur claire pour les développeurs.
