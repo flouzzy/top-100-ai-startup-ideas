@@ -4,7 +4,7 @@
 
 # Legacy Twin
 
-> **Executive Summary:** A differential fuzzing and symbolic execution engine that mathematically proves strict semantic equivalence between legacy COBOL/Fortran code and AI-translated modern code.
+> **Executive Summary:** A differential fuzzing and symbolic execution engine that mathematically guarantees AI-translated modern code behaves exactly like the original legacy system.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -12,72 +12,69 @@
 
 ---
 
-## 1. Visual Overview
+## 1. Visual Overview & Wow Effect
 
 ```mermaid
 graph TD
-    A["Legacy Code (COBOL)"] --> B{"Legacy Twin Engine"}
-    C["AI-Translated Code (Java/Go)"] --> B
-    B -->|SMT Solvers & Fuzzing| D["Differential Memory State Analysis"]
-    D -->|Mismatch| E["Alert: Semantic Drift"]
-    D -->|Match| F["Certified Safe Deployment"]
+    %% Architecture
+    A["Legacy Code (COBOL)"] --> C{"Symbolic Execution Engine"}
+    B["AI Translated Code (Java)"] --> C
+    C -->|Differential Fuzzing| D["Proof of Equivalence"]
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** Large Language Models are amazing at translating legacy code like COBOL to Java, thus solving the legacy migration problem.
-- **Hidden Truth:** Generating translated code is the easy part. The real bottleneck is proving that the new code perfectly replicates 40 years of undocumented edge cases. Manual testing takes longer than the translation itself, and enterprises won't deploy AI-generated code without formal mathematical proof of equivalence.
+**Popular Belief:** AI can instantly translate COBOL to Java, solving the legacy modernization crisis.
+
+**Hidden Truth:** Translation is easy; proving semantic equivalence is the hard, unsolved problem preventing actual deployment.
 
 ## 3. Problem & Target Market
 
-- **Business Model:** B2B
-- **Target Audience:** CIOs, Cloud Architects, and IT Modernization teams in large enterprises (banks, insurance, institutions) migrating Legacy systems.
-- **Urgent Pain Point:** AI is used to massively translate Legacy code, but enterprises don't dare deploy it because it's impossible to guarantee it reproduces the exact same complex business logic. Manual validation is prohibitively expensive.
+**Business Model:** B2B
+**Target Audience:** CIOs, cloud architects, and IT modernization teams migrating Legacy systems (COBOL, Fortran) in large institutions.
+**Urgent Pain Point:** AI is used to translate code, but manual validation testing costs more and takes longer than the translation itself due to fear of edge-case failures.
 
 ## 4. Technical Architecture & Infrastructure
 
+**Technical Approach:** Differential fuzzing and symbolic execution engine. Ingests legacy and translated code, generates millions of test scenarios via SMT solvers, and strictly compares memory states and outputs.
+
 ```mermaid
 sequenceDiagram
-    participant LLM as Translation LLM
-    participant LT as Legacy Twin Engine
-    participant SMT as SMT Solvers
-    LLM->>LT: Submit translated code
-    LT->>SMT: Ingest original COBOL + translated code
-    loop Millions of Scenarios
-        SMT->>SMT: Generate differential fuzzing inputs
-        SMT->>LT: Compare memory states & outputs
-    end
-    alt Strict Equivalence
-        LT-->>LLM: Output Certified
-    else Mismatch Found
-        LT-->>LLM: Return Failing Edge Case
-    end
+    participant SMT as "SMT Solver"
+    participant Legacy as "COBOL Env"
+    participant Mod as "Java Env"
+    SMT->>SMT: Generate 1M Edge Cases
+    SMT->>Legacy: Execute Input X
+    SMT->>Mod: Execute Input X
+    Legacy-->>SMT: State Output 1
+    Mod-->>SMT: State Output 2
+    SMT->>SMT: Compare (Must be identical)
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                                     |
-| ---------------------- | ----------------------------------------- |
-| Pricing Structure      | Per Application / Lines of Code Certified |
-| 12-Month Target        | 20 Major Enterprise Migrations            |
-| Revenue Formula        | 20 \* €50,000 per migration = 1.0M€       |
-| Estimated Gross Margin | 80%                                       |
+| Metric                     | Value                                             |
+| :------------------------- | :------------------------------------------------ |
+| **Pricing Structure**      | Per Line of Code Evaluated / Project Basis        |
+| **12-Month Target**        | 10 Major Migration Projects                       |
+| **Revenue Formula**        | 10 projects \* $120k/year = $1.2M/year ($100k/mo) |
+| **Estimated Gross Margin** | 90%                                               |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** High-ticket B2B sales in partnership with cloud providers (AWS Mainframe Modernization, Azure) and Global System Integrators handling legacy migrations.
-- **Moat (Defensibility):** Proving state equivalence requires deterministic mathematical solvers (SMT) and a complex differential fuzzing infrastructure, which a probabilistic text-based model cannot accomplish on its own.
+**Acquisition Strategy:** Partnerships with major cloud providers (AWS, Azure) and global system integrators (Accenture, Capgemini).
+
+**Moat (Defensibility):** LLMs can translate syntax but cannot execute code or formally prove state equivalence. Requires deterministic mathematical solvers (SMT) and complex fuzzing infrastructure.
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                   | VC Score (/100) | Market Score (/100) |
-| --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Criterion                       | VC Score (/100) | Market Score (/100) |
+| :------------------------------ | :-------------- | :------------------ |
+| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
+| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
+| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
+| **TOTAL**                       | -- / 100        | -- / 100            |
 
 > **VC Verdict:** Pending evaluation.
-
 > **Market Verdict:** Pending evaluation.

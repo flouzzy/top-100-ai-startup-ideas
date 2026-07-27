@@ -4,7 +4,7 @@
 
 # ShadowAgent Hunter
 
-> **Executive Summary:*x A Network Detection and Response (NDR) platform specifically designed to identify, quarantine, and block unauthorized "rogue" autonomous AI agents deployed by employees.
+> **Executive Summary:** A Network Detection and Response (NDR) platform designed to identify, map, and block unauthorized rogue AI agents deployed secretly by employees.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -16,65 +16,64 @@
 
 ```mermaid
 graph TD
-    A["Employee (Shadow AI)"] -->|Deploy Script/Agent| B{"ShadowAgent Hunter (NDR)"}
-    B -->|Monitor Network Traffic| C["Firewalls & Proxies"]
-    B -->|Detect Agentic Signatures| D["Anomaly Detection (Superhuman API calls)"]
-    D -->|Rogue Agent Found| E["Quarantine / Block Access"]
-    D -->|Normal Traffic| F["Allow Traffic to Internal DBs/APIs"]
+    %% Architecture
+    A["Rogue Employee Agent"] -->|Uses internal API| B{"NDR Router"}
+    B -->|Agentic Signature Detected| C["SecOps Dashboard"]
+    B -->|Quarantine Block| A
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:*x Shadow IT is a solved problem thanks to modern Identity Management and Cloud Access Security Brokers (CASBs).
-- **Hidden Truth:*x "Shadow AI" is rapidly replacing Shadow IT. Employees are deploying their own autonomous agents that use personal API keys and local scripts to access internal databases, bypassing traditional Data Loss Prevention (DLP) and creating unauditable, critical security breaches.
+**Popular Belief:** Existing Data Loss Prevention (DLP) and firewalls can stop unauthorized AI usage.
+
+**Hidden Truth:** Shadow AI agents use legitimate credentials and behave asynchronously, bypassing traditional DLP tools completely.
 
 ## 3. Problem & Target Market
 
-- **Business Model:*x B2B
-- **Target Audience:*x CISOs, SecOps teams, and network administrators in large enterprises.
-- **Urgent Pain Point:*x Unsupervised AI agents manipulate sensitive data without the company's knowledge. They evade classic security controls and expose the organization to massive compliance and data exfiltration risks that are impossible to audit manually.
+**Business Model:** B2B
+**Target Audience:** CISOs, SecOps teams, and network administrators in large enterprises.
+**Urgent Pain Point:** Employees secretly deploy local agents that access internal DBs and manipulate sensitive data, causing un-auditable critical security breaches.
 
 ## 4. Technical Architecture & Infrastructure
 
+**Technical Approach:** An NDR platform mapping agentic behavioral signatures. Integrates with firewalls to analyze real-time traffic, spotting superhuman request frequencies and undocumented M2M loops to quarantine rogue scripts.
+
 ```mermaid
 sequenceDiagram
-    participant RogueAgent as Employee Rogue Agent
-    participant Hunter as ShadowAgent Hunter
-    participant InternalAPI as Internal Databases/APIs
-    RogueAgent->>Hunter: Asynchronous Navigation & API Calls
-    Hunter->>Hunter: Analyze Network Packets & Heuristics
-    alt Superhuman frequency & undeclared loops
-        Hunter-->>RogueAgent: Connection Dropped / Quarantined
-        Hunter->>SecOps: Alert: Shadow AI Detected
-    else Human-like / Whitelisted
-        Hunter->>InternalAPI: Forward Request
-    end
+    participant Rogue as "Shadow Agent"
+    participant Hunter as "NDR Platform"
+    participant DB as "Internal DB"
+    Rogue->>DB: Rapid Async Queries
+    Hunter->>Hunter: Analyze Packet Timing & Frequency
+    Hunter->>Hunter: Match 'Agentic' Heuristics
+    Hunter-->>Rogue: Drop Connection (TCP Reset)
+    Hunter->>SecOps: Trigger Critical Alert
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                                          |
-| ---------------------- | ---------------------------------------------- |
-| Pricing Structure      | Enterprise License / Number of Protected Nodes |
-| 12-Month Target        | 50 Enterprise Clients                          |
-| Revenue Formula        | 50 _ €2,000 / month _ 12 = 1.2M€               |
-| Estimated Gross Margin | 85%                                            |
+| Metric                     | Value                                                 |
+| :------------------------- | :---------------------------------------------------- |
+| **Pricing Structure**      | Enterprise License based on Network Bandwidth / Nodes |
+| **12-Month Target**        | 25 Enterprise Contracts                               |
+| **Revenue Formula**        | 25 contracts \* $4k/mo = $100k/mo                     |
+| **Estimated Gross Margin** | 85%                                                   |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:*x Direct B2B sales to enterprise security teams. Integration with existing enterprise firewalls and proxy solutions as an "AI Security" module.
-- **Moat (Defensibility):*x A generative text model (LLM) cannot interface with enterprise routers, inspect real-time TCP/IP traffic, or apply detection heuristics on terabytes of network logs. This requires dedicated, low-level network inspection infrastructure that is hard to replicate.
+**Acquisition Strategy:** Enterprise cybersecurity channel partners and direct CISO outreach.
+
+**Moat (Defensibility):** LLMs are text generators, not packet analyzers. Identifying autonomous scripts requires low-level network infrastructure and heuristics over terabytes of TCP/IP logs.
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                   | VC Score (/100) | Market Score (/100) |
-| --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL*x                   | **-- / 100*x    | **-- / 100*x        |
+| Criterion                       | VC Score (/100) | Market Score (/100) |
+| :------------------------------ | :-------------- | :------------------ |
+| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
+| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
+| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
+| **TOTAL**                       | -- / 100        | -- / 100            |
 
-> **VC Verdict:*x Pending evaluation.
-
-> **Market Verdict:*x Pending evaluation.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Pending evaluation.
