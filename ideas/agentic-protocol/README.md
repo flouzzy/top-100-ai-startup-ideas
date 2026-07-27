@@ -56,7 +56,7 @@ sequenceDiagram
 | Metric                      | Value                                   | Pricing Structure              | 12-Month Target                     | Revenue Calculation (100k€ Target)                                   | Estimated Gross Margin            |
 | :-------------------------- | :-------------------------------------- | :----------------------------- | :---------------------------------- | :------------------------------------------------------------------- | :-------------------------------- |
 | **Micro-commission M2M**    | Take rate on exchanges                  | 1% commission on traded volume | 30 million micro-transactions/month | `(30M tx * $0.03 average basket) * 1% = 9,000€ MRR` (i.e. 108k€ ARR) | 95% (Pure orchestration software) |
-| **Enterprise Subscription** | Guaranteed SLA access & Compliance logs | 500€ / month / agent fleet     | 50 active agent fleets              | `50 * 500€ * 12 = 300,000€ ARR`                                      | 90% (Cloud Infrastructure)        |
+| **Enterprise Subscription** | Guaranteed SLA access & Compliance logs | 500€ / month / agent fleet     | 50 active agent fleets              | `50 x 500€ * 12 = 300,000€ ARR`                                      | 90% (Cloud Infrastructure)        |
 
 ## 6. Distribution Engine & Defensive Moat (Moat)
 
