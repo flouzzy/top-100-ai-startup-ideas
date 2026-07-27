@@ -1,0 +1,6 @@
+__pycache__/
+transform.py
+temp_output.txt
+wc_out.txt
+git_status_count.txt
+status.txt
