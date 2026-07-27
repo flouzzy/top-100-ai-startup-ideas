@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules/
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+
+# Output
+target/
+build/
+dist/
+coverage/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Generated
+*.svg
+process_candidates.py
+fix_markdownlint.py
