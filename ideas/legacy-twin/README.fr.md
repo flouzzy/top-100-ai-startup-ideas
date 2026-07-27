@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | 21 / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | 23 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 20 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 22 / 25         | -- / 25              |
+| **TOTAL**                             | 86 / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Legacy Twin crée un clone opérationnel moderne d'une infrastructure d'entreprise obsolète, permettant l'intégration d'agents IA sans risquer de casser des mainframes fragiles. L'approche par jumeau numérique est un coup de maître défensif qui contourne le risque de l'ancien, verrouillant les clients avec une dette IT massive. Les contrats B2B sont conséquents, bien que le cycle de vente puisse être long.
 > **Verdict Terrain :** En attente d'évaluation.

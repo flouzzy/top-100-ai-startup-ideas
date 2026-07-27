@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | 22 / 25         | 21 / 25              |
+| **Moat / Résistance aux LLM natifs**  | 21 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 23 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 24 / 25         | -- / 25              |
+| **TOTAL**                             | 90 / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Agent CI/CD Sandbox répond au besoin imminent de tester les agents autonomes en toute sécurité avant leur mise en production. En s'appropriant le pipeline DevOps pour l'IA, le produit crée un fort verrouillage technologique. Les unit economics du SaaS B2B sont excellentes, offrant une voie claire vers des revenus scalables.
 > **Verdict Terrain :** En attente d'évaluation.
