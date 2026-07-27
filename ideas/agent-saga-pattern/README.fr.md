@@ -84,12 +84,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | ------------------------------------- | --------------- | -------------------- |
-| **Thèse & Monopole / Urgence**        | 24 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 25 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 22 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 24 / 25         | -- / 25              |
-| **TOTAL**                             | **95 / 100**    | -- / 100             |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 20 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 21 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 12 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 19 / 25              |
+| **TOTAL**                             | -- / 100        | 72 / 100             |
 
 > **Verdict VC :** AgentSaga attaque un problème d'infrastructure fondamental des flux multi-agents : l'absence de transactionnalité. En agissant comme un orchestrateur asynchrone indépendant de l'état probabiliste des LLM, le produit se rend indispensable pour tout déploiement en production critique, créant un verrouillage technologique (moat) extrêmement profond. L'approche API transactionnelle garantit une rentabilité forte une fois intégré dans les plateformes RPA.
 
-> **Verdict Terrain :** Résout un problème complexe de systèmes distribués pour les agents. Forte utilité, mais friction d'adoption importante car elle impose aux développeurs un nouveau paradigme d'orchestration.
+> **Verdict Terrain :** Garantir des transactions distribuées avec rollback est indispensable pour les agents effectuant des achats ou des réservations complexes. L'immunité est forte car la logique déterministe est complexe à halluciner avec un LLM probabiliste. L'adoption sera freinée par la complexité de l'intégration dans des architectures hétérogènes, limitant l'adoption initiale.
