@@ -1,0 +1,10 @@
+<!-- markdownlint-disable MD013 -->
+# Candidat : OrbitBot Servicer
+
+* **Domaine principal :** Robotique & Systèmes embarqués
+* **Modèle économique :** B2B / B2G
+* **Cible :** Opérateurs de constellations de satellites (Starlink, Kuiper, Intelsat), agences spatiales (ESA, NASA) et forces spatiales militaires (US Space Force).
+* **Le problème urgent :** Les satellites coûtent des centaines de millions à lancer. Or, une panne mécanique mineure (un panneau solaire bloqué) ou l'épuisement du carburant de maintien à poste rend le satellite complètement inutile, le transformant en un dangereux débris spatial. Il n'existe actuellement aucune infrastructure robotique agile et standardisée pour ravitailler, réparer physiquement ou désorbiter en toute sécurité ces actifs critiques directement en orbite.
+* **L'approche technique :** Développement d'une flotte de petits cobots de service spatial ("Space Tugs") équipés de bras robotiques à retour de force haptique. L'intelligence à bord repose sur un système de vision par ordinateur neuromorphique fonctionnant en temps réel pour l'approche de rendez-vous non-coopérative (le satellite cible tourne sur lui-même). Les bras robotiques utilisent l'apprentissage par renforcement (RL) pour s'adapter à des ports d'amarrage non standardisés et exécuter des réparations sous latence extrême.
+* **Pourquoi une solution générique/SaaS classique échoue :** Télé-opérer un bras robotique depuis la Terre avec une latence de signal (parfois > 2 secondes) est impossible pour des opérations de contact délicates : le robot détruirait le satellite. Il faut une autonomie d'exécution spatiale (Edge AI sur matériel Rad-Hardened) combinée à une mécanique de haute précision dans le vide.
+* **Risques majeurs & Dépendances :** La qualification spatiale du matériel (Radiation hardening, résistance au vide et aux gradients thermiques), le risque d'aggraver la situation en créant plus de débris lors d'une manœuvre ratée, et le flou juridique international concernant la manipulation d'actifs spatiaux appartenant à des tiers.

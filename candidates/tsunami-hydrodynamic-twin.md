@@ -1,0 +1,10 @@
+<!-- markdownlint-disable MD013 -->
+# Candidat : Tsunami Hydro-Twin
+
+* **Domaine principal :** World Models & Simulation physique
+* **Modèle économique :** B2G
+* **Cible :** Systèmes d'alerte aux tsunamis (ex: PTWC), gouvernements côtiers, assurances, et gestionnaires d'infrastructures critiques côtières (centrales nucléaires, ports).
+* **Le problème urgent :** Lors d'un séisme sous-marin, les alertes tsunami actuelles reposent sur des modèles bathymétriques simplifiés et des tables précalculées. La prédiction de la hauteur exacte de la vague et de la zone d'inondation locale (run-up) prend trop de temps à calculer avec précision (souvent >15-30 mins). Cette latence et le manque de granularité locale entraînent de fausses alertes coûteuses ou, pire, des évacuations tardives fatales et la destruction d'infrastructures mal préparées.
+* **L'approche technique :** Création d'un jumeau numérique hydrodynamique fonctionnant en temps réel grâce à l'IA (Physics-Informed Neural Networks) accélérant la résolution des équations de Navier-Stokes en eau peu profonde. Le système ingère les données sismiques et de bouées en temps réel, et simule la propagation non linéaire de l'onde sur une bathymétrie haute résolution, prédisant l'inondation exacte au mètre près, rue par rue, en quelques secondes.
+* **Pourquoi une solution générique/SaaS classique échoue :** L'hydrodynamique côtière impliquant le déferlement, la friction du fond, et la topographie urbaine est extrêmement non-linéaire. Un SaaS météo standard ou un modèle statistique ne peut pas capturer ces dynamiques fluides complexes. Les simulateurs CPU traditionnels sont précis mais beaucoup trop lents pour l'urgence vitale.
+* **Risques majeurs & Dépendances :** Besoin de cartes bathymétriques (fonds marins) côtières de très haute résolution (souvent classifiées par les marines militaires ou inexistantes), difficulté à valider empiriquement le modèle (les événements sont rares), et responsabilité morale/légale immense en cas d'erreur de prédiction d'évacuation.
