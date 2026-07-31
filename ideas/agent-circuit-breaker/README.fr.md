@@ -72,10 +72,10 @@ sequenceDiagram
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
 | **Thèse & Monopole / Urgence**        | 24 / 25         | 25 / 25              |
-| **Moat / Résistance aux LLM natifs**  | 25 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 20 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 22 / 25         | -- / 25              |
-| **TOTAL**                             | 91 / 100        | -- / 100             |
+| **Moat / Résistance aux LLM natifs**  | 25 / 25         | 23 / 25              |
+| **Scalabilité / Friction d'adoption** | 20 / 25         | 20 / 25              |
+| **Unit Economics / ROI direct**       | 22 / 25         | 23 / 25              |
+| **TOTAL**                             | 91 / 100        | 19 / 100             |
 
 > **Verdict VC :** Agent Circuit Breaker fournit l'infrastructure de sécurité financière et opérationnelle obligatoire pour les déploiements d'IA en entreprise. Opérer au niveau réseau le rend immunisé aux changements de modèles sous-jacents et essentiel pour éviter l'explosion des coûts. Le ROI indéniable lié à l'évitement de factures API catastrophiques garantit une adoption rapide.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour le marché cible, justifiant son excellent score d'urgence (23/25). L'approche spécialisée offre une protection robuste contre les modèles d'IA généralistes (20/25). Avec une faible friction d'adoption (23/25) et une stratégie de monétisation directe (19/25), le projet démontre une excellente maturité marché globale.

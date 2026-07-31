@@ -60,11 +60,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| TOTAL                             | -- / 100        | -- / 100             |
+| Thèse & Monopole / Urgence        | 20 / 25         | 20 / 25              |
+| Moat / Résistance aux LLM natifs  | 17 / 25         | 17 / 25              |
+| Scalabilité / Friction d'adoption | 22 / 25         | 22 / 25              |
+| Unit Economics / ROI direct       | 19 / 25         | 19 / 25              |
+| TOTAL                             | 78 / 100        | 78 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour les entreprises B2B, justifiant son excellent score d'urgence (20/25). Bien que viable, elle reste partiellement exposée à l'évolution rapide des modèles fondationnels (17/25). Avec une faible friction d'adoption (22/25) et une stratégie de monétisation directe (19/25), le projet démontre une excellente maturité marché globale.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour les entreprises B2B, justifiant son excellent score d'urgence (20/25). Bien que viable, elle reste partiellement exposée à l'évolution rapide des modèles fondationnels (17/25). Avec une faible friction d'adoption (22/25) et une stratégie de monétisation directe (19/25), le projet démontre une excellente maturité marché globale.

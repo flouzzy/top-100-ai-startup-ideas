@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 22 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 23 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 24 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 23 / 25         | -- / 25              |
-| **TOTAL**                             | 92 / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | 22 / 25         | 22 / 25              |
+| **Moat / Résistance aux LLM natifs**  | 23 / 25         | 24 / 25              |
+| **Scalabilité / Friction d'adoption** | 24 / 25         | 18 / 25              |
+| **Unit Economics / ROI direct**       | 23 / 25         | 22 / 25              |
+| **TOTAL**                             | 92 / 100        | 86 / 100             |
 
 > **Verdict VC :** Zombie Agent Reaper, à l'instar d'Agent Reaper, est une infrastructure critique pour protéger les organisations contre la dévastation financière des agents en boucle infinie. Il agit efficacement comme un limiteur de taux dynamique et un coupe-circuit pour le contrôle des coûts. Le ROI financier indéniable garantit une adoption rapide par les développeurs et d'excellentes unit economics.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour le marché cible, justifiant son excellent score d'urgence (22/25). Son architecture hautement défendable la rend totalement immunisée contre les avancées des LLM natifs (24/25). Avec une faible friction d'adoption (18/25) et une stratégie de monétisation directe (22/25), le projet démontre une excellente maturité marché globale.

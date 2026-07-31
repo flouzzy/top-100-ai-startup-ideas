@@ -68,11 +68,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 21 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 23 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 24 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 23 / 25         | -- / 25              |
-| **TOTAL**                             | 91 / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | 21 / 25         | 23 / 25              |
+| **Moat / Résistance aux LLM natifs**  | 23 / 25         | 24 / 25              |
+| **Scalabilité / Friction d'adoption** | 24 / 25         | 18 / 25              |
+| **Unit Economics / ROI direct**       | 23 / 25         | 19 / 25              |
+| **TOTAL**                             | 91 / 100        | 84 / 100             |
 
 > **Verdict VC :** Agent Schema Sync résout le problème extrêmement douloureux et fastidieux de la dérive des spécifications API pour les agents autonomes. En devenant la source de vérité pour les contrats agent-système, il s'intègre profondément dans l'infrastructure, le rendant très difficile à remplacer. C'est une solution B2B très scalable et centrée sur les développeurs.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour le marché cible, justifiant son excellent score d'urgence (23/25). Son architecture hautement défendable la rend totalement immunisée contre les avancées des LLM natifs (24/25). Avec une faible friction d'adoption (18/25) et une stratégie de monétisation directe (19/25), le projet démontre une excellente maturité marché globale.
