@@ -60,11 +60,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| TOTAL                             | -- / 100        | -- / 100             |
+| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 18 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
+| TOTAL                             | 91 / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Quantum Defect Sensor répond à un problème de rendement existentiel pour l'industrie des semi-conducteurs sur les nœuds sub-2nm. Le fossé défensif matériel est impénétrable par les logiciels ou l'IA standard, reposant sur la manipulation complexe des centres NV. Bien que la scalabilité matérielle soit plus lente qu'un SaaS, le potentiel de monopole sur ce goulet d'étranglement critique garantit un pouvoir de tarification extrême.
 > **Verdict Terrain :** En attente d'évaluation.

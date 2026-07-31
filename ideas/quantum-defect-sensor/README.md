@@ -60,11 +60,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| TOTAL                       | -- / 100        | -- / 100            |
+| Thesis & Monopoly / Urgency | 25 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
+| Scalability / UX Friction   | 18 / 25         | -- / 25             |
+| Unit Economics / ROI        | 23 / 25         | -- / 25             |
+| TOTAL                       | 91 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Quantum Defect Sensor addresses an existential yield problem for the multi-billion dollar semiconductor industry at sub-2nm nodes. The hardware moat is impenetrable by standard software or AI, relying on advanced condensed matter physics and NV center manipulation. While hardware scalability is slower than pure SaaS, the monopoly potential in this critical manufacturing bottleneck guarantees extreme pricing leverage.
 > **Market Verdict:** Pending evaluation.
