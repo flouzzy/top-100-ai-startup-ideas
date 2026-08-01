@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 24 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 25 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 23 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 24 / 25         | -- / 25              |
-| **TOTAL**                             | 96 / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | 24 / 25         | 19 / 25              |
+| **Moat / Résistance aux LLM natifs**  | 25 / 25         | 20 / 25              |
+| **Scalabilité / Friction d'adoption** | 23 / 25         | 24 / 25              |
+| **Unit Economics / ROI direct**       | 24 / 25         | 20 / 25              |
+| **TOTAL**                             | 96 / 100        | 83 / 100             |
 
 > **Verdict VC :** Agentic IAM capture le marché massif et totalement inexploité de la gestion des identités et des accès strictement pour les machines et les agents IA. Il construit l'équivalent de 'Okta pour les agents', ce qui crée un fossé infrastructurel inattaquable. La nécessité structurelle de ce produit garantit une adoption rapide en entreprise et des fondamentaux économiques exceptionnels.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour le marché cible, justifiant son excellent score d'urgence (19/25). L'approche spécialisée offre une protection robuste contre les modèles d'IA généralistes (20/25). Avec une faible friction d'adoption (24/25) et une stratégie de monétisation directe (20/25), le projet démontre une excellente maturité marché globale.

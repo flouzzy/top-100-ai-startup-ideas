@@ -60,11 +60,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| TOTAL                             | -- / 100        | -- / 100             |
+| Thèse & Monopole / Urgence        | 20 / 25         | 20 / 25              |
+| Moat / Résistance aux LLM natifs  | 20 / 25         | 20 / 25              |
+| Scalabilité / Friction d'adoption | 21 / 25         | 21 / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | 22 / 25              |
+| TOTAL                             | 83 / 100        | 83 / 100             |
 
 > **Verdict VC :** Synthetic Data Quarantine résout le problème récursif de l'effondrement des modèles causé par l'entraînement sur des données générées par l'IA. Identifier et isoler les données synthétiques est un jeu d'infrastructure critique pour l'avenir des modèles fondationnels. Bien que très technique, devenir le filtre standard de l'industrie offre une forte rétention B2B et des marges solides.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour les entreprises B2B, justifiant son excellent score d'urgence (20/25). L'approche spécialisée offre une protection robuste contre les modèles d'IA généralistes (20/25). Avec une faible friction d'adoption (21/25) et une stratégie de monétisation directe (22/25), le projet démontre une excellente maturité marché globale.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour les entreprises B2B, justifiant son excellent score d'urgence (20/25). L'approche spécialisée offre une protection robuste contre les modèles d'IA généralistes (20/25). Avec une faible friction d'adoption (21/25) et une stratégie de monétisation directe (22/25), le projet démontre une excellente maturité marché globale.

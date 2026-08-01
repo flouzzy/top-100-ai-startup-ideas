@@ -62,12 +62,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 21 / 25         | 21 / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | 23 / 25              |
+| Scalabilité / Friction d'adoption | 16 / 25         | 16 / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | 21 / 25              |
+| **TOTAL**                         | **81 / 100**    | **81 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour le marché cible, justifiant son excellent score d'urgence (21/25). Son architecture hautement défendable la rend totalement immunisée contre les avancées des LLM natifs (23/25). Malgré une friction d'adoption significative (16/25), la voie claire vers la monétisation (21/25) garantit sa viabilité à long terme.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour le marché cible, justifiant son excellent score d'urgence (21/25). Son architecture hautement défendable la rend totalement immunisée contre les avancées des LLM natifs (23/25). Malgré une friction d'adoption significative (16/25), la voie claire vers la monétisation (21/25) garantit sa viabilité à long terme.

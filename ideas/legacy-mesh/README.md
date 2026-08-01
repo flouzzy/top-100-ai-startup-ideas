@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | 20 / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | 23 / 25         | -- / 25             |
-| **Scalability / UX Friction**   | 21 / 25         | -- / 25             |
-| **Unit Economics / ROI**        | 22 / 25         | -- / 25             |
-| **TOTAL**                       | 86 / 100        | -- / 100            |
+| **Thesis & Monopoly / Urgency** | 20 / 25         | 23 / 25             |
+| **Moat / LLM Immunity**         | 23 / 25         | 16 / 25             |
+| **Scalability / UX Friction**   | 21 / 25         | 23 / 25             |
+| **Unit Economics / ROI**        | 22 / 25         | 18 / 25             |
+| **TOTAL**                       | 86 / 100        | 80 / 100            |
 
 > **VC Verdict:** Legacy Mesh bridges the crucial gap between modern AI agents and archaic enterprise mainframes that run the global economy. The deep integration required into legacy systems creates extreme stickiness and defends against lightweight competitors. While adoption cycles may be long, the high contract values ensure strong enterprise economics.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** This solution addresses a critical pain point for the target market, justifying its strong urgency score (23/25). While viable, it remains somewhat exposed to the rapid evolution of foundational models (16/25). With low adoption friction (23/25) and a straightforward monetization strategy (18/25), the project demonstrates excellent overall market readiness.

@@ -73,10 +73,10 @@ sequenceDiagram
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
 | **Thèse & Monopole / Urgence**        | 23 / 25         | 24 / 25              |
-| **Moat / Résistance aux LLM natifs**  | 24 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 21 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 23 / 25         | -- / 25              |
-| **TOTAL**                             | 91 / 100        | -- / 100             |
+| **Moat / Résistance aux LLM natifs**  | 24 / 25         | 18 / 25              |
+| **Scalabilité / Friction d'adoption** | 21 / 25         | 23 / 25              |
+| **Unit Economics / ROI direct**       | 23 / 25         | 17 / 25              |
+| **TOTAL**                             | 91 / 100        | 23 / 100             |
 
 > **Verdict VC :** Agent Reaper offre une solution critique pour neutraliser les agents zombies et protéger les budgets cloud contre les boucles infinies. Son intégration au niveau réseau assure une immunité complète face aux LLM et une forte défendabilité architecturale. La proposition de valeur immédiate en réduction des coûts propulse des unit economics solides.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour le marché cible, justifiant son excellent score d'urgence (18/25). Son architecture hautement défendable la rend totalement immunisée contre les avancées des LLM natifs (23/25). Avec une faible friction d'adoption (17/25) et une stratégie de monétisation directe (23/25), le projet démontre une excellente maturité marché globale.

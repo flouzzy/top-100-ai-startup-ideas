@@ -71,11 +71,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 23 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 24 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 21 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 23 / 25         | -- / 25              |
-| **TOTAL**                             | 91 / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | 23 / 25         | 22 / 25              |
+| **Moat / Résistance aux LLM natifs**  | 24 / 25         | 20 / 25              |
+| **Scalabilité / Friction d'adoption** | 21 / 25         | 21 / 25              |
+| **Unit Economics / ROI direct**       | 23 / 25         | 23 / 25              |
+| **TOTAL**                             | 91 / 100        | 86 / 100             |
 
 > **Verdict VC :** Le Protocole d'Arbitrage pour Agents s'attaque à un goulot d'étranglement critique de l'économie multi-agents en standardisant la résolution de conflits. Établir un standard au niveau du protocole crée un effet de réseau massif et un quasi-monopole une fois adopté. Le modèle contourne totalement les capacités des LLM bruts, sécurisant un fossé B2B très scalable et rentable.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour les écosystèmes M2M, justifiant son excellent score d'urgence (22/25). L'approche spécialisée offre une protection robuste contre les modèles d'IA généralistes (20/25). Avec une faible friction d'adoption (21/25) et une stratégie de monétisation directe (23/25), le projet démontre une excellente maturité marché globale.
