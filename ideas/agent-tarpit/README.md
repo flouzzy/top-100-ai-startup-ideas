@@ -71,11 +71,11 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | 22 / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | 24 / 25         | -- / 25             |
-| **Scalability / UX Friction**   | 21 / 25         | -- / 25             |
-| **Unit Economics / ROI**        | 23 / 25         | -- / 25             |
-| **TOTAL**                       | 90 / 100        | -- / 100            |
+| **Thesis & Monopoly / Urgency** | 22 / 25         | 21 / 25             |
+| **Moat / LLM Immunity**         | 24 / 25         | 21 / 25             |
+| **Scalability / UX Friction**   | 21 / 25         | 22 / 25             |
+| **Unit Economics / ROI**        | 23 / 25         | 24 / 25             |
+| **TOTAL**                       | 90 / 100        | 88 / 100            |
 
 > **VC Verdict:** Agent Tarpit presents a highly contrarian and effective security infrastructure against adversarial AI attacks. Slowing down malicious agents financially ruins their operation, creating a powerful economic moat that raw LLMs cannot bypass. The clear defensive value proposition easily justifies enterprise cybersecurity budgets.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** This solution addresses a critical pain point for the target market, justifying its strong urgency score (21/25). The specialized approach provides robust protection against generalist AI models (21/25). With low adoption friction (22/25) and a straightforward monetization strategy (24/25), the project demonstrates excellent overall market readiness.
