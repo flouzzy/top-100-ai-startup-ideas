@@ -1,12 +1,12 @@
-<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD060 -->
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
 [ 🇬🇧 English Version ](./README.md)
 
 # PermaFrost Twin
 
-> **Résumé exécutif :** PermaFrost Twin est un jumeau numérique géothermique et hydrologique 4D qui ingère des pétaoctets de données satellitaires et IoT pour prédire l'effondrement du pergélisol (thermokarsts) à une résolution métrique, évitant des milliards de dollars de dégâts aux gouvernements et aux entreprises énergétiques.
+> **Résumé exécutif :** Un jumeau numérique prédictif 4D de la sous-surface arctique qui utilise l'IA et des données satellitaires multimodales pour anticiper le dégel du pergélisol et l'effondrement des infrastructures des années à l'avance.
 
-![Type: Modèle](https://img.shields.io/badge/Mod%C3%A8le-B2G%20%2F%20B2B-blue)
+![Type: B2B / B2G](https://img.shields.io/badge/Mod%C3%A8le-B2B%20%2F%20B2G-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
 
@@ -16,61 +16,75 @@
 
 ```mermaid
 graph TD
-    A["Placement d'infrastructures à l'aveugle<br>(Dégel et effondrement du pergélisol)"] --> B{"PermaFrost Twin (World Model 4D)"}
-    B -->|"InSAR, IoT & Simulation Géothermique"| C["Prédiction des effondrements à résolution métrique"]
-    C --> D["Maintenance préventive & Atténuation des risques<br>(Pipelines sauvés, Actifs assurables)"]
+    %% Schéma comparatif Problème vs Solution ou Flux d'architecture
+    subgraph Crise_Actuelle ["Opérations Arctiques Actuelles"]
+        A[Réchauffement climatique] --> B[Dégel imprévisible du pergélisol]
+        B --> C["Effondrement d'infrastructures (Pipelines, Routes)"]
+        C --> D["Catastrophes chiffrées en milliards D[Catastrophes chiffrées en milliards & Actifs inassurables] Actifs inassurables"]
+    end
+    subgraph PermaFrost_Twin ["PermaFrost Twin"]
+        E[Données Satellites & IoT] --> F[Modèle 4D Géothermique/Hydrologique]
+        F --> G[Prédiction de la transition de phase souterraine]
+        G --> H["Prévision du risque d'effondrement (Années à l'avance)"]
+        H --> I[Protection proactive des infrastructures]
+    end
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** Les systèmes d'information géographique (SIG) 2D traditionnels et les modèles de prévision météorologique standards suffisent pour surveiller la stabilité des sols dans l'Arctique.
-**La vérité cachée :** Les outils SIG standards sont statiques et bidimensionnels. Ils ne modélisent absolument pas la physique complexe de la transition de phase (glace vers eau) dans les matrices poreuses du sol couplée au bilan radiatif de surface. Prédire l'effondrement des sols nécessite un moteur de simulation géophysique 4D de pointe agissant comme un jumeau numérique de la sous-surface.
+**La croyance populaire :** Pour gérer les risques climatiques pesant sur les infrastructures, il suffit de construire des fondations plus solides et de s'appuyer sur des outils de cartographie 2D standard (SIG) pour suivre les changements de surface.
+
+**La vérité cachée :** La véritable menace est invisible et souterraine. Le dégel du pergélisol est une transition de phase non linéaire complexe (glace vers eau) dans un sol poreux. Les cartes 2D standards sont inutiles ici ; seul un modèle mondial 4D "deep-tech" informé par la physique peut prévoir avec précision les contraintes mécaniques souterraines et empêcher des catastrophes à plusieurs milliards avant que le sol ne s'effondre réellement.
 
 ## 3. Le problème & La cible
 
 **Modèle économique :** B2G / B2B
-**Cible précise :** Gouvernements (Arctique, Canada, Russie, Nordiques), compagnies pétrolières/gazières, assureurs, et gestionnaires d'infrastructures lourdes (routes, pipelines) dans les régions polaires.
-**La douleur urgente :** Le dégel du pergélisol (permafrost) dû au réchauffement climatique déstabilise les sols, provoquant l'effondrement d'infrastructures critiques (pipelines, routes, fondations de bâtiments) et libérant massivement du méthane (un puissant gaz à effet de serre). Les acteurs n'ont aucune visibilité spatio-temporelle précise sur les zones à risque d'effondrement, entraînant des milliards de dégâts, des marées noires (ex: Norilsk) et une impossibilité d'assurer ces actifs.
+
+**Cible précise :** Gouvernements (Nations arctiques, Canada, Pays nordiques), opérateurs pétroliers/gaziers, assureurs, et gestionnaires d'infrastructures lourdes (pipelines, routes, voies ferrées) dans les régions polaires.
+
+**La douleur urgente :** Le réchauffement climatique déstabilise le pergélisol, provoquant l'effondrement littéral d'infrastructures critiques (pipelines, fondations, autoroutes). Les opérateurs n'ont aucune visibilité spatio-temporelle précise sur les zones d'effondrement à haut risque, ce qui entraîne des catastrophes environnementales majeures (ex. marée noire de Norilsk), des milliards de coûts de réparation et rend ces actifs fondamentalement inassurables.
 
 ## 4. Architecture technique & Plomberie
 
 ```mermaid
 sequenceDiagram
-    participant Sat as "Satellites InSAR & Thermiques"
-    participant IoT as "Capteurs au sol (Sismique/Temp)"
-    participant Engine as "Moteur World Model Géothermique"
-    participant Gov as "Client Gouv/Énergie"
+    %% Schéma de séquence ou d'interaction entre l'utilisateur, l'IA et le système
+    participant S as Satellites (InSAR/Thermique)
+    participant IoT as Capteurs Sismiques/IoT au sol
+    participant WM as Moteur Modèle Mondial 4D
+    participant O as Opérateur d'infrastructure
 
-    Sat->>Engine: Pétaoctets de données spatiales de surface
-    IoT->>Engine: Données de calibration de terrain
-    Engine->>Engine: Simulation de la transition de phase & stress mécanique
-    Engine-->>Gov: Prédiction 4D de l'effondrement du sol (Des années à l'avance)
-    Note right of Gov: Déviation de pipeline ou renforcement préventif.
+    S->>WM: Ingestion de données de surface multimodales
+    IoT->>WM: Flux de données de calibration du sous-sol
+    WM->>WM: Simulation physique géothermique & hydrologique
+    WM->>WM: Modélisation contraintes transition glace-eau
+    WM-->>O: Alerte : Risque d'effondrement Pipeline X (3 ans)
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                | Valeur                                                                                             |
-| ----------------------- | -------------------------------------------------------------------------------------------------- |
-| **Structure de prix**   | Abonnement SaaS annuel (par km carré) + Accès API sur mesure                                       |
-| **Objectif 12 mois**    | 3 contrats pilotes avec des gouvernements de la région Arctique / grandes entreprises énergétiques |
-| **Calcul du CA**        | 3 Contrats \* 40 000€/an                                                                           |
-| **Marge brute estimée** | >75% (Post-coûts d'acquisition des données)                                                        |
+| Métrique                    | Valeur                                                              |
+| :-------------------------- | :------------------------------------------------------------------ |
+| Structure de prix           | SaaS Entreprise par paliers + Accès API pour assureurs              |
+| Objectif 12 mois            | 2 projets pilotes (ex. gouvernement arctique et major de l'énergie) |
+| Calcul du CA (Target 100k€) | 2 contrats de cartographie pilote \* 50 000 € = 100k€ ARR           |
+| Marge brute estimée         | 85% (Une fois les modèles ML fondamentaux entraînés et automatisés) |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-**Stratégie d'acquisition :** Ventes B2G et B2B directes, partenariats avec des réassureurs massifs (Swiss Re, Munich Re) pour imposer l'outil dans la souscription d'actifs arctiques.
-**Moat (Barrière à l'entrée) :** Les outils SIG traditionnels sont incapables de traiter la physique impliquée. Le fossé défensif repose sur le moteur physique propriétaire capable de modéliser les transitions de phase thermodynamiques à grande échelle, la barrière massive d'acquisition et de stockage de pétaoctets de données satellitaires haute résolution, et les données de terrain (forages) cruciales et difficiles à acquérir, nécessaires pour calibrer les modèles dans des zones inhospitalières.
+**Stratégie d'acquisition :** Ventes directes B2B/B2G de haut niveau ciblant les ministres des infrastructures des nations arctiques et les directeurs des risques des grandes entreprises d'énergie/assurance. Participer aux sommets mondiaux sur l'adaptation climatique.
+
+**Moat (Barrière à l'entrée) :** Les logiciels SIG standards ne peuvent pas modéliser la physique complexe des transitions de phase dans des matrices poreuses couplée au bilan radiatif de surface. Le fossé défensif (moat) réside dans le moteur de simulation propriétaire informé par la physique et dans l'ensemble de données massives d'imagerie satellitaire arctique agrégées historiquement, couplées à de rares données de calibration par forage.
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                               | Score VC (/100) | Score Terrain (/100) |
-| ------------------------------------- | --------------- | -------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| Critère                           | Score VC (/100) | Score Terrain (/100) |
+| :-------------------------------- | :-------------- | :------------------- |
+| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
+| Scalability / Friction d'adoption | -- / 25         | -- / 25              |
+| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
+| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 > **Verdict Terrain :** En attente d'évaluation.

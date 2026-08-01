@@ -1,12 +1,12 @@
-<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD060 -->
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
 [ 🇬🇧 English Version ](./README.md)
 
 # DNA Vault Encoder
 
-> **Résumé exécutif :** DNA Vault Encoder résout la crise mondiale du stockage froid ("cold storage") en développant un compilateur hybride logiciel/matériel qui traduit des flux de données binaires massifs en ADN synthétique chimiquement synthétisé, offrant un archivage d'une durée de vie quasi infinie et à consommation d'énergie nulle.
+> **Résumé exécutif :** Un compilateur bio-informatique qui traduit des données binaires en séquences d'ADN avec correction d'erreurs avancée, orchestrant la synthèse microfluidique pour un stockage à froid ultra-dense et millénaire.
 
-![Type: Modèle](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
+![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
 
@@ -16,64 +16,80 @@
 
 ```mermaid
 graph TD
-    A["Bandes Magnétiques / Disques Durs<br>(Coût Élevé, Durée de vie 20 ans)"] --> B{"DNA Vault Encoder"}
-    B -->|"Compilation du Binaire vers Nucléotides"| C["Usine Microfluidique Automatisée"]
-    C --> D["ADN Synthétique dans Polymères Inertes<br>(Durée de vie Infinie, Énergie Zéro)"]
+    %% Schéma comparatif Problème vs Solution ou Flux d'architecture
+    subgraph Stockage_Froid_Traditionnel ["Stockage Froid Traditionnel (LTO/HDD)"]
+        A[Données Massives] --> B[Centres de données]
+        B --> C[Coût énergétique & spatial élevé]
+        C --> D[Dégradation 10-30 ans]
+        D --> E[Migration constante et coûteuse]
+    end
+    subgraph DNA_Vault_Encoder ["DNA Vault Encoder"]
+        F[Données Massives] --> G[Compilateur Binaire vers ADN]
+        G --> H[Synthèse ADN Microfluidique]
+        H --> I[Encapsulation Polymère]
+        I --> J[Durée de vie millénaire, Zéro coût énergétique]
+    end
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** La compression de données, les disques durs plus denses ou les nouvelles bandes magnétiques sont la solution aux besoins explosifs d'archivage des données mondiales.
-**La vérité cachée :** Le stockage traditionnel est fondamentalement limité par la physique et les matériaux, nécessitant une alimentation constante et un espace physique immense. La véritable solution au stockage à froid est biologique : l'ADN est le support de stockage d'information le plus optimisé de l'univers. Le défi n'est pas la compression, mais la compilation sécurisée de données binaires en séquences nucléotidiques stables et lisibles.
+**La croyance populaire :** Pour gérer la croissance explosive des données d'archives à long terme, nous devons construire des centres de données hyperscale de plus en plus massifs en utilisant des bandes magnétiques ou du stockage sur verre légèrement plus denses.
+
+**La vérité cachée :** Le support de stockage ultime existe déjà dans la nature. En traduisant le binaire en biologie, nous pouvons stocker les données du monde entier dans le volume d'une boîte à chaussures, sans aucune électricité pour la maintenance, et avec une durée de conservation de milliers d'années sans dégradation.
 
 ## 3. Le problème & La cible
 
 **Modèle économique :** B2B
+
 **Cible précise :** Fournisseurs de Cloud (AWS, Azure, Google), centres d'archives nationales, institutions financières, et l'industrie du cinéma (conservation des masters 8K).
+
 **La douleur urgente :** L'explosion des données mondiales entraîne une crise des supports de stockage "froids" (archives à long terme). Les bandes magnétiques (LTO) ou disques durs actuels ont une durée de vie limitée (10-30 ans), nécessitent une migration constante, occupent des entrepôts gigantesques et consomment énormément d'électricité. L'empreinte écologique et le coût de l'archivage profond deviennent insoutenables pour les très grands acteurs.
 
 ## 4. Architecture technique & Plomberie
 
 ```mermaid
 sequenceDiagram
-    participant Cloud as "Flux de données client (Binaire)"
-    participant Compiler as "Compilateur ADN & Correction d'erreurs"
-    participant Lab as "Synthétiseur Microfluidique"
-    participant Sequencer as "Séquenceur Nanopore"
+    %% Schéma de séquence ou d'interaction entre l'utilisateur, l'IA et le système
+    participant Data as Flux binaire
+    participant C as Compilateur ADN
+    participant M as Synthétiseur microfluidique
+    participant Vault as Archive ADN
+    participant Seq as Séquenceur nanopore
 
-    Cloud->>Compiler: Ingestion de 0 et de 1
-    Compiler->>Compiler: Traduction en A/C/G/T (Algorithme Reed-Solomon)
-    Compiler->>Lab: Plan de Séquence Nucléotidique
-    Lab-->>Lab: Synthèse & Encapsulation de l'ADN
-    Note right of Lab: Les données sont stockées pour des millénaires.
-    Cloud->>Sequencer: Demande de récupération des données
-    Sequencer->>Compiler: Lecture des nucléotides
-    Compiler-->>Cloud: Reconstruction des données binaires d'origine
+    Data->>C: Entrée 0/1
+    C->>C: Correction d'erreurs (Reed-Solomon)
+    C->>C: Optimisation ratio GC (A,C,G,T)
+    C->>M: Instructions de séquence
+    M->>Vault: Synthétise & Encapsule
+    Note over Vault: Stocké pour des millénaires
+    Vault->>Seq: Récupère & Séquence
+    Seq->>Data: Décode en binaire
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                | Valeur                                                                           |
-| ----------------------- | -------------------------------------------------------------------------------- |
-| **Structure de prix**   | Archival-as-a-Service (Frais d'écriture élevés + frais de stockage très faibles) |
-| **Objectif 12 mois**    | Sécuriser 2 PoCs avec des institutions d'archivage / fournisseurs cloud majeurs  |
-| **Calcul du CA**        | Frais de synthèse et de stockage par Téraoctet                                   |
-| **Marge brute estimée** | >60% (S'améliorant avec la baisse des coûts de synthèse)                         |
+| Métrique                    | Valeur                                                                  |
+| :-------------------------- | :---------------------------------------------------------------------- |
+| Structure de prix           | Tarification par pétaoctet stocké + Frais d'encodage/décodage           |
+| Objectif 12 mois            | 2 clients majeurs (archives institutionnelles ou cloud)                 |
+| Calcul du CA (Target 100k€) | 2 clients \* 50 000 € contrat d'archivage profond = 100k€ ARR           |
+| Marge brute estimée         | 60% (s'améliorant à mesure que les coûts de synthèse de l'ADN baissent) |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-**Stratégie d'acquisition :** Partenariats stratégiques avec les fournisseurs de cloud (AWS/Azure) comme niveau premium pour le stockage type "Glacier", et ventes directes aux entreprises dans des secteurs hautement réglementés.
-**Moat (Barrière à l'entrée) :** L'encodage du binaire vers l'ADN est une interface incroyablement complexe entre la théorie de l'information (mathématiques) et la biologie synthétique (chimie). L'algorithme d'encodage doit tenir compte des contraintes biochimiques : éviter les longues répétitions de "A", optimiser le ratio GC pour la stabilité thermodynamique, et implémenter des corrections d'erreurs sur mesure. Les algorithmes de compression standards (type ZIP) ignorent totalement ces contraintes physiques. L'orchestration propriétaire des usines microfluidiques automatisées constitue une barrière d'entrée massive.
+**Stratégie d'acquisition :** Partenariats stratégiques avec des fournisseurs de cloud hyperscale cherchant à proposer un niveau de stockage "ultra-froid", et ventes directes aux institutions ayant des obligations légales de conservation infinie des données.
+
+**Moat (Barrière à l'entrée) :** L'encodage de données dans l'ADN n'est pas une simple compression de fichiers ; c'est une interface complexe entre la théorie de l'information (mathématiques) et la biologie synthétique (chimie). Les algorithmes doivent éviter les contraintes biochimiques (comme les longues répétitions de "A" ou un ratio GC sous-optimal pour la stabilité thermodynamique), ce que les algorithmes de compression standards ignorent totalement.
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                               | Score VC (/100) | Score Terrain (/100) |
-| ------------------------------------- | --------------- | -------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| Critère                           | Score VC (/100) | Score Terrain (/100) |
+| :-------------------------------- | :-------------- | :------------------- |
+| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
+| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
+| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 > **Verdict Terrain :** En attente d'évaluation.

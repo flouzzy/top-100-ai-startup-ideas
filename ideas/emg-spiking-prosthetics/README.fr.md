@@ -1,12 +1,12 @@
-<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD060 -->
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
 [ 🇬🇧 English Version ](./README.md)
 
 # NeuroSpike Prosthetics
 
-> **Résumé exécutif :** NeuroSpike Prosthetics intègre des réseaux de neurones à impulsions (SNN) sur des puces neuromorphiques directement dans les prothèses bioniques pour décoder les signaux électromyographiques (EMG) complexes avec une latence quasi nulle, offrant aux amputés un contrôle fluide, intuitif et multifactoriel sans fatigue cognitive.
+> **Résumé exécutif :** Une architecture neuromorphique (Spiking Neural Network) intégrée directement dans les prothèses bioniques, décodant les signaux électromyographiques (EMG) complexes avec une latence quasi nulle pour un contrôle moteur intuitif.
 
-![Type: Modèle](https://img.shields.io/badge/Mod%C3%A8le-B2B2C-blue)
+![Type: B2B2C](https://img.shields.io/badge/Mod%C3%A8le-B2B2C-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
 
@@ -16,59 +16,75 @@
 
 ```mermaid
 graph TD
-    A["Signaux EMG complexes du cerveau"] --> B{"NeuroSpike Prosthetics"}
-    B -->|"Puce Neuromorphique Embarquée (SNN)"| C["Décodage à Latence Quasi Nulle (<5ms)"]
-    C --> D["Contrôle Robotique Fluide & Multi-doigts<br>(Élimine la fatigue cognitive)"]
+    %% Schéma comparatif Problème vs Solution ou Flux d'architecture
+    subgraph Protheses_Traditionnelles ["Prothèses Traditionnelles"]
+        A[Signaux EMG complexes] --> B[CPU/GPU Standard]
+        B --> C[Forte latence / Vidage batterie]
+        C --> D[Mouvements basiques & Fatigue cognitive]
+    end
+    subgraph NeuroSpike_Prosthetics ["NeuroSpike Prosthetics"]
+        E[Signaux EMG complexes] --> F[Puce neuromorphique embarquée]
+        F --> G[Réseaux de neurones à impulsions SNN]
+        G --> H[Latence quasi nulle / Micro-consommation]
+        H --> I[Contrôle intuitif et fluide des doigts]
+    end
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** De meilleures prothèses nécessitent de les connecter à de puissants GPU cloud ou d'intégrer d'énormes processeurs standards pour exécuter des algorithmes de deep learning complexes.
-**La vérité cachée :** L'envoi de données vers le cloud introduit une latence inacceptable pour le mouvement, et un processeur standard (CPU/GPU) viderait la batterie de la prothèse en quelques heures tout en surchauffant. La véritable solution réside dans l'imitation des décharges électriques du cerveau via des Spiking Neural Networks (SNN) fonctionnant sur un matériel neuromorphique spécialisé, ultra-basse consommation, embarqué directement "at the edge" (dans le membre).
+**La croyance populaire :** Pour améliorer le contrôle des membres bioniques, nous devons nous appuyer sur des implants cérébraux invasifs (comme Neuralink) ou envoyer les données vers de puissants serveurs cloud pour le traitement IA.
+
+**La vérité cachée :** Le système nerveux périphérique (EMG au niveau du moignon) contient déjà l'intention motrice haute fidélité nécessaire. En utilisant des réseaux de neurones à impulsions (SNN) inspirés du cerveau et fonctionnant localement sur des puces neuromorphiques à très faible consommation, nous pouvons obtenir un contrôle fluide en temps réel sans chirurgie invasive ni latence cloud.
 
 ## 3. Le problème & La cible
 
 **Modèle économique :** B2B2C
+
 **Cible précise :** Fabricants de prothèses bioniques (Össur, Ottobock), centres de rééducation spécialisés, et amputés.
-**La douleur urgente :** Le contrôle des prothèses myoélectriques actuelles est lent, peu intuitif et très limité (souvent réduit à l'ouverture/fermeture basique de la main). Le cerveau envoie des signaux électromyographiques (EMG) complexes, mais le matériel classique n'est pas assez rapide ou sophistiqué pour décoder ces intentions motrices fines et fluides en temps réel. La latence induit une énorme fatigue cognitive chez le patient.
+
+**La douleur urgente :** Le contrôle des prothèses myoélectriques actuelles est lent, peu intuitif et très limité (souvent réduit à l'ouverture/fermeture basique). Le cerveau envoie des signaux complexes, mais le matériel classique ne peut pas décoder ces intentions en temps réel sans un décalage massif. Cette latence induit une énorme fatigue cognitive chez le patient, conduisant à un fort taux d'abandon de prothèses coûteuses.
 
 ## 4. Architecture technique & Plomberie
 
 ```mermaid
 sequenceDiagram
-    participant Amputee as "Muscles du patient (Capteurs EMG)"
-    participant Chip as "Puce Neuromorphique (SNN)"
-    participant Motors as "Moteurs de la Prothèse"
+    %% Schéma de séquence ou d'interaction entre l'utilisateur, l'IA et le système
+    participant M as Muscles (Capteurs EMG)
+    participant NC as Puce Neuromorphique
+    participant SNN as Algorithme SNN
+    participant P as Moteurs de la Prothèse
 
-    Amputee->>Chip: Décharges EMG multicanaux complexes
-    Chip->>Chip: Décodage de l'intention motrice (Inférence SNN)
-    Chip->>Motors: Signaux de contrôle proportionnels multi-doigts
-    Motors-->>Amputee: Mouvement physique en temps réel (Latence <5ms)
+    M->>NC: Impulsions EMG brutes multicanaux
+    NC->>SNN: Traitement asynchrone des spikes
+    SNN->>SNN: Décodage de l'intention motrice (<5ms)
+    SNN->>P: Commandes de force et de position multi-axes
+    P-->>M: Retour haptique (Boucle optionnelle)
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                | Valeur                                                        |
-| ----------------------- | ------------------------------------------------------------- |
-| **Structure de prix**   | Licence OEM par unité + Abonnement au logiciel de calibration |
-| **Objectif 12 mois**    | 100 accords de licence / déploiements en essais cliniques     |
-| **Calcul du CA**        | 100 unités \* 1 000€/licence                                  |
-| **Marge brute estimée** | >90% (Licence Logicielle/IP)                                  |
+| Métrique                    | Valeur                                                                     |
+| :-------------------------- | :------------------------------------------------------------------------- |
+| Structure de prix           | Module matériel (Puce + Capteurs) + Licence de calibration SNN par patient |
+| Objectif 12 mois            | Pilote d'intégration avec 1 grand fabricant & 20 patients tests            |
+| Calcul du CA (Target 100k€) | 1 Pilote (50k€) + (20 patients \* 2.5k€ licence) = 100k€ ARR               |
+| Marge brute estimée         | 75% (Forte marge sur la licence logicielle de calibration SNN)             |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-**Stratégie d'acquisition :** Partenariats OEM avec les grands fabricants de prothèses (B2B) et essais cliniques avec les hôpitaux de rééducation de premier plan pour stimuler la demande des patients (B2C).
-**Moat (Barrière à l'entrée) :** Il nécessite un couplage très spécifique entre les capteurs matériels, les puces neuromorphiques émergentes (comme Intel Loihi ou BrainChip Akida), et les algorithmes SNN de bas niveau. Les entreprises d'IA généralistes ne peuvent pas répliquer cela car les modèles d'apprentissage profond standards ne peuvent pas fonctionner sur ce matériel spécialisé sans vider la batterie ou introduire de la latence. La calibration personnalisée des algorithmes SNN pour les signaux EMG uniques de chaque moignon crée des coûts de changement très élevés.
+**Stratégie d'acquisition :** Partenariats B2B avec les fabricants de prothèses de niveau 1. Fournir le module de calcul neuromorphique et le logiciel de calibration en tant que composant OEM pour mettre à niveau leurs bras bioniques de nouvelle génération.
+
+**Moat (Barrière à l'entrée) :** L'IA basée sur le cloud ou les CPU embarqués standards (qui vident les batteries en quelques heures) ne peuvent pas résoudre la contrainte de latence/puissance. Le fossé réside dans le couplage profond et bas niveau entre des algorithmes SNN personnalisés et du matériel neuromorphique de pointe (comme Intel Loihi ou BrainChip Akida). Cela nécessite une expertise spécialisée en neurosciences computationnelles que les ingénieurs deep learning standards ne possèdent pas.
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                               | Score VC (/100) | Score Terrain (/100) |
-| ------------------------------------- | --------------- | -------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| Critère                           | Score VC (/100) | Score Terrain (/100) |
+| :-------------------------------- | :-------------- | :------------------- |
+| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
+| Scalability / Friction d'adoption | -- / 25         | -- / 25              |
+| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
+| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 > **Verdict Terrain :** En attente d'évaluation.

@@ -1,12 +1,12 @@
-<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD060 -->
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
 [ 🇫🇷 Version Française ](./README.fr.md)
 
 # OrbitBot Servicer
 
-> **Executive Summary:** OrbitBot Servicer deploys a fleet of autonomous, neuromorphic-vision-powered space cobots to repair, refuel, or deorbit multi-million dollar satellites directly in orbit, preventing critical assets from becoming dangerous space debris.
+> **Executive Summary:** An autonomous fleet of space robotic cobots leveraging neuromorphic vision and reinforcement learning to repair, refuel, or safely de-orbit multi-million dollar satellites in space.
 
-![Type: Model](https://img.shields.io/badge/Model-B2B%20%2F%20B2G-blue)
+![Type: B2B / B2G](https://img.shields.io/badge/Model-B2B%20%2F%20B2G-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
 
@@ -16,62 +16,76 @@
 
 ```mermaid
 graph TD
-    A["Dead / Drifting Satellite<br>(Stuck Panels, No Fuel)"] --> B{"OrbitBot Space Tug"}
-    B -->|"Neuromorphic Vision + RL Robotic Arms"| C["Autonomous Orbital Rendezvous & Repair"]
-    C --> D["Asset Salvaged<br>(Millions Saved, Debris Prevented)"]
+    %% Problem vs Solution or Architecture Diagram
+    subgraph Space_Status_Quo ["Space Status Quo"]
+        A[Minor Satellite Failure / Fuel Empty] --> B[Impossible to Repair]
+        B --> C[Loss of $100M+ Asset]
+        C --> D[Becomes Dangerous Space Debris]
+    end
+    subgraph OrbitBot_Servicer ["OrbitBot Servicer"]
+        E[Minor Satellite Failure / Fuel Empty] --> F[OrbitBot Deployed]
+        F --> G[Autonomous Neuromorphic Rendezvous]
+        G --> H[RL-Powered Robotic Repair / Refueling]
+        H --> I[Satellite Life Extended & Debris Prevented]
+    end
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-**Popular Belief:** The solution to satellite failure is to simply launch cheaper, disposable satellites, or rely on ground-controlled tele-operated robots to fix the expensive ones.
-**Hidden Truth:** Tele-operating a robotic arm from Earth with a 2+ second signal latency is impossible for delicate contact operations; the robot will crash and destroy the target. True space resilience requires full orbital autonomy—Edge AI running on radiation-hardened hardware with neuromorphic vision to handle tumbling, non-cooperative targets in real-time without human intervention.
+**Popular Belief:** To manage the growing number of satellites, we just need cheaper launch vehicles (like SpaceX) to constantly launch replacements when old ones break or run out of fuel.
+
+**Hidden Truth:** Throw-away satellite economics are unsustainable and create a cascading debris crisis (Kessler Syndrome). The true trillion-dollar space opportunity is not just cheaper launches, but establishing the first in-orbit robotic servicing infrastructure—making satellites repairable, upgradable, and immortal directly in the vacuum of space.
 
 ## 3. Problem & Target Market
 
 **Business Model:** B2B / B2G
+
 **Target Audience:** Satellite constellation operators (Starlink, Kuiper, Intelsat), space agencies (ESA, NASA), and military space forces (US Space Force).
-**Urgent Pain Point:** Satellites cost hundreds of millions to launch. Yet, a minor mechanical failure (a stuck solar panel) or the depletion of station-keeping fuel renders the satellite completely useless, transforming it into a dangerous piece of space debris. Currently, there is no agile, standardized robotic infrastructure to refuel, physically repair, or safely deorbit these critical assets directly in space.
+
+**Urgent Pain Point:** Satellites cost hundreds of millions to build and launch. Yet, a minor mechanical failure (a stuck solar panel) or simply running out of station-keeping fuel renders the satellite completely useless, instantly destroying its value and turning it into hazardous space debris. There is currently no agile, standardized robotic infrastructure to physically service these critical assets in orbit.
 
 ## 4. Technical Architecture & Infrastructure
 
 ```mermaid
 sequenceDiagram
-    participant Target as "Tumbling Satellite"
-    participant Vision as "Neuromorphic Vision"
-    participant RL as "RL Robotic Arms"
-    participant Earth as "Ground Control"
+    %% Sequence diagram or system flow
+    participant T as Target Satellite (Spinning/Dead)
+    participant V as Neuromorphic Vision System
+    participant Edge as Rad-Hardened Edge AI
+    participant Arms as RL Robotic Arms
 
-    Earth->>Vision: Authorize rendezvous mission
-    Target->>Vision: Visual/spatiotemporal spikes
-    Vision->>RL: Real-time pose & spin calculation
-    RL->>RL: Match spin & calculate haptic feedback
-    RL-->>Target: Autonomous docking & repair
-    RL-->>Earth: Mission success telemetry
+    T-->>V: Visual & Lidar Data (Uncooperative motion)
+    V->>Edge: Real-time pose estimation (<5ms latency)
+    Edge->>Edge: Compute intercept trajectory
+    Edge->>Arms: Execute non-standard docking maneuver
+    Arms->>T: Grapple and stabilize
+    Arms->>T: Perform precision refueling/repair
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                     | Value                                                     |
-| -------------------------- | --------------------------------------------------------- |
-| **Pricing Structure**      | Servicing-as-a-Service (Fixed fee per mission) + Retainer |
-| **12-Month Target**        | 1 orbital demonstration contract with ESA/NASA            |
-| **Revenue Formula**        | 1 Mission \* €2,000,000                                   |
-| **Estimated Gross Margin** | >60% (High CapEx, high margin per service)                |
+| Metric                 | Value                                                              |
+| :--------------------- | :----------------------------------------------------------------- |
+| Pricing Structure      | Mission-as-a-Service Fee (Per refuel/repair)                       |
+| 12-Month Target        | 1 government or commercial in-orbit demonstration contract         |
+| Revenue Formula        | 1 Demo Mission Contract = €100k ARR (Initial feasibility phase)    |
+| Estimated Gross Margin | 60% (High hardware & launch costs offset by massive service value) |
 
 ## 6. Distribution Engine & Moat
 
-**Acquisition Strategy:** Strategic government contracts (NASA/ESA Tipping Point programs) to fund initial launches, followed by commercial service Level Agreements (SLAs) with mega-constellation operators.
-**Moat (Defensibility):** The space qualification of hardware (Radiation hardening, resistance to vacuum and thermal gradients) is a massive barrier. The core technical moat is the integration of neuromorphic vision (processing visual data as spikes) for real-time tracking of tumbling objects, combined with Reinforcement Learning algorithms trained for zero-gravity haptic feedback on non-standardized docking ports. This level of autonomous Edge AI cannot be replicated by standard cloud-based SaaS.
+**Acquisition Strategy:** Direct partnerships with major space agencies (NASA Tipping Point, ESA) and prime contractors to fund demonstration missions. Secure pre-orders for "life-extension services" from major telecom operators.
+
+**Moat (Defensibility):** Tele-operating a robotic arm from Earth with a 2+ second signal latency for delicate contact operations is impossible; the robot would crush the satellite. The moat is the autonomous execution (Edge AI on Radiation-Hardened hardware) combined with neuromorphic vision that can track uncooperative, tumbling targets in real-time, completely independently from Earth control.
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                       | VC Score (/100) | Market Score (/100) |
-| ------------------------------- | --------------- | ------------------- |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| Criterion                   | VC Score (/100) | Market Score (/100) |
+| :-------------------------- | :-------------- | :------------------ |
+| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
+| Moat / LLM Immunity         | -- / 25         | -- / 25             |
+| Scalability / UX Friction   | -- / 25         | -- / 25             |
+| Unit Economics / ROI        | -- / 25         | -- / 25             |
+| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 > **Market Verdict:** Pending evaluation.

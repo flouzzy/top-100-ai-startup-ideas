@@ -1,12 +1,12 @@
-<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD060 -->
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
 [ 🇫🇷 Version Française ](./README.fr.md)
 
 # Sonic Forge AI
 
-> **Executive Summary:** Sonic Forge AI eliminates material contamination during the manufacturing of advanced alloys and crystals by using an AI-controlled acoustic levitation forge. This allows for contact-free melting and shaping, simulating microgravity conditions on Earth to produce ultra-pure components for the aerospace, semiconductor, and pharmaceutical industries.
+> **Executive Summary:** An AI-controlled acoustic levitation forge that manipulates molten materials in mid-air using phased-array ultrasonics, enabling defect-free, microgravity-like manufacturing on Earth.
 
-![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
 
@@ -16,60 +16,77 @@
 
 ```mermaid
 graph TD
-    A["Contaminated Crucibles<br>(Impurities, Defects)"] --> B{"Sonic Forge AI"}
-    B -->|"AI-Controlled Acoustic Phased-Arrays"| C["Contact-Free Levitation<br>(Simulated Microgravity)"]
-    C --> D["Ultra-Pure Advanced Materials<br>(Space Alloys, Optical Crystals)"]
+    %% Problem vs Solution or Architecture Diagram
+    subgraph Traditional_Forging ["Traditional Forging"]
+        A[Molten Material] --> B[Crucible Contact]
+        B --> C[Impurities & Nucleation Defects]
+        C --> D[Defective Parts & Wasted Billions]
+    end
+    subgraph Sonic_Forge_AI ["Sonic Forge AI"]
+        E[Molten Material] --> F[Acoustic Levitation Field]
+        F --> G[Reinforcement Learning Control]
+        G --> H[Zero-Contact Manufacturing]
+        H --> I[Ultra-Pure Defect-Free Materials]
+    end
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-**Popular Belief:** You must go to space (orbit) to manufacture perfect, defect-free materials in microgravity without container contamination.
-**Hidden Truth:** Terrestrial gravity can be counteracted with dynamic acoustic holography. By using reinforcement learning to control ultrasonic fields in real-time, we can levitate and manipulate molten materials on Earth, achieving space-grade purity without the astronomical cost of orbital manufacturing.
+**Popular Belief:** To manufacture advanced, ultra-pure materials that require zero contact or microgravity, we must build expensive orbital factories in space.
+
+**Hidden Truth:** By mastering dynamic acoustic fields with sub-millisecond AI control, we can simulate microgravity and achieve zero-contact manipulation of dense molten materials directly on Earth, at a fraction of the cost.
 
 ## 3. Problem & Target Market
 
 **Business Model:** B2B
-**Target Audience:** Aerospace industry (SpaceX, Airbus), semiconductor manufacturers (TSMC, ASML), and pharmaceuticals (synthetic microgravity protein crystallization).
-**Urgent Pain Point:** Physical contact between molten materials and crucible walls introduces impurities and nucleation defects. These microscopic imperfections ruin yields, limit purity, and cost billions in discarded defective parts, making terrestrial manufacturing of certain microgravity-dependent materials impossible.
+
+**Target Audience:** Aerospace industry (SpaceX, Airbus), semiconductor manufacturers (TSMC, ASML), and pharmaceutical companies (protein crystallization).
+
+**Urgent Pain Point:** Physical contact with crucible walls during the melting and forming of advanced materials (space alloys, pure optics, pharmaceutical crystals) introduces impurities and nucleation defects. These microscopic imperfections destroy yields, limit purity, and cost billions in discarded defective parts.
 
 ## 4. Technical Architecture & Infrastructure
 
 ```mermaid
 sequenceDiagram
-    participant Chamber as "Levitation Chamber (Sensors)"
-    participant AI as "RL Control Engine"
-    participant Transducers as "Ultrasonic Phased-Array"
+    %% Sequence diagram or system flow
+    participant M as Molten Material
+    participant U as Phased-Array Ultrasonics
+    participant AI as RL Control System
+    participant DT as Multiphysics Digital Twin
 
-    Chamber->>AI: Real-time thermal & density data
-    AI->>AI: Non-linear optimization of acoustic field
-    AI->>Transducers: High-frequency phase adjustments
-    Transducers-->>Chamber: Dynamic 3D acoustic force field
-    Note right of Chamber: Molten material stabilizes and shapes<br>without physical contact.
+    AI->>U: Generate Holographic Acoustic Field
+    U->>M: Trap and Levitates
+    M-->>AI: Real-time Density/Resonance Data
+    AI->>DT: Simulates Thermal Turbulences
+    DT-->>AI: Non-linear Optimization Parameters
+    AI->>U: Sub-millisecond Field Adjustments
+    U->>M: Stabilize, Shape, and Mix (Zero-Contact)
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                     | Value                                                                                   |
-| -------------------------- | --------------------------------------------------------------------------------------- |
-| **Pricing Structure**      | RaaS (Resilience as a Service) + System Lease / High-value material processing contract |
-| **12-Month Target**        | 2-3 pilot deployments in Tier-1 aerospace/semiconductor labs                            |
-| **Revenue Formula**        | 3 Pilots \* €35k setup + €5k/mo license                                                 |
-| **Estimated Gross Margin** | >75% (Software & IP licensing focus)                                                    |
+| Metric                 | Value                                                |
+| :--------------------- | :--------------------------------------------------- |
+| Pricing Structure      | Hardware Lease + AI Control Subscription (SaaS/HaaS) |
+| 12-Month Target        | 2 enterprise pilots (e.g., aerospace, pharma)        |
+| Revenue Formula        | 2 pilots \* €50,000/month = €100k ARR                |
+| Estimated Gross Margin | 85% (on software/AI control after R&D payback)       |
 
 ## 6. Distribution Engine & Moat
 
-**Acquisition Strategy:** Direct B2B sales (pilot programs with R&D departments), scientific whitepapers, and partnerships with material science institutes.
-**Moat (Defensibility):** The real-time, non-linear control loop required to manage changing states (density/resonance) of molten materials at the millisecond level cannot be replicated by standard SCADA software. The proprietary multiphysics digital twin used to train the RL AI, combined with complex custom hardware (high-temp transducers), creates a massive barrier to entry.
+**Acquisition Strategy:** Direct B2B enterprise sales targeting R&D labs of Fortune 500 aerospace, semiconductor, and pharma companies. Prove value through pilot projects and joint development agreements.
+
+**Moat (Defensibility):** The complexity of closing the loop between a high-temperature phased-array hardware system and a non-linear Reinforcement Learning control system in sub-milliseconds. Native LLMs or standard SCADA software cannot replicate the physical digital twin and real-time acoustic holography required for dense material manipulation.
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                       | VC Score (/100) | Market Score (/100) |
-| ------------------------------- | --------------- | ------------------- |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | -- / 100        | -- / 100            |
+| Criterion                   | VC Score (/100) | Market Score (/100) |
+| :-------------------------- | :-------------- | :------------------ |
+| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
+| Moat / LLM Immunity         | -- / 25         | -- / 25             |
+| Scalability / UX Friction   | -- / 25         | -- / 25             |
+| Unit Economics / ROI        | -- / 25         | -- / 25             |
+| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 > **Market Verdict:** Pending evaluation.

@@ -1,12 +1,12 @@
-<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD060 -->
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
 [ 🇬🇧 English Version ](./README.md)
 
 # VitriSim
 
-> **Résumé exécutif :** VitriSim déploie un jumeau numérique basé sur des réseaux de neurones informés par la physique (PINNs) pour simuler la magnéto-hydrodynamique complexe de la vitrification des déchets nucléaires de haute activité, permettant aux exploitants d'optimiser les formulations de verre en temps réel sans essais physiques coûteux et dangereux.
+> **Résumé exécutif :** Un jumeau numérique neuronal informé par la physique qui simule la magnéto-hydrodynamique de la vitrification des déchets nucléaires de haute activité, évitant des échecs à plusieurs millions de dollars dans les fours à induction.
 
-![Type: Modèle](https://img.shields.io/badge/Mod%C3%A8le-B2B%20%2F%20B2G-blue)
+![Type: B2B / B2G](https://img.shields.io/badge/Mod%C3%A8le-B2B%20%2F%20B2G-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
 
@@ -16,60 +16,76 @@
 
 ```mermaid
 graph TD
-    A["Essais Physiques Coûteux & Dangereux<br>(Fusion de verre radioactif)"] --> B{"Moteur VitriSim (PINNs)"}
-    B -->|"Simulation Magnéto-hydrodynamique en Temps Réel"| C["Formulation Optimale de la Matrice Vitreuse"]
-    C --> D["Encapsulation Sûre & Accélérée des Déchets Nucléaires"]
+    %% Schéma comparatif Problème vs Solution ou Flux d'architecture
+    subgraph Vitrification_Traditionnelle ["Vitrification Traditionnelle"]
+        A[Déchets Nucléaires HA] --> B[Four à induction (Essai-Erreur)]
+        B --> C[Cristallisation imprévue]
+        C --> D[Casse du four à plusieurs millions € & Retards]
+    end
+    subgraph VitriSim ["Jumeau Numérique VitriSim"]
+        E[Déchets Nucléaires HA] --> F[Réseau Neuronal Informé par la Physique PINN]
+        F --> G[Simulation thermodynamique en temps réel]
+        G --> H[Formulation optimisée de la matrice vitreuse]
+        H --> I[Vitrification sûre, efficace & prévisible]
+    end
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** La seule façon d'améliorer l'encapsulation des déchets nucléaires est de procéder à des décennies de tests physiques lents et itératifs dans des installations blindées (cellules chaudes) coûtant des milliards.
-**La vérité cachée :** La dynamique des fluides et la thermodynamique complexes du verre radioactif en fusion peuvent être simulées avec précision à l'aide de réseaux de neurones informés par la physique (PINNs). En combinant la dynamique moléculaire multi-échelles avec l'IA, nous pouvons effectuer des milliers de cycles de fusion virtuels en quelques heures, optimisant le processus de vitrification en toute sécurité dans un jumeau numérique avant même d'allumer un four à induction physique.
+**La croyance populaire :** La partie la plus difficile de la gestion des déchets nucléaires est de trouver des dépôts géologiques profonds pour les enfouir.
+
+**La vérité cachée :** Le véritable goulot d'étranglement est de transformer en toute sécurité les déchets liquides hautement radioactifs en verre stable (vitrification) avant de les enfouir. Parce qu'il est impossible de faire des essais et erreurs en toute sécurité avec des matériaux hautement radioactifs, seule une IA ultra-spécialisée, informée par la physique et simulant la thermodynamique complexe du verre en fusion, peut débloquer un démantèlement nucléaire plus rapide, plus sûr et moins cher.
 
 ## 3. Le problème & La cible
 
 **Modèle économique :** B2B / B2G
+
 **Cible précise :** Agences nationales de gestion des déchets radioactifs, exploitants de centrales nucléaires (EDF, Tepco) et sous-traitants en démantèlement.
-**La douleur urgente :** Le processus de vitrification des déchets nucléaires de haute activité (HA) est extrêmement complexe, coûteux et lent. Les erreurs de formulation ou de maîtrise des températures dans les fours à induction (entraînant des cristallisations parasites) coûtent des dizaines de millions d'euros par raté et allongent drastiquement les délais de sécurisation. L'impossibilité de tester physiquement à l'échelle sans générer des déchets supplémentaires rend l'optimisation itérative quasi impossible.
+
+**La douleur urgente :** Le processus de vitrification des déchets nucléaires de haute activité (HA) est extrêmement complexe, coûteux et lent. Les erreurs de formulation ou de maîtrise des températures dans les fours à induction (entraînant des cristallisations parasites) coûtent des dizaines de millions d'euros par raté et allongent drastiquement les délais de sécurisation. L'impossibilité de tester physiquement à l'échelle sans générer de déchets supplémentaires rend l'optimisation itérative quasi impossible.
 
 ## 4. Architecture technique & Plomberie
 
 ```mermaid
 sequenceDiagram
-    participant Operator as "Exploitant"
-    participant Twin as "Jumeau Numérique VitriSim"
-    participant Compute as "Moteur HPC / PINN"
+    %% Schéma de séquence ou d'interaction entre l'utilisateur, l'IA et le système
+    participant O as Opérateur
+    participant VS as Moteur VitriSim (PINNs)
+    participant HPC as Cluster HPC
+    participant F as Four à induction physique
 
-    Operator->>Twin: Saisie de la composition des déchets & paramètres thermiques
-    Twin->>Compute: Résolution couplée Navier-Stokes & Maxwell
-    Compute->>Compute: Inférence de dynamique moléculaire multi-échelles
-    Compute-->>Twin: Prédiction de la stabilité & des risques de cristallisation
-    Twin-->>Operator: Recommandation des paramètres optimaux du four
+    O->>VS: Saisie composition chimique des déchets
+    VS->>HPC: Lance la dynamique moléculaire multi-échelles
+    HPC->>VS: Résout Navier-Stokes & Magnétisme
+    VS-->>O: Prédit la stabilité du verre & Profil de Température
+    O->>F: Exécute les paramètres optimisés
+    F-->>VS: Données capteurs (Apprentissage continu)
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                | Valeur                                                                 |
-| ----------------------- | ---------------------------------------------------------------------- |
-| **Structure de prix**   | Licence Entreprise Annuelle (par installation) + Facturation au calcul |
-| **Objectif 12 mois**    | 2 contrats pilotes avec des agences gouvernementales majeures          |
-| **Calcul du CA**        | 2 Contrats \* 50 000€/an                                               |
-| **Marge brute estimée** | >85% (SaaS à très haute valeur ajoutée)                                |
+| Métrique                    | Valeur                                                                                   |
+| :-------------------------- | :--------------------------------------------------------------------------------------- |
+| Structure de prix           | Licence logicielle annuelle haute valeur + Frais de calcul HPC                           |
+| Objectif 12 mois            | 1-2 projets pilotes avec des agences nationales ou de grands exploitants                 |
+| Calcul du CA (Target 100k€) | 1 contrat R&D Pilote \* 100 000 € = 100k€ ARR                                            |
+| Marge brute estimée         | 70% (Prenant en compte les coûts importants de calcul HPC pour l'entraînement/inférence) |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-**Stratégie d'acquisition :** Ventes B2B/B2G de haut niveau, ciblant les agences nationales de démantèlement en démontrant des millions d'euros d'économies opérationnelles par installation.
-**Moat (Barrière à l'entrée) :** Un LLM textuel ou un tableur ne peut pas résoudre les équations différentielles partielles de Navier-Stokes couplées aux effets magnétiques et chimiques à haute température. Il faut un moteur de simulation spécialisé et brevetable. De plus, l'entraînement de ce moteur nécessite l'accès à des données historiques de vitrification hautement classifiées et propriétaires (secret industriel/défense), créant une barrière d'accès aux données insurmontable. Le temps de R&D très long nécessitant des doctorants en physique des matériaux et simulation numérique consolide ce fossé.
+**Stratégie d'acquisition :** Ventes directes B2B/B2G aux grandes entreprises et gouvernements. Partenariats avec des conglomérats massifs du démantèlement nucléaire (ex: Orano, Westinghouse) comme plugin d'optimisation pour leurs contrats existants de plusieurs milliards de dollars.
+
+**Moat (Barrière à l'entrée) :** Un LLM ou un tableur ne peut pas résoudre les équations différentielles partielles (Navier-Stokes) couplées aux effets magnétiques et chimiques à haute température. Le fossé défensif (moat) est constitué par les réseaux de neurones informés par la physique (PINNs) spécialisés et l'accès exclusif aux données historiques de vitrification, hautement classifiées et propriétaires, nécessaires pour les entraîner.
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                               | Score VC (/100) | Score Terrain (/100) |
-| ------------------------------------- | --------------- | -------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | -- / 100        | -- / 100             |
+| Critère                           | Score VC (/100) | Score Terrain (/100) |
+| :-------------------------------- | :-------------- | :------------------- |
+| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
+| Scalability / Friction d'adoption | -- / 25         | -- / 25              |
+| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
+| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 > **Verdict Terrain :** En attente d'évaluation.
