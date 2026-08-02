@@ -59,11 +59,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| TOTAL                             | -- / 100        | -- / 100             |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| TOTAL                             | 91 / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Les antennes en métamatériaux sont le goulot d'étranglement pour la 6G et l'IoT. Utiliser l'optimisation quantique pour les concevoir crée un moat de propriété intellectuelle définitif. Haute scalabilité en tant que SaaS B2B pour les fabricants de télécommunications.
 > **Verdict Terrain :** En attente d'évaluation.
