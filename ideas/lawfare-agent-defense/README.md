@@ -59,11 +59,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| TOTAL                       | -- / 100        | -- / 100            |
+| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 23 / 25             |
+| Scalability / UX Friction   | -- / 25         | 15 / 25             |
+| Unit Economics / ROI        | -- / 25         | 20 / 25             |
+| **TOTAL**                   | -- / 100        | **80 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Moderate urgency but strong long-term strategic value. LLM immunity is good, relying on specialized models. Adoption presents notable friction that could slow initial monetization.

@@ -67,12 +67,12 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 23 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 24 / 25             |
-| Scalability / UX Friction   | -- / 25         | 14 / 25             |
-| Unit Economics / ROI        | -- / 25         | 20 / 25             |
-| **TOTAL**                   | **-- / 100**    | **81 / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 10 / 25             |
+| Unit Economics / ROI        | -- / 25         | 18 / 25             |
+| **TOTAL**                   | **-- / 100**    | **77 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** The value proposition is extremely compelling for aerospace and EV sectors due to direct ROI from weight reduction. While adoption requires a paradigm shift in manufacturing towards 3D printing, the immunity to general AI and clear monetization make it highly viable.
+> **Market Verdict:** Moderate urgency but strong long-term strategic value. LLM immunity is good, relying on specialized models. Adoption presents notable friction that could slow initial monetization.
