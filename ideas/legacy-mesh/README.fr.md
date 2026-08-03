@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 20 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 23 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 21 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 22 / 25         | -- / 25              |
-| **TOTAL**                             | 86 / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | 20 / 25         | 23 / 25              |
+| **Moat / Résistance aux LLM natifs**  | 23 / 25         | 16 / 25              |
+| **Scalabilité / Friction d'adoption** | 21 / 25         | 23 / 25              |
+| **Unit Economics / ROI direct**       | 22 / 25         | 18 / 25              |
+| **TOTAL**                             | 86 / 100        | 80 / 100             |
 
 > **Verdict VC :** Legacy Mesh comble le fossé crucial entre les agents IA modernes et les mainframes d'entreprise archaïques qui font tourner l'économie mondiale. L'intégration profonde requise dans les systèmes hérités crée une rétention extrême et défend contre les concurrents légers. Bien que les cycles d'adoption soient longs, la valeur élevée des contrats assure de solides fondamentaux économiques.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour le marché cible, justifiant son excellent score d'urgence (23/25). Bien que viable, elle reste partiellement exposée à l'évolution rapide des modèles fondationnels (16/25). Avec une faible friction d'adoption (23/25) et une stratégie de monétisation directe (18/25), le projet démontre une excellente maturité marché globale.

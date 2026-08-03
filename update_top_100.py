@@ -1,6 +1,7 @@
 import os
 import re
 import urllib.parse
+import shutil
 from datetime import datetime
 
 results = []
@@ -18,49 +19,50 @@ for d in os.listdir('ideas'):
     title = m_title.group(1).strip() if m_title else d
 
     # Model
-    # Try finding badge/...-B2B-... first
-    m_model = re.search(r'badge/(?:Mod%C3%A8le|Model|Modèle)-([^-]+)-', content)
-    if not m_model:
-        m_model = re.search(r'!\[.*?Type:\s*(.+?)\]', content)
+    model = "Unknown"
+    m_model_badge = re.search(r'badge/(?:Mod%C3%A8le|Model|Modèle)-([^-]+)-', content)
 
-    if m_model:
-        model = urllib.parse.unquote(m_model.group(1).strip())
+    if m_model_badge:
+        raw_model = urllib.parse.unquote(m_model_badge.group(1).strip())
+        model = raw_model.replace("_", " ")
+        model = model.replace("%20", " ").replace("%2F", "/").replace("%28", "(").replace("%29", ")").replace("%2C", ",")
+        if model.endswith("(Revenue split on "):
+            model = model.replace("(Revenue split on ", "(Revenue split on arbitrage)")
+        elif model.endswith("(Revenue split on"):
+            model = model.replace("(Revenue split on", "(Revenue split on arbitrage)")
+        if model.endswith("(Software Licensing / Edge "):
+            model = model.replace("(Software Licensing / Edge ", "(Software Licensing / Edge API)")
+        elif model.endswith("(Software Licensing / Edge"):
+            model = model.replace("(Software Licensing / Edge", "(Software Licensing / Edge API)")
     else:
-        model = "Unknown"
+        m_model_alt = re.search(r'!\[.*?Type:\s*(.+?)\]', content)
+        if m_model_alt:
+            model = m_model_alt.group(1).strip()
 
     # Scores
     vc_score = 0
     terrain_score = 0
     composite = 0
 
-    # Check if there is an explicitly evaluated Composite Score in the badge
     m_comp = re.search(r'badge/(?:Score_Composite|Composite_Score)-([^-]+)-', content)
     if m_comp:
         comp_str = urllib.parse.unquote(m_comp.group(1).strip())
-        # Try to parse it to float if it looks like a number, but usually it's "Pending" or "En évaluation" if missing
         if re.match(r'^[\d\.]+$', comp_str):
             composite = float(comp_str)
-        elif comp_str != 'Pending' and comp_str != 'En évaluation':
-            # It might have a trailing /100 or something, let's try to extract numbers
+        elif comp_str not in ['Pending', 'En évaluation', 'En attente d\'évaluation', "En attente d'évaluation"]:
             m_comp_num = re.search(r'([\d\.]+)', comp_str)
             if m_comp_num:
                 composite = float(m_comp_num.group(1))
 
-    # Parse VC and Terrain from table
     m_total = re.search(r'\|\s*\**TOTAL\**\s*\|\s*\**([-\d\.]+)\s*/\s*100\**\s*\|\s*\**([-\d\.]+)\s*/\s*100\**\s*\|', content, re.IGNORECASE)
     if m_total:
         s_vc = m_total.group(1).strip()
         s_ter = m_total.group(2).strip()
-
         if s_vc != '--':
             vc_score = float(s_vc)
-
         if s_ter != '--':
             terrain_score = float(s_ter)
 
-    # Calculate composite if missing and we have at least one score or if both are zero
-    # Actually formula is just VC*0.5 + Terrain*0.5. If both 0, it's 0.
-    # If one is missing (0), it still gets calculated as (score*0.5)
     calculated_comp = (vc_score * 0.5) + (terrain_score * 0.5)
     if composite == 0 and calculated_comp > 0:
         composite = calculated_comp
@@ -76,6 +78,21 @@ for d in os.listdir('ideas'):
 
 results.sort(key=lambda x: (-x['composite'], x['title'].lower()))
 top_100 = results[:100]
+relegated = results[100:]
+
+# Archive relegated ideas
+if not os.path.exists('archive'):
+    os.makedirs('archive')
+
+for r in relegated:
+    src_dir = os.path.join('ideas', r['dir'])
+    dst_dir = os.path.join('archive', r['dir'])
+    if os.path.exists(src_dir):
+        # Handle case where directory already exists in archive
+        if os.path.exists(dst_dir):
+            shutil.rmtree(dst_dir)
+        shutil.move(src_dir, 'archive/')
+        print(f"Archived {r['dir']}")
 
 def fmt_score(score):
     if score == int(score):

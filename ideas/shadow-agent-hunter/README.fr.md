@@ -69,11 +69,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 23 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 24 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 21 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 22 / 25         | -- / 25              |
-| **TOTAL**                             | 90 / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | 23 / 25         | 21 / 25              |
+| **Moat / Résistance aux LLM natifs**  | 24 / 25         | 23 / 25              |
+| **Scalabilité / Friction d'adoption** | 21 / 25         | 19 / 25              |
+| **Unit Economics / ROI direct**       | 22 / 25         | 24 / 25              |
+| **TOTAL**                             | 90 / 100        | 87 / 100             |
 
 > **Verdict VC :** Shadow Agent Hunter s'attaque au chaos inévitable de la prolifération d'agents IA non gérés et non autorisés au sein des réseaux d'entreprise. En sécurisant le périmètre contre des opérations internes dévoyées, il crée un fossé sécuritaire essentiel et défendable. L'urgence de la conformité et de la réduction des risques propulse un modèle cybersécurité B2B très rentable.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour le marché cible, justifiant son excellent score d'urgence (21/25). Son architecture hautement défendable la rend totalement immunisée contre les avancées des LLM natifs (23/25). Avec une faible friction d'adoption (19/25) et une stratégie de monétisation directe (24/25), le projet démontre une excellente maturité marché globale.

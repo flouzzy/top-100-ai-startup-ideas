@@ -69,11 +69,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 20 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 22 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 25 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 24 / 25         | -- / 25              |
-| **TOTAL**                             | 91 / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | 20 / 25         | 20 / 25              |
+| **Moat / Résistance aux LLM natifs**  | 22 / 25         | 19 / 25              |
+| **Scalabilité / Friction d'adoption** | 25 / 25         | 21 / 25              |
+| **Unit Economics / ROI direct**       | 24 / 25         | 18 / 25              |
+| **TOTAL**                             | 91 / 100        | 78 / 100             |
 
 > **Verdict VC :** Token GC s'attaque au tueur silencieux de la rentabilité de l'IA : la surconsommation de tokens par des agents inefficaces. En offrant un ramasse-miettes pour l'usage API, il garantit un ROI financier immédiat aux développeurs, consolidant sa place dans la stack IA moderne. Le modèle d'adoption sans friction et la tarification à l'usage conduisent à une scalabilité spectaculaire.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour le marché cible, justifiant son excellent score d'urgence (20/25). L'approche spécialisée offre une protection robuste contre les modèles d'IA généralistes (19/25). Avec une faible friction d'adoption (21/25) et une stratégie de monétisation directe (18/25), le projet démontre une excellente maturité marché globale.

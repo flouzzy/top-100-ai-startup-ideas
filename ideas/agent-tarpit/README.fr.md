@@ -71,11 +71,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 22 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 24 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 21 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 23 / 25         | -- / 25              |
-| **TOTAL**                             | 90 / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | 22 / 25         | 21 / 25              |
+| **Moat / Résistance aux LLM natifs**  | 24 / 25         | 21 / 25              |
+| **Scalabilité / Friction d'adoption** | 21 / 25         | 22 / 25              |
+| **Unit Economics / ROI direct**       | 23 / 25         | 24 / 25              |
+| **TOTAL**                             | 90 / 100        | 88 / 100             |
 
 > **Verdict VC :** Agent Tarpit présente une infrastructure de sécurité très contrariante et efficace contre les attaques d'IA adverses. Ralentir financièrement les agents malveillants ruine leur opération, créant un puissant fossé économique que les LLM bruts ne peuvent contourner. La proposition de valeur défensive claire justifie aisément les budgets cybersécurité des entreprises.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour le marché cible, justifiant son excellent score d'urgence (21/25). L'approche spécialisée offre une protection robuste contre les modèles d'IA généralistes (21/25). Avec une faible friction d'adoption (22/25) et une stratégie de monétisation directe (24/25), le projet démontre une excellente maturité marché globale.

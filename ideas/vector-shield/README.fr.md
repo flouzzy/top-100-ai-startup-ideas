@@ -73,11 +73,11 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 23 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 24 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 21 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 23 / 25         | -- / 25              |
-| **TOTAL**                             | 91 / 100        | -- / 100             |
+| **Thèse & Monopole / Urgence**        | 23 / 25         | 23 / 25              |
+| **Moat / Résistance aux LLM natifs**  | 24 / 25         | 24 / 25              |
+| **Scalabilité / Friction d'adoption** | 21 / 25         | 23 / 25              |
+| **Unit Economics / ROI direct**       | 23 / 25         | 20 / 25              |
+| **TOTAL**                             | 91 / 100        | 90 / 100             |
 
 > **Verdict VC :** Vector Shield est une nécessité fondamentale de cybersécurité pour les systèmes RAG d'entreprise, empêchant les injections de données malveillantes d'empoisonner les bases de connaissances internes. Opérant au niveau de l'ingestion des bases de données, il sécurise un fossé infrastructurel B2B massif. Le besoin urgent de protéger les données d'entreprise rend la proposition de vente irrésistible.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Cette solution répond à un besoin critique pour le marché cible, justifiant son excellent score d'urgence (23/25). Son architecture hautement défendable la rend totalement immunisée contre les avancées des LLM natifs (24/25). Avec une faible friction d'adoption (23/25) et une stratégie de monétisation directe (20/25), le projet démontre une excellente maturité marché globale.
