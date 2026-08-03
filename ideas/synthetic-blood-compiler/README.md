@@ -66,12 +66,12 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | **-- / 100**    | **-- / 100**        |
+| **Thesis & Monopoly / Urgency** | 25 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 25 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 22 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 20 / 25         | -- / 25             |
+| **TOTAL**                       | **92 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** A profound paradigm shift aiming to eliminate a global biological dependency. The moat is untouchable by traditional tech, buried deep within proprietary molecular biology and clinical trials. Once FDA-approved, it commands an infinite, massive total addressable market with stellar unit economics.
 
 > **Market Verdict:** Pending evaluation.

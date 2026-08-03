@@ -68,12 +68,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | **-- / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | 21 / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | 25 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 17 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 18 / 25         | -- / 25              |
+| **TOTAL**                             | **81 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** S'attaque à un problème d'infrastructure critique où les temps d'arrêt coûtent des millions. Le fossé physique est incroyable, exigeant une maîtrise de la robotique sous-marine autonome. Les coûts d'investissement limitent l'hypercroissance, mais sécurisent des contrats d'infrastructure dominants et inattaquables.
 
 > **Verdict Terrain :** En attente d'évaluation.

@@ -67,12 +67,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | **-- / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | 25 / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | 23 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 19 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 17 / 25         | -- / 25              |
+| **TOTAL**                             | **84 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Thèse très ambitieuse 'zéro à un' ciblant le problème civilisationnel des déchets nucléaires. La défendabilité est absolue, limitée par la rareté extrême des compétences quantiques et nucléaires. La scalabilité est freinée par la lenteur gouvernementale, mais le succès garantit un monopole inébranlable.
 
 > **Verdict Terrain :** En attente d'évaluation.

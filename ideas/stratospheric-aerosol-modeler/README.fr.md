@@ -67,12 +67,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | **-- / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | 22 / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | 24 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 18 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 16 / 25         | -- / 25              |
+| **TOTAL**                             | **80 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Cible le marché B2G controversé mais inévitable de la géo-ingénierie solaire, offrant une immense valeur systémique. Le fossé algorithmique et physique est vaste. Cependant, les cycles de vente souverains et la volatilité politique rendent la monétisation rapide très incertaine à court terme.
 
 > **Verdict Terrain :** En attente d'évaluation.

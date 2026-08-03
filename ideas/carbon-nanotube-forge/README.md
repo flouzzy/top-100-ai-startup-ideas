@@ -64,12 +64,12 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | **-- / 100**    | **-- / 100**        |
+| **Thesis & Monopoly / Urgency** | 20 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 24 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 18 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 17 / 25         | -- / 25             |
+| **TOTAL**                       | **79 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Monopoly potential exists within a highly specialized, capital-intensive niche of hardware manufacturing. The physical moat is virtually insurmountable for purely software-based competitors. However, long hardware iteration cycles and immense upfront capital requirements dampen near-term scalability and margin profiles.
 
 > **Market Verdict:** Pending evaluation.
