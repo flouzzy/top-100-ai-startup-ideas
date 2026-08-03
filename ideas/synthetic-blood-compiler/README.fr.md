@@ -66,12 +66,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 25 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 25 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 22 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 20 / 25         | -- / 25              |
-| **TOTAL**                             | **92 / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 25 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 25 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 10 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 24 / 25              |
+| **TOTAL**                             | **-- / 100**    | **84 / 100**         |
 
 > **Verdict VC :** Un changement de paradigme profond visant à éliminer une dépendance biologique mondiale. Le fossé défensif est intouchable par la tech classique, ancré dans la biologie moléculaire propriétaire. Une fois validé par la FDA, le marché adressable est infini, avec d'excellentes marges unitaires.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Synthetic-blood-compiler cible la pénurie mondiale perpétuelle de sang, présentant une urgence immense. L'intersection de la bio-ingénierie et de la dynamique des fluides complexe offre un fossé parfait contre l'IA générique. Malgré des obstacles réglementaires massifs, le potentiel d'un produit universel salvateur garantit une monétisation sans précédent.

@@ -73,12 +73,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 23 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 23 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 20 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 22 / 25         | -- / 25              |
-| **TOTAL**                             | **88 / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 24 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 25 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 15 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 23 / 25              |
+| **TOTAL**                             | **-- / 100**    | **87 / 100**         |
 
 > **Verdict VC :** Répond à une vulnérabilité industrielle massive avec de graves risques financiers. L'intégration matérielle profonde avec les équipementiers miniers crée un verrouillage total et un fossé robuste. Les marges B2B sont très rentables compte tenu de l'échelle des déploiements de flottes autonomes.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Zero-trust-mining-fleet fournit une sécurité opérationnelle essentielle pour des opérations autonomes de plusieurs milliards de dollars. Le consensus cryptographique localisé garantit qu'il ne peut pas être répliqué ou contourné par des IA basées sur le cloud. Le ROI clair sur la prévention des accidents catastrophiques favorise une forte adoption par les entreprises malgré les défis d'intégration.

@@ -67,12 +67,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 22 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 24 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 18 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 16 / 25         | -- / 25              |
-| **TOTAL**                             | **80 / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 20 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 23 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 14 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 18 / 25              |
+| **TOTAL**                             | **-- / 100**    | **75 / 100**         |
 
 > **Verdict VC :** Cible le marché B2G controversé mais inévitable de la géo-ingénierie solaire, offrant une immense valeur systémique. Le fossé algorithmique et physique est vaste. Cependant, les cycles de vente souverains et la volatilité politique rendent la monétisation rapide très incertaine à court terme.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Stratospheric-aerosol-modeler s'attaque au domaine controversé mais de plus en plus urgent de la géo-ingénierie. Les simulations spécialisées de la physique atmosphérique créent un fossé solide. Cependant, les frictions réglementaires et le nombre limité d'acheteurs de niveau national rendent la voie de la monétisation complexe.

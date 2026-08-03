@@ -65,12 +65,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | 24 / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | 25 / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | 20 / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | 21 / 25         | -- / 25              |
-| **TOTAL**                             | **90 / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 24 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 25 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 12 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 19 / 25              |
+| **TOTAL**                             | **-- / 100**    | **80 / 100**         |
 
 > **Verdict VC :** Un pari sur un monopole absolu qui résout le goulot d'étranglement critique du rapatriement des données satellitaires. Le fossé technique associant le durcissement spatial et les réseaux de neurones à impulsions est quasi impossible à répliquer. Le marché explose avec le New Space, offrant de superbes contrats B2B.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Neuromorphic-space-edge fournit une infrastructure critique pour l'informatique en orbite où l'énergie et la latence sont des contraintes vitales. Il est entièrement immunisé contre les LLM standards grâce à son architecture matérielle exotique. La friction extrême de la qualification spatiale est compensée par des contrats de défense et d'aérospatiale très lucratifs.
