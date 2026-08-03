@@ -72,6 +72,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       | -- / 25         | 21 / 25              |
 | **TOTAL**                             | **-- / 100**    | **85 / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Approche contrariante brillante qui fusionne la mécatronique et la biologie profonde pour révolutionner les tests in-vitro. Le fossé défensif est immense, protégé par du matériel biotech spécialisé. L'idée promet une capture de valeur exceptionnelle une fois que la FDA validera les organoïdes.
 
 > **Verdict Terrain :** ECM Bioforge Printer résout le taux d'échec massif des essais cliniques avec une solution physique convaincante. Sa combinaison matériel-logiciel le protège complètement de la concurrence de l'IA générique. Bien que l'adoption en laboratoire soit intrinsèquement lente, l'impact direct sur le succès des essais cliniques entraîne une forte disposition à payer.

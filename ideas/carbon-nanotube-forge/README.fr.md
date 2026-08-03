@@ -70,6 +70,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       | -- / 25         | 20 / 25              |
 | **TOTAL**                             | **-- / 100**    | **81 / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le potentiel de monopole existe dans une niche matérielle très spécialisée et à forte intensité capitalistique. Le fossé défensif physique est infranchissable pour les acteurs logiciels purs. Néanmoins, les cycles matériels longs et les forts besoins en capitaux freinent la scalabilité à court terme.
 
 > **Verdict Terrain :** Carbon-nanotube-forge répond à un besoin urgent de matériaux de nouvelle génération avec un potentiel de marché massif. La boucle physico-informatique offre une immunité totale aux LLM purement numériques. L'adoption nécessite des dépenses d'investissement importantes, mais le ROI sur les percées matérielles justifie le prix.

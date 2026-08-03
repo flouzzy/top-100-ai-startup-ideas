@@ -73,6 +73,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       | -- / 25         | 22 / 25              |
 | **TOTAL**                             | **-- / 100**    | **81 / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** La thèse est solide, car elle résout un problème critique de CAPEX dans la mise à l'échelle en biotechnologie. La défendabilité est exceptionnelle grâce à la complexité d'intégration entre la dynamique des fluides et les modèles métaboliques. Les unit economics sont très attractifs pour des clients B2B.
 
 > **Verdict Terrain :** Bio-fermentation-twin cible précisément la difficulté de mise à l'échelle de la production biologique, offrant des gains de temps et de coûts mesurables. Son intégration profonde avec le matériel des bioréacteurs crée un fossé solide contre les LLM natifs. La monétisation est claire grâce aux économies matérielles directes, bien que la friction initiale d'installation reste élevée.

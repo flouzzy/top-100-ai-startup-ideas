@@ -70,6 +70,6 @@ sequenceDiagram
 | **Unit Economics / ROI**        | -- / 25         | 20 / 25             |
 | **TOTAL**                       | **-- / 100**    | **81 / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Monopoly potential exists within a highly specialized, capital-intensive niche of hardware manufacturing. The physical moat is virtually insurmountable for purely software-based competitors. However, long hardware iteration cycles and immense upfront capital requirements dampen near-term scalability and margin profiles.
 
 > **Market Verdict:** Carbon-nanotube-forge addresses an urgent need in next-gen materials with massive market potential. The physical-computational loop provides total immunity to purely digital LLMs. Adoption requires significant capital expenditure, but the ROI on material breakthroughs justifies the pricing.

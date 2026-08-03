@@ -74,6 +74,6 @@ sequenceDiagram
 | **Unit Economics / ROI direct**       | -- / 25         | 23 / 25              |
 | **TOTAL**                             | **-- / 100**    | **83 / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** S'attaque à un problème d'infrastructure critique où les temps d'arrêt coûtent des millions. Le fossé physique est incroyable, exigeant une maîtrise de la robotique sous-marine autonome. Les coûts d'investissement limitent l'hypercroissance, mais sécurisent des contrats d'infrastructure dominants et inattaquables.
 
 > **Verdict Terrain :** Subsea-cable-repair-swarm s'attaque à une vulnérabilité mondiale massive avec une solution robotique tangible. L'environnement physique extrême annule complètement toute menace de la part de l'IA purement logicielle. Le coût d'investissement élevé pour le déploiement est facilement justifié par les millions perdus par heure d'indisponibilité du câble.
