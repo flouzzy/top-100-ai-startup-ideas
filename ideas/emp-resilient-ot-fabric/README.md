@@ -59,11 +59,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 25 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 24 / 25             |
-| Scalability / UX Friction   | -- / 25         | 15 / 25             |
-| Unit Economics / ROI        | -- / 25         | 22 / 25             |
-| **TOTAL**                   | -- / 100        | **86 / 100**        |
+| Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
+| Scalability / UX Friction   | 22 / 25         | -- / 25             |
+| Unit Economics / ROI        | 21 / 25         | -- / 25             |
+| TOTAL                       | 92 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Strong urgency and obvious value for the target market. LLM resistance is high due to strong hardware or physical integration. Despite some adoption friction, B2B monetization is very clear.
+> **VC Verdict:** Infrastructure resilience is no longer optional; it's a national security imperative. The deep integration into OT environments creates near-permanent lock-in. A pure Peter Thiel monopoly play based on extreme technological superiority in a rigid sector.
+> **Market Verdict:** Pending evaluation.

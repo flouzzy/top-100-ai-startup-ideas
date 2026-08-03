@@ -59,11 +59,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 23 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 16 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 21 / 25              |
-| **TOTAL**                         | -- / 100        | **84 / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 25 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
+| TOTAL                             | 94 / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** Forte urgence et valeur évidente pour la cible. La résistance aux LLM est élevée grâce à une intégration matérielle ou physique forte. Malgré quelques frictions d'adoption, la monétisation B2B est très claire.
+> **Verdict VC :** La bio-fabrication est l'ultime frontière. Contrôler les algorithmes de croissance du mycélium permet de monopoliser la prochaine génération de matériaux durables. Le moat réside dans les recettes biologiques propriétaires et l'évolutivité extrême du processus de production.
+> **Verdict Terrain :** En attente d'évaluation.

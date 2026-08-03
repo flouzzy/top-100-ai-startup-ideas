@@ -81,11 +81,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | :-------------------------------- | :-------------- | :------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 22 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 23 / 25              |
-| Scalability / Friction d'adoption | -- / 25         | 15 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 20 / 25              |
-| **TOTAL**                         | **-- / 100**    | **80 / 100**         |
+| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalability / Friction d'adoption | 21 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
+| **TOTAL**                         | **90 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** Urgence modérée mais valeur stratégique à long terme. L'immunité aux LLM est bonne, reposant sur des modèles spécifiques. L'adoption présente des frictions notables qui pourraient ralentir la monétisation initiale.
+> **Verdict VC :** Un marché hyper-niche où l'échec est catastrophique. Le fossé computationnel est massif, et la capture réglementaire est inévitable une fois prouvée. Une friction initiale élevée, mais une rétention client et une valeur à vie inégalées.
+> **Verdict Terrain :** En attente d'évaluation.

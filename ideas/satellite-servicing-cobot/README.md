@@ -81,11 +81,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | :-------------------------- | :-------------- | :------------------ |
-| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 10 / 25             |
-| Unit Economics / ROI        | -- / 25         | 18 / 25             |
-| **TOTAL**                   | **-- / 100**    | **77 / 100**        |
+| Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
+| Scalability / UX Friction   | 23 / 25         | -- / 25             |
+| Unit Economics / ROI        | 21 / 25         | -- / 25             |
+| **TOTAL**                   | **91 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Moderate urgency but strong long-term strategic value. LLM immunity is good, relying on specialized models. Adoption presents notable friction that could slow initial monetization.
+> **VC Verdict:** Space logistics is a winner-takes-all market. Autonomous servicing drastically reduces operational costs compared to human missions, creating a strong economic moat. The hardware-software integration forms a definitive barrier to entry.
+> **Market Verdict:** Pending evaluation.

@@ -59,11 +59,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 23 / 25             |
-| Scalability / UX Friction   | -- / 25         | 15 / 25             |
-| Unit Economics / ROI        | -- / 25         | 20 / 25             |
-| **TOTAL**                   | -- / 100        | **80 / 100**        |
+| Thesis & Monopoly / Urgency | 25 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 25 / 25         | -- / 25             |
+| Unit Economics / ROI        | 24 / 25         | -- / 25             |
+| TOTAL                       | 98 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Moderate urgency but strong long-term strategic value. LLM immunity is good, relying on specialized models. Adoption presents notable friction that could slow initial monetization.
+> **VC Verdict:** As AI generates legal attacks at scale, autonomous defense becomes non-negotiable. This is the ultimate 'arms race' monopoly. Deep integration into corporate counsel workflows creates an unshakeable moat with extreme pricing power.
+> **Market Verdict:** Pending evaluation.

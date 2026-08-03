@@ -59,11 +59,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 10 / 25             |
-| Unit Economics / ROI        | -- / 25         | 18 / 25             |
-| **TOTAL**                   | -- / 100        | **77 / 100**        |
+| Thesis & Monopoly / Urgency | 25 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 21 / 25         | -- / 25             |
+| Scalability / UX Friction   | 22 / 25         | -- / 25             |
+| Unit Economics / ROI        | 19 / 25         | -- / 25             |
+| TOTAL                       | 87 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Moderate urgency but strong long-term strategic value. LLM immunity is good, relying on specialized models. Adoption presents notable friction that could slow initial monetization.
+> **VC Verdict:** An extreme contrarian bet on the industrialization of space. The moat is purely technical and timing-based: being the first OS for off-world refining guarantees a monopoly. While early, the TAM is potentially infinite and defensible by default.
+> **Market Verdict:** Pending evaluation.

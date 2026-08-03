@@ -82,11 +82,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | :-------------------------------- | :-------------- | :------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 10 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 18 / 25              |
-| **TOTAL**                         | **-- / 100**    | **77 / 100**         |
+| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 23 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | -- / 25              |
+| **TOTAL**                         | **93 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** Urgence modérée mais valeur stratégique à long terme. L'immunité aux LLM est bonne, reposant sur des modèles spécifiques. L'adoption présente des frictions notables qui pourraient ralentir la monétisation initiale.
+> **Verdict VC :** Le traitement sans récipient est un bond radical pour les matériaux avancés. L'utilisation de la lévitation acoustique évite la contamination et débloque de nouveaux alliages. Le moat est basé sur la maîtrise d'une physique complexe, établissant un monopole matériel fort.
+> **Verdict Terrain :** En attente d'évaluation.

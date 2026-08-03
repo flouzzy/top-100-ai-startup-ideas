@@ -59,11 +59,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 25 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 24 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 14 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 20 / 25              |
-| **TOTAL**                         | -- / 100        | **83 / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 25 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| TOTAL                             | 95 / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** Forte urgence et valeur évidente pour la cible. La résistance aux LLM est élevée grâce à une intégration matérielle ou physique forte. Malgré quelques frictions d'adoption, la monétisation B2B est très claire.
+> **Verdict VC :** Les thérapies ARN sont limitées par l'imprévisibilité structurelle. Modéliser le paysage de repliement 3D est un monopole de plateforme qui possède la prochaine ère de conception de médicaments. L'apprentissage profond géométrique forme un moat de données cumulatif.
+> **Verdict Terrain :** En attente d'évaluation.

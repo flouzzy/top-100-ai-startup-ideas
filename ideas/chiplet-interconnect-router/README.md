@@ -59,11 +59,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 23 / 25             |
-| Scalability / UX Friction   | -- / 25         | 16 / 25             |
-| Unit Economics / ROI        | -- / 25         | 21 / 25             |
-| **TOTAL**                   | -- / 100        | **84 / 100**        |
+| Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
+| Scalability / UX Friction   | 25 / 25         | -- / 25             |
+| Unit Economics / ROI        | 22 / 25         | -- / 25             |
+| TOTAL                       | 94 / 100        | -- / 100            |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Strong urgency and obvious value for the target market. LLM resistance is high due to strong hardware or physical integration. Despite some adoption friction, B2B monetization is very clear.
+> **VC Verdict:** As Moore's Law slows, chiplets are the only way forward. Controlling the routing topology is a massive structural advantage over generic EDA tools. High switching costs and deep integration into TSMC/Intel workflows ensure long-term dominance.
+> **Market Verdict:** Pending evaluation.

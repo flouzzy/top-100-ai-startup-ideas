@@ -81,11 +81,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | :-------------------------------- | :-------------- | :------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
-| Scalability / Friction d'adoption | -- / 25         | 10 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 18 / 25              |
-| **TOTAL**                         | **-- / 100**    | **77 / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalability / Friction d'adoption | 25 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **94 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** Urgence modérée mais valeur stratégique à long terme. L'immunité aux LLM est bonne, reposant sur des modèles spécifiques. L'adoption présente des frictions notables qui pourraient ralentir la monétisation initiale.
+> **Verdict VC :** Décoder le repliement de la chromatine est le Saint Graal de l'épigénétique. Les ensembles de données propriétaires et l'architecture GNN complexe créent un moat formidable. Hautement scalable car il devient la couche fondamentale pour la médecine de précision de nouvelle génération.
+> **Verdict Terrain :** En attente d'évaluation.
