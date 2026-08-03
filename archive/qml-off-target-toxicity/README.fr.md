@@ -60,10 +60,10 @@ sequenceDiagram
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
 | Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 25 / 25         | -- / 25              |
-| TOTAL                             | 96 / 100        | -- / 100             |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 23 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
+| TOTAL                             | 92 / 100        | -- / 100             |
 
-> **Verdict VC :** QML Off-Target Toxicity s'attaque au goulet d'étranglement le plus coûteux du développement de médicaments. La barrière technologique à l'entrée est immense, créant un fossé défensif quasi insurmontable face aux IA classiques. Avec un pouvoir de fixation des prix illimité pour une solution éprouvée, c'est un cas d'école de monopole deep tech.
+> **Verdict VC :** Utiliser le QML pour monopoliser la phase de criblage pré-clinique offre un fossé définitif contre les outils de biologie computationnelle classiques. L'intégration dans les pipelines pharmaceutiques crée un lock-in massif. Cela transforme la découverte chimique d'une loterie en ingénierie déterministe.
 > **Verdict Terrain :** En attente d'évaluation.

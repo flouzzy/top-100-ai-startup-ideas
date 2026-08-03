@@ -60,10 +60,10 @@ sequenceDiagram
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
 | Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
-| Scalability / UX Friction   | 24 / 25         | -- / 25             |
-| Unit Economics / ROI        | 25 / 25         | -- / 25             |
-| TOTAL                       | 96 / 100        | -- / 100            |
+| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
+| Scalability / UX Friction   | 23 / 25         | -- / 25             |
+| Unit Economics / ROI        | 20 / 25         | -- / 25             |
+| TOTAL                       | 92 / 100        | -- / 100            |
 
-> **VC Verdict:** QML Off-Target Toxicity directly attacks the most expensive bottleneck in drug development, representing a massive market opportunity. The technical barrier to entry is immense, creating a near-insurmountable deep tech moat against conventional AI models. With virtually unlimited pricing power for a proven solution, this is a textbook monopoly play.
+> **VC Verdict:** Using QML to monopolize the pre-clinical screening phase offers a definitive moat against classical computational biology tools. The integration into pharma pipelines is a massive lock-in. It shifts chemical discovery from a lottery to deterministic engineering.
 > **Market Verdict:** Pending evaluation.
