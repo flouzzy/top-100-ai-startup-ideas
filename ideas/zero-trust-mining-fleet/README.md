@@ -73,12 +73,12 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | **-- / 100**    | **-- / 100**        |
+| **Thesis & Monopoly / Urgency** | 23 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 23 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 20 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 22 / 25         | -- / 25             |
+| **TOTAL**                       | **88 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Addresses a massive, un-sexy industrial vulnerability with severe financial and physical risks. Deep hardware integration with legacy mining OEMs creates an absolute lock-in and a robust moat. The B2B unit economics are highly profitable given the massive scale of autonomous fleet deployments.
 
 > **Market Verdict:** Pending evaluation.

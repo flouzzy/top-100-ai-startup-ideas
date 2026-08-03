@@ -65,12 +65,12 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | **-- / 100**    | **-- / 100**        |
+| **Thesis & Monopoly / Urgency** | 24 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 25 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 20 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 21 / 25         | -- / 25             |
+| **TOTAL**                       | **90 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** An absolute monopoly play addressing the critical data downlink bottleneck in orbital infrastructure. The technical moat combining rad-hard engineering with spiking neural networks is nearly impossible to replicate. The market is exploding with New Space, offering fantastic enterprise contracts despite the niche hardware focus.
 
 > **Market Verdict:** Pending evaluation.

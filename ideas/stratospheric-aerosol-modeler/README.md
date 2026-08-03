@@ -67,12 +67,12 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | **-- / 100**    | **-- / 100**        |
+| **Thesis & Monopoly / Urgency** | 22 / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | 24 / 25         | -- / 25             |
+| **Scalability / UX Friction**   | 18 / 25         | -- / 25             |
+| **Unit Economics / ROI**        | 16 / 25         | -- / 25             |
+| **TOTAL**                       | **80 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Targets a controversial but inevitable B2G market for solar geoengineering, offering immense systemic value. The computational and physics-informed moat is vast. However, long sales cycles with sovereign entities and political volatility make rapid monetization and unit economics highly uncertain in the short term.
 
 > **Market Verdict:** Pending evaluation.

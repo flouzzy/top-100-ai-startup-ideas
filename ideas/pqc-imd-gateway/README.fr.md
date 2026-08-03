@@ -65,12 +65,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | **-- / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | 21 / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | 22 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 23 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 19 / 25         | -- / 25              |
+| **TOTAL**                             | **85 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Capitalise brillamment sur l'urgence des futures réglementations de la FDA concernant le matériel médical critique. L'intégration aux systèmes vitaux à très faible consommation crée des coûts de changement drastiques et un énorme fossé défensif. La scalabilité est excellente sur le parc de dispositifs.
 
 > **Verdict Terrain :** En attente d'évaluation.

@@ -66,12 +66,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | **-- / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | 25 / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | 25 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 22 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 20 / 25         | -- / 25              |
+| **TOTAL**                             | **92 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Un changement de paradigme profond visant à éliminer une dépendance biologique mondiale. Le fossé défensif est intouchable par la tech classique, ancré dans la biologie moléculaire propriétaire. Une fois validé par la FDA, le marché adressable est infini, avec d'excellentes marges unitaires.
 
 > **Verdict Terrain :** En attente d'évaluation.

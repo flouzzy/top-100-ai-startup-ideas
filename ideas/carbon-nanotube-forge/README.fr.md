@@ -64,12 +64,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | **-- / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | 20 / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | 24 / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | 18 / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | 17 / 25         | -- / 25              |
+| **TOTAL**                             | **79 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le potentiel de monopole existe dans une niche matérielle très spécialisée et à forte intensité capitalistique. Le fossé défensif physique est infranchissable pour les acteurs logiciels purs. Néanmoins, les cycles matériels longs et les forts besoins en capitaux freinent la scalabilité à court terme.
 
 > **Verdict Terrain :** En attente d'évaluation.
