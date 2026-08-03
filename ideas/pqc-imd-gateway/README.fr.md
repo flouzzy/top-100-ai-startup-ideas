@@ -65,12 +65,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | **-- / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 25 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 25 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 18 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 22 / 25              |
+| **TOTAL**                             | **-- / 100**    | **90 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** PQC-IMD Gateway cible une vulnérabilité absolument critique des dispositifs médicaux face aux menaces quantiques. Son intégration au niveau matériel offre une protection ultime contre les attaques numériques et la réplication LLM. La proposition de valeur claire consistant à sauver des vies rend la stratégie de monétisation robuste et immédiate.

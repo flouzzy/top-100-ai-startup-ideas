@@ -65,12 +65,12 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | **-- / 100**    | **-- / 100**        |
+| **Thesis & Monopoly / Urgency** | -- / 25         | 24 / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | 25 / 25             |
+| **Scalability / UX Friction**   | -- / 25         | 12 / 25             |
+| **Unit Economics / ROI**        | -- / 25         | 19 / 25             |
+| **TOTAL**                       | **-- / 100**    | **80 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Neuromorphic-space-edge provides critical infrastructure for orbital edge computing where power and latency are life-and-death constraints. It is entirely immune to standard LLMs due to its exotic hardware architecture. The extreme friction of space qualification is balanced by highly lucrative defense and aerospace contracts.

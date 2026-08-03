@@ -64,12 +64,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | **-- / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 22 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 25 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 14 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 20 / 25              |
+| **TOTAL**                             | **-- / 100**    | **81 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Carbon-nanotube-forge répond à un besoin urgent de matériaux de nouvelle génération avec un potentiel de marché massif. La boucle physico-informatique offre une immunité totale aux LLM purement numériques. L'adoption nécessite des dépenses d'investissement importantes, mais le ROI sur les percées matérielles justifie le prix.

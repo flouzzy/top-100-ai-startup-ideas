@@ -67,12 +67,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | **-- / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 20 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 24 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 15 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 22 / 25              |
+| **TOTAL**                             | **-- / 100**    | **81 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Bio-fermentation-twin cible précisément la difficulté de mise à l'échelle de la production biologique, offrant des gains de temps et de coûts mesurables. Son intégration profonde avec le matériel des bioréacteurs crée un fossé solide contre les LLM natifs. La monétisation est claire grâce aux économies matérielles directes, bien que la friction initiale d'installation reste élevée.

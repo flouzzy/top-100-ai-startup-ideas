@@ -64,12 +64,12 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | **-- / 100**    | **-- / 100**        |
+| **Thesis & Monopoly / Urgency** | -- / 25         | 22 / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | 25 / 25             |
+| **Scalability / UX Friction**   | -- / 25         | 14 / 25             |
+| **Unit Economics / ROI**        | -- / 25         | 20 / 25             |
+| **TOTAL**                       | **-- / 100**    | **81 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Carbon-nanotube-forge addresses an urgent need in next-gen materials with massive market potential. The physical-computational loop provides total immunity to purely digital LLMs. Adoption requires significant capital expenditure, but the ROI on material breakthroughs justifies the pricing.
