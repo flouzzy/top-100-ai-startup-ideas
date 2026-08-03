@@ -59,11 +59,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| TOTAL                             | -- / 100        | -- / 100             |
+| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 21 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 22 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 19 / 25         | -- / 25              |
+| TOTAL                             | 87 / 100        | -- / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Un pari contrarien extrême sur l'industrialisation de l'espace. Le moat est purement technique et basé sur le timing : être le premier OS pour le raffinage hors-monde garantit un monopole. Bien que précoce, le TAM est potentiellement infini et défendable par défaut.
 > **Verdict Terrain :** En attente d'évaluation.
