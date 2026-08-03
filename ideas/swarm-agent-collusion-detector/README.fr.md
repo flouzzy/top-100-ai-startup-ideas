@@ -75,4 +75,4 @@ sequenceDiagram
 
 > **Verdict VC :** Alors que les agents autonomes tradent à grande échelle, la collusion devient le tueur silencieux des marchés. Être la couche d'audit des économies agentiques est une thèse de monopole définitive. Des coûts de changement élevés et des vents favorables réglementaires rendent cela hautement défendable.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Urgence modérée mais valeur stratégique à long terme. L'immunité aux LLM est bonne, reposant sur des modèles spécifiques. L'adoption présente des frictions notables qui pourraient ralentir la monétisation initiale.

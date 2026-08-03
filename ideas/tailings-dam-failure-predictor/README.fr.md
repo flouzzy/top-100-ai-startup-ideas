@@ -75,4 +75,4 @@ sequenceDiagram
 
 > **Verdict VC :** Les catastrophes minières représentent des risques existentiels pour les opérateurs. Une IA prédictive qui modélise avec précision la physique des barrages devient une infrastructure obligatoire. L'intégration profonde crée d'immenses coûts de changement.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Urgence modérée mais valeur stratégique à long terme. L'immunité aux LLM est bonne, reposant sur des modèles spécifiques. L'adoption présente des frictions notables qui pourraient ralentir la monétisation initiale.

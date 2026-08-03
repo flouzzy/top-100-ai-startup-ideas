@@ -76,4 +76,4 @@ sequenceDiagram
 
 > **VC Verdict:** PROTACs are the future of therapeutics, and owning the simulation engine means taxing the entire ecosystem. The geometric GNN approach creates a proprietary data moat that compounds with every simulation. Highly scalable and directly monetizable through pharma licensing.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Strong urgency and obvious value for the target market. LLM resistance is high due to strong hardware or physical integration. Despite some adoption friction, B2B monetization is very clear.

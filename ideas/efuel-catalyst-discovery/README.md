@@ -76,4 +76,4 @@ sequenceDiagram
 
 > **VC Verdict:** Synthesizing e-fuels efficiently is the key to decarbonizing aviation. An AI platform that dictates catalyst discovery owns the core IP of the entire transition. A compounding data moat with massive global TAM and licensing upside.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Strong urgency and obvious value for the target market. LLM resistance is high due to strong hardware or physical integration. Despite some adoption friction, B2B monetization is very clear.

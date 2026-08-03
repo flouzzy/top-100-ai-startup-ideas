@@ -75,4 +75,4 @@ sequenceDiagram
 
 > **VC Verdict:** Controlling sound at the structural level is a blue-ocean market. The generative AI for metamaterial topology is a massive technical barrier. Broad applicability across aerospace, automotive, and urban design ensures a massive TAM.
 
-> **Market Verdict:** The value proposition is extremely compelling for aerospace and EV sectors due to direct ROI from weight reduction. While adoption requires a paradigm shift in manufacturing towards 3D printing, the immunity to general AI and clear monetization make it highly viable.
+> **Market Verdict:** Moderate urgency but strong long-term strategic value. LLM immunity is good, relying on specialized models. Adoption presents notable friction that could slow initial monetization.

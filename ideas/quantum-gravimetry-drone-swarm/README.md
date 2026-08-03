@@ -76,4 +76,4 @@ sequenceDiagram
 
 > **VC Verdict:** This is a true contrarian monopoly: mapping the invisible subsurface at scale with drones instead of ground crews. The hardware-software combination ensures high switching costs. If it works, it becomes the defacto standard for extraction and infrastructure monitoring.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Strong urgency and obvious value for the target market. LLM resistance is high due to strong hardware or physical integration. Despite some adoption friction, B2B monetization is very clear.

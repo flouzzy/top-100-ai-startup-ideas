@@ -76,4 +76,4 @@ sequenceDiagram
 
 > **Verdict VC :** Une nécessité critique de sécurité nationale avec un moat technique insurmontable. L'inspection profonde non destructive via des signatures électromagnétiques crée une confiance absolue dans les chaînes d'approvisionnement. Une barrière à l'entrée élevée et une intégration profonde garantissent la domination.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Forte urgence et valeur évidente pour la cible. La résistance aux LLM est élevée grâce à une intégration matérielle ou physique forte. Malgré quelques frictions d'adoption, la monétisation B2B est très claire.

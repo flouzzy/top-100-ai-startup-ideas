@@ -75,4 +75,4 @@ sequenceDiagram
 
 > **Verdict VC :** La photonique est l'avenir inévitable des interconnexions de puces. L'OS qui dicte la conception de l'interposeur optique dominera le prochain paradigme informatique. Un moat technique insurmontable soutenu par une intégration profonde dans la fabrication de semi-conducteurs.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Forte urgence et valeur évidente pour la cible. La résistance aux LLM est élevée grâce à une intégration matérielle ou physique forte. Malgré quelques frictions d'adoption, la monétisation B2B est très claire.

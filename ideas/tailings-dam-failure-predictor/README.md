@@ -75,4 +75,4 @@ sequenceDiagram
 
 > **VC Verdict:** Mining disasters represent existential risks for operators. A predictive AI that accurately models dam physics becomes mandatory infrastructure. Deep integration into mining operations creates immense switching costs and high unit economics.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Moderate urgency but strong long-term strategic value. LLM immunity is good, relying on specialized models. Adoption presents notable friction that could slow initial monetization.

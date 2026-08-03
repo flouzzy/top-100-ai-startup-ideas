@@ -76,4 +76,4 @@ sequenceDiagram
 
 > **Verdict VC :** Un positionnement à contre-courant brillant contre le matériel hérité résistant aux radiations. Utiliser un logiciel pour corriger les erreurs du silicium commercial débloque des gains de performances massifs. Le verrouillage technique et les moats réglementaires sont absolus.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Urgence modérée mais valeur stratégique à long terme. L'immunité aux LLM est bonne, reposant sur des modèles spécifiques. L'adoption présente des frictions notables qui pourraient ralentir la monétisation initiale.

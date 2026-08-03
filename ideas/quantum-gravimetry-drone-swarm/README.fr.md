@@ -76,4 +76,4 @@ sequenceDiagram
 
 > **Verdict VC :** C'est un véritable monopole contrarien : cartographier le sous-sol invisible à l'échelle avec des drones plutôt que des équipes au sol. La combinaison matériel-logiciel garantit des coûts de changement élevés. Si cela fonctionne, cela devient le standard de facto pour l'extraction et l'infrastructure.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Forte urgence et valeur évidente pour la cible. La résistance aux LLM est élevée grâce à une intégration matérielle ou physique forte. Malgré quelques frictions d'adoption, la monétisation B2B est très claire.

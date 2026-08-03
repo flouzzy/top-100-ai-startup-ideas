@@ -76,4 +76,4 @@ sequenceDiagram
 
 > **Verdict VC :** Les PROTACs sont l'avenir de la thérapeutique, et posséder le moteur de simulation revient à taxer l'ensemble de l'écosystème. L'approche GNN géométrique crée un moat de données propriétaire qui se renforce à chaque simulation. Très scalable et monétisable directement via les licences pharmaceutiques.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Forte urgence et valeur évidente pour la cible. La résistance aux LLM est élevée grâce à une intégration matérielle ou physique forte. Malgré quelques frictions d'adoption, la monétisation B2B est très claire.

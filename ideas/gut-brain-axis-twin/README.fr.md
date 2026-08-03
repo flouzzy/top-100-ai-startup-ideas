@@ -76,4 +76,4 @@ sequenceDiagram
 
 > **Verdict VC :** L'influence du microbiome sur la neurologie est un marché massif inexploité. Un jumeau numérique modélisant cet axe fournit un moat définitif pour de nouvelles thérapies. Hautement scalable et défendable grâce à des ensembles de données multi-omiques propriétaires.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Forte urgence et valeur évidente pour la cible. La résistance aux LLM est élevée grâce à une intégration matérielle ou physique forte. Malgré quelques frictions d'adoption, la monétisation B2B est très claire.

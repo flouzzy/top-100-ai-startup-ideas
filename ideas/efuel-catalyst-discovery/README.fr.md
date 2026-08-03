@@ -76,4 +76,4 @@ sequenceDiagram
 
 > **Verdict VC :** Synthétiser efficacement des e-carburants est la clé de la décarbonisation de l'aviation. Une plateforme IA qui dicte la découverte de catalyseurs possède l'IP de toute la transition. Un moat de données cumulatif avec un TAM mondial massif.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Forte urgence et valeur évidente pour la cible. La résistance aux LLM est élevée grâce à une intégration matérielle ou physique forte. Malgré quelques frictions d'adoption, la monétisation B2B est très claire.

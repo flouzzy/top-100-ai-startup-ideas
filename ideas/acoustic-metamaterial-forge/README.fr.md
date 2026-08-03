@@ -75,4 +75,4 @@ sequenceDiagram
 
 > **Verdict VC :** Contrôler le son au niveau structurel est un marché océan bleu. L'IA générative pour la topologie des métamatériaux est une barrière technique massive. Une large applicabilité dans l'aérospatiale, l'automobile et le design urbain assure un TAM massif.
 
-> **Verdict Terrain :** La proposition de valeur est extrêmement forte pour l'aéronautique et les VE grâce au ROI direct lié au gain de poids. Bien que l'adoption exige un changement de paradigme industriel vers l'impression 3D, l'immunité face à l'IA générique et la clarté de la monétisation en font un projet très viable.
+> **Verdict Terrain :** Urgence modérée mais valeur stratégique à long terme. L'immunité aux LLM est bonne, reposant sur des modèles spécifiques. L'adoption présente des frictions notables qui pourraient ralentir la monétisation initiale.

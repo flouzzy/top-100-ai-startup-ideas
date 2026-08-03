@@ -75,4 +75,4 @@ sequenceDiagram
 
 > **VC Verdict:** Photonics is the inevitable future of chip interconnects. The OS that dictates optical interposer design will dominate the next computing paradigm. An insurmountable technical moat supported by deep integration into semiconductor fabrication.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Strong urgency and obvious value for the target market. LLM resistance is high due to strong hardware or physical integration. Despite some adoption friction, B2B monetization is very clear.
