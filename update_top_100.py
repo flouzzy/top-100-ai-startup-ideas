@@ -1,6 +1,7 @@
 import os
 import re
 import urllib.parse
+import shutil
 from datetime import datetime
 
 results = []
@@ -77,6 +78,21 @@ for d in os.listdir('ideas'):
 
 results.sort(key=lambda x: (-x['composite'], x['title'].lower()))
 top_100 = results[:100]
+relegated = results[100:]
+
+# Archive relegated ideas
+if not os.path.exists('archive'):
+    os.makedirs('archive')
+
+for r in relegated:
+    src_dir = os.path.join('ideas', r['dir'])
+    dst_dir = os.path.join('archive', r['dir'])
+    if os.path.exists(src_dir):
+        # Handle case where directory already exists in archive
+        if os.path.exists(dst_dir):
+            shutil.rmtree(dst_dir)
+        shutil.move(src_dir, 'archive/')
+        print(f"Archived {r['dir']}")
 
 def fmt_score(score):
     if score == int(score):
