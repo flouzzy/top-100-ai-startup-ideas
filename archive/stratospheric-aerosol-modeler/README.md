@@ -67,12 +67,12 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | **-- / 100**    | **-- / 100**        |
+| **Thesis & Monopoly / Urgency** | -- / 25         | 20 / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | 23 / 25             |
+| **Scalability / UX Friction**   | -- / 25         | 14 / 25             |
+| **Unit Economics / ROI**        | -- / 25         | 18 / 25             |
+| **TOTAL**                       | **-- / 100**    | **75 / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Targets a controversial but inevitable B2G market for solar geoengineering, offering immense systemic value. The computational and physics-informed moat is vast. However, long sales cycles with sovereign entities and political volatility make rapid monetization and unit economics highly uncertain in the short term.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Stratospheric-aerosol-modeler tackles the controversial but increasingly urgent field of geoengineering. The specialized atmospheric physics simulations create a strong moat. However, the regulatory friction and limited number of national-level buyers make the monetization path complex.

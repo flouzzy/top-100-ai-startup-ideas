@@ -68,12 +68,12 @@ sequenceDiagram
 
 | Criterion                       | VC Score (/100) | Market Score (/100) |
 | :------------------------------ | :-------------- | :------------------ |
-| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
-| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
-| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
-| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
-| **TOTAL**                       | **-- / 100**    | **-- / 100**        |
+| **Thesis & Monopoly / Urgency** | -- / 25         | 23 / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | 25 / 25             |
+| **Scalability / UX Friction**   | -- / 25         | 12 / 25             |
+| **Unit Economics / ROI**        | -- / 25         | 23 / 25             |
+| **TOTAL**                       | **-- / 100**    | **83 / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Tackles a high-urgency, high-value infrastructure problem where downtime costs millions per hour. The physical moat is incredible, requiring mastery of autonomous deep-sea robotics and fiber splicing. The capital expenditure limits hyper-growth scalability, but it secures dominant, unassailable long-term infrastructure contracts.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Subsea-cable-repair-swarm addresses a massive global vulnerability with a tangible robotic solution. The extreme physical environment completely negates any threat from pure software AI. The high capital cost to deploy is easily justified by the millions lost per hour of cable downtime.

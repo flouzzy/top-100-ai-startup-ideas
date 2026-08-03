@@ -68,12 +68,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | **-- / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 23 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 25 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 12 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 23 / 25              |
+| **TOTAL**                             | **-- / 100**    | **83 / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** S'attaque à un problème d'infrastructure critique où les temps d'arrêt coûtent des millions. Le fossé physique est incroyable, exigeant une maîtrise de la robotique sous-marine autonome. Les coûts d'investissement limitent l'hypercroissance, mais sécurisent des contrats d'infrastructure dominants et inattaquables.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Subsea-cable-repair-swarm s'attaque à une vulnérabilité mondiale massive avec une solution robotique tangible. L'environnement physique extrême annule complètement toute menace de la part de l'IA purement logicielle. Le coût d'investissement élevé pour le déploiement est facilement justifié par les millions perdus par heure d'indisponibilité du câble.

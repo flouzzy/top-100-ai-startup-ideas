@@ -67,12 +67,12 @@ sequenceDiagram
 
 | Critère                               | Score VC (/100) | Score Terrain (/100) |
 | :------------------------------------ | :-------------- | :------------------- |
-| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
-| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
-| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
-| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
-| **TOTAL**                             | **-- / 100**    | **-- / 100**         |
+| **Thèse & Monopole / Urgence**        | -- / 25         | 21 / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | 24 / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | 15 / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | 20 / 25              |
+| **TOTAL**                             | **-- / 100**    | **80 / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Thèse très ambitieuse 'zéro à un' ciblant le problème civilisationnel des déchets nucléaires. La défendabilité est absolue, limitée par la rareté extrême des compétences quantiques et nucléaires. La scalabilité est freinée par la lenteur gouvernementale, mais le succès garantit un monopole inébranlable.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Nuclear-transmutation-sim offre une solution hautement spécialisée pour la gestion des déchets nucléaires et la conception de réacteurs avancés. Le moteur physique complexe est hautement défendable contre les modèles de langage génériques. Le cycle de vente B2B sera long, mais les enjeux élevés garantissent une voie claire vers les licences d'entreprise.
