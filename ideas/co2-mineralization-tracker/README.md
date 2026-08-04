@@ -1,10 +1,10 @@
-<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD036 MD037 MD039 MD041 MD060 -->
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
 [ 🇫🇷 Version Française ](./README.fr.md)
 
 # Geo Carbon MRV
 
-> **Executive Summary:** A B2B solution targeting Buyers of industrial carbon credits, carbon capture and storage (CCS) operators, sustainability auditors. to solve: Carbon markets lack confidence (greenwashing). Physically and unalterably proving that a specific ton of CO2 has been buried and mineralized in rock is extremely difficult.
+> **Executive Summary:** A B2B solution targeting industrial carbon credit buyers and operators to physically and unalterably prove CO2 mineralization in rock.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -16,56 +16,55 @@
 
 ```mermaid
 graph TD
-    A{"Problem"} -->|"Solves"| B{"Solution"}
+    A{"Spreadsheet MRV"} -->|"Replaced by"| B{"IoT Sensors & Geophysical Twin"}
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** Generic solutions are enough.
-- **Hidden Truth:** An IoT system combining downhole seismic sensors and a geophysical World Model that validates the mineralization chemical reaction in real time and issues a certificate cryptographically linked to the raw sensor data.
+- **Popular Belief:** Generic spreadsheet-based MRV is enough.
+- **Hidden Truth:** Spreadsheet-based measurement, reporting, and verification (MRV) is falsifiable. We must integrate geological measurement hardware with subsurface thermodynamic modeling.
 
 ## 3. Problem & Target Market
 
 - **Business Model:** B2B
-- **Target Audience:** Buyers of industrial carbon credits, carbon capture and storage (CCS) operators, sustainability auditors.
-- **Urgent Pain Point:** Carbon markets lack confidence (greenwashing). Physically and unalterably proving that a specific ton of CO2 has been buried and mineralized in rock is extremely difficult.
+- **Target Audience:** Industrial carbon credit buyers, carbon capture and storage (CCS) operators, sustainability auditors.
+- **Urgent Pain Point:** Carbon markets lack trust (greenwashing). Physically and unalterably proving that a specific ton of CO2 has been buried and mineralized in rock is extremely difficult.
 
 ## 4. Technical Architecture & Infrastructure
 
-An IoT system combining downhole seismic sensors and a geophysical World Model that validates the mineralization chemical reaction in real time and issues a certificate cryptographically linked to the raw sensor data.
+An IoT system combining downhole seismic sensors and a geophysical World Model that validates the mineralization chemical reaction in real-time and issues a certificate cryptographically linked to the raw sensor data.
 
 ```mermaid
 sequenceDiagram
-    participant U as "User"
-    participant S as "AI System"
-    U->>S: "Request"
-    S-->>U: "Response"
+    participant U as "Auditor"
+    participant S as "Geo Carbon System"
+    U->>S: "Request Certificate"
+    S-->>U: "Cryptographic Validation"
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                 |
-| ---------------------- | --------------------- |
-| Pricing Structure      | B2B SaaS Subscription |
-| 12-Month Target        | 100 clients           |
-| Revenue Formula        | 100 \* 1000€ = 100k€  |
-| Estimated Gross Margin | 80%                   |
+| Metric                 | Value                           |
+| ---------------------- | ------------------------------- |
+| Pricing Structure      | B2B SaaS Subscription / License |
+| 12-Month Target        | 100 clients                     |
+| Revenue Formula        | 100 \* 1000€ = 100k€            |
+| Estimated Gross Margin | 80%                             |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** Direct sales and strategic partnerships.
-- **Moat (Defensibility):** Spreadsheet-based measurement, reporting and verification (MRV) is falsifiable. It is necessary to integrate geological measurement hardware with underground thermodynamic modeling.
+- **Acquisition Strategy:** Direct B2B sales and strategic CCS partnerships.
+- **Moat (Defensibility):** Spreadsheet-based measurement, reporting, and verification (MRV) is falsifiable. We must integrate geological measurement hardware with subsurface thermodynamic modeling.
 
 ## 7. Detailed Evaluation Grid
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 18 / 25         | 18 / 25             |
-| Moat / LLM Immunity         | 23 / 25         | 23 / 25             |
-| Scalability / UX Friction   | 23 / 25         | 23 / 25             |
-| Unit Economics / ROI        | 21 / 25         | 21 / 25             |
-| TOTAL                       | 85 / 100        | 85 / 100            |
+| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
+| Moat / LLM Immunity         | -- / 25         | -- / 25             |
+| Scalability / UX Friction   | -- / 25         | -- / 25             |
+| Unit Economics / ROI        | -- / 25         | -- / 25             |
+| TOTAL                       | -- / 100        | -- / 100            |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** This solution addresses a critical pain point for B2B enterprises, justifying its strong urgency score (18/25). Its highly defensible architecture makes it completely immune to native LLM advancements (23/25). With low adoption friction (23/25) and a straightforward monetization strategy (21/25), the project demonstrates excellent overall market readiness.
-> **Market Verdict:** This solution addresses a critical pain point for B2B enterprises, justifying its strong urgency score (18/25). Its highly defensible architecture makes it completely immune to native LLM advancements (23/25). With low adoption friction (23/25) and a straightforward monetization strategy (21/25), the project demonstrates excellent overall market readiness.
+> **Market Verdict:** Pending evaluation.

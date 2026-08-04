@@ -1,10 +1,10 @@
-<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD036 MD037 MD039 MD041 MD060 -->
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
 [ 🇫🇷 Version Française ](./README.fr.md)
 
 # Grid Inertia Synthesizer
 
-> **Executive Summary:** A B2B solution targeting Transmission network operators (TSO) and renewable energy producers (RTE, National Grid, wind/solar farm operators). to solve: The transition to renewable energy removes the “rotating inertia” of large fossil turbines, making power grids increasingly unstable and prone to blackouts during frequency fluctuations.
+> **Executive Summary:** A B2B edge computing solution targeting Transmission System Operators (TSOs) to dynamically synthesize grid inertia and prevent blackouts.
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
@@ -16,56 +16,55 @@
 
 ```mermaid
 graph TD
-    A{"Problem"} -->|"Solves"| B{"Solution"}
+    A{"Grid Instability (Renewables)"} -->|"Stabilized by"| B{"Grid-forming Inverters & AI Edge"}
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** Generic solutions are enough.
-- **Hidden Truth:** A hardware/software controller (edge ​​computing) for massive inverters (Grid-forming inverters) coupled with an AI for predicting micro-instabilities which synthesizes virtual inertia by injecting or absorbing power in a few milliseconds via decentralized batteries.
+- **Popular Belief:** Generic cloud SaaS and standard battery dispatch are sufficient to balance the grid.
+- **Hidden Truth:** Critical cyber-physical problem requiring ultra-fast low-level control (AC sub-cycle) at the hardware level. A cloud SaaS would introduce a fatal latency resulting in grid collapse.
 
 ## 3. Problem & Target Market
 
 - **Business Model:** B2B
-- **Target Audience:** Transmission network operators (TSO) and renewable energy producers (RTE, National Grid, wind/solar farm operators).
-- **Urgent Pain Point:** The transition to renewable energy removes the “rotating inertia” of large fossil turbines, making power grids increasingly unstable and prone to blackouts during frequency fluctuations.
+- **Target Audience:** Transmission System Operators (TSOs) and renewable energy producers (RTE, National Grid, wind/solar park operators).
+- **Urgent Pain Point:** The transition to renewable energy removes the "spinning inertia" of large fossil-fuel turbines, making electrical grids increasingly unstable and prone to blackouts during frequency fluctuations.
 
 ## 4. Technical Architecture & Infrastructure
 
-A hardware/software controller (edge ​​computing) for massive inverters (Grid-forming inverters) coupled with an AI for predicting micro-instabilities which synthesizes virtual inertia by injecting or absorbing power in a few milliseconds via decentralized batteries.
+A hardware/software edge computing controller for massive grid-forming inverters, coupled with an AI predicting micro-instabilities to synthesize virtual inertia by injecting or absorbing power within milliseconds via decentralized batteries.
 
 ```mermaid
 sequenceDiagram
-    participant U as "User"
-    participant S as "AI System"
-    U->>S: "Request"
-    S-->>U: "Response"
+    participant G as "Grid"
+    participant S as "Edge AI Controller"
+    G->>S: "Frequency Drop Detected"
+    S-->>G: "Sub-cycle Inertia Injection"
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                 |
-| ---------------------- | --------------------- |
-| Pricing Structure      | B2B SaaS Subscription |
-| 12-Month Target        | 100 clients           |
-| Revenue Formula        | 100 \* 1000€ = 100k€  |
-| Estimated Gross Margin | 80%                   |
+| Metric                 | Value                            |
+| ---------------------- | -------------------------------- |
+| Pricing Structure      | B2B Hardware + SaaS Subscription |
+| 12-Month Target        | 100 installations                |
+| Revenue Formula        | 100 \* 1000€ = 100k€             |
+| Estimated Gross Margin | 60%                              |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** Direct sales and strategic partnerships.
-- **Moat (Defensibility):** Critical cyber-physical problem requiring ultra-fast low-level control (AC sub-cycle) at the hardware level. A cloud SaaS would introduce fatal latency leading to network collapse.
+- **Acquisition Strategy:** Direct sales to TSOs and energy producers.
+- **Moat (Defensibility):** Problème cyber-physique critique nécessitant un contrôle bas-niveau ultra-rapide (sub-cycle AC) au niveau du hardware. Un SaaS cloud introduirait une latence fatale. Requires high capital and deep integration with grid infrastructure.
 
 ## 7. Detailed Evaluation Grid
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 24 / 25         | 24 / 25             |
-| Moat / LLM Immunity         | 24 / 25         | 24 / 25             |
-| Scalability / UX Friction   | 20 / 25         | 20 / 25             |
-| Unit Economics / ROI        | 21 / 25         | 21 / 25             |
-| TOTAL                       | 89 / 100        | 89 / 100            |
+| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
+| Moat / LLM Immunity         | -- / 25         | -- / 25             |
+| Scalability / UX Friction   | -- / 25         | -- / 25             |
+| Unit Economics / ROI        | -- / 25         | -- / 25             |
+| TOTAL                       | -- / 100        | -- / 100            |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** This solution addresses a critical pain point for B2B enterprises, justifying its strong urgency score (24/25). Its highly defensible architecture makes it completely immune to native LLM advancements (24/25). With low adoption friction (20/25) and a straightforward monetization strategy (21/25), the project demonstrates excellent overall market readiness.
-> **Market Verdict:** This solution addresses a critical pain point for B2B enterprises, justifying its strong urgency score (24/25). Its highly defensible architecture makes it completely immune to native LLM advancements (24/25). With low adoption friction (20/25) and a straightforward monetization strategy (21/25), the project demonstrates excellent overall market readiness.
+> **Market Verdict:** Pending evaluation.
