@@ -54,7 +54,23 @@ for d in os.listdir('ideas'):
             if m_comp_num:
                 composite = float(m_comp_num.group(1))
 
+    # Match with or without markdown bold asterisks and handle various spacings
+    # E.g. | TOTAL | 89 / 100 | 81 / 100 |  or | **TOTAL** | **89 / 100** | **81 / 100** |
     m_total = re.search(r'\|\s*\**TOTAL\**\s*\|\s*\**([-\d\.]+)\s*/\s*100\**\s*\|\s*\**([-\d\.]+)\s*/\s*100\**\s*\|', content, re.IGNORECASE)
+    if not m_total:
+        # Try a more relaxed regex just in case
+        m_total = re.search(r'\|\s*\*?TOTAL\*?\s*\|\s*\*?([-\d\.]+)\s*/\s*100\*?\s*\|\s*\*?([-\d\.]+)\s*/\s*100\*?\s*\|', content, re.IGNORECASE)
+    if not m_total:
+        # Fallback to scanning lines
+        lines = content.split('\n')
+        for line in lines:
+            if 'TOTAL' in line.upper():
+                # Extract numbers before / 100
+                nums = re.findall(r'([-\d\.]+)\s*/\s*100', line)
+                if len(nums) >= 2:
+                    m_total = type('obj', (object,), {'group': lambda self, i: nums[i-1]})()
+                    break
+
     if m_total:
         s_vc = m_total.group(1).strip()
         s_ter = m_total.group(2).strip()
