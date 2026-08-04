@@ -66,11 +66,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
+| Scalability / UX Friction   | 19 / 25         | -- / 25             |
+| Unit Economics / ROI        | 21 / 25         | -- / 25             |
+| **TOTAL**                   | **85 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Lunar Regolith Construction Sim targets a highly specialized but hyper-funded niche: off-world infrastructure. The physics engine accurately modeling non-Earth gravity and regolith cohesion presents a formidable barrier to entry for standard CAD software. Securing early contracts with space agencies locks in recurring revenue as the lunar economy expands.
 > **Market Verdict:** Pending evaluation.

@@ -66,11 +66,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 21 / 25         | -- / 25             |
+| Unit Economics / ROI        | 24 / 25         | -- / 25             |
+| **TOTAL**                   | **91 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Edge Genomics Compiler fundamentally shifts bioinformatics from slow, centralized cloud computing to real-time edge processing. The highly specialized compiler bridging sequencer hardware and decentralized infrastructure acts as a powerful moat against standard cloud-native wrappers. The SaaS/PaaS model guarantees recurring revenue with clear ROI for field-deployed biotech companies.
 > **Market Verdict:** Pending evaluation.

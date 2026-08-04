@@ -66,11 +66,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **90 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Smart Grid Quantum Optimizer s'attaque au problème NP-difficile du routage en temps réel des réseaux électriques, avec des implications financières et écologiques colossales. L'utilisation du recuit quantique hybride crée une barrière à l'entrée insurmontable pour les solveurs d'IA classique. Bien que le cycle de vente B2B aux fournisseurs d'énergie soit lent, la rétention et le potentiel de passage à l'échelle mondial sont exceptionnels.
 > **Verdict Terrain :** En attente d'évaluation.

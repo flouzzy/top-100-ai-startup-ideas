@@ -67,11 +67,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
+| Scalability / UX Friction   | 20 / 25         | -- / 25             |
+| Unit Economics / ROI        | 21 / 25         | -- / 25             |
+| **TOTAL**                   | **88 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Quantum Gravimeter Mining disrupts traditional resource exploration by utilizing quantum sensing to map subterranean densities with unprecedented precision. The requirement for advanced quantum hardware integration combined with specialized geological signal processing forms an absolute deep-tech monopoly. The high-value B2B contracts in the mining sector justify the intensive R&D.
 > **Market Verdict:** Pending evaluation.

@@ -65,11 +65,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
+| Scalability / UX Friction   | 22 / 25         | -- / 25             |
+| Unit Economics / ROI        | 20 / 25         | -- / 25             |
+| **TOTAL**                   | **91 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Exascale Climate Emulator applies a physics-informed AI approach to solve one of the most critical and computationally expensive problems of our time. Replacing traditional Navier-Stokes numerical solvers with neural emulators creates a monopoly on real-time, hyper-local climate risk assessment. High computational barriers secure a strong moat, though customer acquisition in public sectors may be slow.
 > **Market Verdict:** Pending evaluation.

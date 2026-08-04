@@ -69,11 +69,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | -- / 25              |
+| **TOTAL**                         | **89 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** SCADA Fuzzing Twin sécurise le secteur de l'infrastructure physique, hautement vulnérable et en pleine expansion. Générer des répliques purement logicielles des contrôleurs hérités (PLC) évite de perturber les opérations vitales des usines, garantissant une adoption sans friction. Le rempart réside dans les bibliothèques de protocoles OT propriétaires, rendant les plateformes de cybersécurité génériques ou LLM totalement inutiles.
 > **Verdict Terrain :** En attente d'évaluation.

@@ -66,11 +66,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 21 / 25         | -- / 25             |
+| Unit Economics / ROI        | 23 / 25         | -- / 25             |
+| **TOTAL**                   | **92 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** BCI Motor Decoding Engine tackles the core software bottleneck in Brain-Computer Interfaces: translating noisy, non-stationary neural signals into smooth, reliable robotic control. Providing an OS-level abstraction layer for neural data standardizes the fragmented hardware market. Its highly specialized signal processing algorithms make it immune to general-purpose AI replacements.
 > **Market Verdict:** Pending evaluation.

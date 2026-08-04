@@ -66,11 +66,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 20 / 25         | -- / 25             |
+| Unit Economics / ROI        | 22 / 25         | -- / 25             |
+| **TOTAL**                   | **89 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Plasma Propulsion Sim addresses a highly critical and expensive bottleneck in the rapidly expanding commercial space sector. Simulating magnetohydrodynamics in real-time requires deep, specialized physics expertise, creating a formidable barrier against generalist software companies. The clear ROI in reduced physical testing costs justifies high-ticket B2B licensing.
 > **Market Verdict:** Pending evaluation.
