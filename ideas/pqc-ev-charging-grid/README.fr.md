@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 21 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
+| **TOTAL**                         | **91 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** PQC EV Charging Grid intercepte de manière proactive la menace dévastatrice d'attaques quantiques sur les réseaux énergétiques critiques interconnectés. Alors que les véhicules électriques dominent la consommation d'énergie mondiale, standardiser la cryptographie post-quantique à l'interface matérielle crée un point de contrôle obligatoire et défendable. Vendre une couche de sécurité embarquée garantit une licence par unité très lucrative sur un marché OEM en pleine expansion.
 > **Verdict Terrain :** En attente d'évaluation.

@@ -90,4 +90,4 @@ sequenceDiagram
 | **TOTAL** | **90 / 100** | **73 / 100** |
 
 > **Verdict Terrain :** L'outil CogniCollect répond à un besoin métier très ciblé avec un ROI tangible. Son intégration profonde dans les processus métiers le rend difficilement remplaçable par un simple chatbot. Même si l'adoption demande un effort d'intégration, la viabilité du modèle économique est portée par la valeur apportée.
-> **Verdict global :**Un projet à exceptionnellement haute viabilité financière avec une utilité "Hair on Fire" immédiate pour les PME en manque de trésorerie. La construction d'un mini-bureau de crédit B2B privatisé via l'agrégation des données de paiement constitue un fossé défensif massif face aux géants de la tech.
+> **Verdict VC :** Un projet à exceptionnellement haute viabilité financière avec une utilité "Hair on Fire" immédiate pour les PME en manque de trésorerie. La construction d'un mini-bureau de crédit B2B privatisé via l'agrégation des données de paiement constitue un fossé défensif massif face aux géants de la tech.

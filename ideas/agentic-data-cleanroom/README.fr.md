@@ -66,11 +66,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **88 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Agentic Data Cleanroom innove dans l'espace de collaboration multi-agents B2B en résolvant le déficit de confiance inhérent entre des organisations concurrentes. L'exploitation d'enclaves cryptographiques et de l'apprentissage fédéré garantit une exposition nulle des connaissances tout en permettant aux agents de négocier et d'apprendre. Cette couche d'infrastructure crée de puissants effets de réseau et une forte rétention une fois adoptée.
 > **Verdict Terrain :** En attente d'évaluation.

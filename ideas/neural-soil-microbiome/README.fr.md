@@ -66,11 +66,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 22 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | -- / 25              |
+| **TOTAL**                         | **90 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Neural Soil Microbiome s'attaque à un angle mort fondamental de l'agriculture mondiale en optimisant les interactions microbiennes complexes plutôt que les seuls intrants chimiques. L'ensemble de données propriétaire et l'architecture de réseau neuronal spécialisée constituent une barrière à l'entrée massive. Le modèle B2B ciblant les géants de l'agro-industrie permet une évolutivité vaste et des licences lucratives.
 > **Verdict Terrain :** En attente d'évaluation.

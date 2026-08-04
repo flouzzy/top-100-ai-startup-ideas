@@ -69,11 +69,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | -- / 25              |
+| **TOTAL**                         | **86 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Wildfire Swarm Containment modernise la réponse aux catastrophes avec une logistique de drones autonome pilotée par l'IA. L'intégration de l'imagerie thermique en temps réel et de la coordination décentralisée des essaims constitue une alternative redoutable aux largages aériens humains coûteux et dangereux. Bien qu'il y ait des obstacles réglementaires, les économies financières et humaines présentent une proposition de valeur urgente.
 > **Verdict Terrain :** En attente d'évaluation.

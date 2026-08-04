@@ -66,11 +66,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **89 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Plasma Propulsion Sim s'attaque à un goulot d'étranglement critique et coûteux dans le secteur spatial commercial en pleine expansion. Simuler la magnétohydrodynamique en temps réel exige une expertise approfondie en physique spécialisée, créant une barrière redoutable contre les éditeurs de logiciels généralistes. Le ROI évident via la réduction des coûts de tests physiques justifie des licences B2B onéreuses.
 > **Verdict Terrain :** En attente d'évaluation.

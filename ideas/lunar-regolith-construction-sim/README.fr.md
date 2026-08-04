@@ -66,11 +66,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 19 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | -- / 25              |
+| **TOTAL**                         | **85 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Lunar Regolith Construction Sim cible une niche hautement spécialisée mais hyper-financée : l'infrastructure extra-terrestre. Le moteur physique modélisant avec précision la gravité non terrestre et la cohésion du régolithe présente une barrière à l'entrée redoutable pour les logiciels CAO standards. Sécuriser les premiers contrats avec les agences spatiales garantit des revenus récurrents à mesure que l'économie lunaire se développe.
 > **Verdict Terrain :** En attente d'évaluation.

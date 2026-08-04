@@ -69,11 +69,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
+| **TOTAL**                         | **92 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Agent IP Leakage Preventer répond à l'anxiété sécuritaire critique qui empêche les entreprises d'adopter pleinement les agents autonomes. En agissant comme un proxy d'interception utilisant l'IA symbolique et le filtrage déterministe, il offre une défense robuste contre l'injection de prompt et l'exfiltration accidentelle de données. Le modèle SaaS API garantit une faible friction d'adoption et une croissance rapide des revenus.
 > **Verdict Terrain :** En attente d'évaluation.

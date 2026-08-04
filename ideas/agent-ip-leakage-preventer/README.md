@@ -69,11 +69,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 22 / 25         | -- / 25             |
+| Scalability / UX Friction   | 24 / 25         | -- / 25             |
+| Unit Economics / ROI        | 23 / 25         | -- / 25             |
+| **TOTAL**                   | **92 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Agent IP Leakage Preventer addresses the critical security anxiety preventing enterprises from fully adopting autonomous agents. By acting as an intercepting proxy utilizing symbolic AI and deterministic filtering, it provides robust defense against prompt injection and accidental data exfiltration. The SaaS API model ensures low adoption friction and rapid ARR growth.
 > **Market Verdict:** Pending evaluation.
