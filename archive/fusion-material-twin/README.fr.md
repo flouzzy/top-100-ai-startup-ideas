@@ -65,11 +65,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 19 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
+| **TOTAL**                         | **88 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Fusion Material Twin accélère la viabilité commerciale de la fusion nucléaire en numérisant le processus de test des matériaux, extrêmement complexe et coûteux. La modélisation physique des dommages causés par le bombardement neutronique crée un rempart insurmontable contre les outils d'IA standards. Des contrats B2G et d'entreprise de grande valeur garantissent des revenus à long terme dans cette transition énergétique cruciale.
 > **Verdict Terrain :** En attente d'évaluation.

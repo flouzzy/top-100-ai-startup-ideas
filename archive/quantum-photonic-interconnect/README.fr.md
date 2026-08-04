@@ -69,11 +69,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **91 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Quantum Photonic Interconnect s'attaque à un goulot d'étranglement physique majeur dans la mise à l'échelle quantique, se positionnant comme un monopole deep-tech fondamental. Le besoin d'innovations matérielles (optique non linéaire à température cryogénique) crée un fossé infranchissable pour les concurrents purement logiciels. Le modèle de licence est très rentable auprès des fabricants, bien que les cycles R&D exigeront des capitaux patients.
 > **Verdict Terrain :** En attente d'évaluation.

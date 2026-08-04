@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 18 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
+| **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** DNA Cold Storage OS pionnier de la transition inévitable de la bande magnétique vers la biologie synthétique pour l'archivage de données à l'échelle exaoctet. Le codec propriétaire traduisant les données binaires en paires de bases constitue un monopole deep-tech absolu contre les fournisseurs de stockage cloud conventionnels. Bien que limité par les coûts actuels de synthèse d'ADN, il domine la niche de l'archivage à très long terme.
 > **Verdict Terrain :** En attente d'évaluation.
