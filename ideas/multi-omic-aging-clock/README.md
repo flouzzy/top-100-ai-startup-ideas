@@ -60,11 +60,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| TOTAL                       | -- / 100        | -- / 100            |
+| Thesis & Monopoly / Urgency | -- / 25         | 18 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 24 / 25             |
+| Scalability / UX Friction   | -- / 25         | 21 / 25             |
+| Unit Economics / ROI        | -- / 25         | 23 / 25             |
+| **TOTAL**                   | -- / 100        | **86 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** While life insurance and clinics seek better biomarkers, biological age simulations face regulatory and validation hurdles before they become an urgent necessity (18/25). Deep biological transformers handling complex omics data are robust against standard LLMs (24/25). The B2B SaaS model provides a highly scalable and clear monetization pathway once adopted (23/25).

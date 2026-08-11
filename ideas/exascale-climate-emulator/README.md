@@ -65,11 +65,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
-| Scalability / UX Friction   | 22 / 25         | -- / 25             |
-| Unit Economics / ROI        | 20 / 25         | -- / 25             |
-| **TOTAL**                   | **91 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 24 / 25         | 25 / 25             |
+| Moat / LLM Immunity         | 25 / 25         | 23 / 25             |
+| Scalability / UX Friction   | 22 / 25         | 19 / 25             |
+| Unit Economics / ROI        | 20 / 25         | 21 / 25             |
+| **TOTAL**                   | **91 / 100**    | **88 / 100**        |
 
 > **VC Verdict:** Exascale Climate Emulator applies a physics-informed AI approach to solve one of the most critical and computationally expensive problems of our time. Replacing traditional Navier-Stokes numerical solvers with neural emulators creates a monopoly on real-time, hyper-local climate risk assessment. High computational barriers secure a strong moat, though customer acquisition in public sectors may be slow.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Massive financial losses from unhedged local climate risks create overwhelming urgency for insurers and governments (25/25). Physics-informed neural networks acting as surrogates for Navier-Stokes equations are highly defensible against generic language models (23/25). Complex integration with legacy risk systems creates friction (19/25), but the high-ticket API model ensures strong viability (21/25).

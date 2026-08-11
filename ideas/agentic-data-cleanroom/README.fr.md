@@ -66,11 +66,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 22 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
-| **TOTAL**                         | **88 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | 21 / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | 24 / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | 18 / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | 22 / 25              |
+| **TOTAL**                         | **88 / 100**    | **85 / 100**         |
 
 > **Verdict VC :** Agentic Data Cleanroom innove dans l'espace de collaboration multi-agents B2B en résolvant le déficit de confiance inhérent entre des organisations concurrentes. L'exploitation d'enclaves cryptographiques et de l'apprentissage fédéré garantit une exposition nulle des connaissances tout en permettant aux agents de négocier et d'apprendre. Cette couche d'infrastructure crée de puissants effets de réseau et une forte rétention une fois adoptée.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Bien que l'entraînement collaboratif d'IA soit très recherché, former des consortiums prend du temps, réduisant légèrement l'urgence immédiate des ventes (21/25). La combinaison du matériel TEE et de la cryptographie MPC crée un fossé impénétrable face à l'IA générique (24/25). L'intégration d'infrastructures complexes cause de fortes frictions (18/25), mais la tarification premium pour les entreprises sécurise un ROI à long terme (22/25).

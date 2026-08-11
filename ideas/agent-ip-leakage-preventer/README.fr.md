@@ -69,11 +69,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 24 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
-| **TOTAL**                         | **92 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | 23 / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | 22 / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | 23 / 25              |
+| **TOTAL**                         | **92 / 100**    | **92 / 100**         |
 
 > **Verdict VC :** Agent IP Leakage Preventer répond à l'anxiété sécuritaire critique qui empêche les entreprises d'adopter pleinement les agents autonomes. En agissant comme un proxy d'interception utilisant l'IA symbolique et le filtrage déterministe, il offre une défense robuste contre l'injection de prompt et l'exfiltration accidentelle de données. Le modèle SaaS API garantit une faible friction d'adoption et une croissance rapide des revenus.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La peur de l'exfiltration furtive de la propriété intellectuelle crée une urgence immédiate et critique pour les RSSI déployant des agents IA (24/25). Les modèles de vérification sémantique focalisés sur l'intention sont hautement défendables face aux simples wrappers de prompts (23/25). L'architecture proxy offre une faible friction d'adoption (22/25), tandis que le modèle SaaS basé sur API garantit une excellente clarté de monétisation (23/25).

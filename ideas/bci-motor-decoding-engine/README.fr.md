@@ -66,11 +66,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 21 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
-| **TOTAL**                         | **92 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | 21 / 25         | 20 / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | 22 / 25              |
+| **TOTAL**                         | **92 / 100**    | **91 / 100**         |
 
 > **Verdict VC :** BCI Motor Decoding Engine s'attaque au goulot d'étranglement logiciel central des interfaces cerveau-machine : traduire des signaux neuronaux bruyants en contrôle robotique fluide et fiable. Fournir une couche d'abstraction de niveau OS pour les données neuronales standardise un marché matériel fragmenté. Ses algorithmes de traitement du signal hautement spécialisés le rendent immunisé contre les IA généralistes.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Les patients et les hôpitaux sont très frustrés par les routines de recalibrage actuelles des BCI, créant une urgence forte (24/25). Traduire des séries temporelles biologiques bruitées en robotique via un modèle de fondation est hors de portée des LLMs généralistes (25/25). L'intégration avec du matériel médical strict impose une friction réglementaire (20/25), mais la licence OEM offre une rentabilité exceptionnelle (22/25).

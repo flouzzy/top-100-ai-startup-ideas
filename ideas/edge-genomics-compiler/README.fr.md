@@ -66,11 +66,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 22 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 21 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 24 / 25         | -- / 25              |
-| **TOTAL**                         | **91 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | 21 / 25         | 20 / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | 22 / 25              |
+| **TOTAL**                         | **91 / 100**    | **91 / 100**         |
 
 > **Verdict VC :** Edge Genomics Compiler fait basculer la bio-informatique du cloud lent et centralisé vers un traitement en temps réel à la périphérie. Le compilateur hautement spécialisé reliant les séquenceurs à l'infrastructure décentralisée constitue un rempart solide contre les simples wrappers cloud. Le modèle SaaS/PaaS garantit des revenus récurrents avec un ROI évident pour les entreprises de biotechnologie sur le terrain.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** L'urgence est critique (24/25) car l'identification rapide des pathogènes dans les zones isolées sauve des vies. La quantification au niveau matériel crée un fossé absolu contre les LLMs basés sur le cloud (25/25). Bien que le déploiement sur le terrain ajoute une certaine friction (20/25), le modèle B2B/B2G offre une monétisation très claire (22/25).
