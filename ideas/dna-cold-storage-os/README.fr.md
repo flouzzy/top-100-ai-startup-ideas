@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 18 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
-| **TOTAL**                         | **87 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | 20 / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | 18 / 25         | 18 / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | 21 / 25              |
+| **TOTAL**                         | **87 / 100**    | **84 / 100**         |
 
 > **Verdict VC :** DNA Cold Storage OS pionnier de la transition inévitable de la bande magnétique vers la biologie synthétique pour l'archivage de données à l'échelle exaoctet. Le codec propriétaire traduisant les données binaires en paires de bases constitue un monopole deep-tech absolu contre les fournisseurs de stockage cloud conventionnels. Bien que limité par les coûts actuels de synthèse d'ADN, il domine la niche de l'archivage à très long terme.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** L'explosion des données crée une forte urgence pour de nouveaux supports d'archivage, bien que les bandes magnétiques retardent la crise immédiate (20/25). La transformation binaire en paires de bases ATCG est totalement immunisée contre les LLMs purement logiciels (25/25). La friction d'adoption est élevée (18/25), mais le modèle B2B d'entreprise au téraoctet est solide (21/25).

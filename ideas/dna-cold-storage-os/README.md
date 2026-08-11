@@ -70,11 +70,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
-| Scalability / UX Friction   | 18 / 25         | -- / 25             |
-| Unit Economics / ROI        | 20 / 25         | -- / 25             |
-| **TOTAL**                   | **87 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 24 / 25         | 20 / 25             |
+| Moat / LLM Immunity         | 25 / 25         | 25 / 25             |
+| Scalability / UX Friction   | 18 / 25         | 18 / 25             |
+| Unit Economics / ROI        | 20 / 25         | 21 / 25             |
+| **TOTAL**                   | **87 / 100**    | **84 / 100**        |
 
 > **VC Verdict:** DNA Cold Storage OS pioneers the inevitable shift from magnetic tape to synthetic biology for exabyte-scale data archiving. The proprietary codec translating binary data to base pairs constitutes an absolute deep-tech monopoly against conventional cloud storage providers. Though constrained by current DNA synthesis costs, it dominates the ultra-long-term archiving niche.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** The exponential explosion of data creates strong urgency for new archival media, though current magnetic tapes delay the immediate crisis (20/25). Transforming binary to ATCG base pairs is completely immune to pure software LLM capabilities (25/25). Adoption friction is high due to the required ecosystem shift (18/25), but the per-terabyte B2B enterprise model is solid (21/25).

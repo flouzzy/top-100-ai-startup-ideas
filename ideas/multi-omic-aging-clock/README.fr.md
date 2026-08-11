@@ -60,11 +60,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| TOTAL                             | -- / 100        | -- / 100             |
+| Thèse & Monopole / Urgence        | -- / 25         | 18 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 24 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 21 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 23 / 25              |
+| **TOTAL**                         | -- / 100        | **86 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Bien que les assurances et les cliniques recherchent de meilleurs biomarqueurs, les simulations d'âge biologique doivent surmonter des obstacles réglementaires avant de devenir une nécessité urgente (18/25). Les transformers biologiques profonds traitant des données omiques complexes sont robustes face aux LLMs standards (24/25). Le modèle SaaS B2B offre une monétisation claire et très scalable une fois adopté (23/25).

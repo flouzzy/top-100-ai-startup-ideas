@@ -65,11 +65,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 22 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
-| **TOTAL**                         | **91 / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | 25 / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | 23 / 25              |
+| Scalabilité / Friction d'adoption | 22 / 25         | 19 / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | 21 / 25              |
+| **TOTAL**                         | **91 / 100**    | **88 / 100**         |
 
 > **Verdict VC :** Exascale Climate Emulator applique une approche d'IA basée sur la physique pour résoudre l'un des problèmes les plus critiques et coûteux en calcul de notre époque. Remplacer les solveurs numériques traditionnels de Navier-Stokes par des émulateurs neuronaux crée un monopole sur l'évaluation des risques climatiques hyper-locaux en temps réel. Les barrières de calcul élevées assurent un moat fort, bien que l'acquisition de clients dans le secteur public puisse être lente.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Les pertes financières massives dues aux risques climatiques locaux non couverts créent une urgence écrasante pour les assureurs et les gouvernements (25/25). Les réseaux de neurones informés par la physique sont hautement défendables contre les modèles de langage génériques (23/25). L'intégration avec les systèmes de risque existants crée des frictions (19/25), mais le modèle d'API premium garantit une forte viabilité (21/25).

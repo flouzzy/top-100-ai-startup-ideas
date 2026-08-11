@@ -60,11 +60,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| TOTAL                       | -- / 100        | -- / 100            |
+| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 19 / 25             |
+| Unit Economics / ROI        | -- / 25         | 21 / 25             |
+| **TOTAL**                   | -- / 100        | **89 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** The millions of dollars wasted in in-vivo trial and error for CAR-T therapies generate extreme urgency for R&D labs (24/25). Simulating 3D protein folding and spatiotemporal kinetics requires physics-informed models, entirely immune to generic LLMs (25/25). Validating the twin against clinical realities presents some adoption friction (19/25), but enterprise SaaS pricing in pharma is extremely viable (21/25).

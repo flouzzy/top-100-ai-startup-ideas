@@ -66,11 +66,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 22 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
-| Scalability / UX Friction   | 20 / 25         | -- / 25             |
-| Unit Economics / ROI        | 22 / 25         | -- / 25             |
-| **TOTAL**                   | **88 / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | 21 / 25             |
+| Moat / LLM Immunity         | 24 / 25         | 24 / 25             |
+| Scalability / UX Friction   | 20 / 25         | 18 / 25             |
+| Unit Economics / ROI        | 22 / 25         | 22 / 25             |
+| **TOTAL**                   | **88 / 100**    | **85 / 100**        |
 
 > **VC Verdict:** Agentic Data Cleanroom pioneers the B2B multi-agent collaboration space by solving the inherent trust deficit between competing organizations. Leveraging cryptographic enclaves and federated learning guarantees zero knowledge exposure while allowing agents to negotiate and learn. This infrastructure layer creates strong network effects and significant lock-in once adopted.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** While collaborative AI training is highly desired, forming multi-party consortiums takes time, slightly reducing immediate sales urgency (21/25). The combination of TEE hardware and MPC cryptography creates an impenetrable moat against generic AI (24/25). Complex infrastructure integration causes high friction (18/25), but high-ticket enterprise pricing secures long-term ROI (22/25).
