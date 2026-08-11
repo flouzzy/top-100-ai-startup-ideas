@@ -110,16 +110,16 @@ _[🇫🇷 Version Française](./README.fr.md)_
 | **090** |                M2M / B2B                 | **Q-Shield IoT**                                      |   **79/100**    |  79/100  |    79/100     |          [View](./ideas/pqc-iot-trust/README.md)          |
 | **091** |               B2B2C / M2M                | **V2X Orchestrator for Autonomous Fleets**            |   **79/100**    |  79/100  |    79/100     |      [View](./ideas/autonomous-fleet-v2x/README.md)       |
 | **092** |      B2B (R&D / Licensing Partnersh      | **PlasmaGuard RL**                                    |   **78/100**    |  78/100  |    78/100     |        [View](./ideas/tokamak-plasma-rl/README.md)        |
-| **093** |                   B2B                    | **Agent IP Leakage Preventer**                        |   **--/100**    |  --/100  |    --/100     |   [View](./ideas/agent-ip-leakage-preventer/README.md)    |
-| **094** |                   B2B                    | **Agentic Data Cleanroom**                            |   **--/100**    |  --/100  |    --/100     |     [View](./ideas/agentic-data-cleanroom/README.md)      |
-| **095** |                   B2B                    | **BCI Motor Decoding Engine**                         |   **--/100**    |  --/100  |    --/100     |    [View](./ideas/bci-motor-decoding-engine/README.md)    |
-| **096** |                   B2B                    | **BioOS Synthetic**                                   |   **--/100**    |  --/100  |    --/100     |        [View](./ideas/bio-os-synthetic/README.md)         |
-| **097** |                   B2B                    | **Deep Omic Clock**                                   |   **--/100**    |  --/100  |    --/100     |     [View](./ideas/multi-omic-aging-clock/README.md)      |
-| **098** |                   B2B                    | **DNA Cold Storage OS**                               |   **--/100**    |  --/100  |    --/100     |       [View](./ideas/dna-cold-storage-os/README.md)       |
-| **099** |                   B2B                    | **Edge Genomics Compiler**                            |   **--/100**    |  --/100  |    --/100     |     [View](./ideas/edge-genomics-compiler/README.md)      |
-| **100** |                B2B / B2G                 | **Exascale Climate Emulator**                         |   **--/100**    |  --/100  |    --/100     |    [View](./ideas/exascale-climate-emulator/README.md)    |
+| **093** |                   B2B                    | **Agent IP Leakage Preventer**                        |   **46/100**    |  92/100  |    --/100     |   [View](./ideas/agent-ip-leakage-preventer/README.md)    |
+| **094** |                   B2B                    | **BCI Motor Decoding Engine**                         |   **46/100**    |  92/100  |    --/100     |    [View](./ideas/bci-motor-decoding-engine/README.md)    |
+| **095** |                   B2B                    | **Edge Genomics Compiler**                            |  **45.5/100**   |  91/100  |    --/100     |     [View](./ideas/edge-genomics-compiler/README.md)      |
+| **096** |                B2B / B2G                 | **Exascale Climate Emulator**                         |  **45.5/100**   |  91/100  |    --/100     |    [View](./ideas/exascale-climate-emulator/README.md)    |
+| **097** |                   B2B                    | **Agentic Data Cleanroom**                            |   **44/100**    |  88/100  |    --/100     |     [View](./ideas/agentic-data-cleanroom/README.md)      |
+| **098** |                   B2B                    | **DNA Cold Storage OS**                               |  **43.5/100**   |  87/100  |    --/100     |       [View](./ideas/dna-cold-storage-os/README.md)       |
+| **099** |                   B2B                    | **BioOS Synthetic**                                   |   **--/100**    |  --/100  |    --/100     |        [View](./ideas/bio-os-synthetic/README.md)         |
+| **100** |                   B2B                    | **Deep Omic Clock**                                   |   **--/100**    |  --/100  |    --/100     |     [View](./ideas/multi-omic-aging-clock/README.md)      |
 
-_Last updated: 2026-08-04_
+_Last updated: 2026-08-11_
 
 ## 📐 Methodology & Composite Score Calculation
 
