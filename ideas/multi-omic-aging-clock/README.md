@@ -60,11 +60,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 18 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 24 / 25             |
-| Scalability / UX Friction   | -- / 25         | 21 / 25             |
-| Unit Economics / ROI        | -- / 25         | 23 / 25             |
-| **TOTAL**                   | -- / 100        | **86 / 100**        |
+| Thesis & Monopoly / Urgency | 17 / 25         | 18 / 25             |
+| Moat / LLM Immunity         | 15 / 25         | 24 / 25             |
+| Scalability / UX Friction   | 20 / 25         | 21 / 25             |
+| Unit Economics / ROI        | 20 / 25         | 23 / 25             |
+| **TOTAL**                   | 72 / 100        | **86 / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** While targeting an interesting niche in longevity, this is effectively a complex analytics dashboard lacking the brutal, winner-takes-all monopoly mechanics Peter Thiel demands (17/25). Multi-omic data integration provides some moat, but without proprietary lock-in on clinical trials, it is too easily commoditized by larger bio-tech incumbents (15/25). The B2B SaaS economics are solid (20/25), but the absence of a true technological monopoly makes it a mediocre, uninspired VC play.
 > **Market Verdict:** While life insurance and clinics seek better biomarkers, biological age simulations face regulatory and validation hurdles before they become an urgent necessity (18/25). Deep biological transformers handling complex omics data are robust against standard LLMs (24/25). The B2B SaaS model provides a highly scalable and clear monetization pathway once adopted (23/25).

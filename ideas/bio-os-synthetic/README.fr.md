@@ -60,11 +60,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 19 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 21 / 25              |
-| **TOTAL**                         | -- / 100        | **89 / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | 18 / 25         | 19 / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | 21 / 25              |
+| **TOTAL**                         | 89 / 100        | **89 / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Cet OS de biologie synthétique attaque un pipeline CAR-T massif et structurellement inefficace, se positionnant idéalement pour devenir le standard monopolistique absolu en R&D computationnelle (24/25). L'approche par simulation physique est immunisée contre les LLM génériques, s'intégrant profondément dans l'infrastructure du laboratoire pour créer un moat impénétrable (25/25). Le levier économique résultant face au gaspillage massif de l'industrie pharmaceutique est stupéfiant, définissant une thèse d'investissement véritablement contrariante et impitoyable (22/25).
 > **Verdict Terrain :** Les millions de dollars gaspillés dans les essais in-vivo pour les thérapies CAR-T génèrent une urgence extrême pour les laboratoires R&D (24/25). Simuler le repliement des protéines 3D et la cinétique spatio-temporelle nécessite des modèles physiques, totalement immunisés contre les LLMs génériques (25/25). Valider le jumeau par rapport aux réalités cliniques présente une certaine friction d'adoption (19/25), mais la tarification SaaS entreprise en pharma est extrêmement viable (21/25).

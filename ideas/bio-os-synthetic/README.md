@@ -60,11 +60,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 19 / 25             |
-| Unit Economics / ROI        | -- / 25         | 21 / 25             |
-| **TOTAL**                   | -- / 100        | **89 / 100**        |
+| Thesis & Monopoly / Urgency | 24 / 25         | 24 / 25             |
+| Moat / LLM Immunity         | 25 / 25         | 25 / 25             |
+| Scalability / UX Friction   | 18 / 25         | 19 / 25             |
+| Unit Economics / ROI        | 22 / 25         | 21 / 25             |
+| **TOTAL**                   | 89 / 100        | **89 / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** This synthetic biology OS attacks a massive, structurally inefficient CAR-T pipeline, strongly positioning itself to become an absolute monopoly standard in computational R&D (24/25). The physical simulation approach is immune to generic LLMs, embedding deeply into the lab infrastructure to create an ironclad moat (25/25). The resulting economic leverage against the massive waste in pharma is staggering, defining a truly contrarian and ruthless investment thesis (22/25).
 > **Market Verdict:** The millions of dollars wasted in in-vivo trial and error for CAR-T therapies generate extreme urgency for R&D labs (24/25). Simulating 3D protein folding and spatiotemporal kinetics requires physics-informed models, entirely immune to generic LLMs (25/25). Validating the twin against clinical realities presents some adoption friction (19/25), but enterprise SaaS pricing in pharma is extremely viable (21/25).
