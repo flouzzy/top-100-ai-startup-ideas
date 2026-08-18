@@ -60,11 +60,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 18 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 24 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 21 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 23 / 25              |
-| **TOTAL**                         | -- / 100        | **86 / 100**         |
+| Thèse & Monopole / Urgence        | 17 / 25         | 18 / 25              |
+| Moat / Résistance aux LLM natifs  | 15 / 25         | 24 / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | 21 / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | 23 / 25              |
+| **TOTAL**                         | 72 / 100        | **86 / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Bien qu'il cible une niche intéressante dans la longévité, il s'agit d'un tableau de bord analytique complexe sans les mécaniques de monopole brutales exigées par Peter Thiel (17/25). L'intégration des données multi-omiques offre un certain moat, mais sans verrouillage propriétaire sur les essais cliniques, le projet est facilement copiable par les géants des biotechs (15/25). Les aspects économiques du SaaS B2B sont solides (20/25), mais l'absence de véritable monopole technologique en fait un investissement VC médiocre et sans inspiration.
 > **Verdict Terrain :** Bien que les assurances et les cliniques recherchent de meilleurs biomarqueurs, les simulations d'âge biologique doivent surmonter des obstacles réglementaires avant de devenir une nécessité urgente (18/25). Les transformers biologiques profonds traitant des données omiques complexes sont robustes face aux LLMs standards (24/25). Le modèle SaaS B2B offre une monétisation claire et très scalable une fois adopté (23/25).
