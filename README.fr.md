@@ -119,7 +119,7 @@ _[🇬🇧 English Version](./README.md)_
 | **099** |               B2B2C / M2M                | **V2X Orchestrator for Autonomous Fleets**            |   **79/100**    |  79/100  |    79/100     |      [Consulter](./ideas/autonomous-fleet-v2x/README.md)       |
 | **100** |      B2B (R&D / Licensing Partnersh      | **PlasmaGuard RL**                                    |   **78/100**    |  78/100  |    78/100     |        [Consulter](./ideas/tokamak-plasma-rl/README.md)        |
 
-_Dernière mise à jour : 2026-09-01_
+_Dernière mise à jour : 2026-09-08_
 
 ## 📐 Méthodologie & Calcul du Score Composite
 
