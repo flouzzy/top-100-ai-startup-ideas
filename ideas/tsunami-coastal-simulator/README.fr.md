@@ -1,0 +1,71 @@
+<!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
+
+[ 🇬🇧 English Version ](./README.md)
+
+# Tsunami Coastal Simulator
+
+> **Résumé exécutif :** Un moteur de simulation hydrodynamique massivement parallèle (multi-GPU) intégrant les jumeaux numériques urbains (BIM/GIS 3D). Le système résout l...
+
+![Type: B2G / B2B](https://img.shields.io/badge/Model-B2G%20%2F%20B2B-blue)
+![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+
+---
+
+## 1. Aperçu visuel & Effet Wahou
+
+```mermaid
+graph TD
+    A["L'élévation du niveau de la mer aggrave ..."] --> B["Un moteur de simulation hydrodynamique m..."]
+```
+
+## 2. La thèse contrariante (Peter Thiel Style)
+
+La croyance populaire : Les solutions génériques peuvent résoudre cela.
+La vérité cachée : Les cartes d'inondation 2D standard sont de simples extrusions basées sur l'altitude. Elles ignorent la physique des fluides complexe (réflexion, diffraction, transport de sédiments/débris) qui détermine la force d'impact réelle sur les structures.
+
+## 3. Le problème & La cible
+
+Modèle économique : B2G / B2B
+Cible précise : Gouvernements côtiers, planificateurs urbains, assureurs immobiliers (réassurance), développeurs d'infrastructures offshore
+La douleur urgente : L'élévation du niveau de la mer aggrave l'impact destructeur des tsunamis et des ondes de tempête. Les modèles d'inondation actuels sont macroscopiques et statiques ; ils ne prennent pas en compte l'interaction dynamique entre la vague et la géométrie urbaine 3D (comment l'eau s'engouffre dans les rues spécifiques, détruisant certains bâtiments et pas d'autres).
+
+## 4. Architecture technique & Plomberie
+
+```mermaid
+sequenceDiagram
+    participant Utilisateur
+    participant IA
+    participant Système
+    Utilisateur->>IA: Action initiale
+    IA->>Système: Analyse et exécution
+    Système-->>Utilisateur: Résultat optimisé
+```
+
+## 5. Modèle économique & Viabilité financière
+
+| Métrique                    | Valeur             |
+| --------------------------- | ------------------ |
+| Structure de prix           | Prix sur mesure    |
+| Objectif 12 mois            | 100 clients        |
+| Calcul du CA (Target 100k€) | 100 \* 1000 = 100k |
+| Marge brute estimée         | 80%                |
+
+## 6. Moteur de distribution & Fossé défensif (Moat)
+
+Stratégie d'acquisition : Vente B2B directe
+Moat (Barrière à l'entrée) : Les cartes d'inondation 2D standard sont de simples extrusions basées sur l'altitude. Elles ignorent la physique des fluides complexe (réflexion, diffraction, transport de sédiments/débris) qui détermine la force d'impact réelle sur les structures.
+
+## 7. Grille d'évaluation détaillée
+
+| Critère                           | Score VC (/100) | Score Terrain (/100) |
+| --------------------------------- | --------------- | -------------------- |
+| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
+| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
+| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+
+> **Verdict VC :** En attente d'évaluation.
+
+> **Verdict Terrain :** En attente d'évaluation.
