@@ -11,7 +11,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En évaluation](https://img.shields.io/badge/Score_Composite-90-yellow)
+![Score: En évaluation](https://img.shields.io/badge/Score_Composite-80-blue)
 
 ---
 
