@@ -8,7 +8,7 @@
 
 ![Type: Model](https://img.shields.io/badge/Model-B2B%20%28Licensing%20IP%20/%20JVs%29-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-81-blue)
 
 ---
 

@@ -8,7 +8,7 @@
 
 ![Type: Model](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/Cible_ARR-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Score_Composite-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Score_Composite-89-blue)
 
 ---
 

@@ -8,7 +8,7 @@
 
 ![Type: M2M](https://img.shields.io/badge/Model-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Score_Composite-89-yellow)
+![Score: Pending](https://img.shields.io/badge/Score_Composite-81.5-blue)
 
 ---
 
