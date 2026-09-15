@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD013 -->
+
 # Candidat : RF Fingerprint Zero Trust
 
 - **Domaine principal :** Cybersécurité & Résilience (OT/ICS)

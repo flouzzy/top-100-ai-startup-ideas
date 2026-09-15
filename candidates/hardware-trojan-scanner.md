@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD013 -->
+
 # Candidat : Hardware Trojan Scanner
 
 - **Domaine principal :** Cybersécurité & Résilience

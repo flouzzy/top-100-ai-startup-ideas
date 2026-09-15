@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD013 -->
+
 # Candidat : Multi-Agent Memory Isolation
 
 - **Domaine principal :** IA & Agents autonomes
