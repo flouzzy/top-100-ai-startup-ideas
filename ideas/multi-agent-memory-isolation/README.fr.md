@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : L'IAM classique (Identity and Access Management)
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 23 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | -- / 25              |
+| **TOTAL**                         | **93 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Ce projet résout le problème critique de 'fuite de mémoire' dans les déploiements d'entreprise multi-agents. En fournissant une couche d'isolation de mémoire vectorielle basée sur le chiffrement homomorphe, il construit une primitive de sécurité essentielle pour l'ère de l'IA. Le modèle SaaS hautement évolutif et à faible friction permet une adoption rapide, tandis que l'intégration profonde dans les flux de données d'entreprise crée un fossé durable et hautement rentable.
 
 > **Verdict Terrain :** En attente d'évaluation.

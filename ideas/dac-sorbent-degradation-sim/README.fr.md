@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : La dégradation chimique est un processus hors �
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 19 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | -- / 25              |
+| **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Ce jumeau numérique s'attaque directement au goulet d'étranglement critique des coûts d'exploitation de la capture directe de l'air : les coûts de remplacement des sorbants. Les réseaux de graphes neuronaux spécialisés appliqués à la dégradation chimique offrent un fossé robuste que les modèles d'IA généraux ne peuvent combler sans accès à des données exclusives de chimie physique. La nature hautement spécialisée et urgente de ce problème dans le secteur en pleine croissance des technologies climatiques offre une voie claire vers un pouvoir de fixation des prix monopolistique.
 
 > **Verdict Terrain :** En attente d'évaluation.

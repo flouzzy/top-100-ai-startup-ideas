@@ -60,12 +60,12 @@ Moat (Defensibility): It requires an ultra-low latency inference operating on on
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 21 / 25         | -- / 25             |
+| Unit Economics / ROI        | 19 / 25         | -- / 25             |
+| **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** This edge AI model decodes human motor intent with zero latency, a contrarian and highly difficult approach compared to cloud-reliant systems. The requirement for massive, proprietary biometric datasets creates an impenetrable data moat against generic LLMs. Despite the hardware dependency and high initial unit costs, it stands to monopolize the next generation of human-machine interfaces in industrial and medical exoskeletons.
 
 > **Market Verdict:** Pending evaluation.

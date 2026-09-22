@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Il faut une inférence à latence ultra-faible f
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 21 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 19 / 25         | -- / 25              |
+| **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Ce modèle d'IA à la périphérie décode l'intention motrice humaine avec une latence nulle, une approche contrariante et hautement difficile comparée aux systèmes dépendants du cloud. L'exigence d'ensembles de données biométriques massifs et propriétaires crée un fossé de données impénétrable contre les LLMs génériques. Malgré la dépendance matérielle et les coûts unitaires initiaux élevés, il est en passe de monopoliser la prochaine génération d'interfaces homme-machine dans les exosquelettes industriels et médicaux.
 
 > **Verdict Terrain :** En attente d'évaluation.

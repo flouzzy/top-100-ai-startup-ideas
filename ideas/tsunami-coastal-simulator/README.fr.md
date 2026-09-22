@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les cartes d'inondation 2D standard sont de simp
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 17 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
+| **TOTAL**                         | **86 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Ce moteur de simulation hydrodynamique massivement parallèle est une pièce d'infrastructure critique pour la résilience côtière mondiale. L'intégration de la dynamique des fluides aux modèles BIM/SIG urbains offre un fossé logiciel hautement défendable que l'IA générique ne peut pas reproduire. Malgré de longs cycles de vente impliquant les gouvernements et les géants de l'assurance, devenir la référence absolue en matière d'évaluation des risques côtiers garantit un monopole très lucratif.
 
 > **Verdict Terrain :** En attente d'évaluation.

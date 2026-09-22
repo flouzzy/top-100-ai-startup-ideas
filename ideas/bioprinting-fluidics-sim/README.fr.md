@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Un LLM ne comprend pas la mécanique des fluides
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 21 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 18 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
+| **TOTAL**                         | **83 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Cette plateforme résout un goulet d'étranglement clé en médecine régénérative en combinant la physique profonde avec la simulation neuronale pour la fluidique des bio-encres. Les données d'entraînement hautement spécialisées sur des simulations CFD de haute fidélité créent un fossé technique massif que les modèles de fondation génériques ne peuvent pas reproduire. Bien que le passage à l'échelle nécessite de naviguer dans des ventes complexes en biotechnologie, le potentiel de monopole dans l'impression d'organes de nouvelle génération est immense.
 
 > **Verdict Terrain :** En attente d'évaluation.

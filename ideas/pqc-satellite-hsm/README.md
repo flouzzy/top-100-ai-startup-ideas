@@ -60,12 +60,12 @@ Moat (Defensibility): It is a problem of material architecture and constraints o
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 25 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
+| Scalability / UX Friction   | 17 / 25         | -- / 25             |
+| Unit Economics / ROI        | 21 / 25         | -- / 25             |
+| **TOTAL**                   | **86 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** PQC Satellite HSM addresses a high-stakes, imminent threat: the 'harvest now, decrypt later' quantum computing risk to global space infrastructure. By embedding post-quantum cryptography directly into specialized, space-grade hardware (FPGAs/ASICs), it creates an impenetrable moat against software-only solutions. The massive capital requirements and long sales cycles are offset by the absolute necessity of securing trillion-dollar orbital assets.
 
 > **Market Verdict:** Pending evaluation.

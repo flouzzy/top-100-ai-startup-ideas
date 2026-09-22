@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : C'est un défi de chimie des matériaux (membran
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 19 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | -- / 25              |
+| **TOTAL**                         | **85 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** La capture directe dans l'océan via l'électrodialyse est une alternative massivement évolutive et profondément contrariante à la capture directe de l'air terrestre. En tirant parti de la concentration naturelle de carbone dans l'océan et en s'appuyant sur les infrastructures de dessalement existantes, elle améliore considérablement l'économie unitaire. Ce jeu technologique climatique à l'échelle industrielle construit un fossé massif en matière de matériel et de processus, totalement immunisé contre les perturbations des LLMs.
 
 > **Verdict Terrain :** En attente d'évaluation.

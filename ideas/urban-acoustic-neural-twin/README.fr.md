@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les méthodes numériques traditionnelles (Bound
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 21 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | -- / 25              |
+| **TOTAL**                         | **88 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le jumeau neuronal acoustique urbain est une approche brillante et non conventionnelle de l'urbanisme et de l'évaluation immobilière. En simulant des paysages sonores plutôt que de simples flux de trafic visuels, il crée un ensemble de données exclusif et unique. Son modèle SaaS permet une mise à l'échelle rapide dans les grandes municipalités et chez les promoteurs immobiliers, offrant un retour sur investissement extrêmement élevé avec un fossé protégé par des réseaux de neurones spécialisés informés par la physique.
 
 > **Verdict Terrain :** En attente d'évaluation.

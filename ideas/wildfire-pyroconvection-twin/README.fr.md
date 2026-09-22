@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Un LLM ne comprend pas les équations de Navier-
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 18 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | -- / 25              |
+| **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** La modélisation de la pyroconvection est la frontière absolue de la gestion des feux de forêt. Ce jumeau numérique combine une dynamique des fluides extrême avec une IA en temps réel pour prédire le comportement des incendies que les modèles traditionnels ne peuvent tout simplement pas. Il offre un fossé de données et de physique insurmontable contre les LLMs généralisés. Ciblant les agences fédérales et les réassureurs, il a le potentiel de devenir la norme obligatoire et monopolistique pour la gestion des risques climatiques extrêmes.
 
 > **Verdict Terrain :** En attente d'évaluation.

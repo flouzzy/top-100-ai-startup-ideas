@@ -60,12 +60,12 @@ Moat (Defensibility): Llm cannot model protein folding or cascade reactions of c
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
+| Scalability / UX Friction   | 17 / 25         | -- / 25             |
+| Unit Economics / ROI        | 23 / 25         | -- / 25             |
+| **TOTAL**                   | **89 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Simulating human immune responses for xenotransplantation is a high-risk, generational leap in biotechnology. This multi-omic platform tackles the primary barrier to organ transplantation, providing a computational moat far deeper than any generic biological model. While regulatory and clinical hurdles make scaling slow, success guarantees absolute monopolistic control over a massive, life-saving market.
 
 > **Market Verdict:** Pending evaluation.

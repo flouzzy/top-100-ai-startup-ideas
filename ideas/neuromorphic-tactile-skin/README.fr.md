@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Le goulot d'étranglement se situe au niveau de 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 21 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 17 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
+| **TOTAL**                         | **82 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Cette approche centrée sur le matériel pour la perception robotique résout un goulet d'étranglement physique critique que les logiciels seuls ne peuvent pas aborder. En intégrant des micro-capteurs directement à une architecture neuromorphique, elle crée un fossé physique défendable contre les modèles d'IA purement numériques. Les complexités de fabrication et les longs cycles de vente présentent des défis de mise à l'échelle, mais le potentiel de devenir la couche sensorielle standard pour la robotique humanoïde et industrielle offre un potentiel exceptionnel.
 
 > **Verdict Terrain :** En attente d'évaluation.

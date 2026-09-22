@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : C'est un problème d'inspection de milliards de 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **89 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le Hardware Trojan Scanner répond à une vulnérabilité existentielle dans la chaîne d'approvisionnement mondiale des semi-conducteurs. En utilisant la vision par ordinateur avancée et les réseaux de neurones graphiques pour vérifier physiquement les micropuces par rapport aux conceptions CAO originales, il établit un fossé de sécurité ancré dans le matériel. Cette défense est totalement hors de portée pour l'IA conversationnelle, le positionnant comme un péage indispensable pour la sécurité nationale et les infrastructures critiques.
 
 > **Verdict Terrain :** En attente d'évaluation.

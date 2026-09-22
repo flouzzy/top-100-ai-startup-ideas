@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : L'ingénierie des protéines virales exige la mo
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 21 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le simulateur de liaison de la queue des phages applique la biologie structurale générative à un problème hyper-spécifique mais crucial : les bactéricides programmables. Ce fossé de données et de simulation spécialisé le protège complètement des LLMs génériques. Bien que la navigation dans le cycle de vente complexe de l'industrie pharmaceutique présente des frictions de mise à l'échelle, le potentiel de monopoliser la couche de conception computationnelle de la prochaine génération d'antibiotiques offre d'immenses retours.
 
 > **Verdict Terrain :** En attente d'évaluation.

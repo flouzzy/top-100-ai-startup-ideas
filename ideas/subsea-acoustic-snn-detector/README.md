@@ -60,12 +60,12 @@ Moat (Defensibility): Conventional audio anomaly detection algorithms (dsp, tran
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 18 / 25         | -- / 25             |
+| Unit Economics / ROI        | 23 / 25         | -- / 25             |
+| **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** The Subsea Acoustic SNN Detector represents a major breakthrough in autonomous underwater monitoring. Using spiking neural networks for ultra-low power acoustic signal processing creates an unassailable edge-compute moat. While deployment in subsea environments is inherently difficult, the defense and offshore energy sectors will pay premium recurring revenues for this autonomous capability.
 
 > **Market Verdict:** Pending evaluation.

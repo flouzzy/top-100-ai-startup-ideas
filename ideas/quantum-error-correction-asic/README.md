@@ -60,12 +60,12 @@ Moat (Defensibility): The classic cpu/gpu software approach is much too slow (mi
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
+| Scalability / UX Friction   | 16 / 25         | -- / 25             |
+| Unit Economics / ROI        | 20 / 25         | -- / 25             |
+| **TOTAL**                   | **83 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** This ultra-low latency cryogenic ASIC tackles the fundamental bottleneck of quantum supremacy: decoherence speed. By shifting error correction from software to dedicated hardware, it creates a massive, insurmountable physical moat against generic software advancements. Scaling will be slow and capital-intensive, but achieving a monopoly on the base infrastructure of fault-tolerant quantum computing offers unparalleled, generational returns.
 
 > **Market Verdict:** Pending evaluation.

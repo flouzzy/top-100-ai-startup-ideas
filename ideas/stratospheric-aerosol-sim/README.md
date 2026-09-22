@@ -60,12 +60,12 @@ Moat (Defensibility): Current global climate models (gcms) have too low resoluti
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 19 / 25         | -- / 25             |
+| Unit Economics / ROI        | 22 / 25         | -- / 25             |
+| **TOTAL**                   | **88 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** The Stratospheric Aerosol Simulator provides the essential digital twin for solar geoengineering, arguably the most critical and controversial climate intervention of this century. Its exascale thermodynamic and aerosol dispersion models form a proprietary moat that conversational AI cannot touch. As governments are forced to consider climate intervention, owning the definitive simulation platform ensures massive, unassailable recurring revenue.
 
 > **Market Verdict:** Pending evaluation.

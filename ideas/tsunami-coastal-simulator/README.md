@@ -60,12 +60,12 @@ Moat (Defensibility): Standard 2d flood maps are simple altitude-based extrusion
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
+| Scalability / UX Friction   | 17 / 25         | -- / 25             |
+| Unit Economics / ROI        | 20 / 25         | -- / 25             |
+| **TOTAL**                   | **86 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** This massively parallel hydrodynamic simulation engine is a critical piece of infrastructure for global coastal resilience. Integrating fluid dynamics with urban BIM/GIS models offers a highly defensible software moat that generic AI cannot replicate. Despite long sales cycles involving governments and insurance giants, becoming the gold standard for coastal risk assessment guarantees a highly lucrative monopoly.
 
 > **Market Verdict:** Pending evaluation.

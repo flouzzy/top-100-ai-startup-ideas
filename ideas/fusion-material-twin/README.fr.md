@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les outils de conception assistée (CAD) ou les 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 18 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | -- / 25              |
+| **TOTAL**                         | **88 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Ce jumeau numérique atomique représente le chaînon manquant pour la fusion nucléaire commerciale. Simuler la dégradation des matériaux sous des conditions de plasma extrêmes est un jeu de monopole deep tech qui échappe totalement aux LLMs généralistes en raison de sa dépendance à la mécanique quantique et aux données de science des matériaux. Le marché est concentré et précoce, mais capturer l'infrastructure matérielle sous-jacente pour l'énergie de fusion garantit un marché adressable d'un millier de milliards de dollars.
 
 > **Verdict Terrain :** En attente d'évaluation.

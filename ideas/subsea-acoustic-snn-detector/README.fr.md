@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les algorithmes de détection d'anomalies audio 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 18 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
+| **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le détecteur acoustique sous-marin SNN représente une avancée majeure dans la surveillance sous-marine autonome. L'utilisation de réseaux de neurones à impulsions pour le traitement de signaux acoustiques à très faible consommation d'énergie crée un fossé inattaquable en matière d'informatique de périphérie. Bien que le déploiement dans des environnements sous-marins soit intrinsèquement difficile, les secteurs de la défense et de l'énergie offshore paieront des revenus récurrents élevés pour cette capacité autonome.
 
 > **Verdict Terrain :** En attente d'évaluation.

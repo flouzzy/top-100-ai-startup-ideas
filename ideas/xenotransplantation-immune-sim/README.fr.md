@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Un LLM ne peut pas modéliser le repliement des 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 17 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
+| **TOTAL**                         | **89 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** La simulation des réponses immunitaires humaines pour la xénotransplantation est un bond générationnel à haut risque dans la biotechnologie. Cette plateforme multi-omique s'attaque au principal obstacle de la transplantation d'organes, offrant un fossé informatique bien plus profond que tout modèle biologique générique. Bien que les obstacles réglementaires et cliniques ralentissent la mise à l'échelle, le succès garantit un contrôle monopolistique absolu sur un marché massif qui sauve des vies.
 
 > **Verdict Terrain :** En attente d'évaluation.
