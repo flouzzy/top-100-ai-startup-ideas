@@ -8,8 +8,17 @@ results = []
 
 for d in os.listdir('ideas'):
     if not os.path.isdir(os.path.join('ideas', d)): continue
+
+    # Check if either README exists
+    has_fr = os.path.exists(os.path.join('ideas', d, 'README.fr.md'))
+    has_en = os.path.exists(os.path.join('ideas', d, 'README.md'))
+
+    if not has_fr and not has_en: continue
+
+    # Prioritize English file for parsing, fallback to French
     filepath = os.path.join('ideas', d, 'README.md')
-    if not os.path.exists(filepath): continue
+    if not os.path.exists(filepath):
+        filepath = os.path.join('ideas', d, 'README.fr.md')
 
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -43,6 +52,7 @@ for d in os.listdir('ideas'):
     vc_score = 0
     terrain_score = 0
     composite = 0
+    is_pending_comp = False
 
     m_comp = re.search(r'badge/(?:Score_Composite|Composite_Score)-([^-]+)-', content)
     if m_comp:
@@ -53,6 +63,10 @@ for d in os.listdir('ideas'):
             m_comp_num = re.search(r'([\d\.]+)', comp_str)
             if m_comp_num:
                 composite = float(m_comp_num.group(1))
+            else:
+                is_pending_comp = True
+        else:
+            is_pending_comp = True
 
     # Match with or without markdown bold asterisks and handle various spacings
     # E.g. | TOTAL | 89 / 100 | 81 / 100 |  or | **TOTAL** | **89 / 100** | **81 / 100** |
@@ -80,8 +94,32 @@ for d in os.listdir('ideas'):
             terrain_score = float(s_ter)
 
     calculated_comp = (vc_score * 0.5) + (terrain_score * 0.5)
-    if composite == 0 and calculated_comp > 0:
+
+    # Update files if composite needs calculation
+    if calculated_comp > 0 and (composite == 0 or is_pending_comp or composite != calculated_comp):
         composite = calculated_comp
+
+        new_val_str = f"{calculated_comp:.1f}" if calculated_comp != int(calculated_comp) else f"{int(calculated_comp)}"
+        color = "green"
+        if calculated_comp < 60: color = "red"
+        elif calculated_comp < 80: color = "yellow"
+        elif calculated_comp < 90: color = "blue"
+
+        for lang in ['README.md', 'README.fr.md']:
+            lang_path = os.path.join('ideas', d, lang)
+            if not os.path.exists(lang_path): continue
+
+            with open(lang_path, 'r', encoding='utf-8') as f:
+                lang_content = f.read()
+
+            m_comp_lang = re.search(r'(badge/(?:Score_Composite|Composite_Score)-)([^-\)]+)(-[a-z]+\))', lang_content)
+            if m_comp_lang:
+                new_badge = f"{m_comp_lang.group(1)}{new_val_str}-{color})"
+                lang_content = lang_content.replace(m_comp_lang.group(0), new_badge)
+
+                with open(lang_path, 'w', encoding='utf-8') as f:
+                    f.write(lang_content)
+                #print(f"Updated score in {lang_path}")
 
     results.append({
         'dir': d,
