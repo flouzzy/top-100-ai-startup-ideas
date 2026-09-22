@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : C'est un problème de biologie moléculaire néc
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 21 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **86 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Engineered Phage Agtech applique l'IA générative de pointe à un problème terrestre critique : les maladies des cultures agricoles et la résistance aux antibiotiques. En passant des produits chimiques à large spectre à la biologie synthétique ciblée, elle crée un fossé de propriété intellectuelle hautement défendable. Bien que l'approbation réglementaire pose une friction à l'échelle, le besoin urgent d'une agriculture durable garantit un potentiel de retour sur investissement massif une fois déployé.
 
 > **Verdict Terrain :** En attente d'évaluation.

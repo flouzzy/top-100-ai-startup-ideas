@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Ce n'est pas un problème de cartographie 2D cla
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 18 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** La carte de navigation par anomalie quantique offre une alternative profondément contrariante à la dépendance au GPS en utilisant la cartographie gravimétrique. Cela résout une vulnérabilité stratégique massive pour la défense et la logistique critique dans les environnements sans GPS. L'intégration profonde de l'informatique de périphérie avec des données de capteurs quantiques complexes établit une défense robuste contre l'IA généralisée, la positionnant pour des contrats collants à forte marge.
 
 > **Verdict Terrain :** En attente d'évaluation.

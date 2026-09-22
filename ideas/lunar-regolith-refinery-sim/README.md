@@ -60,12 +60,12 @@ Moat (Defensibility): Physical game engines (unity, unreal) make physics approac
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
+| Scalability / UX Friction   | 16 / 25         | -- / 25             |
+| Unit Economics / ROI        | 19 / 25         | -- / 25             |
+| **TOTAL**                   | **82 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** The Lunar Regolith Refinery Simulator is a definitive contrarian play on the infrastructure layer of off-world colonization. By coupling granular physics with thermochemical models, it creates an irreplaceable asset for lunar resource extraction planning. While the market is nascent and highly illiquid today, owning the fundamental simulation layer for lunar mining positions the company for absolute monopolistic capture.
 
 > **Market Verdict:** Pending evaluation.

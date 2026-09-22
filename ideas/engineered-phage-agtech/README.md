@@ -60,12 +60,12 @@ Moat (Defensibility): This is a molecular biology problem requiring a wet-lab, h
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 21 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
+| Scalability / UX Friction   | 20 / 25         | -- / 25             |
+| Unit Economics / ROI        | 22 / 25         | -- / 25             |
+| **TOTAL**                   | **86 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Engineered Phage Agtech applies cutting-edge generative AI to a critical, terrestrial problem: agricultural crop disease and antibiotic resistance. By moving away from broad-spectrum chemicals to targeted synthetic biology, it creates a highly defensible IP moat. While regulatory approval poses scaling friction, the urgent need for sustainable agriculture guarantees massive ROI potential once deployed.
 
 > **Market Verdict:** Pending evaluation.

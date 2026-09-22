@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : C'est un problème d'architecture matérielle et
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 17 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | -- / 25              |
+| **TOTAL**                         | **86 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le PQC Satellite HSM répond à une menace imminente à enjeux élevés : le risque d'informatique quantique 'récolter maintenant, déchiffrer plus tard' pour l'infrastructure spatiale mondiale. En intégrant la cryptographie post-quantique directement dans du matériel spécialisé de qualité spatiale (FPGA/ASIC), il crée un fossé impénétrable contre les solutions purement logicielles. Les besoins massifs en capitaux et les longs cycles de vente sont compensés par la nécessité absolue de sécuriser des actifs orbitaux de plusieurs milliards de dollars.
 
 > **Verdict Terrain :** En attente d'évaluation.

@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les solutions de sécurité réseau classiques s
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 21 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 24 / 25         | -- / 25              |
+| **TOTAL**                         | **92 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** L'authentification RF Fingerprint Zero Trust fournit une authentification de couche physique impossible à usurper, résolvant fondamentalement les vulnérabilités de sécurité de l'IoT et des périphériques de pointe. En cartographiant les micro-imperfections physiques dans les transmissions radio, il construit un fossé inaltérable dérivé du matériel qui neutralise complètement les attaques logicielles générées par l'IA. Le modèle SaaS hautement évolutif appliqué aux infrastructures critiques offre une économie unitaire exceptionnelle.
 
 > **Verdict Terrain :** En attente d'évaluation.

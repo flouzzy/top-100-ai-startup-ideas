@@ -60,12 +60,12 @@ Moat (Defensibility): It is a challenge of material chemistry (ion exchange memb
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 22 / 25         | -- / 25             |
+| Scalability / UX Friction   | 19 / 25         | -- / 25             |
+| Unit Economics / ROI        | 21 / 25         | -- / 25             |
+| **TOTAL**                   | **85 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Direct Ocean Capture via electrodialysis is a massively scalable, deeply contrarian alternative to land-based Direct Air Capture. By leveraging the ocean's natural carbon concentration and piggybacking on existing desalination infrastructure, it drastically improves unit economics. This industrial-scale climate tech play builds a massive hardware and process moat that is entirely immune to LLM disruptions.
 
 > **Market Verdict:** Pending evaluation.

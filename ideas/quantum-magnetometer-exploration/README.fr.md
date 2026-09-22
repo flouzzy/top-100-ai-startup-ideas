@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Il s'agit d'un problème fondamental de physique
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 17 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **86 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** L'intégration de magnétomètres quantiques sur des flottes de drones représente un changement de paradigme pour l'exploration de minéraux critiques. Elle contourne complètement les méthodes d'arpentage traditionnelles et coûteuses, résolvant un problème urgent dans la chaîne d'approvisionnement des batteries. L'intégration complexe matériel-logiciel de la détection quantique et du vol autonome établit un fossé formidable, le positionnant comme un péage indispensable pour la transition énergétique propre.
 
 > **Verdict Terrain :** En attente d'évaluation.

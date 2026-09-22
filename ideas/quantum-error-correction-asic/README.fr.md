@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : L'approche logicielle CPU/GPU classique est beau
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 16 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
+| **TOTAL**                         | **83 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Cet ASIC cryogénique à latence ultra-faible s'attaque au goulot d'étranglement fondamental de la suprématie quantique : la vitesse de décohérence. En déplaçant la correction d'erreurs du logiciel vers le matériel dédié, il crée un fossé physique massif et insurmontable contre les avancées logicielles génériques. La mise à l'échelle sera lente et gourmande en capitaux, mais l'obtention d'un monopole sur l'infrastructure de base de l'informatique quantique tolérante aux pannes offre des rendements générationnels inégalés.
 
 > **Verdict Terrain :** En attente d'évaluation.

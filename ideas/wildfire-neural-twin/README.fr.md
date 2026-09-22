@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Un SaaS ou un simple modèle prédictif statisti
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 21 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **91 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Ce moteur physique neuronal s'attaque à une crise mondiale grandissante : l'impact économique catastrophique des méga-feux. En fonctionnant en temps réel et en fusionnant des flux massifs de données multimodales, il offre des capacités prédictives bien supérieures aux modèles traditionnels. Le besoin urgent des compagnies d'assurance et des agences gouvernementales garantit une adoption rapide, tandis que le moteur physique sous-jacent complexe établit un monopole technique définitif.
 
 > **Verdict Terrain :** En attente d'évaluation.

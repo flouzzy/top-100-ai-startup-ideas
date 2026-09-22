@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : C'est un problème fondamental de physique maté
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 18 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le pare-feu RF Side-Channel s'attaque à un vecteur ésotérique mais critique pour l'exfiltration de données : la fuite électromagnétique physique des processeurs. L'utilisation de métamatériaux personnalisés intégrés à une orchestration locale crée un fossé physique profond que les logiciels ne peuvent pas reproduire. Bien qu'il existe des frictions d'intégration matérielle, la sécurisation des centres de données souverains et de l'infrastructure militaire classifiée garantit une niche monopolistique très lucrative.
 
 > **Verdict Terrain :** En attente d'évaluation.

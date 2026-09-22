@@ -60,12 +60,12 @@ Moat (Defensibility): It is a fundamental problem of material physics. network s
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
+| Scalability / UX Friction   | 18 / 25         | -- / 25             |
+| Unit Economics / ROI        | 22 / 25         | -- / 25             |
+| **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** The RF Side-Channel Firewall tackles an esoteric but critical vector for data exfiltration: physical electromagnetic leakage from CPUs. The use of custom metamaterials integrated with local orchestration creates a deep physical moat that software cannot replicate. While hardware integration friction exists, securing sovereign data centers and classified military infrastructure ensures a highly lucrative, monopolistic niche.
 
 > **Market Verdict:** Pending evaluation.

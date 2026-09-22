@@ -60,12 +60,12 @@ Moat (Defensibility): Viral protein engineering requires the modelling of large 
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | 21 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 20 / 25         | -- / 25             |
+| Unit Economics / ROI        | 22 / 25         | -- / 25             |
+| **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** The Phage Tail Binding Simulator applies generative structural biology to a hyper-specific but crucial problem: programmable bactericides. This specialized data and simulation moat completely shields it from generic LLMs. While navigating the complex pharma sales cycle presents scaling friction, the potential to monopolize the computational design layer of the next generation of antibiotics offers immense returns.
 
 > **Market Verdict:** Pending evaluation.

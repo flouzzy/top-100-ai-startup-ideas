@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : C'est de l'ingénierie mixte cryogénique/hardwa
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 15 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
+| **TOTAL**                         | **84 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le Quantum Cryo RL Controller s'attaque à une limite physique critique dans la mise à l'échelle des ordinateurs quantiques : l'empreinte thermique de l'électronique de contrôle. Faire fonctionner une puce CMOS avec un agent RL à 4 Kelvin est un exploit d'ingénierie extrême qui contourne complètement les capacités des LLMs. Bien que le marché actuel soit restreint à une poignée de laboratoires quantiques, posséder cette couche de contrôle deep-tech représente un enjeu monopolistique massif dans l'avenir de l'informatique quantique.
 
 > **Verdict Terrain :** En attente d'évaluation.
