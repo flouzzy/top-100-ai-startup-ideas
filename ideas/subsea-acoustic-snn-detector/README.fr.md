@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les algorithmes de détection d'anomalies audio 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 21 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 16 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 23 / 25              |
+| **TOTAL**                         | **-- / 100**    | **85 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La protection des infrastructures sous-marines est d'une importance géopolitique cruciale, stimulant une forte demande. L'informatique de périphérie (Edge computing) basée sur des réseaux de neurones impulsionnels échappe totalement aux LLM cloud. Le déploiement matériel introduit une friction, mais la monétisation B2B et B2G est évidente et très rentable.

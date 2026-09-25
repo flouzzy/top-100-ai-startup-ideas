@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Un LLM ne peut pas modéliser le repliement des 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 15 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 23 / 25              |
+| **TOTAL**                         | **-- / 100**    | **87 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La pénurie d'organes humains fait de la xénotransplantation le Saint Graal de la médecine moderne. Les simulations d'immunologie in-silico nécessitent une expertise bien au-delà des capacités de l'IA générique. La friction d'adoption est élevée à cause de la réglementation stricte.

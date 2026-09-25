@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Un LLM ne comprend pas les équations de Navier-
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 25 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 24 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 17 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 21 / 25              |
+| **TOTAL**                         | **-- / 100**    | **87 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Le comportement extrême des incendies dû à la pyroconvection est une menace croissante exigeant des solutions prédictives immédiates. La dynamique des fluides combinée aux réseaux neuronaux offre une barrière computationnelle sophistiquée. La friction provient du besoin de puissance de calcul massive.

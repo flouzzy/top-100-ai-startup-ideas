@@ -60,12 +60,12 @@ Moat (Defensibility): This is not a classic 2d mapping problem (google maps). th
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 14 / 25             |
+| Unit Economics / ROI        | -- / 25         | 24 / 25             |
+| **TOTAL**                   | **-- / 100**    | **85 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** GPS-denied navigation is a critical vulnerability for military and commercial operations, driving intense demand. Quantum gravimetric mapping algorithms are deeply specialized and entirely isolated from LLM capabilities. Implementation requires specialized hardware, leading to high friction in early adoption phases.

@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : C'est de l'ingénierie mixte cryogénique/hardwa
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 22 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 14 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 19 / 25              |
+| **TOTAL**                         | **-- / 100**    | **80 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Le contrôle des qubits à des températures cryogéniques est essentiel pour l'évolution quantique, constituant un défi matériel urgent. Ce matériel couplé à du RL spécialisé est par nature immunisé contre les LLM. La friction d'adoption est forte en raison de l'intégration dans des environnements quantiques complexes.

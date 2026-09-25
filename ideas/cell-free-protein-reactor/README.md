@@ -60,12 +60,12 @@ Moat (Defensibility): It is a fundamental lock in physical and chemical bioengin
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 14 / 25             |
+| Unit Economics / ROI        | -- / 25         | 22 / 25             |
+| **TOTAL**                   | **-- / 100**    | **83 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** The biomanufacturing industry desperately needs faster, scalable alternatives to traditional cell cultures. Physical biochemical reactors are entirely immune to digital AI trends. There is friction in shifting established industrial pharmaceutical supply chains to a new paradigm.

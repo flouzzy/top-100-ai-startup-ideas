@@ -60,12 +60,12 @@ Moat (Defensibility): The bottlenecks lie in the classical von neumann architect
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 21 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 17 / 25             |
+| Unit Economics / ROI        | -- / 25         | 20 / 25             |
+| **TOTAL**                   | **-- / 100**    | **83 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Advanced tactile sensing is the missing link for dexterous robotics and advanced prosthetics. The combination of hardware polymers and spiking neural networks creates an unassailable moat against software LLMs. Integration friction is high due to the physical manufacturing and custom fitting required for robots.

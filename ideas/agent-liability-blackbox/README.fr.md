@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les logs de serveurs classiques (Datadog, Splunk
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 23 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 18 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 23 / 25              |
+| **TOTAL**                         | **-- / 100**    | **88 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Le manque de responsabilité freine le déploiement des agents IA en entreprise. Les pistes d'audit cryptographiques sont une infrastructure essentielle que les LLM ne peuvent fournir nativement. L'intégration d'une boîte noire ajoute une légère friction aux flux de travail existants.

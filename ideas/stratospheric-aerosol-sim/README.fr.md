@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les modèles climatiques globaux (GCM) actuels o
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 19 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 17 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 18 / 25              |
+| **TOTAL**                         | **-- / 100**    | **79 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** L'intervention climatique devient un sujet urgent, exigeant des simulations ultra-haute résolution. Les simulations thermodynamiques exascale dépassent largement les capacités des LLM. L'adoption est freinée par les ressources de calcul extrêmes requises et un marché de niche.

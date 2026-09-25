@@ -60,12 +60,12 @@ Moat (Defensibility): The classic cpu/gpu software approach is much too slow (mi
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 12 / 25             |
+| Unit Economics / ROI        | -- / 25         | 18 / 25             |
+| **TOTAL**                   | **-- / 100**    | **79 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Quantum error correction is a massive bottleneck for scalable quantum computing, creating immense urgency for hardware solutions. As an ASIC-level innovation, it is entirely immune to LLM disruptions. However, integration friction is extremely high given the niche target audience and experimental nature of the hardware.

@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : L'intelligence cloud ou un modèle d'IA classiqu
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 20 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 15 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 18 / 25              |
+| **TOTAL**                         | **-- / 100**    | **78 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La robotique a besoin de retours tactiles avancés pour atteindre un nouveau cap d'autonomie, créant une forte demande. Les systèmes d'exploitation neuromorphiques traitant les données sensorielles à la périphérie sont protégés contre les LLM. L'intégration d'un nouvel OS dans diverses plateformes pose une friction significative.

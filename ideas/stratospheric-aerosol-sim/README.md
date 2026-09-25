@@ -60,12 +60,12 @@ Moat (Defensibility): Current global climate models (gcms) have too low resoluti
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 19 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 17 / 25             |
+| Unit Economics / ROI        | -- / 25         | 18 / 25             |
+| **TOTAL**                   | **-- / 100**    | **79 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Climate intervention and geoengineering are becoming urgent topics, requiring ultra-high-resolution simulations before any real-world action. Exascale thermodynamic simulations are far beyond the capabilities of text or image-based LLMs. The adoption is limited by the extreme computational resources required and a niche market of global agencies.

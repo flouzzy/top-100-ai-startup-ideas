@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les outils de conception assistée (CAD) ou les 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 20 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 16 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 19 / 25              |
+| **TOTAL**                         | **-- / 100**    | **80 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Prédire la dégradation des matériaux est un goulot d'étranglement pour la fusion nucléaire commerciale. Les jumeaux numériques atomiques simulent des transmutations bien au-delà des capacités des modèles d'IA génériques. Le marché est restreint à quelques startups et laboratoires de recherche, augmentant la friction.

@@ -60,12 +60,12 @@ Moat (Defensibility): The iam (identity and access management) works on structur
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 23 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 23 / 25             |
+| Scalability / UX Friction   | -- / 25         | 15 / 25             |
+| Unit Economics / ROI        | -- / 25         | 24 / 25             |
+| **TOTAL**                   | **-- / 100**    | **85 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Data privacy is the main roadblock for enterprise multi-agent systems, creating immediate demand for secure memory isolation. Using fully homomorphic encryption creates a deep mathematical moat that foundational LLMs cannot easily replicate. Integrating this security layer introduces slight latency and friction.

@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les cartes d'inondation 2D standard sont de simp
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 23 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 15 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 19 / 25              |
+| **TOTAL**                         | **-- / 100**    | **82 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Les régions côtières font face à des menaces existentielles, rendant les simulations hydrodynamiques urbaines urgentes. Les moteurs de simulation physique multi-GPU sont très immunisés contre les perturbations des LLM. La principale friction est l'intégration lourde des données topographiques.

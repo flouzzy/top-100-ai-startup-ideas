@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : L'optimisation logicielle des modèles (quantiza
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 22 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 16 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 21 / 25              |
+| **TOTAL**                         | **-- / 100**    | **84 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Le calcul en orbite nécessite une consommation d'énergie drastiquement réduite, rendant les puces photoniques très désirables. La conception de matériel optique est une prouesse d'ingénierie physique totalement immunisée. Une forte friction existe à cause des processus stricts de qualification spatiale.

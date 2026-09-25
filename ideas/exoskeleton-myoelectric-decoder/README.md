@@ -60,12 +60,12 @@ Moat (Defensibility): It requires an ultra-low latency inference operating on on
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 24 / 25             |
+| Scalability / UX Friction   | -- / 25         | 14 / 25             |
+| Unit Economics / ROI        | -- / 25         | 22 / 25             |
+| **TOTAL**                   | **-- / 100**    | **82 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Enhancing human mobility and physical labor efficiency through exoskeletons addresses clear medical and industrial needs. Real-time biometric edge AI models for motor decoding are completely insulated from cloud-based text LLMs. Wearing and calibrating hardware still presents user friction, but the software integration is seamless.

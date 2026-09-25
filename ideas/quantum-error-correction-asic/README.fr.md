@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : L'approche logicielle CPU/GPU classique est beau
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 12 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 18 / 25              |
+| **TOTAL**                         | **-- / 100**    | **79 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La correction d'erreurs quantiques est un goulot d'étranglement majeur, créant une urgence absolue pour des solutions matérielles. En tant qu'innovation ASIC, elle est totalement immunisée contre les LLM. Cependant, la friction d'intégration est très élevée au vu de l'aspect expérimental.

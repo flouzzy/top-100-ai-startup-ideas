@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Le goulot d'étranglement se situe au niveau de 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 21 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 17 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 20 / 25              |
+| **TOTAL**                         | **-- / 100**    | **83 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La détection tactile avancée est le chaînon manquant pour la robotique dextre. La combinaison de polymères matériels et de réseaux de neurones impulsionnels crée un fossé infranchissable. La friction d'intégration est forte en raison de la fabrication physique complexe.

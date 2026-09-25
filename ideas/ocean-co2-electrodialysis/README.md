@@ -60,12 +60,12 @@ Moat (Defensibility): It is a challenge of material chemistry (ion exchange memb
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 23 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 15 / 25             |
+| Unit Economics / ROI        | -- / 25         | 22 / 25             |
+| **TOTAL**                   | **-- / 100**    | **85 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Carbon capture is a critical planetary priority with substantial economic incentives driving high urgency. A purely physical and chemical infrastructure project, it remains completely untouched by generative AI advancements. The primary barrier is the high friction of deploying physical modules offshore.

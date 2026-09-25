@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les solutions de sécurité réseau classiques s
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 23 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 24 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 15 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 23 / 25              |
+| **TOTAL**                         | **-- / 100**    | **85 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Sécuriser les infrastructures sans fil contre l'usurpation est une priorité pressante pour la défense. L'analyse des imperfections physiques des ondes radio est un domaine proche du matériel que l'IA générative ne peut reproduire. L'adoption implique des vérifications matérielles, créant une friction modérée.

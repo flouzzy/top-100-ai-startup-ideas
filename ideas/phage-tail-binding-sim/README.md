@@ -60,12 +60,12 @@ Moat (Defensibility): Viral protein engineering requires the modelling of large 
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 24 / 25             |
+| Scalability / UX Friction   | -- / 25         | 14 / 25             |
+| Unit Economics / ROI        | -- / 25         | 23 / 25             |
+| **TOTAL**                   | **-- / 100**    | **85 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** The antibiotic resistance crisis makes precision bacteriophage engineering an urgent global health priority. Structural diffusion models for protein assemblies represent a highly defensible bioinformatics moat. Software-as-a-service for biotech firms involves low friction once validated.

@@ -60,12 +60,12 @@ Moat (Defensibility): This is a molecular biology problem requiring a wet-lab, h
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 23 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 15 / 25             |
+| Unit Economics / ROI        | -- / 25         | 21 / 25             |
+| **TOTAL**                   | **-- / 100**    | **84 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Crop diseases and agricultural antibiotic resistance threaten global food security, creating urgent demand. Generative AI for synthetic phage design is a highly specialized biological moat immune to standard LLMs. Adoption involves navigating strict agricultural regulations, causing moderate friction.

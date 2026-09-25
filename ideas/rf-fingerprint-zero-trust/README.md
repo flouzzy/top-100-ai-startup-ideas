@@ -60,12 +60,12 @@ Moat (Defensibility): Conventional network security solutions are based on ip ad
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 23 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 24 / 25             |
+| Scalability / UX Friction   | -- / 25         | 15 / 25             |
+| Unit Economics / ROI        | -- / 25         | 23 / 25             |
+| **TOTAL**                   | **-- / 100**    | **85 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Securing critical wireless infrastructure against spoofing is a pressing priority for enterprise and defense. Analyzing physical radio wave imperfections is a hardware-adjacent domain that generative AI cannot replicate. Adoption involves hardware compatibility checks, creating moderate friction.

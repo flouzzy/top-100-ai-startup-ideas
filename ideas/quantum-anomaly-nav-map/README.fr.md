@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Ce n'est pas un problème de cartographie 2D cla
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 22 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 14 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 24 / 25              |
+| **TOTAL**                         | **-- / 100**    | **85 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La navigation sans GPS est une vulnérabilité critique pour les opérations militaires, stimulant une forte demande. Les algorithmes de cartographie gravimétrique quantique sont spécialisés et isolés des capacités des LLM. L'implémentation requiert du matériel spécifique, entraînant une forte friction.

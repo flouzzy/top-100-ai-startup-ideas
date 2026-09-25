@@ -60,12 +60,12 @@ Moat (Defensibility): The software optimization of models (quantization, pruning
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 16 / 25             |
+| Unit Economics / ROI        | -- / 25         | 21 / 25             |
+| **TOTAL**                   | **-- / 100**    | **84 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** On-orbit computing requires drastically reduced power consumption, making photonic chips highly desirable for space missions. Designing optical hardware is a physical engineering feat totally immune to LLM disruptions. High friction exists due to the rigorous space qualification processes (radiation hardening).

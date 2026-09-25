@@ -60,12 +60,12 @@ Moat (Defensibility): The classic server logs (datadog, splunk) are editable and
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 23 / 25             |
+| Scalability / UX Friction   | -- / 25         | 18 / 25             |
+| Unit Economics / ROI        | -- / 25         | 23 / 25             |
+| **TOTAL**                   | **-- / 100**    | **88 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** As AI agents are deployed in critical functions, lack of accountability is the primary blocker for enterprise adoption. Cryptographic audit trails are essential infrastructure that native LLMs cannot provide natively without compromising performance. Integrating a black box layer adds slight latency and friction to existing agent workflows.

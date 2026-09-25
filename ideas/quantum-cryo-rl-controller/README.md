@@ -60,12 +60,12 @@ Moat (Defensibility): This is mixed cryogenic/hardware/algorithmic engineering. 
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 14 / 25             |
+| Unit Economics / ROI        | -- / 25         | 19 / 25             |
+| **TOTAL**                   | **-- / 100**    | **80 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Controlling qubits at cryogenic temperatures is essential for quantum scaling, representing a highly urgent hardware challenge. Deep tech hardware coupled with specialized RL is inherently immune to general-purpose LLMs. Adoption friction is significant due to the need for integration into complex quantum setups.

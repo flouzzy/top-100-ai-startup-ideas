@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : C'est un défi de chimie des matériaux (membran
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 23 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 15 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 22 / 25              |
+| **TOTAL**                         | **-- / 100**    | **85 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La capture de carbone est une priorité planétaire soutenue par de fortes incitations économiques, générant une grande urgence. Ce projet d'infrastructure purement physique est totalement à l'abri des avancées de l'IA générative. Le principal frein est la friction liée au déploiement de modules physiques en mer.

@@ -60,12 +60,12 @@ Moat (Defensibility): Llm cannot model protein folding or cascade reactions of c
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 15 / 25             |
+| Unit Economics / ROI        | -- / 25         | 23 / 25             |
+| **TOTAL**                   | **-- / 100**    | **87 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** The critical shortage of human organs makes xenotransplantation a holy grail of modern medicine. Multi-omic in-silico immunology simulations require domain expertise far beyond generic AI capabilities. Adoption friction is high due to extreme regulatory scrutiny in the biomedical field.

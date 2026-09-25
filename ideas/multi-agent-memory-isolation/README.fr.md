@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : L'IAM classique (Identity and Access Management)
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 23 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 23 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 15 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 24 / 25              |
+| **TOTAL**                         | **-- / 100**    | **85 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La confidentialité des données est le principal obstacle aux systèmes multi-agents d'entreprise, créant une demande immédiate. L'utilisation du chiffrement homomorphe crée un fossé mathématique profond que les LLM ne peuvent facilement reproduire. L'intégration introduit une légère friction.

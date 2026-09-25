@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Il s'agit d'un problème fondamental de physique
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 21 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 15 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 22 / 25              |
+| **TOTAL**                         | **-- / 100**    | **83 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La transition énergétique exige la découverte de nouveaux gisements minéraux, stimulant l'urgence pour de meilleurs outils d'exploration. Les capteurs quantiques représentent une physique matérielle de pointe entièrement protégée des LLM. L'intégration sur des flottes de drones demande des opérations spécialisées, créant une friction modérée.

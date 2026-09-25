@@ -60,12 +60,12 @@ Moat (Defensibility): Physical game engines (unity, unreal) make physics approac
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 15 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 18 / 25             |
+| Unit Economics / ROI        | -- / 25         | 16 / 25             |
+| **TOTAL**                   | **-- / 100**    | **74 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** While space exploration is growing, the immediate commercial urgency for lunar regolith refining remains limited to a few agencies. Deep physical simulation engines are highly defensible against generic text-based LLMs. Adoption friction is high due to the specialized nature of the software and long sales cycles.

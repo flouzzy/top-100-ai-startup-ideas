@@ -60,12 +60,12 @@ Moat (Defensibility): It is a fundamental problem of material physics. network s
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 17 / 25             |
+| Unit Economics / ROI        | -- / 25         | 20 / 25             |
+| **TOTAL**                   | **-- / 100**    | **84 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Air-gapped systems are increasingly vulnerable to sophisticated RF side-channel attacks, demanding physical security solutions. Combining metamaterials with local orchestrators creates a physical-digital barrier impervious to LLMs. Retrofitting data centers with new physical covers introduces significant adoption friction.

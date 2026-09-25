@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : C'est un problème d'architecture matérielle et
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 13 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 21 / 25              |
+| **TOTAL**                         | **-- / 100**    | **83 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La menace de l'informatique quantique rendant obsolète le chiffrement actuel crée une urgence colossale pour les infrastructures spatiales. Les modules de sécurité matériels pour satellites sont insensibles aux IA génératives. La friction de déploiement est massive à cause des coûts de lancement spatiaux.

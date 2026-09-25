@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les moteurs de jeu physique (Unity, Unreal) font
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 15 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 18 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 16 / 25              |
+| **TOTAL**                         | **-- / 100**    | **74 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Bien que l'exploration spatiale soit en croissance, l'urgence commerciale immédiate pour le raffinage du régolithe lunaire reste limitée à quelques agences. Les moteurs de simulation physique profonde sont très défendables face aux LLM génériques. La friction d'adoption est forte à cause de la spécialisation du logiciel.

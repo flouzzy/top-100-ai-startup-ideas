@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : La dégradation chimique est un processus hors �
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 21 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 16 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 20 / 25              |
+| **TOTAL**                         | **-- / 100**    | **82 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** L'optimisation des matériaux de capture d'air direct (DAC) est cruciale pour rendre le retrait de carbone viable. Les réseaux de graphes modélisant la dégradation chimique forment un fossé technologique profond. L'adoption est restreinte à l'industrie de niche très financée de la capture carbone.

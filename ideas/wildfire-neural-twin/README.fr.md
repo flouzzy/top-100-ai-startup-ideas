@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Un SaaS ou un simple modèle prédictif statisti
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 25 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 23 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 16 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 21 / 25              |
+| **TOTAL**                         | **-- / 100**    | **85 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** L'escalade des incendies de forêt rend la prédiction en temps réel vitale pour la protection civile. Les moteurs de physique neuronale traitant des données spatiales offrent un fossé défensif contre l'IA conversationnelle. La friction réside dans l'intégration avec les protocoles de secours obsolètes.

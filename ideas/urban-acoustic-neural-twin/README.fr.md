@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les méthodes numériques traditionnelles (Bound
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 18 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 23 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 15 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 20 / 25              |
+| **TOTAL**                         | **-- / 100**    | **76 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La pollution sonore urbaine et l'acoustique architecturale sont des préoccupations croissantes pour les urbanistes. Les réseaux de neurones informés par la physique offrent des capacités impossibles à reproduire pour des LLM standards. L'intégration de cette plateforme demandera de surmonter une friction modérée.

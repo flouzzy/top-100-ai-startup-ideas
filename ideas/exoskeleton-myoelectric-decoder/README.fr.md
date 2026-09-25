@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Il faut une inférence à latence ultra-faible f
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 22 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 24 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 14 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 22 / 25              |
+| **TOTAL**                         | **-- / 100**    | **82 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Améliorer la mobilité humaine via des exosquelettes répond à des besoins médicaux et industriels évidents. Les modèles d'IA biométriques embarqués sont complètement isolés des LLM textuels cloud. Le port et le calibrage du matériel présentent encore une friction, mais l'intégration logicielle est fluide.

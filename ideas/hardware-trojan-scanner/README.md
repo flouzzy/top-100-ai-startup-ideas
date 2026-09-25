@@ -60,12 +60,12 @@ Moat (Defensibility): This is a problem of inspecting billions of physical trans
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 16 / 25             |
+| Unit Economics / ROI        | -- / 25         | 22 / 25             |
+| **TOTAL**                   | **-- / 100**    | **87 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Semiconductor supply chain security is a massive geopolitical concern, driving an urgent need for hardware verification. Computer vision and graph networks for microscopic IC analysis are totally divorced from text-based LLMs. The hardware setup required for microscopic imaging introduces deployment friction.

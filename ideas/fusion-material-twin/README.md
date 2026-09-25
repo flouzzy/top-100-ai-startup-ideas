@@ -60,12 +60,12 @@ Moat (Defensibility): Assisted design tools (acds) or finished element solvers (
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 20 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 16 / 25             |
+| Unit Economics / ROI        | -- / 25         | 19 / 25             |
+| **TOTAL**                   | **-- / 100**    | **80 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Predicting material degradation is a massive bottleneck for commercial nuclear fusion, a long-term but high-stakes goal. Atomic numerical twins simulate transmutations far beyond the capabilities of generic AI models. The market is currently restricted to a few dozen fusion startups and research labs, increasing sales friction.

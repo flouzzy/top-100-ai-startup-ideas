@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : C'est un problème fondamental de physique maté
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 22 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 17 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 20 / 25              |
+| **TOTAL**                         | **-- / 100**    | **84 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Les systèmes isolés sont de plus en plus vulnérables aux attaques par canaux auxiliaires RF, exigeant des solutions de sécurité physiques. Combiner des métamatériaux avec des orchestrateurs locaux crée une barrière imperméable aux LLM. L'adaptation des centres de données introduit une forte friction d'adoption.

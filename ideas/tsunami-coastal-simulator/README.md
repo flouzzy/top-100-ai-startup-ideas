@@ -60,12 +60,12 @@ Moat (Defensibility): Standard 2d flood maps are simple altitude-based extrusion
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 23 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 15 / 25             |
+| Unit Economics / ROI        | -- / 25         | 19 / 25             |
+| **TOTAL**                   | **-- / 100**    | **82 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Coastal regions face existential threats from natural disasters, making high-fidelity urban hydrodynamic simulations extremely urgent. Multi-GPU physical simulation engines are highly immune to LLM disruptions. The main friction is the data-heavy integration required to map complex urban topologies.
