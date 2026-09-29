@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Rf fingerprint zero trust
 
@@ -60,12 +60,12 @@ Moat (Defensibility): Conventional network security solutions are based on ip ad
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 23 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 24 / 25             |
-| Scalability / UX Friction   | -- / 25         | 15 / 25             |
-| Unit Economics / ROI        | -- / 25         | 23 / 25             |
-| **TOTAL**                   | **-- / 100**    | **85 / 100**        |
+| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 21 / 25         | -- / 25             |
+| Unit Economics / ROI        | 24 / 25         | -- / 25             |
+| **TOTAL**                   | **92 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** RF Fingerprint Zero Trust provides physical-layer authentication that cannot be spoofed, fundamentally solving IoT and edge device security vulnerabilities. By mapping physical micro-imperfections in radio transmissions, it builds an unforgeable, hardware-derived moat that completely neutralizes AI-generated software attacks. The highly scalable SaaS model applied to critical infrastructure offers exceptional unit economics.
 
 > **Market Verdict:** Securing critical wireless infrastructure against spoofing is a pressing priority for enterprise and defense. Analyzing physical radio wave imperfections is a hardware-adjacent domain that generative AI cannot replicate. Adoption involves hardware compatibility checks, creating moderate friction.

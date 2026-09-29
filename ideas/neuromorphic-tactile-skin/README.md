@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Neuromorphic tactile skin
 
@@ -60,12 +60,12 @@ Moat (Defensibility): The bottlenecks lie in the classical von neumann architect
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 21 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 17 / 25             |
-| Unit Economics / ROI        | -- / 25         | 20 / 25             |
-| **TOTAL**                   | **-- / 100**    | **83 / 100**        |
+| Thesis & Monopoly / Urgency | 21 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 17 / 25         | -- / 25             |
+| Unit Economics / ROI        | 20 / 25         | -- / 25             |
+| **TOTAL**                   | **82 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** This hardware-centric approach to robotic perception solves a critical physical bottleneck that software alone cannot address. By integrating micro-sensors directly with a neuromorphic architecture, it creates a defensible physical moat against purely digital AI models. The manufacturing complexities and long sales cycles present scaling challenges, but the potential to become the standard sensory layer for humanoid and industrial robotics offers exceptional upside.
 
 > **Market Verdict:** Advanced tactile sensing is the missing link for dexterous robotics and advanced prosthetics. The combination of hardware polymers and spiking neural networks creates an unassailable moat against software LLMs. Integration friction is high due to the physical manufacturing and custom fitting required for robots.

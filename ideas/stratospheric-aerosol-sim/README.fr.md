@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇬🇧 English Version ](./README.md)
+[🇬🇧 English Version](./README.md)
 
 # Stratospheric Aerosol Sim
 
@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les modèles climatiques globaux (GCM) actuels o
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 19 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 17 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 18 / 25              |
-| **TOTAL**                         | **-- / 100**    | **79 / 100**         |
+| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 19 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **88 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le simulateur d'aérosols stratosphériques fournit le jumeau numérique essentiel pour la géo-ingénierie solaire, sans doute l'intervention climatique la plus critique et controversée de ce siècle. Ses modèles de thermodynamique et de dispersion d'aérosols à l'échelle exaforment un fossé exclusif que l'IA conversationnelle ne peut pas toucher. Alors que les gouvernements sont contraints d'envisager des interventions climatiques, détenir la plateforme de simulation définitive garantit des revenus récurrents massifs et inattaquables.
 
 > **Verdict Terrain :** L'intervention climatique devient un sujet urgent, exigeant des simulations ultra-haute résolution. Les simulations thermodynamiques exascale dépassent largement les capacités des LLM. L'adoption est freinée par les ressources de calcul extrêmes requises et un marché de niche.

@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇬🇧 English Version ](./README.md)
+[🇬🇧 English Version](./README.md)
 
 # Cell-Free Protein Reactor
 
@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : C'est un verrou fondamental de bio-ingénierie p
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 22 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 14 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 22 / 25              |
-| **TOTAL**                         | **-- / 100**    | **83 / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 17 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 23 / 25         | -- / 25              |
+| **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le Cell-Free Protein Reactor perturbe fondamentalement la biofabrication en éliminant le besoin de cellules vivantes, ouvrant la porte à une production de protéines hyper-évolutive et à la demande. La combinaison de processus biochimiques propriétaires et de matériel sur mesure crée une barrière à l'entrée insurmontable pour les entreprises d'IA purement logicielles. Les dépenses d'investissement initiales élevées sont totalement justifiées par une économie unitaire révolutionnaire et un marché adressable massif dans la pharmacie et la biologie synthétique.
 
 > **Verdict Terrain :** L'industrie de la biofabrication a désespérément besoin d'alternatives plus rapides aux cultures cellulaires traditionnelles. Les réacteurs biochimiques physiques sont totalement immunisés contre les tendances de l'IA numérique. Il y a de la friction pour modifier les chaînes d'approvisionnement pharmaceutiques.

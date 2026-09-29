@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇬🇧 English Version ](./README.md)
+[🇬🇧 English Version](./README.md)
 
 # Tsunami Coastal Simulator
 
@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les cartes d'inondation 2D standard sont de simp
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 23 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 15 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 19 / 25              |
-| **TOTAL**                         | **-- / 100**    | **82 / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 17 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
+| **TOTAL**                         | **86 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Ce moteur de simulation hydrodynamique massivement parallèle est une pièce d'infrastructure critique pour la résilience côtière mondiale. L'intégration de la dynamique des fluides aux modèles BIM/SIG urbains offre un fossé logiciel hautement défendable que l'IA générique ne peut pas reproduire. Malgré de longs cycles de vente impliquant les gouvernements et les géants de l'assurance, devenir la référence absolue en matière d'évaluation des risques côtiers garantit un monopole très lucratif.
 
 > **Verdict Terrain :** Les régions côtières font face à des menaces existentielles, rendant les simulations hydrodynamiques urbaines urgentes. Les moteurs de simulation physique multi-GPU sont très immunisés contre les perturbations des LLM. La principale friction est l'intégration lourde des données topographiques.

@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Quantum gravimetric nav-map compiler
 
@@ -60,12 +60,12 @@ Moat (Defensibility): This is not a classic 2d mapping problem (google maps). th
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 14 / 25             |
-| Unit Economics / ROI        | -- / 25         | 24 / 25             |
-| **TOTAL**                   | **-- / 100**    | **85 / 100**        |
+| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 18 / 25         | -- / 25             |
+| Unit Economics / ROI        | 22 / 25         | -- / 25             |
+| **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** The Quantum Anomaly Navigation Map offers a profoundly contrarian alternative to GPS dependency by using gravimetric mapping. This solves a massive strategic vulnerability for defense and critical logistics in GPS-denied environments. The deep integration of edge computing with complex quantum sensor data establishes a robust defense against generalized AI, positioning it for high-margin, sticky contracts.
 
 > **Market Verdict:** GPS-denied navigation is a critical vulnerability for military and commercial operations, driving intense demand. Quantum gravimetric mapping algorithms are deeply specialized and entirely isolated from LLM capabilities. Implementation requires specialized hardware, leading to high friction in early adoption phases.

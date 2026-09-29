@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇬🇧 English Version ](./README.md)
+[🇬🇧 English Version](./README.md)
 
 # Neuromorphic Tactile Physics OS
 
@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : L'intelligence cloud ou un modèle d'IA classiqu
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 20 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 15 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 18 / 25              |
-| **TOTAL**                         | **-- / 100**    | **78 / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 18 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | -- / 25              |
+| **TOTAL**                         | **85 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Neuromorphic Tactile OS est le pionnier de la couche essentielle d'informatique de périphérie pour la robotique avancée en traitant les données sensorielles via des réseaux de neurones à impulsions directement au niveau de la 'peau'. Cette approche profondément contrariante réduit considérablement la latence et la bande passante, créant un fossé matériel-logiciel massif. La friction d'intégration est élevée, mais l'établissement du système d'exploitation standard pour la perception tactile robotique garantit un monopole à long terme dans l'automatisation industrielle.
 
 > **Verdict Terrain :** La robotique a besoin de retours tactiles avancés pour atteindre un nouveau cap d'autonomie, créant une forte demande. Les systèmes d'exploitation neuromorphiques traitant les données sensorielles à la périphérie sont protégés contre les LLM. L'intégration d'un nouvel OS dans diverses plateformes pose une friction significative.

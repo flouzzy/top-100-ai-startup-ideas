@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇬🇧 English Version ](./README.md)
+[🇬🇧 English Version](./README.md)
 
 # Orbital Laser Ablation Debris Predictor
 
@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : L'interaction laser-matière dans le vide spatia
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 17 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 18 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 17 / 25              |
-| **TOTAL**                         | **-- / 100**    | **77 / 100**         |
+| Thèse & Monopole / Urgence        | 21 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 17 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
+| **TOTAL**                         | **82 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** L'atténuation des débris orbitaux via l'ablation laser est une exigence hyper-spécialisée mais existentielle pour la future économie spatiale. Ce modèle physique génératif résout le problème complexe de la dispersion du plasma en microgravité, établissant un fossé technique profond. La clientèle est actuellement limitée aux grandes agences spatiales et aux entrepreneurs de la défense, mais détenir le moteur physique définitif pour le nettoyage de l'espace confère un pouvoir de fixation des prix absolu.
 
 > **Verdict Terrain :** La gestion des débris spatiaux s'aggrave, bien que l'ablation laser active reste une approche naissante. Les simulations physiques de plasma en microgravité sont très spécialisées et immunisées contre les LLM. La friction est très élevée car elle dépend de futurs déploiements d'infrastructures spatiales.

@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Neuromorphic tactile physics os
 
@@ -60,12 +60,12 @@ Moat (Defensibility): Cloud intelligence or a classic ai model (e.g. a heavy llm
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 20 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 15 / 25             |
-| Unit Economics / ROI        | -- / 25         | 18 / 25             |
-| **TOTAL**                   | **-- / 100**    | **78 / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 18 / 25         | -- / 25             |
+| Unit Economics / ROI        | 21 / 25         | -- / 25             |
+| **TOTAL**                   | **85 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Neuromorphic Tactile OS pioneers the essential edge-compute layer for advanced robotics by processing sensory data via spiking neural networks directly at the 'skin' level. This deeply contrarian approach dramatically reduces latency and bandwidth, creating a massive hardware-software moat. The integration friction is high, but establishing the standard OS for robotic tactile perception guarantees a long-term monopoly in industrial automation.
 
 > **Market Verdict:** Robotics requires advanced tactile feedback to reach the next level of autonomy, creating a strong market pull. Neuromorphic operating systems processing sensory data at the edge are deeply protected from LLM encroachment. Integrating a new OS into diverse robotic platforms poses significant adoption friction.

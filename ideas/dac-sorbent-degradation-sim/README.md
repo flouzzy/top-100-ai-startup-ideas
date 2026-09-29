@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Dac sorbent degradation simulator
 
@@ -60,12 +60,12 @@ Moat (Defensibility): Chemical degradation is a complex off-balance process. che
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 21 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 16 / 25             |
-| Unit Economics / ROI        | -- / 25         | 20 / 25             |
-| **TOTAL**                   | **-- / 100**    | **82 / 100**        |
+| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 19 / 25         | -- / 25             |
+| Unit Economics / ROI        | 21 / 25         | -- / 25             |
+| **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** This digital twin directly attacks the critical OPEX bottleneck of Direct Air Capture: sorbent replacement costs. The specialized neural graph networks applied to chemical degradation offer a robust moat that broad AI models cannot bridge without access to proprietary physical chemistry data. The highly specialized, urgent nature of this problem in the rapidly growing climate tech sector provides a clear path to monopolistic pricing power.
 
 > **Market Verdict:** Optimizing Direct Air Capture (DAC) materials is crucial for making carbon removal economically viable. Neural graph networks simulating chemical degradation form a highly specialized deep tech moat untouched by LLMs. Adoption is somewhat restricted to the niche but well-funded carbon capture industry.

@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Bioprinting microfluidic neural physics engine
 
@@ -60,12 +60,12 @@ Moat (Defensibility): A llm does not include the mechanics of non-newtonian flui
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 23 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 15 / 25             |
-| Unit Economics / ROI        | -- / 25         | 22 / 25             |
-| **TOTAL**                   | **-- / 100**    | **85 / 100**        |
+| Thesis & Monopoly / Urgency | 21 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 18 / 25         | -- / 25             |
+| Unit Economics / ROI        | 20 / 25         | -- / 25             |
+| **TOTAL**                   | **83 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** This platform addresses a key bottleneck in regenerative medicine by combining deep physics with neural simulation for bio-ink fluidics. The highly specialized training data on high-fidelity CFD simulations creates a massive technical moat that generic foundation models cannot replicate. Though scaling requires navigating complex biotech enterprise sales, the monopoly potential in next-gen organ printing is immense.
 
 > **Market Verdict:** 3D bioprinting viable human tissue is a medical revolution hampered by fluid dynamics challenges. A neural physics engine trained on bio-ink CFD is highly specialized deep tech. Integration with existing bioprinters poses some friction, but the software layer is easily distributable.

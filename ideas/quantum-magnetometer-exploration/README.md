@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Quantum magnetometer exploration
 
@@ -60,12 +60,12 @@ Moat (Defensibility): This is a fundamental problem of measurement physics. no s
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 21 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 15 / 25             |
-| Unit Economics / ROI        | -- / 25         | 22 / 25             |
-| **TOTAL**                   | **-- / 100**    | **83 / 100**        |
+| Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
+| Scalability / UX Friction   | 17 / 25         | -- / 25             |
+| Unit Economics / ROI        | 22 / 25         | -- / 25             |
+| **TOTAL**                   | **86 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** The integration of quantum magnetometers on drone fleets represents a paradigm shift for critical mineral exploration. It completely bypasses traditional, expensive survey methods, solving an urgent pain point in the battery supply chain. The complex hardware-software integration of quantum sensing and autonomous flight establishes a formidable moat, positioning it as an indispensable tollbooth for the clean energy transition.
 
 > **Market Verdict:** The transition to green energy requires discovering new critical mineral deposits, driving urgency for better exploration tools. Quantum sensors using NV centers represent cutting-edge hardware physics entirely protected from LLM trends. Integrating these sensors into drone fleets requires specialized operations, leading to moderate friction.

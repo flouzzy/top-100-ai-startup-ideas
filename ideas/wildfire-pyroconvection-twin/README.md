@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Wildfire pyroconvection twin
 
@@ -60,12 +60,12 @@ Moat (Defensibility): A llm does not include the navier-stokes equations. saas g
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 25 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 24 / 25             |
-| Scalability / UX Friction   | -- / 25         | 17 / 25             |
-| Unit Economics / ROI        | -- / 25         | 21 / 25             |
-| **TOTAL**                   | **-- / 100**    | **87 / 100**        |
+| Thesis & Monopoly / Urgency | 25 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
+| Scalability / UX Friction   | 18 / 25         | -- / 25             |
+| Unit Economics / ROI        | 21 / 25         | -- / 25             |
+| **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Pyroconvection modeling is the absolute frontier of wildfire management. This digital twin combines extreme fluid dynamics with real-time AI to predict fire behavior that traditional models simply cannot. It offers an insurmountable data and physics moat against generalized LLMs. Targeting federal agencies and re-insurers, it has the potential to become the mandatory, monopolistic standard for managing extreme climate risks.
 
 > **Market Verdict:** Extreme wildfire behavior driven by pyroconvection is a rapidly growing threat requiring immediate predictive solutions. Real-time CFD combined with neural networks offers a sophisticated computational barrier against basic AI models. Friction stems from the need for massive computing power and integration with meteorological agencies.

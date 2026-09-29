@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇬🇧 English Version ](./README.md)
+[🇬🇧 English Version](./README.md)
 
 # Agent Liability Blackbox
 
@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les logs de serveurs classiques (Datadog, Splunk
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 23 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 18 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 23 / 25              |
-| **TOTAL**                         | **-- / 100**    | **88 / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 21 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **90 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** L'Agent Liability Blackbox s'attaque au blocage juridique critique de l'adoption de l'IA avec un enregistreur de vol inaltérable et sécurisé cryptographiquement. La profondeur d'intégration du protocole offre un verrouillage extrême, en faisant une brique fondamentale pour toute entreprise déployant des systèmes multi-agents. Son infrastructure SaaS évolutive couplée à une IP unique crée un fossé définitif immunisé contre les avancées brutes des LLMs.
 
 > **Verdict Terrain :** Le manque de responsabilité freine le déploiement des agents IA en entreprise. Les pistes d'audit cryptographiques sont une infrastructure essentielle que les LLM ne peuvent fournir nativement. L'intégration d'une boîte noire ajoute une légère friction aux flux de travail existants.

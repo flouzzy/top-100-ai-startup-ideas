@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇬🇧 English Version ](./README.md)
+[🇬🇧 English Version](./README.md)
 
 # Phage Tail-Fiber Binding Simulator
 
@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : L'ingénierie des protéines virales exige la mo
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 24 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 14 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 23 / 25              |
-| **TOTAL**                         | **-- / 100**    | **85 / 100**         |
+| Thèse & Monopole / Urgence        | 21 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le simulateur de liaison de la queue des phages applique la biologie structurale générative à un problème hyper-spécifique mais crucial : les bactéricides programmables. Ce fossé de données et de simulation spécialisé le protège complètement des LLMs génériques. Bien que la navigation dans le cycle de vente complexe de l'industrie pharmaceutique présente des frictions de mise à l'échelle, le potentiel de monopoliser la couche de conception computationnelle de la prochaine génération d'antibiotiques offre d'immenses retours.
 
 > **Verdict Terrain :** La crise de la résistance aux antibiotiques fait de l'ingénierie des bactériophages une priorité sanitaire mondiale. Les modèles de diffusion structurelle pour assemblages protéiques représentent un fossé défensif puissant. Le modèle SaaS pour les entreprises biotechnologiques implique peu de friction.

@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Hardware trojan scanner
 
@@ -60,12 +60,12 @@ Moat (Defensibility): This is a problem of inspecting billions of physical trans
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 16 / 25             |
-| Unit Economics / ROI        | -- / 25         | 22 / 25             |
-| **TOTAL**                   | **-- / 100**    | **87 / 100**        |
+| Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
+| Scalability / UX Friction   | 20 / 25         | -- / 25             |
+| Unit Economics / ROI        | 22 / 25         | -- / 25             |
+| **TOTAL**                   | **89 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** The Hardware Trojan Scanner addresses an existential vulnerability in the global semiconductor supply chain. By utilizing advanced computer vision and graph neural networks to physically verify microchips against original CAD designs, it establishes a hardware-anchored security moat. This defense is entirely out of scope for conversational AI, positioning it as an indispensable tollbooth for national security and critical infrastructure.
 
 > **Market Verdict:** Semiconductor supply chain security is a massive geopolitical concern, driving an urgent need for hardware verification. Computer vision and graph networks for microscopic IC analysis are totally divorced from text-based LLMs. The hardware setup required for microscopic imaging introduces deployment friction.

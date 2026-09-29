@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇬🇧 English Version ](./README.md)
+[🇬🇧 English Version](./README.md)
 
 # PQC Satellite HSM (Hardware Security Module) Mesh
 
@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : C'est un problème d'architecture matérielle et
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 13 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 21 / 25              |
-| **TOTAL**                         | **-- / 100**    | **83 / 100**         |
+| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 17 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | -- / 25              |
+| **TOTAL**                         | **86 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le PQC Satellite HSM répond à une menace imminente à enjeux élevés : le risque d'informatique quantique 'récolter maintenant, déchiffrer plus tard' pour l'infrastructure spatiale mondiale. En intégrant la cryptographie post-quantique directement dans du matériel spécialisé de qualité spatiale (FPGA/ASIC), il crée un fossé impénétrable contre les solutions purement logicielles. Les besoins massifs en capitaux et les longs cycles de vente sont compensés par la nécessité absolue de sécuriser des actifs orbitaux de plusieurs milliards de dollars.
 
 > **Verdict Terrain :** La menace de l'informatique quantique rendant obsolète le chiffrement actuel crée une urgence colossale pour les infrastructures spatiales. Les modules de sécurité matériels pour satellites sont insensibles aux IA génératives. La friction de déploiement est massive à cause des coûts de lancement spatiaux.

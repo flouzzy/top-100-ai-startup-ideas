@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Urban acoustic neural twin
 
@@ -60,12 +60,12 @@ Moat (Defensibility): The boundary element method does not scalate to the size o
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 18 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 23 / 25             |
-| Scalability / UX Friction   | -- / 25         | 15 / 25             |
-| Unit Economics / ROI        | -- / 25         | 20 / 25             |
-| **TOTAL**                   | **-- / 100**    | **76 / 100**        |
+| Thesis & Monopoly / Urgency | 21 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
+| Scalability / UX Friction   | 20 / 25         | -- / 25             |
+| Unit Economics / ROI        | 24 / 25         | -- / 25             |
+| **TOTAL**                   | **88 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** The Urban Acoustic Neural Twin is a brilliant, unconventional approach to urban planning and real estate valuation. By simulating soundscapes rather than just visual traffic flow, it creates a unique, proprietary dataset. Its SaaS model allows for rapid scaling across major municipalities and real estate developers, providing an extremely high ROI with a moat protected by specialized physics-informed neural networks.
 
 > **Market Verdict:** Urban noise pollution and architectural acoustics present growing concerns for city planners and developers. Physics-informed neural networks offer specialized capabilities that standard LLMs cannot easily replicate. Integrating this platform into existing urban planning workflows will require overcoming moderate friction.

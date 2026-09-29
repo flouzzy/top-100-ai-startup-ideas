@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Orbital laser ablation debris predictor
 
@@ -60,12 +60,12 @@ Moat (Defensibility): Laser-matter interaction in space vacuum involves complex 
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 17 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 18 / 25             |
-| Unit Economics / ROI        | -- / 25         | 17 / 25             |
-| **TOTAL**                   | **-- / 100**    | **77 / 100**        |
+| Thesis & Monopoly / Urgency | 21 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
+| Scalability / UX Friction   | 17 / 25         | -- / 25             |
+| Unit Economics / ROI        | 20 / 25         | -- / 25             |
+| **TOTAL**                   | **82 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** Orbital debris mitigation via laser ablation is a hyper-niche but existential requirement for the future space economy. This generative physical model solves the complex plasma dispersion problem in microgravity, establishing a profound technical moat. The customer base is currently limited to major space agencies and defense contractors, but holding the definitive physics engine for space clearing grants absolute pricing power.
 
 > **Market Verdict:** Managing space debris is an escalating issue, though active laser ablation remains a nascent and unproven approach. High-fidelity physical plasma simulations in microgravity are deeply specialized and LLM-immune. The friction is very high as it relies on future space infrastructure deployments.

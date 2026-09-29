@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Rf side-channel firewall
 
@@ -60,12 +60,12 @@ Moat (Defensibility): It is a fundamental problem of material physics. network s
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 17 / 25             |
-| Unit Economics / ROI        | -- / 25         | 20 / 25             |
-| **TOTAL**                   | **-- / 100**    | **84 / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
+| Scalability / UX Friction   | 18 / 25         | -- / 25             |
+| Unit Economics / ROI        | 22 / 25         | -- / 25             |
+| **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** The RF Side-Channel Firewall tackles an esoteric but critical vector for data exfiltration: physical electromagnetic leakage from CPUs. The use of custom metamaterials integrated with local orchestration creates a deep physical moat that software cannot replicate. While hardware integration friction exists, securing sovereign data centers and classified military infrastructure ensures a highly lucrative, monopolistic niche.
 
 > **Market Verdict:** Air-gapped systems are increasingly vulnerable to sophisticated RF side-channel attacks, demanding physical security solutions. Combining metamaterials with local orchestrators creates a physical-digital barrier impervious to LLMs. Retrofitting data centers with new physical covers introduces significant adoption friction.

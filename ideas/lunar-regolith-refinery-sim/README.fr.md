@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇬🇧 English Version ](./README.md)
+[🇬🇧 English Version](./README.md)
 
 # Lunar Regolith Refinery Sim
 
@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Les moteurs de jeu physique (Unity, Unreal) font
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 15 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 18 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 16 / 25              |
-| **TOTAL**                         | **-- / 100**    | **74 / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 16 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 19 / 25         | -- / 25              |
+| **TOTAL**                         | **82 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le simulateur de raffinerie de régolithe lunaire est un pari contrariant définitif sur la couche d'infrastructure de la colonisation hors-monde. En couplant la physique granulaire avec des modèles thermochimiques, il crée un actif irremplaçable pour la planification de l'extraction des ressources lunaires. Bien que le marché soit naissant et très illiquide aujourd'hui, posséder la couche de simulation fondamentale pour l'exploitation minière lunaire positionne l'entreprise pour une capture monopolistique absolue.
 
 > **Verdict Terrain :** Bien que l'exploration spatiale soit en croissance, l'urgence commerciale immédiate pour le raffinage du régolithe lunaire reste limitée à quelques agences. Les moteurs de simulation physique profonde sont très défendables face aux LLM génériques. La friction d'adoption est forte à cause de la spécialisation du logiciel.

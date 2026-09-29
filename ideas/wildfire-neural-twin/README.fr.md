@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇬🇧 English Version ](./README.md)
+[🇬🇧 English Version](./README.md)
 
 # Wildfire Neural Twin
 
@@ -60,12 +60,12 @@ Moat (Barrière à l'entrée) : Un SaaS ou un simple modèle prédictif statisti
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 25 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 23 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 16 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 21 / 25              |
-| **TOTAL**                         | **-- / 100**    | **85 / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 21 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | -- / 25              |
+| **TOTAL**                         | **91 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Ce moteur physique neuronal s'attaque à une crise mondiale grandissante : l'impact économique catastrophique des méga-feux. En fonctionnant en temps réel et en fusionnant des flux massifs de données multimodales, il offre des capacités prédictives bien supérieures aux modèles traditionnels. Le besoin urgent des compagnies d'assurance et des agences gouvernementales garantit une adoption rapide, tandis que le moteur physique sous-jacent complexe établit un monopole technique définitif.
 
 > **Verdict Terrain :** L'escalade des incendies de forêt rend la prédiction en temps réel vitale pour la protection civile. Les moteurs de physique neuronale traitant des données spatiales offrent un fossé défensif contre l'IA conversationnelle. La friction réside dans l'intégration avec les protocoles de secours obsolètes.

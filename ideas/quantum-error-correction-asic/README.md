@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 MD028 MD033 MD039 MD041 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Quantum error correction asic
 
@@ -60,12 +60,12 @@ Moat (Defensibility): The classic cpu/gpu software approach is much too slow (mi
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
-| Scalability / UX Friction   | -- / 25         | 12 / 25             |
-| Unit Economics / ROI        | -- / 25         | 18 / 25             |
-| **TOTAL**                   | **-- / 100**    | **79 / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
+| Scalability / UX Friction   | 16 / 25         | -- / 25             |
+| Unit Economics / ROI        | 20 / 25         | -- / 25             |
+| **TOTAL**                   | **83 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** This ultra-low latency cryogenic ASIC tackles the fundamental bottleneck of quantum supremacy: decoherence speed. By shifting error correction from software to dedicated hardware, it creates a massive, insurmountable physical moat against generic software advancements. Scaling will be slow and capital-intensive, but achieving a monopoly on the base infrastructure of fault-tolerant quantum computing offers unparalleled, generational returns.
 
 > **Market Verdict:** Quantum error correction is a massive bottleneck for scalable quantum computing, creating immense urgency for hardware solutions. As an ASIC-level innovation, it is entirely immune to LLM disruptions. However, integration friction is extremely high given the niche target audience and experimental nature of the hardware.
