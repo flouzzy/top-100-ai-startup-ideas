@@ -68,4 +68,4 @@ Moat (Barrière à l'entrée) : L'optimisation logicielle des modèles (quantiza
 
 > **Verdict VC :** Ce projet représente un pas de géant dans l'informatique de périphérie orbitale en remplaçant les GPU électroniques gourmands en énergie par des cœurs de tenseurs photoniques. La résolution des contraintes de chaleur et d'énergie de l'inférence de l'IA spatiale crée un monopole matériel absolu. Le risque d'exécution technique est immense, mais dominer la couche d'intelligence de l'infrastructure en orbite terrestre basse offre une valeur géopolitique et commerciale sans précédent.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Le calcul en orbite nécessite une consommation d'énergie drastiquement réduite, rendant les puces photoniques très désirables. La conception de matériel optique est une prouesse d'ingénierie physique totalement immunisée. Une forte friction existe à cause des processus stricts de qualification spatiale.

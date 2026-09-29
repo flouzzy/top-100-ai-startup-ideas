@@ -68,4 +68,4 @@ Moat (Barrière à l'entrée) : Il faut une inférence à latence ultra-faible f
 
 > **Verdict VC :** Ce modèle d'IA à la périphérie décode l'intention motrice humaine avec une latence nulle, une approche contrariante et hautement difficile comparée aux systèmes dépendants du cloud. L'exigence d'ensembles de données biométriques massifs et propriétaires crée un fossé de données impénétrable contre les LLMs génériques. Malgré la dépendance matérielle et les coûts unitaires initiaux élevés, il est en passe de monopoliser la prochaine génération d'interfaces homme-machine dans les exosquelettes industriels et médicaux.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Améliorer la mobilité humaine via des exosquelettes répond à des besoins médicaux et industriels évidents. Les modèles d'IA biométriques embarqués sont complètement isolés des LLM textuels cloud. Le port et le calibrage du matériel présentent encore une friction, mais l'intégration logicielle est fluide.

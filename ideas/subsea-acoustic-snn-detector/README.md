@@ -68,4 +68,4 @@ Moat (Defensibility): Conventional audio anomaly detection algorithms (dsp, tran
 
 > **VC Verdict:** The Subsea Acoustic SNN Detector represents a major breakthrough in autonomous underwater monitoring. Using spiking neural networks for ultra-low power acoustic signal processing creates an unassailable edge-compute moat. While deployment in subsea environments is inherently difficult, the defense and offshore energy sectors will pay premium recurring revenues for this autonomous capability.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Protecting subsea infrastructure is of critical geopolitical and economic importance, driving high demand. Edge computing based on spiking neural networks is entirely outside the scope of cloud-based LLMs. Hardware deployment introduces friction, but integration into existing sonar systems mitigates this.

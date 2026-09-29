@@ -68,4 +68,4 @@ Moat (Barrière à l'entrée) : Les modèles climatiques globaux (GCM) actuels o
 
 > **Verdict VC :** Le simulateur d'aérosols stratosphériques fournit le jumeau numérique essentiel pour la géo-ingénierie solaire, sans doute l'intervention climatique la plus critique et controversée de ce siècle. Ses modèles de thermodynamique et de dispersion d'aérosols à l'échelle exaforment un fossé exclusif que l'IA conversationnelle ne peut pas toucher. Alors que les gouvernements sont contraints d'envisager des interventions climatiques, détenir la plateforme de simulation définitive garantit des revenus récurrents massifs et inattaquables.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** L'intervention climatique devient un sujet urgent, exigeant des simulations ultra-haute résolution. Les simulations thermodynamiques exascale dépassent largement les capacités des LLM. L'adoption est freinée par les ressources de calcul extrêmes requises et un marché de niche.

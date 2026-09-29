@@ -68,4 +68,4 @@ Moat (Barrière à l'entrée) : C'est un problème de biologie moléculaire néc
 
 > **Verdict VC :** Engineered Phage Agtech applique l'IA générative de pointe à un problème terrestre critique : les maladies des cultures agricoles et la résistance aux antibiotiques. En passant des produits chimiques à large spectre à la biologie synthétique ciblée, elle crée un fossé de propriété intellectuelle hautement défendable. Bien que l'approbation réglementaire pose une friction à l'échelle, le besoin urgent d'une agriculture durable garantit un potentiel de retour sur investissement massif une fois déployé.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Les maladies des cultures menacent la sécurité alimentaire mondiale, créant une demande urgente. L'IA générative pour la conception de phages synthétiques est un fossé biologique hautement spécialisé. L'adoption implique de naviguer dans des réglementations agricoles strictes, causant une friction modérée.

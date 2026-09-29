@@ -68,4 +68,4 @@ Moat (Barrière à l'entrée) : C'est un problème fondamental de physique maté
 
 > **Verdict VC :** Le pare-feu RF Side-Channel s'attaque à un vecteur ésotérique mais critique pour l'exfiltration de données : la fuite électromagnétique physique des processeurs. L'utilisation de métamatériaux personnalisés intégrés à une orchestration locale crée un fossé physique profond que les logiciels ne peuvent pas reproduire. Bien qu'il existe des frictions d'intégration matérielle, la sécurisation des centres de données souverains et de l'infrastructure militaire classifiée garantit une niche monopolistique très lucrative.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Les systèmes isolés sont de plus en plus vulnérables aux attaques par canaux auxiliaires RF, exigeant des solutions de sécurité physiques. Combiner des métamatériaux avec des orchestrateurs locaux crée une barrière imperméable aux LLM. L'adaptation des centres de données introduit une forte friction d'adoption.

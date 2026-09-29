@@ -68,4 +68,4 @@ Moat (Defensibility): This is a problem of inspecting billions of physical trans
 
 > **VC Verdict:** The Hardware Trojan Scanner addresses an existential vulnerability in the global semiconductor supply chain. By utilizing advanced computer vision and graph neural networks to physically verify microchips against original CAD designs, it establishes a hardware-anchored security moat. This defense is entirely out of scope for conversational AI, positioning it as an indispensable tollbooth for national security and critical infrastructure.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Semiconductor supply chain security is a massive geopolitical concern, driving an urgent need for hardware verification. Computer vision and graph networks for microscopic IC analysis are totally divorced from text-based LLMs. The hardware setup required for microscopic imaging introduces deployment friction.

@@ -68,4 +68,4 @@ Moat (Barrière à l'entrée) : Un LLM ne comprend pas les équations de Navier-
 
 > **Verdict VC :** La modélisation de la pyroconvection est la frontière absolue de la gestion des feux de forêt. Ce jumeau numérique combine une dynamique des fluides extrême avec une IA en temps réel pour prédire le comportement des incendies que les modèles traditionnels ne peuvent tout simplement pas. Il offre un fossé de données et de physique insurmontable contre les LLMs généralisés. Ciblant les agences fédérales et les réassureurs, il a le potentiel de devenir la norme obligatoire et monopolistique pour la gestion des risques climatiques extrêmes.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Le comportement extrême des incendies dû à la pyroconvection est une menace croissante exigeant des solutions prédictives immédiates. La dynamique des fluides combinée aux réseaux neuronaux offre une barrière computationnelle sophistiquée. La friction provient du besoin de puissance de calcul massive.

@@ -68,4 +68,4 @@ Moat (Defensibility): It is a challenge of material chemistry (ion exchange memb
 
 > **VC Verdict:** Direct Ocean Capture via electrodialysis is a massively scalable, deeply contrarian alternative to land-based Direct Air Capture. By leveraging the ocean's natural carbon concentration and piggybacking on existing desalination infrastructure, it drastically improves unit economics. This industrial-scale climate tech play builds a massive hardware and process moat that is entirely immune to LLM disruptions.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Carbon capture is a critical planetary priority with substantial economic incentives driving high urgency. A purely physical and chemical infrastructure project, it remains completely untouched by generative AI advancements. The primary barrier is the high friction of deploying physical modules offshore.

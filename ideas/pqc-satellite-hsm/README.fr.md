@@ -68,4 +68,4 @@ Moat (Barrière à l'entrée) : C'est un problème d'architecture matérielle et
 
 > **Verdict VC :** Le PQC Satellite HSM répond à une menace imminente à enjeux élevés : le risque d'informatique quantique 'récolter maintenant, déchiffrer plus tard' pour l'infrastructure spatiale mondiale. En intégrant la cryptographie post-quantique directement dans du matériel spécialisé de qualité spatiale (FPGA/ASIC), il crée un fossé impénétrable contre les solutions purement logicielles. Les besoins massifs en capitaux et les longs cycles de vente sont compensés par la nécessité absolue de sécuriser des actifs orbitaux de plusieurs milliards de dollars.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La menace de l'informatique quantique rendant obsolète le chiffrement actuel crée une urgence colossale pour les infrastructures spatiales. Les modules de sécurité matériels pour satellites sont insensibles aux IA génératives. La friction de déploiement est massive à cause des coûts de lancement spatiaux.

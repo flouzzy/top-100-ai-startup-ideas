@@ -68,4 +68,4 @@ Moat (Barrière à l'entrée) : L'IAM classique (Identity and Access Management)
 
 > **Verdict VC :** Ce projet résout le problème critique de 'fuite de mémoire' dans les déploiements d'entreprise multi-agents. En fournissant une couche d'isolation de mémoire vectorielle basée sur le chiffrement homomorphe, il construit une primitive de sécurité essentielle pour l'ère de l'IA. Le modèle SaaS hautement évolutif et à faible friction permet une adoption rapide, tandis que l'intégration profonde dans les flux de données d'entreprise crée un fossé durable et hautement rentable.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La confidentialité des données est le principal obstacle aux systèmes multi-agents d'entreprise, créant une demande immédiate. L'utilisation du chiffrement homomorphe crée un fossé mathématique profond que les LLM ne peuvent facilement reproduire. L'intégration introduit une légère friction.

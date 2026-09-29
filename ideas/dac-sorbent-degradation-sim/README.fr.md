@@ -68,4 +68,4 @@ Moat (Barrière à l'entrée) : La dégradation chimique est un processus hors �
 
 > **Verdict VC :** Ce jumeau numérique s'attaque directement au goulet d'étranglement critique des coûts d'exploitation de la capture directe de l'air : les coûts de remplacement des sorbants. Les réseaux de graphes neuronaux spécialisés appliqués à la dégradation chimique offrent un fossé robuste que les modèles d'IA généraux ne peuvent combler sans accès à des données exclusives de chimie physique. La nature hautement spécialisée et urgente de ce problème dans le secteur en pleine croissance des technologies climatiques offre une voie claire vers un pouvoir de fixation des prix monopolistique.
 
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** L'optimisation des matériaux de capture d'air direct (DAC) est cruciale pour rendre le retrait de carbone viable. Les réseaux de graphes modélisant la dégradation chimique forment un fossé technologique profond. L'adoption est restreinte à l'industrie de niche très financée de la capture carbone.

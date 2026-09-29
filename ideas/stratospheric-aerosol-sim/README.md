@@ -68,4 +68,4 @@ Moat (Defensibility): Current global climate models (gcms) have too low resoluti
 
 > **VC Verdict:** The Stratospheric Aerosol Simulator provides the essential digital twin for solar geoengineering, arguably the most critical and controversial climate intervention of this century. Its exascale thermodynamic and aerosol dispersion models form a proprietary moat that conversational AI cannot touch. As governments are forced to consider climate intervention, owning the definitive simulation platform ensures massive, unassailable recurring revenue.
 
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Climate intervention and geoengineering are becoming urgent topics, requiring ultra-high-resolution simulations before any real-world action. Exascale thermodynamic simulations are far beyond the capabilities of text or image-based LLMs. The adoption is limited by the extreme computational resources required and a niche market of global agencies.
