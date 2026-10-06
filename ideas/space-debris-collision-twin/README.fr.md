@@ -66,12 +66,12 @@ Moat (Barrière à l'entrée) : Le besoin de solveurs d'astrodynamique non-liné
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 22 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
+| **TOTAL**                         | **91 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
-
+> **Verdict VC :** Ce projet présente une thèse fortement contrariante avec un véritable potentiel de monopole (25/25). Le fossé technologique profond et les exigences d'ingénierie rendent la solution quasi-impossible à répliquer par de simples concurrents SaaS (24/25). Associée à une évolutivité massive (22/25) et d'excellents unit economics (20/25), il s'agit d'une proposition hautement finançable.
+>
 > **Verdict Terrain :** En attente d'évaluation.

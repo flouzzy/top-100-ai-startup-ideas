@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : Il s'agit d'un problème fondamental de physique
 | **TOTAL**                         | **86 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** L'intégration de magnétomètres quantiques sur des flottes de drones représente un changement de paradigme pour l'exploration de minéraux critiques. Elle contourne complètement les méthodes d'arpentage traditionnelles et coûteuses, résolvant un problème urgent dans la chaîne d'approvisionnement des batteries. L'intégration complexe matériel-logiciel de la détection quantique et du vol autonome établit un fossé formidable, le positionnant comme un péage indispensable pour la transition énergétique propre.
-
+>
 > **Verdict Terrain :** La transition énergétique exige la découverte de nouveaux gisements minéraux, stimulant l'urgence pour de meilleurs outils d'exploration. Les capteurs quantiques représentent une physique matérielle de pointe entièrement protégée des LLM. L'intégration sur des flottes de drones demande des opérations spécialisées, créant une friction modérée.

@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : Les moteurs de jeu physique (Unity, Unreal) font
 | **TOTAL**                         | **82 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Le simulateur de raffinerie de régolithe lunaire est un pari contrariant définitif sur la couche d'infrastructure de la colonisation hors-monde. En couplant la physique granulaire avec des modèles thermochimiques, il crée un actif irremplaçable pour la planification de l'extraction des ressources lunaires. Bien que le marché soit naissant et très illiquide aujourd'hui, posséder la couche de simulation fondamentale pour l'exploitation minière lunaire positionne l'entreprise pour une capture monopolistique absolue.
-
+>
 > **Verdict Terrain :** Bien que l'exploration spatiale soit en croissance, l'urgence commerciale immédiate pour le raffinage du régolithe lunaire reste limitée à quelques agences. Les moteurs de simulation physique profonde sont très défendables face aux LLM génériques. La friction d'adoption est forte à cause de la spécialisation du logiciel.

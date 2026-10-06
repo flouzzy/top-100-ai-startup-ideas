@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : Un SaaS ou un simple modèle prédictif statisti
 | **TOTAL**                         | **91 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Ce moteur physique neuronal s'attaque à une crise mondiale grandissante : l'impact économique catastrophique des méga-feux. En fonctionnant en temps réel et en fusionnant des flux massifs de données multimodales, il offre des capacités prédictives bien supérieures aux modèles traditionnels. Le besoin urgent des compagnies d'assurance et des agences gouvernementales garantit une adoption rapide, tandis que le moteur physique sous-jacent complexe établit un monopole technique définitif.
-
+>
 > **Verdict Terrain :** L'escalade des incendies de forêt rend la prédiction en temps réel vitale pour la protection civile. Les moteurs de physique neuronale traitant des données spatiales offrent un fossé défensif contre l'IA conversationnelle. La friction réside dans l'intégration avec les protocoles de secours obsolètes.

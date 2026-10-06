@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : C'est de l'ingénierie mixte cryogénique/hardwa
 | **TOTAL**                         | **84 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Le Quantum Cryo RL Controller s'attaque à une limite physique critique dans la mise à l'échelle des ordinateurs quantiques : l'empreinte thermique de l'électronique de contrôle. Faire fonctionner une puce CMOS avec un agent RL à 4 Kelvin est un exploit d'ingénierie extrême qui contourne complètement les capacités des LLMs. Bien que le marché actuel soit restreint à une poignée de laboratoires quantiques, posséder cette couche de contrôle deep-tech représente un enjeu monopolistique massif dans l'avenir de l'informatique quantique.
-
+>
 > **Verdict Terrain :** Le contrôle des qubits à des températures cryogéniques est essentiel pour l'évolution quantique, constituant un défi matériel urgent. Ce matériel couplé à du RL spécialisé est par nature immunisé contre les LLM. La friction d'adoption est forte en raison de l'intégration dans des environnements quantiques complexes.
