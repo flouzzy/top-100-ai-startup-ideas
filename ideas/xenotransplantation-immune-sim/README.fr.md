@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : Un LLM ne peut pas modéliser le repliement des 
 | **TOTAL**                         | **89 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** La simulation des réponses immunitaires humaines pour la xénotransplantation est un bond générationnel à haut risque dans la biotechnologie. Cette plateforme multi-omique s'attaque au principal obstacle de la transplantation d'organes, offrant un fossé informatique bien plus profond que tout modèle biologique générique. Bien que les obstacles réglementaires et cliniques ralentissent la mise à l'échelle, le succès garantit un contrôle monopolistique absolu sur un marché massif qui sauve des vies.
-
+>
 > **Verdict Terrain :** La pénurie d'organes humains fait de la xénotransplantation le Saint Graal de la médecine moderne. Les simulations d'immunologie in-silico nécessitent une expertise bien au-delà des capacités de l'IA générique. La friction d'adoption est élevée à cause de la réglementation stricte.

@@ -58,12 +58,12 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 18 / 25         | -- / 25              |
+| Unit Economics / ROI direct       | 17 / 25         | -- / 25              |
+| **TOTAL**                         | **83 / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
-
+> **Verdict VC :** Ce projet présente une thèse fortement contrariante avec un véritable potentiel de monopole (24/25). Le fossé technologique profond et les exigences d'ingénierie rendent la solution quasi-impossible à répliquer par de simples concurrents SaaS (24/25). La friction à l'échelle (18/25) pourrait ralentir l'hyper-croissance, bien que les unit economics (17/25) soutiennent toujours un modèle d'affaires viable.
+>
 > **Verdict Terrain :** En attente d'évaluation.

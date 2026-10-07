@@ -67,5 +67,5 @@ Moat (Defensibility): Assisted design tools (acds) or finished element solvers (
 | **TOTAL**                   | **88 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** This atomic digital twin represents the missing link for commercial nuclear fusion. Simulating material degradation under extreme plasma conditions is a deep tech monopoly play that absolutely evades generalist LLMs due to its reliance on quantum mechanics and materials science data. The market is concentrated and early, but capturing the underlying material infrastructure for fusion energy ensures a trillion-dollar TAM.
-
+>
 > **Market Verdict:** Predicting material degradation is a massive bottleneck for commercial nuclear fusion, a long-term but high-stakes goal. Atomic numerical twins simulate transmutations far beyond the capabilities of generic AI models. The market is currently restricted to a few dozen fusion startups and research labs, increasing sales friction.

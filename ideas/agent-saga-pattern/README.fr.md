@@ -91,5 +91,5 @@ sequenceDiagram
 | **TOTAL**                             | 90 / 100        | 72 / 100             |
 
 > **Verdict VC :** AgentSaga s'attaque à une faille fondamentale des workflows multi-agents en apportant l'intégrité transactionnelle indispensable. Agir comme un orchestrateur asynchrone indépendant des LLM crée un fossé technologique extrêmement profond. L'approche par API transactionnelle garantit une forte rentabilité, bien que l'intégration demande de surmonter quelques frictions architecturales.
-
+>
 > **Verdict Terrain :** Garantir des transactions distribuées avec rollback est indispensable pour les agents effectuant des achats ou des réservations complexes. L'immunité est forte car la logique déterministe est complexe à halluciner avec un LLM probabiliste. L'adoption sera freinée par la complexité de l'intégration dans des architectures hétérogènes, limitant l'adoption initiale.

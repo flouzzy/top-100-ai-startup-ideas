@@ -67,5 +67,5 @@ Moat (Defensibility): Physical game engines (unity, unreal) make physics approac
 | **TOTAL**                   | **82 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** The Lunar Regolith Refinery Simulator is a definitive contrarian play on the infrastructure layer of off-world colonization. By coupling granular physics with thermochemical models, it creates an irreplaceable asset for lunar resource extraction planning. While the market is nascent and highly illiquid today, owning the fundamental simulation layer for lunar mining positions the company for absolute monopolistic capture.
-
+>
 > **Market Verdict:** While space exploration is growing, the immediate commercial urgency for lunar regolith refining remains limited to a few agencies. Deep physical simulation engines are highly defensible against generic text-based LLMs. Adoption friction is high due to the specialized nature of the software and long sales cycles.

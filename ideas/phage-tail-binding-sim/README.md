@@ -67,5 +67,5 @@ Moat (Defensibility): Viral protein engineering requires the modelling of large 
 | **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** The Phage Tail Binding Simulator applies generative structural biology to a hyper-specific but crucial problem: programmable bactericides. This specialized data and simulation moat completely shields it from generic LLMs. While navigating the complex pharma sales cycle presents scaling friction, the potential to monopolize the computational design layer of the next generation of antibiotics offers immense returns.
-
+>
 > **Market Verdict:** The antibiotic resistance crisis makes precision bacteriophage engineering an urgent global health priority. Structural diffusion models for protein assemblies represent a highly defensible bioinformatics moat. Software-as-a-service for biotech firms involves low friction once validated.
