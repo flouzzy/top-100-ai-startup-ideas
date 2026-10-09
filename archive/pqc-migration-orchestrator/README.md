@@ -1,14 +1,14 @@
-<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD036 MD037 MD039 MD041 MD060 -->
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
-# Post-Quantum Cryptography Migration Orchestrator
+# Post-Quantum Cryptography (PQC) Migration Orchestrator
 
-> **Executive Summary:** A B2B solution targeting Systemic banks, government agencies, critical infrastructure operators (CIOs), and telecommunications networks. to solve: The “Harvest Now, Decrypt Later” threat exposes state and financial secrets to future quantum computers. Governments (NIST, ANSSI) are demanding migration by 2030, but current IT architectures contain thousands of intertwined RSA/ECC certificates and dependencies, with no precise inventory.
+> **Executive Summary:** An orchestration platform for cryptographic agility, automating the mapping and rotation of encryption keys to quantum-resistant algorithms across massive infrastructures.
 
-![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-41-red)
 
 ---
 
@@ -16,56 +16,61 @@
 
 ```mermaid
 graph TD
-    A{"Problem"} -->|"Solves"| B{"Solution"}
+    %% Problem vs Solution or Architecture Diagram
+    A[Legacy RSA/ECC Infrastructure] -->|Q-Day Threat| B[Data decryption by Quantum Computers]
+    A -->|PQC Migration Orchestrator| C{Automated Cryptographic Agility}
+    C -->|Cryptographic SBOM & Rotation| D[Quantum-resistant hybrid encryption]
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** Generic solutions are enough.
-- **Hidden Truth:** A low-level analysis engine for network flows and cryptographic SBOM (Software Bill of Materials), which identifies each instance of vulnerable crypto (in binaries, API, firmware), and dynamically injects layers of crypto-agility (PQC algorithms like Kyber or Dilithium) via proxies or automated patches without downtime.
+Popular Belief: Upgrading to Post-Quantum Cryptography is just a matter of running standard software updates when the NIST standards are finalized.
+Hidden Truth: Replacing core cryptographic algorithms requires rewriting source code, re-certifying Hardware Security Modules (HSMs), and handling massive increases in key sizes that break standard network protocols. A simple software update cannot solve this; it requires a specialized orchestration engine.
 
 ## 3. Problem & Target Market
 
-- **Business Model:** B2B
-- **Target Audience:** Systemic banks, government agencies, critical infrastructure operators (CIOs), and telecommunications networks.
-- **Urgent Pain Point:** The “Harvest Now, Decrypt Later” threat exposes state and financial secrets to future quantum computers. Governments (NIST, ANSSI) are demanding migration by 2030, but current IT architectures contain thousands of intertwined RSA/ECC certificates and dependencies, with no precise inventory.
+Business Model: B2B
+Target Audience: Banks, financial institutions, governments, defense, and large SaaS enterprises.
+Urgent Pain Point: The "Store now, decrypt later" strategy means critical data stolen today will be readable when fault-tolerant quantum computers arrive (Q-Day). Migrating massive legacy infrastructures to PQC standards is a logistical and technical nightmare.
 
 ## 4. Technical Architecture & Infrastructure
 
-A low-level analysis engine for network flows and cryptographic SBOM (Software Bill of Materials), which identifies each instance of vulnerable crypto (in binaries, API, firmware), and dynamically injects layers of crypto-agility (PQC algorithms like Kyber or Dilithium) via proxies or automated patches without downtime.
-
 ```mermaid
 sequenceDiagram
-    participant U as "User"
-    participant S as "AI System"
-    U->>S: "Request"
-    S-->>U: "Response"
+    %% Sequence diagram or system flow
+    participant Infra as "Enterprise Infrastructure"
+    participant Orch as "PQC Orchestrator"
+    participant HSM as "Hardware Security Modules"
+    Orch->>Infra: Scan & Generate Crypto SBOM
+    Orch->>Orch: Analyze dependencies & vulnerabilities
+    Orch->>HSM: Initiate automated key rotation (Kyber/Dilithium)
+    HSM-->>Infra: Deploy hybrid quantum-resistant keys
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                 |
-| ---------------------- | --------------------- |
-| Pricing Structure      | B2B SaaS Subscription |
-| 12-Month Target        | 100 clients           |
-| Revenue Formula        | 100 \* 1000€ = 100k€  |
-| Estimated Gross Margin | 80%                   |
+| Metric                 | Value                                                  |
+| ---------------------- | ------------------------------------------------------ |
+| Pricing Structure      | Annual subscription based on infrastructure nodes/HSMs |
+| 12-Month Target        | 2 to 3 large financial or government contracts         |
+| Revenue Formula        | 2 \* 50k = 100k                                        |
+| Estimated Gross Margin | 85%                                                    |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** Direct sales and strategic partnerships.
-- **Moat (Defensibility):** A simple SaaS vulnerability scanner does not detect hard-compiled cryptographic libraries in legacy systems or industrial controllers. It requires static binary analysis and deep packet inspection (DPI) to spot hidden asymmetric key exchanges.
+Acquisition Strategy: Direct enterprise sales, partnerships with cybersecurity auditing firms and HSM manufacturers.
+Moat (Defensibility): The deep integration required with legacy architectures and HSMs, combined with the zero-tolerance for implementation bugs in cryptography, creates a massive moat. Generating a dynamic cryptographic SBOM across complex, air-gapped networks cannot be easily replicated by standard SaaS platforms.
 
 ## 7. Detailed Evaluation Grid
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 24 / 25         | 24 / 25             |
-| Moat / LLM Immunity         | 15 / 25         | 15 / 25             |
-| Scalability / UX Friction   | 21 / 25         | 21 / 25             |
-| Unit Economics / ROI        | 18 / 25         | 18 / 25             |
-| TOTAL                       | 78 / 100        | 78 / 100            |
+| Thesis & Monopoly / Urgency | 18 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 23 / 25         | -- / 25             |
+| Scalability / UX Friction   | 21 / 25         | -- / 25             |
+| Unit Economics / ROI        | 20 / 25         | -- / 25             |
+| **TOTAL**                   | **82 / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
-> **Market Verdict:** This solution addresses a critical pain point for B2B enterprises, justifying its strong urgency score (24/25). While viable, it remains somewhat exposed to the rapid evolution of foundational models (15/25). With low adoption friction (21/25) and a straightforward monetization strategy (18/25), the project demonstrates excellent overall market readiness.
-> **Market Verdict:** This solution addresses a critical pain point for B2B enterprises, justifying its strong urgency score (24/25). While viable, it remains somewhat exposed to the rapid evolution of foundational models (15/25). With low adoption friction (21/25) and a straightforward monetization strategy (18/25), the project demonstrates excellent overall market readiness.
+> **VC Verdict:** This project presents a strongly contrarian thesis with genuine monopoly potential (18/25). The deep technical moat and hard engineering requirements make it essentially impossible for casual SaaS competitors to replicate (23/25). Coupled with massive scalability (21/25) and excellent unit economics (20/25), this is a highly investable proposition.
+>
+> **Market Verdict:** Pending evaluation.
