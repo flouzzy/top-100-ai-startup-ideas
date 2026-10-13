@@ -65,11 +65,11 @@ Moat (Barrière à l'entrée) : La conception silicium pour l'accélération cry
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 19 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 14 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 18 / 25              |
+| **TOTAL**                         | **-- / 100**    | **76 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La cryptographie post-quantique pour l'IoT devient urgente face aux attaques 'récolter maintenant, déchiffrer plus tard'. Ce pivot matériel cryptographique fondamental est totalement immunisé contre l'IA. Modifier des milliards d'appareils périphériques crée une forte friction, mais le licensing aux fabricants de microcontrôleurs assure un gain massif.

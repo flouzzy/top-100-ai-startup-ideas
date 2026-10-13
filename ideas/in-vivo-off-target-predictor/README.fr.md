@@ -64,11 +64,11 @@ Moat (Barrière à l'entrée) : Nécessite de vastes ensembles de données propr
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 25 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 23 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 19 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 24 / 25              |
+| **TOTAL**                         | **-- / 100**    | **91 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Prédire les effets hors-cible de CRISPR est une urgence vitale pour les essais cliniques. Les jeux de données biologiques propriétaires et la validation en laboratoire humide créent un fossé défensif fort face à l'IA générique. L'adoption est fluide pour les biotechs, et la propension à payer des pharmas pour éviter l'échec clinique est énorme.

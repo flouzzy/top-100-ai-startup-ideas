@@ -67,12 +67,12 @@ Fossé défensif (Moat) : formulations propriétaires de pertes auto-supervisée
 
 | Critère                       | Score VC (/100) | Score Terrain (/100) |
 | ----------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence    | -- / 25         | -- / 25              |
-| Fossé Défensif / Immunité LLM | -- / 25         | -- / 25              |
-| Scalabilité / Friction UX     | -- / 25         | -- / 25              |
-| Unit Economics / ROI          | -- / 25         | -- / 25              |
-| **TOTAL**                     | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence    | -- / 25         | 23 / 25              |
+| Fossé Défensif / Immunité LLM | -- / 25         | 19 / 25              |
+| Scalabilité / Friction UX     | -- / 25         | 17 / 25              |
+| Unit Economics / ROI          | -- / 25         | 21 / 25              |
+| **TOTAL**                     | **-- / 100**    | **80 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 >
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Les modèles du monde physiques prédictifs sont urgents pour la robotique autonome. Bien que les LLMs standards peinent avec le raisonnement physique, les grands laboratoires d'IA ciblent ce domaine, réduisant légèrement l'immunité. Les coûts d'entraînement et d'intégration sont élevés, mais le licensing aux constructeurs est très lucratif.

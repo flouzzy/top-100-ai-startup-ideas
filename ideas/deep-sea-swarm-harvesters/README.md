@@ -64,11 +64,11 @@ Moat (Defensibility): Underwater communication suffers from extreme low bandwidt
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 18 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 12 / 25             |
+| Unit Economics / ROI        | -- / 25         | 19 / 25             |
+| **TOTAL**                   | **-- / 100**    | **74 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Deep-sea harvesting addresses critical mineral shortages, though regulatory urgency varies. It is entirely immune to LLMs due to its hardcore robotics and physical operations. High CapEx and deployment complexity introduce massive friction, but the immense value of rare earth minerals makes monetization straightforward.

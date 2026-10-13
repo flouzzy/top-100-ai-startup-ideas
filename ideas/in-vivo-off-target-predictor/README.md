@@ -64,11 +64,11 @@ Moat (Defensibility): This requires massive, proprietary in-vivo epigenetic sequ
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 25 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 23 / 25             |
+| Scalability / UX Friction   | -- / 25         | 19 / 25             |
+| Unit Economics / ROI        | -- / 25         | 24 / 25             |
+| **TOTAL**                   | **-- / 100**    | **91 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Predicting CRISPR off-target effects is a life-or-death urgency for clinical trials. Proprietary biological datasets and specialized wet-lab validation give it a strong moat against generic AI. Adoption is relatively seamless for biotech pipelines, and pharma companies have enormous willingness to pay to prevent clinical failures.
