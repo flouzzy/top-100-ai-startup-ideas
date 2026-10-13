@@ -1,12 +1,12 @@
 <!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Hardware Obfuscator AI
 
-> **Executive Summary:** A B2B Deep Tech AI solution for hardware engineering teams to automatically obfuscate logical circuits and prevent intellectual property theft in semiconductor foundries.
+> **Executive Summary:** A Reinforcement Learning engine that cryptographically obfuscates semiconductor netlists to prevent IP theft and hardware trojans at offshore foundries.
 
-![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
 
@@ -16,45 +16,52 @@
 
 ```mermaid
 graph TD
-    A{"Unprotected GDSII IP Theft"} -->|"Replaced by"| B{"RL-Based Hardware Obfuscator"}
+    A["Original Chip IP (Netlist)"] --> B["RL Obfuscation Engine"]
+    B --> C["Insert Cryptographic Logic Gates"]
+    C --> D["Obfuscated GDSII File"]
+    D --> E["Offshore Foundry (Cannot Clone)"]
+    E --> F["Post-fab Activation Key"]
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** Standard IP laws and basic cryptographic locks are enough to protect chip designs.
-- **Hidden Truth:** PCB design must adhere to strict physical constraints (PPA: Power, Performance, Area). The AI must operate on graphs representing billions of transistors without degrading the final chip's performance, which no standard software SaaS can accomplish.
+Popular Belief: Legal contracts and trusted foundries are sufficient to protect multibillion-dollar semiconductor IP from cloning or hardware trojans.
+Hidden Truth: Offshore foundries routinely overproduce chips for the gray market or reverse-engineer designs. True security requires cryptographically locking the physical silicon logic itself so it is inert without a digital activation key.
 
 ## 3. Problem & Target Market
 
-- **Business Model:** B2B
-- **Target Audience:** AI chip designers (Fabless), semiconductor foundries, IP core providers (VP Hardware Engineering).
-- **Urgent Pain Point:** Hardware intellectual property theft is expensive. Offshore foundries can clone chip designs (GDSII), insert hardware Trojans, or overproduce for the grey market.
+Business Model: B2B
+Target Audience: Fabless AI chip designers, semiconductor foundries, IP core providers (VP Hardware Engineering).
+Urgent Pain Point: Hardware IP theft costs billions. Foundries can clone GDSII layouts, insert hardware trojans, or overproduce. Securing the supply chain is a critical national security issue.
 
 ## 4. Technical Architecture & Infrastructure
 
-A logical circuit obfuscation engine based on reinforcement learning (RL). It inserts "dummy gates" and alters the netlist topology so the chip only operates after the activation of a post-manufacturing cryptographic key.
-
 ```mermaid
 sequenceDiagram
-    participant U as "Hardware Engineer"
-    participant S as "Obfuscator AI"
-    U->>S: "Input Original Netlist"
-    S-->>U: "Obfuscated Netlist (PPA Compliant)"
+    participant Designer as Fabless Designer
+    participant AI as RL Obfuscator
+    participant Foundry as Offshore Fab
+    participant EndUser as Final Device
+    Designer->>AI: Original Netlist
+    AI->>AI: Optimize PPA Constraints
+    AI->>Foundry: Obfuscated Design
+    Foundry->>EndUser: Inert Silicon
+    Designer->>EndUser: Activation Key
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                  |
-| ---------------------- | ---------------------- |
-| Pricing Structure      | B2B Enterprise License |
-| 12-Month Target        | 100 clients            |
-| Revenue Formula        | 100 \* 1000€ = 100k€   |
-| Estimated Gross Margin | 80%                    |
+| Metric                 | Value                                                  |
+| ---------------------- | ------------------------------------------------------ |
+| Pricing Structure      | Per-tapeout licensing fee + royalty per activated chip |
+| 12-Month Target        | 5 major tapeouts secured                               |
+| Revenue Formula        | 5 tapeouts \* $250k + $0.05 per chip                   |
+| Estimated Gross Margin | 90%                                                    |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** Direct B2B sales to fabless companies and foundries.
-- **Moat (Defensibility):** PCB design must adhere to strict physical constraints (PPA: Power, Performance, Area). The AI must operate on graphs representing billions of transistors without degrading the final chip's performance, which no standard software SaaS can accomplish.
+Acquisition Strategy: Integration partnerships with EDA tool vendors (Synopsys, Cadence) and direct enterprise sales.
+Moat (Defensibility): Modifying billions of transistors while strictly respecting PPA (Power, Performance, Area) constraints is an immensely complex geometric graph problem. Generic AI cannot solve this; it requires highly specialized Reinforcement Learning deeply integrated with EDA workflows.
 
 ## 7. Detailed Evaluation Grid
 
@@ -64,7 +71,7 @@ sequenceDiagram
 | Moat / LLM Immunity         | -- / 25         | -- / 25             |
 | Scalability / UX Friction   | -- / 25         | -- / 25             |
 | Unit Economics / ROI        | -- / 25         | -- / 25             |
-| TOTAL                       | -- / 100        | -- / 100            |
+| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 > **Market Verdict:** Pending evaluation.
