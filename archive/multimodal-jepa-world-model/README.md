@@ -67,12 +67,12 @@ Moat (Defensibility): proprietary self-supervised JEPA loss formulations prevent
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 23 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 19 / 25             |
+| Scalability / UX Friction   | -- / 25         | 17 / 25             |
+| Unit Economics / ROI        | -- / 25         | 21 / 25             |
+| **TOTAL**                   | **-- / 100**    | **80 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 >
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Predictive physics world models are urgently needed for autonomous robotics. While standard LLMs struggle with physical reasoning, foundational AI labs are aggressively pursuing this, somewhat reducing its immunity. Training costs are high and integration into specific robots requires effort, but licensing to autonomous vehicle/robotics OEMs is lucrative.

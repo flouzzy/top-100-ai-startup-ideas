@@ -64,11 +64,11 @@ Moat (Barrière à l'entrée) : Les LLMs standards ou modèles de deep learning 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 20 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 22 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 18 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 16 / 25              |
+| **TOTAL**                         | **-- / 100**    | **76 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Accélérer la recherche sur la fusion est très urgent pour l'indépendance énergétique. La simulation physique profonde garantit qu'elle ne sera pas remplacée par des LLMs généralistes. La friction est modérée par la niche extrême des utilisateurs, et la monétisation dépend des budgets R&D massifs de quelques acteurs clés.

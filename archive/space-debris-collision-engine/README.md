@@ -64,11 +64,11 @@ Moat (Defensibility): Computing perturbed N-body orbits is computationally bruta
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 23 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 21 / 25             |
+| Scalability / UX Friction   | -- / 25         | 19 / 25             |
+| Unit Economics / ROI        | -- / 25         | 20 / 25             |
+| **TOTAL**                   | **-- / 100**    | **83 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** With the explosion of LEO mega-constellations, orbital collision avoidance is an absolute, immediate necessity. It requires fusing vast sensor arrays with orbital mechanics, well beyond a standard LLM's capability. Satellite operators easily integrate the data feeds, and the cost of losing a satellite makes the subscription fee a no-brainer.

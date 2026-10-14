@@ -65,11 +65,11 @@ Moat (Defensibility): Software AI cannot see through rock. The bottleneck is har
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 18 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 10 / 25             |
+| Unit Economics / ROI        | -- / 25         | 15 / 25             |
+| **TOTAL**                   | **-- / 100**    | **68 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Uncovering hidden subterranean resources/threats is valuable but often lacks immediate hair-on-fire urgency compared to surface operations. The hardware-based quantum gravity sensing is entirely immune to AI. However, deployment friction is phenomenally high, and monetization is restricted to slow-moving extractive or defense giants.
