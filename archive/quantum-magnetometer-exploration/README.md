@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): This is a fundamental problem of measurement physics. no s
 | **TOTAL**                   | **86 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** The integration of quantum magnetometers on drone fleets represents a paradigm shift for critical mineral exploration. It completely bypasses traditional, expensive survey methods, solving an urgent pain point in the battery supply chain. The complex hardware-software integration of quantum sensing and autonomous flight establishes a formidable moat, positioning it as an indispensable tollbooth for the clean energy transition.
-
+>
 > **Market Verdict:** The transition to green energy requires discovering new critical mineral deposits, driving urgency for better exploration tools. Quantum sensors using NV centers represent cutting-edge hardware physics entirely protected from LLM trends. Integrating these sensors into drone fleets requires specialized operations, leading to moderate friction.

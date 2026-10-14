@@ -8,7 +8,7 @@
 
 ![Type: B2G / B2B](https://img.shields.io/badge/Model-B2G%20%2F%20B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-44-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): Current global climate models (gcms) have too low resoluti
 | **TOTAL**                   | **88 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** The Stratospheric Aerosol Simulator provides the essential digital twin for solar geoengineering, arguably the most critical and controversial climate intervention of this century. Its exascale thermodynamic and aerosol dispersion models form a proprietary moat that conversational AI cannot touch. As governments are forced to consider climate intervention, owning the definitive simulation platform ensures massive, unassailable recurring revenue.
-
+>
 > **Market Verdict:** Climate intervention and geoengineering are becoming urgent topics, requiring ultra-high-resolution simulations before any real-world action. Exascale thermodynamic simulations are far beyond the capabilities of text or image-based LLMs. The adoption is limited by the extreme computational resources required and a niche market of global agencies.

@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-44-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : Les outils de conception assistée (CAD) ou les 
 | **TOTAL**                         | **88 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Ce jumeau numérique atomique représente le chaînon manquant pour la fusion nucléaire commerciale. Simuler la dégradation des matériaux sous des conditions de plasma extrêmes est un jeu de monopole deep tech qui échappe totalement aux LLMs généralistes en raison de sa dépendance à la mécanique quantique et aux données de science des matériaux. Le marché est concentré et précoce, mais capturer l'infrastructure matérielle sous-jacente pour l'énergie de fusion garantit un marché adressable d'un millier de milliards de dollars.
-
+>
 > **Verdict Terrain :** Prédire la dégradation des matériaux est un goulot d'étranglement pour la fusion nucléaire commerciale. Les jumeaux numériques atomiques simulent des transmutations bien au-delà des capacités des modèles d'IA génériques. Le marché est restreint à quelques startups et laboratoires de recherche, augmentant la friction.

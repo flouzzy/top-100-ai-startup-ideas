@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : L'ingénierie des protéines virales exige la mo
 | **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Le simulateur de liaison de la queue des phages applique la biologie structurale générative à un problème hyper-spécifique mais crucial : les bactéricides programmables. Ce fossé de données et de simulation spécialisé le protège complètement des LLMs génériques. Bien que la navigation dans le cycle de vente complexe de l'industrie pharmaceutique présente des frictions de mise à l'échelle, le potentiel de monopoliser la couche de conception computationnelle de la prochaine génération d'antibiotiques offre d'immenses retours.
-
+>
 > **Verdict Terrain :** La crise de la résistance aux antibiotiques fait de l'ingénierie des bactériophages une priorité sanitaire mondiale. Les modèles de diffusion structurelle pour assemblages protéiques représentent un fossé défensif puissant. Le modèle SaaS pour les entreprises biotechnologiques implique peu de friction.

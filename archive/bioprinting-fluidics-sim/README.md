@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-41.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): A llm does not include the mechanics of non-newtonian flui
 | **TOTAL**                   | **83 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** This platform addresses a key bottleneck in regenerative medicine by combining deep physics with neural simulation for bio-ink fluidics. The highly specialized training data on high-fidelity CFD simulations creates a massive technical moat that generic foundation models cannot replicate. Though scaling requires navigating complex biotech enterprise sales, the monopoly potential in next-gen organ printing is immense.
-
+>
 > **Market Verdict:** 3D bioprinting viable human tissue is a medical revolution hampered by fluid dynamics challenges. A neural physics engine trained on bio-ink CFD is highly specialized deep tech. Integration with existing bioprinters poses some friction, but the software layer is easily distributable.

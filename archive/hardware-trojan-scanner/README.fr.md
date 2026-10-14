@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-44.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : C'est un problème d'inspection de milliards de 
 | **TOTAL**                         | **89 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Le Hardware Trojan Scanner répond à une vulnérabilité existentielle dans la chaîne d'approvisionnement mondiale des semi-conducteurs. En utilisant la vision par ordinateur avancée et les réseaux de neurones graphiques pour vérifier physiquement les micropuces par rapport aux conceptions CAO originales, il établit un fossé de sécurité ancré dans le matériel. Cette défense est totalement hors de portée pour l'IA conversationnelle, le positionnant comme un péage indispensable pour la sécurité nationale et les infrastructures critiques.
-
+>
 > **Verdict Terrain :** La sécurité de la chaîne d'approvisionnement des semi-conducteurs est une préoccupation géopolitique majeure, créant un besoin urgent. La vision par ordinateur pour l'analyse microscopique est totalement dissociée des LLM. La configuration matérielle requise introduit une friction de déploiement.

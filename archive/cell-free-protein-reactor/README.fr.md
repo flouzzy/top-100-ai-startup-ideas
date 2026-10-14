@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : C'est un verrou fondamental de bio-ingénierie p
 | **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Le Cell-Free Protein Reactor perturbe fondamentalement la biofabrication en éliminant le besoin de cellules vivantes, ouvrant la porte à une production de protéines hyper-évolutive et à la demande. La combinaison de processus biochimiques propriétaires et de matériel sur mesure crée une barrière à l'entrée insurmontable pour les entreprises d'IA purement logicielles. Les dépenses d'investissement initiales élevées sont totalement justifiées par une économie unitaire révolutionnaire et un marché adressable massif dans la pharmacie et la biologie synthétique.
-
+>
 > **Verdict Terrain :** L'industrie de la biofabrication a désespérément besoin d'alternatives plus rapides aux cultures cellulaires traditionnelles. Les réacteurs biochimiques physiques sont totalement immunisés contre les tendances de l'IA numérique. Il y a de la friction pour modifier les chaînes d'approvisionnement pharmaceutiques.

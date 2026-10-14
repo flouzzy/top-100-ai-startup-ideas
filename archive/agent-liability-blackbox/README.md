@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-45-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): The classic server logs (datadog, splunk) are editable and
 | **TOTAL**                   | **90 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** Agent Liability Blackbox tackles the critical legal blocker in AI adoption with an unalterable, cryptographically secure flight data recorder. The protocol's integration depth offers extreme lock-in, making it a foundational piece for any enterprise deploying multi-agent systems. Its scalable SaaS infrastructure coupled with unique IP creates a definitive moat immune to raw LLM advancements.
-
+>
 > **Market Verdict:** As AI agents are deployed in critical functions, lack of accountability is the primary blocker for enterprise adoption. Cryptographic audit trails are essential infrastructure that native LLMs cannot provide natively without compromising performance. Integrating a black box layer adds slight latency and friction to existing agent workflows.

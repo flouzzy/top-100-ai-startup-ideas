@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): Chemical degradation is a complex off-balance process. che
 | **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** This digital twin directly attacks the critical OPEX bottleneck of Direct Air Capture: sorbent replacement costs. The specialized neural graph networks applied to chemical degradation offer a robust moat that broad AI models cannot bridge without access to proprietary physical chemistry data. The highly specialized, urgent nature of this problem in the rapidly growing climate tech sector provides a clear path to monopolistic pricing power.
-
+>
 > **Market Verdict:** Optimizing Direct Air Capture (DAC) materials is crucial for making carbon removal economically viable. Neural graph networks simulating chemical degradation form a highly specialized deep tech moat untouched by LLMs. Adoption is somewhat restricted to the niche but well-funded carbon capture industry.

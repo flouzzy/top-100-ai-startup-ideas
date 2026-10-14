@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): It is a fundamental problem of material physics. network s
 | **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** The RF Side-Channel Firewall tackles an esoteric but critical vector for data exfiltration: physical electromagnetic leakage from CPUs. The use of custom metamaterials integrated with local orchestration creates a deep physical moat that software cannot replicate. While hardware integration friction exists, securing sovereign data centers and classified military infrastructure ensures a highly lucrative, monopolistic niche.
-
+>
 > **Market Verdict:** Air-gapped systems are increasingly vulnerable to sophisticated RF side-channel attacks, demanding physical security solutions. Combining metamaterials with local orchestrators creates a physical-digital barrier impervious to LLMs. Retrofitting data centers with new physical covers introduces significant adoption friction.

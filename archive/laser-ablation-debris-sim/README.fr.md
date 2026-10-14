@@ -8,7 +8,7 @@
 
 ![Type: B2B / B2G](https://img.shields.io/badge/Model-B2B%20%2F%20B2G-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-41-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : L'interaction laser-matière dans le vide spatia
 | **TOTAL**                         | **82 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** L'atténuation des débris orbitaux via l'ablation laser est une exigence hyper-spécialisée mais existentielle pour la future économie spatiale. Ce modèle physique génératif résout le problème complexe de la dispersion du plasma en microgravité, établissant un fossé technique profond. La clientèle est actuellement limitée aux grandes agences spatiales et aux entrepreneurs de la défense, mais détenir le moteur physique définitif pour le nettoyage de l'espace confère un pouvoir de fixation des prix absolu.
-
+>
 > **Verdict Terrain :** La gestion des débris spatiaux s'aggrave, bien que l'ablation laser active reste une approche naissante. Les simulations physiques de plasma en microgravité sont très spécialisées et immunisées contre les LLM. La friction est très élevée car elle dépend de futurs déploiements d'infrastructures spatiales.

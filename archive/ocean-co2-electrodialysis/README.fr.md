@@ -8,7 +8,7 @@
 
 ![Type: B2B (Marchés du carbone) / B2G](https://img.shields.io/badge/Model-B2B%20%28March%C3%A9s%20du%20carbone%29%20%2F%20B2G-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-42.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : C'est un défi de chimie des matériaux (membran
 | **TOTAL**                         | **85 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** La capture directe dans l'océan via l'électrodialyse est une alternative massivement évolutive et profondément contrariante à la capture directe de l'air terrestre. En tirant parti de la concentration naturelle de carbone dans l'océan et en s'appuyant sur les infrastructures de dessalement existantes, elle améliore considérablement l'économie unitaire. Ce jeu technologique climatique à l'échelle industrielle construit un fossé massif en matière de matériel et de processus, totalement immunisé contre les perturbations des LLMs.
-
+>
 > **Verdict Terrain :** La capture de carbone est une priorité planétaire soutenue par de fortes incitations économiques, générant une grande urgence. Ce projet d'infrastructure purement physique est totalement à l'abri des avancées de l'IA générative. Le principal frein est la friction liée au déploiement de modules physiques en mer.

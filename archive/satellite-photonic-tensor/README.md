@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): The software optimization of models (quantization, pruning
 | **TOTAL**                   | **86 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** This project represents a massive leap in orbital edge computing by replacing power-hungry electronic GPUs with photonic tensor cores. Solving the heat and energy constraints of space-based AI inference creates an absolute hardware monopoly. The technical execution risk is immense, but dominating the intelligence layer of low earth orbit infrastructure provides unprecedented geopolitical and commercial value.
-
+>
 > **Market Verdict:** On-orbit computing requires drastically reduced power consumption, making photonic chips highly desirable for space missions. Designing optical hardware is a physical engineering feat totally immune to LLM disruptions. High friction exists due to the rigorous space qualification processes (radiation hardening).

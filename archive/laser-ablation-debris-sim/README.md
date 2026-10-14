@@ -8,7 +8,7 @@
 
 ![Type: B2B / B2G](https://img.shields.io/badge/Model-B2B%20%2F%20B2G-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-41-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): Laser-matter interaction in space vacuum involves complex 
 | **TOTAL**                   | **82 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** Orbital debris mitigation via laser ablation is a hyper-niche but existential requirement for the future space economy. This generative physical model solves the complex plasma dispersion problem in microgravity, establishing a profound technical moat. The customer base is currently limited to major space agencies and defense contractors, but holding the definitive physics engine for space clearing grants absolute pricing power.
-
+>
 > **Market Verdict:** Managing space debris is an escalating issue, though active laser ablation remains a nascent and unproven approach. High-fidelity physical plasma simulations in microgravity are deeply specialized and LLM-immune. The friction is very high as it relies on future space infrastructure deployments.

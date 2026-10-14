@@ -8,7 +8,7 @@
 
 ![Type: B2G / B2B](https://img.shields.io/badge/Model-B2G%20%2F%20B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): Standard 2d flood maps are simple altitude-based extrusion
 | **TOTAL**                   | **86 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** This massively parallel hydrodynamic simulation engine is a critical piece of infrastructure for global coastal resilience. Integrating fluid dynamics with urban BIM/GIS models offers a highly defensible software moat that generic AI cannot replicate. Despite long sales cycles involving governments and insurance giants, becoming the gold standard for coastal risk assessment guarantees a highly lucrative monopoly.
-
+>
 > **Market Verdict:** Coastal regions face existential threats from natural disasters, making high-fidelity urban hydrodynamic simulations extremely urgent. Multi-GPU physical simulation engines are highly immune to LLM disruptions. The main friction is the data-heavy integration required to map complex urban topologies.

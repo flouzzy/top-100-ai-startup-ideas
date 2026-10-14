@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-46.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : L'IAM classique (Identity and Access Management)
 | **TOTAL**                         | **93 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Ce projet résout le problème critique de 'fuite de mémoire' dans les déploiements d'entreprise multi-agents. En fournissant une couche d'isolation de mémoire vectorielle basée sur le chiffrement homomorphe, il construit une primitive de sécurité essentielle pour l'ère de l'IA. Le modèle SaaS hautement évolutif et à faible friction permet une adoption rapide, tandis que l'intégration profonde dans les flux de données d'entreprise crée un fossé durable et hautement rentable.
-
+>
 > **Verdict Terrain :** La confidentialité des données est le principal obstacle aux systèmes multi-agents d'entreprise, créant une demande immédiate. L'utilisation du chiffrement homomorphe crée un fossé mathématique profond que les LLM ne peuvent facilement reproduire. L'intégration introduit une légère friction.

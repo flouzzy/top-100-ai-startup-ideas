@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-46.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): The iam (identity and access management) works on structur
 | **TOTAL**                   | **93 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** This project solves the critical 'brain bleed' problem in multi-agent enterprise deployments. By providing a vector memory insulation layer based on homomorphic encryption, it builds an essential security primitive for the AI era. The highly scalable, low-friction SaaS model enables rapid adoption, while the deep integration into enterprise data workflows creates a lasting, highly profitable moat.
-
+>
 > **Market Verdict:** Data privacy is the main roadblock for enterprise multi-agent systems, creating immediate demand for secure memory isolation. Using fully homomorphic encryption creates a deep mathematical moat that foundational LLMs cannot easily replicate. Integrating this security layer introduces slight latency and friction.

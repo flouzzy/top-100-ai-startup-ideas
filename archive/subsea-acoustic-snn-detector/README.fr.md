@@ -8,7 +8,7 @@
 
 ![Type: B2B / B2G](https://img.shields.io/badge/Model-B2B%20%2F%20B2G-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : Les algorithmes de détection d'anomalies audio 
 | **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Le détecteur acoustique sous-marin SNN représente une avancée majeure dans la surveillance sous-marine autonome. L'utilisation de réseaux de neurones à impulsions pour le traitement de signaux acoustiques à très faible consommation d'énergie crée un fossé inattaquable en matière d'informatique de périphérie. Bien que le déploiement dans des environnements sous-marins soit intrinsèquement difficile, les secteurs de la défense et de l'énergie offshore paieront des revenus récurrents élevés pour cette capacité autonome.
-
+>
 > **Verdict Terrain :** La protection des infrastructures sous-marines est d'une importance géopolitique cruciale, stimulant une forte demande. L'informatique de périphérie (Edge computing) basée sur des réseaux de neurones impulsionnels échappe totalement aux LLM cloud. Le déploiement matériel introduit une friction, mais la monétisation B2B et B2G est évidente et très rentable.

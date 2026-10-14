@@ -8,7 +8,7 @@
 
 ![Type: B2G / B2B](https://img.shields.io/badge/Model-B2G%20%2F%20B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-44-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : Les méthodes numériques traditionnelles (Bound
 | **TOTAL**                         | **88 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Le jumeau neuronal acoustique urbain est une approche brillante et non conventionnelle de l'urbanisme et de l'évaluation immobilière. En simulant des paysages sonores plutôt que de simples flux de trafic visuels, il crée un ensemble de données exclusif et unique. Son modèle SaaS permet une mise à l'échelle rapide dans les grandes municipalités et chez les promoteurs immobiliers, offrant un retour sur investissement extrêmement élevé avec un fossé protégé par des réseaux de neurones spécialisés informés par la physique.
-
+>
 > **Verdict Terrain :** La pollution sonore urbaine et l'acoustique architecturale sont des préoccupations croissantes pour les urbanistes. Les réseaux de neurones informés par la physique offrent des capacités impossibles à reproduire pour des LLM standards. L'intégration de cette plateforme demandera de surmonter une friction modérée.

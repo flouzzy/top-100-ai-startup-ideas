@@ -8,7 +8,7 @@
 
 ![Type: B2B (Hardware & IP Licensing)](https://img.shields.io/badge/Model-B2B%20%28Hardware%20%26%20IP%20Licensing%29-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-41.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): The classic cpu/gpu software approach is much too slow (mi
 | **TOTAL**                   | **83 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** This ultra-low latency cryogenic ASIC tackles the fundamental bottleneck of quantum supremacy: decoherence speed. By shifting error correction from software to dedicated hardware, it creates a massive, insurmountable physical moat against generic software advancements. Scaling will be slow and capital-intensive, but achieving a monopoly on the base infrastructure of fault-tolerant quantum computing offers unparalleled, generational returns.
-
+>
 > **Market Verdict:** Quantum error correction is a massive bottleneck for scalable quantum computing, creating immense urgency for hardware solutions. As an ASIC-level innovation, it is entirely immune to LLM disruptions. However, integration friction is extremely high given the niche target audience and experimental nature of the hardware.

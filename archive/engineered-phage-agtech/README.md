@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): This is a molecular biology problem requiring a wet-lab, h
 | **TOTAL**                   | **86 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** Engineered Phage Agtech applies cutting-edge generative AI to a critical, terrestrial problem: agricultural crop disease and antibiotic resistance. By moving away from broad-spectrum chemicals to targeted synthetic biology, it creates a highly defensible IP moat. While regulatory approval poses scaling friction, the urgent need for sustainable agriculture guarantees massive ROI potential once deployed.
-
+>
 > **Market Verdict:** Crop diseases and agricultural antibiotic resistance threaten global food security, creating urgent demand. Generative AI for synthetic phage design is a highly specialized biological moat immune to standard LLMs. Adoption involves navigating strict agricultural regulations, causing moderate friction.

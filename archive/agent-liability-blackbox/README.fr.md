@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-45-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : Les logs de serveurs classiques (Datadog, Splunk
 | **TOTAL**                         | **90 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** L'Agent Liability Blackbox s'attaque au blocage juridique critique de l'adoption de l'IA avec un enregistreur de vol inaltérable et sécurisé cryptographiquement. La profondeur d'intégration du protocole offre un verrouillage extrême, en faisant une brique fondamentale pour toute entreprise déployant des systèmes multi-agents. Son infrastructure SaaS évolutive couplée à une IP unique crée un fossé définitif immunisé contre les avancées brutes des LLMs.
-
+>
 > **Verdict Terrain :** Le manque de responsabilité freine le déploiement des agents IA en entreprise. Les pistes d'audit cryptographiques sont une infrastructure essentielle que les LLM ne peuvent fournir nativement. L'intégration d'une boîte noire ajoute une légère friction aux flux de travail existants.

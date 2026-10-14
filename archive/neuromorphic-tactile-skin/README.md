@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-41-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): The bottlenecks lie in the classical von neumann architect
 | **TOTAL**                   | **82 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** This hardware-centric approach to robotic perception solves a critical physical bottleneck that software alone cannot address. By integrating micro-sensors directly with a neuromorphic architecture, it creates a defensible physical moat against purely digital AI models. The manufacturing complexities and long sales cycles present scaling challenges, but the potential to become the standard sensory layer for humanoid and industrial robotics offers exceptional upside.
-
+>
 > **Market Verdict:** Advanced tactile sensing is the missing link for dexterous robotics and advanced prosthetics. The combination of hardware polymers and spiking neural networks creates an unassailable moat against software LLMs. Integration friction is high due to the physical manufacturing and custom fitting required for robots.

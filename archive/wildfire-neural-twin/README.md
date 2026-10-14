@@ -8,7 +8,7 @@
 
 ![Type: B2B / B2G](https://img.shields.io/badge/Model-B2B%20%2F%20B2G-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-45.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): A saas or a simple statistical predictive model cannot cap
 | **TOTAL**                   | **91 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** This neural physics engine attacks an escalating global crisis: the catastrophic economic impact of mega-fires. By operating in real-time and fusing massive multi-modal data streams, it provides predictive capabilities far beyond traditional models. The urgent need from insurance companies and government agencies ensures rapid adoption, while the complex underlying physics engine establishes a definitive technical monopoly.
-
+>
 > **Market Verdict:** The escalating global wildfire crisis makes real-time prediction and simulation an absolute imperative for civil protection. Neural physics engines processing spatial data offer a highly defensible moat against conversational AI. The friction lies in integrating this system with legacy emergency response protocols.

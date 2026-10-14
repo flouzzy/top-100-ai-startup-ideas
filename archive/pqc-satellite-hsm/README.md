@@ -8,7 +8,7 @@
 
 ![Type: B2B / M2M](https://img.shields.io/badge/Model-B2B%20%2F%20M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): It is a problem of material architecture and constraints o
 | **TOTAL**                   | **86 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** PQC Satellite HSM addresses a high-stakes, imminent threat: the 'harvest now, decrypt later' quantum computing risk to global space infrastructure. By embedding post-quantum cryptography directly into specialized, space-grade hardware (FPGAs/ASICs), it creates an impenetrable moat against software-only solutions. The massive capital requirements and long sales cycles are offset by the absolute necessity of securing trillion-dollar orbital assets.
-
+>
 > **Market Verdict:** The threat of quantum computing rendering current encryption obsolete creates massive urgency for space-based infrastructure. Hardware security modules specifically designed for satellites are impervious to generative AI developments. The barrier to entry and deployment friction are massive due to launch costs and aerospace regulations.

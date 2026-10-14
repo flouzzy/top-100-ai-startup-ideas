@@ -8,7 +8,7 @@
 
 ![Type: B2B / B2G](https://img.shields.io/badge/Model-B2B%20%2F%20B2G-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): This is not a classic 2d mapping problem (google maps). th
 | **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** The Quantum Anomaly Navigation Map offers a profoundly contrarian alternative to GPS dependency by using gravimetric mapping. This solves a massive strategic vulnerability for defense and critical logistics in GPS-denied environments. The deep integration of edge computing with complex quantum sensor data establishes a robust defense against generalized AI, positioning it for high-margin, sticky contracts.
-
+>
 > **Market Verdict:** GPS-denied navigation is a critical vulnerability for military and commercial operations, driving intense demand. Quantum gravimetric mapping algorithms are deeply specialized and entirely isolated from LLM capabilities. Implementation requires specialized hardware, leading to high friction in early adoption phases.

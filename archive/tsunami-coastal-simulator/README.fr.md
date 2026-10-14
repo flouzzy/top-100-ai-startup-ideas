@@ -8,7 +8,7 @@
 
 ![Type: B2G / B2B](https://img.shields.io/badge/Model-B2G%20%2F%20B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : Les cartes d'inondation 2D standard sont de simp
 | **TOTAL**                         | **86 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Ce moteur de simulation hydrodynamique massivement parallèle est une pièce d'infrastructure critique pour la résilience côtière mondiale. L'intégration de la dynamique des fluides aux modèles BIM/SIG urbains offre un fossé logiciel hautement défendable que l'IA générique ne peut pas reproduire. Malgré de longs cycles de vente impliquant les gouvernements et les géants de l'assurance, devenir la référence absolue en matière d'évaluation des risques côtiers garantit un monopole très lucratif.
-
+>
 > **Verdict Terrain :** Les régions côtières font face à des menaces existentielles, rendant les simulations hydrodynamiques urbaines urgentes. Les moteurs de simulation physique multi-GPU sont très immunisés contre les perturbations des LLM. La principale friction est l'intégration lourde des données topographiques.

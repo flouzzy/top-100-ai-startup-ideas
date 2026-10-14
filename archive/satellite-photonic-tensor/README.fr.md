@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : L'optimisation logicielle des modèles (quantiza
 | **TOTAL**                         | **86 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Ce projet représente un pas de géant dans l'informatique de périphérie orbitale en remplaçant les GPU électroniques gourmands en énergie par des cœurs de tenseurs photoniques. La résolution des contraintes de chaleur et d'énergie de l'inférence de l'IA spatiale crée un monopole matériel absolu. Le risque d'exécution technique est immense, mais dominer la couche d'intelligence de l'infrastructure en orbite terrestre basse offre une valeur géopolitique et commerciale sans précédent.
-
+>
 > **Verdict Terrain :** Le calcul en orbite nécessite une consommation d'énergie drastiquement réduite, rendant les puces photoniques très désirables. La conception de matériel optique est une prouesse d'ingénierie physique totalement immunisée. Une forte friction existe à cause des processus stricts de qualification spatiale.

@@ -8,7 +8,7 @@
 
 ![Type: B2B / B2G](https://img.shields.io/badge/Model-B2B%20%2F%20B2G-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): A llm does not include the navier-stokes equations. saas g
 | **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** Pyroconvection modeling is the absolute frontier of wildfire management. This digital twin combines extreme fluid dynamics with real-time AI to predict fire behavior that traditional models simply cannot. It offers an insurmountable data and physics moat against generalized LLMs. Targeting federal agencies and re-insurers, it has the potential to become the mandatory, monopolistic standard for managing extreme climate risks.
-
+>
 > **Market Verdict:** Extreme wildfire behavior driven by pyroconvection is a rapidly growing threat requiring immediate predictive solutions. Real-time CFD combined with neural networks offers a sophisticated computational barrier against basic AI models. Friction stems from the need for massive computing power and integration with meteorological agencies.

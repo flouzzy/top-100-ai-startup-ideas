@@ -8,7 +8,7 @@
 
 ![Type: B2B / B2G](https://img.shields.io/badge/Model-B2B%20%2F%20B2G-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : Ce n'est pas un problème de cartographie 2D cla
 | **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** La carte de navigation par anomalie quantique offre une alternative profondément contrariante à la dépendance au GPS en utilisant la cartographie gravimétrique. Cela résout une vulnérabilité stratégique massive pour la défense et la logistique critique dans les environnements sans GPS. L'intégration profonde de l'informatique de périphérie avec des données de capteurs quantiques complexes établit une défense robuste contre l'IA généralisée, la positionnant pour des contrats collants à forte marge.
-
+>
 > **Verdict Terrain :** La navigation sans GPS est une vulnérabilité critique pour les opérations militaires, stimulant une forte demande. Les algorithmes de cartographie gravimétrique quantique sont spécialisés et isolés des capacités des LLM. L'implémentation requiert du matériel spécifique, entraînant une forte friction.

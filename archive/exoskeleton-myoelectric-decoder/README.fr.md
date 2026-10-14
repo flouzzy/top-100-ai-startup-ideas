@@ -8,7 +8,7 @@
 
 ![Type: B2B (Licensing Software & Edge AI)](https://img.shields.io/badge/Model-B2B%20%28Licensing%20Software%20%26%20Edge%20AI%29-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : Il faut une inférence à latence ultra-faible f
 | **TOTAL**                         | **87 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Ce modèle d'IA à la périphérie décode l'intention motrice humaine avec une latence nulle, une approche contrariante et hautement difficile comparée aux systèmes dépendants du cloud. L'exigence d'ensembles de données biométriques massifs et propriétaires crée un fossé de données impénétrable contre les LLMs génériques. Malgré la dépendance matérielle et les coûts unitaires initiaux élevés, il est en passe de monopoliser la prochaine génération d'interfaces homme-machine dans les exosquelettes industriels et médicaux.
-
+>
 > **Verdict Terrain :** Améliorer la mobilité humaine via des exosquelettes répond à des besoins médicaux et industriels évidents. Les modèles d'IA biométriques embarqués sont complètement isolés des LLM textuels cloud. Le port et le calibrage du matériel présentent encore une friction, mais l'intégration logicielle est fluide.

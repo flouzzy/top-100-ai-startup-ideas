@@ -8,7 +8,7 @@
 
 ![Type: B2B / B2G](https://img.shields.io/badge/Model-B2B%20%2F%20B2G-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-45.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : Un SaaS ou un simple modèle prédictif statisti
 | **TOTAL**                         | **91 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Ce moteur physique neuronal s'attaque à une crise mondiale grandissante : l'impact économique catastrophique des méga-feux. En fonctionnant en temps réel et en fusionnant des flux massifs de données multimodales, il offre des capacités prédictives bien supérieures aux modèles traditionnels. Le besoin urgent des compagnies d'assurance et des agences gouvernementales garantit une adoption rapide, tandis que le moteur physique sous-jacent complexe établit un monopole technique définitif.
-
+>
 > **Verdict Terrain :** L'escalade des incendies de forêt rend la prédiction en temps réel vitale pour la protection civile. Les moteurs de physique neuronale traitant des données spatiales offrent un fossé défensif contre l'IA conversationnelle. La friction réside dans l'intégration avec les protocoles de secours obsolètes.

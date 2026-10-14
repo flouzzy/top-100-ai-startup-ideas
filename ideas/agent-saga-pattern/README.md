@@ -91,5 +91,5 @@ sequenceDiagram
 | **TOTAL**                       | 90 / 100        | 72 / 100            |
 
 > **VC Verdict:** AgentSaga addresses a fundamental flaw in multi-agent workflows by providing necessary transactional integrity. Acting as an asynchronous orchestrator independent of LLMs creates an extremely deep technological moat. The transactional API approach guarantees strong profitability, though integration requires overcoming some architectural friction.
-
+>
 > **Market Verdict:** Distributed transaction rollback is essential for complex agent workflows, especially in e-commerce and logistics. Its immunity is high because LLMs lack the deterministic capabilities required for true transactional integrity. However, enforcing the Saga pattern requires heavy architectural redesign, leading to significant adoption friction.

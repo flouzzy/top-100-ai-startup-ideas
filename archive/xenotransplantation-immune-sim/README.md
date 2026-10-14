@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-44.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): Llm cannot model protein folding or cascade reactions of c
 | **TOTAL**                   | **89 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** Simulating human immune responses for xenotransplantation is a high-risk, generational leap in biotechnology. This multi-omic platform tackles the primary barrier to organ transplantation, providing a computational moat far deeper than any generic biological model. While regulatory and clinical hurdles make scaling slow, success guarantees absolute monopolistic control over a massive, life-saving market.
-
+>
 > **Market Verdict:** The critical shortage of human organs makes xenotransplantation a holy grail of modern medicine. Multi-omic in-silico immunology simulations require domain expertise far beyond generic AI capabilities. Adoption friction is high due to extreme regulatory scrutiny in the biomedical field.

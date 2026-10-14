@@ -8,7 +8,7 @@
 
 ![Type: B2B (Licensing Software & Edge AI)](https://img.shields.io/badge/Model-B2B%20%28Licensing%20Software%20%26%20Edge%20AI%29-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-43.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Defensibility): It requires an ultra-low latency inference operating on on
 | **TOTAL**                   | **87 / 100**    | **-- / 100**        |
 
 > **VC Verdict:** This edge AI model decodes human motor intent with zero latency, a contrarian and highly difficult approach compared to cloud-reliant systems. The requirement for massive, proprietary biometric datasets creates an impenetrable data moat against generic LLMs. Despite the hardware dependency and high initial unit costs, it stands to monopolize the next generation of human-machine interfaces in industrial and medical exoskeletons.
-
+>
 > **Market Verdict:** Enhancing human mobility and physical labor efficiency through exoskeletons addresses clear medical and industrial needs. Real-time biometric edge AI models for motor decoding are completely insulated from cloud-based text LLMs. Wearing and calibrating hardware still presents user friction, but the software integration is seamless.

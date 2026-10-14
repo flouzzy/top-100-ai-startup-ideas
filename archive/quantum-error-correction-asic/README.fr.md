@@ -8,7 +8,7 @@
 
 ![Type: B2B (Hardware & IP Licensing)](https://img.shields.io/badge/Model-B2B%20%28Hardware%20%26%20IP%20Licensing%29-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-41.5-red)
 
 ---
 
@@ -67,5 +67,5 @@ Moat (Barrière à l'entrée) : L'approche logicielle CPU/GPU classique est beau
 | **TOTAL**                         | **83 / 100**    | **-- / 100**         |
 
 > **Verdict VC :** Cet ASIC cryogénique à latence ultra-faible s'attaque au goulot d'étranglement fondamental de la suprématie quantique : la vitesse de décohérence. En déplaçant la correction d'erreurs du logiciel vers le matériel dédié, il crée un fossé physique massif et insurmontable contre les avancées logicielles génériques. La mise à l'échelle sera lente et gourmande en capitaux, mais l'obtention d'un monopole sur l'infrastructure de base de l'informatique quantique tolérante aux pannes offre des rendements générationnels inégalés.
-
+>
 > **Verdict Terrain :** La correction d'erreurs quantiques est un goulot d'étranglement majeur, créant une urgence absolue pour des solutions matérielles. En tant qu'innovation ASIC, elle est totalement immunisée contre les LLM. Cependant, la friction d'intégration est très élevée au vu de l'aspect expérimental.
