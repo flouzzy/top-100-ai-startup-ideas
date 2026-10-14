@@ -64,11 +64,11 @@ Moat (Defensibility): Combining deep AI semantic code understanding (AST analysi
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 21 / 25             |
+| Scalability / UX Friction   | -- / 25         | 23 / 25             |
+| Unit Economics / ROI        | -- / 25         | 21 / 25             |
+| **TOTAL**                   | **-- / 100**    | **87 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Auditing software supply chains for quantum-vulnerable cryptography is an urgent compliance necessity for enterprises and governments. The specific algorithmic analysis provides a solid moat against generic LLMs. As a software-based audit tool, adoption friction is very low, and recurring compliance budgets ensure strong monetization.

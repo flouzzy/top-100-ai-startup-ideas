@@ -65,11 +65,11 @@ Moat (Barrière à l'entrée) : L'IA logicielle ne voit pas à travers la roche.
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 18 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 10 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 15 / 25              |
+| **TOTAL**                         | **-- / 100**    | **68 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Détecter les ressources ou menaces souterraines est précieux mais manque souvent de l'urgence critique des opérations de surface. La détection matérielle par gravité quantique est totalement immunisée contre l'IA. Cependant, la friction de déploiement est phénoménale, et la monétisation est restreinte aux géants miniers ou de la défense très lents.

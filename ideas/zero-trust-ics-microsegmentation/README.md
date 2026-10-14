@@ -64,11 +64,11 @@ Moat (Defensibility): IT protocols (IPsec/TLS) cannot be deployed on legacy PLCs
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 21 / 25             |
+| Scalability / UX Friction   | -- / 25         | 17 / 25             |
+| Unit Economics / ROI        | -- / 25         | 23 / 25             |
+| **TOTAL**                   | **-- / 100**    | **85 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Stopping lateral movement in Industrial Control Systems is a critical urgency amidst rising state-sponsored cyberattacks. Understanding proprietary ICS protocols provides strong defense against generic LLM network tools. While segmenting fragile legacy networks induces friction and fear of downtime, the massive cost of factory shutdowns drives strong sales.

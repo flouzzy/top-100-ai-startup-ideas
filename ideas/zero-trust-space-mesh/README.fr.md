@@ -64,11 +64,11 @@ Moat (Barrière à l'entrée) : Développer un kernel de sécurité pour des RTO
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 22 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 23 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 14 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 18 / 25              |
+| **TOTAL**                         | **-- / 100**    | **77 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Sécuriser les communications inter-satellites est une priorité urgente alors que l'espace devient un domaine militaire contesté. L'ingénierie ultraspécialisée des protocoles spatiaux l'immunise contre les wrappers IA terrestres. Modifier le firmware des satellites en orbite introduit des frictions et risques extrêmes, mais les agences de défense financeront des contrats massifs pour cette sécurité.

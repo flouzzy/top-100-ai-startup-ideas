@@ -67,11 +67,11 @@ Moat (Barrière à l'entrée) : Modifier des milliards de transistors tout en re
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 22 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 15 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 20 / 25              |
+| **TOTAL**                         | **-- / 100**    | **82 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Sécuriser les poids des modèles sur des appareils périphériques non fiables est urgent pour protéger la propriété intellectuelle. Opérant au niveau de l'exécution matérielle, les LLMs ne peuvent répliquer cette fonction. L'intégration matérielle implique des frictions d'adoption, mais le licensing aux fabricants de puces offre une monétisation claire.

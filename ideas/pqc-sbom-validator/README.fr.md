@@ -64,11 +64,11 @@ Moat (Barrière à l'entrée) : La combinaison d'une compréhension sémantique 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 22 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 21 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 23 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 21 / 25              |
+| **TOTAL**                         | **-- / 100**    | **87 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Auditer les chaînes d'approvisionnement logicielles pour détecter la cryptographie vulnérable au quantique est une urgence de conformité gouvernementale et d'entreprise. L'analyse algorithmique spécifique crée un fossé face aux LLMs génériques. En tant qu'outil d'audit logiciel, la friction d'adoption est très faible et les budgets de conformité assurent une forte monétisation.

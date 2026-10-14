@@ -64,11 +64,11 @@ Moat (Barrière à l'entrée) : La communication sous l'eau souffre d'une bande 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 18 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 12 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 19 / 25              |
+| **TOTAL**                         | **-- / 100**    | **74 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** La récolte sous-marine répond aux pénuries critiques de minéraux, bien que l'urgence réglementaire fluctue. Sa nature robotique et physique la rend totalement immunisée aux LLMs. L'intensité capitalistique et la complexité de déploiement engendrent d'énormes frictions, mais la valeur colossale des terres rares garantit une monétisation claire.

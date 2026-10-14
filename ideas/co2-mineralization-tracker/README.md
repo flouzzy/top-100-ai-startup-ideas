@@ -63,11 +63,11 @@ Moat (Defensibility): Deep integration of proprietary geological sensor hardware
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 24 / 25             |
+| Scalability / UX Friction   | -- / 25         | 15 / 25             |
+| Unit Economics / ROI        | -- / 25         | 20 / 25             |
+| **TOTAL**                   | **-- / 100**    | **81 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** CO2 mineralization tracking solves a dire greenwashing problem with high urgency. Its reliance on physical sensors and thermodynamic modeling provides total immunity against native LLMs. Adoption friction exists in hardware deployment, but clear monetization per ton verified ensures strong ROI.

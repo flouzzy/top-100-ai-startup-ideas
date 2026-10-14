@@ -65,11 +65,11 @@ Moat (Barrière à l'entrée) : Les VPN classiques ajoutent trop de latence pour
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 17 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 11 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 16 / 25              |
+| **TOTAL**                         | **-- / 100**    | **69 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Sécuriser les infrastructures critiques avec la distribution quantique de clés est précieux, mais l'urgence est encore débattue hors de la défense. Reposant sur la physique quantique, c'est parfaitement immunisé contre l'IA. Déployer du matériel fibre optique spécialisé engendre d'immenses frictions et des CapEx massifs, défiant le ROI à court terme.

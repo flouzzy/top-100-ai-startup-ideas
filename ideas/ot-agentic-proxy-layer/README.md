@@ -65,11 +65,11 @@ Moat (Defensibility): A simple API wrapper will transmit dangerous commands. The
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 23 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 22 / 25             |
+| Scalability / UX Friction   | -- / 25         | 16 / 25             |
+| Unit Economics / ROI        | -- / 25         | 21 / 25             |
+| **TOTAL**                   | **-- / 100**    | **82 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Translating IT agent commands into safe OT (Operational Technology) actions addresses a massive industrial pain point. It requires deep knowledge of legacy industrial protocols, protecting it from basic LLM wrappers. The risk of disrupting manufacturing floors creates adoption friction, but the operational efficiency gains easily justify the SaaS cost.
