@@ -1,12 +1,12 @@
 <!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Geo Carbon MRV
 
-> **Executive Summary:** A B2B solution targeting industrial carbon credit buyers and operators to physically and unalterably prove CO2 mineralization in rock.
+> **Executive Summary:** An IoT and geophysical AI system that provides immutable, real-time verification of CO2 mineralization in deep geological formations.
 
-![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
 
@@ -16,45 +16,48 @@
 
 ```mermaid
 graph TD
-    A{"Spreadsheet MRV"} -->|"Replaced by"| B{"IoT Sensors & Geophysical Twin"}
+    A["CO2 Injection"] --> B["Downhole Seismic Sensors"]
+    B --> C["Thermodynamic World Model"]
+    C --> D["Cryptographic Verification"]
+    D --> E["Immutable Carbon Credit"]
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** Generic spreadsheet-based MRV is enough.
-- **Hidden Truth:** Spreadsheet-based measurement, reporting, and verification (MRV) is falsifiable. We must integrate geological measurement hardware with subsurface thermodynamic modeling.
+Popular Belief: Carbon offset measurement (MRV) can rely on spreadsheets, theoretical models, and manual audits to guarantee long-term sequestration.
+Hidden Truth: Current spreadsheet-based MRV is easily falsified (greenwashing). Real trust requires combining physical geological sensors with real-time subsurface thermodynamic modeling and cryptographic anchoring.
 
 ## 3. Problem & Target Market
 
-- **Business Model:** B2B
-- **Target Audience:** Industrial carbon credit buyers, carbon capture and storage (CCS) operators, sustainability auditors.
-- **Urgent Pain Point:** Carbon markets lack trust (greenwashing). Physically and unalterably proving that a specific ton of CO2 has been buried and mineralized in rock is extremely difficult.
+Business Model: B2B
+Target Audience: Industrial carbon credit buyers, Carbon Capture and Storage (CCS) operators, sustainability auditors.
+Urgent Pain Point: Carbon markets lack trust and liquidity due to greenwashing. Proving physically and unalterably that a specific ton of CO2 has been buried and mineralized into rock is extremely difficult and currently impossible with standard methods.
 
 ## 4. Technical Architecture & Infrastructure
 
-An IoT system combining downhole seismic sensors and a geophysical World Model that validates the mineralization chemical reaction in real-time and issues a certificate cryptographically linked to the raw sensor data.
-
 ```mermaid
 sequenceDiagram
-    participant U as "Auditor"
-    participant S as "Geo Carbon System"
-    U->>S: "Request Certificate"
-    S-->>U: "Cryptographic Validation"
+    participant Sensor as Downhole Sensor
+    participant Model as Geophysical AI
+    participant Blockchain as Ledger
+    Sensor->>Model: Raw Seismic/Chemical Data
+    Model->>Model: Validate Mineralization Reaction
+    Model->>Blockchain: Issue Cryptographic Certificate
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                           |
-| ---------------------- | ------------------------------- |
-| Pricing Structure      | B2B SaaS Subscription / License |
-| 12-Month Target        | 100 clients                     |
-| Revenue Formula        | 100 \* 1000€ = 100k€            |
-| Estimated Gross Margin | 80%                             |
+| Metric                 | Value                                            |
+| ---------------------- | ------------------------------------------------ |
+| Pricing Structure      | Per-ton verification fee + hardware subscription |
+| 12-Month Target        | 5 CCS pilot projects (20M tons verified)         |
+| Revenue Formula        | 5 projects \* $20k/month + $0.05/ton             |
+| Estimated Gross Margin | 70%                                              |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** Direct B2B sales and strategic CCS partnerships.
-- **Moat (Defensibility):** Spreadsheet-based measurement, reporting, and verification (MRV) is falsifiable. We must integrate geological measurement hardware with subsurface thermodynamic modeling.
+Acquisition Strategy: Direct enterprise sales to CCS developers, partnerships with major carbon registries.
+Moat (Defensibility): Deep integration of proprietary geological sensor hardware with highly specialized thermodynamic subsurface simulation algorithms creates an insurmountable barrier for generic software or LLM companies.
 
 ## 7. Detailed Evaluation Grid
 
@@ -64,7 +67,7 @@ sequenceDiagram
 | Moat / LLM Immunity         | -- / 25         | -- / 25             |
 | Scalability / UX Friction   | -- / 25         | -- / 25             |
 | Unit Economics / ROI        | -- / 25         | -- / 25             |
-| TOTAL                       | -- / 100        | -- / 100            |
+| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
 
 > **VC Verdict:** Pending evaluation.
 > **Market Verdict:** Pending evaluation.

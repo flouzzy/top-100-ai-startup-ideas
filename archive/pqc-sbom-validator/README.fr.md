@@ -1,14 +1,14 @@
 <!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
-[ 🇬🇧 English Version ](./README.md)
+[🇬🇧 English Version](./README.md)
 
 # Quantum Safe SBOM
 
-> **Résumé exécutif :** Une plateforme B2B validant la chaîne d'approvisionnement logicielle via analyse AST sémantique et cryptographie post-quantique.
+> **Résumé exécutif :** Une plateforme d'analyse sémantique d'AST qui trace la provenance du code et signe de manière immuable les étapes de compilation via cryptographie post-quantique.
 
-![Type: Model](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
-![Target: 100k ARR](https://img.shields.io/badge/Cible_ARR-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Score_Composite-En_attente-yellow)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
+![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
 
 ---
 
@@ -16,45 +16,49 @@
 
 ```mermaid
 graph TD
-    A{"Scanners SCA basiques"} -->|"Remplacé par"| B{"Validation AST & Registre PQC"}
+    A["Code Source & Libs OSS"] --> B["Analyseur Sémantique AST"]
+    B --> C["Détection Portes Dérobées de Compilation"]
+    C --> D["Signature via Registre Post-Quantique"]
+    D --> E["Binaire Vérifié Résistant au Quantique"]
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-- **La croyance populaire :** Les scanners SCA actuels basés sur les CVE suffisent pour sécuriser la CI/CD.
-- **La vérité cachée :** Les scanners de vulnérabilités classiques (SCA) se contentent de comparer des versions de packages avec une base de données de CVE connue, sans comprendre la structure du code ou détecter des malwares "zero-day" insérés lors de la compilation.
+La croyance populaire : Les outils d'analyse de composition (SCA) classiques comparant les versions aux bases de données CVE suffisent à sécuriser la chaîne d'approvisionnement logicielle.
+La vérité cachée : Les outils SCA ne détectent que les failles connues, pas les malwares 'zero-day' insérés lors de la compilation. De plus, les signatures numériques actuelles seront compromises par l'ordinateur quantique.
 
 ## 3. Le problème & La cible
 
-- **Modèle économique :** B2B
-- **Cible précise :** Editeurs de logiciels gouvernementaux, sous-traitants défense, institutions financières (DevSecOps, CISO).
-- **La douleur urgente :** Il est impossible de garantir qu'une bibliothèque open-source tierce insérée dans une chaîne de CI/CD ne contient pas de portes dérobées ou que sa signature cryptographique n'a pas été compromise face aux futures menaces quantiques.
+Modèle économique : B2B
+Cible précise : Éditeurs de logiciels gouvernementaux, sous-traitants défense, institutions financières (DevSecOps, CISO).
+La douleur urgente : Impossible de garantir qu'une bibliothèque open-source tierce ne contient pas de portes dérobées ou que sa signature cryptographique ne sera pas compromise par les futures menaces quantiques.
 
 ## 4. Architecture technique & Plomberie
 
-Une plateforme d'analyse d'AST (Abstract Syntax Tree) sémantique qui trace la provenance du code source jusqu'au binaire final, en signant de manière indélébile chaque étape de la compilation via un registre distribué utilisant la cryptographie Post-Quantique.
-
 ```mermaid
 sequenceDiagram
-    participant D as "Pipeline CI/CD"
-    participant S as "Plateforme PQC SBOM"
-    D->>S: Code Source & Dépendances
-    S-->>D: Binaire Signé PQC & Traceable
+    participant Dev as Dev / CI
+    participant AST as Analyseur Sémantique
+    participant Registre as Registre PQC
+    Dev->>AST: Commit Code + Dépendances
+    AST->>AST: Analyse Profonde Arbre Syntaxique (Zero-day)
+    AST->>Registre: Hash & Signature des Étapes (PQC)
+    Registre->>Dev: Émission SBOM Immuable & Vérifié
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                    | Valeur                     |
-| --------------------------- | -------------------------- |
-| Structure de prix           | Abonnement SaaS Entreprise |
-| Objectif 12 mois            | 100 clients entreprise     |
-| Calcul du CA (Target 100k€) | 100 \* 1000€ = 100k€       |
-| Marge brute estimée         | 85%                        |
+| Métrique                    | Valeur                                     |
+| --------------------------- | ------------------------------------------ |
+| Structure de prix           | Abonnement SaaS Entreprise par développeur |
+| Objectif 12 mois            | 50 déploiements grandes entreprises        |
+| Calcul du CA (Target 100k€) | 50 entreprises _ 500 dev _ 50€/mois        |
+| Marge brute estimée         | 85%                                        |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-- **Stratégie d'acquisition :** Ventes directes aux secteurs hautement réglementés (Défense, Finance, Gouvernement).
-- **Moat (Barrière à l'entrée) :** Les scanners de vulnérabilités classiques (SCA) se contentent de comparer des versions de packages avec une base de données de CVE connue, sans comprendre la structure du code ou détecter des malwares "zero-day" insérés lors de la compilation. Complexité d'intégration dans l'écosystème fragmenté des outils de CI/CD (GitHub, GitLab, Jenkins).
+Stratégie d'acquisition : Vente directe aux secteurs très régulés et intégration profonde CI/CD (GitLab/GitHub).
+Moat (Barrière à l'entrée) : La combinaison d'une compréhension sémantique de l'IA (analyse AST) et de la cryptographie post-quantique distribuée. C'est infiniment plus complexe qu'une simple recherche en base de données CVE.
 
 ## 7. Grille d'évaluation détaillée
 
@@ -62,9 +66,9 @@ sequenceDiagram
 | --------------------------------- | --------------- | -------------------- |
 | Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
 | Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalability / Friction d'adoption | -- / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
 | Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| TOTAL                             | -- / 100        | -- / 100             |
+| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
 > **Verdict Terrain :** En attente d'évaluation.
