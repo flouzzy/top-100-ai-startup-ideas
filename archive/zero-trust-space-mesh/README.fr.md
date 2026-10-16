@@ -1,14 +1,14 @@
 <!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
-[ 🇬🇧 English Version ](./README.md)
+[🇬🇧 English Version](./README.md)
 
 # Space Mesh ZT
 
-> **Résumé exécutif :** Une infrastructure Zero-Trust ultra-légère B2B pour les opérateurs de satellites LEO sécurisant les communications laser.
+> **Résumé exécutif :** Une infrastructure de sécurité Zero-Trust ultra-légère pour les systèmes d'exploitation temps réel (RTOS) des constellations de satellites en orbite basse (LEO).
 
-![Type: Model](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
-![Target: 100k ARR](https://img.shields.io/badge/Cible_ARR-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Score_Composite-En_attente-yellow)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
+![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
 
 ---
 
@@ -16,55 +16,59 @@
 
 ```mermaid
 graph TD
-    A{"Réseau Satellite LEO Vulnérable"} -->|"Sécurisé par"| B{"Infrastructure Zero-Trust Spatial"}
+    A["Nœud Satellite Compromis"] --> B["Kernel ZT Space Mesh"]
+    B --> C["Authentification Mutuelle Continue"]
+    C --> D["Routage Dynamique (Résistant aux Rayons Cosmiques)"]
+    D --> E["Réseau Maillé Laser Optique Sécurisé"]
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-- **La croyance populaire :** Les systèmes Zero-Trust terrestres peuvent être adaptés pour l'espace.
-- **La vérité cachée :** Les environnements spatiaux ont de fortes contraintes de puissance (SWaP), de calcul et subissent des retards de propagation (Doppler). Les solutions Zero-Trust cloud terrestres (ex. Zscaler) sont incompatibles.
+La croyance populaire : Les réseaux spatiaux peuvent utiliser les mêmes architectures de sécurité Zero-Trust cloud que les réseaux d'entreprise terrestres.
+La vérité cachée : L'espace impose des contraintes SWaP (Taille, Poids, Puissance) extrêmes et des retards Doppler. Les solutions ZT terrestres (ex: Zscaler) ne fonctionnent tout simplement pas en orbite.
 
 ## 3. Le problème & La cible
 
-- **Modèle économique :** B2B
-- **Cible précise :** Opérateurs de constellations de satellites LEO, agences spatiales, fournisseurs de télécommunications (Space Systems Engineers, CISO).
-- **La douleur urgente :** Les réseaux spatiaux (LEO) communiquant via des liens laser optiques sont vulnérables aux attaques d'interception, à l'usurpation d'identité et à la prise de contrôle d'un nœud satellite, menaçant l'intégrité globale du réseau.
+Modèle économique : B2B
+Cible précise : Opérateurs de constellations LEO, Agences spatiales, Télécoms (CISO, Space Systems Engineers).
+La douleur urgente : Les réseaux spatiaux (LEO) communiquant par laser optique sont vulnérables à l'usurpation et la prise de contrôle de nœuds, menaçant l'intégrité du réseau mondial.
 
 ## 4. Architecture technique & Plomberie
 
-Une infrastructure de sécurité Zero-Trust ultra-légère conçue spécifiquement pour les systèmes d'exploitation en temps réel (RTOS) spatiaux. Implémente une authentification mutuelle continue et un routage dynamique résilient aux rayonnements cosmiques.
-
 ```mermaid
 sequenceDiagram
-    participant S1 as "Nœud Satellite 1"
-    participant S2 as "Nœud Satellite 2"
-    S1->>S2: Connexion de lien optique
-    S2-->>S1: Validation mutuelle continue
+    participant SatA as Nœud Satellite A
+    participant RTOS as Kernel Sécurité ZT
+    participant SatB as Nœud Satellite B
+    SatA->>RTOS: Initier Transfert Lien Laser
+    RTOS->>RTOS: Vérification Racine de Confiance Matérielle
+    RTOS->>SatB: Handshake Mutuel Authentifié (Ajusté Doppler)
+    SatB->>SatA: Route Maillée Sécurisée Établie
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                    | Valeur                              |
-| --------------------------- | ----------------------------------- |
-| Structure de prix           | Abonnement B2B / Contrat long terme |
-| Objectif 12 mois            | 100 opérateurs de constellations    |
-| Calcul du CA (Target 100k€) | 100 \* 1000€ = 100k€                |
-| Marge brute estimée         | 85%                                 |
+| Métrique                    | Valeur                                         |
+| --------------------------- | ---------------------------------------------- |
+| Structure de prix           | Licence logicielle par satellite + maintenance |
+| Objectif 12 mois            | 2 constellations sécurisées (200 nœuds)        |
+| Calcul du CA (Target 100k€) | 200 nœuds \* 5k€/nœud                          |
+| Marge brute estimée         | 90%                                            |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-- **Stratégie d'acquisition :** Contrats gouvernementaux et ventes aux opérateurs télécoms spatiaux.
-- **Moat (Barrière à l'entrée) :** Les environnements spatiaux ont de fortes contraintes de puissance (SWaP), de calcul et subissent des retards de propagation (Doppler). Les solutions Zero-Trust cloud terrestres (ex. Zscaler) sont incompatibles.
+Stratégie d'acquisition : Intégration avec les fabricants de bus satellitaires et ventes directes aux opérateurs.
+Moat (Barrière à l'entrée) : Développer un kernel de sécurité pour des RTOS spatiaux contraints, tenant compte de la physique orbitale (retards Doppler, bit flips par rayons cosmiques), constitue une immense barrière à l'entrée.
 
 ## 7. Grille d'évaluation détaillée
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalability / Friction d'adoption | -- / 25         | -- / 25              |
+| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | -- / 25              |
 | Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| TOTAL                             | -- / 100        | -- / 100             |
+| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** La thèse contrariante vise une niche massive et non défendue avec un clair potentiel de monopole (22/25). Le fossé défensif est extrêmement robuste, s'appuyant sur de la PI profonde plutôt que du logiciel facilement réplicable (25/25). Bien que les unit economics initiaux soient complexes (20/25), l'intensité capitalistique est justifiée par la dynamique winner-takes-all du marché.
 > **Verdict Terrain :** En attente d'évaluation.

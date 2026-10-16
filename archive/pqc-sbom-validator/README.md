@@ -1,12 +1,12 @@
 <!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
-[ 🇫🇷 Version Française ](./README.fr.md)
+[🇫🇷 Version Française](./README.fr.md)
 
 # Quantum Safe SBOM
 
-> **Executive Summary:** A B2B solution targeting government software vendors and defense contractors to provide post-quantum cryptographic validation of software supply chains.
+> **Executive Summary:** An AI-powered AST semantic analyzer platform that traces code provenance and immutably signs compilation steps using Post-Quantum Cryptography.
 
-![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
 
@@ -16,55 +16,59 @@
 
 ```mermaid
 graph TD
-    A{"Classic SCA & CI/CD"} -->|"Replaced by"| B{"Semantic AST & PQC Registry"}
+    A["Source Code & OSS Libs"] --> B["Semantic AST Analyzer"]
+    B --> C["Detect Compilation Backdoors"]
+    C --> D["Post-Quantum Ledger Signature"]
+    D --> E["Quantum-Safe Verified Binary"]
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-- **Popular Belief:** Standard SCA tools and basic CVE matching are enough to secure software supply chains.
-- **Hidden Truth:** Standard Software Composition Analysis (SCA) scanners merely compare package versions against known CVE databases without understanding code structure or detecting zero-day malware inserted during compilation.
+Popular Belief: Standard Software Composition Analysis (SCA) tools comparing package versions to CVE databases are enough to secure the CI/CD supply chain.
+Hidden Truth: SCA tools only look at known vulnerabilities, not structural zero-day backdoors inserted during compilation. Also, existing digital signatures for binaries will be compromised by quantum computers.
 
 ## 3. Problem & Target Market
 
-- **Business Model:** B2B
-- **Target Audience:** Government software vendors, defense contractors, financial institutions (DevSecOps, CISO).
-- **Urgent Pain Point:** It is impossible to guarantee that a third-party open-source library inserted into a CI/CD pipeline does not contain backdoors, or that its cryptographic signature hasn't been compromised by future quantum threats.
+Business Model: B2B
+Target Audience: Government software vendors, Defense contractors, Financial institutions (DevSecOps, CISO).
+Urgent Pain Point: It is impossible to guarantee that third-party open-source libraries in a CI/CD pipeline don't contain hidden backdoors, or that their cryptographic signatures haven't been compromised in anticipation of quantum computing.
 
 ## 4. Technical Architecture & Infrastructure
 
-A semantic Abstract Syntax Tree (AST) analysis platform that traces source code provenance to the final binary, immutably signing each compilation step via a distributed ledger using Post-Quantum Cryptography.
-
 ```mermaid
 sequenceDiagram
-    participant D as "DevSecOps"
-    participant S as "PQC SBOM Platform"
-    D->>S: "Trigger Build Pipeline"
-    S-->>D: "PQC Signed Immutable Build"
+    participant Dev as Dev / CI
+    participant AST as Semantic Analyzer
+    participant Ledger as PQC Ledger
+    Dev->>AST: Commit Source + Dependencies
+    AST->>AST: Deep Semantic Tree Analysis (Zero-day check)
+    AST->>Ledger: Hash and Sign Build Steps (PQC)
+    Ledger->>Dev: Issue Immutably Verified SBOM
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                            |
-| ---------------------- | -------------------------------- |
-| Pricing Structure      | B2B SaaS Enterprise Subscription |
-| 12-Month Target        | 100 enterprise clients           |
-| Revenue Formula        | 100 \* 1000€ = 100k€             |
-| Estimated Gross Margin | 85%                              |
+| Metric                 | Value                                           |
+| ---------------------- | ----------------------------------------------- |
+| Pricing Structure      | Enterprise SaaS subscription per developer seat |
+| 12-Month Target        | 50 large enterprise deployments                 |
+| Revenue Formula        | 50 enterprises _ 500 seats _ $50/mo             |
+| Estimated Gross Margin | 85%                                             |
 
 ## 6. Distribution Engine & Moat
 
-- **Acquisition Strategy:** Direct sales to defense, government, and finance sectors.
-- **Moat (Defensibility):** Standard Software Composition Analysis (SCA) scanners merely compare package versions against known CVE databases without understanding code structure or detecting zero-day malware inserted during compilation. Requires deep AST understanding and complex CI/CD ecosystem integration.
+Acquisition Strategy: Direct sales to highly regulated industries and integration with major CI/CD platforms (GitLab/GitHub).
+Moat (Defensibility): Combining deep AI semantic code understanding (AST analysis) with distributed Post-Quantum Cryptography creates a dual-layer moat. It's drastically more complex than simple CVE database lookups.
 
 ## 7. Detailed Evaluation Grid
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
+| Thesis & Monopoly / Urgency | 18 / 25         | -- / 25             |
+| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
+| Scalability / UX Friction   | 22 / 25         | -- / 25             |
 | Unit Economics / ROI        | -- / 25         | -- / 25             |
-| TOTAL                       | -- / 100        | -- / 100            |
+| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** The monopoly potential is moderate but addresses a clear and urgent pain point (19/25). The moat relies more on switching costs and execution speed than pure technical lock-in (18/25). However, the clear path to profitability and highly scalable distribution (25/25) mitigate the risk of commoditization.
 > **Market Verdict:** Pending evaluation.
