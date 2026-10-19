@@ -70,5 +70,5 @@ Moat (Barrière à l'entrée) : Développer un kernel de sécurité pour des RTO
 | Unit Economics / ROI direct       | -- / 25         | -- / 25              |
 | **TOTAL**                         | **-- / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** La thèse contrariante vise une niche massive et non défendue avec un clair potentiel de monopole (22/25). Le fossé défensif est extrêmement robuste, s'appuyant sur de la PI profonde plutôt que du logiciel facilement réplicable (25/25). Bien que les unit economics initiaux soient complexes (20/25), l'intensité capitalistique est justifiée par la dynamique winner-takes-all du marché.
 > **Verdict Terrain :** En attente d'évaluation.

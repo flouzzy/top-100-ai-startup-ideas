@@ -71,5 +71,5 @@ Moat (Barrière à l'entrée) : Les VPN classiques ajoutent trop de latence pour
 | Unit Economics / ROI direct       | -- / 25         | -- / 25              |
 | **TOTAL**                         | **-- / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Le potentiel de monopole est modéré mais répond à un point de douleur clair et urgent (22/25). Le fossé repose davantage sur les coûts de changement et la vitesse d'exécution que sur un verrouillage technique pur (19/25). Cependant, la voie claire vers la rentabilité et la distribution hautement scalable (25/25) atténuent le risque de banalisation.
 > **Verdict Terrain :** En attente d'évaluation.

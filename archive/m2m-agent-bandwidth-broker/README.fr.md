@@ -70,5 +70,5 @@ Moat (Barrière à l'entrée) : Les API cloud centralisées sont trop lentes pou
 | Unit Economics / ROI direct       | -- / 25         | -- / 25              |
 | **TOTAL**                         | **-- / 100**    | **-- / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** Ce réseau agentique capitalise sur une vision contrariante forte, évitant l'IA grand public surchargée pour construire une infrastructure critique (24/25). Les effets de réseau créent un fossé solide, verrouillant les clients B2B à mesure que l'intégration s'approfondit (24/25). D'excellents unit economics (23/25) couplés à une forte scalabilité (24/25) en font une entreprise hautement défendable.
 > **Verdict Terrain :** En attente d'évaluation.
