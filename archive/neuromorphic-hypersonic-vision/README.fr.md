@@ -63,11 +63,11 @@ Moat (Barrière à l'entrée) : La vision par ordinateur classique (CNN/GPU) est
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 21 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 21 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 12 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 19 / 25              |
+| **TOTAL**                         | **-- / 100**    | **80 / 100**         |
 
-> **Verdict VC :** Le potentiel de monopole est modéré mais répond à un point de douleur clair et urgent (18/25). Le fossé repose davantage sur les coûts de changement et la vitesse d'exécution que sur un verrouillage technique pur (21/25). Cependant, la voie claire vers la rentabilité et la distribution hautement scalable (24/25) atténuent le risque de banalisation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** La vision à ultra-faible latence pour l'hypersonique est une urgence de défense extrême. Le matériel neuromorphique couplé aux SNNs est physiquement impossible à reproduire pour des LLMs cloud. L'adoption est brutalement lente (cycles de défense et certification), mais les contrats gouvernementaux offrent des revenus massifs et garantis.

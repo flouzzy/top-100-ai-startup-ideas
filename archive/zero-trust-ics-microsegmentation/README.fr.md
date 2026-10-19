@@ -64,11 +64,11 @@ Moat (Barrière à l'entrée) : Les protocoles IT (IPsec/TLS) ne fonctionnent pa
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 18 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 23 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 21 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 17 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 23 / 25              |
+| **TOTAL**                         | **-- / 100**    | **85 / 100**         |
 
-> **Verdict VC :** Le potentiel de monopole est modéré mais répond à un point de douleur clair et urgent (22/25). Le fossé repose davantage sur les coûts de changement et la vitesse d'exécution que sur un verrouillage technique pur (18/25). Cependant, la voie claire vers la rentabilité et la distribution hautement scalable (22/25) atténuent le risque de banalisation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** Stopper les mouvements latéraux dans les systèmes de contrôle industriel est une urgence critique face aux cyberattaques étatiques. La maîtrise des protocoles ICS propriétaires offre une défense robuste contre les outils réseau LLM génériques. Bien que la segmentation de réseaux anciens induise des frictions par crainte d'arrêts, le coût faramineux d'une usine paralysée stimule les ventes.

@@ -64,11 +64,11 @@ Moat (Defensibility): Standard LLMs or generic deep learning models fail to mode
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 24 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 18 / 25         | -- / 25             |
-| Scalability / UX Friction   | 21 / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 20 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 22 / 25             |
+| Scalability / UX Friction   | -- / 25         | 18 / 25             |
+| Unit Economics / ROI        | -- / 25         | 16 / 25             |
+| **TOTAL**                   | **-- / 100**    | **76 / 100**        |
 
-> **VC Verdict:** The contrarian thesis here targets a massive, undefended niche with clear monopoly potential (22/25). The moat is extremely robust, relying on deep IP rather than easily replicable software (24/25). While early unit economics may be challenging (21/25), the capital intensity is justified by the winner-takes-all market dynamics.
-> **Market Verdict:** Pending evaluation.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Accelerating fusion research is highly urgent for energy independence. The deep physics-based simulation ensures it won't be replaced by general-purpose LLMs anytime soon. Friction is moderate due to the extreme niche of users, and monetization relies on massive R&D budgets from a few key players.

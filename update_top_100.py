@@ -29,24 +29,34 @@ for d in os.listdir('ideas'):
 
     # Model
     model = "Unknown"
-    m_model_badge = re.search(r'badge/(?:Mod%C3%A8le|Model|Modèle)-([^-]+)-', content)
-
-    if m_model_badge:
-        raw_model = urllib.parse.unquote(m_model_badge.group(1).strip())
-        model = raw_model.replace("_", " ")
-        model = model.replace("%20", " ").replace("%2F", "/").replace("%28", "(").replace("%29", ")").replace("%2C", ",")
-        if model.endswith("(Revenue split on "):
-            model = model.replace("(Revenue split on ", "(Revenue split on arbitrage)")
-        elif model.endswith("(Revenue split on"):
-            model = model.replace("(Revenue split on", "(Revenue split on arbitrage)")
-        if model.endswith("(Software Licensing / Edge "):
-            model = model.replace("(Software Licensing / Edge ", "(Software Licensing / Edge API)")
-        elif model.endswith("(Software Licensing / Edge"):
-            model = model.replace("(Software Licensing / Edge", "(Software Licensing / Edge API)")
+    # First, try to extract directly from the Business Model text section, which is more accurate than the badge
+    m_model_text = re.search(r'(?:Modèle économique|Business Model|Economic Model)\s*:\s*\**([^\n\*]+)', content, re.IGNORECASE)
+    if m_model_text:
+        model = m_model_text.group(1).strip()
+        # Clean up some overly long descriptions
+        if model.startswith("M2M"):
+            if "B2B" in model:
+                model = "M2M / B2B"
+            else:
+                model = "M2M"
+        elif model.startswith("B2B"):
+            if "B2G" in model:
+                model = "B2B / B2G"
+            elif "B2C" in model:
+                model = "B2B2C"
+            else:
+                model = "B2B"
+        elif model.startswith("B2G"):
+            model = "B2G"
     else:
-        m_model_alt = re.search(r'!\[.*?Type:\s*(.+?)\]', content)
-        if m_model_alt:
-            model = m_model_alt.group(1).strip()
+        m_model_badge = re.search(r'badge/(?:Mod%C3%A8le|Model|Modèle)-([^-]+)-', content)
+        if m_model_badge:
+            raw_model = urllib.parse.unquote(m_model_badge.group(1).strip())
+            model = raw_model.replace("_", " ").replace("%20", " ").replace("%2F", "/").replace("%28", "(").replace("%29", ")").replace("%2C", ",")
+        else:
+            m_model_alt = re.search(r'!\[.*?Type:\s*(.+?)\]', content)
+            if m_model_alt:
+                model = m_model_alt.group(1).strip()
 
     # Scores
     vc_score = 0

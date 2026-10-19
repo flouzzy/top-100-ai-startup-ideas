@@ -64,11 +64,11 @@ Moat (Barrière à l'entrée) : Le calcul N-corps est brutal. Les LLMs ignorent 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 18 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 17 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 23 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 21 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 19 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 20 / 25              |
+| **TOTAL**                         | **-- / 100**    | **83 / 100**         |
 
-> **Verdict VC :** La thèse contrariante vise une niche massive et non défendue avec un clair potentiel de monopole (25/25). Le fossé défensif est extrêmement robuste, s'appuyant sur de la PI profonde plutôt que du logiciel facilement réplicable (25/25). Bien que les unit economics initiaux soient complexes (17/25), l'intensité capitalistique est justifiée par la dynamique winner-takes-all du marché.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** Avec l'explosion des méga-constellations LEO, l'évitement des collisions orbitales est une nécessité absolue et immédiate. La fusion de vastes réseaux de capteurs et de mécanique orbitale dépasse largement un LLM standard. Les opérateurs intègrent facilement les flux de données, et le coût de perte d'un satellite rend l'abonnement évident.

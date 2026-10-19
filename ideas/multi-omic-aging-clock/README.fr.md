@@ -1,14 +1,14 @@
-<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
+<!-- markdownlint-disable MD013 MD033 MD041 -->
 
 [🇬🇧 English Version](./README.md)
 
 # Deep Omic Clock
 
-> **Résumé exécutif :** Une IA d'apprentissage profond multi-omique B2B pour simuler et valider précisément l'âge biologique et l'efficacité des thérapies anti-âge.
+> **Résumé exécutif :** Une solution B2B ciblant Cliniques de longévité, compagnies d'assurance vie, chercheurs en géroscience (CMO, Actuaires). pour résoudre le problème suivant : L'âge chronologique est un mauvais indicateur de risque. Les horloges épigénétiques actuelles sont unidimensionnelles et manquent de précision pour cibler des interventions cliniques personnalisées ou valider l'efficacité de thérapies anti-âge. L'approche repose sur : Un modèle d'apprentissage profond multimodal intégrant l'épigénome, le protéome, le microbiome et les données cliniques longitudinales pour créer un World Model de vieillissement biologique, capable de simuler l'effet de molécules géroprotectrices.
 
-![Type: Model](https://img.shields.io/badge/Mod%C3%A8le-B2B-blue)
-![Target: 100k ARR](https://img.shields.io/badge/Cible_ARR-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Score_Composite-79-yellow)
+![Type: Modèle](https://img.shields.io/badge/Modèle-B2B-blue)
+![Cible: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
+![Score: En attente](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
 
 ---
 
@@ -16,12 +16,12 @@
 
 ```mermaid
 graph TD
-    A{"Horloge Épigénétique Unidimensionnelle"} -->|"Remplacé par"| B{"IA Multi-Omique & Jumeau Biologique"}
+    A[Problème: Lge chronologique est un mauvais indicat] --> B[Solution: Un modèle dapprentissage profond multimo]
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-- **La croyance populaire :** Les horloges épigénétiques standards suffisent pour la géroscience.
+- **La croyance populaire :** Une approche générique SaaS classique est suffisante.
 - **La vérité cachée :** L'intégration multi-omique confronte au fléau de la dimensionnalité. Nécessite des architectures d'IA spécialisées (Transformers biologiques) pour extraire des signaux causaux complexes, impossibles avec un outil d'analyse de données standard.
 
 ## 3. Le problème & La cible
@@ -36,35 +36,37 @@ Un modèle d'apprentissage profond multimodal intégrant l'épigénome, le prot�
 
 ```mermaid
 sequenceDiagram
-    participant U as "Clinique"
-    participant S as "IA Multi-Omique"
-    U->>S: Données patient
-    S-->>U: Simulation d'âge biologique & efficacité
+    participant Utilisateur
+    participant IA
+    participant Système
+    Utilisateur->>IA: Requête
+    IA->>Système: Traitement (Un modèle dapprentis)
+    Système-->>Utilisateur: Résultat
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
 | Métrique                    | Valeur                             |
 | --------------------------- | ---------------------------------- |
-| Structure de prix           | Abonnement B2B / Frais par analyse |
-| Objectif 12 mois            | 100 cliniques                      |
+| Structure de prix           | Abonnement / Licence B2B           |
+| Objectif 12 mois            | 100 clients (ou volume équivalent) |
 | Calcul du CA (Target 100k€) | 100 \* 1000€ = 100k€               |
-| Marge brute estimée         | 85%                                |
+| Marge brute estimée         | 80%                                |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-- **Stratégie d'acquisition :** Vente directe B2B aux cliniques et instituts.
-- **Moat (Barrière à l'entrée) :** L'intégration multi-omique confronte au fléau de la dimensionnalité. Nécessite des Transformers biologiques spécialisés et des données longitudinales propriétaires coûteuses et difficiles à obtenir.
+- **Stratégie d'acquisition :** Ventes directes et partenariats dans le domaine : Biotech
+- **Moat (Barrière à l'entrée) :** L'intégration multi-omique confronte au fléau de la dimensionnalité. Nécessite des architectures d'IA spécialisées (Transformers biologiques) pour extraire des signaux causaux complexes, impossibles avec un outil d'analyse de données standard. Les risques incluent : Accès aux données longitudinales très coûteuses, difficulté réglementaire (FDA) pour valider des biomarqueurs du vieillissement, acceptation éthique.
 
 ## 7. Grille d'évaluation détaillée
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 17 / 25         | 18 / 25              |
-| Moat / Résistance aux LLM natifs  | 15 / 25         | 24 / 25              |
-| Scalabilité / Friction d'adoption | 20 / 25         | 21 / 25              |
-| Unit Economics / ROI direct       | 20 / 25         | 23 / 25              |
-| **TOTAL**                         | 72 / 100        | **86 / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
+| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
+| **TOTAL**                         | -- / 100        | -- / 100             |
 
-> **Verdict VC :** Bien qu'il cible une niche intéressante dans la longévité, il s'agit d'un tableau de bord analytique complexe sans les mécaniques de monopole brutales exigées par Peter Thiel (17/25). L'intégration des données multi-omiques offre un certain moat, mais sans verrouillage propriétaire sur les essais cliniques, le projet est facilement copiable par les géants des biotechs (15/25). Les aspects économiques du SaaS B2B sont solides (20/25), mais l'absence de véritable monopole technologique en fait un investissement VC médiocre et sans inspiration.
-> **Verdict Terrain :** Bien que les assurances et les cliniques recherchent de meilleurs biomarqueurs, les simulations d'âge biologique doivent surmonter des obstacles réglementaires avant de devenir une nécessité urgente (18/25). Les transformers biologiques profonds traitant des données omiques complexes sont robustes face aux LLMs standards (24/25). Le modèle SaaS B2B offre une monétisation claire et très scalable une fois adopté (23/25).
+> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** En attente d'évaluation.

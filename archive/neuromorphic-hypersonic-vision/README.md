@@ -63,11 +63,11 @@ Moat (Defensibility): Generic Computer Vision models (CNNs on GPUs) physically c
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 21 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
-| Scalability / UX Friction   | 21 / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 24 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 12 / 25             |
+| Unit Economics / ROI        | -- / 25         | 19 / 25             |
+| **TOTAL**                   | **-- / 100**    | **80 / 100**        |
 
-> **VC Verdict:** The monopoly potential is moderate but addresses a clear and urgent pain point (18/25). The moat relies more on switching costs and execution speed than pure technical lock-in (21/25). However, the clear path to profitability and highly scalable distribution (24/25) mitigate the risk of commoditization.
-> **Market Verdict:** Pending evaluation.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Ultra-low latency vision for hypersonics is an extreme military/defense urgency. Neuromorphic hardware paired with SNNs is physically impossible for cloud-based LLMs to replicate. Adoption is brutally slow due to defense procurement cycles and hardware certification, but government contracts provide massive, locked-in revenue.

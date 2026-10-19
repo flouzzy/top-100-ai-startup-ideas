@@ -65,9 +65,9 @@ Moat (Barrière à l'entrée) : Les VPN classiques ajoutent trop de latence pour
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 19 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 25 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 21 / 25         | -- / 25              |
+| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
 | Unit Economics / ROI direct       | -- / 25         | -- / 25              |
 | **TOTAL**                         | **-- / 100**    | **-- / 100**         |
 

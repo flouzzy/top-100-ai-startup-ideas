@@ -65,11 +65,11 @@ Moat (Barrière à l'entrée) : Un simple wrapper API transmettra des commandes 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 23 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 22 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 22 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 23 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 22 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 16 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 21 / 25              |
+| **TOTAL**                         | **-- / 100**    | **82 / 100**         |
 
-> **Verdict VC :** Ce réseau agentique capitalise sur une vision contrariante forte, évitant l'IA grand public surchargée pour construire une infrastructure critique (24/25). Les effets de réseau créent un fossé solide, verrouillant les clients B2B à mesure que l'intégration s'approfondit (23/25). D'excellents unit economics (22/25) couplés à une forte scalabilité (22/25) en font une entreprise hautement défendable.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** Traduire les commandes d'agents IT en actions OT (technologies opérationnelles) sûres résout une douleur industrielle massive. La maîtrise des protocoles industriels anciens la protège des simples wrappers LLM. Le risque de perturber la production freine l'adoption, mais les gains d'efficacité justifient largement le coût du SaaS.
