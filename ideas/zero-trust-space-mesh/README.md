@@ -71,4 +71,4 @@ Moat (Defensibility): Engineering a security kernel that runs on highly constrai
 | **TOTAL**                   | **-- / 100**    | **77 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Securing satellite-to-satellite communications is an urgent priority as space becomes a contested military domain. The deeply specialized space protocol engineering makes it immune to terrestrial AI wrappers. Modifying satellite firmware in orbit introduces extreme friction and risk, but defense agencies are willing to fund massive contracts for guaranteed security.
+> **Market Verdict:** Securing satellite communications is crucial given the militarization of space. The orbital network architecture is untouchable by terrestrial AIs. Nevertheless, adoption faces massive barriers (space launches, specific hardware), limiting potential clients and making monetization complex.

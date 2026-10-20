@@ -71,4 +71,4 @@ Moat (Barrière à l'entrée) : La combinaison d'une compréhension sémantique 
 | **TOTAL**                         | **-- / 100**    | **87 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** Auditer les chaînes d'approvisionnement logicielles pour détecter la cryptographie vulnérable au quantique est une urgence de conformité gouvernementale et d'entreprise. L'analyse algorithmique spécifique crée un fossé face aux LLMs génériques. En tant qu'outil d'audit logiciel, la friction d'adoption est très faible et les budgets de conformité assurent une forte monétisation.
+> **Verdict Terrain :** Face à la menace quantique, l'urgence de valider les nomenclatures logicielles est critique pour les OIV. Cette analyse cryptographique profonde résiste parfaitement aux capacités d'un LLM générique. Adoption facilitée par les mandats réglementaires et modèle de licence B2B très lisible, promettant une excellente rentabilité.

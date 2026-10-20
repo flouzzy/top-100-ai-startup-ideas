@@ -71,4 +71,4 @@ Moat (Barrière à l'entrée) : Problème cyber-physique critique nécessitant u
 | **TOTAL**                         | **-- / 100**    | **87 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** La synthèse d'inertie réseau est un besoin immédiat et critique face à la déstabilisation par les énergies renouvelables. Elle nécessite une expertise pointue en électronique de puissance, l'immunisant contre l'IA 100% logicielle. L'adoption par les opérateurs réseau est lente, mais le coût d'un blackout justifie une forte propension à payer.
+> **Verdict Terrain :** Le besoin en inertie synthétique est critique face à l'essor des ENR intermittentes, justifiant une urgence maximale. Solution hardware-in-the-loop totalement immunisée aux IA textuelles. L'adoption reste ralentie par la lourdeur des qualifications TSO, mais les mécanismes de rémunération des services système garantissent des revenus clairs.

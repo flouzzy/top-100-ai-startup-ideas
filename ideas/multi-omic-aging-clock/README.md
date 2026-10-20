@@ -62,11 +62,11 @@ sequenceDiagram
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | -- / 25             |
-| Moat / LLM Immunity         | -- / 25         | -- / 25             |
-| Scalability / UX Friction   | -- / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | -- / 100        | -- / 100            |
+| Thesis & Monopoly / Urgency | -- / 25         | 18 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 20 / 25             |
+| Scalability / UX Friction   | -- / 25         | 15 / 25             |
+| Unit Economics / ROI        | -- / 25         | 17 / 25             |
+| **TOTAL**                   | -- / 100        | 70 / 100            |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Pending evaluation.
+> **Market Verdict:** Real desirability for clinics and researchers, although adoption depends on regulatory approvals. Strong defense against standard LLMs which cannot natively analyze diverse biological datasets. UX friction is moderate but significant due to clinical trial integration needs, with a high monetization potential if well positioned.
