@@ -62,11 +62,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | -- / 100        | -- / 100             |
+| Thèse & Monopole / Urgence        | -- / 25         | 18 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 20 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 15 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 17 / 25              |
+| **TOTAL**                         | -- / 100        | 70 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Désirabilité réelle pour les cliniques et chercheurs, bien que l'adoption dépende des approbations réglementaires. Défense solide face aux LLMs standards incapables d'analyser nativement des jeux de données biologiques divers. Friction UX modérée mais significative vu les besoins d'intégration aux essais cliniques, avec un fort potentiel de monétisation si bien positionné.

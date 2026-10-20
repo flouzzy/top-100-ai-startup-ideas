@@ -72,4 +72,4 @@ Moat (Barrière à l'entrée) : Les LLMs n'ont aucune notion de physique spatial
 | **TOTAL**                         | **-- / 100**    | **82 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** Combler le fossé sim-to-real est le principal goulot d'étranglement de la robotique généraliste. Bien que les modèles de fondation s'améliorent, les moteurs spécialisés de randomisation de domaine restent très défendables. L'intégration par API standard maintient une friction gérable, et les roboticiens paieront cher pour réduire le prototypage physique.
+> **Verdict Terrain :** Réduit drastiquement les coûts de prototypage physique en robotique, créant une forte valeur d'usage. L'hybridation physique-virtuelle échappe aux compétences d'un LLM classique. Malgré la complexité de paramétrage (friction), le modèle de licence B2B offre un retour sur investissement évident pour les industriels.

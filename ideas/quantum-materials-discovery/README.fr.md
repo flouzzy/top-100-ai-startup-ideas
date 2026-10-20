@@ -62,11 +62,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | -- / 100        | -- / 100             |
+| Thèse & Monopole / Urgence        | -- / 25         | 20 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 12 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 19 / 25              |
+| **TOTAL**                         | -- / 100        | 76 / 100             |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict Terrain :** Immense désirabilité pour les applications en science des matériaux nécessitant des calculs à grande échelle. Immunité totale face aux LLMs puisque cela requiert des abstractions de calcul quantique et des intégrations matérielles spécifiques. Très forte friction d'adoption car le matériel quantique est rare, mais la monétisation est claire pour les grands départements R&D d'entreprises.

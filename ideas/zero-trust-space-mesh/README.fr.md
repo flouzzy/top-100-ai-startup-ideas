@@ -71,4 +71,4 @@ Moat (Barrière à l'entrée) : Développer un kernel de sécurité pour des RTO
 | **TOTAL**                         | **-- / 100**    | **77 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** Sécuriser les communications inter-satellites est une priorité urgente alors que l'espace devient un domaine militaire contesté. L'ingénierie ultraspécialisée des protocoles spatiaux l'immunise contre les wrappers IA terrestres. Modifier le firmware des satellites en orbite introduit des frictions et risques extrêmes, mais les agences de défense financeront des contrats massifs pour cette sécurité.
+> **Verdict Terrain :** La sécurisation des communications satellitaires est cruciale face à la militarisation de l'espace. L'architecture réseau en orbite est intouchable par les IA terrestres. Néanmoins, l'adoption se heurte à des barrières massives (lancements spatiaux, hardware spécifique), limitant les clients potentiels et rendant la monétisation complexe.

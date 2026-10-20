@@ -72,4 +72,4 @@ Moat (Barrière à l'entrée) : Les VPN classiques ajoutent trop de latence pour
 | **TOTAL**                         | **-- / 100**    | **69 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** Sécuriser les infrastructures critiques avec la distribution quantique de clés est précieux, mais l'urgence est encore débattue hors de la défense. Reposant sur la physique quantique, c'est parfaitement immunisé contre l'IA. Déployer du matériel fibre optique spécialisé engendre d'immenses frictions et des CapEx massifs, défiant le ROI à court terme.
+> **Verdict Terrain :** Protection ultime pour les infrastructures critiques, répondant à un besoin sécuritaire maximal. La distribution quantique de clés est physiquement impossible à émuler par un LLM. Cependant, l'adoption est extrêmement freinée par le coût du matériel dédié et le déploiement sur fibre noire, rendant la rentabilité lente à émerger.

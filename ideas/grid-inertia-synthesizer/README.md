@@ -71,4 +71,4 @@ Moat (Defensibility): This is a critical cyber-physical problem requiring ultra-
 | **TOTAL**                   | **-- / 100**    | **87 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Grid inertia synthesis is an immediate, critical need as renewables destabilize power grids. It requires specialized power electronics knowledge, making it immune to software-only AI models. Grid operators are notoriously slow to adopt (high friction), but the cost of blackouts justifies immense willingness to pay.
+> **Market Verdict:** The need for synthetic inertia is critical given the rise of intermittent renewables, justifying maximum urgency. Hardware-in-the-loop solution totally immune to text AIs. Adoption remains slowed by heavy TSO qualifications, but system service remuneration mechanisms guarantee clear revenue.

@@ -72,4 +72,4 @@ Moat (Defensibility): Traditional VPNs add too much latency for real-time OT (ne
 | **TOTAL**                   | **-- / 100**    | **69 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Securing critical infrastructure with Quantum Key Distribution is highly valuable but current urgency is debated outside of top-tier defense. It relies on quantum physics, making it perfectly immune to AI software. Deploying specialized fiber-optic hardware introduces immense adoption friction and massive CapEx, challenging short-term ROI.
+> **Market Verdict:** Ultimate protection for critical infrastructures, meeting maximum security needs. Quantum key distribution is physically impossible for a LLM to emulate. However, adoption is extremely hindered by the cost of dedicated hardware and dark fiber deployment, making profitability slow to emerge.

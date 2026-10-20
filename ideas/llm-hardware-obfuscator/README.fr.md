@@ -74,4 +74,4 @@ Moat (Barrière à l'entrée) : Modifier des milliards de transistors tout en re
 | **TOTAL**                         | **-- / 100**    | **82 / 100**         |
 
 > **Verdict VC :** En attente d'évaluation.
-> **Verdict Terrain :** Sécuriser les poids des modèles sur des appareils périphériques non fiables est urgent pour protéger la propriété intellectuelle. Opérant au niveau de l'exécution matérielle, les LLMs ne peuvent répliquer cette fonction. L'intégration matérielle implique des frictions d'adoption, mais le licensing aux fabricants de puces offre une monétisation claire.
+> **Verdict Terrain :** La protection de la PI matérielle devient une priorité stratégique absolue pour les concepteurs de puces. Cette solution d'obfuscation offre une barrière infranchissable pour les approches LLM classiques. L'intégration au flux EDA implique des frictions, mais la valeur du secret industriel justifie pleinement le modèle économique.
