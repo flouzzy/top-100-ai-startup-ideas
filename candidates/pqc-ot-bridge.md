@@ -1,0 +1,10 @@
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
+# Candidat : PQC OT Bridge
+
+* **Domaine principal :** Cybersécurité & Résilience / Quantique
+* **Modèle économique :** B2B
+* **Cible :** Opérateurs d'Infrastructures d'Importance Vitale (OIV) : gestionnaires de réseaux électriques, usines de traitement des eaux, industrie lourde, pipelines.
+* **Le problème urgent :** Les systèmes industriels (OT/ICS, SCADA, automates programmables PLC) opèrent souvent sur des protocoles legacy en clair ou avec des chiffrements obsolètes. Avec l'arrivée de la menace Q-Day (où un ordinateur quantique pourra casser RSA/ECC), ces infrastructures critiques deviendront instantanément vulnérables à des attaques de type "Harvest Now, Decrypt Later" et au contrôle à distance malveillant, menaçant la sécurité nationale.
+* **L'approche technique :** Développement d'un "PQC OT Bridge", un boîtier matériel (ou gateway logicielle ultra-légère) se plaçant devant les équipements industriels (PLC/RTU). Ce pont intercepte les communications legacy (ex: Modbus TCP, DNP3) et les encapsule dans un tunnel sécurisé par des algorithmes de cryptographie post-quantique (PQC, ex: CRYSTALS-Kyber/Dilithium), assurant l'intégrité et la confidentialité des commandes industrielles sans nécessiter de mise à jour matérielle des vieux automates.
+* **Pourquoi une solution générique/SaaS classique échoue :** L'OT (Operational Technology) n'accepte ni les latences cloud (SaaS) ni les agents logiciels lourds sur des équipements vieux de 20 ans. Le chiffrement classique (VPN standard) ne protège pas contre la menace quantique. Une solution purement logicielle est souvent inapplicable sur des microcontrôleurs industriels limités en ressources.
+* **Risques majeurs & Dépendances :** Latence (les réseaux industriels ont des contraintes de temps réel strictes, l'encapsulation PQC doit être quasi-instantanée). Certification (exigences très strictes en environnement industriel, normes CEI 62443). Dépendance aux standardisations PQC du NIST.
