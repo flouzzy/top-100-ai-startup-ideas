@@ -1,0 +1,10 @@
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
+# Candidat : Quantum Superconductor Sim
+
+* **Domaine principal :** Quantique / Deep Tech
+* **Modèle économique :** B2B
+* **Cible :** Laboratoires R&D en matériaux (électronique, énergie), entreprises de semi-conducteurs, constructeurs de réseaux électriques et de moteurs électriques avancés.
+* **Le problème urgent :** La découverte de supraconducteurs à haute température (fonctionnant à température ambiante ou presque) révolutionnerait le transport d'énergie (zéro perte) et l'électronique. Cependant, modéliser précisément le comportement des électrons fortement corrélés dans ces nouveaux matériaux est exponentiellement trop complexe pour les supercalculateurs classiques. La R&D fonctionne donc par "essais et erreurs" en laboratoire, ce qui prend des années et coûte des milliards.
+* **L'approche technique :** Création d'une plateforme logicielle d'algorithmie quantique (VQE - Variational Quantum Eigensolver ou simulation hamiltonienne) spécifiquement optimisée pour la simulation des états fondamentaux de matériaux fortement corrélés (comme les cuprates). Le logiciel compile ces simulations pour s'exécuter sur les ordinateurs quantiques NISQ (Noisy Intermediate-Scale Quantum) actuels et futurs, permettant de prédire virtuellement les températures critiques de supraconduction avant la synthèse en laboratoire.
+* **Pourquoi une solution générique/SaaS classique échoue :** La mécanique quantique des systèmes à N-corps souffre de "l'explosion combinatoire". Les méthodes classiques (DFT - Density Functional Theory) échouent sur les matériaux fortement corrélés. Seul un processeur quantique peut naturellement simuler la nature quantique de ces interactions électroniques.
+* **Risques majeurs & Dépendances :** Dépendance totale à l'évolution du matériel quantique (fidélité des qubits, réduction du bruit). Si le hardware stagne, le logiciel ne pourra pas dépasser les capacités des supercalculateurs classiques avant 10 ans. Besoin d'une double expertise très rare : physique de la matière condensée et algorithmie quantique.
