@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-34.5-red)
 
 ---
 
@@ -65,11 +65,11 @@ Moat (Barrière à l'entrée) : Les VPN classiques ajoutent trop de latence pour
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 17 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 11 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 16 / 25              |
+| **TOTAL**                         | **-- / 100**    | **69 / 100**         |
 
-> **Verdict VC :** Le potentiel de monopole est modéré mais répond à un point de douleur clair et urgent (22/25). Le fossé repose davantage sur les coûts de changement et la vitesse d'exécution que sur un verrouillage technique pur (19/25). Cependant, la voie claire vers la rentabilité et la distribution hautement scalable (25/25) atténuent le risque de banalisation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** Protection ultime pour les infrastructures critiques, répondant à un besoin sécuritaire maximal. La distribution quantique de clés est physiquement impossible à émuler par un LLM. Cependant, l'adoption est extrêmement freinée par le coût du matériel dédié et le déploiement sur fibre noire, rendant la rentabilité lente à émerger.

@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-38.5-red)
 
 ---
 
@@ -64,11 +64,11 @@ Moat (Barrière à l'entrée) : Développer un kernel de sécurité pour des RTO
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 22 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 23 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 14 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 18 / 25              |
+| **TOTAL**                         | **-- / 100**    | **77 / 100**         |
 
-> **Verdict VC :** La thèse contrariante vise une niche massive et non défendue avec un clair potentiel de monopole (22/25). Le fossé défensif est extrêmement robuste, s'appuyant sur de la PI profonde plutôt que du logiciel facilement réplicable (25/25). Bien que les unit economics initiaux soient complexes (20/25), l'intensité capitalistique est justifiée par la dynamique winner-takes-all du marché.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** La sécurisation des communications satellitaires est cruciale face à la militarisation de l'espace. L'architecture réseau en orbite est intouchable par les IA terrestres. Néanmoins, l'adoption se heurte à des barrières massives (lancements spatiaux, hardware spécifique), limitant les clients potentiels et rendant la monétisation complexe.

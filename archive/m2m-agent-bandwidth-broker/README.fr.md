@@ -8,7 +8,7 @@
 
 ![Type: M2M](https://img.shields.io/badge/Model-M2M-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-42-red)
 
 ---
 
@@ -64,11 +64,11 @@ Moat (Barrière à l'entrée) : Les API cloud centralisées sont trop lentes pou
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 18 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 20 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 22 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 24 / 25              |
+| **TOTAL**                         | **-- / 100**    | **84 / 100**         |
 
-> **Verdict VC :** Ce réseau agentique capitalise sur une vision contrariante forte, évitant l'IA grand public surchargée pour construire une infrastructure critique (24/25). Les effets de réseau créent un fossé solide, verrouillant les clients B2B à mesure que l'intégration s'approfondit (24/25). D'excellents unit economics (23/25) couplés à une forte scalabilité (24/25) en font une entreprise hautement défendable.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** L'explosion des flottes d'agents autonomes crée un goulot d'étranglement immédiat sur la bande passante. Ce courtier M2M optimise en temps réel ces flux, hors de portée d'un LLM non connecté au réseau. Déploiement logiciel relativement fluide avec un modèle à l'usage garantissant une monétisation directe et transparente.
