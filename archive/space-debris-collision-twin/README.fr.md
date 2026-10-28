@@ -1,14 +1,14 @@
 <!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
-[🇬🇧 English Version](./README.md)
+[ 🇬🇧 English Version ](./README.md)
 
 # Space Debris Collision Twin
 
-> **Résumé exécutif :** Un moteur de prédiction orbitale couplant des données de radars spatiaux hétérogènes avec une propagation orbitale assistée par IA pour prédire les trajectoires de débris millimétriques et prévenir le syndrome de Kessler.
+> **Résumé exécutif :** Un World Model prédictif qui fusionne en temps réel les données des radars terrestres et des capteurs optiques spatiaux pour simuler la mécanique orbitale non linéaire. Il réduit drastiquement les fausses alertes de collision en orbite basse (LEO), évitant aux satellites de gaspiller leur précieux carburant pour des manœuvres inutiles.
 
-![Type: B2B / B2G](https://img.shields.io/badge/Mod%C3%A8le-B2B%20%2F%20B2G-blue)
+![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-45.5-red)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
 
 ---
 
@@ -16,62 +16,67 @@
 
 ```mermaid
 graph TD
-    %% Schéma comparatif Problème vs Solution ou Flux d'architecture
-    A[Orbite Terrestre Basse Saturée] -->|Risque de Syndrome de Kessler| B[Suivi imprécis & faux positifs]
-    B -->|Ergol gaspillé & manœuvres inutiles| C[Perte économique pour les opérateurs]
-    A -->|Données radars hétérogènes| D{Space Debris Collision Twin}
-    D -->|Propagation orbitale non-linéaire assistée par IA| E[Alertes de collision précises (TCA)]
+    A[Radar Terrestre] -->|Données Bruitées| B[Space Debris Collision Twin]
+    C[Capteurs Optiques Spatiaux] -->|Télémétrie| B
+    B -->|Simulation Physique Différentiable| D{Moteur de Probabilité de Collision}
+    D -->|Faux Positif Détecté| E[Recommandation : Ne Pas Manœuvrer]
+    D -->|Menace Haute Vérifiée| F[Calculer Trajectoire d'Évitement Optimale]
+    E --> G[Économiser Carburant du Satellite]
+    F --> H[Exécuter l'Évitement]
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-La croyance populaire : Les modèles standards d'apprentissage automatique peuvent être appliqués aux données radars spatiales pour améliorer les prédictions de collision.
-La vérité cachée : Les algorithmes d'apprentissage machine standards ne conservent pas l'énergie et la quantité de mouvement sur le long terme. Les perturbations orbitales (pression de radiation solaire, traînée atmosphérique imprévisible) exigent des solveurs d'astrodynamique non-linéaires massifs strictement contraints par la physique.
+- **La croyance populaire :** Pour résoudre le problème des débris spatiaux, il suffit de lancer plus de satellites radars pour mieux suivre les objets et envoyer des alertes dès que deux objets se rapprochent.
+- **La vérité cachée :** Nous avons déjà trop d'alertes. Les systèmes de suivi actuels génèrent un nombre écrasant de faux positifs car ils utilisent des modèles orbitaux simplifiés. Chaque manœuvre d'évitement inutile brûle un carburant irremplaçable, réduisant ainsi la durée de vie d'un satellite valant des millions. La vraie valeur n'est pas de générer plus d'alertes, mais de fournir une certitude de niveau physique pour dire en toute confiance à un opérateur de _ne pas_ bouger.
 
 ## 3. Le problème & La cible
 
-Modèle économique : B2B / B2G
-Cible précise : Opérateurs de constellations satellitaires (Starlink, Kuiper), agences spatiales (ESA, NASA), assurances spatiales.
-La douleur urgente : L'orbite terrestre basse (LEO) est saturée. Le syndrome de Kessler (réaction en chaîne de collisions de débris) menace l'économie spatiale. Les bases de données de suivi actuelles manquent de précision orbitale et prédisent trop de "faux positifs", forçant les satellites à gaspiller de l'ergol précieux pour des manœuvres d'évitement inutiles.
+- **Modèle économique :** B2B
+- **Cible précise :** Opérateurs de constellations satellitaires en orbite basse (LEO), agences spatiales, compagnies d'assurance spatiale.
+- **La douleur urgente :** L'encombrement de l'orbite terrestre basse crée un risque exponentiel de collisions (syndrome de Kessler). Les alertes de collision actuelles génèrent trop de faux positifs. Les opérateurs doivent deviner s'il faut manœuvrer (au risque de gaspiller du carburant) ou ignorer l'alerte (au risque d'une destruction totale du satellite).
 
 ## 4. Architecture technique & Plomberie
 
 ```mermaid
 sequenceDiagram
-    %% Schéma de séquence ou d'interaction entre l'utilisateur, l'IA et le système
-    participant Radars as "Radars Spatiaux"
-    participant Engine as "Moteur de Jumeau Orbital"
-    participant Operator as "Opérateur de Constellation"
-    Radars->>Engine: Données télémétriques brutes
-    Engine->>Engine: Propagation orbitale IA & Calcul d'incertitude bayésien
-    Engine->>Operator: Alerte de rapprochement de précision (TCA)
-    Operator->>Operator: Manœuvre d'évitement ciblée et nécessaire
+    participant Operator as Opérateur Satellite
+    participant Radar as Réseau de Capteurs Globaux
+    participant Twin as World Model Orbital (IA)
+    participant Physics as Moteur Physique Différentiable
+
+    Radar->>Twin: Fournit télémétrie brute (Position/Vitesse)
+    Twin->>Physics: Simule les trajectoires incluant vent solaire/traînée
+    Physics->>Twin: Affine la trajectoire avec modélisation stochastique
+    Twin->>Twin: Calcule la probabilité exacte de collision
+    Twin->>Operator: Alerte : Risque de 0.001% (Faux Positif)
+    Operator->>Operator: Maintient le cap, économise le carburant
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
-| Métrique                    | Valeur                                         |
-| --------------------------- | ---------------------------------------------- |
-| Structure de prix           | Abonnement par satellite surveillé / accès API |
-| Objectif 12 mois            | 1 à 2 opérateurs de constellations ou agences  |
-| Calcul du CA (Target 100k€) | 2 \* 50k = 100k                                |
-| Marge brute estimée         | 85%                                            |
+| Métrique                        | Valeur                                                                   |
+| :------------------------------ | :----------------------------------------------------------------------- |
+| **Structure de prix**           | Abonnement par satellite surveillé + prime pour trajectoires d'évitement |
+| **Objectif 12 mois**            | 1 opérateur de constellation LEO (ex: 50 satellites)                     |
+| **Calcul du CA (Target 100k€)** | 50 satellites \* 2 000 €/an/sat = 100 000 €                              |
+| **Marge brute estimée**         | 80%                                                                      |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-Stratégie d'acquisition : Ventes directes aux opérateurs de méga-constellations et aux agences spatiales gouvernementales.
-Moat (Barrière à l'entrée) : Le besoin de solveurs d'astrodynamique non-linéaires massifs et la difficulté extrême d'accéder à des données de capteurs radars classifiées ou très coûteuses (ex: US Space Command) créent une barrière à l'entrée immense pour les entreprises technologiques standards.
+- **Stratégie d'acquisition :** Cibler les opérateurs commerciaux de constellations LEO et les assureurs spatiaux, en prouvant le ROI grâce aux économies de carburant et à la réduction des primes d'assurance.
+- **Moat (Barrière à l'entrée) :** La modélisation orbitale nécessite de gérer avec une extrême précision les perturbations atmosphériques imprévisibles, le vent solaire et le problème gravitationnel à N-corps. Un LLM ou un SaaS standard ne peut pas modéliser la physique stochastique à très haute vélocité. Cela requiert un moteur physique différentiable hautement spécialisé et l'accès à des données radar restreintes de haute qualité.
 
 ## 7. Grille d'évaluation détaillée
 
-| Critère                           | Score VC (/100) | Score Terrain (/100) |
-| --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 25 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 22 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | 20 / 25         | -- / 25              |
-| **TOTAL**                         | **91 / 100**    | **-- / 100**         |
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| :------------------------------------ | :-------------- | :------------------- |
+| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
+| **TOTAL**                             | **-- / 100**    | **-- / 100**         |
 
-> **Verdict VC :** Ce projet présente une thèse fortement contrariante avec un véritable potentiel de monopole (25/25). Le fossé technologique profond et les exigences d'ingénierie rendent la solution quasi-impossible à répliquer par de simples concurrents SaaS (24/25). Associée à une évolutivité massive (22/25) et d'excellents unit economics (20/25), il s'agit d'une proposition hautement finançable.
->
+> **Verdict VC :** En attente d'évaluation.
+
 > **Verdict Terrain :** En attente d'évaluation.

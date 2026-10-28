@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-41-red)
 
 ---
 
@@ -65,11 +65,11 @@ Moat (Barrière à l'entrée) : Les LLMs n'ont aucune notion de physique spatial
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | 19 / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | 24 / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | 22 / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 21 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 19 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 20 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 22 / 25              |
+| **TOTAL**                         | **-- / 100**    | **82 / 100**         |
 
-> **Verdict VC :** Le potentiel de monopole est modéré mais répond à un point de douleur clair et urgent (20/25). Le fossé repose davantage sur les coûts de changement et la vitesse d'exécution que sur un verrouillage technique pur (19/25). Cependant, la voie claire vers la rentabilité et la distribution hautement scalable (24/25) atténuent le risque de banalisation.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** Réduit drastiquement les coûts de prototypage physique en robotique, créant une forte valeur d'usage. L'hybridation physique-virtuelle échappe aux compétences d'un LLM classique. Malgré la complexité de paramétrage (friction), le modèle de licence B2B offre un retour sur investissement évident pour les industriels.

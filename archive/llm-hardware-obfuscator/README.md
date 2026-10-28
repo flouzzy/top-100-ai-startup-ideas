@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-41-red)
 
 ---
 
@@ -67,11 +67,11 @@ Moat (Defensibility): Modifying billions of transistors while strictly respectin
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 22 / 25         | -- / 25             |
-| Scalability / UX Friction   | 21 / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 15 / 25             |
+| Unit Economics / ROI        | -- / 25         | 20 / 25             |
+| **TOTAL**                   | **-- / 100**    | **82 / 100**        |
 
-> **VC Verdict:** The monopoly potential is moderate but addresses a clear and urgent pain point (19/25). The moat relies more on switching costs and execution speed than pure technical lock-in (23/25). However, the clear path to profitability and highly scalable distribution (22/25) mitigate the risk of commoditization.
-> **Market Verdict:** Pending evaluation.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Hardware IP protection is becoming an absolute strategic priority for chip designers. This obfuscation solution offers an impassable barrier for classic LLM approaches. Integration into the EDA flow involves friction, but the value of trade secrets fully justifies the economic model.

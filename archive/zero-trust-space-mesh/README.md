@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-38.5-red)
 
 ---
 
@@ -64,11 +64,11 @@ Moat (Defensibility): Engineering a security kernel that runs on highly constrai
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 25 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 22 / 25         | -- / 25             |
-| Scalability / UX Friction   | 20 / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 23 / 25             |
+| Scalability / UX Friction   | -- / 25         | 14 / 25             |
+| Unit Economics / ROI        | -- / 25         | 18 / 25             |
+| **TOTAL**                   | **-- / 100**    | **77 / 100**        |
 
-> **VC Verdict:** The contrarian thesis here targets a massive, undefended niche with clear monopoly potential (22/25). The moat is extremely robust, relying on deep IP rather than easily replicable software (25/25). While early unit economics may be challenging (20/25), the capital intensity is justified by the winner-takes-all market dynamics.
-> **Market Verdict:** Pending evaluation.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Securing satellite communications is crucial given the militarization of space. The orbital network architecture is untouchable by terrestrial AIs. Nevertheless, adoption faces massive barriers (space launches, specific hardware), limiting potential clients and making monetization complex.
