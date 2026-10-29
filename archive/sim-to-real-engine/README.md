@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-41-red)
 
 ---
 
@@ -72,4 +72,4 @@ Moat (Defensibility): LLMs have zero understanding of spatial physics, gravity, 
 | **TOTAL**                   | **-- / 100**    | **82 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Bridging the sim-to-real gap is the primary bottleneck holding back general-purpose robotics. While foundational models are improving, specialized domain-randomization engines remain highly defensible. Integration via standard APIs keeps friction manageable, and robotics companies will pay heavily to reduce physical prototyping time.
+> **Market Verdict:** Drastically reduces physical prototyping costs in robotics, creating strong use value. Physical-virtual hybridization escapes the skills of a classic LLM. Despite setup complexity (friction), the B2B license model offers an obvious return on investment for industrials.

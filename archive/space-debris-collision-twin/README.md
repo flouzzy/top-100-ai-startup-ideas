@@ -1,14 +1,14 @@
 <!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
 
-[🇫🇷 Version Française](./README.fr.md)
+[ 🇫🇷 Version Française ](./README.fr.md)
 
 # Space Debris Collision Twin
 
-> **Executive Summary:** An orbital prediction engine coupling heterogeneous space radar data with AI-assisted orbital propagation to predict millimeter-level space debris trajectories and prevent the Kessler syndrome.
+> **Executive Summary:** A predictive World Model that fuses real-time data from terrestrial radars and spatial optical sensors to simulate complex, non-linear orbital mechanics. It drastically reduces false-positive collision alerts in Low Earth Orbit (LEO), saving satellites from wasting precious maneuvering fuel.
 
-![Type: B2B / B2G](https://img.shields.io/badge/Model-B2B%20%2F%20B2G-blue)
+![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-45.5-red)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
 
 ---
 
@@ -16,62 +16,67 @@
 
 ```mermaid
 graph TD
-    %% Problem vs Solution or Architecture Diagram
-    A[Saturated Low Earth Orbit] -->|Kessler Syndrome risk| B[Inaccurate tracking & false positives]
-    B -->|Wasted propellant & unnecessary maneuvers| C[Economic loss for satellite operators]
-    A -->|Heterogeneous radar data| D{Space Debris Collision Twin}
-    D -->|AI-assisted non-linear orbital propagation| E[Meter-level collision alerts (TCA)]
+    A[Terrestrial Radar] -->|Noisy Data| B[Space Debris Collision Twin]
+    C[Space Optical Sensors] -->|Telemetry| B
+    B -->|Differentiable Physics Simulation| D{Collision Probability Engine}
+    D -->|False Positive Detected| E[Recommend: Do Not Maneuver]
+    D -->|High Threat Verified| F[Calculate Optimal Evasion Path]
+    E --> G[Save Satellite Fuel]
+    F --> H[Execute Evasion]
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-Popular Belief: Standard machine learning models can be applied to space radar data to improve collision predictions.
-Hidden Truth: Standard machine learning algorithms do not conserve energy and momentum over the long term. Orbital perturbations (solar radiation pressure, unpredictable atmospheric drag) require massive, non-linear astrodynamics solvers strictly bounded by physics.
+- **Popular Belief:** To solve the space debris problem, we just need to launch more radar satellites to track objects better and send alerts whenever two objects get close.
+- **Hidden Truth:** We already have too many alerts. Current tracking systems generate an overwhelming number of false positives because they use simplified orbital models. Every unnecessary evasion maneuver burns irreplaceable satellite fuel, effectively shortening a multi-million dollar satellite's lifespan. The real value is not in generating more alerts, but in providing the physics-grade certainty required to confidently tell an operator _not_ to move.
 
 ## 3. Problem & Target Market
 
-Business Model: B2B / B2G
-Target Audience: Satellite constellation operators (Starlink, Kuiper), space agencies (ESA, NASA), space insurance companies.
-Urgent Pain Point: Low Earth Orbit (LEO) is saturated. The Kessler syndrome (chain reaction of debris collisions) threatens the space economy. Current tracking databases lack orbital precision and predict too many "false positives", forcing satellites to waste precious propellant on unnecessary avoidance maneuvers.
+- **Business Model:** B2B
+- **Target Audience:** LEO satellite constellation operators, space agencies, and space insurance companies.
+- **Urgent Pain Point:** The congestion of Low Earth Orbit (LEO) creates an exponential risk of collisions (Kessler Syndrome). Current collision warnings generate too many false positives. Operators must guess whether to maneuver, risking massive fuel waste and mission reduction, or to ignore the alert, risking total asset destruction.
 
 ## 4. Technical Architecture & Infrastructure
 
 ```mermaid
 sequenceDiagram
-    %% Sequence diagram or system flow
-    participant Radars as "Space Radars"
-    participant Engine as "Orbital Twin Engine"
-    participant Operator as "Constellation Operator"
-    Radars->>Engine: Raw telemetry data
-    Engine->>Engine: AI-assisted orbital propagation & Bayesian uncertainty calculation
-    Engine->>Operator: Precision Time of Closest Approach (TCA) alert
-    Operator->>Operator: Perform targeted, necessary avoidance maneuver
+    participant Operator as Satellite Operator
+    participant Radar as Global Sensor Network
+    participant Twin as Orbital World Model (AI)
+    participant Physics as Differentiable Physics Engine
+
+    Radar->>Twin: Feed raw telemetry (Position/Velocity)
+    Twin->>Physics: Simulate orbital paths including solar wind/drag
+    Physics->>Twin: Refine trajectory with stochastic modeling
+    Twin->>Twin: Calculate exact probability of collision
+    Twin->>Operator: Alert: 0.001% risk (False Positive)
+    Operator->>Operator: Maintain course, save fuel
 ```
 
 ## 5. Business Model & Financial Viability
 
-| Metric                 | Value                                             |
-| ---------------------- | ------------------------------------------------- |
-| Pricing Structure      | Subscription per monitored satellite / API access |
-| 12-Month Target        | 1 to 2 constellation operators or agencies        |
-| Revenue Formula        | 2 \* 50k = 100k                                   |
-| Estimated Gross Margin | 85%                                               |
+| Metric                     | Value                                                                       |
+| :------------------------- | :-------------------------------------------------------------------------- |
+| **Pricing Structure**      | Subscription per satellite monitored + premium for predictive evasion paths |
+| **12-Month Target**        | 1 LEO constellation operator (e.g., 50 satellites)                          |
+| **Revenue Formula**        | 50 satellites \* €2,000/year/sat = €100,000                                 |
+| **Estimated Gross Margin** | 80%                                                                         |
 
 ## 6. Distribution Engine & Moat
 
-Acquisition Strategy: Direct sales to mega-constellation operators and government space agencies.
-Moat (Defensibility): The requirement for massive non-linear astrodynamics solvers and the extreme difficulty of securing classified or highly expensive radar sensor data (e.g., from US Space Command) create an immense barrier to entry for standard tech companies.
+- **Acquisition Strategy:** Target commercial LEO constellation operators and space insurance providers, proving ROI through fuel savings and reduced insurance premiums.
+- **Moat (Defensibility):** Orbital modeling requires handling unpredictable atmospheric drag, solar wind, and the gravitational n-body problem with extreme precision. A standard management SaaS or LLM cannot model stochastic, hyper-velocity physics. It requires a highly specialized differentiable physics engine and access to restricted, high-quality radar data.
 
 ## 7. Detailed Evaluation Grid
 
-| Criterion                   | VC Score (/100) | Market Score (/100) |
-| --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 25 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
-| Scalability / UX Friction   | 22 / 25         | -- / 25             |
-| Unit Economics / ROI        | 20 / 25         | -- / 25             |
-| **TOTAL**                   | **91 / 100**    | **-- / 100**        |
+| Criterion                       | VC Score (/100) | Market Score (/100) |
+| :------------------------------ | :-------------- | :------------------ |
+| **Thesis & Monopoly / Urgency** | -- / 25         | -- / 25             |
+| **Moat / LLM Immunity**         | -- / 25         | -- / 25             |
+| **Scalability / UX Friction**   | -- / 25         | -- / 25             |
+| **Unit Economics / ROI**        | -- / 25         | -- / 25             |
+| **TOTAL**                       | **-- / 100**    | **-- / 100**        |
 
-> **VC Verdict:** This project presents a strongly contrarian thesis with genuine monopoly potential (25/25). The deep technical moat and hard engineering requirements make it essentially impossible for casual SaaS competitors to replicate (24/25). Coupled with massive scalability (22/25) and excellent unit economics (20/25), this is a highly investable proposition.
->
+> **VC Verdict:** Pending evaluation.
+
 > **Market Verdict:** Pending evaluation.

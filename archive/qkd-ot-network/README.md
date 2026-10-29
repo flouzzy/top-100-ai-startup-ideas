@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-34.5-red)
 
 ---
 
@@ -72,4 +72,4 @@ Moat (Defensibility): Traditional VPNs add too much latency for real-time OT (ne
 | **TOTAL**                   | **-- / 100**    | **69 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Securing critical infrastructure with Quantum Key Distribution is highly valuable but current urgency is debated outside of top-tier defense. It relies on quantum physics, making it perfectly immune to AI software. Deploying specialized fiber-optic hardware introduces immense adoption friction and massive CapEx, challenging short-term ROI.
+> **Market Verdict:** Ultimate protection for critical infrastructures, meeting maximum security needs. Quantum key distribution is physically impossible for a LLM to emulate. However, adoption is extremely hindered by the cost of dedicated hardware and dark fiber deployment, making profitability slow to emerge.

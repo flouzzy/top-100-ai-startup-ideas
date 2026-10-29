@@ -1,0 +1,72 @@
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
+<!-- markdownlint-disable MD033 MD041 -->
+
+[🇬🇧 English Version](./README.md)
+
+# SynZyme
+
+> **Résumé exécutif :** Synthetic Enzyme Sequence Designer
+
+![Type: B2B / Licensing (IP)](<https://img.shields.io/badge/Model-B2B%20%2F%20Licensing%20(IP)-blue>)
+![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
+
+---
+
+## 1. Aperçu visuel & Effet Wahou
+
+```mermaid
+graph TD
+    %% Schéma comparatif Problème vs Solution ou Flux d'architecture
+    A[Problème] --> B[Solution]
+```
+
+## 2. La thèse contrariante (Peter Thiel Style)
+
+- **La croyance populaire :** [Ce que la majorité pense sur ce marché]
+- **La vérité cachée :** [La réalité non intuitive exploitée par cette startup]
+
+## 3. Le problème & La cible
+
+- **Modèle économique :** B2B / Licensing (IP)
+- **Cible précise :** Industries de la chimie verte, cosmétique, traitement des déchets plastiques, et biopharma.
+- **La douleur urgente :** L'industrie utilise des processus chimiques thermiques toxiques, lents et extrêmement énergivores pour la fabrication ou la dégradation de matériaux. Les enzymes naturelles pourraient réaliser ces réactions à température ambiante (Biocatalyse), mais elles ne sont pas optimisées pour les environnements industriels (elles se dénaturent) ou n'existent pas pour de nouveaux polymères synthétiques (comme le PET ou les PFAS).
+
+## 4. Architecture technique & Plomberie
+
+```mermaid
+sequenceDiagram
+    %% Schéma de séquence ou d'interaction entre l'utilisateur, l'IA et le système
+    participant U as Utilisateur
+    participant S as Système
+    U->>S: Requête
+    S-->>U: Réponse
+```
+
+## 5. Modèle économique & Viabilité financière
+
+| Métrique                        | Valeur                                                          |
+| ------------------------------- | --------------------------------------------------------------- |
+| **Structure de prix**           | [Prix / Modèle d'abonnement / Commission]                       |
+| **Objectif 12 mois**            | [Nombre exact de clients/utilisateurs/transactions nécessaires] |
+| **Calcul du CA (Target 100k€)** | [Formule mathématique exacte]                                   |
+| **Marge brute estimée**         | [Marge en %]                                                    |
+
+## 6. Moteur de distribution & Fossé défensif (Moat)
+
+- **Stratégie d'acquisition :** [Viralité B2C, réseau C2C, acquisition B2B directe, adhésion dev M2M]
+- **Moat (Barrière à l'entrée) :** Un LLM textuel ne sait pas plier une protéine (Protein Folding) ni simuler la physique de la catalyse (Quantum Mechanics/Molecular Mechanics - QM/MM). Il nécessite une boucle fermée avec un laboratoire de biologie synthétique (Wet-Lab) automatisé pour la synthèse ADN, l'expression de la protéine et le test (High-Throughput Screening).
+
+## 7. Grille d'évaluation détaillée
+
+| Critère                               | Score VC (/100) | Score Terrain (/100) |
+| ------------------------------------- | --------------- | -------------------- |
+| **Thèse & Monopole / Urgence**        | -- / 25         | -- / 25              |
+| **Moat / Résistance aux LLM natifs**  | -- / 25         | -- / 25              |
+| **Scalabilité / Friction d'adoption** | -- / 25         | -- / 25              |
+| **Unit Economics / ROI direct**       | -- / 25         | -- / 25              |
+| **TOTAL**                             | **-- / 100**    | **-- / 100**         |
+
+> **Verdict VC :** En attente d'évaluation.
+>
+> **Verdict Terrain :** En attente d'évaluation.

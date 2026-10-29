@@ -1,0 +1,10 @@
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
+# Candidat : Ocean MRV Sensor Network
+
+* **Domaine principal :** ClimateTech
+* **Modèle économique :** B2B
+* **Cible :** Start-ups de l'élimination du dioxyde de carbone océanique (mCDR), marchés de crédits carbone, gouvernements, certificateurs environnementaux (Verra, Gold Standard).
+* **Le problème urgent :** L'océan est le plus grand puits de carbone de la Terre, et les startups développent des méthodes pour accélérer cette capture (alcalinisation de l'océan, culture d'algues). Cependant, il est presque impossible de prouver précisément combien de CO2 a été retiré de l'atmosphère et séquestré de manière permanente dans l'eau. Sans Measurement, Reporting, and Verification (MRV) précis et auditable, les crédits carbone marins ne peuvent être vendus à grande échelle (risque de greenwashing).
+* **L'approche technique :** Déploiement de réseaux de capteurs sous-marins autonomes (flottes de drones sous-marins ou bouées intelligentes) équipés de capteurs biogéochimiques haute précision. Ces capteurs mesurent en temps réel le pH, la pCO2 et l'alcalinité totale. Les données sont traitées par des modèles d'IA océanographiques (Edge Computing sur la bouée) pour isoler le signal du bruit naturel de l'océan, et sont ancrées sur une blockchain pour garantir l'immutabilité du MRV aux acheteurs de crédits.
+* **Pourquoi une solution générique/SaaS classique échoue :** Un SaaS ne peut pas deviner la chimie de l'océan. Les satellites ne mesurent que la surface. Le MRV océanique est un défi profondément matériel et de data science spécialisée (fluidique, chimie de l'eau, courants marins 3D) nécessitant du hardware endurant à la corrosion et à la pression.
+* **Risques majeurs & Dépendances :** Coût du hardware (CapEx) très élevé pour le déploiement et la maintenance en mer. Risque de biofouling (algues/coquillages bloquant les capteurs). Dépendance à l'établissement de standards mondiaux pour le MRV océanique qui n'existent pas encore formellement.

@@ -8,7 +8,7 @@
 
 ![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
+![Score: Pending](https://img.shields.io/badge/Composite_Score-41-red)
 
 ---
 
@@ -74,4 +74,4 @@ Moat (Defensibility): Modifying billions of transistors while strictly respectin
 | **TOTAL**                   | **-- / 100**    | **82 / 100**        |
 
 > **VC Verdict:** Pending evaluation.
-> **Market Verdict:** Securing model weights on untrusted edge devices is an urgent problem for IP-heavy enterprises. Since the solution operates at the silicon/hardware execution layer, LLMs cannot replicate its function. Hardware integration inherently carries adoption friction, but licensing to chipmakers offers a clear monetization path.
+> **Market Verdict:** Hardware IP protection is becoming an absolute strategic priority for chip designers. This obfuscation solution offers an impassable barrier for classic LLM approaches. Integration into the EDA flow involves friction, but the value of trade secrets fully justifies the economic model.

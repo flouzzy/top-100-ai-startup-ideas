@@ -115,11 +115,11 @@ _[🇫🇷 Version Française](./README.fr.md)_
 | **095** | B2B | **GridCarbon Ledger** | **79/100** | 79/100 | 79/100 | [View](./ideas/smartgrid-carbon-ledger/README.md) |
 | **096** | B2B / B2G | **PQC Optical Interceptor** | **79/100** | 79/100 | 79/100 | [View](./ideas/pqc-optical-interceptor/README.md) |
 | **097** | M2M / B2B | **Q-Shield IoT** | **79/100** | 79/100 | 79/100 | [View](./ideas/pqc-iot-trust/README.md) |
-| **098** | B2B | **BioOS Synthetic** | **--/100** | --/100 | --/100 | [View](./ideas/bio-os-synthetic/README.md) |
-| **099** | B2B | **Deep Omic Clock** | **--/100** | --/100 | --/100 | [View](./ideas/multi-omic-aging-clock/README.md) |
-| **100** | B2B | **Geo Carbon MRV** | **--/100** | --/100 | 81/100 | [View](./ideas/co2-mineralization-tracker/README.md) |
+| **098** | B2B | **Grid Inertia Synthesizer** | **43.5/100** | --/100 | 87/100 | [View](./ideas/grid-inertia-synthesizer/README.md) |
+| **099** | B2B | **Quantum Safe SBOM** | **43.5/100** | --/100 | 87/100 | [View](./ideas/pqc-sbom-validator/README.md) |
+| **100** | B2B | **BioOS Synthetic** | **42/100** | --/100 | 84/100 | [View](./ideas/bio-os-synthetic/README.md) |
 
-_Last updated: 2026-10-29_
+_Last updated: 2026-10-28_
 
 ## 📐 Methodology & Composite Score Calculation
 
