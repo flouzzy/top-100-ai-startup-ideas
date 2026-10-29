@@ -65,11 +65,11 @@ Moat (Defensibility): LLMs have zero understanding of spatial physics, gravity, 
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 19 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 24 / 25         | -- / 25             |
-| Scalability / UX Friction   | 22 / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 21 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 19 / 25             |
+| Scalability / UX Friction   | -- / 25         | 20 / 25             |
+| Unit Economics / ROI        | -- / 25         | 22 / 25             |
+| **TOTAL**                   | **-- / 100**    | **82 / 100**        |
 
-> **VC Verdict:** The monopoly potential is moderate but addresses a clear and urgent pain point (20/25). The moat relies more on switching costs and execution speed than pure technical lock-in (19/25). However, the clear path to profitability and highly scalable distribution (24/25) mitigate the risk of commoditization.
-> **Market Verdict:** Pending evaluation.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Bridging the sim-to-real gap is the primary bottleneck holding back general-purpose robotics. While foundational models are improving, specialized domain-randomization engines remain highly defensible. Integration via standard APIs keeps friction manageable, and robotics companies will pay heavily to reduce physical prototyping time.

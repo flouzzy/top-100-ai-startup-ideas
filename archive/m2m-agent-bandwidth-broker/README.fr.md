@@ -64,11 +64,11 @@ Moat (Barrière à l'entrée) : Les API cloud centralisées sont trop lentes pou
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | -- / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | -- / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | -- / 25              |
-| Unit Economics / ROI direct       | -- / 25         | -- / 25              |
-| **TOTAL**                         | **-- / 100**    | **-- / 100**         |
+| Thèse & Monopole / Urgence        | -- / 25         | 18 / 25              |
+| Moat / Résistance aux LLM natifs  | -- / 25         | 20 / 25              |
+| Scalabilité / Friction d'adoption | -- / 25         | 22 / 25              |
+| Unit Economics / ROI direct       | -- / 25         | 24 / 25              |
+| **TOTAL**                         | **-- / 100**    | **84 / 100**         |
 
-> **Verdict VC :** Ce réseau agentique capitalise sur une vision contrariante forte, évitant l'IA grand public surchargée pour construire une infrastructure critique (24/25). Les effets de réseau créent un fossé solide, verrouillant les clients B2B à mesure que l'intégration s'approfondit (24/25). D'excellents unit economics (23/25) couplés à une forte scalabilité (24/25) en font une entreprise hautement défendable.
-> **Verdict Terrain :** En attente d'évaluation.
+> **Verdict VC :** En attente d'évaluation.
+> **Verdict Terrain :** À mesure que les agents IA transigent de manière autonome, le courtage de bande passante deviendra très désirable. Il crée une couche protocolaire dont les LLMs dépendent au lieu d'y être en concurrence. L'approche API-first garantit une faible friction, et les micro-commissions génèrent une rentabilité très claire et scalable.

@@ -64,11 +64,11 @@ Moat (Defensibility): Engineering a security kernel that runs on highly constrai
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 25 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 22 / 25         | -- / 25             |
-| Scalability / UX Friction   | 20 / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 23 / 25             |
+| Scalability / UX Friction   | -- / 25         | 14 / 25             |
+| Unit Economics / ROI        | -- / 25         | 18 / 25             |
+| **TOTAL**                   | **-- / 100**    | **77 / 100**        |
 
-> **VC Verdict:** The contrarian thesis here targets a massive, undefended niche with clear monopoly potential (22/25). The moat is extremely robust, relying on deep IP rather than easily replicable software (25/25). While early unit economics may be challenging (20/25), the capital intensity is justified by the winner-takes-all market dynamics.
-> **Market Verdict:** Pending evaluation.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Securing satellite-to-satellite communications is an urgent priority as space becomes a contested military domain. The deeply specialized space protocol engineering makes it immune to terrestrial AI wrappers. Modifying satellite firmware in orbit introduces extreme friction and risk, but defense agencies are willing to fund massive contracts for guaranteed security.

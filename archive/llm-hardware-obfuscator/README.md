@@ -67,11 +67,11 @@ Moat (Defensibility): Modifying billions of transistors while strictly respectin
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 23 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 22 / 25         | -- / 25             |
-| Scalability / UX Friction   | 21 / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 15 / 25             |
+| Unit Economics / ROI        | -- / 25         | 20 / 25             |
+| **TOTAL**                   | **-- / 100**    | **82 / 100**        |
 
-> **VC Verdict:** The monopoly potential is moderate but addresses a clear and urgent pain point (19/25). The moat relies more on switching costs and execution speed than pure technical lock-in (23/25). However, the clear path to profitability and highly scalable distribution (22/25) mitigate the risk of commoditization.
-> **Market Verdict:** Pending evaluation.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Securing model weights on untrusted edge devices is an urgent problem for IP-heavy enterprises. Since the solution operates at the silicon/hardware execution layer, LLMs cannot replicate its function. Hardware integration inherently carries adoption friction, but licensing to chipmakers offers a clear monetization path.

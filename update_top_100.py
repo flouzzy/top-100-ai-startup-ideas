@@ -69,7 +69,7 @@ for d in os.listdir('ideas'):
         comp_str = urllib.parse.unquote(m_comp.group(1).strip())
         if re.match(r'^[\d\.]+$', comp_str):
             composite = float(comp_str)
-        elif comp_str not in ['Pending', 'En évaluation', 'En attente d\'évaluation', "En attente d'évaluation"]:
+        elif comp_str not in ['Pending', 'En évaluation', 'En attente d\'évaluation', "En attente d'évaluation", "En_attente"]:
             m_comp_num = re.search(r'([\d\.]+)', comp_str)
             if m_comp_num:
                 composite = float(m_comp_num.group(1))
@@ -104,9 +104,12 @@ for d in os.listdir('ideas'):
             terrain_score = float(s_ter)
 
     calculated_comp = (vc_score * 0.5) + (terrain_score * 0.5)
+    if s_vc == '--' and s_ter == '--':
+        calculated_comp = 0
+        is_pending_comp = True
 
     # Update files if composite needs calculation
-    if calculated_comp > 0 and (composite == 0 or is_pending_comp or composite != calculated_comp):
+    if not is_pending_comp and calculated_comp > 0 and (composite == 0 or composite != calculated_comp):
         composite = calculated_comp
 
         new_val_str = f"{calculated_comp:.1f}" if calculated_comp != int(calculated_comp) else f"{int(calculated_comp)}"

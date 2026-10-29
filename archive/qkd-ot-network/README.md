@@ -65,11 +65,11 @@ Moat (Defensibility): Traditional VPNs add too much latency for real-time OT (ne
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | 19 / 25         | -- / 25             |
-| Moat / LLM Immunity         | 25 / 25         | -- / 25             |
-| Scalability / UX Friction   | 21 / 25         | -- / 25             |
-| Unit Economics / ROI        | -- / 25         | -- / 25             |
-| **TOTAL**                   | **-- / 100**    | **-- / 100**        |
+| Thesis & Monopoly / Urgency | -- / 25         | 17 / 25             |
+| Moat / LLM Immunity         | -- / 25         | 25 / 25             |
+| Scalability / UX Friction   | -- / 25         | 11 / 25             |
+| Unit Economics / ROI        | -- / 25         | 16 / 25             |
+| **TOTAL**                   | **-- / 100**    | **69 / 100**        |
 
-> **VC Verdict:** The monopoly potential is moderate but addresses a clear and urgent pain point (22/25). The moat relies more on switching costs and execution speed than pure technical lock-in (19/25). However, the clear path to profitability and highly scalable distribution (25/25) mitigate the risk of commoditization.
-> **Market Verdict:** Pending evaluation.
+> **VC Verdict:** Pending evaluation.
+> **Market Verdict:** Securing critical infrastructure with Quantum Key Distribution is highly valuable but current urgency is debated outside of top-tier defense. It relies on quantum physics, making it perfectly immune to AI software. Deploying specialized fiber-optic hardware introduces immense adoption friction and massive CapEx, challenging short-term ROI.
