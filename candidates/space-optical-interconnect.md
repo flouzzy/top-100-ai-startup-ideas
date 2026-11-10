@@ -1,0 +1,10 @@
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
+# Candidat : Space Optical Interconnect
+
+* **Domaine principal :** Deep Tech Infra
+* **Modèle économique :** B2B
+* **Cible :** Opérateurs de méga-constellations de satellites (Starlink, Kuiper, OneWeb), fournisseurs d'infrastructures de télécommunication spatiales, agences gouvernementales.
+* **Le problème urgent :** Les satellites en orbite basse (LEO) communiquent aujourd'hui via des ondes radio (RF), qui sont limitées en bande passante, sujettes aux interférences, et vulnérables au brouillage (jamming) par des acteurs hostiles. Pour gérer l'explosion du volume de données (observation de la Terre en 8K, communications quantiques), la RF est un goulet d'étranglement majeur.
+* **L'approche technique :** Concevoir des terminaux de communication optique (laser) de nouvelle génération, miniaturisés et résistants aux radiations, capables d'établir des liaisons inter-satellites (ISL) à plusieurs térabits par seconde sur des milliers de kilomètres. Le verrou technologique réside dans le système de pointage, d'acquisition et de suivi (PAT) qui doit maintenir un faisceau laser ultra-fin aligné entre deux objets se déplaçant à plus de 27 000 km/h, le tout avec une consommation électrique minimale (SWaP-C optimisé).
+* **Pourquoi une solution générique/SaaS classique échoue :** C'est un problème purement matériel (optomécanique, photonique) et de théorie du contrôle temps réel dans des conditions spatiales extrêmes (vide, variations thermiques extrêmes, radiations). Aucun logiciel ne peut remplacer les composants optiques de précision et l'électronique rad-hard nécessaires.
+* **Risques majeurs & Dépendances :** Coûts massifs de qualification spatiale (vibrations, thermique, vide). Dépendance à l'adoption de standards de communication optique spatiale (SDA, CCSDS) pour l'interopérabilité entre différentes constellations. Temps de R&D très long (années) avant la première démonstration en orbite.
