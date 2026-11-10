@@ -1,0 +1,10 @@
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
+# Candidat : Fusion Plasma AI Control
+
+* **Domaine principal :** ClimateTech & Énergie / World Models
+* **Modèle économique :** B2B
+* **Cible :** Startups de fusion nucléaire (Tokamak Energy, Commonwealth Fusion Systems, ITER), instituts de recherche en physique des plasmas.
+* **Le problème urgent :** Maintenir un plasma à des millions de degrés dans un réacteur de fusion (comme un Tokamak ou un Stellarator) est extraordinairement complexe. Le plasma est sujet à des instabilités magnétohydrodynamiques (MHD) qui peuvent disrupter la réaction en quelques millisecondes, endommageant les parois du réacteur et arrêtant la production d'énergie nette (Q>1).
+* **L'approche technique :** Créer un modèle de fondation "World Model" dédié à la dynamique des plasmas, couplé à un système de contrôle par apprentissage par renforcement (Deep RL). Le système ingère les données de milliers de capteurs magnétiques et optiques en temps réel (latence < 50 microsecondes) pour prédire l'évolution de la forme du plasma et ajuster dynamiquement les bobines magnétiques afin d'étouffer les instabilités *avant* qu'elles ne se produisent.
+* **Pourquoi une solution générique/SaaS classique échoue :** Les systèmes de contrôle PID classiques sont trop lents et rigides pour gérer la physique non-linéaire chaotique du plasma. Une simple IA de prédiction de séries temporelles n'a pas la compréhension physique (Physics-Informed) nécessaire. Il faut une inférence à latence ultra-faible (FPGAs/ASICs) intégrée directement dans la boucle de contrôle magnétique (hardware in the loop).
+* **Risques majeurs & Dépendances :** Accès extrêmement difficile et coûteux aux données d'entraînement réelles (temps de machine sur les rares réacteurs de fusion existants). Risque que le modèle entraîné en simulation ("sim-to-real gap") échoue lamentablement sur le plasma réel à cause des imperfections non modélisées. Dépendance au succès global de l'industrie de la fusion.
