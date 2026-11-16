@@ -62,11 +62,11 @@ sequenceDiagram
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 22 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 24 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 18 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 20 / 25              |
-| **TOTAL**                         | -- / 100        | 84 / 100             |
+| Thèse & Monopole / Urgence        | 21 / 25         | 22 / 25              |
+| Moat / Résistance aux LLM natifs  | 24 / 25         | 24 / 25              |
+| Scalabilité / Friction d'adoption | 18 / 25         | 18 / 25              |
+| Unit Economics / ROI direct       | 22 / 25         | 20 / 25              |
+| **TOTAL**                         | 85 / 100        | 84 / 100             |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** C'est une stratégie purement Thielienne : une approche profondément contrariante qui ignore les LLM génériques pour construire un compilateur physique spécialisé ultra-défendable en biologie synthétique. Le moat est exceptionnellement puissant grâce aux données multi-omiques propriétaires et à la complexité cinétique, créant une barrière à l'entrée massive. Bien que la nécessité d'une validation en laboratoire introduise une friction d'adoption, l'immense marché potentiel et la forte disposition à payer des laboratoires pharmaceutiques en font un candidat idéal au monopole.
 > **Verdict Terrain :** Désirabilité forte vu le coût prohibitif des tests in-vitro. Immunité totale face aux LLMs génériques nécessitant des modèles physiques prédictifs spécialisés. Friction d'adoption réelle liée à la nécessité de validation biologique et d'intégration aux processus R&D existants, mais forte disposition à payer des laboratoires biotech.

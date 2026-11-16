@@ -64,11 +64,11 @@ Moat (Barrière à l'entrée) : La combinaison d'une compréhension sémantique 
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 22 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 21 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 23 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 21 / 25              |
-| **TOTAL**                         | **-- / 100**    | **87 / 100**         |
+| Thèse & Monopole / Urgence        | 22 / 25         | 22 / 25              |
+| Moat / Résistance aux LLM natifs  | 23 / 25         | 21 / 25              |
+| Scalabilité / Friction d'adoption | 24 / 25         | 23 / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | 21 / 25              |
+| **TOTAL**                         | **90 / 100**    | **87 / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** La menace quantique sur les chaînes d'approvisionnement CI/CD est une bombe à retardement, et cette solution capitalise parfaitement sur les vents porteurs réglementaires obligeant les fournisseurs gouvernementaux à se mettre à niveau. Le moat à double couche combinant analyse AST sémantique et PQC distribuée crée un verrouillage technique profond que les outils d'IA généralistes ne peuvent pas reproduire. Avec des mécaniques SaaS d'entreprise hautement scalables et un produit extrêmement collant par nature, c'est idéalement positionné pour monopoliser la niche DevSecOps post-quantique.
 > **Verdict Terrain :** Face à la menace quantique, l'urgence de valider les nomenclatures logicielles est critique pour les OIV. Cette analyse cryptographique profonde résiste parfaitement aux capacités d'un LLM générique. Adoption facilitée par les mandats réglementaires et modèle de licence B2B très lisible, promettant une excellente rentabilité.

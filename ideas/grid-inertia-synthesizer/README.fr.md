@@ -64,11 +64,11 @@ Moat (Barrière à l'entrée) : Problème cyber-physique critique nécessitant u
 
 | Critère                           | Score VC (/100) | Score Terrain (/100) |
 | --------------------------------- | --------------- | -------------------- |
-| Thèse & Monopole / Urgence        | -- / 25         | 24 / 25              |
-| Moat / Résistance aux LLM natifs  | -- / 25         | 25 / 25              |
-| Scalabilité / Friction d'adoption | -- / 25         | 16 / 25              |
-| Unit Economics / ROI direct       | -- / 25         | 22 / 25              |
-| **TOTAL**                         | **-- / 100**    | **87 / 100**         |
+| Thèse & Monopole / Urgence        | 24 / 25         | 24 / 25              |
+| Moat / Résistance aux LLM natifs  | 25 / 25         | 25 / 25              |
+| Scalabilité / Friction d'adoption | 20 / 25         | 16 / 25              |
+| Unit Economics / ROI direct       | 21 / 25         | 22 / 25              |
+| **TOTAL**                         | **90 / 100**    | **87 / 100**         |
 
-> **Verdict VC :** En attente d'évaluation.
+> **Verdict VC :** C'est un positionnement classique d'infrastructure critique visant un problème massif, peu glamour et urgent : l'effondrement des réseaux électriques dû à la transition renouvelable. Le moat matériel (edge) le rend totalement immunisé contre les avancées des LLM et virtuellement impossible à copier pour une startup pure software. Malgré le cycle de vente très lent typique des gestionnaires de réseau (TSO), le verrouillage extrême et les licences logicielles récurrentes à forte marge en font une excellente opportunité de monopole.
 > **Verdict Terrain :** Le besoin en inertie synthétique est critique face à l'essor des ENR intermittentes, justifiant une urgence maximale. Solution hardware-in-the-loop totalement immunisée aux IA textuelles. L'adoption reste ralentie par la lourdeur des qualifications TSO, mais les mécanismes de rémunération des services système garantissent des revenus clairs.

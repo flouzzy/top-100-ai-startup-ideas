@@ -64,11 +64,11 @@ Moat (Defensibility): Combining deep AI semantic code understanding (AST analysi
 
 | Criterion                   | VC Score (/100) | Market Score (/100) |
 | --------------------------- | --------------- | ------------------- |
-| Thesis & Monopoly / Urgency | -- / 25         | 22 / 25             |
-| Moat / LLM Immunity         | -- / 25         | 21 / 25             |
-| Scalability / UX Friction   | -- / 25         | 23 / 25             |
-| Unit Economics / ROI        | -- / 25         | 21 / 25             |
-| **TOTAL**                   | **-- / 100**    | **87 / 100**        |
+| Thesis & Monopoly / Urgency | 22 / 25         | 22 / 25             |
+| Moat / LLM Immunity         | 23 / 25         | 21 / 25             |
+| Scalability / UX Friction   | 24 / 25         | 23 / 25             |
+| Unit Economics / ROI        | 21 / 25         | 21 / 25             |
+| **TOTAL**                   | **90 / 100**    | **87 / 100**        |
 
-> **VC Verdict:** Pending evaluation.
+> **VC Verdict:** The quantum threat to CI/CD supply chains is a ticking time bomb, and this solution perfectly times the regulatory tailwinds forcing government and defense vendors to upgrade. The dual-layer moat combining semantic AST analysis and distributed PQC creates deep technical lock-in that generalist AI tools cannot easily replicate. With highly scalable enterprise SaaS mechanics and an incredibly sticky product by design, it's uniquely positioned to monopolize the post-quantum DevSecOps niche.
 > **Market Verdict:** Facing the quantum threat, validating software bills of materials is urgently critical for critical infrastructure operators. This deep cryptographic analysis perfectly resists the capabilities of a generic LLM. Adoption facilitated by regulatory mandates and a highly readable B2B license model, promising excellent profitability.
