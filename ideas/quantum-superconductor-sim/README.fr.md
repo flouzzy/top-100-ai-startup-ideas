@@ -3,11 +3,11 @@
 
 # Quantum Superconductor Sim
 
-> **Résumé exécutif :** Une plateforme algorithmique quantique optimisée pour simuler les systèmes d'électrons fortement corrélés afin de prédire informatiquement de nouveaux supraconducteurs à haute température.
+> **Résumé exécutif :** Une plateforme d'algorithmie quantique spécialisée pour simuler des matériaux fortement corrélés, permettant la découverte virtuelle de supraconducteurs à haute température avant leur synthèse en laboratoire.
 
-![Type: Modèle](https://img.shields.io/badge/Modèle-B2B-blue)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En attente](https://img.shields.io/badge/Score_Composite-En_attente-yellow)
+![Score: En attente](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
 
 ---
 
@@ -15,59 +15,61 @@
 
 ```mermaid
 graph TD
-    A[Spécifications Matériau] --> B{Simulateur Hamiltonien Quantique}
-    B -->|Algorithme VQE| C[Processeur Quantique NISQ]
-    C --> D[Prédiction Énergie Fondamentale]
-    D --> E[Température Critique (Tc)]
+    A[Propriétés Matérielles Cibles] --> B(Algorithme Quantique VQE)
+    B --> C{Ordinateur Quantique NISQ}
+    C -->|Simulation État Fondamental| D[Interactions Électroniques à N-Corps]
+    D --> E[Température Critique Prédite (Tc)]
+    E --> F[Validation par Synthèse en Laboratoire]
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** La science des matériaux nécessite des labos physiques infinis car les supercalculateurs classiques maîtrisent déjà la théorie de la fonctionnelle de la densité (DFT).
+**La croyance populaire :** Les avancées en science des matériaux reposent sur la construction de supercalculateurs classiques toujours plus gros pour accélérer les calculs de Théorie de la Fonctionnelle de la Densité (DFT).
 
-**La vérité cachée :** Les méthodes classiques échouent sur le problème à N-corps pour les matériaux fortement corrélés ; seuls des processeurs simulant nativement la mécanique quantique peuvent éviter des décennies d'itérations physiques.
+**La vérité cachée :** Les ordinateurs classiques font face à une explosion combinatoire pour simuler des électrons fortement corrélés. On ne peut pas utiliser les mathématiques de la physique classique pour résoudre des problèmes de matériaux quantiques. La percée viendra d'une simulation quantique native calquant directement la nature quantique du matériau.
 
 ## 3. Le problème & La cible
 
 **Modèle économique :** B2B
 
-**Cible précise :** Labos R&D matériaux (électronique, énergie), entreprises semi-conducteurs.
+**Cible précise :** Laboratoires R&D en matériaux (électronique, énergie), entreprises de semi-conducteurs, constructeurs de réseaux électriques.
 
-**La douleur urgente :** La découverte de supraconducteurs à température ambiante révolutionnerait l'énergie, mais la modélisation classique est bloquée par "l'explosion combinatoire".
+**La douleur urgente :** La découverte de supraconducteurs à haute température révolutionnerait le transport d'énergie. Mais modéliser ces comportements électroniques est exponentiellement trop complexe pour le calcul classique. La R&D fonctionne par essais et erreurs en laboratoire, coûtant des milliards et des années de perdus.
 
 ## 4. Architecture technique & Plomberie
 
 ```mermaid
 sequenceDiagram
-    participant Lab as Chercheur R&D
-    participant Logiciel as Logiciel Quantique
-    participant QPU as Hardware Quantique
-    Lab->>Logiciel: Définition Structure Matériau
-    Logiciel-->>Logiciel: Compilation Circuit Quantique
-    Logiciel->>QPU: Exécution VQE
-    QPU-->>Logiciel: États d'énergie
-    Logiciel->>Lab: Prédiction Supraconductivité
+    participant R&D as Chercheur R&D
+    participant QSim as Plateforme Quantum Sim
+    participant QPU as Processeur Quantique (NISQ)
+
+    R&D->>QSim: Définition structure cristalline & éléments
+    QSim->>QSim: Compilation VQE (Variational Quantum Eigensolver)
+    QSim->>QPU: Exécution des circuits quantiques
+    QPU->>QSim: Retour des paysages d'énergie fondamentale
+    QSim->>R&D: Sortie du diagramme de phase supraconductrice prédit
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
 | Métrique | Valeur |
-| --- | --- |
-| Structure de prix | Licence de plateforme logicielle SaaS |
-| Objectif 12 mois | 10 laboratoires R&D de pointe |
-| Calcul du CA (Target 100k€) | 10 labos * 10 000€/mois = 1.2M€ ARR |
-| Marge brute estimée | 85% |
+|---|---|
+| Structure de prix | Licence SaaS Enterprise + Crédits de calcul quantique |
+| Objectif 12 mois | 2 contrats majeurs de R&D avec des géants de l'énergie |
+| Calcul du CA (Target 100k€) | 2 contrats × 50 000 €/an = 100 000 € ARR |
+| Marge brute estimée | 75% (Coûts d'accès au hardware quantique) |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-**Stratégie d'acquisition :** Ventes B2B directes aux grands instituts de recherche et industriels de l'énergie.
+**Stratégie d'acquisition :** Ventes B2B directes ciblant les directeurs R&D des entreprises du Fortune 500 cherchant à sécuriser la propriété intellectuelle fondatrice des matériaux de demain.
 
-**Moat (Barrière à l'entrée) :** Requiert une double expertise rarissime : physique de la matière condensée et algorithmique quantique. Dépendance totale à l'évolution réelle du hardware quantique.
+**Moat (Barrière à l'entrée) :** Dépendance totale à une double expertise extrêmement rare : physique de la matière condensée et algorithmie quantique. Les éditeurs SaaS classiques ne peuvent pas écrire d'Hamiltoniens pour des cuprates. L'atténuation des erreurs quantiques (error mitigation) affinée spécifiquement pour la supraconductivité crée un moat structurel.
 
 ## 7. Grille d'évaluation détaillée
 
 | Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
+|---|---|---|
 | Thèse & Monopole / Urgence | -- / 25 | -- / 25 |
 | Moat / Résistance aux LLM natifs | -- / 25 | -- / 25 |
 | Scalabilité / Friction d'adoption | -- / 25 | -- / 25 |
@@ -75,5 +77,5 @@ sequenceDiagram
 | **TOTAL** | **-- / 100** | **-- / 100** |
 
 > **Verdict VC :** En attente d'évaluation.
->
+
 > **Verdict Terrain :** En attente d'évaluation.

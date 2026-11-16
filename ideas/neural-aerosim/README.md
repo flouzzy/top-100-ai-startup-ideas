@@ -3,9 +3,9 @@
 
 # NeuralAeroSim
 
-> **Executive Summary:** A Neural Physics Engine predicting hypersonic aerodynamics and thermodynamics in real-time, completely bypassing traditional, massively slow computational fluid dynamics (CFD).
+> **Executive Summary:** A neural physics engine utilizing Physics-Informed Neural Networks to simulate hypersonic aerodynamics and thermodynamics in real-time, drastically reducing aerospace R&D costs and compute time.
 
-![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
 
@@ -15,59 +15,61 @@
 
 ```mermaid
 graph TD
-    A[Hypersonic CAD Design] --> B{Physics-Informed Neural Network}
-    B -->|Real-time Inference| C[Aerodynamic Shockwaves]
-    B -->|Real-time Inference| D[Thermal Ablation Data]
-    C --> E[Rapid Design Iteration]
-    D --> E
+    A[CAD Model of Vehicle] --> B(Neural Physics Engine)
+    B --> C{Physics-Informed Neural Network}
+    C -->|Real-time Prediction| D[Aerodynamic Flow Field]
+    C -->|Real-time Prediction| E[Thermodynamic Heat Map]
+    D & E --> F[Design Optimization & Iteration]
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-**Popular Belief:** Aerospace simulation requires increasingly powerful supercomputers running finite element solvers on Navier-Stokes equations for weeks.
+**Popular Belief:** Accurate computational fluid dynamics (CFD) requires massive supercomputers solving Navier-Stokes equations iteratively over weeks, and physical wind tunnels are the only true validation.
 
-**Hidden Truth:** Traditional solvers are fundamentally non-differentiable and too slow; pre-training neural networks constrained by the laws of physics allows for real-time generative design in extreme flight regimes.
+**Hidden Truth:** The laws of physics can be learned directly by neural networks. By embedding physics constraints into AI (PINNs), we can bypass brute-force numerical methods entirely and compute flow fields and thermal loads in milliseconds, enabling generative engineering.
 
 ## 3. Problem & Target Market
 
 **Business Model:** B2B
 
-**Target Audience:** Aerospace manufacturers, space companies (reusable launch vehicles), hypersonic startups, and defense agencies.
+**Target Audience:** Aerospace manufacturers, space companies (reusable launchers), hypersonic flight startups, and defense agencies.
 
-**Urgent Pain Point:** Hypersonic CFD simulation takes weeks of compute time, and wind tunnel tests are incredibly rare and expensive, slowing R&D and costing tens of millions.
+**Urgent Pain Point:** Designing and testing hypersonic vehicles requires fluid mechanics simulations (CFD) that are extremely expensive in compute time and highly priced, scarce physical wind tunnel tests. This drastically slows down R&D and multiplies certification costs by tens of millions.
 
 ## 4. Technical Architecture & Infrastructure
 
 ```mermaid
 sequenceDiagram
-    participant CAD as Engineer/CAD
-    participant PINN as PINN Engine
-    participant Model as World Model
-    CAD->>PINN: Send Geometry & Mach 5+ Conditions
-    PINN->>Model: Query Physics Latent Space
-    Model-->>PINN: 3D Flow & Heat Fields
-    PINN-->>CAD: Instant Aerodynamic Feedback
+    participant Eng as Aerospace Engineer
+    participant NAS as NeuralAeroSim Engine
+    participant PINN as Physics-Informed NN
+
+    Eng->>NAS: Input 3D geometry & flight conditions (Mach 5+)
+    NAS->>PINN: Map spatial boundaries
+    PINN->>PINN: Inference continuous flow & heat equations
+    PINN->>NAS: Output high-fidelity scalar fields
+    NAS->>Eng: Render real-time aero/thermal simulation
 ```
 
 ## 5. Business Model & Financial Viability
 
 | Metric | Value |
-| --- | --- |
-| Pricing Structure | Enterprise Software License per Seat |
-| 12-Month Target | 10 Aerospace/Defense Clients |
-| Revenue Formula | 10 clients * 10,000€/month = 1.2M€ ARR |
-| Estimated Gross Margin | 90% |
+|---|---|
+| Pricing Structure | High-ticket Enterprise SaaS / On-Premise License |
+| 12-Month Target | 2 enterprise contracts or 5 aerospace startup seats |
+| Revenue Formula | 2 contracts × €50,000/year = €100,000 ARR |
+| Estimated Gross Margin | 85% |
 
 ## 6. Distribution Engine & Moat
 
-**Acquisition Strategy:** High-ticket B2B sales to aerospace and defense primes.
+**Acquisition Strategy:** Direct technical sales targeting Chief Engineers and aerodynamicists at space startups and defense contractors needing faster iteration cycles.
 
-**Moat (Defensibility):** A standard LLM or computer vision model cannot understand 3D physical fields. Training a World Model on massive, highly classified/expensive CFD data creates a massive data barrier.
+**Moat (Defensibility):** PINNs require highly specialized knowledge bridging deep learning and complex physical laws (Navier-Stokes, thermodynamics). Standard LLMs or generic AI cannot hallucinate accurate physics. The engine's accuracy becomes its moat, especially when fine-tuned on highly classified or proprietary wind tunnel data.
 
 ## 7. Detailed Evaluation Grid
 
 | Criterion | VC Score (/100) | Market Score (/100) |
-| :--- | :---: | :---: |
+|---|---|---|
 | Thesis & Monopoly / Urgency | -- / 25 | -- / 25 |
 | Moat / LLM Immunity | -- / 25 | -- / 25 |
 | Scalability / UX Friction | -- / 25 | -- / 25 |
@@ -75,5 +77,5 @@ sequenceDiagram
 | **TOTAL** | **-- / 100** | **-- / 100** |
 
 > **VC Verdict:** Pending evaluation.
->
+
 > **Market Verdict:** Pending evaluation.

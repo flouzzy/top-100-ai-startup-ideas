@@ -3,9 +3,9 @@
 
 # PQC OT Bridge
 
-> **Executive Summary:** A hardware bridge and ultra-light gateway wrapping vulnerable legacy industrial control systems (ICS/OT) in post-quantum cryptography tunnels.
+> **Executive Summary:** A lightweight gateway device that wraps legacy industrial control systems (OT/ICS) in post-quantum cryptography tunnels, protecting critical national infrastructure from "Harvest Now, Decrypt Later" quantum attacks.
 
-![Type: Model](https://img.shields.io/badge/Model-B2B-blue)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
 ![Score: Pending](https://img.shields.io/badge/Composite_Score-Pending-yellow)
 
@@ -15,59 +15,61 @@
 
 ```mermaid
 graph TD
-    A[Legacy PLC / SCADA] --> B{PQC OT Bridge (Hardware/Gateway)}
-    B -->|NIST Post-Quantum Algorithms| C[Encrypted Tunnel]
-    C --> D[Central Industrial Control]
-    E[Quantum Attackers] -.->|Fail to Decrypt| C
+    A[Vulnerable Legacy PLC/RTU] --> B(PQC OT Bridge)
+    B -->|Post-Quantum Encryption Tunnel| C{Corporate Network}
+    C --> D[SCADA Control Center]
+    C -.-x E[Quantum Attacker (Q-Day)]
 ```
 
 ## 2. Contrarian Thesis (Peter Thiel Style)
 
-**Popular Belief:** Critical infrastructure security just needs better firewalls and standard VPN software updates.
+**Popular Belief:** Critical infrastructure security means upgrading 20-year-old industrial controllers with modern software agents and standard IT firewalls.
 
-**Hidden Truth:** Operational Technology (OT) runs on 20-year-old hardware that cannot be updated. Software agents fail here. Security must be retrofitted physically at the edge before Q-Day makes all standard encryption obsolete.
+**Hidden Truth:** You cannot update the software on a 20-year-old water pump PLC without breaking it or causing unacceptable downtime. The only way to secure OT against the quantum threat is to encapsulate legacy protocols at the edge via a passive, zero-latency physical bridge.
 
 ## 3. Problem & Target Market
 
 **Business Model:** B2B
 
-**Target Audience:** Critical Infrastructure Operators (OIV): power grids, water treatment plants, heavy industry, oil pipelines.
+**Target Audience:** Operators of Critical National Infrastructure (CNI): power grid managers, water treatment facilities, heavy industry, oil/gas pipelines.
 
-**Urgent Pain Point:** Industrial PLCs operate in plaintext or weak legacy encryption. A "Harvest Now, Decrypt Later" quantum attack could cripple national infrastructure via remote control.
+**Urgent Pain Point:** Industrial systems (OT/ICS, SCADA) run on unencrypted legacy protocols (Modbus, DNP3). With Q-Day approaching, these systems will become instantly vulnerable to remote takeover, threatening national security. Replacing the physical hardware is financially and operationally impossible in the short term.
 
 ## 4. Technical Architecture & Infrastructure
 
 ```mermaid
 sequenceDiagram
-    participant PLC as Legacy PLC
-    participant Bridge as PQC Gateway
-    participant Network as Industrial Network
-    PLC->>Bridge: Plaintext Modbus/DNP3
-    Bridge-->>Bridge: Encapsulate (Kyber/Dilithium)
-    Bridge->>Network: Quantum-Safe Tunnel
-    Network-->>Bridge: Secure Commands
-    Bridge->>PLC: Plaintext Executable
+    participant PLC as Legacy PLC (Modbus)
+    participant Bridge as PQC OT Bridge
+    participant SCADA as Control Center
+
+    SCADA->>Bridge: Send command (PQC Encrypted)
+    Bridge->>Bridge: Decrypt via Kyber/Dilithium
+    Bridge->>PLC: Forward cleartext Modbus command
+    PLC->>Bridge: Return sensor data
+    Bridge->>SCADA: Return data (PQC Encrypted)
+    Note over Bridge,PLC: Zero-latency requirement met
 ```
 
 ## 5. Business Model & Financial Viability
 
 | Metric | Value |
-| --- | --- |
-| Pricing Structure | Hardware Gateway Unit + Fleet Management SaaS |
-| 12-Month Target | 20 Industrial Substations/Plants |
-| Revenue Formula | 20 plants * 5,000€/month = 1.2M€ ARR |
-| Estimated Gross Margin | 75% |
+|---|---|
+| Pricing Structure | Hardware Appliance + Annual Security Subscription |
+| 12-Month Target | 20 substations or factory node deployments |
+| Revenue Formula | 20 deployments × €5,000/year = €100,000 ARR |
+| Estimated Gross Margin | 70% (Blended Hardware/SaaS) |
 
 ## 6. Distribution Engine & Moat
 
-**Acquisition Strategy:** B2B sales to critical infrastructure operators pushed by incoming government compliance mandates.
+**Acquisition Strategy:** B2B enterprise sales targeting CISOs of critical infrastructure, leveraging incoming government mandates for PQC compliance.
 
-**Moat (Defensibility):** Industrial latency constraints (real-time encapsulation) and hardware certification (IEC 62443) create massive barriers. Standard cloud SaaS cannot touch isolated, physical OT networks.
+**Moat (Defensibility):** The industrial environment demands zero latency and extreme reliability (IEC 62443 standards). Running heavy PQC algorithms like CRYSTALS-Kyber on low-power, real-time edge devices without crashing industrial loops is a massive engineering hurdle that generic IT cybersecurity firms cannot easily cross.
 
 ## 7. Detailed Evaluation Grid
 
 | Criterion | VC Score (/100) | Market Score (/100) |
-| :--- | :---: | :---: |
+|---|---|---|
 | Thesis & Monopoly / Urgency | -- / 25 | -- / 25 |
 | Moat / LLM Immunity | -- / 25 | -- / 25 |
 | Scalability / UX Friction | -- / 25 | -- / 25 |
@@ -75,5 +77,5 @@ sequenceDiagram
 | **TOTAL** | **-- / 100** | **-- / 100** |
 
 > **VC Verdict:** Pending evaluation.
->
+
 > **Market Verdict:** Pending evaluation.

@@ -1,0 +1,10 @@
+<!-- markdownlint-disable MD009 MD010 MD013 MD022 MD028 MD032 MD033 MD034 MD036 MD037 MD039 MD041 MD058 MD060 -->
+# Candidat : DNA Data Storage Fabric
+
+* **Domaine principal :** Biotech / Deep Tech Infra
+* **Modèle économique :** B2B
+* **Cible :** Fournisseurs de cloud public (AWS, Azure, GCP), centres d'archives nationaux, industrie du cinéma, entreprises de séquençage génomique générant des pétaoctets de "cold data".
+* **Le problème urgent :** La quantité mondiale de données générées double tous les trois ans. Les technologies de stockage magnétique "à froid" (bandes magnétiques LTO) atteignent leurs limites physiques de densité. De plus, ces supports magnétiques se dégradent et doivent être copiés tous les 10 ans (data migration), engendrant des coûts faramineux d'énergie, de matériel et de climatisation pour les datacenters de stockage à long terme.
+* **L'approche technique :** Créer une plateforme automatisée (un "DNA Data Storage Fabric") permettant la synthèse (écriture), le stockage physique, et le séquençage (lecture) de données numériques encodées sous forme d'ADN synthétique. L'ADN offre une densité de stockage théorique de 215 pétaoctets par gramme et une durabilité de plusieurs milliers d'années s'il est conservé au sec, le tout avec une empreinte énergétique quasi-nulle pour la conservation.
+* **Pourquoi une solution générique/SaaS classique échoue :** C'est un défi biotechnologique massif (wet-lab automatisé). Un logiciel ne peut ni synthétiser des brins d'ADN (oligonucléotides) de novo, ni utiliser des enzymes (polymérases) pour la lecture. Il faut concevoir la microfluidique de précision et les algorithmes d'encodage/décodage de correction d'erreurs (car la synthèse d'ADN est imparfaite).
+* **Risques majeurs & Dépendances :** Le coût actuel de synthèse de l'ADN synthétique (écriture) est prohibitif (des millions de dollars par mégaoctet) et extrêmement lent. Le marché dépend de percées fondamentales dans la synthèse d'ADN enzymatique pour faire chuter les coûts de plusieurs ordres de grandeur avant de devenir compétitif face aux bandes magnétiques.

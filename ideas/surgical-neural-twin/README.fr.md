@@ -3,11 +3,11 @@
 
 # Surgical Neural Twin
 
-> **Résumé exécutif :** Un moteur de jumeau numérique biomécanique propulsé par des réseaux de neurones informés par la physique pour recalculer la déformation 3D des tissus mous en temps réel pendant la chirurgie.
+> **Résumé exécutif :** Un jumeau numérique biomécanique temps réel alimenté par des réseaux de neurones informés par la physique, qui recalcule instantanément la déformation des tissus mous pour guider les robots chirurgicaux via une réalité augmentée ultra-précise.
 
-![Type: Modèle](https://img.shields.io/badge/Modèle-B2B-blue)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En attente](https://img.shields.io/badge/Score_Composite-En_attente-yellow)
+![Score: En attente](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
 
 ---
 
@@ -15,58 +15,61 @@
 
 ```mermaid
 graph TD
-    A[Imagerie IRM/Scanner Pré-op] --> B{Jumeau Numérique Biomécanique}
+    A[Imagerie Pré-opératoire IRM] --> B(Jumeau Neuronal Physique)
     C[Vidéo Endoscopique Temps Réel] --> B
-    B -->|Calcul PINN Déformation| D[Superposition Réalité Augmentée]
-    D --> E[Écran Robot Chirurgical]
+    B -->|Prédiction Déformation Tissus| D[Carte 3D de l'Organe Mise à Jour]
+    D --> E[Réalité Augmentée Chirurgicale / Guidage Robot]
+    E --> F[Incision Précise évitant les Nerfs Cachés]
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** La navigation chirurgicale a juste besoin d'imagerie 3D préopératoire et de vision par ordinateur standard.
+**La croyance populaire :** De meilleurs résultats chirurgicaux passent par des IRM préopératoires de plus haute résolution et de meilleures caméras optiques sur les robots chirurgicaux.
 
-**La vérité cachée :** L'imagerie pré-opératoire devient obsolète à la première incision car les tissus se déforment. Les IA de vision standards ne comprennent pas la physique hyperélastique ; il faut des réseaux de neurones contraints par la physique (PINN) opérant en millisecondes.
+**La vérité cachée :** L'imagerie pré-opératoire devient totalement obsolète à la seconde où le chirurgien fait la première incision, car les tissus mous se déforment et saignent. La véritable précision exige une simulation physique en temps réel pendant l'opération, calculant comment la chair se comporte réellement, et non pas à quoi elle ressemblait hier.
 
 ## 3. Le problème & La cible
 
-**Modèle économique :** B2B (Licence hospitalière / Robots chirurgicaux)
+**Modèle économique :** B2B (Licence hospitalière / Fabricants robots)
 
-**Cible précise :** Fabricants de robots chirurgicaux, chirurgiens de pointe.
+**Cible précise :** Fabricants de robots chirurgicaux (Intuitive Surgical, Medtronic), chirurgiens de pointe, systèmes de santé nationaux.
 
-**La douleur urgente :** Lors de chirurgies complexes (ex: foie), les organes se déforment instantanément. Le chirurgien navigue "à l'aveugle", risquant de sectionner des vaisseaux critiques cachés.
+**La douleur urgente :** Lors de chirurgies complexes (neurochirurgie, hépatique), les chirurgiens naviguent "à l'aveugle" par rapport à l'imagerie 3D initiale car les organes bougent. Le risque de sectionner un vaisseau critique ou un nerf caché qui n'est plus à sa place théorique est immense.
 
 ## 4. Architecture technique & Plomberie
 
 ```mermaid
 sequenceDiagram
-    participant Robot as Robot Chirurgical
-    participant Vision as Flux Vidéo
-    participant PINN as Moteur Jumeau Neural
-    Vision->>PINN: Données de Déplacement Tissus
-    PINN-->>PINN: Calcul Physique Hyperélastique
-    PINN->>Robot: AR des structures cachées
-    Robot->>Robot: Incision Sécurisée
+    participant Surgeon as Chirurgien / Robot
+    participant Twin as Moteur Jumeau Neuronal
+    participant DB as Scan 3D Pré-op
+
+    Twin->>DB: Chargement géométrie organe de base
+    Surgeon->>Twin: Flux vidéo endoscopique live
+    Twin->>Twin: Calcul de la biomécanique hyperélastique (PINN)
+    Twin->>Surgeon: Superposition RA montrant les vaisseaux cachés
+    Note over Surgeon,Twin: Latence d'inférence < 50ms obligatoire
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
 | Métrique | Valeur |
-| --- | --- |
-| Structure de prix | Licence logicielle par système robotique |
-| Objectif 12 mois | 10 intégrations sur robots chirurgicaux |
-| Calcul du CA (Target 100k€) | 10 systèmes * 10 000€/mois = 1.2M€ ARR |
-| Marge brute estimée | 90% (Logiciel) |
+|---|---|
+| Structure de prix | Licence d'intégration OS par robot + Frais par chirurgie |
+| Objectif 12 mois | 2 partenariats fabricants ou 5 installations hospitalières pilotes |
+| Calcul du CA (Target 100k€) | 5 hôpitaux × 20 000 €/an = 100 000 € ARR |
+| Marge brute estimée | 85% (Licence Logicielle) |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-**Stratégie d'acquisition :** Partenariats d'intégration avec le petit oligopole des fabricants de robots.
+**Stratégie d'acquisition :** Partenariats d'intégration B2B avec les grandes entreprises de robotique chirurgicale, en intégrant le Neural Twin comme option logicielle premium dans leurs consoles matérielles existantes.
 
-**Moat (Barrière à l'entrée) :** La simulation d'éléments finis prend des heures. Réussir l'inférence en millisecondes sans latence est un défi énorme. Certification FDA/CE Classe III très lourde.
+**Moat (Barrière à l'entrée) :** La simulation biomécanique standard (éléments finis) prend des heures. Atteindre une inférence en millisecondes nécessite une IA informée par la physique (PINN) entraînée sur des données médicales multimodales rares. De plus, la certification FDA/CE pour un logiciel de classe III crée une barrière réglementaire colossale de plusieurs années.
 
 ## 7. Grille d'évaluation détaillée
 
 | Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
+|---|---|---|
 | Thèse & Monopole / Urgence | -- / 25 | -- / 25 |
 | Moat / Résistance aux LLM natifs | -- / 25 | -- / 25 |
 | Scalabilité / Friction d'adoption | -- / 25 | -- / 25 |
@@ -74,5 +77,5 @@ sequenceDiagram
 | **TOTAL** | **-- / 100** | **-- / 100** |
 
 > **Verdict VC :** En attente d'évaluation.
->
+
 > **Verdict Terrain :** En attente d'évaluation.

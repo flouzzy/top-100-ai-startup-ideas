@@ -3,11 +3,11 @@
 
 # Neuromorphic Compiler
 
-> **Résumé exécutif :** Un compilateur universel convertissant les réseaux de neurones artificiels classiques (ANN) en réseaux de neurones à impulsions (SNN) économes en énergie pour le matériel neuromorphique.
+> **Résumé exécutif :** Un compilateur universel qui traduit les réseaux de neurones IA standards en réseaux de neurones à impulsions (SNN), permettant une inférence Edge AI à très faible consommation d'énergie sur des processeurs neuromorphiques.
 
-![Type: Modèle](https://img.shields.io/badge/Modèle-B2B-blue)
+![Type: B2B](https://img.shields.io/badge/Model-B2B-blue)
 ![Target: 100k ARR](https://img.shields.io/badge/ARR_Target-100k%E2%82%AC-green)
-![Score: En attente](https://img.shields.io/badge/Score_Composite-En_attente-yellow)
+![Score: En attente](https://img.shields.io/badge/Composite_Score-En_attente-yellow)
 
 ---
 
@@ -15,59 +15,61 @@
 
 ```mermaid
 graph TD
-    A[Modèle ANN PyTorch/TensorFlow] --> B{Compilateur ANN-to-SNN}
-    B -->|Optimisation Topologie| C[Réseau à Impulsions SNN]
-    B -->|Quantification| C
-    C --> D[Puce Neuromorphique Edge]
-    D --> E[Inférence Ultra-basse Conso]
+    A[Réseau de Neurones Standard PyTorch] --> B(Compilateur Neuromorphique)
+    B --> C{Optimisation & Quantification}
+    C --> D[Conversion de Topologie en SNN]
+    D --> E[Binaire de Réseau à Impulsions]
+    E --> F[Déploiement sur Puce Neuromorphique]
 ```
 
 ## 2. La thèse contrariante (Peter Thiel Style)
 
-**La croyance populaire :** L'Edge AI sera résolue en améliorant légèrement l'efficacité des GPUs et NPUs.
+**La croyance populaire :** Pour obtenir une meilleure IA à la périphérie, il suffit de miniaturiser les architectures de von Neumann (NPU/GPU) et d'utiliser des modèles quantifiés plus petits.
 
-**La vérité cachée :** L'architecture de von Neumann est physiquement limitée par la séparation mémoire/calcul ; pour réduire drastiquement la consommation, il faut des architectures neuromorphiques événementielles, qui manquent cruellement d'outils logiciels.
+**La vérité cachée :** L'architecture de von Neumann est fondamentalement bloquée par la limite de la mémoire et l'énergie. L'IA véritablement "always-on" nécessite des puces analogiques (SNN) inspirées du cerveau humain, consommant 1000 fois moins d'énergie. Mais ce hardware est inutile sans un compilateur faisant le pont pour les développeurs logiciels classiques.
 
 ## 3. Le problème & La cible
 
-**Modèle économique :** B2B (Licence logicielle / Royalty)
+**Modèle économique :** B2B
 
-**Cible précise :** Fabricants de puces (Intel, start-ups semi-conducteurs), concepteurs de systèmes embarqués (IoT, automobile, défense).
+**Cible précise :** Fabricants de puces (Intel, IBM, start-ups semi-conducteurs), concepteurs de systèmes embarqués (IoT, automobile, défense) cherchant l'ultra-basse consommation.
 
-**La douleur urgente :** Le matériel neuromorphique divise la consommation par 1000, mais aucun développeur classique ne sait compiler un modèle PyTorch vers ces puces analogiques à spikes.
+**La douleur urgente :** L'inférence d'IA sur batterie est bridée par les architectures classiques. Les puces neuromorphiques promettent des économies massives, mais il n'existe aucun outil permettant aux développeurs classiques de compiler facilement un modèle standard vers ces architectures physiques basées sur des événements et des impulsions binaires (spikes).
 
 ## 4. Architecture technique & Plomberie
 
 ```mermaid
 sequenceDiagram
     participant Dev as Développeur IA
-    participant Compilateur as Compilateur SNN
-    participant Puce as Matériel Neuromorphique
-    Dev->>Compilateur: Envoi Modèle ANN
-    Compilateur-->>Compilateur: Conversion en Spikes (Lossless)
-    Compilateur->>Puce: Mapping réseau physique
-    Puce-->>Dev: Inférence Accélérée
+    participant Comp as Compilateur Universel
+    participant Chip as Hardware Neuromorphique
+
+    Dev->>Comp: Soumission d'un modèle standard pré-entraîné (ANN)
+    Comp->>Comp: Optimisation de topologie & quantification des poids
+    Comp->>Comp: Conversion tenseurs continus vers impulsions discrètes (SNN)
+    Comp->>Chip: Mappage SNN sur l'architecture neuromorphique
+    Chip->>Dev: Exécution asynchrone à très basse consommation
 ```
 
 ## 5. Modèle économique & Viabilité financière
 
 | Métrique | Valeur |
-| --- | --- |
-| Structure de prix | Licence par siège + Royalty d'exécution |
-| Objectif 12 mois | 3 fabricants majeurs de puces |
-| Calcul du CA (Target 100k€) | 3 clients * 400k€/an = 1.2M€ ARR |
-| Marge brute estimée | 95% |
+|---|---|
+| Structure de prix | Licence logicielle / Royalty par puce déployée |
+| Objectif 12 mois | 2 partenariats fabricants de puces majeurs ou 10 clients systèmes embarqués |
+| Calcul du CA (Target 100k€) | 2 partenariats × 50 000 €/an = 100 000 € ARR |
+| Marge brute estimée | 95% (Logiciel pur) |
 
 ## 6. Moteur de distribution & Fossé défensif (Moat)
 
-**Stratégie d'acquisition :** Partenariats avec les concepteurs de matériel pour fournir l'écosystème logiciel de leurs nouvelles puces.
+**Stratégie d'acquisition :** Partenariats B2B avec les startups concevant du hardware neuromorphique qui ont besoin de rendre leurs puces accessibles à la vaste communauté des développeurs IA.
 
-**Moat (Barrière à l'entrée) :** Défi mathématique profond pour convertir des tenseurs synchrones en spikes asynchrones. Les LLM ne peuvent pas écrire des compilateurs ISA pour du matériel non standardisé.
+**Moat (Barrière à l'entrée) :** La traduction mathématique entre des tenseurs synchrones en virgule flottante et des impulsions asynchrones binaires (spikes) est un défi de recherche profonde. Cela représente une barrière technique infranchissable pour les entreprises d'outillage IA génériques.
 
 ## 7. Grille d'évaluation détaillée
 
 | Critère | Score VC (/100) | Score Terrain (/100) |
-| :--- | :---: | :---: |
+|---|---|---|
 | Thèse & Monopole / Urgence | -- / 25 | -- / 25 |
 | Moat / Résistance aux LLM natifs | -- / 25 | -- / 25 |
 | Scalabilité / Friction d'adoption | -- / 25 | -- / 25 |
@@ -75,5 +77,5 @@ sequenceDiagram
 | **TOTAL** | **-- / 100** | **-- / 100** |
 
 > **Verdict VC :** En attente d'évaluation.
->
+
 > **Verdict Terrain :** En attente d'évaluation.
